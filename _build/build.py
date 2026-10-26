@@ -263,7 +263,7 @@ CAMPO = {"telefonia": "numero di linea", "tv-streaming": "numero smart card o te
 PLANS = """<h2 id="invio">Come vuoi inviare la disdetta?</h2>
 <div class="rv plans">
 <div class="plan"><h3>Fai da te</h3><div class="price">Gratis</div><ul><li>Lettera pronta, scritta secondo la normativa</li><li>La copi o la salvi in PDF</li><li>La invii tu dalla tua casella PEC o con raccomandata in posta</li></ul><a class="btn sec" href="#lettera-disdetta">Genera la lettera gratis</a></div>
-<div class="plan pro"><span class="tag">Consigliato</span><h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><ul><li>Lettera redatta secondo la legge, con i riferimenti normativi corretti</li><li>Inviata in PEC all'indirizzo verificato dell'operatore</li><li>Ricevuta di consegna con valore legale, inviata alla tua e-mail</li><li>Non serve avere una PEC né andare in posta</li><li>Rimborso completo se la PEC non viene consegnata</li></ul><a class="btn" href="mailto:info@disdettaabbonamento.it?subject=Invio%20disdetta%20via%20PEC">Invia via PEC, 7,90 €</a><span class="soon">Pagamento sicuro online in arrivo: per ora scrivici e ti rispondiamo in giornata.</span></div>
+<div class="plan pro"><span class="tag">Consigliato</span><h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><ul><li>Lettera redatta secondo la legge, con i riferimenti normativi corretti</li><li>Inviata in PEC all'indirizzo verificato dell'operatore</li><li>Ricevuta di consegna con valore legale, inviata alla tua e-mail</li><li>Non serve avere una PEC né andare in posta</li><li>Rimborso completo se la PEC non viene consegnata</li></ul><a class="btn" href="mailto:info@disdettaabbonamento.it?subject=Invio%20disdetta%20via%20PEC">Invia via PEC, 7,90 €</a><span class="soon">Pagamento sicuro online in arrivo: per ora scrivici e ti rispondiamo in giornata. <a href="/termini/">Termini del servizio</a></span></div>
 </div>
 <div class="rv guar"><div><b>⚖️ Conforme alla legge</b>Testo con le norme del settore: legge Bersani, Codice civile, regole ARERA.</div><div><b>📬 Prova legale</b>La ricevuta PEC ha lo stesso valore di una raccomandata A/R.</div><div><b>🔎 Indirizzi verificati</b>Presi dai documenti ufficiali, con data di verifica.</div><div><b>🔒 Dati protetti</b>Nessun dato salvato per la lettera gratuita, GDPR per l'invio.</div></div>"""
 
@@ -286,6 +286,45 @@ REVIEWS = ('<h2>Le recensioni</h2><div class="reviews rv"><div class="rev"><div 
            '<div class="rev"><div class="st">★★★★★</div><p>Ogni recensione viene pubblicata con nome e data, senza filtri.</p></div></div>')
 
 
+TERMINI_HTML = r'''<h1>Termini e condizioni del servizio</h1>
+<p class="src">Versione del 26 ottobre 2026.</p>
+<h2>1. Chi siamo</h2>
+<p>Il servizio è fornito da Louis Lardeux, imprenditore individuale (micro-entreprise di diritto francese), SIREN 999 443 880, Francia (di seguito «noi»). Contatto: <a href="mailto:info@disdettaabbonamento.it">info@disdettaabbonamento.it</a>.</p>
+<h2>2. I servizi</h2>
+<p><strong>Generatore di lettere, gratuito.</strong> Il sito mette a disposizione schede informative sugli operatori e un generatore di lettere di disdetta che funziona nel browser dell'utente. L'utente invia la lettera in autonomia.</p>
+<p><strong>Invio via PEC per conto del cliente, a pagamento.</strong> Su richiesta del cliente inviamo la sua lettera di disdetta, firmata dal cliente o redatta a suo nome, all'indirizzo PEC dell'operatore indicato nella scheda, e gli trasmettiamo per e-mail le ricevute di accettazione e di consegna rilasciate dal sistema PEC.</p>
+<h2>3. Mandato</h2>
+<p>Ordinando l'invio, il cliente ci conferisce un mandato senza rappresentanza, ai sensi degli articoli 1703 e seguenti del Codice civile, limitato alla trasmissione della comunicazione da lui predisposta. Il cliente dichiara di essere l'intestatario del contratto, o di essere autorizzato ad agire per suo conto, e che i dati forniti sono veritieri.</p>
+<h2>4. Prezzo e pagamento</h2>
+<p>Il prezzo dell'invio è indicato prima dell'ordine, attualmente 7,90 € per lettera. IVA non applicabile, articolo 293 B del Code général des impôts francese (regime di franchigia). Il pagamento avviene online tramite Stripe; non conserviamo i dati della carta.</p>
+<h2>5. Esecuzione</h2>
+<p>L'invio avviene di norma entro un giorno lavorativo dal pagamento. Le ricevute PEC sono inoltrate all'indirizzo e-mail indicato dal cliente non appena disponibili. La ricevuta di consegna attesta che il messaggio è stato consegnato nella casella PEC del destinatario e costituisce prova dell'invio e della data.</p>
+<h2>6. Cosa non possiamo garantire</h2>
+<p>Non siamo responsabili delle decisioni dell'operatore, dei tempi con cui gestisce la disdetta, di eventuali costi o penali previsti dal contratto del cliente, né di errori nei dati forniti dal cliente. Le schede informative sono verificate sulle fonti indicate alla data riportata, ma le condizioni degli operatori possono cambiare: in caso di dubbio fa fede il contratto del cliente. Il servizio non costituisce consulenza legale.</p>
+<h2>7. Rimborso</h2>
+<p>Se la PEC non viene consegnata al destinatario per causa a noi imputabile, oppure perché l'indirizzo riportato nella nostra scheda risulta errato, rimborsiamo integralmente l'importo pagato, su richiesta a info@disdettaabbonamento.it entro 30 giorni dall'ordine.</p>
+<h2>8. Diritto di recesso</h2>
+<p>Il consumatore dispone di 14 giorni per recedere dall'acquisto, ai sensi dell'articolo 52 del Codice del consumo. Il diritto di recesso non si applica una volta che il servizio è stato completamente eseguito, se l'esecuzione è iniziata con l'accordo espresso del consumatore e con la sua accettazione della perdita del diritto di recesso (articolo 59, lettera a, del Codice del consumo). Al momento dell'ordine il cliente chiede espressamente l'invio immediato.</p>
+<h2>9. Dati personali</h2>
+<p>Il trattamento dei dati è descritto nell'<a href="/privacy/">informativa privacy</a>.</p>
+<h2>10. Legge applicabile e reclami</h2>
+<p>Per qualsiasi problema scrivici a info@disdettaabbonamento.it: rispondiamo entro 2 giorni lavorativi. Restano salve le tutele inderogabili previste dalla legge del Paese di residenza del consumatore e la competenza del giudice del luogo di residenza o domicilio del consumatore.</p>'''
+PRIVACY_HTML = r'''<h1>Informativa privacy</h1>
+<p class="src">Versione del 26 ottobre 2026, ai sensi del Regolamento (UE) 2016/679 (GDPR).</p>
+<h2>Titolare del trattamento</h2>
+<p>Louis Lardeux, imprenditore individuale, SIREN 999 443 880, Francia. Contatto: <a href="mailto:info@disdettaabbonamento.it">info@disdettaabbonamento.it</a>.</p>
+<h2>Generatore di lettere gratuito</h2>
+<p>Il generatore funziona interamente nel tuo browser: i dati che inserisci non vengono inviati né salvati sui nostri server. Non usiamo cookie di profilazione né strumenti pubblicitari.</p>
+<h2>Servizio di invio via PEC</h2>
+<p><strong>Dati trattati:</strong> nome e cognome, indirizzo, codice fiscale se lo indichi, dati del contratto da disdire, indirizzo e-mail, testo della lettera ed eventuali allegati, dati dell'ordine. I dati della carta sono trattati solo da Stripe.</p>
+<p><strong>Finalità e base giuridica:</strong> esecuzione del servizio richiesto (articolo 6, paragrafo 1, lettera b, GDPR); adempimento di obblighi contabili e fiscali (lettera c); difesa dei nostri diritti in caso di contestazione (lettera f).</p>
+<p><strong>Destinatari:</strong> l'operatore a cui è indirizzata la disdetta; i fornitori che ci aiutano a erogare il servizio, nominati responsabili del trattamento: Stripe per i pagamenti, il gestore PEC per l'invio, i fornitori di hosting e di posta elettronica. Non vendiamo né cediamo i tuoi dati.</p>
+<p><strong>Conservazione:</strong> lettere e ricevute PEC per 24 mesi dall'invio, come prova dell'esecuzione; dati di fatturazione per 10 anni come previsto dalla legge.</p>
+<h2>I tuoi diritti</h2>
+<p>Puoi chiedere accesso, rettifica, cancellazione, limitazione, portabilità e opporti al trattamento (articoli 15-22 GDPR) scrivendo a info@disdettaabbonamento.it. Puoi anche presentare reclamo al Garante per la protezione dei dati personali (garanteprivacy.it) o all'autorità francese CNIL (cnil.fr).</p>
+<h2>Cookie</h2>
+<p>Il sito non utilizza cookie di profilazione. Eventuali strumenti tecnici necessari al funzionamento non richiedono consenso.</p>'''
+
 def page(title, desc, path, body, schema=None, sticky=""):
     canon = DOMAIN + path
     bodycls = ' class="has-sticky"' if sticky else ""
@@ -296,11 +335,11 @@ def page(title, desc, path, body, schema=None, sticky=""):
 <link rel="canonical" href="{canon}">
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}">
 <meta property="og:type" content="website"><meta property="og:url" content="{canon}"><meta property="og:locale" content="it_IT">
-<link rel="stylesheet" href="/style.css">{ld}</head><body{bodycls}>
+<link rel="icon" type="image/png" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta property="og:image" content="https://disdettaabbonamento.it/og.png"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/style.css">{ld}</head><body{bodycls}>
 <header class="top"><div class="wrap"><a class="logo" href="/"><i>✉</i><span class="lt">Disdetta<span>Abbonamento</span>.it</span></a>
 <nav class="main"><a href="/telefonia/">Telefonia</a><a href="/luce-gas/">Luce e gas</a><a href="/assicurazioni/">Assicurazioni</a><a href="/come-funziona/">Come funziona</a><a class="cta" href="/#cerca"><span class="lg">Trova il tuo operatore</span><span class="sm">Cerca</span></a></nav></div></header>
 <main class="wrap">{body}</main>
-<footer><div class="wrap"><p><a href="/">Home</a><a href="/come-funziona/">Come funziona</a><a href="/chi-siamo/">Chi siamo</a><a href="/note-legali/">Note legali</a><a href="/privacy/">Privacy</a></p>
+<footer><div class="wrap"><p><a href="/">Home</a><a href="/come-funziona/">Come funziona</a><a href="/chi-siamo/">Chi siamo</a><a href="/note-legali/">Note legali</a><a href="/termini/">Termini e condizioni</a><a href="/privacy/">Privacy</a></p>
 <p>{SITE} è un servizio indipendente, non affiliato agli operatori citati. I marchi appartengono ai rispettivi proprietari. Le informazioni sono verificate sulle fonti ufficiali alla data indicata in ogni pagina: controlla sempre il tuo contratto.</p></div></footer>
 {sticky}<script src="/app.js" defer></script></body></html>"""
 
@@ -482,8 +521,8 @@ def main():
             "<h1>Chi siamo</h1><p>Disdetta Abbonamento è un servizio indipendente, non collegato a nessun operatore. Raccogliamo dai documenti ufficiali degli operatori gli indirizzi PEC e postali, i preavvisi e i costi di disdetta, e li aggiorniamo con la data di verifica in ogni scheda.</p><p>Hai trovato un dato non aggiornato? Scrivici a <a href='mailto:info@disdettaabbonamento.it'>info@disdettaabbonamento.it</a>: verifichiamo e correggiamo.</p>"),
         "/note-legali/": ("Note legali", "Note legali di Disdetta Abbonamento.",
             "<h1>Note legali</h1><h2>Editore del sito</h2><p>Louis Lardeux, imprenditore individuale (micro-entreprise di diritto francese), SIREN 999 443 880, Francia. Contatto: <a href='mailto:info@disdettaabbonamento.it'>info@disdettaabbonamento.it</a>.</p><h2>Informazioni</h2><p>Le informazioni pubblicate hanno scopo informativo e sono verificate sulle fonti ufficiali alla data indicata in ogni scheda. Non costituiscono consulenza legale. In caso di dubbio fa fede il contratto sottoscritto con l'operatore.</p><p>I marchi citati appartengono ai rispettivi titolari e sono usati solo per identificare i servizi.</p>"),
-        "/privacy/": ("Privacy", "Informativa privacy di Disdetta Abbonamento.",
-            "<h1>Privacy</h1><p>Il generatore di lettere funziona interamente nel tuo browser: i dati che inserisci non vengono inviati né salvati sui nostri server.</p>"),
+        "/privacy/": ("Privacy", "Informativa privacy di Disdetta Abbonamento: quali dati trattiamo, perché e per quanto tempo.", PRIVACY_HTML),
+        "/termini/": ("Termini e condizioni", "Termini e condizioni del servizio di invio della disdetta via PEC di Disdetta Abbonamento.", TERMINI_HTML),
     }
     for p, (t, d, b) in statiche.items():
         write(p, page(f"{t} | {SITE}", d, p, b)); urls.append(p)
@@ -494,6 +533,11 @@ def main():
     open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
     sm = "".join(f"<url><loc>{DOMAIN}{u}</loc><lastmod>{TODAY}</lastmod></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w").write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
+    for src, dst in [("brand/icon-512.png", "favicon.png"), ("brand/icon-512.png", "apple-touch-icon.png"), ("brand/og.png", "og.png")]:
+        if os.path.exists(os.path.join(ROOT, src)):
+            shutil.copy(os.path.join(ROOT, src), os.path.join(OUT, dst))
+    open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(page("Pagina non trovata | " + SITE, "Pagina non trovata.", "/404.html",
+        '<section class="hero small"><h1>Pagina <em>non trovata</em></h1><p class="lead">La pagina che cerchi non esiste o è stata spostata. Cerca il tuo operatore:</p><div class="searchbox"><input class="search" type="search" placeholder="TIM, Sky, Enel, McFit…" autocomplete="off" aria-label="Cerca un operatore"></div></section><p><a class="btn" href="/">Torna alla home</a></p>').replace('<link rel="canonical" href="https://disdettaabbonamento.it/404.html">', '<meta name="robots" content="noindex">'))
     open(os.path.join(OUT, "CNAME"), "w").write("disdettaabbonamento.it\n")
     k = open(os.path.join(ROOT, "_build", "indexnow.key")).read().strip()
     open(os.path.join(OUT, k + ".txt"), "w").write(k)

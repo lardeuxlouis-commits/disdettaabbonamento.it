@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "BNL BNP Paribas",
+    "slug": "bnl-bnp-paribas",
+    "categoria": "altri-servizi",
+    "pec": "estinzionecontibnl@pec.bnlmail.com",
+    "indirizzo_postale": "BNL Gruppo BNP Paribas, presso Estinzione Conti, Via Campo Ascolano 33, 00071 Pratica di Mare (RM)",
+    "canali": [
+      "filiale",
+      "PEC con modulo dedicato",
+      "raccomandata A/R con modulo dedicato"
+    ],
+    "preavviso": "Nessun preavviso: recesso in qualsiasi momento. Tempi di chiusura fino a un massimo di 50 giorni lavorativi in presenza di carta di credito, Telepass, dossier titoli ecc.",
+    "costi": "Gratuito: nessuna penale né spese di chiusura (art. 120-bis TUB).",
+    "modulo": "https://bnl.it/rsc/bnl/documenti/conti/modulo-richiesta-estinzione_PEC.pdf (PEC) · https://bnl.it/rsc/bnl/documenti/conti/modulo-richiesta-estinzione_raccomandata.pdf (raccomandata) · https://bnl.it/rsc/bnl/documenti/conti/modulo-richiesta-recesso-conto-cointestato.pdf (conto cointestato)",
+    "note": "Il modulo va firmato da tutti gli intestatari e accompagnato da copia di documento d'identità e codice fiscale. Per un conto cointestato senza accordo, il recesso di un solo intestatario ha effetto dopo 60 giorni dalla comunicazione agli altri.",
+    "fonti": [
+      "https://bnl.it/it/Individui-e-Famiglie/Conti/come-chiudere-conto-corrente"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  }
+]
