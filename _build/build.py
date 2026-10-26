@@ -128,6 +128,46 @@ ul.canali li{background:var(--soft);border-radius:12px;padding:10px 14px;font-si
 .trust div{background:var(--soft);border-radius:var(--radius);padding:20px}.trust p{margin:0;color:var(--muted);font-size:15.5px}
 .band{margin:56px calc(50% - 50vw) 0;padding:44px calc(50vw - 50% + 18px);background:linear-gradient(120deg,#1f5eff,#0a8fc7);color:#fff;text-align:center}
 .band h2{margin:0 0 8px;color:#fff}.band p{margin:0 0 18px;opacity:.9}.band .btn{background:#fff;color:var(--accent-d);box-shadow:none}
+.searchbox{z-index:5}.suggest{display:none;position:absolute;left:0;right:0;top:calc(100% + 8px);background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 20px 50px rgba(15,27,51,.18);padding:6px;max-height:420px;overflow:auto;z-index:40}
+.suggest a{display:flex;align-items:center;gap:12px;padding:9px 10px;border-radius:10px;text-decoration:none;color:var(--fg)}.suggest a:hover,.suggest a.on{background:var(--accent-l)}
+.suggest b{display:block;line-height:1.2}.suggest small{color:var(--muted);font-size:13px}.suggest .av{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:13px;flex:none}
+.suggest .none{padding:12px;color:var(--muted);font-size:15px}
+.plans{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;margin:22px 0 4px}
+.plan{position:relative;background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}
+.plan.pro{border:2px solid var(--accent);box-shadow:0 14px 40px rgba(31,94,255,.16)}
+.plan .tag{position:absolute;top:-12px;left:20px;background:var(--accent);color:#fff;font-size:12px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:4px 10px}
+.plan .price{font-size:30px;font-weight:800;margin:4px 0 10px}.plan .price small{font-size:15px;color:var(--muted);font-weight:600}
+.plan ul{list-style:none;padding:0;margin:0 0 14px;font-size:15.5px}.plan li{padding:5px 0 5px 26px;position:relative}.plan li:before{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:800}
+.plan .btn{width:100%;justify-content:center;margin:0}.plan .soon{display:block;text-align:center;font-size:13.5px;color:var(--muted);margin-top:8px}
+.guar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}
+.guar div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;font-size:14.5px;color:var(--muted)}.guar b{display:block;color:var(--fg);font-size:15.5px;margin-bottom:2px}
+@media(max-width:820px){.plans{grid-template-columns:1fr}.guar{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.hero.home{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:34px;align-items:center}
+.demo{position:relative;background:#fff;border-radius:18px;box-shadow:0 30px 70px rgba(15,27,51,.18);padding:22px 22px 26px;font:13.5px/1.55 Georgia,serif;color:#24324d;min-height:330px;transform:rotate(1.5deg)}
+.demo .head{display:flex;gap:6px;margin-bottom:12px}.demo .head i{width:10px;height:10px;border-radius:50%;background:#e1e6ef}
+.demo pre{white-space:pre-wrap;margin:0;font:inherit;min-height:250px}
+.demo .caret{display:inline-block;width:2px;height:15px;background:var(--accent);vertical-align:-2px;animation:blink 1s steps(1) infinite}
+.stamp{position:absolute;right:18px;bottom:18px;border:3px solid var(--ok);color:var(--ok);font:800 15px/1 system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;padding:8px 12px;border-radius:10px;transform:rotate(-8deg) scale(1.6);opacity:0;transition:transform .35s cubic-bezier(.2,1.4,.4,1),opacity .2s;background:#fff}
+.stamp.on{opacity:1;transform:rotate(-8deg) scale(1)}
+.float{position:absolute;z-index:2;background:#fff;border-radius:12px;box-shadow:var(--shadow);padding:8px 12px;font:600 13px system-ui,sans-serif;color:var(--fg);display:flex;gap:8px;align-items:center;animation:bob 5s ease-in-out infinite}
+.float.f1{left:-30px;bottom:96px}.float.f2{right:-18px;top:-16px;animation-delay:-2.5s}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes blink{50%{opacity:0}}
+.marquee{overflow:hidden;margin:0 calc(50% - 50vw);border-bottom:1px solid var(--line);background:#fff;padding:14px 0;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.marquee .track{display:flex;gap:34px;width:max-content;animation:scroll 70s linear infinite}
+.marquee span{font-weight:700;color:var(--muted);white-space:nowrap;font-size:15px}.marquee span b{color:var(--fg)}
+@keyframes scroll{to{transform:translateX(-50%)}}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}.rv.in{opacity:1;transform:none}
+.urg{display:flex;gap:16px;align-items:center;background:linear-gradient(120deg,#fff4e5,#ffe9e2);border:1px solid #ffd2b8;border-radius:16px;padding:18px 20px;margin:22px 0}
+.urg .ic{font-size:30px;animation:bob 3s ease-in-out infinite}.urg b{font-size:18px;display:block}.urg p{margin:4px 0 0;color:#6b3b12;font-size:15.5px}
+.urg .btn{margin:0 0 0 auto;flex:none}
+.reviews{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.rev{background:#fff;border:1px dashed #c9d3e3;border-radius:16px;padding:20px;color:var(--muted);font-size:15px}
+.rev .st{color:#f5a623;letter-spacing:2px;font-size:18px}
+.btn.shine{position:relative;overflow:hidden}.btn.shine:after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.35) 50%,transparent 70%);transform:translateX(-120%);animation:shine 3.5s ease-in-out infinite}
+@keyframes shine{60%,100%{transform:translateX(120%)}}
+@media(max-width:820px){.hero.home{grid-template-columns:1fr}.demo{transform:none;margin-top:8px}.float.f1{left:8px;top:-14px}.float.f2{display:none}.reviews{grid-template-columns:1fr}.urg{flex-wrap:wrap}.urg .btn{margin:6px 0 0;width:100%;justify-content:center}}
+@media (prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
 details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:10px 0}summary{font-weight:700;cursor:pointer}details p{margin:10px 0 0;color:var(--muted)}
 .src{font-size:14px;color:var(--muted)}.src a{color:var(--muted)}
 .why{display:flex;gap:14px;align-items:flex-start;background:var(--okbg);border-radius:14px;padding:16px 18px;margin:22px 0;color:#0d4f35;font-size:15.5px}.why b{display:block}
@@ -141,27 +181,75 @@ footer a{color:var(--muted);margin-right:16px}
 """
 
 JS = r"""
+const LEGGI={
+ 'telefonia':{rif:"ai sensi dell'art. 1, comma 3, del D.L. 31 gennaio 2007, n. 7, convertito con modificazioni dalla Legge 2 aprile 2007, n. 40",extra:"senza l'applicazione di penali o di costi diversi da quelli giustificati da costi effettivamente sostenuti dall'operatore, come previsto dalla medesima norma;",app:"le istruzioni per la restituzione di eventuali apparati concessi in comodato d'uso;"},
+ 'tv-streaming':{rif:"ai sensi dell'art. 1, comma 3, del D.L. 31 gennaio 2007, n. 7, convertito con modificazioni dalla Legge 2 aprile 2007, n. 40",extra:"senza l'applicazione di penali o di costi diversi da quelli giustificati da costi effettivamente sostenuti dall'operatore;",app:"le istruzioni per la restituzione di decoder, smart card o altri apparati in comodato d'uso;"},
+ 'energia':{rif:"secondo quanto previsto dalle condizioni generali di fornitura e dalla regolazione ARERA",extra:"con la disattivazione del punto di fornitura e l'emissione della fattura di chiusura sulla base della lettura finale del contatore."},
+ 'assicurazioni':{rif:"alla sua naturale scadenza, ai sensi dell'art. 1899 del Codice Civile e delle condizioni di polizza, chiedendo che la stessa non venga rinnovata né prorogata",extra:"Chiede altresì il rimborso dell'eventuale quota di premio pagata e non goduta, ove prevista dalle condizioni di polizza."},
+ 'palestre':{rif:"nel rispetto dei termini di preavviso previsti dalle condizioni generali sottoscritte",extra:"Chiede che non venga effettuato alcun rinnovo automatico dell'abbonamento."},
+ 'altri-servizi':{rif:"nel rispetto delle condizioni generali del contratto",extra:""}
+};
 function genLettera(){
   const f=document.getElementById('form-lettera'); const v=n=>(f.elements[n]&&f.elements[n].value||'').trim();
-  const d=window.LETTERA; const oggi=new Date().toLocaleDateString('it-IT');
-  const nome=v('nome')||'[Nome e cognome]', ind=v('indirizzo')||'[Indirizzo di residenza]', cf=v('cf');
-  const cod=v('codice')||'[codice cliente / numero contratto]', linea=v('linea'), luogo=v('luogo')||'[Luogo]';
+  const d=window.LETTERA; const L=LEGGI[d.cat]||LEGGI['altri-servizi'];
+  const oggi=new Date().toLocaleDateString('it-IT',{day:'numeric',month:'long',year:'numeric'});
+  const nome=v('nome')||'[Nome e cognome]', ind=v('indirizzo')||'[Indirizzo di residenza]', cf=v('cf'), mail=v('email');
+  const cod=v('codice')||'[codice cliente / numero di contratto]', linea=v('linea'), luogo=v('luogo')||'[Luogo]';
+  const rifC='n. '+cod+(linea?' ('+d.campo+' '+linea+')':'');
   let t='';
-  t+=nome+'\n'+ind+(cf?'\nCodice fiscale: '+cf:'')+'\n\n';
+  t+=nome+'\n'+ind+(cf?'\nC.F. '+cf:'')+(mail?'\n'+mail:'')+'\n\n';
   t+='Spett.le '+d.azienda+(d.postale?'\n'+d.postale:'')+(d.pec?'\nPEC: '+d.pec:'')+'\n\n';
-  t+=(d.pec?'Inviata a mezzo PEC':'Raccomandata A/R')+'\n\n';
-  t+='Oggetto: disdetta del contratto n. '+cod+(linea?' ('+d.campo+' '+linea+')':'')+'\n\n';
-  t+='Il/La sottoscritto/a '+nome+', residente in '+ind+(cf?', codice fiscale '+cf:'')+', titolare del contratto n. '+cod+' relativo '+d.servizio+(linea?' ('+d.campo+' '+linea+')':'')+',\n\n';
-  t+='COMUNICA\n\nla propria volontà di recedere dal suddetto contratto'+(d.legge?', '+d.legge:'')+', con effetto al termine del periodo di preavviso previsto.\n\n';
-  t+='Chiede pertanto la cessazione del servizio e di ogni addebito successivo alla data di efficacia del recesso, con l\'interruzione di eventuali domiciliazioni bancarie o addebiti su carta collegati al contratto.'+(d.apparati?' Resta in attesa delle istruzioni per la restituzione degli apparati in comodato.':'')+'\n\n';
-  t+='Si allega copia di un documento di identità in corso di validità.\n\nDistinti saluti.\n\n'+luogo+', '+oggi+'\n\nFirma\n\n____________________';
+  t+=luogo+', '+oggi+'\n\n'+(d.pec?'Trasmessa a mezzo posta elettronica certificata (PEC)':'Raccomandata con avviso di ricevimento')+'\n\n';
+  t+='OGGETTO: '+(d.cat==='assicurazioni'?'disdetta della polizza ':d.cat==='energia'?'richiesta di cessazione della fornitura - contratto ':'recesso dal contratto ')+rifC+'\n\n';
+  t+='Il/La sottoscritto/a '+nome+(cf?', codice fiscale '+cf:'')+', residente in '+ind+', in qualità di intestatario/a del contratto '+rifC+' relativo '+d.servizio+',\n\n';
+  t+='COMUNICA\n\n';
+  t+=(d.cat==='assicurazioni'?'la propria disdetta della suddetta polizza '+L.rif+'.':'la propria volontà di recedere dal suddetto contratto, '+L.rif+', con effetto dalla scadenza del termine di preavviso previsto'+(d.cat==='telefonia'||d.cat==='tv-streaming'?', che non può essere superiore a trenta giorni':'')+'.')+'\n\n';
+  t+='CHIEDE\n\n';
+  const ext=(d.cat==='telefonia'||d.cat==='tv-streaming'||d.cat==='energia')?L.extra:'';
+  t+='- la cessazione '+(d.cat==='assicurazioni'?'della copertura alla scadenza':d.cat==='energia'?'della fornitura':'del servizio')+(ext?' '+ext:';')+'\n';
+  if(L.app){t+='- '+L.app+'\n';}
+  t+='- l\'interruzione di ogni addebito successivo alla data di efficacia del recesso, comprese eventuali domiciliazioni bancarie o addebiti su carta di credito collegati al contratto;\n';
+  if(d.cat==='assicurazioni'||d.cat==='palestre'){t+='- '+L.extra.charAt(0).toLowerCase()+L.extra.slice(1).replace(/\.$/,';')+'\n';}
+  t+='- conferma scritta della ricezione della presente e della data di cessazione del contratto'+(mail?', all\'indirizzo '+mail:'')+'.\n\n';
+  t+='I dati personali contenuti nella presente sono comunicati al solo fine di dare esecuzione al recesso, ai sensi del Regolamento (UE) 2016/679.\n\n';
+  t+='Si allega copia di un documento di identità in corso di validità.\n\nDistinti saluti.\n\n'+nome+'\n\n____________________\n(firma)';
   const el=document.getElementById('lettera'); el.textContent=t; el.style.display='block';
   document.getElementById('azioni').style.display='block'; el.scrollIntoView({behavior:'smooth',block:'start'});
   return false;
 }
-function copiaLettera(b){navigator.clipboard.writeText(document.getElementById('lettera').textContent).then(()=>{b.textContent='Copiata';setTimeout(()=>b.textContent='Copia il testo',1500)})}
-function copiaPec(b,v){navigator.clipboard.writeText(v).then(()=>{b.textContent='Copiato';setTimeout(()=>b.textContent='Copia',1500)})}
-function filtra(q){q=q.toLowerCase().trim();document.querySelectorAll('[data-nome]').forEach(c=>{c.style.display=!q||c.dataset.nome.includes(q)?'':'none'})}
+function copiaLettera(b){navigator.clipboard.writeText(document.getElementById('lettera').textContent).then(()=>{b.textContent='Copiata ✓';setTimeout(()=>b.textContent='Copia il testo',1500)})}
+function copiaPec(b,v){navigator.clipboard.writeText(v).then(()=>{b.textContent='Copiato ✓';setTimeout(()=>b.textContent='Copia',1500)})}
+const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+let OPS=null;
+async function ops(){if(!OPS){OPS=await (await fetch('/operatori.json')).json();OPS.forEach(o=>o.k=norm(o.n+' '+o.c))}return OPS}
+function initSearch(inp){
+  const box=document.createElement('div'); box.className='suggest'; box.setAttribute('role','listbox'); inp.parentNode.appendChild(box);
+  let items=[],sel=-1;
+  const render=()=>{box.innerHTML=items.length?items.map((o,i)=>`<a href="${o.u}" role="option" class="${i===sel?'on':''}"><span class="av ${o.cc}">${o.i}</span><span><b>${o.n}</b><small>${o.c} · ${o.l}</small></span></a>`).join(''):(inp.value.trim()?'<div class="none">Nessun operatore trovato. <a href="/come-funziona/">Come disdire comunque</a></div>':'');box.style.display=box.innerHTML?'block':'none'};
+  inp.addEventListener('input',async()=>{const q=norm(inp.value);const all=await ops();sel=-1;
+    if(!q){items=[];return render()}
+    const st=all.filter(o=>norm(o.n).startsWith(q)), inc=all.filter(o=>!norm(o.n).startsWith(q)&&o.k.includes(q));
+    items=st.concat(inc).slice(0,8);render()});
+  inp.addEventListener('keydown',e=>{if(!items.length)return;
+    if(e.key==='ArrowDown'){sel=(sel+1)%items.length;render();e.preventDefault()}
+    else if(e.key==='ArrowUp'){sel=(sel-1+items.length)%items.length;render();e.preventDefault()}
+    else if(e.key==='Enter'){location.href=items[Math.max(sel,0)].u;e.preventDefault()}
+    else if(e.key==='Escape'){items=[];render()}});
+  inp.addEventListener('focus',()=>{ops();if(items.length)render()});
+  document.addEventListener('click',e=>{if(!inp.parentNode.contains(e.target))box.style.display='none'});
+}
+document.querySelectorAll('input.search').forEach(initSearch);
+(function(){const els=document.querySelectorAll('.rv');if(!('IntersectionObserver' in window)){els.forEach(e=>e.classList.add('in'));return}
+ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px'});els.forEach(e=>io.observe(e));
+ setTimeout(()=>els.forEach(e=>e.classList.add('in')),3500)})();
+document.querySelectorAll('[data-count]').forEach(el=>{const end=+el.dataset.count,suf=el.dataset.suf||'';let s=null;const step=ts=>{s=s||ts;const p=Math.min((ts-s)/1200,1);el.textContent=Math.round(end*(1-Math.pow(1-p,3)))+suf;if(p<1)requestAnimationFrame(step)};requestAnimationFrame(step)});
+(function(){const pre=document.getElementById('demo-txt');if(!pre)return;const full=pre.dataset.t;const st=document.getElementById('stamp');let i=0;pre.textContent='';
+ const caret=document.createElement('span');caret.className='caret';
+ const tick=()=>{if(i<=full.length){pre.textContent=full.slice(0,i);pre.appendChild(caret);i+=Math.random()<.2?3:2;setTimeout(tick,22)}else{st.classList.add('on');setTimeout(()=>{st.classList.remove('on');i=0;tick()},4500)}};
+ if(matchMedia('(prefers-reduced-motion: reduce)').matches){pre.textContent=full;st.classList.add('on')}else setTimeout(tick,600)})();
+(function(){const el=document.getElementById('scad');if(!el)return;const g=+el.dataset.giorni;const d=new Date();d.setDate(d.getDate()+g);
+ el.textContent=d.toLocaleDateString('it-IT',{weekday:'long',day:'numeric',month:'long'});
+ const d2=new Date();d2.setDate(d2.getDate()+g+7);const e2=document.getElementById('scad2');if(e2)e2.textContent=d2.toLocaleDateString('it-IT',{day:'numeric',month:'long'})})();
 """
 
 LEGGE_BREVE = {
@@ -170,6 +258,32 @@ LEGGE_BREVE = {
 }
 CAMPO = {"telefonia": "numero di linea", "tv-streaming": "numero smart card o tessera", "energia": "codice POD/PDR",
          "assicurazioni": "numero di polizza", "palestre": "numero di tessera", "altri-servizi": "riferimento"}
+
+
+PLANS = """<h2 id="invio">Come vuoi inviare la disdetta?</h2>
+<div class="rv plans">
+<div class="plan"><h3>Fai da te</h3><div class="price">Gratis</div><ul><li>Lettera pronta, scritta secondo la normativa</li><li>La copi o la salvi in PDF</li><li>La invii tu dalla tua casella PEC o con raccomandata in posta</li></ul><a class="btn sec" href="#lettera-disdetta">Genera la lettera gratis</a></div>
+<div class="plan pro"><span class="tag">Consigliato</span><h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><ul><li>Lettera redatta secondo la legge, con i riferimenti normativi corretti</li><li>Inviata in PEC all'indirizzo verificato dell'operatore</li><li>Ricevuta di consegna con valore legale, inviata alla tua e-mail</li><li>Non serve avere una PEC né andare in posta</li><li>Rimborso completo se la PEC non viene consegnata</li></ul><a class="btn" href="mailto:info@disdettaabbonamento.it?subject=Invio%20disdetta%20via%20PEC">Invia via PEC, 7,90 €</a><span class="soon">Pagamento sicuro online in arrivo: per ora scrivici e ti rispondiamo in giornata.</span></div>
+</div>
+<div class="rv guar"><div><b>⚖️ Conforme alla legge</b>Testo con le norme del settore: legge Bersani, Codice civile, regole ARERA.</div><div><b>📬 Prova legale</b>La ricevuta PEC ha lo stesso valore di una raccomandata A/R.</div><div><b>🔎 Indirizzi verificati</b>Presi dai documenti ufficiali, con data di verifica.</div><div><b>🔒 Dati protetti</b>Nessun dato salvato per la lettera gratuita, GDPR per l'invio.</div></div>"""
+
+
+DEMO_TXT = ("Spett.le Sky Italia\nPEC: servizioclientisky@pec.skytv.it\n\nOGGETTO: recesso dal contratto n. 12345678\n\n"
+            "Il sottoscritto Mario Rossi, intestatario del contratto,\n\nCOMUNICA\n\nla propria volontà di recedere dal suddetto contratto, "
+            "ai sensi dell'art. 1, comma 3, della Legge 40/2007, con effetto dalla scadenza del preavviso.\n\n"
+            "CHIEDE la cessazione di ogni addebito e conferma scritta.\n\nDistinti saluti.")
+
+
+def demo_html(brands):
+    d = ('<div class="demo" aria-hidden="true"><div class="float f1">⚡ Lettera pronta in 1 minuto</div><div class="float f2">🔒 Nessun dato salvato</div>'
+         '<div class="head"><i></i><i></i><i></i></div><pre id="demo-txt" data-t="' + E(DEMO_TXT) + '"></pre><div class="stamp" id="stamp">PEC consegnata ✓</div></div></section>')
+    m = '<div class="marquee" aria-hidden="true"><div class="track">' + "".join(f'<span>✓ <b>{E(b["nome"])}</b></span>' for b in brands * 2) + '</div></div>'
+    return d + m
+
+
+REVIEWS = ('<h2>Le recensioni</h2><div class="reviews rv"><div class="rev"><div class="st">★★★★★</div><p>Il servizio è appena nato: qui pubblicheremo solo recensioni vere dei primi utenti.</p></div>'
+           '<div class="rev"><div class="st">★★★★★</div><p>Hai usato una lettera o l\'invio PEC? Raccontaci com\'è andata a <a href="mailto:info@disdettaabbonamento.it">info@disdettaabbonamento.it</a>.</p></div>'
+           '<div class="rev"><div class="st">★★★★★</div><p>Ogni recensione viene pubblicata con nome e data, senza filtri.</p></div></div>')
 
 
 def page(title, desc, path, body, schema=None, sticky=""):
@@ -236,16 +350,20 @@ def brand_page(b, peers):
     body += (f'<p class="lead">Dove inviare la disdetta, con quale preavviso e quanto costa. Poi compili la lettera gratis in un minuto e la invii tu.</p>'
              if lettera else f'<p class="lead">{E(n)} si disdice online, senza lettere. Ecco i passaggi, il preavviso e cosa succede dopo.</p>')
     if lettera:
-        body += '<a class="btn" href="#lettera-disdetta">Genera la lettera gratis →</a><a class="btn sec" href="#dati">Vedi PEC e indirizzo</a>'
-    body += '<ul class="chips"><li>Gratis, senza registrazione</li><li>Dati solo sul tuo dispositivo</li><li>Fonti ufficiali citate</li></ul></section>'
+        body += '<a class="btn shine" href="#lettera-disdetta">Genera la lettera gratis →</a><a class="btn sec" href="#invio">Te la inviamo noi via PEC</a>'
+    body += '<ul class="chips"><li>Lettera gratis</li><li>Invio PEC con ricevuta legale a 7,90 €</li><li>Fonti ufficiali citate</li></ul></section>'
     if b.get("pec"):
         facts[0] = ("PEC", f'<span class="pec">{E(b["pec"])}</span> <button class="copy" type="button" onclick="copiaPec(this,\'{E(b["pec"])}\')">Copia</button>')
     dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in facts)
-    body += f'<div class="box" id="dati"><h2>Disdetta {E(n)} in breve</h2><dl class="facts">{dl}</dl></div>'
+    body += f'<div class="rv box" id="dati"><h2>Disdetta {E(n)} in breve</h2><dl class="facts">{dl}</dl></div>'
+    gg = re.search(r"(\d+)\s*giorni", b.get("preavviso", "") or "")
+    if lettera and gg:
+        body += f'<div class="urg rv"><span class="ic">⏰</span><span><b>Se invii oggi, il contratto termina il <span id="scad" data-giorni="{gg.group(1)}">…</span></b><p>Con {gg.group(1)} giorni di preavviso ogni giorno di attesa sposta la fine del contratto. Aspettare una settimana vuol dire pagare fino al <span id="scad2">…</span>, spesso un mese in più.</p></span><a class="btn" href="#lettera-disdetta">Disdici ora →</a></div>'
+
     if b.get("note"):
         body += f'<div class="note"><strong>Da sapere.</strong> {E(b["note"])}</div>'
     if lettera:
-        body += f'<h2>Come disdire {E(n)} in 3 passaggi</h2><div class="steps"><div class="step"><div class="n">1</div><h3>Compila la lettera</h3><p>Nome, indirizzo e codice cliente: la lettera si genera qui sotto.</p></div><div class="step"><div class="n">2</div><h3>Firma e allega il documento</h3><p>Aggiungi la firma e una copia del documento d\'identità.</p></div><div class="step"><div class="n">3</div><h3>Invia {"via PEC" if b.get("pec") else "con raccomandata A/R"}</h3><p>All\'indirizzo indicato sopra. Conserva la ricevuta: è la prova della data.</p></div></div>'
+        body += f'<h2>Come disdire {E(n)} in 3 passaggi</h2><div class="rv steps"><div class="step"><div class="n">1</div><h3>Compila la lettera</h3><p>Nome, indirizzo e codice cliente: la lettera si genera qui sotto.</p></div><div class="step"><div class="n">2</div><h3>Firma e allega il documento</h3><p>Aggiungi la firma e una copia del documento d\'identità.</p></div><div class="step"><div class="n">3</div><h3>Invia {"via PEC" if b.get("pec") else "con raccomandata A/R"}</h3><p>All\'indirizzo indicato sopra. Conserva la ricevuta: è la prova della data.</p></div></div>'
     body += f"<h2>Tutti i canali per disdire {E(n)}</h2><ul class=\"canali\">{canali}</ul>"
     if lettera:
         via = "PEC" if b.get("pec") else "raccomandata A/R"
@@ -257,13 +375,15 @@ def brand_page(b, peers):
 <label for="indirizzo">Indirizzo di residenza</label><input id="indirizzo" name="indirizzo" autocomplete="street-address">
 <div class="row2"><div><label for="codice">Codice cliente o numero di contratto</label><input id="codice" name="codice"></div>
 <div><label for="linea">{E(CAMPO[b["categoria"]].capitalize())} (facoltativo)</label><input id="linea" name="linea"></div></div>
-<label for="luogo">Luogo</label><input id="luogo" name="luogo" autocomplete="address-level2">
+<div class="row2"><div><label for="luogo">Città</label><input id="luogo" name="luogo" autocomplete="address-level2"></div><div><label for="email">E-mail per la conferma (facoltativa)</label><input id="email" name="email" type="email" autocomplete="email"></div></div>
 <button class="btn" type="submit">Genera la lettera →</button><p class="secure">🔒 Nessun dato viene inviato o salvato: tutto resta nel tuo browser.</p></form>
 <div id="lettera"></div>
 <div id="azioni" class="noprint" style="display:none"><button class="btn" type="button" onclick="copiaLettera(this)">Copia il testo</button><button class="btn sec" type="button" onclick="window.print()">Salva in PDF / stampa</button>
 <p class="src">Per una disdetta con valore legale, invia la lettera firmata con copia del documento d'identità da una casella PEC, oppure con raccomandata A/R, e conserva la ricevuta.</p></div>
-<script>window.LETTERA={json.dumps({"azienda": n, "pec": b.get("pec", ""), "postale": b.get("indirizzo_postale", "") or ("[indirizzo del tuo club, indicato nel contratto]" if b["categoria"] == "palestre" else ""), "servizio": cat["servizio"], "legge": LEGGE_BREVE.get(b["categoria"], ""), "campo": CAMPO[b["categoria"]], "apparati": b["categoria"] in ("telefonia", "tv-streaming")}, ensure_ascii=False)}</script>
+<script>window.LETTERA={json.dumps({"azienda": n, "pec": b.get("pec", ""), "postale": b.get("indirizzo_postale", "") or ("[indirizzo del tuo club, indicato nel contratto]" if b["categoria"] == "palestre" else ""), "servizio": cat["servizio"], "legge": LEGGE_BREVE.get(b["categoria"], ""), "campo": CAMPO[b["categoria"]], "cat": b["categoria"]}, ensure_ascii=False)}</script>
 </section>"""
+    if lettera:
+        body += PLANS
     body += f"<h2>Cosa dice la legge</h2><p>{E(cat['legge'])}</p>"
     faqs = faq_brand(b, cat)
     if faqs:
@@ -283,6 +403,8 @@ def brand_page(b, peers):
         {"@type": "ListItem", "position": 1, "name": "Home", "item": DOMAIN + "/"},
         {"@type": "ListItem", "position": 2, "name": cat["nome"], "item": f"{DOMAIN}/{cat['slug']}/"},
         {"@type": "ListItem", "position": 3, "name": f"Disdetta {n}", "item": DOMAIN + path}]})
+    if lettera:
+        body += f'<section class="band"><h2>Disdici {E(n)} oggi</h2><p>Lettera gratis in un minuto, oppure te la inviamo noi in PEC con ricevuta legale.</p><a class="btn shine" href="#lettera-disdetta">Genera la lettera gratis →</a></section>'
     sticky = '<div class="sticky"><a class="btn" href="#lettera-disdetta">Genera la lettera gratis →</a></div>' if lettera else ''
     write(path, page(title, desc, path, body, schema, sticky))
     return path
@@ -323,7 +445,7 @@ def main():
             peers = [lst[(i + k) % len(lst)] for k in range(1, min(len(lst), 7))]
             urls.append(brand_page(b, peers))
         cat = CATEGORIE[c]; p = f"/{cat['slug']}/"
-        body = f'<section class="hero small"><p class="crumbs"><a href="/">Home</a> › {E(cat["nome"])}</p><h1>Disdetta <em>{E(cat["nome"].lower())}</em></h1><p class="lead">{E(cat["intro"])}</p><ul class="chips"><li>{len(lst)} operatori verificati</li><li>Lettere gratuite</li><li>Fonti ufficiali citate</li></ul></section>'
+        body = f'<section class="hero small"><p class="crumbs"><a href="/">Home</a> › {E(cat["nome"])}</p><h1>Disdetta <em>{E(cat["nome"].lower())}</em></h1><p class="lead">{E(cat["intro"])}</p><ul class="chips"><li>{len(lst)} operatori verificati</li><li>Lettere gratuite o invio PEC per te</li><li>Fonti ufficiali citate</li></ul></section>'
         body += '<div class="grid">' + "".join(card(b) for b in lst) + "</div>"
         body += f"<h2>Cosa dice la legge</h2><p>{E(cat['legge'])}</p>"
         write(p, page(f"Disdetta {cat['nome'].lower()}: PEC, indirizzi e moduli ({TODAY[:4]})",
@@ -331,23 +453,24 @@ def main():
         urls.append(p)
     # home
     nuff = sum(1 for b in brands if b.get("affidabilita") == "ufficiale")
-    body = '<section class="hero" id="cerca"><span class="pill"><b>✓</b> Aggiornato il ' + data_it(TODAY) + '</span>'
+    body = '<section class="hero home" id="cerca"><div><span class="pill"><b>✓</b> Aggiornato il ' + data_it(TODAY) + '</span>'
     body += '<h1>Disdici qualsiasi abbonamento <em>in un minuto</em></h1>'
     body += '<p class="lead">Trova l\'indirizzo PEC o postale giusto del tuo operatore, controlla preavviso e costi, e genera gratis la lettera di disdetta pronta da inviare.</p>'
-    body += '<div class="searchbox"><input class="search" type="search" placeholder="Cerca il tuo operatore: TIM, Sky, Enel, McFit…" oninput="filtra(this.value);document.getElementById(\'operatori\').scrollIntoView({block:\'start\'})" aria-label="Cerca un operatore"></div>'
-    body += '<ul class="chips"><li>Gratis, senza registrazione</li><li>Indirizzi verificati sui documenti ufficiali</li><li>Nessun dato salvato</li></ul>'
-    body += f'<div class="stats"><div><b>{len(brands)}</b><span>operatori</span></div><div><b>{nuff}</b><span>schede da fonte ufficiale</span></div><div><b>1 min</b><span>per la lettera</span></div><div><b>0 €</b><span>sempre gratis</span></div></div></section>'
-    body += '<h2>Come funziona</h2><div class="steps"><div class="step"><div class="n">1</div><h3>Cerca l\'operatore</h3><p>Trovi PEC, indirizzo per la raccomandata, preavviso e costi, con la data di verifica.</p></div><div class="step"><div class="n">2</div><h3>Compila la lettera</h3><p>Inserisci i tuoi dati: la lettera di disdetta si genera subito, con i riferimenti di legge.</p></div><div class="step"><div class="n">3</div><h3>Inviala e conserva la ricevuta</h3><p>Via PEC o raccomandata A/R. La ricevuta di consegna è la prova della disdetta.</p></div></div>'
+    body += '<div class="searchbox"><input class="search" type="search" placeholder="Cerca il tuo operatore: TIM, Sky, Enel, McFit…" autocomplete="off" aria-label="Cerca un operatore"></div>'
+    body += '<ul class="chips"><li>Lettera gratis, senza registrazione</li><li>Indirizzi verificati sui documenti ufficiali</li><li>Invio PEC con ricevuta legale</li></ul>'
+    body += f'<div class="stats"><div><b data-count="{len(brands)}">{len(brands)}</b><span>operatori</span></div><div><b data-count="{nuff}">{nuff}</b><span>schede da fonte ufficiale</span></div><div><b>1 min</b><span>per la lettera</span></div><div><b>7,90 €</b><span>invio PEC per te</span></div></div></div>' + demo_html(brands)
+    body += '<h2>Come funziona</h2><div class="rv steps"><div class="step"><div class="n">1</div><h3>Cerca l\'operatore</h3><p>Trovi PEC, indirizzo per la raccomandata, preavviso e costi, con la data di verifica.</p></div><div class="step"><div class="n">2</div><h3>Compila la lettera</h3><p>Inserisci i tuoi dati: la lettera di disdetta si genera subito, con i riferimenti di legge.</p></div><div class="step"><div class="n">3</div><h3>Inviala e conserva la ricevuta</h3><p>Via PEC o raccomandata A/R. La ricevuta di consegna è la prova della disdetta.</p></div></div><p style="text-align:center"><a class="btn shine" href="#cerca">Inizia ora, è gratis →</a></p>'
     ICONE = {"telefonia": "📶", "tv-streaming": "📺", "energia": "💡", "assicurazioni": "🛡️", "palestre": "🏋️", "altri-servizi": "🧾"}
-    body += '<h2>Scegli la categoria</h2><div class="cats">' + "".join(f'<a class="cat" href="/{CATEGORIE[c]["slug"]}/"><div class="ic">{ICONE[c]}</div><h3>{E(CATEGORIE[c]["nome"])}</h3><small>{len(bycat[c])} operatori</small></a>' for c in CATEGORIE if c in bycat) + '</div>'
+    body += '<h2>Scegli la categoria</h2><div class="rv cats">' + "".join(f'<a class="cat" href="/{CATEGORIE[c]["slug"]}/"><div class="ic">{ICONE[c]}</div><h3>{E(CATEGORIE[c]["nome"])}</h3><small>{len(bycat[c])} operatori</small></a>' for c in CATEGORIE if c in bycat) + '</div>'
     body += '<div id="operatori">'
     for c in CATEGORIE:
         if c in bycat:
             cat = CATEGORIE[c]
             body += f'<h2><a href="/{cat["slug"]}/" style="color:inherit;text-decoration:none">{E(cat["nome"])}</a></h2><div class="grid">' + "".join(card(b) for b in bycat[c]) + "</div>"
     body += '</div>'
-    body += '<h2>Perché usare Disdetta Abbonamento</h2><div class="trust"><div><h3>🔎 Indirizzi verificati</h3><p>Ogni PEC e indirizzo viene dai documenti dell\'operatore, con fonte e data di verifica in ogni scheda.</p></div><div><h3>⚖️ Lettera con valore legale</h3><p>Il testo cita le norme giuste (come la legge Bersani per la telefonia) e chiede lo stop di ogni addebito.</p></div><div><h3>🔒 Privacy totale</h3><p>La lettera si genera nel tuo browser. Non chiediamo registrazione e non salviamo i tuoi dati.</p></div></div>'
-    body += '<section class="band"><h2>Pronto a disdire?</h2><p>Cerca il tuo operatore e prepara la lettera adesso, è gratis.</p><a class="btn" href="#cerca">Trova il tuo operatore →</a></section>'
+    body += '<h2>Perché usare Disdetta Abbonamento</h2><div class="rv trust"><div><h3>🔎 Indirizzi verificati</h3><p>Ogni PEC e indirizzo viene dai documenti dell\'operatore, con fonte e data di verifica in ogni scheda.</p></div><div><h3>⚖️ Lettera con valore legale</h3><p>Il testo cita le norme giuste (come la legge Bersani per la telefonia) e chiede lo stop di ogni addebito.</p></div><div><h3>🔒 Privacy totale</h3><p>La lettera si genera nel tuo browser. Non chiediamo registrazione e non salviamo i tuoi dati.</p></div></div>'
+    body += REVIEWS
+    body += '<section class="band"><h2>Pronto a disdire?</h2><p>Cerca il tuo operatore e prepara la lettera adesso, è gratis.</p><a class="btn shine" href="#cerca">Trova il tuo operatore →</a></section>'
     write("/", page("Disdetta abbonamento: PEC, indirizzi e lettere di disdetta gratis",
                     f"Indirizzi PEC e postali verificati, preavviso, costi e lettere di disdetta gratuite per {len(brands)} operatori: telefonia, pay TV, luce e gas, assicurazioni, palestre.", "/", body,
                     [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": DOMAIN + "/"}]))
@@ -366,6 +489,8 @@ def main():
         write(p, page(f"{t} | {SITE}", d, p, b)); urls.append(p)
     open(os.path.join(OUT, "style.css"), "w").write(CSS)
     open(os.path.join(OUT, "app.js"), "w").write(JS)
+    json.dump([{"n": b["nome"], "u": f"/disdetta-{b['slug']}/", "c": CATEGORIE[b["categoria"]]["nome"], "cc": b["categoria"], "i": iniziali(b["nome"]), "l": etichetta(b)} for b in brands],
+              open(os.path.join(OUT, "operatori.json"), "w", encoding="utf-8"), ensure_ascii=False)
     open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
     sm = "".join(f"<url><loc>{DOMAIN}{u}</loc><lastmod>{TODAY}</lastmod></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w").write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
