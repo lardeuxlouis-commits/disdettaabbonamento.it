@@ -298,6 +298,7 @@ TERMINI_HTML = r'''<h1>Termini e condizioni del servizio</h1>
 <p><strong>Invio via PEC per conto del cliente, a pagamento.</strong> Su richiesta del cliente inviamo la sua lettera di disdetta, firmata dal cliente o redatta a suo nome, all'indirizzo PEC dell'operatore indicato nella scheda, e gli trasmettiamo per e-mail le ricevute di accettazione e di consegna rilasciate dal sistema PEC.</p>
 <h2>3. Mandato</h2>
 <p>Ordinando l'invio, il cliente ci conferisce un mandato senza rappresentanza, ai sensi degli articoli 1703 e seguenti del Codice civile, limitato alla trasmissione della comunicazione da lui predisposta. Il cliente dichiara di essere l'intestatario del contratto, o di essere autorizzato ad agire per suo conto, e che i dati forniti sono veritieri.</p>
+<p>Per l'invio il cliente fornisce: la lettera di disdetta firmata, una copia di un documento d'identità in corso di validità e la delega scritta che ci autorizza a trasmettere la comunicazione in suo nome. Questi documenti vengono allegati alla PEC, perché molti operatori li richiedono per accettare una disdetta inviata da un terzo. Alcuni operatori accettano solo comunicazioni firmate digitalmente o inviate dalla casella PEC del titolare: in questi casi lo indichiamo prima dell'ordine e non accettiamo l'incarico.</p>
 <h2>4. Prezzo e pagamento</h2>
 <p>Il prezzo dell'invio è indicato prima dell'ordine, attualmente 7,90 € per lettera. IVA non applicabile, articolo 293 B del Code général des impôts francese (regime di franchigia). Il pagamento avviene online tramite Stripe; non conserviamo i dati della carta.</p>
 <h2>5. Esecuzione</h2>
@@ -319,7 +320,7 @@ PRIVACY_HTML = r'''<h1>Informativa privacy</h1>
 <h2>Generatore di lettere gratuito</h2>
 <p>Il generatore funziona interamente nel tuo browser: i dati che inserisci non vengono inviati né salvati sui nostri server. Non usiamo cookie di profilazione né strumenti pubblicitari.</p>
 <h2>Servizio di invio via PEC</h2>
-<p><strong>Dati trattati:</strong> nome e cognome, indirizzo, codice fiscale se lo indichi, dati del contratto da disdire, indirizzo e-mail, testo della lettera ed eventuali allegati, dati dell'ordine. I dati della carta sono trattati solo da Stripe.</p>
+<p><strong>Dati trattati:</strong> nome e cognome, indirizzo, codice fiscale se lo indichi, dati del contratto da disdire, indirizzo e-mail, lettera firmata, copia del documento d'identità e delega, dati dell'ordine. La copia del documento d'identità è usata solo per allegarla alla disdetta, come richiesto dagli operatori. I dati della carta sono trattati solo da Stripe.</p>
 <p><strong>Finalità e base giuridica:</strong> esecuzione del servizio richiesto (articolo 6, paragrafo 1, lettera b, GDPR); adempimento di obblighi contabili e fiscali (lettera c); difesa dei nostri diritti in caso di contestazione (lettera f).</p>
 <p><strong>Destinatari:</strong> l'operatore a cui è indirizzata la disdetta; i fornitori che ci aiutano a erogare il servizio, nominati responsabili del trattamento: Stripe per i pagamenti, il gestore PEC per l'invio, i fornitori di hosting e di posta elettronica. Non vendiamo né cediamo i tuoi dati.</p>
 <p><strong>Conservazione:</strong> lettere e ricevute PEC per 24 mesi dall'invio, come prova dell'esecuzione; dati di fatturazione per 10 anni come previsto dalla legge.</p>
