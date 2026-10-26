@@ -1,195 +1,444 @@
 [
-  {
-    "nome": "Enel Energia",
-    "slug": "enel-energia",
-    "categoria": "energia",
-    "pec": "",
-    "indirizzo_postale": "Enel Energia S.p.A., Casella Postale 8080, 85100 Potenza (PZ)",
-    "canali": [
-      "area clienti enel.it",
-      "app Enel Energia",
-      "numero verde 800 900 860 (servizio clienti; numero unico 140 indicato su enel.it)",
-      "raccomandata A/R"
-    ],
-    "preavviso": "1 mese dalla ricezione della comunicazione di recesso (per cessazione della fornitura)",
-    "costi": "Non indicati nelle condizioni generali; eventuali oneri del distributore per la disattivazione",
-    "modulo": "",
-    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali (clienti domestici, mag-ott 2023) prevedono la raccomandata alla CP 8080 per la cessazione. La PEC servizio.clienti.enelenergia@pec.enel.it compare su enel.it come recapito per comunicazioni e reclami (pagina fibra) ed è citata da fonti secondarie per le disdette, ma le condizioni generali non la indicano per il recesso; enelenergia@pec.enel.it è riservata agli organismi di mediazione.",
-    "fonti": [
-      "https://enel.it/content/dam/asset/documenti/assistenza/luce-gas/articoli/condizioni-fornitura-residenziali/cgf-res-mag-ott-23.pdf",
-      "https://www.enel.it/en-us/assistenza/fibra/codice-comunicazioni-elettroniche",
-      "https://www.money.it/Enel-energia-come-fare-disdetta"
-    ],
-    "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
-  },
-  {
-    "nome": "Eni Plenitude",
-    "slug": "eni-plenitude",
-    "categoria": "energia",
-    "pec": "",
-    "indirizzo_postale": "Eni Plenitude S.p.A. Società Benefit, Casella Postale 71, 20068 Peschiera Borromeo (MI)",
-    "canali": [
-      "area personale eniplenitude.com / app Plenitude",
-      "numero verde 800 900 700 (da cellulare 02 444141)",
-      "Plenitude Store",
-      "raccomandata A/R (o altro mezzo che provi la ricezione)"
-    ],
-    "preavviso": "Il recesso per cessazione ha efficacia entro 1 mese dalla ricezione della comunicazione",
-    "costi": "Nessun onere di recesso anticipato (scheda sintetica)",
-    "modulo": "",
-    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali (CGC_RETAIL_13102025) chiedono una comunicazione scritta con modalità che provino la ricezione alla CP 71; nessuna PEC ufficiale pubblicata per il recesso.",
-    "fonti": [
-      "https://eniplenitude.com/content/dam/enigaseluce/documenti/campagna/allegati-offerte/POWER_SMALL_BASE_LPLFIXAU.pdf",
-      "https://bolletta-energia.it/fornitore/eni/pec",
-      "https://luce-gas.it/fornitori/eni/disdetta"
-    ],
-    "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
-  },
-  {
-    "nome": "Edison Energia",
-    "slug": "edison-energia",
-    "categoria": "energia",
-    "pec": "",
-    "indirizzo_postale": "Edison Energia S.p.A., Servizio Clienti Edison, Casella postale 94, 20079 Basiglio (MI)",
-    "canali": [
-      "area privata edisonenergia.it / app MyEdison (sezione Distacco)",
-      "numero verde 800 031 141 (da cellulare 02 8251 8251)",
-      "raccomandata A/R",
-      "fax 800 031 143"
-    ],
-    "preavviso": "Massimo 1 mese per i clienti domestici (fonti secondarie)",
-    "costi": "Non indicati",
-    "modulo": "",
-    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Indirizzo postale dalla pagina contatti ufficiale (CAP 20079; alcune guide riportano ancora 20080). La PEC edisonenergia.servizioclienti@pec.edison.it è indicata solo da fonti secondarie; la PEC ufficiale edisonenergia@pec.edison.it è il punto di contatto DSA, non un canale di disdetta dichiarato.",
-    "fonti": [
-      "https://www.edisonenergia.it/edison/assistenza/contatti",
-      "https://www.edisonenergia.it/edison/informazioni-e-moduli-utili/punti-di-contatto-pec",
-      "https://bolletta-energia.it/fornitore/edison/pec",
-      "https://tariffe.segugio.it/adsl-energia-gas/edison-energia/procedura-disdetta.aspx"
-    ],
-    "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
-  },
-  {
-    "nome": "Acea Energia",
-    "slug": "acea-energia",
-    "categoria": "energia",
-    "pec": "",
-    "indirizzo_postale": "Acea Energia S.p.A., Servizio Mercato Libero, Casella postale n. 5114, 00154 Roma",
-    "canali": [
-      "area riservata MyAcea Energia (Contratti > I miei contratti > Disdetta, web form)",
-      "numero verde 800 38 38 38",
-      "posta (indirizzo per comunicazioni e reclami)"
-    ],
-    "preavviso": "Non superiore a 1 mese dalla ricezione della comunicazione di recesso (per cessazione)",
-    "costi": "Non indicati per la cessazione",
-    "modulo": "",
-    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali mercato libero indicano il web form MyAcea come canale di disdetta per cessazione; la casella postale 5114 è il recapito per reclami e comunicazioni scritte. La PEC ae.spa@pec.aceaspa.it è prevista solo per comunicazioni di forza maggiore.",
-    "fonti": [
-      "https://www.aceaenergia.it/content/dam/acea-energia/documentazione-contrattuale/placet/Condizioni%20Generali.pdf"
-    ],
-    "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
-  },
-  {
-    "nome": "A2A Energia",
-    "slug": "a2a-energia",
-    "categoria": "energia",
-    "pec": "",
-    "indirizzo_postale": "",
-    "canali": [
-      "area clienti a2a.it (sezione Richieste)",
-      "app MyA2A (sezione La mia energia)",
-      "form digitale FAQ e Contatti",
-      "sportelli / numero verde"
-    ],
-    "preavviso": "La disattivazione si programma con un massimo di 15 giorni di anticipo rispetto alla data di chiusura desiderata (FAQ ufficiale)",
-    "costi": "Costo della prestazione stabilito dal distributore locale, addebitato nella bolletta di chiusura (nessun addebito in caso di voltura)",
-    "modulo": "",
-    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. A2A non pubblica sul sito un indirizzo postale o una PEC per la disdetta: la procedura ufficiale è online. Fonti secondarie citano la PEC a2a.energia@pec.a2a.eu (non verificata su fonte ufficiale).",
-    "fonti": [
-      "https://www.a2a.it/assistenza/faq/contratti/cessazione",
-      "https://www.a2a.it/assistenza/contatti",
-      "https://bolletta-energia.it/fornitore/a2a/contatti"
-    ],
-    "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
-  },
-  {
-    "nome": "Hera Comm",
-    "slug": "hera-comm",
-    "categoria": "energia",
-    "pec": "",
-    "indirizzo_postale": "Hera Comm S.p.A., Servizio Clienti, Via Molino Rosso 8, 40026 Imola (BO)",
-    "canali": [
-      "Servizi Online / app My Hera",
-      "numero verde 800 999 500",
-      "e-mail clienti.famiglie@gruppohera.it",
-      "raccomandata A/R",
-      "sportelli Hera Comm"
-    ],
-    "preavviso": "Circa 1 mese (la cessazione è eseguita entro 5 giorni lavorativi dall'accettazione della richiesta)",
-    "costi": "23,00 € + IVA per contatore luce; 30,00 € + IVA per contatore gas fino a classe G6; 45,00 € + IVA oltre G6",
-    "modulo": "https://heracomm.gruppohera.it/documents/83408/288997/Allegato_7_disattivazione_e_cessazione.pdf/78c710ba-c3fa-a2ab-236f-0a8f675a807f",
-    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Il sito heracomm.gruppohera.it blocca la lettura automatica (403): dati presi dagli estratti indicizzati delle pagine ufficiali e da guide secondarie, da ricontrollare a mano. La PEC heracomm@pec.gruppohera.it è citata ma non verificata.",
-    "fonti": [
-      "https://heracomm.gruppohera.it/w/casa/assistenza/contratto/cessazione-del-contratto",
-      "https://heracomm.gruppohera.it/w/casa/assistenza/contratto/disdetta-contratto-luce-e-gas",
-      "https://tariffe.segugio.it/adsl-energia-gas/hera-comm/procedura-disdetta.aspx",
-      "https://www.facile.it/energia-luce-gas/compagnie/hera/disdetta.html"
-    ],
-    "affidabilita": "secondaria",
-    "data_verifica": "2026-10-26"
-  },
-  {
-    "nome": "Iren Mercato",
-    "slug": "iren-mercato",
-    "categoria": "energia",
-    "pec": "",
-    "indirizzo_postale": "Iren Mercato S.p.A., Via SS. Giacomo e Filippo 7, 16122 Genova (sede legale; il recapito del servizio clienti è indicato in bolletta)",
-    "canali": [
-      "numero verde 800 969 696 (da cellulare 011 022 033)",
-      "sportelli Iren",
-      "area clienti / app IrenYou",
-      "per iscritto al servizio clienti (recapiti in bolletta)"
-    ],
-    "preavviso": "1 mese dalla ricezione (condizioni generali mercato libero, rev. 2022, via fonte secondaria)",
-    "costi": "Non indicati",
-    "modulo": "",
-    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. La pagina ufficiale non indica un indirizzo dedicato alla disdetta (rimanda alla bolletta); l'indirizzo è la sede legale presa dall'informativa privacy ufficiale. La PEC irenmercato@pec.gruppoiren.it è citata da fonti secondarie; irenspa@pec.gruppoiren.it è la PEC della capogruppo Iren S.p.A.",
-    "fonti": [
-      "https://www.irenlucegas.it/assistenza/gestisci-il-tuo-contratto/disdetta-utenze-domestiche",
-      "https://www.irenlucegas.it/assistenza/contatti",
-      "https://www.irenlucegas.it/content/dam/iren/evergreen/footer/privacy-e-cookie-policy/documenti/Informativa_Landing_Page_2023.pdf",
-      "https://lawinsider.com/it/contracts/27rdRhgObRN",
-      "https://luce-gas.it/fornitori/iren/reclami"
-    ],
-    "affidabilita": "incerta",
-    "data_verifica": "2026-10-26"
-  },
-  {
-    "nome": "Sorgenia",
-    "slug": "sorgenia",
-    "categoria": "energia",
-    "pec": "sorgenia@legalmail.it",
-    "indirizzo_postale": "Sorgenia S.p.A., Casella Postale 14287, 20152 Milano (MI)",
-    "canali": [
-      "raccomandata A/R",
-      "PEC",
-      "area clienti / app Sorgenia",
-      "e-mail customercare@sorgenia.it"
-    ],
-    "preavviso": "Non inferiore a 1 mese (recesso per cessare la fornitura)",
-    "costi": "Non indicati; eventuali oneri del distributore",
-    "modulo": "",
-    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali residenziali (nov. 2025) prevedono il recesso per cessazione via raccomandata A/R o PEC; la PEC è quella indicata nella pagina contatti ufficiale.",
-    "fonti": [
-      "https://www.sorgenia.it/contattaci",
-      "https://www.sorgenia.it/shared/files/2025-11/CGC_RES_ML_Nov2025_100Green.pdf"
-    ],
-    "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
-  }
+ {
+  "nome": "Enel Energia",
+  "slug": "enel-energia",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Enel Energia S.p.A., Casella Postale 8080, 85100 Potenza (PZ)",
+  "canali": [
+   "area clienti enel.it",
+   "app Enel Energia",
+   "numero verde 800 900 860 (servizio clienti; numero unico 140 indicato su enel.it)",
+   "raccomandata A/R"
+  ],
+  "preavviso": "1 mese dalla ricezione della comunicazione di recesso (per cessazione della fornitura)",
+  "costi": "Non indicati nelle condizioni generali; eventuali oneri del distributore per la disattivazione",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali (clienti domestici, mag-ott 2023) prevedono la raccomandata alla CP 8080 per la cessazione. La PEC servizio.clienti.enelenergia@pec.enel.it compare su enel.it come recapito per comunicazioni e reclami (pagina fibra) ed è citata da fonti secondarie per le disdette, ma le condizioni generali non la indicano per il recesso; enelenergia@pec.enel.it è riservata agli organismi di mediazione.",
+  "fonti": [
+   "https://enel.it/content/dam/asset/documenti/assistenza/luce-gas/articoli/condizioni-fornitura-residenziali/cgf-res-mag-ott-23.pdf",
+   "https://www.enel.it/en-us/assistenza/fibra/codice-comunicazioni-elettroniche",
+   "https://www.money.it/Enel-energia-come-fare-disdetta"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Eni Plenitude",
+  "slug": "eni-plenitude",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Eni Plenitude S.p.A. Società Benefit, Casella Postale 71, 20068 Peschiera Borromeo (MI)",
+  "canali": [
+   "area personale eniplenitude.com / app Plenitude",
+   "numero verde 800 900 700 (da cellulare 02 444141)",
+   "Plenitude Store",
+   "raccomandata A/R (o altro mezzo che provi la ricezione)"
+  ],
+  "preavviso": "Il recesso per cessazione ha efficacia entro 1 mese dalla ricezione della comunicazione",
+  "costi": "Nessun onere di recesso anticipato (scheda sintetica)",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali (CGC_RETAIL_13102025) chiedono una comunicazione scritta con modalità che provino la ricezione alla CP 71; nessuna PEC ufficiale pubblicata per il recesso.",
+  "fonti": [
+   "https://eniplenitude.com/content/dam/enigaseluce/documenti/campagna/allegati-offerte/POWER_SMALL_BASE_LPLFIXAU.pdf",
+   "https://bolletta-energia.it/fornitore/eni/pec",
+   "https://luce-gas.it/fornitori/eni/disdetta"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Edison Energia",
+  "slug": "edison-energia",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Edison Energia S.p.A., Servizio Clienti Edison, Casella postale 94, 20079 Basiglio (MI)",
+  "canali": [
+   "area privata edisonenergia.it / app MyEdison (sezione Distacco)",
+   "numero verde 800 031 141 (da cellulare 02 8251 8251)",
+   "raccomandata A/R",
+   "fax 800 031 143"
+  ],
+  "preavviso": "Massimo 1 mese per i clienti domestici (fonti secondarie)",
+  "costi": "Non indicati",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Indirizzo postale dalla pagina contatti ufficiale (CAP 20079; alcune guide riportano ancora 20080). La PEC edisonenergia.servizioclienti@pec.edison.it è indicata solo da fonti secondarie; la PEC ufficiale edisonenergia@pec.edison.it è il punto di contatto DSA, non un canale di disdetta dichiarato.",
+  "fonti": [
+   "https://www.edisonenergia.it/edison/assistenza/contatti",
+   "https://www.edisonenergia.it/edison/informazioni-e-moduli-utili/punti-di-contatto-pec",
+   "https://bolletta-energia.it/fornitore/edison/pec",
+   "https://tariffe.segugio.it/adsl-energia-gas/edison-energia/procedura-disdetta.aspx"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Acea Energia",
+  "slug": "acea-energia",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Acea Energia S.p.A., Servizio Mercato Libero, Casella postale n. 5114, 00154 Roma",
+  "canali": [
+   "area riservata MyAcea Energia (Contratti > I miei contratti > Disdetta, web form)",
+   "numero verde 800 38 38 38",
+   "posta (indirizzo per comunicazioni e reclami)"
+  ],
+  "preavviso": "Non superiore a 1 mese dalla ricezione della comunicazione di recesso (per cessazione)",
+  "costi": "Non indicati per la cessazione",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali mercato libero indicano il web form MyAcea come canale di disdetta per cessazione; la casella postale 5114 è il recapito per reclami e comunicazioni scritte. La PEC ae.spa@pec.aceaspa.it è prevista solo per comunicazioni di forza maggiore.",
+  "fonti": [
+   "https://www.aceaenergia.it/content/dam/acea-energia/documentazione-contrattuale/placet/Condizioni%20Generali.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "A2A Energia",
+  "slug": "a2a-energia",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "area clienti a2a.it (sezione Richieste)",
+   "app MyA2A (sezione La mia energia)",
+   "form digitale FAQ e Contatti",
+   "sportelli / numero verde"
+  ],
+  "preavviso": "La disattivazione si programma con un massimo di 15 giorni di anticipo rispetto alla data di chiusura desiderata (FAQ ufficiale)",
+  "costi": "Costo della prestazione stabilito dal distributore locale, addebitato nella bolletta di chiusura (nessun addebito in caso di voltura)",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. A2A non pubblica sul sito un indirizzo postale o una PEC per la disdetta: la procedura ufficiale è online. Fonti secondarie citano la PEC a2a.energia@pec.a2a.eu (non verificata su fonte ufficiale).",
+  "fonti": [
+   "https://www.a2a.it/assistenza/faq/contratti/cessazione",
+   "https://www.a2a.it/assistenza/contatti",
+   "https://bolletta-energia.it/fornitore/a2a/contatti"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Hera Comm",
+  "slug": "hera-comm",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Hera Comm S.p.A., Servizio Clienti, Via Molino Rosso 8, 40026 Imola (BO)",
+  "canali": [
+   "Servizi Online / app My Hera",
+   "numero verde 800 999 500",
+   "e-mail clienti.famiglie@gruppohera.it",
+   "raccomandata A/R",
+   "sportelli Hera Comm"
+  ],
+  "preavviso": "Circa 1 mese (la cessazione è eseguita entro 5 giorni lavorativi dall'accettazione della richiesta)",
+  "costi": "23,00 € + IVA per contatore luce; 30,00 € + IVA per contatore gas fino a classe G6; 45,00 € + IVA oltre G6",
+  "modulo": "https://heracomm.gruppohera.it/documents/83408/288997/Allegato_7_disattivazione_e_cessazione.pdf/78c710ba-c3fa-a2ab-236f-0a8f675a807f",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Il sito heracomm.gruppohera.it blocca la lettura automatica (403): dati presi dagli estratti indicizzati delle pagine ufficiali e da guide secondarie, da ricontrollare a mano. La PEC heracomm@pec.gruppohera.it è citata ma non verificata.",
+  "fonti": [
+   "https://heracomm.gruppohera.it/w/casa/assistenza/contratto/cessazione-del-contratto",
+   "https://heracomm.gruppohera.it/w/casa/assistenza/contratto/disdetta-contratto-luce-e-gas",
+   "https://tariffe.segugio.it/adsl-energia-gas/hera-comm/procedura-disdetta.aspx",
+   "https://www.facile.it/energia-luce-gas/compagnie/hera/disdetta.html"
+  ],
+  "affidabilita": "secondaria",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Iren Mercato",
+  "slug": "iren-mercato",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Iren Mercato S.p.A., Via SS. Giacomo e Filippo 7, 16122 Genova (sede legale; il recapito del servizio clienti è indicato in bolletta)",
+  "canali": [
+   "numero verde 800 969 696 (da cellulare 011 022 033)",
+   "sportelli Iren",
+   "area clienti / app IrenYou",
+   "per iscritto al servizio clienti (recapiti in bolletta)"
+  ],
+  "preavviso": "1 mese dalla ricezione (condizioni generali mercato libero, rev. 2022, via fonte secondaria)",
+  "costi": "Non indicati",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. La pagina ufficiale non indica un indirizzo dedicato alla disdetta (rimanda alla bolletta); l'indirizzo è la sede legale presa dall'informativa privacy ufficiale. La PEC irenmercato@pec.gruppoiren.it è citata da fonti secondarie; irenspa@pec.gruppoiren.it è la PEC della capogruppo Iren S.p.A.",
+  "fonti": [
+   "https://www.irenlucegas.it/assistenza/gestisci-il-tuo-contratto/disdetta-utenze-domestiche",
+   "https://www.irenlucegas.it/assistenza/contatti",
+   "https://www.irenlucegas.it/content/dam/iren/evergreen/footer/privacy-e-cookie-policy/documenti/Informativa_Landing_Page_2023.pdf",
+   "https://lawinsider.com/it/contracts/27rdRhgObRN",
+   "https://luce-gas.it/fornitori/iren/reclami"
+  ],
+  "affidabilita": "incerta",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Sorgenia",
+  "slug": "sorgenia",
+  "categoria": "energia",
+  "pec": "sorgenia@legalmail.it",
+  "indirizzo_postale": "Sorgenia S.p.A., Casella Postale 14287, 20152 Milano (MI)",
+  "canali": [
+   "raccomandata A/R",
+   "PEC",
+   "area clienti / app Sorgenia",
+   "e-mail customercare@sorgenia.it"
+  ],
+  "preavviso": "Non inferiore a 1 mese (recesso per cessare la fornitura)",
+  "costi": "Non indicati; eventuali oneri del distributore",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali residenziali (nov. 2025) prevedono il recesso per cessazione via raccomandata A/R o PEC; la PEC è quella indicata nella pagina contatti ufficiale.",
+  "fonti": [
+   "https://www.sorgenia.it/contattaci",
+   "https://www.sorgenia.it/shared/files/2025-11/CGC_RES_ML_Nov2025_100Green.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Linear",
+  "slug": "linear",
+  "categoria": "assicurazioni",
+  "pec": "",
+  "indirizzo_postale": "Linear Assicurazioni S.p.A., Via del Gomito 1, 40127 Bologna",
+  "canali": [
+   "area personale linear.it",
+   "modulo online di recesso per ripensamento (linear.it/recesso-online)",
+   "raccomandata A/R",
+   "telefono 051 7193 193",
+   "e-mail clienti@linear.it"
+  ],
+  "preavviso": "Nessuna disdetta necessaria: auto e multirischi casa si risolvono automaticamente alla scadenza (senza tacito rinnovo). Recesso per ripensamento entro 30 giorni (auto) o 14 giorni (multirischi)",
+  "costi": "Nessuno indicato; in caso di recesso è rimborsato il premio non goduto",
+  "modulo": "https://www.linear.it/recesso-online",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). Anche la polizza multirischi casa Linear (set 07-2025) non ha proroga tacita e non si può disdire in corso d'anno. La PEC è quella societaria indicata nel set informativo. La PEC generale della compagnia è linear@pec.unipol.it, ma i documenti ufficiali non la indicano espressamente per la disdetta: meglio la raccomandata A/R o i canali indicati sopra.",
+  "fonti": [
+   "https://www.linear.it/contatti",
+   "https://www.linear.it/recesso-online",
+   "https://www.linear.it/extra/pdf/set_informativo_auto_base_07-2025.pdf",
+   "https://www.linear.it/extra/pdf/set_informativo_multirischi_07-2025.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Verti",
+  "slug": "verti",
+  "categoria": "assicurazioni",
+  "pec": "verti@pec.verti.it",
+  "indirizzo_postale": "Verti Assicurazioni S.p.A., Via A. Volta 16, 20093 Cologno Monzese (MI)",
+  "canali": [
+   "area personale My Verti",
+   "PEC verti@pec.verti.it (solo ricezione PEC)",
+   "e-mail semplice (polizze casa)",
+   "raccomandata A/R (obbligatoria se il contratto è vincolato a favore di terzi)"
+  ],
+  "preavviso": "Auto: nessuna disdetta (senza tacito rinnovo). Casa e famiglia: tacito rinnovo, disdetta almeno 10 giorni prima della scadenza indicata nella Scheda di Polizza",
+  "costi": "Nessuno indicato",
+  "modulo": "",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). La polizza Casa e Famiglia Verti si rinnova tacitamente: il set informativo (ed. 05/10/2026) ammette disdetta da My Verti o via e-mail/PEC almeno 10 giorni prima della scadenza; in caso di sinistro la disdetta ha effetto dopo 30 giorni.",
+  "fonti": [
+   "https://www.verti.it/media/Set-Informativo-Auto-UA-Stat.pdf",
+   "https://www.verti.it/media/Set-Informativo-Casa-e-Famiglia-Stat.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Prima Assicurazioni",
+  "slug": "prima-assicurazioni",
+  "categoria": "assicurazioni",
+  "pec": "",
+  "indirizzo_postale": "Prima Assicurazioni S.p.A., Piazzale Loreto 17, 20131 Milano (MI)",
+  "canali": [
+   "area personale prima.it",
+   "e-mail interruzioni@prima.it (auto) / interruzioni.casa@prima.it (casa)",
+   "raccomandata A/R"
+  ],
+  "preavviso": "Auto: nessuna disdetta (nessun tacito rinnovo). Casa e famiglia: disdetta almeno 15 giorni prima della scadenza via e-mail semplice o PEC",
+  "costi": "Nessuno indicato; in caso di recesso rimborso del premio non goduto al netto di imposte e contributo SSN",
+  "modulo": "",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). Prima è un'agenzia che distribuisce polizze di Great Lakes Insurance SE, Triglav e iptiQ. Nessuna PEC pubblicata per disdette: l'unica PEC nei set informativi (sinistri.prima@pec.it) è riservata alle denunce di sinistro.",
+  "fonti": [
+   "https://www.prima.it/set-informativi",
+   "https://www.prima.it/downloads/car/great_lakes/information_package",
+   "https://www.prima.it/downloads/casa/great_lakes/casa_v2/information_package"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Genertel",
+  "slug": "genertel",
+  "categoria": "assicurazioni",
+  "pec": "",
+  "indirizzo_postale": "Genertel S.p.A., Via Machiavelli 4, 34132 Trieste",
+  "canali": [
+   "area riservata genertel.it / app Genertel+",
+   "telefono +39 040 20 20 20",
+   "e-mail richiestainfo@genertel.it",
+   "PEC",
+   "raccomandata A/R"
+  ],
+  "preavviso": "Auto: nessuna disdetta (nessun tacito rinnovo). Casa Genertel: tacito rinnovo annuale, il contraente può dare disdetta entro le ore 24 dell'ultimo giorno di assicurazione",
+  "costi": "Nessuno indicato",
+  "modulo": "",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). La PEC è quella societaria indicata nel DIP aggiuntivo (07/2025); le condizioni Casa Genertel (ed. 10/2026) non fissano un canale specifico per la disdetta, solo il termine. La PEC generale della compagnia è genertel@pec.genertel.it, ma i documenti ufficiali non la indicano espressamente per la disdetta: meglio la raccomandata A/R o i canali indicati sopra.",
+  "fonti": [
+   "https://www.genertel.it/contatti",
+   "https://www.genertel.it/relevant-documents",
+   "https://www.genertel.it/assets/d2d74ff31848bbfa504318cae81d5a90/GT_DIPA_INT_Auto_07.25_ACC.pdf?download",
+   "https://www.genertel.it/assets/8f1afdb309887016838d7e335249ee43/GT_CA_Casa.pdf?download",
+   "https://www.genertel.it/assets/c6b64edf0debb786164f71f69fdfb97b/GT_DIPA_Casa.pdf?download"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "ConTe.it",
+  "slug": "conte-it",
+  "categoria": "assicurazioni",
+  "pec": "",
+  "indirizzo_postale": "ConTe.it (Admiral Intermediary Services S.A., sede secondaria), Via della Bufalotta 374, 00139 Roma",
+  "canali": [
+   "area clienti conte.it",
+   "telefono 06 4523 4523",
+   "e-mail informazioni@conte.it",
+   "PEC",
+   "raccomandata A/R"
+  ],
+  "preavviso": "Nessuna disdetta per RC auto (nessun tacito rinnovo). Recesso per ripensamento entro 14 giorni dall'emissione",
+  "costi": "In caso di recesso o annullamento rimborso del premio non goduto al netto di imposte e contributo SSN",
+  "modulo": "",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). ConTe.it è un intermediario (gruppo Admiral) che distribuisce polizze di Admiral Europe Compañía de Seguros; la PEC indicata nel set informativo CGA37 (01/01/2026) è quella dell'intermediario. Annullamento in corso d'anno possibile per vendita, demolizione, esportazione o furto del veicolo. La PEC generale della compagnia è admiralintermediaryservices@legalmail.it, ma i documenti ufficiali non la indicano espressamente per la disdetta: meglio la raccomandata A/R o i canali indicati sopra.",
+  "fonti": [
+   "https://www.conte.it/contatti/",
+   "https://www.conte.it/documenti-polizza/condizioni-cga-auto-moto/",
+   "https://www.conte.it/wp-content/uploads/2026/03/CGA37_Auto.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Zurich Connect",
+  "slug": "zurich-connect",
+  "categoria": "assicurazioni",
+  "pec": "",
+  "indirizzo_postale": "Zurich Insurance Company Ltd, Rappresentanza Generale per l'Italia, Via Benigno Crespi 23, 20159 Milano",
+  "canali": [
+   "e-mail documenti@it.zurich.com (indicando numero di polizza e targa)",
+   "telefono 02 83 430 430",
+   "PEC",
+   "raccomandata A/R"
+  ],
+  "preavviso": "RC auto: nessuna disdetta. Polizze casa 'No Pensieri' (canale Plenitude): tacito rinnovo, disdetta almeno 60 giorni prima della scadenza annuale",
+  "costi": "Nessuno indicato",
+  "modulo": "https://www.zurich.it/api/archiviodigitale/download?guid=9A8DA977-3B27-4682-B615-D8017288F5CE&filename=Modulo%20Unico%20Clienti%20Plenitude%200426.pdf",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). Il sito zurich-connect.it ora rimanda a zurich.it/zurich-connect: l'app non è più disponibile e le richieste sui contratti vanno a documenti@it.zurich.com. Fonti secondarie riferiscono che Zurich Connect non rinnova più le polizze veicoli scadute dopo il 20/10/2024 (non verificato sul sito ufficiale). PEC societaria dal set informativo; per i reclami esiste una PEC distinta (reclami@pec.zurich.it). La PEC generale della compagnia è zurich.insurance.company@pec.zurich.it, ma i documenti ufficiali non la indicano espressamente per la disdetta: meglio la raccomandata A/R o i canali indicati sopra.",
+  "fonti": [
+   "https://www.zurich.it/zurich-connect",
+   "https://www.zurich.it/api/archiviodigitale/download?guid=7C06ACF6-8BDC-4C5C-B01C-ED44DD91F716&filename=P35001_NP_Casa%20SI_0126.pdf.pdf",
+   "https://www.zurich.it/api/archiviodigitale/download?guid=9A8DA977-3B27-4682-B615-D8017288F5CE&filename=Modulo%20Unico%20Clienti%20Plenitude%200426.pdf",
+   "https://assicurazioni.segugio.it/compagnie-assicurative/zurich-connect.html"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "AXA Italia",
+  "slug": "axa-italia",
+  "categoria": "assicurazioni",
+  "pec": "axaassicurazioni@axa.legalmail.it",
+  "indirizzo_postale": "AXA Assicurazioni S.p.A., Sede Legale e Direzione Generale, Corso Como 17, 20154 Milano",
+  "canali": [
+   "raccomandata A/R",
+   "PEC",
+   "agenzia di riferimento",
+   "modulo online di recesso (solo polizze acquistate online, axa.it/diritto-di-recesso)",
+   "app My AXA"
+  ],
+  "preavviso": "Polizze con tacito rinnovo (es. Nuova Protezione Casa): disdetta almeno 30 giorni prima della scadenza annuale; recesso entro 14 giorni per polizze online, 60 giorni se connesse a mutuo",
+  "costi": "Nessuno indicato",
+  "modulo": "https://www.axa.it/c/document_library/get_file?uuid=b3793046-7c97-28d5-a52c-e228c6a5275d&groupId=715551",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). Il DIP Nuova Protezione Casa (ed. 05/2026) prevede disdetta via raccomandata o PEC ad AXA. Per polizze sottoscritte in agenzia valgono le condizioni del proprio contratto; PEC reclami distinta (reclamiisvapaxa@axa.legalmail.it).",
+  "fonti": [
+   "https://www.axa.it/diritto-di-recesso",
+   "https://www.axa.it/assicurazione-casa",
+   "https://www.axa.it/c/document_library/get_file?uuid=ad5a823a-7c11-37fb-f75b-dada2d607566&groupId=715551",
+   "https://www.axa.it/c/document_library/get_file?uuid=ac1f7b7a-1213-e31a-d217-1c39b5a65bdd&groupId=715551",
+   "https://www.axa.it/c/document_library/get_file?uuid=b3793046-7c97-28d5-a52c-e228c6a5275d&groupId=715551"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Unipol (ex UnipolSai)",
+  "slug": "unipol",
+  "categoria": "assicurazioni",
+  "pec": "unipol@pec.unipol.it",
+  "indirizzo_postale": "Unipol Assicurazioni S.p.A., Via Stalingrado 45, 40128 Bologna",
+  "canali": [
+   "agenzia di riferimento",
+   "raccomandata A/R",
+   "PEC",
+   "fax (indicato nei DIP)",
+   "area riservata unipol.it / app"
+  ],
+  "preavviso": "Polizze con tacito rinnovo: disdetta almeno 30 giorni prima della scadenza annuale (DIP aggiuntivi Unipol); verificare il proprio contratto",
+  "costi": "Nessuno indicato",
+  "modulo": "",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). Dal 31/12/2024 UnipolSai Assicurazioni è confluita in Unipol Assicurazioni S.p.A.: la vecchia PEC unipolsaiassicurazioni@pec.unipol.it compare ancora nei documenti più vecchi. La PEC attuale e l'ammissione della PEC per la disdetta risultano dai DIP Unipol (es. Protezione Impresa All Risks); per polizze vecchie UnipolSai alcuni DIP citano solo raccomandata o fax.",
+  "fonti": [
+   "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/e46169a8-a790-4368-8aa0-4d8a2d1361f4",
+   "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/bd6e0f75-c3a9-4d7d-8489-7fc19e1599ff",
+   "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/0e67aa15-7c1f-4575-9bf5-cd358c30bbbf",
+   "https://unipol.it/api/pub/ueba/download/doc/v1/fascicoli/1ff1ed94-36ba-433e-9d64-43a708620a22"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Generali Italia",
+  "slug": "generali-italia",
+  "categoria": "assicurazioni",
+  "pec": "generaliitalia@pec.generaligroup.com",
+  "indirizzo_postale": "Generali Italia S.p.A., Via Marocchesa 14, 31021 Mogliano Veneto (TV)",
+  "canali": [
+   "agenzia di riferimento",
+   "raccomandata A/R alla sede legale",
+   "PEC",
+   "area clienti generali.it / app MyGenerali"
+  ],
+  "preavviso": "Garanzie con tacita proroga (es. Immagina Adesso Casa): comunicazione scritta di disdetta almeno 30 giorni prima della scadenza indicata in polizza",
+  "costi": "Nessuno indicato",
+  "modulo": "",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). PEC e sede legale dal set informativo Immagina Adesso Casa (ed. 28/06/2025, agg. 01/10/2026), che indica raccomandata o PEC come canali per le comunicazioni scritte; per la mediazione esiste una PEC distinta (generali_mediazione@pec.generaligroup.com).",
+  "fonti": [
+   "https://www.generali.it/assicurazione-casa-e-tempo-libero/immagina-adesso-casa/",
+   "https://www.generali.it/cmsassets/site/9aa964a7-9172-441d-ad63-314b627836e9/ORI_Immagina_Adesso_CASA_ed._28.06.2025_agg._01.10.2026.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Allianz Italia",
+  "slug": "allianz-italia",
+  "categoria": "assicurazioni",
+  "pec": "",
+  "indirizzo_postale": "Allianz S.p.A., Piazza Tre Torri 3, 20145 Milano",
+  "canali": [
+   "agenzia di riferimento",
+   "raccomandata A/R",
+   "PEC",
+   "area clienti allianz.it"
+  ],
+  "preavviso": "Polizze casa Allianz Ultra: disdetta con raccomandata almeno 15 giorni prima della scadenza indicata nella Scheda tecnica (se non è esclusa la tacita proroga)",
+  "costi": "Nessuno indicato",
+  "modulo": "",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). Il set informativo Allianz Ultra Casa e Patrimonio (ed. 06/2022, ancora pubblicato) prevede la raccomandata; la PEC è quella societaria riportata nello stesso documento. Il sito allianz.it blocca i client automatici, documento letto tramite copia scaricata. La PEC generale della compagnia è allianz.spa@pec.allianz.it, ma i documenti ufficiali non la indicano espressamente per la disdetta: meglio la raccomandata A/R o i canali indicati sopra.",
+  "fonti": [
+   "https://www.allianz.it/le-soluzioni-per-te/casa-patrimonio/allianz-ultra-casa-e-patrimonio.html",
+   "https://www.allianz.it/content/dam/onemarketing/azit/allianz-it/le-soluzioni-per-te/casa-e-patrimonio/set-informativo-responsabilita-civile-casa-allianz-ultra-casa-patrimonio-edizione-2022.pdf",
+   "https://www.allianz.it/contattaci/contatti-e-assistenza/reclami.html"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ }
 ]
