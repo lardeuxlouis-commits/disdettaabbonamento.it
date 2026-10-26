@@ -1,23 +1,525 @@
 [
-  {
-    "nome": "BNL BNP Paribas",
-    "slug": "bnl-bnp-paribas",
-    "categoria": "altri-servizi",
-    "pec": "estinzionecontibnl@pec.bnlmail.com",
-    "indirizzo_postale": "BNL Gruppo BNP Paribas, presso Estinzione Conti, Via Campo Ascolano 33, 00071 Pratica di Mare (RM)",
-    "canali": [
-      "filiale",
-      "PEC con modulo dedicato",
-      "raccomandata A/R con modulo dedicato"
-    ],
-    "preavviso": "Nessun preavviso: recesso in qualsiasi momento. Tempi di chiusura fino a un massimo di 50 giorni lavorativi in presenza di carta di credito, Telepass, dossier titoli ecc.",
-    "costi": "Gratuito: nessuna penale né spese di chiusura (art. 120-bis TUB).",
-    "modulo": "https://bnl.it/rsc/bnl/documenti/conti/modulo-richiesta-estinzione_PEC.pdf (PEC) · https://bnl.it/rsc/bnl/documenti/conti/modulo-richiesta-estinzione_raccomandata.pdf (raccomandata) · https://bnl.it/rsc/bnl/documenti/conti/modulo-richiesta-recesso-conto-cointestato.pdf (conto cointestato)",
-    "note": "Il modulo va firmato da tutti gli intestatari e accompagnato da copia di documento d'identità e codice fiscale. Per un conto cointestato senza accordo, il recesso di un solo intestatario ha effetto dopo 60 giorni dalla comunicazione agli altri.",
-    "fonti": [
-      "https://bnl.it/it/Individui-e-Famiglie/Conti/come-chiudere-conto-corrente"
-    ],
-    "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
-  }
+ {
+  "nome": "BNL BNP Paribas",
+  "slug": "bnl-bnp-paribas",
+  "categoria": "altri-servizi",
+  "pec": "estinzionecontibnl@pec.bnlmail.com",
+  "indirizzo_postale": "BNL Gruppo BNP Paribas, presso Estinzione Conti, Via Campo Ascolano 33, 00071 Pratica di Mare (RM)",
+  "canali": [
+   "filiale",
+   "PEC con modulo dedicato",
+   "raccomandata A/R con modulo dedicato"
+  ],
+  "preavviso": "Nessun preavviso: recesso in qualsiasi momento. Tempi di chiusura fino a un massimo di 50 giorni lavorativi in presenza di carta di credito, Telepass, dossier titoli ecc.",
+  "costi": "Gratuito: nessuna penale né spese di chiusura (art. 120-bis TUB).",
+  "modulo": "https://bnl.it/rsc/bnl/documenti/conti/modulo-richiesta-estinzione_PEC.pdf (PEC) · https://bnl.it/rsc/bnl/documenti/conti/modulo-richiesta-estinzione_raccomandata.pdf (raccomandata) · https://bnl.it/rsc/bnl/documenti/conti/modulo-richiesta-recesso-conto-cointestato.pdf (conto cointestato)",
+  "note": "Il modulo va firmato da tutti gli intestatari e accompagnato da copia di documento d'identità e codice fiscale. Per un conto cointestato senza accordo, il recesso di un solo intestatario ha effetto dopo 60 giorni dalla comunicazione agli altri.",
+  "fonti": [
+   "https://bnl.it/it/Individui-e-Famiglie/Conti/come-chiudere-conto-corrente"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Intesa Sanpaolo",
+  "slug": "intesa-sanpaolo",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "Alla filiale Intesa Sanpaolo presso cui è aperto il conto (indirizzo della propria filiale, indicato nell'estratto conto o nell'app).",
+  "canali": [
+   "comunicazione scritta consegnata personalmente in filiale",
+   "comunicazione scritta inviata per posta (consigliata raccomandata A/R) alla filiale",
+   "tramite la nuova banca, con il servizio di trasferimento dei servizi di pagamento (solo consumatori)"
+  ],
+  "preavviso": "Nessun preavviso: la chiusura si può chiedere in qualsiasi momento. Prima della chiusura vanno restituite o distrutte le carte e date istruzioni sui servizi collegati (domiciliazioni, titoli, ecc.), che allungano i tempi.",
+  "costi": "Gratuito: recesso senza penalità e senza spese di chiusura (art. 120-bis TUB).",
+  "modulo": "Modulo di richiesta di chiusura disponibile in filiale; sul sito della banca è pubblicata la \"Guida alla chiusura del conto corrente\".",
+  "note": "Secondo il confronto clausole ufficiale, il recesso dal conto Intesa Sanpaolo non può essere comunicato tramite il Servizio a distanza (app/internet banking), ma solo in filiale o per iscritto. La PEC reclami@pec.intesasanpaolo.com è riservata ai reclami, non alla chiusura del conto.",
+  "fonti": [
+   "https://www.intesasanpaolo.com/content/dam/vetrina/trasparenza/it/Documenti/Doc/Pdf/FI/FI-Other/FI-1230.pdf",
+   "https://www.intesasanpaolo.com/content/dam/vetrina/documenti/prodotti/conti/confrontoclausoleconti.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "UniCredit",
+  "slug": "unicredit",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "Alla filiale UniCredit presso cui è aperto il conto (indirizzo della propria filiale).",
+  "canali": [
+   "comunicazione scritta con firma autografa inviata per posta (consigliata raccomandata A/R) alla filiale",
+   "richiesta presso la filiale",
+   "tramite la nuova banca, con il servizio di trasferimento dei servizi di pagamento"
+  ],
+  "preavviso": "Preavviso di 1 giorno: il recesso ha efficacia dal giorno successivo alla ricezione da parte della filiale. Estinzione entro 2 giorni lavorativi, aumentati dei tempi necessari in presenza di carta di credito, Telepass, deposito titoli o altri servizi collegati.",
+  "costi": "Gratuito: il recesso non comporta penalità o spese (art. 120-bis TUB).",
+  "modulo": "",
+  "note": "Alla lettera va allegata la dichiarazione di avvenuta distruzione delle carte collegate; con saldo positivo il foglio informativo chiede di recarsi in filiale per le disposizioni sulle somme. Il contratto non prevede la PEC per il recesso: Reclami@PEC.Unicredit.EU è solo per i reclami.",
+  "fonti": [
+   "https://trasparenza.unicredit.it/pdfprod/CC140_CONTO+CORRENTE+GENIUS+.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Crédit Agricole Italia",
+  "slug": "credit-agricole-italia",
+  "categoria": "altri-servizi",
+  "pec": "segreteriagenerale@pec.credit-agricole.it",
+  "indirizzo_postale": "Alla filiale Crédit Agricole Italia di appartenenza (dove è radicato il conto).",
+  "canali": [
+   "filiale, su appuntamento con il gestore (consigliato)",
+   "raccomandata A/R alla filiale di appartenenza",
+   "PEC firmata digitalmente (formato p7m)",
+   "servizio di portabilità tramite la nuova banca"
+  ],
+  "preavviso": "Nessun preavviso: la chiusura si può chiedere sempre. La data di estinzione è fissata entro 30 giorni dalla richiesta; con servizi collegati il termine decorre dall'ultimo addebito.",
+  "costi": "Gratuito: nessun costo né penale di chiusura.",
+  "modulo": "Per raccomandata o PEC non serve un modulo: bastano dati anagrafici e codice fiscale, copia del documento d'identità, IBAN e intestatario del conto, IBAN su cui trasferire il saldo, conferma di distruzione di carte e assegni. In filiale si firma il modulo di estinzione fornito dalla banca.",
+  "note": "La PEC deve partire da una casella riconducibile al titolare ed essere firmata digitalmente in formato p7m. Con la raccomandata vanno inserite nella busta le carte e gli assegni resi inutilizzabili. La PEC va inviata dalla casella PEC del titolare con firma digitale.",
+  "fonti": [
+   "https://www.credit-agricole.it/chiusura-conto-procedura-costi"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "BPER Banca",
+  "slug": "bper-banca",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "Alla filiale BPER Banca presso cui è acceso il conto.",
+  "canali": [
+   "filiale presso cui è acceso il conto (la filiale aiuta a compilare il modulo)",
+   "posta ordinaria o raccomandata A/R alla filiale",
+   "PEC (ammessa dalla guida ufficiale, indirizzo da verificare con la filiale)",
+   "tramite la nuova banca, con il trasferimento dei servizi di pagamento (solo consumatori)"
+  ],
+  "preavviso": "Nessun preavviso. Chiusura in 5 giornate operative senza servizi collegati; fino a 20 giorni lavorativi con carta di debito, 30 con bonifici ricorrenti, 60 con carta di credito, Telepass o dossier titoli con fondi. I termini decorrono da quando il cliente ha dato tutte le istruzioni e restituito carte e assegni.",
+  "costi": "Gratuito: nessuna spesa per l'estinzione del conto corrente.",
+  "modulo": "Modulo di recesso per privati allegato alla \"Guida pratica all'estinzione del conto corrente bancario\": https://www.bper.it/nuovatrasparenza/ParteGenerale/GUIDA%20EST%20CC%20BPER_DEF.pdf",
+  "note": "La guida ufficiale ammette la PEC ma esclude la normale e-mail, senza indicare un indirizzo dedicato; bper@pec.gruppobper.it è la PEC societaria generale (citata da fonti secondarie per la chiusura), meglio la raccomandata alla filiale. Senza istruzioni sui servizi collegati, dopo 12 giornate operative la banca li estingue d'ufficio.",
+  "fonti": [
+   "https://www.bper.it/nuovatrasparenza/ParteGenerale/GUIDA%20EST%20CC%20BPER_DEF.pdf",
+   "https://www.aranzulla.it/come-chiudere-conto-bper-1701045.html"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Banco BPM",
+  "slug": "banco-bpm",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "Alla filiale Banco BPM presso cui è aperto il conto.",
+  "canali": [
+   "comunicazione scritta consegnata in filiale",
+   "comunicazione scritta inviata per raccomandata A/R alla filiale",
+   "tramite la nuova banca, con il trasferimento dei servizi di pagamento (solo consumatori)"
+  ],
+  "preavviso": "Nessun preavviso: il recesso del cliente ha effetto immediato. La banca chiude il conto entro 20 giorni lavorativi da quando il recesso è operante.",
+  "costi": "Gratuito: recesso senza penalità e senza spese di estinzione (art. 120-bis TUB).",
+  "modulo": "",
+  "note": "I fogli informativi prevedono solo la comunicazione in forma scritta, senza un indirizzo dedicato: la lettera va alla propria filiale, restituendo carte e strumenti collegati. La PEC reclami@pec.bancobpmspa.it e l'indirizzo Gestione Reclami, Via Polenghi Lombardo 13, 26900 Lodi servono solo per i reclami.",
+  "fonti": [
+   "https://www.bancobpm.it/DWN/trasparenza/Documenti/64060.pdf",
+   "https://www.bancobpm.it/DWN/trasparenza/Documenti/64243.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Fineco",
+  "slug": "fineco",
+  "categoria": "altri-servizi",
+  "pec": "helpdesk@pec.finecobank.com",
+  "indirizzo_postale": "FinecoBank S.p.A., Ufficio Estinzioni, Via Rivoluzione d'Ottobre 16, 42123 Reggio Emilia (RE)",
+  "canali": [
+   "area riservata del sito (Home > Il mio conto > Gestione servizi > Richiedi chiusura conto), con firma digitale",
+   "PEC con modulo firmato",
+   "e-mail a helpdesk@finecobank.com con modulo firmato",
+   "raccomandata A/R con modulo firmato"
+  ],
+  "preavviso": "Nessun preavviso. Secondo l'help ufficiale l'estinzione avviene entro 7 giorni lavorativi da quando la banca ha ricevuto tutta la documentazione necessaria; dalla ricezione della richiesta il canone viene sospeso.",
+  "costi": "Gratuito: nessuna spesa di chiusura (art. 120-bis TUB); restano dovuti bolli e addebiti già maturati.",
+  "modulo": "https://images.fineco.it/cms/mail/immagini/docs/ON02020EST_estinzione_conto.pdf (modulo ON02020EST \"Richiesta estinzione conto\" con istruzioni)",
+  "note": "Prima dell'invio vanno distrutte carte e assegni e lasciato sul conto un saldo sufficiente per gli ultimi addebiti. La PEC societaria finecobankspa.pec@actaliscertymail.it non è il canale indicato per l'estinzione: usare helpdesk@pec.finecobank.com.",
+  "fonti": [
+   "https://help.finecobank.com/it/FAQ/FAQ-Banking.html",
+   "https://images.fineco.it/cms/mail/immagini/docs/ON02020EST_estinzione_conto.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "ING Italia",
+  "slug": "ing-italia",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "ING Bank N.V. Milan Branch, Viale Fulvio Testi 250, 20126 Milano (sede della banca in Italia)",
+  "canali": [
+   "Area Riservata app o sito ING (Conto Corrente Arancio > Altre azioni > Servizi del conto > Chiusura del conto)",
+   "comunicazione scritta alla sede della banca (raccomandata A/R)"
+  ],
+  "preavviso": "Nessuna penale. I fogli informativi ING prevedono per il recesso del cliente una comunicazione scritta con preavviso di 15 giorni (clausola verificata sul foglio del Conto Arancio); i tempi di chiusura dipendono dai servizi collegati.",
+  "costi": "Gratuito: recesso senza penalità e senza spese di chiusura.",
+  "modulo": "",
+  "note": "Il canale indicato dalla FAQ ufficiale per il Conto Corrente Arancio è la procedura online in Area Riservata; la lettera alla sede è un'alternativa prevista dal contratto. La PEC ufficioreclami@pec.ing.it è solo per i reclami.",
+  "fonti": [
+   "https://www.ing.it/faq/conto-corrente-arancio/come-chiudere-conto-corrente-arancio.html",
+   "https://secure.ing.it/PDF/FoglioInformativo_CU.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "N26 Italia",
+  "slug": "n26-italia",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "app o WebApp N26 (procedura guidata di chiusura del conto)",
+   "e-mail a support@n26.com dall'indirizzo collegato al conto, con modulo di chiusura firmato (se non si riesce ad accedere)"
+  ],
+  "preavviso": "Nessun preavviso indicato; la chiusura richiede alcuni giorni per i controlli di conformità. Recesso di 14 giorni dal contratto tramite il pulsante Recesso nell'app (Il mio conto > Note legali).",
+  "costi": "Nessun costo di chiusura indicato; eventuali saldi negativi o prestiti vanno rimborsati entro 7 giorni dalla chiusura. Con piano Premium possibile rimborso parziale dell'ultima quota.",
+  "modulo": "Modulo di cancellazione N26 (link \"modulo di cancellazione firmato\" nella pagina di supporto ufficiale), con richiesta di chiusura, nome completo, IBAN N26 e IBAN SEPA per il saldo.",
+  "note": "N26 Bank SE è una banca tedesca senza PEC né indirizzo postale indicati per la chiusura: i canali ufficiali sono l'app e l'e-mail al supporto. Prima di chiudere vanno disdetti il piano Premium e la SIM N26 e venduti crypto e investimenti.",
+  "fonti": [
+   "https://support.n26.com/it-it/conto-e-informazioni-personali/informazioni-e-dati-personali/come-chiudere-il-conto-n26"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Revolut",
+  "slug": "revolut",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "Revolut Bank UAB, Succursale italiana, Via Dante 7, 20123 Milano (per i conti con IBAN italiano). Per i conti lituani: Konstitucijos ave. 21B, 08130 Vilnius, Lituania.",
+  "canali": [
+   "app Revolut (Profilo > Impostazioni > Chiudi conto)",
+   "e-mail a support@revolut.com dall'indirizzo collegato al conto",
+   "raccomandata A/R a Via Dante 7, Milano (solo conto italiano)"
+  ],
+  "preavviso": "Nessun preavviso: recesso in qualsiasi momento. Prima della chiusura i saldi devono essere a zero, il piano riportato a Standard e chiusi investimenti, abbonamenti e crediti attivi.",
+  "costi": "Nessuna penale per il recesso. Dopo la chiusura, l'eventuale invio del saldo residuo può comportare commissioni (minimo 2 €) secondo i Termini personali.",
+  "modulo": "",
+  "note": "La PEC della succursale italiana revolut.italy.pec@legalmail.it compare nei Termini personali come recapito societario, ma non è indicata tra i canali di recesso. Se il conto è temporaneamente limitato, la chiusura può slittare fino alla fine delle verifiche.",
+  "fonti": [
+   "https://cdn.revolut.com/terms_and_conditions/pdf/termini_personali_d035c1ce_2.10.0_1781024577_it.pdf",
+   "https://help.revolut.com/en-IT/help/profile-and-plan/closing-account/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Hype",
+  "slug": "hype",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "app Hype (Profilo > Impostazioni > Chiudi conto)",
+   "e-mail a hello@hype.it dall'indirizzo registrato, se la procedura in app non è possibile",
+   "entro 14 giorni dalla sottoscrizione: Profilo > Impostazioni > Recedi dal contratto"
+  ],
+  "preavviso": "Nessun preavviso: la chiusura dall'app è immediata dopo la conferma. Requisiti: saldo a 0 €, salvadanai azzerati, pagamenti in uscita regolati, eventuale wallet Bitcoin svuotato.",
+  "costi": "Gratuito.",
+  "modulo": "",
+  "note": "Il contratto Hype è con Banca Sella S.p.A. (Piazza Gaudenzio Sella 1, 13900 Biella); le PEC segreteria@pec.sella.it e reclami@pec.sella.it non sono indicate per la chiusura, che va chiesta ai recapiti Hype. Scaricare estratti conto e giacenza media prima di chiudere: l'accesso si perde subito.",
+  "fonti": [
+   "https://support.hype.it/privati/articles/come-chiudere-il-conto",
+   "https://support.hype.it/privati/articles/come-posso-recedere-dal-contratto",
+   "https://api.hype.it/SSRDocumentDisplayer?dtdPG=B23_HYP&dtdPE=1"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "BancoPosta (conto Poste Italiane)",
+  "slug": "bancoposta",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "Poste Italiane, Centro Servizi Firenze 2, CP 5000, 50142 Firenze (FI)",
+  "canali": [
+   "qualsiasi Ufficio Postale, con documento d'identità, carta di debito e assegni inutilizzati",
+   "raccomandata A/R con il modulo di chiusura compilato e copia del documento d'identità"
+  ],
+  "preavviso": "Nessun preavviso: recesso in qualsiasi momento, per iscritto. Chiusura entro 15 giorni dal ricevimento della comunicazione.",
+  "costi": "Gratuito: nessuna spesa di chiusura o penale; sul conto devono restare fondi sufficienti per canoni e bollo maturati.",
+  "modulo": "https://www.media.poste.it/94ea975b-c9bd-4e34-8ecd-cbc06943b50d/web/conti-correnti-modulo-richiesta-chiusura (Modulo di richiesta chiusura conto corrente BancoPosta persone fisiche, ed. marzo 2026)",
+  "note": "Il saldo residuo viene restituito con la modalità indicata nel modulo (assegno vidimato, postagiro o bonifico). Nessuna PEC indicata per la chiusura: usare raccomandata o Ufficio Postale.",
+  "fonti": [
+   "https://www.poste.it/assistenza/faq-conti-e-carte",
+   "https://www.poste.it/resources/bancoposta/pdf/trasparenza/FI_CBPF_C.pdf",
+   "https://www.media.poste.it/94ea975b-c9bd-4e34-8ecd-cbc06943b50d/web/conti-correnti-modulo-richiesta-chiusura"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Banca Mediolanum",
+  "slug": "banca-mediolanum",
+  "categoria": "altri-servizi",
+  "pec": "bancamediolanum@pec.mediolanum.it",
+  "indirizzo_postale": "Banca Mediolanum S.p.A., Palazzo Meucci, Via Ennio Doris, 20079 Basiglio Milano 3 (MI)",
+  "canali": [
+   "raccomandata A/R (o altro servizio postale) con comunicazione scritta firmata dall'intestatario",
+   "\"Modulo di chiusura del conto\" firmato, consegnabile anche tramite il proprio Consulente Finanziario (Family Banker)",
+   "funzione online di chiusura in App Mediolanum o area riservata, con firma digitale",
+   "PEC inviata dalla PEC del cliente e firmata digitalmente"
+  ],
+  "preavviso": "Recesso in qualsiasi momento; diventa efficace decorsi 10 giorni lavorativi dalla ricezione della comunicazione da parte della banca.",
+  "costi": "Gratuito: estinzione del conto corrente 0,00 €, nessuna penalità né spesa di chiusura.",
+  "modulo": "\"Modulo di chiusura del conto\" disponibile presso il Consulente Finanziario, le succursali o su richiesta al Banking Center (non pubblicato online).",
+  "note": "Se al conto è collegato un deposito titoli, va prima liberato da tutte le posizioni. Per i reclami esiste una PEC separata (ufficioreclami@pec.mediolanum.it). La PEC va inviata dalla casella PEC del titolare con firma digitale.",
+  "fonti": [
+   "https://www.bancamediolanum.it/static-assets/documenti/file/it/2026/03/30//FI_ContoMediolanum_P.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Nexi (carta di credito)",
+  "slug": "nexi-carta",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "Nexi Payments SpA, Corso Sempione 55, 20149 Milano",
+  "canali": [
+   "raccomandata A/R a Nexi Payments",
+   "modulo di recesso presso la propria banca (carte richieste tramite banca)",
+   "entro 14 giorni, per carte richieste a distanza: funzione di recesso online nell'Area Riservata dell'App Nexi Pay"
+  ],
+  "preavviso": "Nessun preavviso: recesso in qualsiasi momento, efficace da quando Nexi ne viene a conoscenza. Chiusura del contratto entro 45 giorni dalla ricezione della comunicazione.",
+  "costi": "Senza penalità e senza spese. Entro 30 giorni dall'efficacia del recesso va pagato in un'unica soluzione quanto dovuto a Nexi (saldo e rate residue).",
+  "modulo": "",
+  "note": "Dopo il recesso la carta va tagliata in due e vanno revocati gli addebiti ricorrenti presso i beneficiari. La PEC reclami.nexipayments@pec.nexi.it e l'indirizzo Claims Management servono solo per i reclami.",
+  "fonti": [
+   "https://www.nexi.it/content/dam/nexi/download/trasparenza/carte-pagamento/consumer-carte-di-credito/id-carte-credito-privati-fi-nexi.pdf",
+   "https://www.nexi.it/content/dam/nexi/download/trasparenza/carte-pagamento/consumer-carte-di-credito/ib-carte-credito-privati-fi-nexi-banca.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "PayPal Italia",
+  "slug": "paypal-italia",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "PayPal (Europe) S.à r.l. et Cie, S.C.A., c/a Ufficio legale, 22-24 Boulevard Royal, L-2449 Lussemburgo",
+  "canali": [
+   "sito: Impostazioni > Opzioni conto > Chiudi il tuo conto",
+   "app: icona Profilo > Chiudi il tuo conto"
+  ],
+  "preavviso": "Nessun preavviso né vincolo: il conto si può chiudere in qualsiasi momento. Recesso di 14 giorni dall'apertura seguendo la stessa procedura di chiusura.",
+  "costi": "Nessuna penale; restano dovute le tariffe per i servizi già usati. PayPal può trattenere fondi per il tempo necessario a coprire storni o contestazioni.",
+  "modulo": "",
+  "note": "Non si può chiudere il conto con saldo residuo, limitazioni o problemi aperti; una volta chiuso non può essere riaperto. Nessuna PEC: la posta all'Ufficio legale in Lussemburgo è prevista per gli avvisi legali, la chiusura ordinaria si fa online.",
+  "fonti": [
+   "https://www.paypal.com/it/cshelp/article/come-faccio-a-chiudere-il-mio-conto-paypal-help247",
+   "https://www.paypal.com/it/legalhub/paypal/useragreement-full"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Widiba",
+  "slug": "widiba",
+  "categoria": "altri-servizi",
+  "pec": "richieste@widipec.it",
+  "indirizzo_postale": "Banca Widiba S.p.A., Zona industriale Strada Provinciale Lecce-Surbo, 73100 Lecce",
+  "canali": [
+   "PEC a richieste@widipec.it",
+   "raccomandata o posta ordinaria all'indirizzo di Lecce",
+   "area riservata internet banking: \"Richieste chiusura conto corrente\" > \"Richiesta con firma digitale\""
+  ],
+  "preavviso": "Nessun preavviso: recesso in qualsiasi momento con comunicazione scritta. Chiusura entro un massimo di 68 giorni solari a seconda dei servizi collegati, dal ricevimento della richiesta completa.",
+  "costi": "Gratuito: nessuna spesa, onere o penalità per la chiusura del conto.",
+  "modulo": "",
+  "note": "La richiesta deve essere firmata e indicare il numero del conto, la dichiarazione di distruzione di carte e assegni (oppure la loro restituzione per raccomandata a Lecce) e l'IBAN su cui accreditare il saldo. In alternativa si può chiedere la chiusura tramite la nuova banca con il trasferimento dei servizi di pagamento.",
+  "fonti": [
+   "https://www.widiba.it/banca/pb_nw/pdfDocumentTemplate.action?print=true&struts.token.name=null&sezId=trasparenza&pageId=trasparenza&template=AOL_FOGLIO_INFORMATIVO",
+   "https://www.widiba.it/banca-online/informazioni-utili/trasparenza"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "FitActive",
+  "slug": "fitactive",
+  "categoria": "palestre",
+  "pec": "",
+  "indirizzo_postale": "Alla società che gestisce la palestra FitActive di iscrizione (ragione sociale e indirizzo indicati sul Modulo d'Iscrizione).",
+  "canali": [
+   "raccomandata A/R alla società titolare del club",
+   "PEC della società titolare del club, se indicata nel contratto",
+   "consegna a mano in reception con ricevuta"
+  ],
+  "preavviso": "Non indicato nelle Condizioni Generali pubblicate: durata, rinnovo e preavviso sono quelli del Modulo d'Iscrizione firmato nel singolo club.",
+  "costi": "Secondo le Condizioni Generali l'iscritto deve pagare per intero quanto stabilito dal contratto, anche se interrompe la frequenza. Sospensione possibile fino a un mese solo per l'annuale.",
+  "modulo": "",
+  "note": "FitActive è una rete in franchising: il contratto è con la società che gestisce la singola palestra, non con il marchio, quindi la lettera va indirizzata a quella società. Nessuna PEC centrale per le disdette.",
+  "fonti": [
+   "https://www.fitactive.it/images/ingresso/informativa_abbonamenti.pdf",
+   "https://www.fitactive.it/Contatti/Faq"
+  ],
+  "affidabilita": "incerta",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Orange Palestre Italiane",
+  "slug": "orange-palestre-italiane",
+  "categoria": "palestre",
+  "pec": "",
+  "indirizzo_postale": "Orange Italia S.p.A., Via Alessandro Manzoni 3, 20121 Milano",
+  "canali": [
+   "app Orange Palestre Italiane (canale indicato nelle FAQ ufficiali)",
+   "raccomandata A/R alla società, come prova scritta se l'app non funziona"
+  ],
+  "preavviso": "Disdetta richiedibile in qualsiasi momento, tranne l'ultimo giorno del periodo in corso. Abbonamento prova 7 giorni: disdire via app entro il sesto giorno, altrimenti diventa mensile.",
+  "costi": "Costo di disdetta pari a circa il 50% della mensilità (FAQ ufficiale). Disdetta consentita solo senza rate insolute.",
+  "modulo": "",
+  "note": "Il gruppo ha assorbito alcuni club GetFit ed ex Virgin Active: per questi abbonamenti verificare l'intestatario del contratto. Nessuna PEC pubblicata sul sito; diversi utenti segnalano su Altroconsumo disdette via app o PEC non lavorate, conservare sempre la prova dell'invio.",
+  "fonti": [
+   "https://www.orangepalestreitaliane.it/faq",
+   "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/orange-palestre-pagamenti-no/7be22669db9aa4bd7f"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Fit and Go",
+  "slug": "fit-and-go",
+  "categoria": "palestre",
+  "pec": "",
+  "indirizzo_postale": "Alla società che gestisce il centro Fit and Go di iscrizione (indicata nel contratto). Casa madre: FIT&GO S.r.l., Via Salento 63, 00162 Roma.",
+  "canali": [
+   "raccomandata A/R o PEC alla società titolare del centro",
+   "e-mail helpdesk@fitandgo.it solo per gli acquisti online (gift card e prodotti)"
+  ],
+  "preavviso": "Non pubblicato: dipende dal contratto del singolo centro. Per gli acquisti online sul sito vale il recesso di 14 giorni.",
+  "costi": "Non pubblicati online.",
+  "modulo": "",
+  "note": "Fit and Go è una rete in franchising di centri EMS (circa 95 sedi): l'abbonamento si stipula con il singolo centro. La PEC fitego@legalmail.it è quella societaria della casa madre, non un canale dichiarato per le disdette.",
+  "fonti": [
+   "https://fitandgo.it/termini-e-condizioni/"
+  ],
+  "affidabilita": "incerta",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Technogym (abbonamento app e contenuti)",
+  "slug": "technogym-abbonamento",
+  "categoria": "palestre",
+  "pec": "",
+  "indirizzo_postale": "Technogym S.p.A., Via Calcinaro 2861, 47521 Cesena (FC)",
+  "canali": [
+   "area personale dell'account Technogym > \"My subscriptions\"",
+   "se pagato con finanziamento di terzi: contattare la finanziaria o scrivere a customerservice@technogym.com",
+   "se acquistato in app: impostazioni abbonamenti di App Store o Google Play"
+  ],
+  "preavviso": "Disdetta in qualsiasi momento prima del rinnovo: l'abbonamento ai Contenuti è mensile e si rinnova di mese in mese. Recesso di 14 giorni dalla conclusione del contratto per i servizi.",
+  "costi": "Nessuna penale; i pagamenti già fatti non sono rimborsabili e non ci sono rimborsi per periodi parziali.",
+  "modulo": "Modulo tipo di recesso sulla pagina \"Diritto di recesso\" del sito Technogym (facoltativo).",
+  "note": "La PEC technogym.amministrazione@legalmail.it è amministrativa e non è indicata per le disdette. Per il recesso di 14 giorni le condizioni indicano posta, fax o e-mail a informazioni@technogym.com.",
+  "fonti": [
+   "https://www.technogym.com/it-IT/condizioni-vendita/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Freeletics",
+  "slug": "freeletics",
+  "categoria": "palestre",
+  "pec": "",
+  "indirizzo_postale": "Freeletics GmbH, Berg-am-Laim-Straße 111, 81673 Monaco di Baviera, Germania",
+  "canali": [
+   "sito Freeletics: impostazioni del profilo utente (abbonamenti acquistati sul sito)",
+   "e-mail a support@freeletics.com",
+   "posta all'indirizzo di Monaco",
+   "abbonamenti acquistati in app: impostazioni di App Store o Google Play"
+  ],
+  "preavviso": "Disdetta in qualsiasi momento con effetto alla fine del periodo minimo o del periodo di rinnovo in corso; con pagamento iTunes almeno 24 ore prima della scadenza. Il recesso di 14 giorni vale solo per i nuovi abbonamenti, non per i rinnovi.",
+  "costi": "Nessuna penale; l'accesso resta attivo fino alla fine del periodo pagato. L'acquisto \"Per sempre\" non è rimborsabile.",
+  "modulo": "",
+  "note": "Ogni abbonamento va disdetto separatamente; dopo la disdetta Freeletics invia un'e-mail di conferma. Società tedesca, nessuna PEC.",
+  "fonti": [
+   "https://www.freeletics.com/it/pages/terms/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "UnipolMove (telepedaggio)",
+  "slug": "unipolmove",
+  "categoria": "altri-servizi",
+  "pec": "unipolmove@pec.unipoltech.it",
+  "indirizzo_postale": "UnipolTech S.p.A., Via Alfredo Calzoni 8, 40128 Bologna",
+  "canali": [
+   "app UnipolMove: Profilo > Documenti > Contratti Sottoscritti > \"Recedi\"",
+   "area riservata unipolmove.it: pulsante \"Recedi\" tra le Azioni Rapide",
+   "e-mail a assistenzatelepedaggio@unipoltech.it",
+   "posta ordinaria o raccomandata A/R a Via Alfredo Calzoni 8, Bologna",
+   "Agenzia Unipol dove è stato sottoscritto il contratto"
+  ],
+  "preavviso": "Recesso in qualsiasi momento, efficace decorsi 30 giorni dalla ricezione della richiesta. Il dispositivo va restituito entro 15 giorni dalla data di efficacia del recesso.",
+  "costi": "Nessuna spesa di chiusura o penale per il recesso. Penale di 25 € per ogni dispositivo non restituito nei tempi; spedizione del reso a carico del cliente (magazzino Unipoltech c/o INTEGRA, Via Umbria 7, 42122 Reggio Emilia).",
+  "modulo": "Modulo di recesso tipo allegato alle \"Norme e Condizioni del Servizio UnipolMove - Privati\": https://www.unipolmove.it/wp-content/uploads/2026/10/Norme-e-Condizioni-del-Servizio-UnipolMove_Privati_v20260911.pdf",
+  "note": "La sola restituzione del dispositivo, senza comunicazione di recesso, non chiude il contratto. La PEC unipolmove@pec.unipoltech.it è quella indicata nel modulo di recesso del contratto; il footer del sito riporta anche unipolmove@pec.unipol.it.",
+  "fonti": [
+   "https://www.unipolmove.it/faq/recesso/",
+   "https://www.unipolmove.it/wp-content/uploads/2026/10/Norme-e-Condizioni-del-Servizio-UnipolMove_Privati_v20260911.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "MooneyGo (telepedaggio)",
+  "slug": "mooneygo",
+  "categoria": "altri-servizi",
+  "pec": "mooneygo@pec.mooney.it",
+  "indirizzo_postale": "",
+  "canali": [
+   "PEC a mooneygo@pec.mooney.it",
+   "app MooneyGo: Profilo > Telepedaggio (procedura guidata in fondo alla pagina)",
+   "modulo online sulla pagina di assistenza",
+   "assistenza (+39) 071 9207000 o assistenza@mooneygo.it per indicazioni"
+  ],
+  "preavviso": "Disdetta in qualsiasi momento, per uno o più dispositivi; disdicendo l'ultimo dispositivo il contratto cessa. Ripensamento entro 14 giorni dall'attivazione se sottoscritto via app o web.",
+  "costi": "Nessun costo di disdetta. Il dispositivo va riconsegnato entro 20 giorni, con spedizione tracciabile a carico del cliente; penale di 25 € per dispositivo non riconsegnato o riconsegnato in ritardo.",
+  "modulo": "",
+  "note": "Dopo la disdetta MooneyGo invia il foglio di reso con le istruzioni per la riconsegna. Il sito non indica un indirizzo postale per la disdetta: usare la PEC.",
+  "fonti": [
+   "https://www.mooneygo.it/assistenza/disdetta/come-effettuare-disdetta-dispositivo-di-telepedaggio-mooneygo/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Abbonamenti riviste Mondadori (Abbonamenti.it)",
+  "slug": "abbonamenti-mondadori",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "Direct Channel S.p.A., Ufficio Abbonamenti, c/o Casella postale 97, Via Dalmazia 13, 25126 Brescia (BS)",
+  "canali": [
+   "area clienti di abbonamenti.it (disattivazione rinnovo automatico / disdetta)",
+   "per il recesso: funzione \"Recesso online\" nell'area clienti",
+   "raccomandata A/R all'Ufficio Abbonamenti di Brescia",
+   "e-mail recesso.abbonamenti@directchannel.it (recesso abbonamenti)"
+  ],
+  "preavviso": "Rinnovo automatico disattivabile in qualsiasi momento; la disdetta ha effetto alla scadenza del periodo in corso. Recesso entro 14 giorni dalla consegna del primo numero (cartaceo) o dalla conferma d'ordine (digitale).",
+  "costi": "Nessuna penale; il periodo in corso non è rimborsabile. In caso di recesso si rispediscono i numeri ricevuti entro 14 giorni.",
+  "modulo": "Modulo di recesso pubblicato sul portale abbonamenti.it (facoltativo).",
+  "note": "Gli abbonamenti alle riviste Mondadori venduti su abbonamenti.it sono gestiti da Direct Channel S.p.A. (gruppo Mondadori, sede legale Via Gian Battista Vico 42, Milano). Nessuna PEC indicata nelle condizioni.",
+  "fonti": [
+   "https://www.abbonamenti.it/immagini/pdf/cga.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ }
 ]
