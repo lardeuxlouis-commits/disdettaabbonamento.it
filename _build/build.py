@@ -3,7 +3,9 @@
 Legge data/brands-*.json e scrive il sito in site/.
 Uso : python3 _build/build.py
 """
-import json, glob, os, html, re, shutil, datetime as dt
+import json, glob, os, html, re, shutil, sys, datetime as dt
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from guide import GUIDE
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "docs")
@@ -168,6 +170,7 @@ ul.canali li{background:var(--soft);border-radius:12px;padding:10px 14px;font-si
 @keyframes shine{60%,100%{transform:translateX(120%)}}
 @media(max-width:820px){.hero.home{grid-template-columns:1fr}.demo{transform:none;margin-top:8px}.float.f1{left:8px;top:-14px}.float.f2{display:none}.reviews{grid-template-columns:1fr}.urg{flex-wrap:wrap}.urg .btn{margin:6px 0 0;width:100%;justify-content:center}}
 @media (prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+article.guide{max-width:760px}article.guide ul,article.guide ol{padding-left:22px}article.guide li{margin:6px 0}
 details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:10px 0}summary{font-weight:700;cursor:pointer}details p{margin:10px 0 0;color:var(--muted)}
 .src{font-size:14px;color:var(--muted)}.src a{color:var(--muted)}
 .why{display:flex;gap:14px;align-items:flex-start;background:var(--okbg);border-radius:14px;padding:16px 18px;margin:22px 0;color:#0d4f35;font-size:15.5px}.why b{display:block}
@@ -337,9 +340,9 @@ def page(title, desc, path, body, schema=None, sticky=""):
 <meta property="og:type" content="website"><meta property="og:url" content="{canon}"><meta property="og:locale" content="it_IT">
 <link rel="icon" type="image/png" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta property="og:image" content="https://disdettaabbonamento.it/og.png"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/style.css">{ld}</head><body{bodycls}>
 <header class="top"><div class="wrap"><a class="logo" href="/"><i>✉</i><span class="lt">Disdetta<span>Abbonamento</span>.it</span></a>
-<nav class="main"><a href="/telefonia/">Telefonia</a><a href="/luce-gas/">Luce e gas</a><a href="/assicurazioni/">Assicurazioni</a><a href="/come-funziona/">Come funziona</a><a class="cta" href="/#cerca"><span class="lg">Trova il tuo operatore</span><span class="sm">Cerca</span></a></nav></div></header>
+<nav class="main"><a href="/telefonia/">Telefonia</a><a href="/luce-gas/">Luce e gas</a><a href="/assicurazioni/">Assicurazioni</a><a href="/guide/">Guide</a><a class="cta" href="/#cerca"><span class="lg">Trova il tuo operatore</span><span class="sm">Cerca</span></a></nav></div></header>
 <main class="wrap">{body}</main>
-<footer><div class="wrap"><p><a href="/">Home</a><a href="/come-funziona/">Come funziona</a><a href="/chi-siamo/">Chi siamo</a><a href="/note-legali/">Note legali</a><a href="/termini/">Termini e condizioni</a><a href="/privacy/">Privacy</a></p>
+<footer><div class="wrap"><p><a href="/">Home</a><a href="/guide/">Guide</a><a href="/come-funziona/">Come funziona</a><a href="/chi-siamo/">Chi siamo</a><a href="/note-legali/">Note legali</a><a href="/termini/">Termini e condizioni</a><a href="/privacy/">Privacy</a></p>
 <p>{SITE} è un servizio indipendente, non affiliato agli operatori citati. I marchi appartengono ai rispettivi proprietari. Le informazioni sono verificate sulle fonti ufficiali alla data indicata in ogni pagina: controlla sempre il tuo contratto.</p></div></footer>
 {sticky}<script src="/app.js" defer></script></body></html>"""
 
@@ -423,6 +426,9 @@ def brand_page(b, peers):
 </section>"""
     if lettera:
         body += PLANS
+    rel = [g for g in GUIDE if b["categoria"] in g["cats"]][:3]
+    if rel:
+        body += '<h2>Guide utili</h2><div class="grid">' + "".join(f'<a class="card" href="/guide/{g["slug"]}/"><span class="av altri-servizi">📘</span><span><b>{E(g["h1"])}</b><small>Guida</small></span></a>' for g in rel) + '</div>'
     body += f"<h2>Cosa dice la legge</h2><p>{E(cat['legge'])}</p>"
     faqs = faq_brand(b, cat)
     if faqs:
@@ -469,6 +475,8 @@ def main():
     os.makedirs(OUT)
     brands = []
     for f in sorted(glob.glob(os.path.join(ROOT, "data", "brands-*.json"))):
+        if os.path.basename(f).startswith("brands-2-") and not os.path.exists(f + ".ok"):
+            continue
         try:
             brands += json.load(open(f, encoding="utf-8"))
         except Exception as e:
@@ -490,6 +498,22 @@ def main():
         write(p, page(f"Disdetta {cat['nome'].lower()}: PEC, indirizzi e moduli ({TODAY[:4]})",
                       f"Come disdire {cat['nome'].lower()}: indirizzi PEC e postali, preavviso e lettere di disdetta gratuite per {len(lst)} operatori, verificati sulle fonti ufficiali.", p, body))
         urls.append(p)
+    # guide
+    gcards = []
+    for g in GUIDE:
+        gp = f"/guide/{g['slug']}/"
+        rel = [b for b in brands if b["categoria"] in g["cats"]][:9]
+        body = f'<section class="hero small"><p class="crumbs"><a href="/">Home</a> › <a href="/guide/">Guide</a> › {E(g["h1"])}</p><span class="pill"><b>✓</b> Aggiornata il {data_it(TODAY)}</span><h1>{E(g["h1"])}</h1></section>'
+        body += '<article class="guide">' + g["body"] + '</article>'
+        body += '<section class="band"><h2>Pronto a disdire?</h2><p>Cerca il tuo operatore: indirizzo verificato e lettera pronta in un minuto.</p><a class="btn shine" href="/#cerca">Trova il tuo operatore →</a></section>'
+        if rel:
+            body += '<h2>Operatori collegati</h2><div class="grid">' + "".join(card(b) for b in rel) + '</div>'
+        sch = [{"@context": "https://schema.org", "@type": "Article", "headline": g["h1"], "dateModified": TODAY, "inLanguage": "it-IT",
+                "author": {"@type": "Organization", "name": SITE}, "publisher": {"@type": "Organization", "name": SITE}, "mainEntityOfPage": DOMAIN + gp}]
+        write(gp, page(g["title"], g["desc"], gp, body, sch)); urls.append(gp)
+        gcards.append(f'<a class="card" href="{gp}"><span class="av altri-servizi">📘</span><span><b>{E(g["h1"])}</b><small>{E(g["desc"][:80])}…</small></span></a>')
+    body = '<section class="hero small"><p class="crumbs"><a href="/">Home</a> › Guide</p><h1>Guide alla <em>disdetta</em></h1><p class="lead">Leggi, canali di invio, casi particolari e cosa fare se l\'operatore non risponde.</p></section><div class="grid">' + "".join(gcards) + '</div>'
+    write("/guide/", page("Guide alla disdetta: leggi, PEC, raccomandata e casi particolari", "Tutte le guide per disdire un contratto: legge Bersani, come inviare una PEC, trasloco, decesso, recesso entro 14 giorni, reclami e conciliazioni.", "/guide/", body)); urls.append("/guide/")
     # home
     nuff = sum(1 for b in brands if b.get("affidabilita") == "ufficiale")
     body = '<section class="hero home" id="cerca"><div><span class="pill"><b>✓</b> Aggiornato il ' + data_it(TODAY) + '</span>'
@@ -508,6 +532,7 @@ def main():
             body += f'<h2><a href="/{cat["slug"]}/" style="color:inherit;text-decoration:none">{E(cat["nome"])}</a></h2><div class="grid">' + "".join(card(b) for b in bycat[c]) + "</div>"
     body += '</div>'
     body += '<h2>Perché usare Disdetta Abbonamento</h2><div class="rv trust"><div><h3>🔎 Indirizzi verificati</h3><p>Ogni PEC e indirizzo viene dai documenti dell\'operatore, con fonte e data di verifica in ogni scheda.</p></div><div><h3>⚖️ Lettera con valore legale</h3><p>Il testo cita le norme giuste (come la legge Bersani per la telefonia) e chiede lo stop di ogni addebito.</p></div><div><h3>🔒 Privacy totale</h3><p>La lettera si genera nel tuo browser. Non chiediamo registrazione e non salviamo i tuoi dati.</p></div></div>'
+    body += '<h2>Le nostre guide</h2><div class="grid rv">' + ''.join(gcards[:6]) + '</div><p><a href="/guide/">Tutte le guide →</a></p>'
     body += REVIEWS
     body += '<section class="band"><h2>Pronto a disdire?</h2><p>Cerca il tuo operatore e prepara la lettera adesso, è gratis.</p><a class="btn shine" href="#cerca">Trova il tuo operatore →</a></section>'
     write("/", page("Disdetta abbonamento: PEC, indirizzi e lettere di disdetta gratis",
