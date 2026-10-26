@@ -18,4 +18,5 @@ function genLettera(){
   return false;
 }
 function copiaLettera(b){navigator.clipboard.writeText(document.getElementById('lettera').textContent).then(()=>{b.textContent='Copiata';setTimeout(()=>b.textContent='Copia il testo',1500)})}
+function copiaPec(b,v){navigator.clipboard.writeText(v).then(()=>{b.textContent='Copiato';setTimeout(()=>b.textContent='Copia',1500)})}
 function filtra(q){q=q.toLowerCase().trim();document.querySelectorAll('[data-nome]').forEach(c=>{c.style.display=!q||c.dataset.nome.includes(q)?'':'none'})}
