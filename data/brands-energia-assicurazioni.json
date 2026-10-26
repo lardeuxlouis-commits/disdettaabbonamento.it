@@ -1,0 +1,195 @@
+[
+  {
+    "nome": "Enel Energia",
+    "slug": "enel-energia",
+    "categoria": "energia",
+    "pec": "",
+    "indirizzo_postale": "Enel Energia S.p.A., Casella Postale 8080, 85100 Potenza (PZ)",
+    "canali": [
+      "area clienti enel.it",
+      "app Enel Energia",
+      "numero verde 800 900 860 (servizio clienti; numero unico 140 indicato su enel.it)",
+      "raccomandata A/R"
+    ],
+    "preavviso": "1 mese dalla ricezione della comunicazione di recesso (per cessazione della fornitura)",
+    "costi": "Non indicati nelle condizioni generali; eventuali oneri del distributore per la disattivazione",
+    "modulo": "",
+    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali (clienti domestici, mag-ott 2023) prevedono la raccomandata alla CP 8080 per la cessazione. La PEC servizio.clienti.enelenergia@pec.enel.it compare su enel.it come recapito per comunicazioni e reclami (pagina fibra) ed è citata da fonti secondarie per le disdette, ma le condizioni generali non la indicano per il recesso; enelenergia@pec.enel.it è riservata agli organismi di mediazione.",
+    "fonti": [
+      "https://enel.it/content/dam/asset/documenti/assistenza/luce-gas/articoli/condizioni-fornitura-residenziali/cgf-res-mag-ott-23.pdf",
+      "https://www.enel.it/en-us/assistenza/fibra/codice-comunicazioni-elettroniche",
+      "https://www.money.it/Enel-energia-come-fare-disdetta"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Eni Plenitude",
+    "slug": "eni-plenitude",
+    "categoria": "energia",
+    "pec": "",
+    "indirizzo_postale": "Eni Plenitude S.p.A. Società Benefit, Casella Postale 71, 20068 Peschiera Borromeo (MI)",
+    "canali": [
+      "area personale eniplenitude.com / app Plenitude",
+      "numero verde 800 900 700 (da cellulare 02 444141)",
+      "Plenitude Store",
+      "raccomandata A/R (o altro mezzo che provi la ricezione)"
+    ],
+    "preavviso": "Il recesso per cessazione ha efficacia entro 1 mese dalla ricezione della comunicazione",
+    "costi": "Nessun onere di recesso anticipato (scheda sintetica)",
+    "modulo": "",
+    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali (CGC_RETAIL_13102025) chiedono una comunicazione scritta con modalità che provino la ricezione alla CP 71; nessuna PEC ufficiale pubblicata per il recesso.",
+    "fonti": [
+      "https://eniplenitude.com/content/dam/enigaseluce/documenti/campagna/allegati-offerte/POWER_SMALL_BASE_LPLFIXAU.pdf",
+      "https://bolletta-energia.it/fornitore/eni/pec",
+      "https://luce-gas.it/fornitori/eni/disdetta"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Edison Energia",
+    "slug": "edison-energia",
+    "categoria": "energia",
+    "pec": "",
+    "indirizzo_postale": "Edison Energia S.p.A., Servizio Clienti Edison, Casella postale 94, 20079 Basiglio (MI)",
+    "canali": [
+      "area privata edisonenergia.it / app MyEdison (sezione Distacco)",
+      "numero verde 800 031 141 (da cellulare 02 8251 8251)",
+      "raccomandata A/R",
+      "fax 800 031 143"
+    ],
+    "preavviso": "Massimo 1 mese per i clienti domestici (fonti secondarie)",
+    "costi": "Non indicati",
+    "modulo": "",
+    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Indirizzo postale dalla pagina contatti ufficiale (CAP 20079; alcune guide riportano ancora 20080). La PEC edisonenergia.servizioclienti@pec.edison.it è indicata solo da fonti secondarie; la PEC ufficiale edisonenergia@pec.edison.it è il punto di contatto DSA, non un canale di disdetta dichiarato.",
+    "fonti": [
+      "https://www.edisonenergia.it/edison/assistenza/contatti",
+      "https://www.edisonenergia.it/edison/informazioni-e-moduli-utili/punti-di-contatto-pec",
+      "https://bolletta-energia.it/fornitore/edison/pec",
+      "https://tariffe.segugio.it/adsl-energia-gas/edison-energia/procedura-disdetta.aspx"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Acea Energia",
+    "slug": "acea-energia",
+    "categoria": "energia",
+    "pec": "",
+    "indirizzo_postale": "Acea Energia S.p.A., Servizio Mercato Libero, Casella postale n. 5114, 00154 Roma",
+    "canali": [
+      "area riservata MyAcea Energia (Contratti > I miei contratti > Disdetta, web form)",
+      "numero verde 800 38 38 38",
+      "posta (indirizzo per comunicazioni e reclami)"
+    ],
+    "preavviso": "Non superiore a 1 mese dalla ricezione della comunicazione di recesso (per cessazione)",
+    "costi": "Non indicati per la cessazione",
+    "modulo": "",
+    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali mercato libero indicano il web form MyAcea come canale di disdetta per cessazione; la casella postale 5114 è il recapito per reclami e comunicazioni scritte. La PEC ae.spa@pec.aceaspa.it è prevista solo per comunicazioni di forza maggiore.",
+    "fonti": [
+      "https://www.aceaenergia.it/content/dam/acea-energia/documentazione-contrattuale/placet/Condizioni%20Generali.pdf"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "A2A Energia",
+    "slug": "a2a-energia",
+    "categoria": "energia",
+    "pec": "",
+    "indirizzo_postale": "",
+    "canali": [
+      "area clienti a2a.it (sezione Richieste)",
+      "app MyA2A (sezione La mia energia)",
+      "form digitale FAQ e Contatti",
+      "sportelli / numero verde"
+    ],
+    "preavviso": "La disattivazione si programma con un massimo di 15 giorni di anticipo rispetto alla data di chiusura desiderata (FAQ ufficiale)",
+    "costi": "Costo della prestazione stabilito dal distributore locale, addebitato nella bolletta di chiusura (nessun addebito in caso di voltura)",
+    "modulo": "",
+    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. A2A non pubblica sul sito un indirizzo postale o una PEC per la disdetta: la procedura ufficiale è online. Fonti secondarie citano la PEC a2a.energia@pec.a2a.eu (non verificata su fonte ufficiale).",
+    "fonti": [
+      "https://www.a2a.it/assistenza/faq/contratti/cessazione",
+      "https://www.a2a.it/assistenza/contatti",
+      "https://bolletta-energia.it/fornitore/a2a/contatti"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Hera Comm",
+    "slug": "hera-comm",
+    "categoria": "energia",
+    "pec": "",
+    "indirizzo_postale": "Hera Comm S.p.A., Servizio Clienti, Via Molino Rosso 8, 40026 Imola (BO)",
+    "canali": [
+      "Servizi Online / app My Hera",
+      "numero verde 800 999 500",
+      "e-mail clienti.famiglie@gruppohera.it",
+      "raccomandata A/R",
+      "sportelli Hera Comm"
+    ],
+    "preavviso": "Circa 1 mese (la cessazione è eseguita entro 5 giorni lavorativi dall'accettazione della richiesta)",
+    "costi": "23,00 € + IVA per contatore luce; 30,00 € + IVA per contatore gas fino a classe G6; 45,00 € + IVA oltre G6",
+    "modulo": "https://heracomm.gruppohera.it/documents/83408/288997/Allegato_7_disattivazione_e_cessazione.pdf/78c710ba-c3fa-a2ab-236f-0a8f675a807f",
+    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Il sito heracomm.gruppohera.it blocca la lettura automatica (403): dati presi dagli estratti indicizzati delle pagine ufficiali e da guide secondarie, da ricontrollare a mano. La PEC heracomm@pec.gruppohera.it è citata ma non verificata.",
+    "fonti": [
+      "https://heracomm.gruppohera.it/w/casa/assistenza/contratto/cessazione-del-contratto",
+      "https://heracomm.gruppohera.it/w/casa/assistenza/contratto/disdetta-contratto-luce-e-gas",
+      "https://tariffe.segugio.it/adsl-energia-gas/hera-comm/procedura-disdetta.aspx",
+      "https://www.facile.it/energia-luce-gas/compagnie/hera/disdetta.html"
+    ],
+    "affidabilita": "secondaria",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Iren Mercato",
+    "slug": "iren-mercato",
+    "categoria": "energia",
+    "pec": "",
+    "indirizzo_postale": "Iren Mercato S.p.A., Via SS. Giacomo e Filippo 7, 16122 Genova (sede legale; il recapito del servizio clienti è indicato in bolletta)",
+    "canali": [
+      "numero verde 800 969 696 (da cellulare 011 022 033)",
+      "sportelli Iren",
+      "area clienti / app IrenYou",
+      "per iscritto al servizio clienti (recapiti in bolletta)"
+    ],
+    "preavviso": "1 mese dalla ricezione (condizioni generali mercato libero, rev. 2022, via fonte secondaria)",
+    "costi": "Non indicati",
+    "modulo": "",
+    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. La pagina ufficiale non indica un indirizzo dedicato alla disdetta (rimanda alla bolletta); l'indirizzo è la sede legale presa dall'informativa privacy ufficiale. La PEC irenmercato@pec.gruppoiren.it è citata da fonti secondarie; irenspa@pec.gruppoiren.it è la PEC della capogruppo Iren S.p.A.",
+    "fonti": [
+      "https://www.irenlucegas.it/assistenza/gestisci-il-tuo-contratto/disdetta-utenze-domestiche",
+      "https://www.irenlucegas.it/assistenza/contatti",
+      "https://www.irenlucegas.it/content/dam/iren/evergreen/footer/privacy-e-cookie-policy/documenti/Informativa_Landing_Page_2023.pdf",
+      "https://lawinsider.com/it/contracts/27rdRhgObRN",
+      "https://luce-gas.it/fornitori/iren/reclami"
+    ],
+    "affidabilita": "incerta",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Sorgenia",
+    "slug": "sorgenia",
+    "categoria": "energia",
+    "pec": "sorgenia@legalmail.it",
+    "indirizzo_postale": "Sorgenia S.p.A., Casella Postale 14287, 20152 Milano (MI)",
+    "canali": [
+      "raccomandata A/R",
+      "PEC",
+      "area clienti / app Sorgenia",
+      "e-mail customercare@sorgenia.it"
+    ],
+    "preavviso": "Non inferiore a 1 mese (recesso per cessare la fornitura)",
+    "costi": "Non indicati; eventuali oneri del distributore",
+    "modulo": "",
+    "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali residenziali (nov. 2025) prevedono il recesso per cessazione via raccomandata A/R o PEC; la PEC è quella indicata nella pagina contatti ufficiale.",
+    "fonti": [
+      "https://www.sorgenia.it/contattaci",
+      "https://www.sorgenia.it/shared/files/2025-11/CGC_RES_ML_Nov2025_100Green.pdf"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  }
+]

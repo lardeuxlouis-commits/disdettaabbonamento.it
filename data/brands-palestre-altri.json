@@ -1,0 +1,267 @@
+[
+  {
+    "nome": "McFit Italia",
+    "slug": "mcfit-italia",
+    "categoria": "palestre",
+    "pec": "servizioclientimcfit@legalmail.it",
+    "indirizzo_postale": "McFIT by RSG Group Italia S.r.l., Servizio Clienti, Viale Fulvio Testi 29, 20162 Milano",
+    "canali": [
+      "area riservata Self-service (my.mcfit.com > Dati contratto > Disdici contratto)",
+      "PEC, solo da un indirizzo PEC",
+      "raccomandata A/R"
+    ],
+    "preavviso": "Almeno 15 giorni prima di ogni scadenza/rinnovo. Durata indicata nel contratto di abbonamento (es. 12 mesi), con rinnovo tacito per lo stesso periodo (mensile: rinnovo di mese in mese). Recesso libero entro 14 giorni dall'inizio del contratto.",
+    "costi": "Nessuna penale per la disdetta nei termini. Le quote restano dovute fino alla scadenza della durata contrattuale; il mancato pagamento di 2 o più rate rende esigibile il residuo.",
+    "modulo": "",
+    "note": "Contratto unico con RSG Group Italia S.r.l. (non con il singolo club). La data del prossimo rinnovo è visibile nella sezione contratto dell'area Self.",
+    "fonti": [
+      "https://assistenza.mcfit.com/hc/it/articles/17888295740689-How-can-I-cancel-my-contract",
+      "https://www.mcfit.com/it/condizioni-generali-di-contratto",
+      "https://dgasi.uniroma3.it/convenzioni/dataentry/uploads/69e749dddbd2c_WEB McFit31-12-26.pdf"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Virgin Active Italia",
+    "slug": "virgin-active-italia",
+    "categoria": "palestre",
+    "pec": "servizioclientivai@pcert.postecert.it",
+    "indirizzo_postale": "Raccomandata A/R all'indirizzo del proprio Home Club Virgin Active (Virgin Active Italia S.p.A.), indicato sul contratto e sulla pagina del club. Nessun indirizzo centrale unico pubblicato per la disdetta.",
+    "canali": [
+      "area personale online (shop.virginactive.it > I miei abbonamenti > Disdetta abbonamento)",
+      "app Virgin Active Italia",
+      "modulo alla reception del club",
+      "PEC",
+      "raccomandata A/R al proprio Home Club"
+    ],
+    "preavviso": "La disdetta deve arrivare entro il giorno 15 del mese di scadenza naturale dell'abbonamento; oltre questa data l'abbonamento si rinnova automaticamente. Virgin Active invia un promemoria (e-mail/SMS) 30 giorni prima della scadenza.",
+    "costi": "Disdetta a scadenza gratuita. Recesso anticipato (Open 12 o abbonamenti annuali, dopo almeno 6 mesi): pagamento in unica soluzione del 50% delle mensilità residue, da chiedere in reception entro il 15 del mese. Risoluzione anticipata senza penale solo per casi documentati (gravidanza, infortunio/malattia, trasferimento in provincia senza club, perdita del lavoro).",
+    "modulo": "",
+    "note": "Contratto con Virgin Active Italia S.p.A. Gli abbonamenti pagati in unica soluzione anticipata e le convenzioni Corporate non si rinnovano tacitamente. L'abbonamento digitale Revolution si disdice dall'area personale.",
+    "fonti": [
+      "https://helpcenter.virginactive.it/hc/it/articles/37562725656337-Vuoi-disdire-il-tuo-abbonamento-Ecco-come-fare-passo-dopo-passo",
+      "https://helpcenter.virginactive.it/hc/it/articles/37563107254161-Non-vuoi-pi%C3%B9-frequentare-il-Club-e-vuoi-interrompere-anticipatamente-l-abbonamento-Ecco-come-funziona-il-diritto-di-recesso-anticipato",
+      "https://helpcenter.virginactive.it/hc/it/articles/14884267130641-Rinnovo-automatico-dell-abbonamento-tutto-quello-che-devi-sapere",
+      "https://agcm.it/dotcmsdoc/allegati-news/PS12879_provv. chius. + sanzioni_omi_signed_signed.pdf"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Anytime Fitness Italia",
+    "slug": "anytime-fitness-italia",
+    "categoria": "palestre",
+    "pec": "",
+    "indirizzo_postale": "",
+    "canali": [
+      "PEC o raccomandata A/R alla società che gestisce il proprio club (dati sul contratto d'iscrizione)",
+      "contatto diretto con il club di riferimento (recapiti nella pagina Trova il tuo Club)",
+      "modulo di recesso ufficiale (art. 49 Codice del Consumo) da compilare con i dati del club"
+    ],
+    "preavviso": "Variabile da club a club: indicato nel contratto d'iscrizione della singola sede. Nessun termine unico pubblicato dal marchio.",
+    "costi": "Variabili: secondo le FAQ ufficiali, il contratto di ogni sede specifica il costo di cancellazione e le eventuali spese di risoluzione.",
+    "modulo": "https://cdn.prod.website-files.com/66aa8fe9dc4db68f448a978f/6a3a5f6615d37116b2086570_Modulo_Recesso.pdf",
+    "note": "Ogni club è di proprietà e gestione indipendente (franchising): la disdetta va inviata alla società del proprio club, non al marchio. Anytime Italia S.r.l. (master franchisee, via Fezzan 9, 20146 Milano, PEC anytimeitalia@pec.it, servizioclienti@anytimefitness.it) non è la controparte del contratto: utile solo per reclami. Diffidare dell'indirizzo disdette@anytimefitness.pec.it / Via Melchiorre Gioia 72 riportato da alcuni siti di moduli: non trovato su fonti ufficiali.",
+    "fonti": [
+      "https://www.anytimefitness.com/it-it/contact",
+      "https://www.anytimefitness.com/it-it/faqs",
+      "https://www.anytimefitness.com/it-it/terms-of-use",
+      "https://cdn.prod.website-files.com/66aa8fe9dc4db68f448a978f/6a3a5f6615d37116b2086570_Modulo_Recesso.pdf"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "FitExpress",
+    "slug": "fitexpress",
+    "categoria": "palestre",
+    "pec": "",
+    "indirizzo_postale": "",
+    "canali": [
+      "reception del proprio club",
+      "PEC o raccomandata A/R alla società che gestisce il club (ragione sociale e sede sul contratto firmato in reception)",
+      "info@fitexpress.it / 0362 15 41 707 (sede centrale, per informazioni)"
+    ],
+    "preavviso": "Non indicato nelle condizioni generali pubblicate. Abbonamento annuale con decorrenza dal primo accesso (primo ingresso entro due mesi dalla sottoscrizione); le condizioni pubblicate non prevedono un rinnovo tacito né un termine di disdetta.",
+    "costi": "Le condizioni pubblicate non prevedono rimborso della quota in caso di interruzione. Alternative indicate: cessione dell'abbonamento a terzi (99 euro a carico del nuovo intestatario) o trasferimento in altro club del circuito (99 euro); sospensione massimo 1 mese, solo per l'annuale.",
+    "modulo": "",
+    "note": "Rete in franchising (oltre 70 club): le condizioni ufficiali dicono che il regolamento può variare da centro a centro e il contratto si firma in reception con la società del club. Fit Express Holding S.r.l. (Foro Buonaparte 59, 20121 Milano, P.IVA 06286720963) è la casa madre; nessuna PEC né procedura di disdetta pubblicata sul sito.",
+    "fonti": [
+      "https://www.fitexpress.it/termini-condizioni-woo/",
+      "https://www.fitexpress.it/contatti/",
+      "https://www.fitexpress.it/faq/"
+    ],
+    "affidabilita": "incerta",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Get Fit (Milano)",
+    "slug": "get-fit-milano",
+    "categoria": "palestre",
+    "pec": "",
+    "indirizzo_postale": "Da verificare sul contratto. Sede legale pubblicata sul sito: GetFIT Milano S.r.l., Via Ravizza 4, 20149 Milano (la privacy policy riporta CAP 20159).",
+    "canali": [
+      "reception del proprio club",
+      "raccomandata A/R alla società indicata sul contratto",
+      "PEC della società indicata sul contratto (da ricercare su INI-PEC / Registro Imprese, non pubblicata sul sito)"
+    ],
+    "preavviso": "Non pubblicato sul sito ufficiale: fare riferimento al contratto firmato. Gli abbonamenti annuali possono rinnovarsi automaticamente (segnalazioni su Altroconsumo); per legge (art. 65-bis Codice del Consumo) la palestra deve avvisare 30 giorni prima della scadenza.",
+    "costi": "Non pubblicati sul sito ufficiale.",
+    "modulo": "",
+    "note": "Il sito getfit.it non pubblica condizioni generali, PEC né procedura di disdetta. Da luglio 2026 sei club GetFIT sono passati a Orange Palestre Italiane, mentre i centri di via Pinerolo e via Piacenza restano ai fondatori; in passato alcuni contratti risultavano intestati a Sportitalia SSD a r.l.: la controparte va letta sul proprio contratto.",
+    "fonti": [
+      "https://www.getfit.it/",
+      "https://www.getfit.it/contatti/",
+      "https://www.getfit.it/privacy-policy/",
+      "https://www.milanofinanza.it/news/orange-palestre-italiane-acquisisce-getfit-nasce-un-gruppo-da-55-milioni-di-ricavi-e-110-mila-202607271234212705",
+      "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/reclamo-su-rinnovo-abbonamento/09dc799ee24824c0b4",
+      "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/annullo-contratto-abbonamento/CPTIT01118751-50"
+    ],
+    "affidabilita": "incerta",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Telepass",
+    "slug": "telepass",
+    "categoria": "altri-servizi",
+    "pec": "assistenza@pec.telepass.com",
+    "indirizzo_postale": "Telepass S.p.A., Via del Serafico 49, 00142 Roma",
+    "canali": [
+      "area clienti (Telepass Plus/Sempre: Servizi di pagamento Telepass > Contratto)",
+      "PEC con copia documento d'identità (Telepass Family, Easy)",
+      "raccomandata con dispositivo e copia documento (Telepass Family)",
+      "numero verde 800 69 77 87 (lun-ven 9-17:30, sab 9-14) per ricevere il PIN di restituzione",
+      "Telepass Store / Centro Servizi / punti convenzionati per la restituzione del dispositivo",
+      "Telepass Easy: 06 89416301 o variazionecontratto@telepass.com"
+    ],
+    "preavviso": "Nessun preavviso indicato sulla pagina ufficiale. Dopo la richiesta il dispositivo va restituito (fonte secondaria: entro 20 giorni).",
+    "costi": "Recesso senza costi di chiusura. Fonte secondaria (SicurAuto): penale di 25,82 euro per mancata o tardata restituzione del dispositivo.",
+    "modulo": "https://assets.ctfassets.net/4plydxkcrqt2/5Uv7ZCQ5miYYaGkeFZx0Mx/524a6e0d4d64fdb0a013eb308e72adf8/Modulo_Restituzione_dispositivo.pdf",
+    "note": "La procedura cambia secondo l'offerta (Family, Plus/Sempre, Pay X, Easy): Telepass Pay X si disdice solo per telefono. La chiusura è completa solo alla restituzione del dispositivo.",
+    "fonti": [
+      "https://www.telepass.com/it/privati/supporto/domande-frequenti/assistenza/disdetta",
+      "https://www.sicurauto.it/news/attualita-e-curiosita/disdetta-telepass-come-chiudere-il-contratto/"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Canone RAI (dichiarazione sostitutiva di non detenzione)",
+    "slug": "canone-rai",
+    "categoria": "altri-servizi",
+    "pec": "cp22.canonetv@postacertificata.rai.it",
+    "indirizzo_postale": "Agenzia delle entrate, Direzione Provinciale 1 di Torino, Ufficio Canone TV, Casella postale 22, 10121 Torino (plico raccomandato senza busta)",
+    "canali": [
+      "servizio web nell'area riservata del sito Agenzia delle Entrate (SPID, CIE, CNS, Entratel/Fisconline)",
+      "intermediario abilitato (CAF, professionista)",
+      "PEC con firma digitale, oppure firma autografa con copia per immagine e copia documento d'identità",
+      "raccomandata senza busta con copia documento d'identità (solo se la trasmissione telematica non è possibile)"
+    ],
+    "preavviso": "Quadro A (non detenzione) da ripresentare ogni anno. Presentata dal 1 luglio dell'anno precedente al 31 gennaio (per il 2026: fino al 2 febbraio 2026) esonera per tutto l'anno; dal giorno successivo al 30 giugno esonera solo per il secondo semestre (luglio-dicembre).",
+    "costi": "Nessun costo. Dichiarazione mendace punita ai sensi degli artt. 75-76 DPR 445/2000.",
+    "modulo": "https://www.agenziaentrate.gov.it/portale/documents/20143/450880/DS_Canone_TV_Privato_MOD.pdf/82f97e00-3cf0-76ae-1317-afeafa8e0bb6",
+    "note": "Non è una disdetta RAI ma una dichiarazione all'Agenzia delle Entrate, riservata a chi è intestatario di utenza elettrica residenziale e non detiene alcuna TV. Attenzione: la vecchia PEC cp22.sat@postacertificata.rai.it citata da molti siti non è quella indicata oggi nelle istruzioni ufficiali per questa dichiarazione.",
+    "fonti": [
+      "https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/canone-tv/dichiarazione-sostitutiva-canone-tv",
+      "https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/canone-tv/modelli-e-istruzioni-canone-tv",
+      "https://www.agenziaentrate.gov.it/portale/documents/20143/450880/DS_Canone_TV_Privato_ISTR.pdf/e29f783f-9675-24e0-635b-d6bf5d43ff15"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "American Express Italia (carta)",
+    "slug": "american-express-italia",
+    "categoria": "altri-servizi",
+    "pec": "",
+    "indirizzo_postale": "American Express Italia S.r.l., alla c.a. Servizio Clienti – SAC, Viale Alexandre Gustave Eiffel 15, 00148 Roma",
+    "canali": [
+      "raccomandata A/R al Servizio Clienti – SAC (modalità prevista dal regolamento per il recesso)",
+      "Servizio Clienti al numero riportato sul retro della carta",
+      "modulo online di recesso entro 14 giorni (oneforms.americanexpress.com)"
+    ],
+    "preavviso": "Nessun preavviso: contratto a tempo indeterminato, recesso in qualsiasi momento senza motivazione. Entro 14 giorni dal ricevimento della carta (prima emissione) la quota annuale non è addebitata o viene stornata per intero.",
+    "costi": "Nessuna penale né spesa di chiusura; rimborso della parte di quota annuale relativa al periodo residuo. Restano dovute le somme per gli utilizzi precedenti al recesso.",
+    "modulo": "https://oneforms.americanexpress.com/iForms/unsecure/EUwithdrawal_it_IT?page=1",
+    "note": "Insieme al recesso la carta base e le eventuali supplementari vanno distrutte (taglio verticale) o restituite. La PEC ufficiale ufficioreclamiamex@legalmail.it è indicata dal regolamento solo per i reclami (Ufficio Reclami), non per il recesso.",
+    "fonti": [
+      "https://www.americanexpress.com/content/dam/amex/it/staticassets/pdf/terms-and-conditions/Regolamento-Charge.pdf",
+      "https://www.americanexpress.com/it/servizio-clienti/faq.cosa-devo-fare-se-decido-di-cancellare-la-carta.html",
+      "https://www.americanexpress.com/it/campaigns/disdetta-carta-american-express.html",
+      "https://oneforms.americanexpress.com/iForms/unsecure/EUwithdrawal_it_IT?page=1&inav=it_it_legalfooter_recesso_carta_entro_14_giorni"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Altroconsumo (abbonamento)",
+    "slug": "altroconsumo",
+    "categoria": "altri-servizi",
+    "pec": "",
+    "indirizzo_postale": "Altroconsumo Edizioni S.r.l., Viale Piero e Alberto Pirelli 10, 20126 Milano (sede indicata nelle condizioni generali valide dal 01/10/2026; le vecchie note legali riportano ancora Via Valassina 22, 20159 Milano)",
+    "canali": [
+      "area personale online (procedura di disdetta automatica)",
+      "pagina dedicata https://www.altroconsumo.it/contattaci/disdetta",
+      "modulo online / pagina contattaci",
+      "telefono 02 6961500 (lun-ven 9-13 / 14-18)"
+    ],
+    "preavviso": "Recesso in ogni momento, senza motivazione: ha effetto dalla prima scadenza utile successiva alla richiesta (il profilo resta attivo fino alla fine del periodo fatturato). Ripensamento entro 14 giorni dall'adesione senza costi; recesso entro 60 giorni da una comunicazione di modifica del prezzo.",
+    "costi": "Disdetta gratuita. Nessun ulteriore addebito dopo la disdetta.",
+    "modulo": "https://www.altroconsumo.it/contattaci/disdetta",
+    "note": "Altroconsumo dichiara che non è necessario inviare una PEC per disdire. Nessuna PEC pubblicata ufficialmente per le disdette; l'indirizzo altroconsumoedizioni@legalmail.it citato da utenti sulla bacheca reclami non è confermato da fonti ufficiali.",
+    "fonti": [
+      "https://www.altroconsumo.it/contattaci/disdetta",
+      "https://www.altroconsumo.it/info/condizioni-generali",
+      "https://www.altroconsumo.it/info/note-legali/note-legali-4"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Verisure Italia (allarme)",
+    "slug": "verisure-italia",
+    "categoria": "altri-servizi",
+    "pec": "verisure@legalmail.it",
+    "indirizzo_postale": "Verisure Italy S.r.l., Viale dell'Oceano Pacifico 171/173, 00144 Roma",
+    "canali": [
+      "e-mail ordinaria a recesso@verisure.it dall'indirizzo e-mail registrato nel contratto, con copia del documento d'identità (modalità indicata nel contratto)",
+      "PEC a verisure@legalmail.it (oppure a recesso@verisure.it), con documento d'identità",
+      "raccomandata A/R",
+      "Servizio Clienti 800 999 848 / 800 970 970 (per informazioni)"
+    ],
+    "preavviso": "Contratto a tempo indeterminato. Disdetta in qualsiasi momento, efficace 30 giorni dopo il ricevimento. Se la richiesta arriva entro il 20 del mese si paga solo fino alla fine dei 30 giorni; dopo il 20 viene addebitato il mese successivo intero, con rimborso automatico dei giorni non goduti. Ripensamento entro 30 giorni dalla sottoscrizione con rimborso completo.",
+    "costi": "Recesso nei primi 12 mesi: corrispettivo per recesso anticipato di 300 euro IVA inclusa, da pagare entro 10 giorni. Dopo 12 mesi: solo il canone maturato. Disinstallazione e ritiro sempre gratuiti. Opzione d'acquisto dell'impianto a 120 euro IVA inclusa (contratti di almeno 12 mesi).",
+    "modulo": "",
+    "note": "Le condizioni valgono per i contratti dal 2023 in poi: per i contratti anteriori Verisure invita a verificare il proprio contratto (alcuni prevedevano preavvisi più lunghi). Se la richiesta arriva da un indirizzo diverso da quello registrato o è incompleta, Verisure ricontatta il cliente per telefono entro 5 giorni lavorativi.",
+    "fonti": [
+      "https://www.verisure.it/consigli-e-assistenza/domande-frequenti",
+      "https://www.verisure.it/sites/it/files/2025-10/Contratto%20Clienti%20Settembre%202025.pdf",
+      "https://www.verisure.it/sites/it/files/2025-10/Informativa%20precontrattuale%20PRIOR%20installazione_settembre%202025.pdf"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  },
+  {
+    "nome": "Amazon Prime (Italia)",
+    "slug": "amazon-prime",
+    "categoria": "altri-servizi",
+    "pec": "",
+    "indirizzo_postale": "Amazon EU S.à r.l., 38 avenue John F. Kennedy, L-1855 Lussemburgo (sede indicata nei Termini e condizioni Prime; non serve una lettera per disdire)",
+    "canali": [
+      "account Amazon: La tua iscrizione ad Amazon Prime > Gestisci > Aggiorna, Annulla e altro > Termina l'iscrizione",
+      "servizio clienti Amazon",
+      "funzione di recesso nel proprio account (entro 14 giorni dall'iscrizione)"
+    ],
+    "preavviso": "Nessun preavviso: si può annullare in qualsiasi momento prima del rinnovo automatico. Recesso legale entro 14 giorni dall'iscrizione. Opzione: promemoria via e-mail 3 giorni prima del rinnovo.",
+    "costi": "Nessun costo di disdetta. Rimborso integrale se nessun vantaggio Prime è stato usato nel periodo; altrimenti eventuale rimborso parziale in proporzione all'uso. Iscrizioni ottenute con codice promozionale o regalo non rimborsabili.",
+    "modulo": "https://www.amazon.it/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y",
+    "note": "La disdetta si fa dall'account in pochi clic: nessuna lettera né PEC necessaria. Se Prime è stato attivato tramite una terza parte (es. operatore telefonico), valgono i termini di quella terza parte.",
+    "fonti": [
+      "https://www.amazon.it/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y",
+      "https://www.amazon.it/gp/help/customer/display.html?nodeId=G2B9L3YR7LR8J4XP"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-10-26"
+  }
+]
