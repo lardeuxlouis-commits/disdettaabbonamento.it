@@ -71,7 +71,7 @@ header.top .wrap{display:flex;align-items:center;justify-content:space-between;g
 .logo{display:flex;align-items:center;gap:9px;font-weight:800;font-size:19px;text-decoration:none;color:var(--fg)}.logo .lt span{color:var(--accent)}
 .logo i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#1f5eff,#00b4d8);display:grid;place-items:center;color:#fff;font-style:normal;font-size:16px}
 nav.main{display:flex;align-items:center;gap:18px}nav.main a{text-decoration:none;color:var(--muted);font-weight:600;font-size:15px}
-nav.main a.cta{color:#fff;background:var(--accent);padding:9px 16px;border-radius:999px}nav.main a.cta:hover{background:var(--accent-d)}
+nav.main a.cta{color:#fff;background:var(--accent);padding:9px 16px;border-radius:999px}nav.main a.cta:hover{background:var(--accent-d)}nav.main .sm{display:none}
 .hero{margin:0 calc(50% - 50vw);padding:48px calc(50vw - 50% + 18px) 40px;background:radial-gradient(1200px 400px at 80% -10%,#dbe6ff 0,transparent 60%),radial-gradient(800px 300px at 0% 0%,#e3fbff 0,transparent 55%),var(--soft);border-bottom:1px solid var(--line)}
 .hero.small{padding-top:28px;padding-bottom:30px}
 .pill{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600;color:var(--muted)}
@@ -136,7 +136,7 @@ details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:
 footer{border-top:1px solid var(--line);margin-top:64px;padding:32px 0;color:var(--muted);font-size:14px;background:var(--soft)}
 footer a{color:var(--muted);margin-right:16px}
 @media(max-width:820px){nav.main a:not(.cta){display:none}.steps,.trust,.cats{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:640px){.facts{grid-template-columns:1fr;gap:4px}.facts dt{margin-top:10px}.row2,ul.canali{grid-template-columns:1fr}.sticky{display:block}body.has-sticky footer{padding-bottom:90px}.hero{padding-top:30px}.gen{padding:18px}}
+@media(max-width:640px){nav.main .lg{display:none}nav.main .sm{display:inline}.logo{font-size:16px}.logo i{width:26px;height:26px}.facts{grid-template-columns:1fr;gap:4px}.facts dt{margin-top:10px}.row2,ul.canali{grid-template-columns:1fr}.sticky{display:block}body.has-sticky footer{padding-bottom:90px}.hero{padding-top:30px}.gen{padding:18px}}
 @media print{header.top,footer,.crumbs,.noprint,.hero,.box,.note,h2,h3,ul,details,.grid,.src,p,.steps,.why,.sticky{display:none!important}.gen{box-shadow:none;padding:0;background:#fff}#lettera{display:block!important;border:0;box-shadow:none;font-size:12pt}}
 """
 
@@ -184,7 +184,7 @@ def page(title, desc, path, body, schema=None, sticky=""):
 <meta property="og:type" content="website"><meta property="og:url" content="{canon}"><meta property="og:locale" content="it_IT">
 <link rel="stylesheet" href="/style.css">{ld}</head><body{bodycls}>
 <header class="top"><div class="wrap"><a class="logo" href="/"><i>✉</i><span class="lt">Disdetta<span>Abbonamento</span>.it</span></a>
-<nav class="main"><a href="/telefonia/">Telefonia</a><a href="/luce-gas/">Luce e gas</a><a href="/assicurazioni/">Assicurazioni</a><a href="/come-funziona/">Come funziona</a><a class="cta" href="/#cerca">Trova il tuo operatore</a></nav></div></header>
+<nav class="main"><a href="/telefonia/">Telefonia</a><a href="/luce-gas/">Luce e gas</a><a href="/assicurazioni/">Assicurazioni</a><a href="/come-funziona/">Come funziona</a><a class="cta" href="/#cerca"><span class="lg">Trova il tuo operatore</span><span class="sm">Cerca</span></a></nav></div></header>
 <main class="wrap">{body}</main>
 <footer><div class="wrap"><p><a href="/">Home</a><a href="/come-funziona/">Come funziona</a><a href="/chi-siamo/">Chi siamo</a><a href="/note-legali/">Note legali</a><a href="/privacy/">Privacy</a></p>
 <p>{SITE} è un servizio indipendente, non affiliato agli operatori citati. I marchi appartengono ai rispettivi proprietari. Le informazioni sono verificate sulle fonti ufficiali alla data indicata in ogni pagina: controlla sempre il tuo contratto.</p></div></footer>
