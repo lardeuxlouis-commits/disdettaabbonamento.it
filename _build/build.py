@@ -6,7 +6,7 @@ Uso : python3 _build/build.py
 import json, glob, os, html, re, shutil, datetime as dt
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, "site")
+OUT = os.path.join(ROOT, "docs")
 DOMAIN = "https://disdettaabbonamento.it"
 SITE = "Disdetta Abbonamento"
 TODAY = dt.date.today().isoformat()
