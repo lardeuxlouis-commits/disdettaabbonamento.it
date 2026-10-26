@@ -287,7 +287,7 @@ def main():
         "/chi-siamo/": ("Chi siamo", "Disdetta Abbonamento è un servizio indipendente che raccoglie gli indirizzi ufficiali per disdire i contratti.",
             "<h1>Chi siamo</h1><p>Disdetta Abbonamento è un servizio indipendente, non collegato a nessun operatore. Raccogliamo dai documenti ufficiali degli operatori gli indirizzi PEC e postali, i preavvisi e i costi di disdetta, e li aggiorniamo con la data di verifica in ogni scheda.</p><p>Hai trovato un dato non aggiornato? Segnalacelo: verifichiamo e correggiamo.</p>"),
         "/note-legali/": ("Note legali", "Note legali di Disdetta Abbonamento.",
-            "<h1>Note legali</h1><p>Le informazioni pubblicate hanno scopo informativo e sono verificate sulle fonti ufficiali alla data indicata in ogni scheda. Non costituiscono consulenza legale. In caso di dubbio fa fede il contratto sottoscritto con l'operatore.</p><p>I marchi citati appartengono ai rispettivi titolari e sono usati solo per identificare i servizi.</p>"),
+            "<h1>Note legali</h1><h2>Editore del sito</h2><p>Louis Lardeux, imprenditore individuale (micro-entreprise di diritto francese), SIREN 999 443 880, Francia.</p><h2>Informazioni</h2><p>Le informazioni pubblicate hanno scopo informativo e sono verificate sulle fonti ufficiali alla data indicata in ogni scheda. Non costituiscono consulenza legale. In caso di dubbio fa fede il contratto sottoscritto con l'operatore.</p><p>I marchi citati appartengono ai rispettivi titolari e sono usati solo per identificare i servizi.</p>"),
         "/privacy/": ("Privacy", "Informativa privacy di Disdetta Abbonamento.",
             "<h1>Privacy</h1><p>Il generatore di lettere funziona interamente nel tuo browser: i dati che inserisci non vengono inviati né salvati sui nostri server.</p>"),
     }
@@ -299,6 +299,9 @@ def main():
     sm = "".join(f"<url><loc>{DOMAIN}{u}</loc><lastmod>{TODAY}</lastmod></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w").write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
     open(os.path.join(OUT, "CNAME"), "w").write("disdettaabbonamento.it\n")
+    k = open(os.path.join(ROOT, "_build", "indexnow.key")).read().strip()
+    open(os.path.join(OUT, k + ".txt"), "w").write(k)
+    open(os.path.join(ROOT, "_build", "urls.txt"), "w").write("\n".join(DOMAIN + u for u in urls) + "\n")
     open(os.path.join(OUT, ".nojekyll"), "w").write("")
     print(f"{len(brands)} marchi, {len(urls)} pagine -> {OUT}")
 
