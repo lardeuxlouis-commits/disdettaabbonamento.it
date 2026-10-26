@@ -1,0 +1,707 @@
+[
+ {
+  "nome": "Engie Italia",
+  "slug": "engie-italia",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "ENGIE Italia S.p.A., Milano Cordusio, Casella Postale n. 242, 20123 Milano (MI)",
+  "canali": [
+   "raccomandata A/R",
+   "e-mail puntodicontatto@engie.com (indicata nelle condizioni generali per il recesso per cessazione)",
+   "Spazio Clienti 4you.engie.it (sezione Forniture) / modulo di recesso online",
+   "numero verde 800 422 422 (da cellulare 02 395 688)"
+  ],
+  "preavviso": "Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per cessazione, delibera 783/2017)",
+  "costi": "Nessuna penale indicata nelle condizioni generali; eventuali oneri del distributore per la disattivazione",
+  "modulo": "https://www.engie.it/casa/magazine/recesso-online/",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore); le condizioni generali (07/2025, art. 3.2) prevedono raccomandata A/R alla CP 242 di Milano oppure e-mail a puntodicontatto@engie.com. Nessuna PEC ufficiale pubblicata per i clienti; reclami a reclami-ita@engie.com.",
+  "fonti": [
+   "https://d3evrc0h48esvv.cloudfront.net/documents/8116594/0/222_Condizioni+Generali+e+Particolari+Domestici_072025.pdf",
+   "https://www.engie.it/contatti/casa/",
+   "https://www.engie.it/casa/magazine/recesso-online/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "E.ON Energia",
+  "slug": "eon-energia",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Casella Postale E.ON Energia 14029, 20146 Milano (MI)",
+  "canali": [
+   "raccomandata A/R",
+   "e-mail servizio.clienti@eon-energia.com (indicata nelle CGC per il recesso per disattivazione)",
+   "numero verde 800 999 777 (call center)",
+   "fax 800 999 599",
+   "area clienti / app E.ON, sportelli E.ON"
+  ],
+  "preavviso": "1 mese dalla ricezione della comunicazione (CGC 11/2025, art. 10.2)",
+  "costi": "Nessuna penale contrattuale; eventuali oneri del distributore per la disattivazione addebitati nella bolletta di chiusura",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore); le CGC 11/2025 indicano raccomandata A/R alla CP 14029, e-mail o call center. La PEC societaria eonenergia@legalmail.it compare sul registro ADR della Commissione UE e su siti di comparazione, ma le CGC non la indicano per le disdette dei clienti domestici.",
+  "fonti": [
+   "https://www.eon-energia.com/content/dam/eon/eon-energia/Documents/cgc_2025/novembre_2025/Mt_E.ON_MODULI_CGC Mercato Libero 11_2025 ok.pdf",
+   "https://consumer-redress.ec.europa.eu/dispute-resolution-bodies/italy-organismo-adr-di-conciliazione-paritetica-eon-energia-spa-associazioni-dei-consumatori_en",
+   "https://luce-gas.it/fornitori/eon/disdetta"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Pulsee (Axpo)",
+  "slug": "pulsee",
+  "categoria": "energia",
+  "pec": "segreteria@pec.pulsee.biz",
+  "indirizzo_postale": "Pulsee S.r.l., Via IV Novembre 149, Roma (sede legale; le condizioni generali non indicano un recapito postale dedicato alle disdette)",
+  "canali": [
+   "area clienti pulsee.it (Richieste tecniche al distributore > cessazione)",
+   "e-mail assistenza@pulsee.it",
+   "PEC segreteria@pec.pulsee.biz",
+   "lettera raccomandata",
+   "numero verde 800 620 520 (da cellulare 010 848 0101)"
+  ],
+  "preavviso": "1 mese dalla ricezione della comunicazione di recesso (condizioni generali 04/2026, art. 10.3)",
+  "costi": "Nessun onere di recesso indicato; eventuali oneri del distributore per la disattivazione",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura e deve dire esplicitamente che si chiede la disattivazione del punto di fornitura, altrimenti la fornitura passa al servizio di ultima istanza. La PEC è indicata nelle condizioni generali per richieste di informazioni, reclami e ripensamento.",
+  "fonti": [
+   "https://pulsee.it/assets/pulsee/data/it/documents/cg-042026/Pulsee%20Condizioni%20Generali%20di%20Fornitura.pdf",
+   "https://pulsee.it/contatti",
+   "https://bolletta-energia.it/fornitore/pulsee/disdetta"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Iberdrola Clienti Italia",
+  "slug": "iberdrola",
+  "categoria": "energia",
+  "pec": "iberdrolaenergiaitaliasrl@legalmail.it",
+  "indirizzo_postale": "Iberdrola Italia S.r.l., Piazzale dell'Industria 40, 00144 Roma (RM)",
+  "canali": [
+   "e-mail servizioclienti@iberdrola.it",
+   "PEC iberdrolaenergiaitaliasrl@legalmail.it",
+   "raccomandata A/R",
+   "numero verde 800 690 960",
+   "area clienti iberdrola.it"
+  ],
+  "preavviso": "Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per cessazione, delibera 783/2017)",
+  "costi": "Nessuna penale per il recesso del cliente domestico (regola ARERA); eventuali oneri del distributore per la disattivazione",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore). La società si presenta oggi come Iberdrola Italia S.r.l.; PEC e sede legale sono quelle pubblicate su iberdrola.it/contatti accanto ai recapiti del servizio clienti, ma le condizioni generali di fornitura non sono consultabili online (sito protetto) e non è stato possibile verificare il recapito specifico per il recesso.",
+  "fonti": [
+   "https://www.iberdrola.it/contatti",
+   "https://www.papernest.it/luce-gas/business/iberdrola/disdire-contratto/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Octopus Energy Italia",
+  "slug": "octopus-energy-italia",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Octopus Energy Italia S.r.l., Via dei Gorghi 9, 63100 Ascoli Piceno (AP)",
+  "canali": [
+   "e-mail ciao@octopusenergy.it",
+   "raccomandata A/R",
+   "telefono e WhatsApp 02 385 827 76",
+   "area clienti / app Octopus"
+  ],
+  "preavviso": "1 mese dalla ricezione della comunicazione di recesso (condizioni generali v260511, art. 6)",
+  "costi": "Nessuna penale: il contratto non ha durata fissa",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore); le condizioni generali (art. 19) indicano per tutte le comunicazioni del cliente l'e-mail ciao@octopusenergy.it o la raccomandata A/R alla sede di Ascoli Piceno. Nessuna PEC pubblicata per i clienti (attenzione: alcuni siti riportano un indirizzo errato, Via del Bozzolo).",
+  "fonti": [
+   "https://a.storyblok.com/f/146593/x/d4ed7dfbfe/oeitalia_cgf_260511.pdf",
+   "https://octopusenergy.it/contatti"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Illumia",
+  "slug": "illumia",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Illumia S.p.A., Via de' Carracci 69/2, 40129 Bologna (BO)",
+  "canali": [
+   "raccomandata A/R",
+   "e-mail servizioclienti@illumia.it",
+   "fax 051 04 04 055",
+   "numero verde 800 046 640 (da cellulare 051 600 8080)"
+  ],
+  "preavviso": "1 mese dalla ricezione della comunicazione (condizioni generali, art. 8)",
+  "costi": "Nessun onere per le offerte a tempo indeterminato; per alcune offerte con servizio di manutenzione caldaia sono addebitate le rate residue del servizio (vedi condizioni economiche dell'offerta)",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura; le condizioni generali prevedono raccomandata A/R o PEC, ma Illumia non pubblica una PEC per i clienti (grossista@pec.illumia.it è riservata a operatori e trasportatori; siti secondari citano illumia@pec.illumia.it o illumia@legalmail.it, non verificate). Condizioni generali lette nell'edizione 2022, quella in vigore citata è la Rev. 11112025.",
+  "fonti": [
+   "https://www.illumia.it/wp-content/uploads/2022/09/CONDIZIONI-GENERALI-DI-FORNITURA.pdf",
+   "https://www.illumia.it/wp-content/uploads/2026/06/Informazioni-precontrattuali-CASA-2026_05_26-1.pdf",
+   "https://www.illumia.it/wp-content/uploads/2026/07/CE-ILLUMIA-ENERGIA-LUNGA-GAS.pdf",
+   "https://www.illumia.it/contatti/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Optima Italia (energia)",
+  "slug": "optima-italia-energia",
+  "categoria": "energia",
+  "pec": "optimaitalia@legalmail.it",
+  "indirizzo_postale": "Optima Italia S.p.A., Corso Umberto I 174, 80138 Napoli (NA)",
+  "canali": [
+   "PEC optimaitalia@legalmail.it",
+   "raccomandata A/R alla sede legale",
+   "e-mail servizioclienti@optimaitalia.com",
+   "area clienti / app MyOptima",
+   "numero verde privati 800 913838"
+  ],
+  "preavviso": "Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per cessazione, delibera 783/2017)",
+  "costi": "Nessuna penale per luce e gas; se la fornitura è in un pacchetto con internet/mobile possono esserci costi di disattivazione e rate residue di apparati",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore). La PEC è pubblicata nella pagina Assistenza tra i recapiti per i clienti e le condizioni generali (art. 10.1) la indicano per qualsiasi comunicazione scritta del cliente; le condizioni lette sono quelle dell'offerta Tutto-in-Uno privati, l'edizione per le sole offerte luce e gas attuali non è pubblicata in chiaro.",
+  "fonti": [
+   "https://www.optimaitalia.com/assistenza",
+   "https://www.optimaitalia.com/public/files/pdf/vitamia/consumer/PIC_CG_condizioni%20generali%20di%20contratto_.pdf",
+   "https://www.optimaitalia.com/info-clienti/documenti-elettricita-e-gas"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Estra Energie",
+  "slug": "estra-energie",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Estra Energie S.r.l., Casella Postale 128, 59100 Prato (PO)",
+  "canali": [
+   "raccomandata A/R",
+   "area clienti areaclienti.estra.it (Richieste e segnalazioni)",
+   "modulo di contatto su aliaestra.it",
+   "numero verde 800 909 848"
+  ],
+  "preavviso": "1 mese dalla ricezione della comunicazione di recesso (condizioni generali Rev. 07/2026, art. 5.2)",
+  "costi": "Nessuna penale per i clienti domestici; eventuali oneri del distributore per la disattivazione",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura: le condizioni generali chiedono una raccomandata A/R all'indirizzo indicato sul frontespizio della Proposta di fornitura; la CP 128 di Prato è il recapito postale ufficiale per reclami e ripensamenti (marchio ora AliaEstra, gruppo Plures). La PEC estraenergie@pec.estraenergie.it e l'indirizzo Piazza Matteotti 3 Arezzo sono citati solo da siti secondari, non verificati.",
+  "fonti": [
+   "https://edge.sitecorecloud.io/aliaservizi9e51-aliaestra8305-prodnewd254-b685/media/Files/Plures/Condizioni-generali-DF-Rev_07-2026-SFC.pdf",
+   "https://edge.sitecorecloud.io/aliaservizi9e51-aliaestra8305-prodnewd254-b685/media/01-Footer-Files/Diritto-ripensamento-DF-Rev_07-2026-SFC.pdf",
+   "https://edge.sitecorecloud.io/aliaservizi9e51-aliaestra8305-prodnewd254-b685/media/01-Footer-Files/Modulo-reclami-DF-Rev_07-2026-SFC.pdf",
+   "https://aliaestra.it/supporto"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Duferco Energia",
+  "slug": "duferco-energia",
+  "categoria": "energia",
+  "pec": "clienti.dufercoenergia@pec.duferco.it",
+  "indirizzo_postale": "Duferco Energia S.p.A., Via Paolo Imperiale 4, 16126 Genova (GE)",
+  "canali": [
+   "PEC clienti.dufercoenergia@pec.duferco.it",
+   "raccomandata A/R",
+   "e-mail clienti@dufercoenergia.com",
+   "numero verde 800 93 93 00",
+   "WhatsApp 349 329 2461"
+  ],
+  "preavviso": "Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per cessazione, delibera 783/2017)",
+  "costi": "Nessuna penale per le offerte domestiche a tempo indeterminato; per offerte a durata vincolata (clienti non domestici) possibile corrispettivo di recesso anticipato",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore). La PEC clienti è pubblicata sulla pagina Contatti come canale di assistenza clienti; le PEC recessi.energia@pec.duferco.it e recessi.naturalgas@pec.duferco.it sono riservate agli operatori di mercato. Condizioni generali non consultabili online, preavviso indicato secondo la regola ARERA.",
+  "fonti": [
+   "https://dufercoenergia.com/contatti/",
+   "https://dufercoenergia.com/documenti/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "AGSM AIM Energia (ora Magis Energia)",
+  "slug": "agsm-aim-energia",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Magis Energia S.p.A. (già AGSM AIM Energia), Lungadige Galtarossa 8, 37133 Verona (VR)",
+  "canali": [
+   "area clienti / app Magis Energia (sezione Richieste > Cessazione)",
+   "raccomandata A/R",
+   "numero verde 800 552 866 (da cellulare 045 221 2123)",
+   "sportelli Magis"
+  ],
+  "preavviso": "Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per cessazione, delibera 783/2017)",
+  "costi": "Nessuna penale per i clienti domestici; eventuali oneri del distributore per la disattivazione",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura; il sito ufficiale indica come canale principale l'Area Clienti (dal 2026 il marchio è Magis Energia, serve una nuova registrazione). La PEC energia@pec.agsmaim.it è citata solo da siti secondari e non compare sul sito Magis: non verificata.",
+  "fonti": [
+   "https://www.magisenergia.it/it/assistenza/gestisci-il-tuo-contratto/dati-e-contratti/cessazione",
+   "https://www.magisenergia.it/it/contatti",
+   "https://www.magisenergia.it/it/assistenza/assistenza-magis/reclami-e-informazioni-agsm",
+   "https://www.comparasemplice.it/informazioni/energia/come-disdire-un-contratto-agsm-energia-moduli-e-tempistiche"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Dolomiti Energia",
+  "slug": "dolomiti-energia",
+  "categoria": "energia",
+  "pec": "info.commerciale@cert.dolomitienergia.it",
+  "indirizzo_postale": "Dolomiti Energia Mercato S.p.A., Via Fersina 23, 38123 Trento (TN)",
+  "canali": [
+   "PEC info.commerciale@cert.dolomitienergia.it",
+   "raccomandata A/R",
+   "e-mail clienti.casa@dolomitienergia.it (clienti domestici)",
+   "area clienti / app Dolomiti Energia",
+   "Dolomiti Energia Point"
+  ],
+  "preavviso": "1 mese (preavviso ARERA richiamato nelle condizioni economiche delle offerte)",
+  "costi": "Nessun onere di recesso per i clienti domestici (oneri solo per clienti di grandi dimensioni che non rispettano il preavviso)",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore). La PEC è pubblicata nella pagina Comunicare con noi, sezione Scrivici, insieme all'indirizzo per la corrispondenza cartacea; le PEC accessorete.* sono riservate agli operatori di rete.",
+  "fonti": [
+   "https://www.dolomitienergia.it/assistenza/comunicare-con-noi.html",
+   "https://www.dolomitienergia.it/dam/dolomiti-energia/Release_2026-08-05/77513_CE.pdf.coredownload.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Alperia",
+  "slug": "alperia",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Alperia Smart Services S.r.l., Via Dodiciville 8, 39100 Bolzano (BZ)",
+  "canali": [
+   "modulo \"Richiesta disdetta contratto\" + documento d'identità tramite i canali di alperia.eu/contatti (webform)",
+   "e-mail info@alperia.eu",
+   "raccomandata A/R",
+   "numero verde 800 110 055"
+  ],
+  "preavviso": "Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per cessazione, delibera 783/2017)",
+  "costi": "Non indicati sul sito ufficiale; fonti secondarie citano un contributo di disattivazione di circa 23 € + IVA in bolletta finale",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La disdetta serve solo per chiudere la fornitura (es. immobile vuoto); le FAQ ufficiali chiedono il modulo di disdetta con copia del documento d'identità. La PEC smartservices@pec.alperia.eu è citata solo da siti secondari e non compare sul sito Alperia: non verificata.",
+  "fonti": [
+   "https://www.alperia.eu/domande-frequenti/",
+   "https://www.alperia.eu/contatti/",
+   "https://www.alperia.eu/",
+   "https://www.switcho.it/blog/luce-gas/come-disdire-alperia/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Wekiwi",
+  "slug": "wekiwi",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Wekiwi S.r.l., Viale Andrea Doria 8, 20124 Milano (MI)",
+  "canali": [
+   "e-mail clienti@wekiwi.it",
+   "raccomandata A/R",
+   "fax 02 91731993",
+   "assistenza clienti 02 82941162 / 800 178584",
+   "area personale wekiwi.it"
+  ],
+  "preavviso": "Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per cessazione, delibera 783/2017)",
+  "costi": "Nessuna penale per i clienti domestici; eventuali oneri del distributore per la disattivazione",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura; i moduli ufficiali indicano come recapiti la sede operativa di Milano e l'e-mail clienti@wekiwi.it (la sede legale è in Via de' Carracci 69/2, Bologna). Nessuna PEC pubblicata per i clienti; alcuni siti citano un vecchio indirizzo in Corso Vercelli 11, Milano, da non usare.",
+  "fonti": [
+   "https://www.wekiwi.it/contatti.html",
+   "https://www.wekiwi.it/wp-content/uploads/2025/01/Ripensamento-wekiwi_Ed-01_2025.pdf",
+   "https://www.wekiwi.it/wp-content/uploads/2025/12/Modulo-solo-reclamo-Wekiwi-dicembre-25.pdf",
+   "https://tariffe.segugio.it/adsl-energia-gas/wekiwi/procedura-disdetta.aspx"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "NeN (A2A)",
+  "slug": "nen",
+  "categoria": "energia",
+  "pec": "yada@pecaruba.it",
+  "indirizzo_postale": "Yada Energia S.r.l. (NeN), Corso di Porta Vittoria 4, 20122 Milano (MI)",
+  "canali": [
+   "app NeN / area personale (moduli online di disattivazione luce e gas)",
+   "raccomandata A/R",
+   "PEC yada@pecaruba.it",
+   "e-mail supporto@nen.it",
+   "numero verde 800 188 525"
+  ],
+  "preavviso": "Almeno 2 settimane (scheda sintetica NeN Luce, sezione recesso)",
+  "costi": "Nessun onere di recesso anticipato; per la disattivazione del contatore NeN addebita 30 € + IVA in fattura di chiusura, più gli eventuali oneri del distributore (gas circa 30 €, luce 25,88 € + IVA solo se serve l'uscita del tecnico)",
+  "modulo": "https://nen.it/faq/domande/disattivare-contatore-come-faccio",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura; il canale più rapido sono i moduli online, la scheda sintetica prevede anche la raccomandata A/R. La PEC è indicata nella scheda sintetica ufficiale tra i recapiti del venditore (Yada Energia, gruppo A2A).",
+  "fonti": [
+   "https://nen.it/content/dam/web/b2c/documents/SchedaSintetica_Luce_FacSimile.pdf",
+   "https://nen.it/faq/domande/disattivare-contatore-come-faccio",
+   "https://nen.it/faq/contratto-disdetta"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Reale Mutua Assicurazioni",
+  "slug": "reale-mutua",
+  "categoria": "assicurazioni",
+  "pec": "realemutua@pec.realemutua.it",
+  "indirizzo_postale": "Reale Mutua di Assicurazioni, Via Corte d'Appello 11, 10122 Torino (TO)",
+  "canali": [
+   "PEC",
+   "raccomandata A/R (alla sede o all'agenzia che gestisce la polizza)",
+   "agenzia di riferimento",
+   "Servizio Buongiorno Reale 800 320 320 (lun-sab 8-20), buongiornoreale@realemutua.it (informazioni)"
+  ],
+  "preavviso": "Almeno 30 giorni prima della scadenza, solo se in polizza la casella \"Tacito rinnovo\" riporta \"SÌ\"; se riporta \"NO\" la polizza cessa da sola alla scadenza.",
+  "costi": "Nessun costo per la disdetta alla scadenza.",
+  "modulo": "",
+  "note": "RC auto: nessun tacito rinnovo dal DL 179/2012, la polizza scade da sola e non serve disdetta. Per le altre polizze le condizioni (es. CasaMia, art. 3.1) ammettono la disdetta via raccomandata o PEC almeno 30 giorni prima della scadenza; la PEC societaria è indicata nel DIP aggiuntivo e nella pagina contatti. Le Gerenze hanno PEC proprie (es. gerenza.milano@pec.realemutua.it), meglio usare quella della sede o l'agenzia indicata in polizza.",
+  "fonti": [
+   "https://www.realemutua.it/contatti",
+   "https://www.realemutua.it/grmashare/1/Documents/LANDING/CGA_CASAMIA2016_5440_INC_072020.pdf",
+   "https://www.realemutua.it/grmashare/1/Documents/LANDING_NEW/DIP%20Aggiuntivo%20Danni_RealmenteInSalute%20DayByDay_5164%20MAL_Ed.%202023.04.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Groupama Assicurazioni",
+  "slug": "groupama-assicurazioni",
+  "categoria": "assicurazioni",
+  "pec": "",
+  "indirizzo_postale": "Groupama Assicurazioni S.p.A., Viale Cesare Pavese 385, 00144 Roma (RM)",
+  "canali": [
+   "raccomandata A/R (alla sede o all'agenzia a cui è assegnato il contratto)",
+   "PEC",
+   "agenzia di riferimento",
+   "info@groupama.it, tel. 06 30181 (informazioni)"
+  ],
+  "preavviso": "Almeno 30 giorni prima della scadenza, altrimenti la polizza si rinnova tacitamente.",
+  "costi": "Nessun costo per la disdetta alla scadenza.",
+  "modulo": "",
+  "note": "RC auto: nessun tacito rinnovo dal DL 179/2012, non serve disdetta. Il set informativo indica la disdetta per lettera raccomandata; la PEC groupama@legalmail.it è la PEC societaria indicata nell'intestazione dei documenti contrattuali e nel footer del sito, utilizzabile come equivalente della raccomandata. Reclami: reclami@groupama.it. La PEC generale della compagnia è groupama@legalmail.it, ma i documenti indicano la raccomandata A/R per la disdetta.",
+  "fonti": [
+   "https://cdn.groupama.it/app/uploads/2021/09/Set-Informativo-Guida-Sicura.pdf",
+   "https://www.groupama.it/contatti"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Sara Assicurazioni",
+  "slug": "sara-assicurazioni",
+  "categoria": "assicurazioni",
+  "pec": "saraassicurazioni@sara.telecompost.it",
+  "indirizzo_postale": "Sara Assicurazioni S.p.A., Via Po 20, 00198 Roma (RM)",
+  "canali": [
+   "raccomandata A/R alla sede o alla propria agenzia",
+   "PEC",
+   "agenzia di riferimento (indirizzi su sara.it)",
+   "tel. 06 8475223"
+  ],
+  "preavviso": "Almeno 30 giorni prima della scadenza (polizze annuali con tacito rinnovo). Ripensamento entro 14 giorni per i contratti a distanza.",
+  "costi": "Nessun costo per la disdetta alla scadenza.",
+  "modulo": "",
+  "note": "RC auto: nessun tacito rinnovo dal DL 179/2012, non serve disdetta. Il set informativo indica la disdetta per raccomandata a Via Po 20 e accetta la PEC saraassicurazioni@sara.telecompost.it per il recesso; indicare contraente e numero di polizza. Reclami: gest.reclami@sara.it.",
+  "fonti": [
+   "https://sara.it/sites/default/files/2024-06/set_informativo_saralegal_ed.3.2022.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Vittoria Assicurazioni",
+  "slug": "vittoria-assicurazioni",
+  "categoria": "assicurazioni",
+  "pec": "vittoriaassicurazioni@pec.vittoriaassicurazioni.it",
+  "indirizzo_postale": "Vittoria Assicurazioni S.p.A., Via Ignazio Gardella 2, 20149 Milano (MI)",
+  "canali": [
+   "raccomandata A/R (alla sede o all'agenzia a cui è assegnata la polizza)",
+   "PEC",
+   "agenzia di riferimento",
+   "Assistenza Clienti 800 016611 (lun-ven 8-20)"
+  ],
+  "preavviso": "Almeno 30 giorni prima della scadenza per i consumatori (60 giorni se non consumatore). Polizze poliennali: recesso con preavviso di 60 giorni, effetto a fine annualità.",
+  "costi": "Nessun costo per la disdetta alla scadenza.",
+  "modulo": "",
+  "note": "RC auto: nessun tacito rinnovo dal DL 179/2012, non serve disdetta (la FAQ auto del sito con il preavviso di 15 giorni è superata). Le condizioni \"Vittoria con te Casa e Famiglia\" (art. 1.5) prevedono comunicazioni per raccomandata o PEC agli indirizzi indicati. Il PDF letto è un documento Vittoria pubblicato sul sito di un intermediario, non su vittoriaassicurazioni.com.",
+  "fonti": [
+   "https://www.limestreet.it/wp-content/uploads/2023/03/pbri01-cga-edz-0423.pdf",
+   "https://www.vittoriaassicurazioni.com/assistenza-clienti/",
+   "https://www.vittoriaassicurazioni.com/servizi/faq/auto/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Helvetia Italia",
+  "slug": "helvetia-italia",
+  "categoria": "assicurazioni",
+  "pec": "helvetia@actaliscertymail.it",
+  "indirizzo_postale": "Helvetia Compagnia Svizzera d'Assicurazioni SA, Rappresentanza Generale e Direzione per l'Italia, Via G.B. Cassinis 21, 20139 Milano (MI)",
+  "canali": [
+   "raccomandata A/R (alla Compagnia o all'agenzia a cui è assegnata la polizza)",
+   "PEC",
+   "agenzia di riferimento",
+   "tel. 02 5351.1, info@helvetia.it (informazioni)"
+  ],
+  "preavviso": "Almeno 30 giorni prima della scadenza per le polizze annuali con tacito rinnovo; le polizze senza tacito rinnovo cessano da sole. Poliennali con sconto: recesso solo secondo le modalità previste in polizza.",
+  "costi": "Nessun costo per la disdetta alla scadenza.",
+  "modulo": "",
+  "note": "RC auto: nessun tacito rinnovo dal DL 179/2012, non serve disdetta. Verificare in polizza la compagnia: le polizze vendute in agenzia sono di Helvetia Compagnia Svizzera (PEC helvetia@actaliscertymail.it, condizioni art. 1.5.2: disdetta via raccomandata A/R o PEC); quelle vendute in banca (bancassicurazione) sono di Helvetia Italia Assicurazioni S.p.A., stessa sede di Via Cassinis 21, PEC helvetiaitalia@pec.helvetia.it, infoclienti@helvetiaitalia.it. PEC reclami: reclami.helvetia@actaliscertymail.it.",
+  "fonti": [
+   "https://www.helvetia.com/content/dam/os/it/web/it/prodotti-e-servizi/prodotti-dedicati-alle-agenzie-e-broker/privati/casa/mycondominium/2026/SetInformativo_Helvetia_MyCondominum.pdf",
+   "https://www.helvetia.com/it/web/it/chi-siamo/helvetia/helvetia-in-italia/le-compagnie-del-gruppo/helvetia-italia.html",
+   "https://www.helvetia.com/it/web/it/prodotti-e-servizi/servizi/utilita/reclami/helvetia-assicurazioni.html"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "ITAS Mutua",
+  "slug": "itas-mutua",
+  "categoria": "assicurazioni",
+  "pec": "itas.mutua@pec-gruppoitas.it",
+  "indirizzo_postale": "ITAS Mutua, Piazza delle Donne Lavoratrici 2, 38122 Trento (TN)",
+  "canali": [
+   "raccomandata A/R (a ITAS Mutua o all'intermediario a cui è assegnata la polizza)",
+   "PEC",
+   "agenzia di riferimento",
+   "tel. 0461 891711"
+  ],
+  "preavviso": "Almeno 30 giorni prima della scadenza (contratti con tacito rinnovo). Poliennali oltre 5 anni: recesso dopo il primo quinquennio con 60 giorni di preavviso.",
+  "costi": "Nessun onere aggiuntivo in caso di disdetta (DIP aggiuntivo ITAS Living).",
+  "modulo": "",
+  "note": "RC auto: nessun tacito rinnovo dal DL 179/2012, non serve disdetta. Il DIP aggiuntivo (ed. 12/2024) ammette la disdetta per raccomandata A/R o PEC all'intermediario o a ITAS Mutua; i contratti a scadenza automatica cessano senza disdetta. Altri indirizzi citati da siti terzi (es. Via Mantova, itas@pec.itas.it) non trovano conferma nei documenti ufficiali.",
+  "fonti": [
+   "https://www.gruppoitas.it/o/portali-ist-s-api/api/v1/download?companyId=20097&groupId=20121&codComp=022&codRamo=0E&codProd=2007&tipoStampa=INF_I&prgStampa=0&sysdate=2023-06-16T09%3A32%3A36&fname=DIP+E+DIP+AGGIUNTIVO.pdf",
+   "https://www.gruppoitas.it/o/portali-ist-s-api/api/v1/download?companyId=20097&groupId=20121&codComp=022&codRamo=0E&codProd=2007&tipoStampa=CGI_I&prgStampa=0&sysdate=2023-06-16T09%3A32%3A36&fname=CONDIZIONI+DI+ASSICURAZIONE.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "HDI Assicurazioni",
+  "slug": "hdi-assicurazioni",
+  "categoria": "assicurazioni",
+  "pec": "hdi.assicurazioni@pec.hdia.it",
+  "indirizzo_postale": "HDI Assicurazioni S.p.A., Piazza Guglielmo Marconi 25, 00144 Roma (RM)",
+  "canali": [
+   "raccomandata A/R (alla sede o all'agenzia)",
+   "PEC",
+   "agenzia di riferimento",
+   "area clienti areaclienti.hdiassicurazioni.it"
+  ],
+  "preavviso": "Almeno 30 giorni prima della scadenza per i contratti con tacito rinnovo; senza tacito rinnovo la polizza cessa da sola. Ripensamento entro 14 giorni per la vendita a distanza.",
+  "costi": "Nessun costo per la disdetta alla scadenza.",
+  "modulo": "",
+  "note": "RC auto: nessun tacito rinnovo dal DL 179/2012, non serve disdetta. Le condizioni (es. Circolazione Sicura) prevedono la disdetta per raccomandata o PEC almeno 30 giorni prima; la PEC hdi.assicurazioni@pec.hdia.it è indicata anche per il recesso e per le comunicazioni dei clienti sul sito. L'indirizzo di Milano (Viale Carducci) citato da siti terzi non è confermato dai documenti ufficiali; reclami: Piazza Marconi 25, reclami@hdia.it.",
+  "fonti": [
+   "https://youquote.hdia.it/documents/13553353/13559276/Condizioni+di+Assicurazione+-+Circolazione+Sicura.pdf/3482182d-7f41-4e10-fc15-f335672c5e40?version=1.0",
+   "https://prestitalia.intesasanpaolo.com/content/dam/prestitalia/docs/trasparenza-documenti-informativi/assicurazioni/HDI%20-%20Set%20Informativo%20DEL.pdf",
+   "https://www.hdiassicurazioni.it/it/assistenza/assistenza-casa-e-beni"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Allianz Direct",
+  "slug": "allianz-direct",
+  "categoria": "assicurazioni",
+  "pec": "allianzdirect@pec.allianzdirect.it",
+  "indirizzo_postale": "Allianz Direct S.p.A., Piazza Tre Torri 3, 20145 Milano (MI)",
+  "canali": [
+   "telefono 02 3045 9009",
+   "chat",
+   "Account Personale (interruzione per perdita di possesso del veicolo)",
+   "PEC",
+   "raccomandata A/R"
+  ],
+  "preavviso": "Nessuno: auto e casa sono senza tacito rinnovo e cessano alla scadenza. Ripensamento entro 14 giorni dall'emissione (se non ci sono sinistri).",
+  "costi": "Nessuno.",
+  "modulo": "",
+  "note": "RC auto: nessun tacito rinnovo dal DL 179/2012, non serve disdetta. Anche i set informativi casa e auto attuali indicano contratti senza tacito rinnovo; la PEC è indicata ufficialmente per il recesso (ripensamento). Per vecchie polizze casa con tacito rinnovo la FAQ indica la disdetta per raccomandata A/R entro 60 giorni dalla scadenza.",
+  "fonti": [
+   "https://www.allianzdirect.it/faq/gestione-della-polizza/",
+   "https://www.allianzdirect.it/dam/documents/set-informativi/prodotti/casaefamiglia/Set-informativo-casa.pdf",
+   "https://www.allianzdirect.it/dam/documents/set-informativi/prodotti/auto/Set-informativo-auto-web.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Quixa Assicurazioni",
+  "slug": "quixa",
+  "categoria": "assicurazioni",
+  "pec": "quixa.assicurazioni@legalmail.it",
+  "indirizzo_postale": "QUIXA Assicurazioni S.p.A., Corso Como 17, 20154 Milano (MI)",
+  "canali": [
+   "PEC quixa.assicurazioni@legalmail.it (polizze Home & Family, con copia documento d'identità)",
+   "e-mail quixasmart@quixa.it (polizze quixa smart casa/soccorso/salute)",
+   "telefono 02 8295 4742",
+   "chat e WhatsApp +39 339 995 1249",
+   "raccomandata A/R alla sede legale"
+  ],
+  "preavviso": "Polizze casa/famiglia: almeno 30 giorni prima della scadenza annuale. RC auto: nessuna disdetta necessaria, il contratto scade da solo.",
+  "costi": "Nessuna penale indicata per la disdetta alla scadenza.",
+  "modulo": "",
+  "note": "Quixa è ancora attiva (gruppo AXA Italia). RC auto: niente tacito rinnovo dal DL 179/2012, la polizza cessa alla scadenza senza disdetta; per le altre polizze serve la disdetta nei termini. Il set informativo Home & Family (ed. 15/01/2026) indica la PEC per disdetta e recesso; i prodotti quixa smart indicano invece l'e-mail quixasmart@quixa.it. Gli indirizzi disdette@pec.quixa.it e Via Monterosa 91 Concorezzo citati da siti terzi NON compaiono nei documenti ufficiali.",
+  "fonti": [
+   "https://www.quixa.it/wp-content/documents/SetInformativi/ed.15.01.2026_Home_family.pdf",
+   "https://www.quixa.it/wp-content/documents/SetInformativi/ed.20.09.2023_Casa.pdf",
+   "https://www.quixa.it/wp-content/documents/SetInformativi/ed.28.01.2025_Auto_ContrattoBase.pdf",
+   "https://www.quixa.it/contatti"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Intesa Sanpaolo Protezione (ex Intesa Sanpaolo Assicura)",
+  "slug": "intesa-sanpaolo-protezione",
+  "categoria": "assicurazioni",
+  "pec": "comunicazioni@pec.intesasanpaoloprotezione.com",
+  "indirizzo_postale": "Intesa Sanpaolo Protezione S.p.A., Via San Francesco d'Assisi 10, 10122 Torino (TO)",
+  "canali": [
+   "PEC comunicazioni@pec.intesasanpaoloprotezione.com",
+   "raccomandata A/R",
+   "modulo di disdetta da firmare nella filiale Intesa Sanpaolo dove è stata acquistata la polizza (o dove è stato trasferito il conto)",
+   "numero verde 800 124 124"
+  ],
+  "preavviso": "Almeno 30 giorni prima della scadenza annuale (fa fede il timbro postale della raccomandata). Recesso entro 14 giorni dalla decorrenza.",
+  "costi": "Nessuna penale indicata per la disdetta alla scadenza.",
+  "modulo": "",
+  "note": "Dal 1° dicembre 2024 Intesa Sanpaolo Assicura ha incorporato Intesa Sanpaolo RBM Salute e si chiama Intesa Sanpaolo Protezione (rami danni e salute, per esempio XME Protezione); le polizze vita fanno capo invece a Intesa Sanpaolo Assicurazioni (ex Intesa Sanpaolo Vita). RC auto: niente tacito rinnovo dal DL 179/2012; per casa, infortuni e salute serve la disdetta nei termini, indicando il numero di polizza.",
+  "fonti": [
+   "https://www.intesasanpaoloprotezione.com/bin/openAssetInline?path=%2Fcontent%2Fdam%2Fisp_protezione%2Fdocuments%2Fproducts%2Fpersone%2Fxme-protezione%2FIspp-Xme-CdA-Unico-2026.pdf",
+   "https://www.intesasanpaoloprotezione.com/it/contatti.html",
+   "https://www.aziendabanca.it/notizie/assicurazioni/intesa-sanpaolo-assicurazioni-rebranding"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Poste Assicura",
+  "slug": "poste-assicura",
+  "categoria": "assicurazioni",
+  "pec": "posteassicura@pec.poste-assicura.it",
+  "indirizzo_postale": "Poste Assicura S.p.A., Ufficio Portafoglio, Viale Europa 190, 00144 Roma (RM)",
+  "canali": [
+   "PEC posteassicura@pec.poste-assicura.it (raggiungibile anche da e-mail ordinaria)",
+   "raccomandata A/R all'Ufficio Portafoglio",
+   "in ufficio postale dove è stata sottoscritta la polizza",
+   "numero verde 800 13 18 11"
+  ],
+  "preavviso": "Almeno 30 giorni prima della scadenza annuale, per l'intero contratto o per singoli moduli.",
+  "costi": "Nessuna penale indicata per la disdetta alla scadenza.",
+  "modulo": "Modulo di disdetta allegato alle condizioni di assicurazione (es. Poste Vivere Protetti)",
+  "note": "Le polizze danni di Poste (es. Poste Vivere Protetti) si rinnovano tacitamente ogni anno: serve la disdetta nei termini, allegando copia di un documento d'identità. Polizze vecchie o di altri prodotti possono riportare indirizzi precedenti (Piazzale Konrad Adenauer 3, Viale Beethoven 11): verificare quello indicato nel proprio set informativo. Le polizze vita sono di Poste Vita, società distinta.",
+  "fonti": [
+   "https://www.media.poste.it/6d9c376e-30c2-407e-9fdf-44f9864f386f/web/postevivereprotetti-cga",
+   "https://posteassicura.poste.it/faq-poste-assicura",
+   "https://postevita.poste.it/trasferimento-portafoglio"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "BENE Assicurazioni",
+  "slug": "bene-assicurazioni",
+  "categoria": "assicurazioni",
+  "pec": "beneassicurazioni@legalmail.it",
+  "indirizzo_postale": "BENE Assicurazioni S.p.A. Società Benefit, Via dei Valtorta 48, 20127 Milano (MI)",
+  "canali": [
+   "PEC beneassicurazioni@legalmail.it",
+   "raccomandata A/R alla Direzione",
+   "tramite l'intermediario (agente/broker) a cui è assegnata la polizza",
+   "telefono 02 892 973",
+   "e-mail info@bene.it (non valida come prova di invio)"
+  ],
+  "preavviso": "Polizze casa e altre polizze danni: disdetta almeno 30 giorni prima della scadenza annuale. RC auto (Autofit): nessuna disdetta, il contratto scade da solo.",
+  "costi": "Nessuna penale indicata per la disdetta alla scadenza.",
+  "modulo": "",
+  "note": "RC auto: niente tacito rinnovo dal DL 179/2012; anche le garanzie accessorie della polizza auto BENE non si rinnovano tacitamente. Per la polizza casa (ed. 01/2025) le comunicazioni vanno fatte con raccomandata o PEC alla Direzione oppure all'intermediario.",
+  "fonti": [
+   "https://www.bene.it/assets/Set_Informativo_Casa_edizione_012025.pdf",
+   "https://www.bene.it/assets/AUTOFIT_CDA_2501.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Cattolica Assicurazioni (Generali Italia)",
+  "slug": "cattolica-assicurazioni",
+  "categoria": "assicurazioni",
+  "pec": "cattolica@pec.generaligroup.com",
+  "indirizzo_postale": "Generali Italia S.p.A. (marchio Cattolica), Via Marocchesa 14, 31021 Mogliano Veneto (TV)",
+  "canali": [
+   "PEC cattolica@pec.generaligroup.com",
+   "raccomandata A/R a Generali Italia",
+   "raccomandata A/R o PEC all'agenzia Cattolica a cui è assegnata la polizza",
+   "area clienti MyCattolica"
+  ],
+  "preavviso": "Almeno 30 giorni prima della scadenza della polizza o della singola garanzia (prodotto Active Protezione). Recesso entro 14 giorni dalla conclusione.",
+  "costi": "Nessuna penale per la disdetta alla scadenza; per le garanzie poliennali con sconto di legge valgono i limiti di durata indicati in polizza (recesso possibile dopo 5 anni).",
+  "modulo": "",
+  "note": "Cattolica Assicurazioni non è più una compagnia autonoma: è un marchio commerciale e una divisione di Generali Italia S.p.A. (cattolica.it indica Generali Italia come titolare). Le condizioni Active Protezione (agg. 2026) indicano PEC e indirizzo sopra; polizze più vecchie possono riportare Lungadige Cangrande 16, Verona: in caso di dubbio scrivere all'agenzia. RC auto: niente tacito rinnovo dal DL 179/2012.",
+  "fonti": [
+   "https://www.generali.it/cmsassets/site/d00d333c-12c5-4b45-a36c-97bc7edb754b/Set_Informativo_Active_Protezione_Norme_Comuni.pdf",
+   "https://www.generali.it/assicurazioni/prodotti-brand-cattolica/",
+   "https://www.cattolica.it/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "CNP Vita Assicura (ex Aviva)",
+  "slug": "cnp-vita-ex-aviva",
+  "categoria": "assicurazioni",
+  "pec": "",
+  "indirizzo_postale": "CNP Vita Assicura S.p.A., Via Arbe 49, 20125 Milano (MI)",
+  "canali": [
+   "raccomandata A/R alla sede di Via Arbe 49",
+   "tramite l'intermediario (banca o agente) che ha collocato la polizza",
+   "e-mail gestione_vita@gruppocnp.it (informazioni generali), liquidazioni_vita@gruppocnp.it (riscatti)",
+   "numero verde 800 11 44 33"
+  ],
+  "preavviso": "Polizze vita: non c'è una disdetta annuale; recesso entro 30 giorni dalla conclusione, poi riscatto (di norma dopo almeno 1 anno) o sospensione dei premi secondo le condizioni di polizza.",
+  "costi": "Eventuali penali di riscatto anticipato secondo le condizioni del singolo prodotto.",
+  "modulo": "",
+  "note": "Nel 2022 Aviva S.p.A. e Aviva Life S.p.A. sono diventate CNP Vita Assicura e CNP Vita Assicurazione (gruppo CNP Assurances); le polizze danni ex Aviva sono passate ad Allianz. La PEC cnpvita_assicura@legalmail.it è la PEC societaria indicata nei set informativi (ed. 02/2026) ma non è espressamente prevista per recesso o riscatto; il sito gruppocnp.it risultava in manutenzione al 26/10/2026.",
+  "fonti": [
+   "https://www.mediobancapremier.com/wcm/connect/public/c48869ca-aa84-4585-bce2-930104ac9303/SetinfoCNPMyfamily.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE.Z18_P2DAH0S00HR550Q5MPVR6L0G33-c48869ca-aa84-4585-bce2-930104ac9303-oQ2xRHb",
+   "https://www.gruppocnp.it/",
+   "https://gruppocnp.it:443/sites/default/files/Nascono_i_due_nuovi_brand_CNP_Vita_Assicura_e_CNP_Vita_Assicurazione_febbraio_2022.pdf",
+   "https://www.aziendabanca.it/notizie/assicurazioni/aviva-allianz-viva-cnp"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "AXA MPS Assicurazioni Danni",
+  "slug": "axa-mps",
+  "categoria": "assicurazioni",
+  "pec": "",
+  "indirizzo_postale": "AXA MPS Assicurazioni Danni S.p.A., Via Aldo Fabrizi 9, 00128 Roma (RM)",
+  "canali": [
+   "raccomandata A/R alla sede legale",
+   "numero verde dedicato 800 218 500 (disdetta registrata dall'operatore, per Pronto Protezione Casa)",
+   "filiale Monte dei Paschi / Widiba che ha collocato la polizza",
+   "area clienti areaclienti.axa-italia.it / app My AXA"
+  ],
+  "preavviso": "Pronto Protezione Casa (durata mensile): disdetta in qualsiasi momento, la copertura resta valida per il periodo già pagato. Altre polizze: secondo le condizioni (di norma prima della scadenza annuale; per i contratti oltre 5 anni recesso con 60 giorni di preavviso).",
+  "costi": "Nessuna penale; per Pronto Protezione Casa i premi addebitati dopo la disdetta vengono rimborsati.",
+  "modulo": "",
+  "note": "Polizze vendute tramite Banca MPS e Widiba (gruppo AXA Italia). Le condizioni (ed. febbraio 2026) chiedono comunicazioni scritte alla sede legale; la PEC societaria axampsdanni@legalmail.it compare nell'intestazione dei documenti ma non è indicata espressamente per la disdetta. RC auto: niente tacito rinnovo dal DL 179/2012. Le polizze vita sono di AXA MPS Assicurazioni Vita, stesso indirizzo.",
+  "fonti": [
+   "https://www.axa-mps.it/c/document_library/get_file?uuid=1e067d08-a1aa-1d2c-6ac3-cf82234d63cf&groupId=715633",
+   "https://www.axa-mps.it/documents/d/axampsit/mcic-widiba-4500349_cda-complete_02-26",
+   "https://www.axa-mps.it/contatti"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ }
+]
