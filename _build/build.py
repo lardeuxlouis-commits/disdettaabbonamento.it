@@ -564,6 +564,13 @@ def main():
             shutil.copy(os.path.join(ROOT, src), os.path.join(OUT, dst))
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(page("Pagina non trovata | " + SITE, "Pagina non trovata.", "/404.html",
         '<section class="hero small"><h1>Pagina <em>non trovata</em></h1><p class="lead">La pagina che cerchi non esiste o è stata spostata. Cerca il tuo operatore:</p><div class="searchbox"><input class="search" type="search" placeholder="TIM, Sky, Enel, McFit…" autocomplete="off" aria-label="Cerca un operatore"></div></section><p><a class="btn" href="/">Torna alla home</a></p>').replace('<link rel="canonical" href="https://disdettaabbonamento.it/404.html">', '<meta name="robots" content="noindex">'))
+    rp = os.path.join(ROOT, "data", "redirects.json")
+    if os.path.exists(rp):
+        for old, new in json.load(open(rp)).items():
+            dst = os.path.join(OUT, old.lstrip("/"))
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            u = DOMAIN + new
+            open(dst, "w", encoding="utf-8").write(f'<!doctype html><html lang="it"><head><meta charset="utf-8"><title>Pagina spostata</title><link rel="canonical" href="{u}"><meta http-equiv="refresh" content="0; url={u}"><script>location.replace("{u}")</script></head><body><p>Questa pagina è stata spostata: <a href="{u}">{u}</a></p></body></html>')
     open(os.path.join(OUT, "CNAME"), "w").write("disdettaabbonamento.it\n")
     k = open(os.path.join(ROOT, "_build", "indexnow.key")).read().strip()
     open(os.path.join(OUT, k + ".txt"), "w").write(k)
