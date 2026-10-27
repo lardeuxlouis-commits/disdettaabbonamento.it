@@ -1,0 +1,746 @@
+[
+ {
+  "nome": "CoopVoce",
+  "slug": "coopvoce",
+  "categoria": "telefonia",
+  "pec": "",
+  "indirizzo_postale": "Coop Italia Società Cooperativa, Via del Lavoro 6-8, 40033 Casalecchio di Reno (BO)",
+  "canali": [
+   "modulo di recesso consegnato in un Punto Vendita Coop abilitato CoopVoce",
+   "e-mail a comunicazioni@coopvoce.it con modulo e copia del documento firmata",
+   "raccomandata A/R cartacea o digitale",
+   "servizio clienti 188 (dall'estero +39 334 4188188)",
+   "nessun pulsante di disdetta online indicato nelle condizioni generali"
+  ],
+  "preavviso": "Recesso in ogni momento con preavviso di 30 giorni (art. 14.1 CGC 2026). Ripensamento entro 14 giorni per contratti a distanza o fuori dai locali commerciali.",
+  "costi": "Nessuna penale indicata per il recesso; ripensamento entro 14 giorni senza penalità. Il credito residuo può essere trasferito su altra SIM Coop, convertito in buono spesa o rimborsato (oltre 100 € solo con bonifico). I bonus da punti socio non sono rimborsabili.",
+  "modulo": "https://www.coopvoce.it/content/dam/coopvoce/documenti-pdf/documenti/documenti-e-modulistica/modulistica-relativa-alla-tua-sim-coopvoce/Modulo%20recesso%2014%20gg.pdf",
+  "note": "Allega sempre copia del documento d'identità firmata con luogo e data e indica nella lettera come vuoi recuperare il credito residuo. Se passi a un altro operatore con la portabilità del numero non serve la disdetta. CoopVoce non pubblica una PEC per i clienti: le condizioni ammettono la raccomandata digitale ma senza indicare un indirizzo PEC.",
+  "fonti": [
+   "https://www.coopvoce.it/content/dam/coopvoce/documenti-pdf/documenti/condizioni-generali/cgc_2026.pdf",
+   "https://www.coopvoce.it/content/dam/coopvoce/documenti-pdf/documenti/documenti-e-modulistica/modulistica-relativa-alla-tua-sim-coopvoce/Modulo%20recesso%2014%20gg.pdf",
+   "https://www.coopvoce.it/portale/assistenza/documenti.html"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Lycamobile Italia",
+  "slug": "lycamobile",
+  "categoria": "telefonia",
+  "pec": "",
+  "indirizzo_postale": "Lyca Mobile S.r.l., Via di Valle Lupara 10, 00148 Roma",
+  "canali": [
+   "raccomandata A/R con il modulo di richiesta firmato",
+   "e-mail a doc@lycamobile.it con il modulo firmato",
+   "modulo compilato in un punto vendita autorizzato Lyca Mobile",
+   "servizio clienti 40322 (gratuito da SIM Lyca) o 06 4521 2322",
+   "nessun pulsante di disdetta online indicato nelle condizioni"
+  ],
+  "preavviso": "Recesso in qualsiasi momento con comunicazione scritta (art. 11.3 e 11.5 delle condizioni generali); nessun preavviso specifico indicato.",
+  "costi": "Nessun costo per disattivazione e recesso (art. 11.6). Il credito residuo non utilizzato è rimborsabile in denaro, anche in caso di recesso o portabilità.",
+  "modulo": "",
+  "note": "Lyca è un'offerta ricaricabile: se passi a un altro operatore con la portabilità non serve la disdetta. Chiedi nella lettera il rimborso del credito residuo, che le condizioni generali riconoscono. Nessuna PEC pubblicata sul sito ufficiale, e il modulo citato dalle condizioni non è scaricabile in modo diretto.",
+  "fonti": [
+   "https://www.lycamobile.it/it/termscondition/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "spusu Italia",
+  "slug": "spusu",
+  "categoria": "telefonia",
+  "pec": "spusu@pec.it",
+  "indirizzo_postale": "spusu Italia s.r.l., Via Privata Stefanardo da Vimercate 28, 20128 Milano (MI)",
+  "canali": [
+   "e-mail a ciao@spusu.it con modulo di recesso firmato a penna e copia del documento (canale indicato dalle condizioni)",
+   "PEC spusu@pec.it (pubblicata nelle condizioni generali per reclami e segnalazioni)",
+   "modulo online di ripensamento entro 14 giorni: https://www.spusu.it/recesso-contratto",
+   "servizio clienti 378 010 1000"
+  ],
+  "preavviso": "Almeno 6 giorni lavorativi prima dell'inizio del periodo di fatturazione successivo; la disdetta ha effetto alla fine del mese solare di fatturazione in corso. Nessuna durata minima.",
+  "costi": "Nessun vincolo né penale indicati; i costi eventualmente dovuti sono riportati su www.spusu.it/condizioni. Il credito residuo si chiede con l'apposito modulo di restituzione.",
+  "modulo": "https://www.spusu.it/imoscmsapi/files/Modulo%20di%20recesso.pdf?raw=true",
+  "note": "Il canale previsto per la disdetta è l'e-mail a ciao@spusu.it con il modulo firmato e il documento; la PEC spusu@pec.it è l'indirizzo certificato ufficiale e dà prova dell'invio. Per recuperare il credito usa il modulo di restituzione del credito residuo.",
+  "fonti": [
+   "https://www.spusu.it/condizioni",
+   "https://www.spusu.it/imoscmsapi/files/Condizioni%20Generali%20di%20Contratto%202026.pdf?raw=true",
+   "https://www.spusu.it/imoscmsapi/files/Modulo%20di%20recesso.pdf?raw=true",
+   "https://www.spusu.it/recesso-contratto"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Optima Italia (telefonia)",
+  "slug": "optima-italia",
+  "categoria": "telefonia",
+  "pec": "optima_disdetta@legalmail.it",
+  "indirizzo_postale": "Optima Italia S.p.A., Corso Umberto I 174, 80138 Napoli",
+  "canali": [
+   "raccomandata A/R alla sede legale",
+   "clienti privati: fax 800 959 600 o e-mail servizioclientiprivati@optimaitalia.com",
+   "clienti business: fax 800 939 392 o PEC optima_disdetta@legalmail.it oppure optimaitalia@legalmail.it",
+   "modulo online per il diritto di ripensamento: https://www.optimaitalia.com/diritto-ripensamento",
+   "cambio operatore: lo gestisce il nuovo gestore"
+  ],
+  "preavviso": "30 giorni per la disattivazione della linea fissa o della SIM (Carta dei servizi). Ripensamento entro 14 giorni (30 giorni se il contratto è nato da una visita a domicilio non richiesta).",
+  "costi": "In caso di recesso anticipato restano dovute le rate residue di prodotti e servizi acquistati insieme all'offerta, pagabili anche in un'unica soluzione (informativa ai sensi della delibera AGCOM 487/18/CONS). Eventuali costi di disattivazione sono indicati nella documentazione contrattuale dell'offerta.",
+  "modulo": "",
+  "note": "Le PEC optima_disdetta@legalmail.it e optimaitalia@legalmail.it sono indicate dalla Carta dei servizi per le disdette dei clienti business; per i privati il canale scritto previsto è raccomandata, fax o e-mail, ma la PEC generale optimaitalia@legalmail.it è pubblicata anche per i reclami di tutti i clienti. Se cambi operatore non serve la disdetta: ci pensa il nuovo gestore.",
+  "fonti": [
+   "https://www.optimaitalia.com/public/files/pdf/telecomunicazioni/carta-dei-servizi/Carta_servizi_rete_fissa_Optima.pdf",
+   "https://www.optimaitalia.com/public/files/pdf/telecomunicazioni/carta-dei-servizi/Carta_Servizi_Mobile_Optima.pdf",
+   "https://www.optimaitalia.com/informativa-rateizzazione-recessi-anticipati.html",
+   "https://www.optimaitalia.com/info-clienti"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Linkem (ex Opnet)",
+  "slug": "linkem",
+  "categoria": "telefonia",
+  "pec": "",
+  "indirizzo_postale": "Smeraldo S.p.A., Servizio Linkem, Ufficio Amministrativo, Strada Provinciale Bari-Modugno 1, 70132 Bari",
+  "canali": [
+   "raccomandata A/R con il modulo di interruzione contratto e copia del documento",
+   "e-mail a cessazioneservizio@tiscali.com (privati) o cessazioneserviziobusiness@tiscali.com (business)",
+   "fax 080 5622090 (privati) o 080 5622093 (business)",
+   "consegna in un punto vendita autorizzato",
+   "richiesta online dal sito Linkem / area clienti MyLinkem (prevista dalla Carta dei servizi)",
+   "servizio clienti 130"
+  ],
+  "preavviso": "Recesso in qualsiasi momento con almeno 30 giorni di anticipo; efficace al più tardi 30 giorni dopo la ricezione. Contratti di 24 mesi con rinnovo a tempo indeterminato salvo disdetta 30 giorni prima della scadenza. Ripensamento entro 14 giorni per contratti a distanza.",
+  "costi": "Per i contratti firmati dopo il 3 gennaio 2024, recesso nei primi 24 mesi: contributo di disattivazione tra 0 € e una mensilità di canone (delibera AGCOM 307/23/CONS). Restano dovute le rate residue del contributo di attivazione o di prodotti abbinati, pagabili in un'unica soluzione. Gli apparati in comodato vanno restituiti.",
+  "modulo": "https://www.linkem.com/_astro/media/modulo_interruzione_contrattoprivato_2026_Smeraldo_3c9ed6a02-b1d5caf7.pdf",
+  "note": "Il ramo consumer di Linkem è passato a Tiscali: oggi il contratto è con Smeraldo S.p.A. (marchi Tiscali e Linkem, gruppo Canarbino), mentre OpNet è diventata la società wholesale di WindTre e non gestisce più clienti privati. Per l'FWA Linkem l'indirizzo è quello di Bari; nessuna PEC è indicata nei documenti Linkem (la PEC cessazionecontratti@legalmail.it compare solo per i servizi Tiscali).",
+  "fonti": [
+   "https://www.linkem.com/contatti/",
+   "https://www.linkem.com/supporto/dettagli/moduli-privati/",
+   "https://www.linkem.com/_astro/media/C_Gd_C_Linkem_Privati_27_Maggio2026_90ff9d3df6-1e7729cc.pdf",
+   "https://www.linkem.com/_astro/media/carta_dei_servizi_2026_a654f8fe16-611cfd00.pdf",
+   "https://www.linkem.com/_astro/media/modulo_interruzione_contrattoprivato_2026_Smeraldo_3c9ed6a02-b1d5caf7.pdf",
+   "https://www.opnet.it/contatti/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Digi Mobil Italia",
+  "slug": "digi-mobil",
+  "categoria": "telefonia",
+  "pec": "digimobil@pec.it",
+  "indirizzo_postale": "Digi Italy S.r.l., Servizio Clienti, Via Giovanni Bensi 11, 20152 Milano (MI)",
+  "canali": [
+   "PEC digimobil@pec.it",
+   "raccomandata A/R al Servizio Clienti",
+   "e-mail a servizioclienti@digi.it",
+   "area personale \"Mio Conto\" > Disattivazione e Recesso: si scarica la lettera di cessazione e la si ricarica firmata (upload)",
+   "modulo compilato in un punto vendita Digi",
+   "assistenza 4077 da rete Digi, +39 353 300 4077 da altre reti"
+  ],
+  "preavviso": "Recesso gratuito in qualsiasi momento con preavviso di almeno 30 giorni (art. 10.1 CGC mobile); dopo 30 giorni Digi interrompe il servizio. Ripensamento entro 14 giorni per contratti via web o fuori dai locali commerciali.",
+  "costi": "Recesso gratuito. Per la restituzione del credito residuo (escluso quello da bonus e promozioni) possono essere trattenuti al massimo 10 € di spese amministrative. In caso di ripensamento possono restare a carico le spese di corriere per la SIM.",
+  "modulo": "https://www.digi.it/it/info-utili/mobile",
+  "note": "Usa il modulo \"Lettera di cessazione utenza\" della pagina Informazioni utili e allega carta d'identità e codice fiscale. Nella stessa lettera puoi chiedere il rimborso del credito residuo con bonifico o assegno circolare; la portabilità del numero resta possibile entro 30 giorni dalla cessazione.",
+  "fonti": [
+   "https://www.digi.it/it/info-utili/mobile",
+   "https://www.digi.it/it/contattaci",
+   "https://sit.iw.ro/gateway/g/a1U3MWIySkUyWlE5bzhQUDZkZDF6OU9W/MlE3Q2VVVEpEUjUxWks0TVBrdVY5Mzhu/ekRXTXZFVGhIdUg4Y0twbzYwNytjK1NU/eGtMNU9OdW9JTzJldTN3Z0lxd2c0OGJj/Yjk0YWJMSGpJeVRrR3RlUnllbElKa0kx/NG5OcTlIYzBGN080NWlQVTNleEUxZUZC/akhBWnhFRTlCWkpUeGViT1JYZXNpbC9X/OUY1YU1MS3dGNTYrL256RmVIMG5xZUYyWnNuenpHNHFIL3h0cVdKY0dIV240dz09.pdf",
+   "https://sit.iw.ro/gateway/g/a1U3MWIySkUyWlE5bzhQUDZkZDF6OU9W/MlE3Q2VVVEpEUjUxWks0TVBrdVY5Mzhu/ekRXTXZFVGhIdUg4Y0twbzYwNytjK1NU/eGtMNU9OdW9JTzJldTg5eE9FMUpSTFBy/YWlQVTQ2dWFwYlpHSk94M3lPOTJ2MXAr/TjBKNWlTbVBsem5rWDY4ZUphKzNNK2tL/c3VYUmg5dU9ISUVFbm9MTVErZ2dGRzdBdVJlcGpLLzJURjFrL21vSEdOdDJTRHRr.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "1Mobile",
+  "slug": "1mobile",
+  "categoria": "telefonia",
+  "pec": "protocollo@pec.unomobile.it",
+  "indirizzo_postale": "Compagnia Italia Mobile S.r.l., Servizio Attivazione Clienti, Piazzale Biancamano 8, 20121 Milano (MI)",
+  "canali": [
+   "PEC protocollo@pec.unomobile.it",
+   "raccomandata A/R",
+   "servizio clienti 401001 (o 346 4441001)",
+   "e-mail servizioclienti@unomobile.it (indicata per reclami e richieste)",
+   "nessun pulsante di disdetta online indicato"
+  ],
+  "preavviso": "Recesso libero in ogni momento a mezzo raccomandata A/R o PEC (art. 8.3 delle condizioni); nessun preavviso indicato. Ripensamento entro 14 giorni dall'attivazione per acquisti online.",
+  "costi": "Costo di disattivazione e di recesso 0 € (sintesi contrattuali). Rimborso del credito residuo acquistato (esclusi bonus e promozioni) con bonifico, al netto di 6,50 € di costo dell'operazione; trasferimento su altra SIM 1Mobile o verso il nuovo operatore in portabilità al costo di 2 €.",
+  "modulo": "",
+  "note": "Il sito ufficiale di 1Mobile è unomobile.it (il dominio 1mobile.it non è più attivo). Le condizioni chiedono di restituire la SIM a CIM: per il rimborso del credito indica nella lettera il conto corrente su cui ricevere il bonifico.",
+  "fonti": [
+   "https://unomobile.it/contatti",
+   "https://unomobile.it/pdf/1Mobile_Carta%20dei%20Servizi_04_03_2024.pdf",
+   "https://unomobile.it/files/2/2/3/1/c/7/1mobile_termini_condizioni_acquisto_2023.pdf",
+   "https://unomobile.it/pdf/1MOBILE_9-SINTESI_CONTRATTUALE.pdf",
+   "https://unomobile.it/files/1/4/4/6/3/f/speed_5g_180.pdf"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Spotify",
+  "slug": "spotify",
+  "pec": "",
+  "indirizzo_postale": "Spotify AB, Regeringsgatan 19, 111 53 Stoccolma, Svezia",
+  "canali": [
+   "account spotify.com > Gestisci il tuo piano > Annulla abbonamento (pulsante online)",
+   "modulo di cancellazione online di Spotify",
+   "se attivato tramite partner (operatore telefonico, ISP): disdetta presso il partner",
+   "se pagato tramite Apple: impostazioni abbonamenti Apple"
+  ],
+  "preavviso": "La disdetta ha effetto al termine del periodo di fatturazione in corso: Premium resta attivo fino alla prossima data di fatturazione. Durante la prova gratuita il passaggio al piano Free è immediato.",
+  "costi": "Nessuna penale. Nessun rimborso per periodi parziali.",
+  "modulo": "",
+  "note": "Si disdice online dall'account, in pochi clic: non serve raccomandata né PEC. Se Premium è incluso nell'offerta di un operatore (es. telefonia), va disdetto presso l'operatore. L'indirizzo indicato è la sede legale di Spotify AB, controparte del contratto.",
+  "fonti": [
+   "https://support.spotify.com/it/article/cancel-premium/",
+   "https://www.spotify.com/it/legal/end-user-agreement/"
+  ],
+  "affidabilita": "ufficiale",
+  "categoria": "tv-streaming",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Apple (abbonamenti, iCloud+, Apple Music)",
+  "slug": "apple-abbonamenti",
+  "pec": "",
+  "indirizzo_postale": "Apple Distribution International Ltd., Hollyhill Industrial Estate, Hollyhill, Cork, Irlanda",
+  "canali": [
+   "iPhone/iPad: Impostazioni > [nome] > Abbonamenti > Annulla abbonamento (pulsante online)",
+   "Mac: App Store > [nome] > Abbonamenti",
+   "Windows: app Apple Music o Apple TV > Account > Impostazioni > Abbonamenti",
+   "web: account.apple.com/account/manage/section/subscriptions",
+   "recesso entro 14 giorni: reportaproblem.apple.com / Cronologia acquisti, oppure e-mail rightofwithdrawal@apple.com"
+  ],
+  "preavviso": "Annullare almeno 24 ore prima del rinnovo (o della fine della prova gratuita); l'abbonamento resta attivo fino alla fine del periodo già pagato. Recesso entro 14 giorni dalla ricevuta.",
+  "costi": "Nessuna penale. In caso di recesso entro 14 giorni, rimborso entro 14 giorni sul metodo di pagamento originale.",
+  "modulo": "https://www.apple.com/legal/internet-services/itunes/it/terms.html",
+  "note": "Gli abbonamenti Apple (e quelli di app di terzi pagati con l'Apple Account) si disdicono solo dalle impostazioni Abbonamenti, non serve lettera. Il modulo tipo di recesso è nei Termini dei servizi multimediali Apple; per iCloud+ basta tornare al piano gratuito da 5 GB.",
+  "fonti": [
+   "https://support.apple.com/it-it/118428",
+   "https://www.apple.com/legal/internet-services/itunes/it/terms.html"
+  ],
+  "affidabilita": "ufficiale",
+  "categoria": "tv-streaming",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "YouTube Premium",
+  "slug": "youtube-premium",
+  "pec": "",
+  "indirizzo_postale": "Google Ireland Limited, Gordon House, Barrow Street, Dublino 4, Irlanda",
+  "canali": [
+   "web: youtube.com/paid_memberships > Gestisci abbonamento > Disattiva (pulsante online)",
+   "app YouTube (Android)",
+   "se fatturato tramite Google Play: impostazioni abbonamenti Google Play",
+   "se acquistato su iOS: impostazioni abbonamenti Apple",
+   "recesso entro 14 giorni: e-mail support-yt@youtube.com"
+  ],
+  "preavviso": "La disdetta ha effetto alla fine del periodo di fatturazione in corso; i vantaggi Premium restano fino ad allora e non ci sono altri addebiti.",
+  "costi": "Nessuna penale. Nessun rimborso per i giorni residui del periodo, salvo norme di legge o policy rimborsi.",
+  "modulo": "",
+  "note": "Si disdice online da youtube.com/paid_memberships. Se ti sei abbonato dall'app iPhone, disdici dall'Apple Account; con fatturazione Google Play, da Google Play. L'indirizzo è la sede di Google Ireland, fornitore del servizio nell'UE.",
+  "fonti": [
+   "https://support.google.com/youtube/answer/6308278?hl=it",
+   "https://www.youtube.com/t/terms_paidservice?hl=it"
+  ],
+  "affidabilita": "ufficiale",
+  "categoria": "tv-streaming",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Paramount+",
+  "slug": "paramount-plus",
+  "pec": "",
+  "indirizzo_postale": "Paramount Global Italia S.r.l., Corso Europa 5, 20122 Milano",
+  "canali": [
+   "account paramountplus.com/account > Abbonamento > Annulla abbonamento (pulsante online)",
+   "se acquistato tramite app store, Prime Video Channels o Sky: disdetta presso quel fornitore",
+   "e-mail support@paramountplus.com (anche per il recesso entro 14 giorni)",
+   "lettera all'indirizzo di Paramount Global Italia S.r.l. (recesso)"
+  ],
+  "preavviso": "La disdetta ha effetto alla fine del periodo di fatturazione in corso; in prova gratuita, alla fine della prova. Recesso entro 14 giorni dalla sottoscrizione.",
+  "costi": "Nessuna penale. In genere nessun rimborso per importi già pagati.",
+  "modulo": "https://legal.paramount.com/it-sm-va/it/pplus/termsofuse",
+  "note": "Si disdice online dall'account Paramount+. Se Paramount+ è incluso in Sky Cinema o attivato da Prime Video, va disdetto lì. Il modulo tipo di recesso è nell'Appendice 2 delle Condizioni d'uso.",
+  "fonti": [
+   "https://legal.paramount.com/it-sm-va/it/pplus/termsofuse",
+   "https://www.paramountplus.com/it/",
+   "https://www.aranzulla.it/come-disdire-paramount-plus-1439408.html"
+  ],
+  "affidabilita": "ufficiale",
+  "categoria": "tv-streaming",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "CHILI",
+  "slug": "chili",
+  "pec": "",
+  "indirizzo_postale": "Chili S.p.A., Via Ambrogio Figino 16, 20156 Milano",
+  "canali": [
+   "nessun abbonamento da disdire: CHILI funziona a noleggio/acquisto dei singoli titoli",
+   "chiusura account: e-mail a disattivazione@chili.tv oppure modulo ufficiale di richiesta di disattivazione",
+   "invio del modulo tramite i canali della sezione Assistenza di chili.com"
+  ],
+  "preavviso": "Nessun preavviso: non c'è un abbonamento ricorrente. La disattivazione dell'account è definitiva.",
+  "costi": "Nessun costo. Con la chiusura dell'account si perdono i titoli acquistati o noleggiati; il valore residuo di eventuali gift card promozionali non è rimborsato.",
+  "modulo": "https://static.chili.com/customerservice/images/MODULO_DI_RICHIESTA_DI_DISATTIVAZIONE_DELL%E2%80%99ACCOUNT.pdf",
+  "note": "Con CHILI si paga solo ciò che si guarda: per smettere basta non acquistare più titoli. Chi vuole chiudere l'account usa il modulo ufficiale (indirizzato a Chili S.p.A., Milano) o scrive a disattivazione@chili.tv; la chiusura è irreversibile.",
+  "fonti": [
+   "https://static.chili.com/customerservice/images/MODULO_DI_RICHIESTA_DI_DISATTIVAZIONE_DELL%E2%80%99ACCOUNT.pdf",
+   "https://assistenza.chili.com/hc/it/articles/4407290432145-Dove-trovo-la-modulistica-per-la-disattivazione-del-profilo-e-il-recesso",
+   "https://www.sostariffe.it/tv/disdetta-tv/disdetta-chili",
+   "https://www.disdette360.it/come-disattivare-account-chili-tv/"
+  ],
+  "affidabilita": "ufficiale",
+  "categoria": "tv-streaming",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "discovery+",
+  "slug": "discovery-plus",
+  "pec": "",
+  "indirizzo_postale": "DPlay Entertainment Limited, Customer Services, Chiswick Park Building 2, 566 Chiswick High Road, Londra W4 5YB, Regno Unito",
+  "canali": [
+   "account discovery+ > Impostazioni > Abbonamento > annulla (pulsante online)",
+   "pagina https://support.discoveryplus.com/cancel",
+   "se acquistato tramite Apple, Google Play, Amazon o un operatore (es. TIM, Sky): disdetta presso quel fornitore",
+   "recesso entro 14 giorni: e-mail contactuseu@wbd.com o lettera a DPlay Entertainment Limited"
+  ],
+  "preavviso": "Si può annullare in qualsiasi momento, ma prima della fine del ciclo di fatturazione in corso per evitare il rinnovo; l'accesso resta fino alla fine del periodo pagato. Recesso entro 14 giorni dall'acquisto.",
+  "costi": "Nessuna penale. Nessun rimborso del periodo in corso; rimborso pro-rata solo per i componenti aggiuntivi cancellati insieme al piano base. Se si recede dopo aver iniziato a guardare, può essere dovuto un importo proporzionale.",
+  "modulo": "https://static-wbd-cdn.wbd.com/s3_assets/wp-content/themes/warner-bros-discovery-corporate/pdf/discovery-terms-of-use-Italian.pdf",
+  "note": "Si disdice online dall'account o da support.discoveryplus.com/cancel; se l'abbonamento è stato fatto tramite app store o operatore, va disdetto lì. Dal 13 gennaio 2026 in Italia c'è anche HBO Max, ma discovery+ resta un servizio separato con abbonamento proprio.",
+  "fonti": [
+   "https://static-wbd-cdn.wbd.com/s3_assets/wp-content/themes/warner-bros-discovery-corporate/pdf/discovery-terms-of-use-Italian.pdf",
+   "https://www.mondomobileweb.it/313325-hbo-max-ufficialmente-disponibile-in-italia-i-prezzi-e-come-abbonarsi/",
+   "https://www.aranzulla.it/come-disattivare-dplay-plus-1227664.html"
+  ],
+  "affidabilita": "ufficiale",
+  "categoria": "tv-streaming",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "PlayStation Plus",
+  "slug": "playstation-plus",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "Gestione account web playstation.com/acct/management > Abbonamento > Annulla abbonamento (pulsante online)",
+   "PS5: Impostazioni > Utenti e account > Account > Pagamento e abbonamenti > Abbonamenti > PlayStation Plus > Annulla",
+   "PS4: PlayStation Plus > Gestisci abbonamento > Annulla"
+  ],
+  "preavviso": "Disattivazione in qualsiasi momento; i vantaggi restano attivi fino al termine del periodo già pagato.",
+  "costi": "Nessuna penale. Rimborso solo se richiesto entro 14 giorni dal primo pagamento (non per i rinnovi); l'importo può essere ridotto in proporzione all'uso.",
+  "modulo": "",
+  "note": "Si disdice solo dall'account PlayStation, non serve PEC né raccomandata. Il rimborso entro 14 giorni vale solo per il primo acquisto e si chiede dalla pagina rimborsi del PlayStation Store.",
+  "fonti": [
+   "https://www.playstation.com/it-it/support/subscriptions/cancel-playstation-plus/",
+   "https://www.playstation.com/it-it/support/store/ps-store-refund-request/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Nintendo Switch Online",
+  "slug": "nintendo-switch-online",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "Nintendo eShop sulla console > profilo > Informazioni account > Interrompi il rinnovo automatico",
+   "Sito account Nintendo accounts.nintendo.com > Pagamenti e abbonamenti (pulsante online)"
+  ],
+  "preavviso": "Il rinnovo automatico si interrompe alla fine del periodo in corso; l'abbonamento resta attivo fino alla scadenza.",
+  "costi": "Nessuna penale indicata. La pagina ufficiale non tratta i rimborsi.",
+  "modulo": "",
+  "note": "Basta disattivare il rinnovo automatico dall'eShop o dal sito account Nintendo. Una volta disattivato non si può riattivare: per continuare serve un nuovo acquisto.",
+  "fonti": [
+   "https://www.nintendo.com/it-it/Assistenza/Nintendo-Switch/Come-modificare-o-disattivare-il-rinnovo-automatico-dell-abbonamento-a-Nintendo-Switch-Online-1434298.html"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Dropbox",
+  "slug": "dropbox",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "Dropbox International Unlimited Company, PO Box 13480, Dublin 2, Ireland",
+  "canali": [
+   "dropbox.com > avatar > Gestisci account > Annulla piano (pulsante online, conferma via e-mail)",
+   "App Store / Google Play se l'abbonamento è stato acquistato da smartphone o tablet",
+   "Lettera postale all'indirizzo indicato da Dropbox per chi non riesce ad annullare online"
+  ],
+  "preavviso": "Annullabile in qualsiasi momento; l'account torna a Dropbox Basic (2 GB) alla fine del ciclo di fatturazione in corso (mensile o annuale).",
+  "costi": "Nessuna penale. Gli addebiti già effettuati non vengono rimborsati se la lettera viene elaborata dopo il rinnovo.",
+  "modulo": "",
+  "note": "Disinstallare l'app non annulla il piano. La lettera (nome, e-mail, metodo di pagamento, dati della transazione) è prevista da Dropbox solo se l'annullamento online non è possibile, e i tempi di lavorazione sono lunghi.",
+  "fonti": [
+   "https://help.dropbox.com/plans/downgrade-dropbox-individual-plans",
+   "https://help.dropbox.com/it-it/plans/cancel-mobile"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Google One",
+  "slug": "google-one",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "one.google.com > Impostazioni > Cancella abbonamento (pulsante online)",
+   "App Google One (Android / iPhone)",
+   "App Store se sottoscritto da iPhone/iPad"
+  ],
+  "preavviso": "Cancellabile in qualsiasi momento; spazio e vantaggi restano fino alla fine del ciclo di fatturazione.",
+  "costi": "Nessuna penale. Nella maggior parte dei paesi l'acquisto di un piano di archiviazione non è rimborsabile.",
+  "modulo": "",
+  "note": "Se hai sottoscritto Google One dall'App Store di Apple, devi disdire dalle impostazioni abbonamenti di iPhone. Dopo la scadenza resti con i 15 GB gratuiti condivisi tra Gmail, Drive e Foto.",
+  "fonti": [
+   "https://support.google.com/googleone/answer/9056360?hl=it&co=GENIE.Platform%3DDesktop"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Canva",
+  "slug": "canva",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "canva.com > Impostazioni account > Fatturazione e piani > Annulla (pulsante online)",
+   "App Store / Google Play se l'abbonamento è stato acquistato tramite app"
+  ],
+  "preavviso": "Annullabile in qualsiasi momento; le funzioni a pagamento restano fino alla fine del periodo di fatturazione in corso.",
+  "costi": "Nessuna penale. Di norma nessun rimborso degli importi già addebitati, salvo dove previsto dalla legge (dettagli nell'articolo 'Rimborsi per abbonamenti Canva').",
+  "modulo": "",
+  "note": "Dopo l'annullamento l'account resta attivo in versione gratuita e i design restano accessibili. Se paghi tramite Apple o Google, disdici dallo store.",
+  "fonti": [
+   "https://www.canva.com/help/cancel-canva-plan/ (bloccata al fetch, contenuto letto dagli estratti di ricerca)",
+   "https://www.canva.com/policies/terms-of-use/ (bloccata al fetch, estratti di ricerca)"
+  ],
+  "affidabilita": "secondaria",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Meetic",
+  "slug": "meetic",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "meetic.it > Il mio account > Il mio abbonamento > Disdici il rinnovo automatico (pulsante online)",
+   "Impostazioni abbonamenti iPhone (App Store) / Google Play se acquistato tramite app",
+   "Modulo di contatto e-mail dal centro assistenza meetic.it/faq (per il recesso entro 14 giorni)"
+  ],
+  "preavviso": "Il rinnovo automatico va disdetto al più tardi 48 ore prima della scadenza (termine riportato da AGCM e fonti secondarie, CGU non consultabili senza login); l'abbonamento resta attivo fino alla data di scadenza.",
+  "costi": "Nessuna penale. Recesso con rimborso entro 14 giorni solo per il primo acquisto; i rinnovi non sono rimborsabili.",
+  "modulo": "",
+  "note": "Sospendere o cancellare il profilo non disdice il rinnovo automatico: bisogna disattivarlo nella sezione abbonamento. Società: Meetic SAS, 53 rue de Châteaudun, Parigi (sede legale, non indicata come recapito per la disdetta).",
+  "fonti": [
+   "https://www.aranzulla.it/come-disdire-abbonamento-meetic-1555761.html",
+   "https://www.agcm.it/dotcmsDOC/allegati-news/PS10187_finale.pdf (provvedimento AGCM, letto solo da estratto di ricerca)"
+  ],
+  "affidabilita": "secondaria",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Tinder",
+  "slug": "tinder",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "Tinder, Attn: Cancellations, P.O. Box 25472, Dallas, Texas 75225, USA",
+  "canali": [
+   "tinder.com o app > icona profilo > Gestisci account di pagamento > Annulla abbonamento (pulsante online)",
+   "Impostazioni abbonamenti iPhone (Apple ID) se acquistato tramite App Store",
+   "Google Play > Abbonamenti > Tinder > Annulla se acquistato tramite Google Play",
+   "Comunicazione scritta all'indirizzo postale indicato nei Termini, o assistenza clienti, per il recesso entro 14 giorni"
+  ],
+  "preavviso": "Rinnovo automatico fino a disdetta; dopo l'annullamento si usano i giorni già pagati fino a fine periodo.",
+  "costi": "Nessuna penale. Rimborso completo se si recede entro 14 giorni dall'inizio dell'abbonamento (residenti UE); nessun rimborso retroattivo per i periodi già addebitati.",
+  "modulo": "",
+  "note": "Cancellare l'app o l'account non annulla l'abbonamento. Se paghi tramite Apple o Google, disdici dallo store (per Apple il rimborso si chiede a Apple); la lettera va indicata con nome, e-mail, telefono e numero d'ordine. Contraente UE: MTCH Technology Services Limited, 10 Earlsfort Terrace, Dublino 2.",
+  "fonti": [
+   "https://policies.tinder.com/terms/intl/it/",
+   "https://www.help.tinder.com/hc/en-us/articles/115003554466-Cancel-your-subscription (estratto di ricerca)"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "LinkedIn Premium",
+  "slug": "linkedin-premium",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "Desktop: icona Tu > Funzionalità Premium > Gestisci abbonamento > Acquisti > Annulla abbonamento (pulsante online)",
+   "App LinkedIn: foto profilo > Funzionalità Premium > Gestisci abbonamento > Annulla abbonamento",
+   "Impostazioni abbonamenti iPhone se acquistato tramite iTunes/App Store",
+   "Google Play o LinkedIn se acquistato tramite Google Play"
+  ],
+  "preavviso": "Annullare almeno un giorno prima della prossima data di fatturazione; l'abbonamento resta attivo fino a fine ciclo, la prova gratuita si interrompe subito.",
+  "costi": "Nessuna penale. Rimborsi secondo l'Informativa rimborso di LinkedIn.",
+  "modulo": "",
+  "note": "Dopo la scadenza l'account torna al piano Basic gratuito. Se hai pagato tramite Apple, l'annullamento si completa nelle impostazioni abbonamenti di iPhone.",
+  "fonti": [
+   "https://www.linkedin.com/help/linkedin/answer/a545578/annullare-linkedin-premium?lang=it",
+   "https://www.linkedin.com/help/linkedin/answer/a563180/annullare-linkedin-premium-acquistato-tramite-itunes?lang=it-IT (estratto di ricerca)",
+   "https://www.linkedin.com/help/linkedin/answer/a568576/annullare-l-abbonamento-linkedin-premium-acquistato-tramite-google-play-store?lang=it (estratto di ricerca)"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Adobe Creative Cloud",
+  "slug": "adobe-creative-cloud",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "Pagina account Adobe (account.adobe.com > Piani) con pulsante Annulla piano online",
+   "Assistenza clienti Adobe (chat/telefono)",
+   "App Store / Google Play se acquistato tramite app"
+  ],
+  "preavviso": "Piano mensile: attivo fino a fine mese di fatturazione. Piano annuale pagato mensilmente: il servizio continua fino al termine del periodo di fatturazione di quel mese. Annuale prepagato: attivo fino al termine del contratto.",
+  "costi": "Rimborso completo solo se annulli entro 14 giorni dall'ordine iniziale. Dopo i 14 giorni, piano annuale pagato mensilmente: addebito in un'unica soluzione del 50% dell'obbligo contrattuale rimanente. Annuale prepagato e mensile: nessun rimborso.",
+  "modulo": "",
+  "note": "Attenzione al piano annuale pagato mensilmente: disdire a metà anno costa il 50% delle rate restanti. Per evitarlo, disdici entro 14 giorni dall'acquisto o in prossimità del rinnovo annuale.",
+  "fonti": [
+   "https://www.adobe.com/it/legal/subscription-terms.html"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Corriere della Sera (abbonamento digitale)",
+  "slug": "corriere-della-sera-digitale",
+  "categoria": "tv-streaming",
+  "pec": "abbonamenti.digitali@rcs.legalmail.it",
+  "indirizzo_postale": "RCS MediaGroup S.p.A., Via Angelo Rizzoli 8, 20132 Milano",
+  "canali": [
+   "procedura online dall'area profilo abbonato (abbonamenti.corriere.it/profilo-utente/?abbonamenti=1): pulsante di disattivazione presente",
+   "customer care 02 25844190",
+   "fax 02 2588.3625",
+   "PEC abbonamenti.digitali@rcs.legalmail.it",
+   "raccomandata A/R o e-mail corriere.de@rcs.it (indicati per il recesso entro 14 giorni)",
+   "App Store / Google Play se acquistato in app"
+  ],
+  "preavviso": "Rinnovo automatico per lo stesso periodo; la disdetta va comunicata entro un giorno di calendario dalla scadenza (per App Store e Google Play almeno 24 ore prima del rinnovo). Si continua ad accedere fino alla fine del periodo già pagato. Recesso entro 14 giorni dall'attivazione.",
+  "costi": "Disattivazione senza costi aggiuntivi; nessun rimborso del periodo già pagato (salvo diritto di recesso).",
+  "modulo": "https://abbonamenti.corriere.it/wp-content/uploads/2024/05/Modulo-di-recesso-digitale.pdf",
+  "note": "Se hai attivato l'abbonamento da iPhone/iPad o Play Store, disdici dallo store (almeno 24 ore prima del rinnovo). Per gli acquisti dal sito la PEC è prevista dai termini e condizioni validi dal 3 maggio 2026.",
+  "fonti": [
+   "https://abbonamenti.corriere.it/termini-e-condizioni-di-vendita-maggio-2026/",
+   "https://www.corriere.it/terminiecondizioni/",
+   "https://abbonamenti.corriere.it/abbonamenti-recesso/",
+   "https://abbonamenti.corriere.it/faq/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "la Repubblica (Rep:)",
+  "slug": "repubblica-rep",
+  "categoria": "tv-streaming",
+  "pec": "recesso.abbonamentidigitali@pec.gedidigital.it",
+  "indirizzo_postale": "GEDI Digital S.r.l., Via Cristoforo Colombo 90, 00147 Roma, All'attenzione dell'Ufficio Legale",
+  "canali": [
+   "pulsante di disattivazione online nella pagina \"Gestione Abbonamenti\" (sezione Abbonamenti dell'area personale)",
+   "assistenza clienti 06 89834120",
+   "PEC recesso.abbonamentidigitali@pec.gedidigital.it (indicare oggetto e User ID)",
+   "posta o e-mail assistenzaclienti@gedidigital.it (indicati per il recesso entro 14 giorni)",
+   "App Store / Google Play se acquistato tramite merchant terzi"
+  ],
+  "preavviso": "Abbonamento a tempo indeterminato disattivabile in qualsiasi momento; la richiesta deve pervenire almeno 24 ore prima del successivo addebito. Effetto dalla fine del periodo di pagamento in corso. Recesso entro 14 giorni dall'attivazione.",
+  "costi": "Le somme del periodo in corso restano dovute e non sono rimborsate; per i bundle valgono le condizioni dell'offerta.",
+  "modulo": "",
+  "note": "Il contratto digitale è con GEDI Digital S.r.l. (condizioni particolari valide dal 28/07/2026). Se hai pagato tramite Apple o Google, la fatturazione è gestita dallo store: disdici da lì.",
+  "fonti": [
+   "https://login.gedidigital.it/clp/condizioniparticolari.pdf",
+   "https://login.gedidigital.it/clp/20211209_condizioniparticolari.pdf",
+   "https://www.ilpost.it/charlie/cancellare-e-un-po-piu-facile-sui-siti-gedi/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "La Gazzetta dello Sport (G+)",
+  "slug": "gazzetta-dello-sport-g-plus",
+  "categoria": "tv-streaming",
+  "pec": "abbonamenti.digitali@rcs.legalmail.it",
+  "indirizzo_postale": "RCS MediaGroup S.p.A., Via Angelo Rizzoli 8, 20132 Milano",
+  "canali": [
+   "procedura online dall'area profilo abbonato (abbonamenti.gazzetta.it/profilo-utente/?i-miei-abbonamenti)",
+   "customer care 02 25844189",
+   "fax 02 2588.3625",
+   "PEC abbonamenti.digitali@rcs.legalmail.it",
+   "raccomandata A/R o e-mail gazzetta.de@rcs.it (indicati per il recesso entro 14 giorni)",
+   "App Store / Google Play se acquistato in app"
+  ],
+  "preavviso": "Rinnovo automatico per lo stesso periodo; disdetta entro un giorno di calendario dalla scadenza (per App Store e Google Play almeno 24 ore prima del rinnovo). Accesso fino alla fine del periodo pagato. Recesso entro 14 giorni dall'attivazione.",
+  "costi": "Disattivazione senza costi aggiuntivi; non retroattiva e senza rimborso del periodo già pagato.",
+  "modulo": "",
+  "note": "Stesso editore del Corriere (RCS MediaGroup) e stessa PEC. Se hai attivato G+ dall'app su iPhone o Android, disdici dallo store.",
+  "fonti": [
+   "https://abbonamenti.gazzetta.it/termini-e-condizioni-vendita-abbonamento-la-gazzetta-dello-sport-22ottobre-2024/",
+   "https://abbonamenti.gazzetta.it/faq/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "La Stampa (abbonamento digitale)",
+  "slug": "la-stampa-digitale",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "GEDI Digital S.r.l., Via Cristoforo Colombo 90, 00147 Roma, All'attenzione dell'Ufficio Legale",
+  "canali": [
+   "area personale lastampa.it, sezione Abbonamenti (pulsante di disattivazione previsto dalle condizioni GEDI)",
+   "customer care 06 89834120 o 06 87419120",
+   "PEC recesso.abbonamentidigitali@pec.gedidigital.it (indicare oggetto e User ID)",
+   "App Store / Google Play se acquistato in app"
+  ],
+  "preavviso": "Secondo le condizioni GEDI Digital: disattivazione in qualsiasi momento, almeno 24 ore prima del successivo addebito, con effetto dalla fine del periodo pagato. Recesso entro 14 giorni dall'attivazione.",
+  "costi": "Nessun rimborso del periodo già pagato.",
+  "modulo": "",
+  "note": "Nel 2026 La Stampa è passata al gruppo SAE (il sito indica ora La Stampa SAE S.p.A.), ma l'assistenza e il login restano su piattaforma GEDI: verifica la PEC con il servizio clienti prima di inviare la disdetta. Se hai pagato tramite Apple o Google, disdici dallo store. La PEC recesso.abbonamentidigitali@pec.gedidigital.it è quella indicata in passato per gli abbonamenti digitali del gruppo: verifica l'indirizzo aggiornato nelle condizioni del tuo abbonamento.",
+  "fonti": [
+   "https://login.gedidigital.it/clp/condizioniparticolari.pdf",
+   "https://www.lastampa.it/static/abbonamenti/assistenza/",
+   "https://www.ansa.it/english/news/business/2026/03/04/agnelli-controlled-gedi-sells-la-stampa-to-sae_3fbc955c-2828-4338-9d5b-98e2977731df.html",
+   "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/disattivazione-abbonamento-la-/4ad0a10dc37f18af64"
+  ],
+  "affidabilita": "incerta",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Il Sole 24 Ore (abbonamento digitale)",
+  "slug": "il-sole-24-ore-digitale",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "area personale ilsole24ore.com > Il mio Account > Abbonamenti e altri acquisti: pulsante 'Disdici rinnovo automatico'",
+   "Servizio abbonamenti 02 30300600 (lun-ven 8.30-18.00)",
+   "e-mail servizio.abbonamenti@ilsole24ore.com",
+   "App Store / Google Play se acquistato in app"
+  ],
+  "preavviso": "Disdetta del rinnovo automatico entro un giorno di calendario dalla scadenza; la cancellazione ha effetto dalla prima scadenza successiva alla richiesta. Recesso entro 14 giorni per gli acquisti a distanza.",
+  "costi": "Nessuna penale indicata; il periodo già pagato non viene rimborsato. Alla fine del primo periodo promozionale, senza disdetta, si paga il prezzo di listino.",
+  "modulo": "",
+  "note": "La disdetta si fa online con il pulsante 'Disdici rinnovo automatico'; nessuna PEC ufficiale pubblicata per gli abbonamenti (la sede legale di Il Sole 24 ORE S.p.A. è in Viale Sarca 223, 20126 Milano). Siti secondari citano la PEC sole24ore@legalmail.it e un vecchio indirizzo in Via Monte Rosa 91, non confermati da fonti ufficiali.",
+  "fonti": [
+   "https://minisiti.ilsole24ore.com/digital-access/",
+   "https://st.ilsole24ore.com/pro/appterms-condition.shtml",
+   "https://st.ilsole24ore.com/pro/terms-condition.shtml",
+   "https://www.gruppoilsole24ore.ilsole24ore.com/en/contacts",
+   "https://www.gruppoilsole24ore.ilsole24ore.com/en/company-data"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Il Fatto Quotidiano",
+  "slug": "il-fatto-quotidiano",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "Società Editoriale Il Fatto S.p.A., Via di Sant'Erasmo 2, 00184 Roma (RM)",
+  "canali": [
+   "area Abbonamenti > Gestione Abbonamenti > Vai ai dettagli > pulsante 'Annulla' (disattiva il rinnovo automatico)",
+   "e-mail abbonamenti@ilfattoquotidiano.it (recesso entro 14 giorni) o assistenza@ilfattoquotidiano.it",
+   "comunicazione scritta alla sede legale (raccomandata A/R)",
+   "App Store / Google Play se acquistato in app"
+  ],
+  "preavviso": "Rinnovo automatico per la stessa durata; si può annullare in qualsiasi momento purché entro la data del prossimo pagamento (in app almeno 24 ore prima della scadenza). L'abbonamento resta attivo fino alla fine del periodo già pagato. Recesso entro 14 giorni dalla sottoscrizione con rimborso completo.",
+  "costi": "Nessuna penale indicata; nessun rimborso del periodo di fatturazione in corso dopo i 14 giorni.",
+  "modulo": "https://shop.ilfattoquotidiano.it/wp-content/uploads/2023/07/ilfattoquotidianoit_Modulo_recesso_condizioni_vendita.pdf",
+  "note": "Nessuna PEC pubblicata: si disdice online dalla Gestione Abbonamenti. Se ti sei abbonato tramite Apple o Google, disdici dallo store: l'assistenza del Fatto non può intervenire sugli abbonamenti Apple.",
+  "fonti": [
+   "https://shop.ilfattoquotidiano.it/condizioni-generali-il-fatto-social-club/",
+   "https://www.ilfattoquotidiano.it/faq/",
+   "https://shop.ilfattoquotidiano.it/termini-e-condizioni-dutilizzo-dellapp-il-fatto-quotidiano/",
+   "https://www.ilfattoquotidiano.it/termini-e-condizioni-dutilizzo-utenti-registrati/"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Amazon Music Unlimited",
+  "slug": "amazon-music-unlimited",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "pulsante online: https://www.amazon.it/music/settings > sezione Amazon Music Unlimited > Annulla accanto ai dettagli di rinnovo, poi conferma",
+   "Alexa o Echo: \"Alexa, annulla il mio abbonamento ad Amazon Music Unlimited\"",
+   "servizio clienti Amazon",
+   "se l'abbonamento è stato fatto tramite Apple (iTunes/App Store), Google o un operatore mobile: disdetta presso di loro"
+  ],
+  "preavviso": "Disdetta in qualsiasi momento, prima della data di rinnovo; l'annullamento ha effetto alla fine del periodo del piano in corso, fino ad allora il servizio resta utilizzabile (art. 5.4 delle Condizioni d'uso Amazon Music, aggiornate al 30 settembre 2026).",
+  "costi": "Nessuna penale. Gli importi già pagati non vengono rimborsati, salvo il recesso entro 14 giorni dall'iscrizione per i clienti UE (rimborso previsto dalle condizioni). Il piano mensile può essere sospeso invece che annullato, ma non i piani annuali, le prove gratuite, le promozioni e i piani via Apple, Google o operatore.",
+  "modulo": "",
+  "note": "Disdici dalla pagina Impostazioni Amazon Music: non serve lettera né PEC. Se paghi tramite Apple, Google o il tuo operatore telefonico, Amazon non può annullare l'abbonamento: devi farlo dallo store o dall'operatore. Per l'Italia il servizio è fornito da Amazon Digital Italy S.R.L.",
+  "fonti": [
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=GCRZL3F2UZMNP3T3",
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=201380010"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Audible",
+  "slug": "audible",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "pulsante online: audible.it > Dettagli dell'account > Cancella abbonamento",
+   "e-mail al servizio clienti: customersupport@audible.it",
+   "se l'abbonamento è stato fatto dall'app su iPhone (App Store) o Google Play: disdetta dallo store"
+  ],
+  "preavviso": "Disdetta in qualsiasi momento, anche durante il periodo di prova (senza addebiti). L'abbonamento si rinnova ogni mese fino alla disdetta; i mesi già pagati non vengono rimborsati.",
+  "costi": "Nessuna penale. Recesso entro 14 giorni dalla conclusione del contratto, salvo che tu abbia chiesto di iniziare subito e il servizio sia stato interamente eseguito. Dopo 14 giorni i costi già versati non sono rimborsati né in tutto né in parte.",
+  "modulo": "",
+  "note": "Disdici dalla pagina Dettagli dell'account su audible.it oppure scrivi a customersupport@audible.it. Alla fine dell'abbonamento i titoli del catalogo incluso vengono rimossi dalla libreria; se paghi tramite Apple o Google, disdici dallo store. Il servizio è fornito da Audible GmbH (Germania).",
+  "fonti": [
+   "https://www.audible.it/legal/conditions-of-use",
+   "https://aiuto.audible.it/s/article/manage-app-store-subscription?language=it"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ },
+ {
+  "nome": "Microsoft 365 / Xbox Game Pass",
+  "slug": "microsoft-365-xbox",
+  "categoria": "tv-streaming",
+  "pec": "",
+  "indirizzo_postale": "",
+  "canali": [
+   "pulsante online: account.microsoft.com/services (pagina Abbonamenti) > Gestisci > Annulla (oppure Aggiorna o Annulla), con l'account Microsoft usato per l'acquisto",
+   "Microsoft 365: account.microsoft.com/services/microsoft365 > Annulla abbonamento",
+   "Xbox Game Pass: anche dalla console Xbox o dal web (support.xbox.com)",
+   "se acquistato da Google Play o Apple App Store: annullamento e rimborso tramite lo store"
+  ],
+  "preavviso": "Annullamento in qualsiasi momento. Disattivando la fatturazione ricorrente gli addebiti si fermano e l'abbonamento resta attivo fino alla data di scadenza. Se compare \"Attiva fatturazione ricorrente\", l'abbonamento è già impostato per scadere e non serve altro.",
+  "costi": "Nessuna penale. Rimborso possibile, nella maggior parte dei casi, entro 30 giorni dall'acquisto iniziale o prima del primo rinnovo; inoltre una sola volta per prodotto è rimborsabile l'ultimo addebito ricorrente se annulli entro 30 giorni dal pagamento. L'Italia non rientra tra i paesi con rimborso proporzionale. Per Xbox non tutti gli addebiti sono rimborsabili.",
+  "modulo": "",
+  "note": "Annulla dalla pagina Abbonamenti dell'account Microsoft: non servono lettera o PEC. Annullando Microsoft 365 lo spazio cloud torna a 5 GB (OneDrive) e, se lo superi, dopo 6 mesi i file su OneDrive potrebbero essere eliminati: scarica prima i tuoi file. I codici prepagati comprati in negozio seguono le regole di reso del rivenditore.",
+  "fonti": [
+   "https://support.microsoft.com/it-it/accounts-billing/subscriptions/cancel-your-microsoft-subscription",
+   "https://support.microsoft.com/it-it/accounts-billing/subscriptions/cancel-a-microsoft-365-subscription",
+   "https://support.microsoft.com/it-it/accounts-billing/subscriptions/microsoft-subscription-refund-policy",
+   "https://support.xbox.com/it-IT/help/subscriptions-billing/manage-subscriptions/cancel-recurring-billing-or-subscription"
+  ],
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-10-26"
+ }
+]
