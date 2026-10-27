@@ -16,6 +16,7 @@ OUT = os.path.join(ROOT, "docs")
 DOMAIN = "https://disdettaabbonamento.it"
 SITE = "Disdetta Abbonamento"
 TODAY = dt.date.today().isoformat()
+ASSET_V = None  # rempli au build
 MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
         "agosto", "settembre", "ottobre", "novembre", "dicembre"]
 
@@ -176,13 +177,13 @@ ul.canali li{background:var(--soft);border-radius:12px;padding:10px 14px;font-si
 @media (prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
 article.guide{max-width:760px}article.guide ul,article.guide ol{padding-left:22px}article.guide li{margin:6px 0}
 .marquee:hover .track{animation-play-state:paused}
-.seal{position:relative;width:118px;height:118px;flex:none}
+.seal{position:relative;width:92px;height:92px;flex:none}
 .seal svg{position:absolute;inset:0;width:100%;height:100%;animation:spin 22s linear infinite}
-.seal .c{position:absolute;inset:26px;border-radius:50%;background:linear-gradient(135deg,#0b7a4f,#14a06a);display:grid;place-items:center;color:#fff;font-size:28px;font-weight:900;box-shadow:0 8px 22px rgba(11,122,79,.35)}
+.seal .c{position:absolute;inset:21px;border-radius:50%;background:linear-gradient(135deg,#0b7a4f,#14a06a);display:grid;place-items:center;color:#fff;font-size:22px;font-weight:900;box-shadow:0 8px 22px rgba(11,122,79,.35)}
 @keyframes spin{to{transform:rotate(360deg)}}
 .hero-seal{display:flex;align-items:center;gap:16px;margin-top:22px;max-width:520px}.hero-seal p{margin:0;font-size:15px;color:var(--muted)}.hero-seal b{color:var(--fg);display:block;font-size:16px}
 .plan.pro .seal{position:absolute;right:-22px;top:-30px;width:96px;height:96px}.plan.pro .seal .c{inset:22px;font-size:22px}
-.tstrip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:30px 0 0}
+.tstrip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:34px 0 8px}
 .tstrip div{display:flex;gap:12px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;opacity:0;transform:translateY(14px) scale(.98);transition:opacity .5s,transform .5s}
 .tstrip.in div{opacity:1;transform:none}.tstrip.in div:nth-child(2){transition-delay:.12s}.tstrip.in div:nth-child(3){transition-delay:.24s}.tstrip.in div:nth-child(4){transition-delay:.36s}
 .tstrip i{flex:none;width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font-style:normal;font-size:20px;background:var(--accent-l)}
@@ -371,13 +372,13 @@ def page(title, desc, path, body, schema=None, sticky=""):
 <link rel="canonical" href="{canon}">
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}">
 <meta property="og:type" content="website"><meta property="og:url" content="{canon}"><meta property="og:locale" content="it_IT">
-<link rel="icon" type="image/png" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta property="og:image" content="https://disdettaabbonamento.it/og.png"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/style.css">{ld}</head><body{bodycls}>
+<link rel="icon" type="image/png" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta property="og:image" content="https://disdettaabbonamento.it/og.png"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/style.css?v={ASSET_V}">{ld}</head><body{bodycls}>
 <header class="top"><div class="wrap"><a class="logo" href="/"><i>✉</i><span class="lt">Disdetta<span>Abbonamento</span>.it</span></a>
 <nav class="main"><a href="/telefonia/">Telefonia</a><a href="/luce-gas/">Luce e gas</a><a href="/assicurazioni/">Assicurazioni</a><a href="/guide/">Guide</a><a class="cta" href="/#cerca"><span class="lg">Trova il tuo operatore</span><span class="sm">Cerca</span></a></nav></div></header>
 <main class="wrap">{body}</main>
 <footer><div class="wrap"><p><a href="/">Home</a><a href="/guide/">Guide</a><a href="/come-funziona/">Come funziona</a><a href="/chi-siamo/">Chi siamo</a><a href="/note-legali/">Note legali</a><a href="/termini/">Termini e condizioni</a><a href="/privacy/">Privacy</a></p>
 <p>{SITE} è un servizio indipendente, non affiliato agli operatori citati. I marchi appartengono ai rispettivi proprietari. Le informazioni sono verificate sulle fonti ufficiali alla data indicata in ogni pagina: controlla sempre il tuo contratto.</p></div></footer>
-{sticky}<script src="/app.js" defer></script></body></html>"""
+{sticky}<script src="/app.js?v={ASSET_V}" defer></script></body></html>"""
 
 
 def write(path, content):
@@ -503,6 +504,9 @@ def card(b):
 
 
 def main():
+    global ASSET_V
+    import hashlib
+    ASSET_V = hashlib.md5((CSS + JS).encode()).hexdigest()[:8]
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
     os.makedirs(OUT)
