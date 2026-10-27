@@ -7,6 +7,10 @@ import json, glob, os, html, re, shutil, sys, datetime as dt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from guide import GUIDE
 
+def seal(txt="RICEVUTA LEGALE • PEC CERTIFICATA • "):
+    return ('<div class="seal" aria-hidden="true"><svg viewBox="0 0 120 120"><defs><path id="sc" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>'
+            '<circle cx="60" cy="60" r="58" fill="#fff" stroke="#e1e6ef"/><text font-family="system-ui,sans-serif" font-size="11" font-weight="800" letter-spacing="1.2" textLength="285" lengthAdjust="spacing" fill="#0b7a4f"><textPath href="#sc">' + txt + '</textPath></text></svg><div class="c">✓</div></div>')
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "docs")
 DOMAIN = "https://disdettaabbonamento.it"
@@ -171,6 +175,28 @@ ul.canali li{background:var(--soft);border-radius:12px;padding:10px 14px;font-si
 @media(max-width:820px){.hero.home{grid-template-columns:1fr}.demo{transform:none;margin-top:8px}.float.f1{left:8px;top:-14px}.float.f2{display:none}.reviews{grid-template-columns:1fr}.urg{flex-wrap:wrap}.urg .btn{margin:6px 0 0;width:100%;justify-content:center}}
 @media (prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
 article.guide{max-width:760px}article.guide ul,article.guide ol{padding-left:22px}article.guide li{margin:6px 0}
+.marquee:hover .track{animation-play-state:paused}
+.seal{position:relative;width:118px;height:118px;flex:none}
+.seal svg{position:absolute;inset:0;width:100%;height:100%;animation:spin 22s linear infinite}
+.seal .c{position:absolute;inset:26px;border-radius:50%;background:linear-gradient(135deg,#0b7a4f,#14a06a);display:grid;place-items:center;color:#fff;font-size:28px;font-weight:900;box-shadow:0 8px 22px rgba(11,122,79,.35)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hero-seal{display:flex;align-items:center;gap:16px;margin-top:22px;max-width:520px}.hero-seal p{margin:0;font-size:15px;color:var(--muted)}.hero-seal b{color:var(--fg);display:block;font-size:16px}
+.plan.pro .seal{position:absolute;right:-22px;top:-30px;width:96px;height:96px}.plan.pro .seal .c{inset:22px;font-size:22px}
+.tstrip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:30px 0 0}
+.tstrip div{display:flex;gap:12px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;opacity:0;transform:translateY(14px) scale(.98);transition:opacity .5s,transform .5s}
+.tstrip.in div{opacity:1;transform:none}.tstrip.in div:nth-child(2){transition-delay:.12s}.tstrip.in div:nth-child(3){transition-delay:.24s}.tstrip.in div:nth-child(4){transition-delay:.36s}
+.tstrip i{flex:none;width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font-style:normal;font-size:20px;background:var(--accent-l)}
+.tstrip b{display:block;font-size:15px}.tstrip span{font-size:13.5px;color:var(--muted)}
+.box.rv .facts dt,.box.rv .facts dd{opacity:0;transform:translateX(-8px);transition:opacity .45s,transform .45s}
+.box.rv.in .facts dt,.box.rv.in .facts dd{opacity:1;transform:none}
+.box.rv.in .facts dd:nth-of-type(2),.box.rv.in .facts dt:nth-of-type(2){transition-delay:.1s}.box.rv.in .facts dd:nth-of-type(3),.box.rv.in .facts dt:nth-of-type(3){transition-delay:.2s}.box.rv.in .facts dd:nth-of-type(4),.box.rv.in .facts dt:nth-of-type(4){transition-delay:.3s}.box.rv.in .facts dd:nth-of-type(5),.box.rv.in .facts dt:nth-of-type(5){transition-delay:.4s}.box.rv.in .facts dd:nth-of-type(6),.box.rv.in .facts dt:nth-of-type(6){transition-delay:.5s}
+.facts dt:before{content:"✓";display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:var(--okbg);color:var(--ok);font-size:11px;margin-right:7px;transform:scale(0);transition:transform .35s cubic-bezier(.2,1.6,.4,1) .2s}
+.box.rv.in .facts dt:before{transform:scale(1)}
+.steps{position:relative}
+.steps.rv:before{content:"";position:absolute;left:8%;right:8%;top:39px;height:3px;border-radius:3px;background:linear-gradient(90deg,#1f5eff,#00b4d8);transform:scaleX(0);transform-origin:left;transition:transform 1.1s ease .2s;z-index:0}
+.steps.rv.in:before{transform:scaleX(1)}.step{position:relative;z-index:1}
+.badge{position:relative;overflow:hidden}.badge:after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.7) 50%,transparent 70%);transform:translateX(-120%);animation:shine 4s ease-in-out infinite}
+@media(max-width:820px){.tstrip{grid-template-columns:repeat(2,minmax(0,1fr))}.steps.rv:before{display:none}.plan.pro .seal{right:-6px;top:-34px;width:84px;height:84px}}
 details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:10px 0}summary{font-weight:700;cursor:pointer}details p{margin:10px 0 0;color:var(--muted)}
 .src{font-size:14px;color:var(--muted)}.src a{color:var(--muted)}
 .why{display:flex;gap:14px;align-items:flex-start;background:var(--okbg);border-radius:14px;padding:16px 18px;margin:22px 0;color:#0d4f35;font-size:15.5px}.why b{display:block}
@@ -266,7 +292,7 @@ CAMPO = {"telefonia": "numero di linea", "tv-streaming": "numero smart card o te
 PLANS = """<h2 id="invio">Come vuoi inviare la disdetta?</h2>
 <div class="rv plans">
 <div class="plan"><h3>Fai da te</h3><div class="price">Gratis</div><ul><li>Lettera pronta, scritta secondo la normativa</li><li>La copi o la salvi in PDF</li><li>La invii tu dalla tua casella PEC o con raccomandata in posta</li></ul><a class="btn sec" href="#lettera-disdetta">Genera la lettera gratis</a></div>
-<div class="plan pro"><span class="tag">Consigliato</span><h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><ul><li>Lettera redatta secondo la legge, con i riferimenti normativi corretti</li><li>Inviata in PEC all'indirizzo verificato dell'operatore</li><li>Ricevuta di consegna con valore legale, inviata alla tua e-mail</li><li>Non serve avere una PEC né andare in posta</li><li>Rimborso completo se la PEC non viene consegnata</li></ul><a class="btn" href="mailto:info@disdettaabbonamento.it?subject=Invio%20disdetta%20via%20PEC">Invia via PEC, 7,90 €</a><span class="soon">Pagamento sicuro online in arrivo: per ora scrivici e ti rispondiamo in giornata. <a href="/termini/">Termini del servizio</a></span></div>
+<div class="plan pro">""" + seal() + """<span class="tag">Consigliato</span><h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><ul><li>Lettera redatta secondo la legge, con i riferimenti normativi corretti</li><li>Inviata in PEC all'indirizzo verificato dell'operatore</li><li>Ricevuta di consegna con valore legale, inviata alla tua e-mail</li><li>Non serve avere una PEC né andare in posta</li><li>Rimborso completo se la PEC non viene consegnata</li></ul><a class="btn" href="mailto:info@disdettaabbonamento.it?subject=Invio%20disdetta%20via%20PEC">Invia via PEC, 7,90 €</a><span class="soon">Pagamento sicuro online in arrivo: per ora scrivici e ti rispondiamo in giornata. <a href="/termini/">Termini del servizio</a></span></div>
 </div>
 <div class="rv guar"><div><b>⚖️ Conforme alla legge</b>Testo con le norme del settore: legge Bersani, Codice civile, regole ARERA.</div><div><b>📬 Prova legale</b>La ricevuta PEC ha lo stesso valore di una raccomandata A/R.</div><div><b>🔎 Indirizzi verificati</b>Presi dai documenti ufficiali, con data di verifica.</div><div><b>🔒 Dati protetti</b>Nessun dato salvato per la lettera gratuita, GDPR per l'invio.</div></div>"""
 
@@ -280,8 +306,12 @@ DEMO_TXT = ("Spett.le Sky Italia\nPEC: servizioclientisky@pec.skytv.it\n\nOGGETT
 def demo_html(brands):
     d = ('<div class="demo" aria-hidden="true"><div class="float f1">⚡ Lettera pronta in 1 minuto</div><div class="float f2">🔒 Nessun dato salvato</div>'
          '<div class="head"><i></i><i></i><i></i></div><pre id="demo-txt" data-t="' + E(DEMO_TXT) + '"></pre><div class="stamp" id="stamp">PEC consegnata ✓</div></div></section>')
-    m = '<div class="marquee" aria-hidden="true"><div class="track">' + "".join(f'<span>✓ <b>{E(b["nome"])}</b></span>' for b in brands * 2) + '</div></div>'
-    return d + m
+    m = f'<div class="marquee" aria-hidden="true"><div class="track" style="animation-duration:{max(90, len(brands) * 2)}s">' + "".join(f'<span>✓ <b>{E(b["nome"])}</b></span>' for b in brands * 2) + '</div></div>'
+    s = ('<div class="tstrip rv"><div><i>🔎</i><span><b>Fonti ufficiali</b>Ogni indirizzo con fonte e data</span></div>'
+         '<div><i>⚖️</i><span><b>Lettera a norma</b>Bersani, Codice civile, ARERA</span></div>'
+         '<div><i>📬</i><span><b>Prova legale</b>Ricevuta PEC come una A/R</span></div>'
+         '<div><i>🔒</i><span><b>Privacy</b>Nessun dato salvato</span></div></div>')
+    return d + m + s
 
 
 REVIEWS = ('<h2>Le recensioni</h2><div class="reviews rv"><div class="rev"><div class="st">★★★★★</div><p>Il servizio è appena nato: qui pubblicheremo solo recensioni vere dei primi utenti.</p></div>'
@@ -328,6 +358,8 @@ PRIVACY_HTML = r'''<h1>Informativa privacy</h1>
 <p>Puoi chiedere accesso, rettifica, cancellazione, limitazione, portabilità e opporti al trattamento (articoli 15-22 GDPR) scrivendo a info@disdettaabbonamento.it. Puoi anche presentare reclamo al Garante per la protezione dei dati personali (garanteprivacy.it) o all'autorità francese CNIL (cnil.fr).</p>
 <h2>Cookie</h2>
 <p>Il sito non utilizza cookie di profilazione. Eventuali strumenti tecnici necessari al funzionamento non richiedono consenso.</p>'''
+
+
 
 def page(title, desc, path, body, schema=None, sticky=""):
     canon = DOMAIN + path
@@ -522,7 +554,7 @@ def main():
     body += '<p class="lead">Trova l\'indirizzo PEC o postale giusto del tuo operatore, controlla preavviso e costi, e genera gratis la lettera di disdetta pronta da inviare.</p>'
     body += '<div class="searchbox"><input class="search" type="search" placeholder="Cerca il tuo operatore: TIM, Sky, Enel, McFit…" autocomplete="off" aria-label="Cerca un operatore"></div>'
     body += '<ul class="chips"><li>Lettera gratis, senza registrazione</li><li>Indirizzi verificati sui documenti ufficiali</li><li>Invio PEC con ricevuta legale</li></ul>'
-    body += f'<div class="stats"><div><b data-count="{len(brands)}">{len(brands)}</b><span>operatori</span></div><div><b data-count="{nuff}">{nuff}</b><span>schede da fonte ufficiale</span></div><div><b>1 min</b><span>per la lettera</span></div><div><b>7,90 €</b><span>invio PEC per te</span></div></div></div>' + demo_html(brands)
+    body += f'<div class="stats"><div><b data-count="{len(brands)}">{len(brands)}</b><span>operatori</span></div><div><b data-count="{nuff}">{nuff}</b><span>schede da fonte ufficiale</span></div><div><b>1 min</b><span>per la lettera</span></div><div><b>7,90 €</b><span>invio PEC per te</span></div></div>' + '<div class="hero-seal">' + seal() + '<p><b>Ricevuta di consegna con valore legale</b>La PEC vale come una raccomandata A/R: la ricevuta prova la data della tua disdetta.</p></div></div>' + demo_html(brands)
     body += '<h2>Come funziona</h2><div class="rv steps"><div class="step"><div class="n">1</div><h3>Cerca l\'operatore</h3><p>Trovi PEC, indirizzo per la raccomandata, preavviso e costi, con la data di verifica.</p></div><div class="step"><div class="n">2</div><h3>Compila la lettera</h3><p>Inserisci i tuoi dati: la lettera di disdetta si genera subito, con i riferimenti di legge.</p></div><div class="step"><div class="n">3</div><h3>Inviala e conserva la ricevuta</h3><p>Via PEC o raccomandata A/R. La ricevuta di consegna è la prova della disdetta.</p></div></div><p style="text-align:center"><a class="btn shine" href="#cerca">Inizia ora, è gratis →</a></p>'
     ICONE = {"telefonia": "📶", "tv-streaming": "📺", "energia": "💡", "assicurazioni": "🛡️", "palestre": "🏋️", "altri-servizi": "🧾"}
     body += '<h2>Scegli la categoria</h2><div class="rv cats">' + "".join(f'<a class="cat" href="/{CATEGORIE[c]["slug"]}/"><div class="ic">{ICONE[c]}</div><h3>{E(CATEGORIE[c]["nome"])}</h3><small>{len(bycat[c])} operatori</small></a>' for c in CATEGORIE if c in bycat) + '</div>'
