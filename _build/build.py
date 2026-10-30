@@ -293,7 +293,7 @@ CAMPO = {"telefonia": "numero di linea", "tv-streaming": "numero smart card o te
 PLANS = """<h2 id="invio">Come vuoi inviare la disdetta?</h2>
 <div class="rv plans">
 <div class="plan"><h3>Fai da te</h3><div class="price">Gratis</div><ul><li>Lettera pronta, scritta secondo la normativa</li><li>La copi o la salvi in PDF</li><li>La invii tu dalla tua casella PEC o con raccomandata in posta</li></ul><a class="btn sec" href="#lettera-disdetta">Genera la lettera gratis</a></div>
-<div class="plan pro">""" + seal() + """<span class="tag">Consigliato</span><h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><ul><li>Lettera redatta secondo la legge, con i riferimenti normativi corretti</li><li>Inviata in PEC all'indirizzo verificato dell'operatore</li><li>Ricevuta di consegna con valore legale, inviata alla tua e-mail</li><li>Non serve avere una PEC né andare in posta</li><li>Rimborso completo se la PEC non viene consegnata</li></ul><a class="btn" href="mailto:info@disdettaabbonamento.it?subject=Invio%20disdetta%20via%20PEC">Invia via PEC, 7,90 €</a><span class="soon">Pagamento sicuro online in arrivo: per ora scrivici e ti rispondiamo in giornata. <a href="/termini/">Termini del servizio</a></span></div>
+<div class="plan pro">""" + seal() + """<span class="tag">Consigliato</span><h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><ul><li>Lettera redatta secondo la legge, con i riferimenti normativi corretti</li><li>Inviata in PEC all'indirizzo verificato dell'operatore</li><li>Ricevuta di consegna con valore legale, inviata alla tua e-mail</li><li>Non serve avere una PEC né andare in posta</li><li>Rimborso completo se la PEC non viene consegnata</li></ul><a class="btn" href="https://buy.stripe.com/14AcN41JJ3oBcFB1kI2B200?client_reference_id={BRAND_REF}" rel="nofollow">Invia via PEC, 7,90 €</a><span class="soon">Pagamento sicuro con Stripe, carta o Apple Pay. Dopo il pagamento ti chiediamo i dati per la lettera e ti inviamo le ricevute PEC via e-mail entro 24 ore lavorative. <a href="/termini/">Termini del servizio</a></span></div>
 </div>
 <div class="rv guar"><div><b>⚖️ Conforme alla legge</b>Testo con le norme del settore: legge Bersani, Codice civile, regole ARERA.</div><div><b>📬 Prova legale</b>La ricevuta PEC ha lo stesso valore di una raccomandata A/R.</div><div><b>🔎 Indirizzi verificati</b>Presi dai documenti ufficiali, con data di verifica.</div><div><b>🔒 Dati protetti</b>Nessun dato salvato per la lettera gratuita, GDPR per l'invio.</div></div>"""
 
@@ -459,7 +459,7 @@ def brand_page(b, peers):
 <script>window.LETTERA={json.dumps({"azienda": n, "pec": b.get("pec", ""), "postale": b.get("indirizzo_postale", "") or ("[indirizzo del tuo club, indicato nel contratto]" if b["categoria"] == "palestre" else ""), "servizio": cat["servizio"], "legge": LEGGE_BREVE.get(b["categoria"], ""), "campo": CAMPO[b["categoria"]], "cat": b["categoria"]}, ensure_ascii=False)}</script>
 </section>"""
     if lettera:
-        body += PLANS
+        body += PLANS.replace("{BRAND_REF}", re.sub(r"[^A-Za-z0-9_-]+", "-", n).strip("-")[:60])
     rel = [g for g in GUIDE if b["categoria"] in g["cats"]][:3]
     if rel:
         body += '<h2>Guide utili</h2><div class="grid">' + "".join(f'<a class="card" href="/guide/{g["slug"]}/"><span class="av altri-servizi">📘</span><span><b>{E(g["h1"])}</b><small>Guida</small></span></a>' for g in rel) + '</div>'
