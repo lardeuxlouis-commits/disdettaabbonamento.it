@@ -595,7 +595,7 @@ def main():
     open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
     sm = "".join(f"<url><loc>{DOMAIN}{u}</loc><lastmod>{TODAY}</lastmod></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w").write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
-    for src, dst in [("brand/icon-512.png", "favicon.png"), ("brand/icon-512.png", "apple-touch-icon.png"), ("brand/og.png", "og.png")]:
+    for src, dst in [("brand/icon-512.png", "favicon.png"), ("brand/icon-512.png", "apple-touch-icon.png"), ("brand/og.png", "og.png"), ("brand/BingSiteAuth.xml", "BingSiteAuth.xml")]:
         if os.path.exists(os.path.join(ROOT, src)):
             shutil.copy(os.path.join(ROOT, src), os.path.join(OUT, dst))
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(page("Pagina non trovata | " + SITE, "Pagina non trovata.", "/404.html",
