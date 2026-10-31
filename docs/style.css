@@ -87,6 +87,7 @@ ul.canali li{background:var(--soft);border-radius:12px;padding:10px 14px;font-si
 .plan .btn{width:100%;justify-content:center;margin:0}.plan .soon{display:block;text-align:center;font-size:13.5px;color:var(--muted);margin-top:8px}
 .guar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}
 .guar div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;font-size:14.5px;color:var(--muted)}.guar b{display:block;color:var(--fg);font-size:15.5px;margin-bottom:2px}
+.guar.home div{font-size:15px;line-height:1.5;padding:18px}.guar.home b{font-size:17px;margin-bottom:6px}.guar.home a{color:var(--accent)}
 @media(max-width:820px){.plans{grid-template-columns:1fr}.guar{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .hero.home{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:34px;align-items:center}
 .demo{position:relative;background:#fff;border-radius:18px;box-shadow:0 30px 70px rgba(15,27,51,.18);padding:22px 22px 26px;font:13.5px/1.55 Georgia,serif;color:#24324d;min-height:330px;transform:rotate(1.5deg)}

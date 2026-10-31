@@ -156,6 +156,7 @@ ul.canali li{background:var(--soft);border-radius:12px;padding:10px 14px;font-si
 .plan .btn{width:100%;justify-content:center;margin:0}.plan .soon{display:block;text-align:center;font-size:13.5px;color:var(--muted);margin-top:8px}
 .guar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}
 .guar div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;font-size:14.5px;color:var(--muted)}.guar b{display:block;color:var(--fg);font-size:15.5px;margin-bottom:2px}
+.guar.home div{font-size:15px;line-height:1.5;padding:18px}.guar.home b{font-size:17px;margin-bottom:6px}.guar.home a{color:var(--accent)}
 @media(max-width:820px){.plans{grid-template-columns:1fr}.guar{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .hero.home{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:34px;align-items:center}
 .demo{position:relative;background:#fff;border-radius:18px;box-shadow:0 30px 70px rgba(15,27,51,.18);padding:22px 22px 26px;font:13.5px/1.55 Georgia,serif;color:#24324d;min-height:330px;transform:rotate(1.5deg)}
@@ -601,7 +602,10 @@ def main():
     body += '</div>'
     body += '<h2>Perché usare Disdetta Abbonamento</h2><div class="rv trust"><div><h3>🔎 Indirizzi verificati</h3><p>Ogni PEC e indirizzo viene dai documenti dell\'operatore, con fonte e data di verifica in ogni scheda.</p></div><div><h3>⚖️ Lettera con valore legale</h3><p>Il testo cita le norme giuste (come la legge Bersani per la telefonia) e chiede lo stop di ogni addebito.</p></div><div><h3>🔒 Privacy totale</h3><p>La lettera si genera nel tuo browser. Non chiediamo registrazione e non salviamo i tuoi dati.</p></div></div>'
     body += '<h2>Le nostre guide</h2><div class="grid rv">' + ''.join(gcards[:6]) + '</div><p><a href="/guide/">Tutte le guide →</a></p>'
-    body += REVIEWS
+    body += ('<h2>Perché fidarsi di questo sito</h2><div class="rv guar home"><div><b>👤 Chi c\'è dietro</b>Un servizio indipendente, con nome, partita e contatti pubblicati nelle <a href="/note-legali/">note legali</a>. Nessun legame con gli operatori.</div>'
+             '<div><b>🔎 Ogni scheda è verificata</b>Indirizzi PEC, preavvisi e costi presi dai documenti ufficiali, con la data di verifica e le fonti citate in fondo a ogni pagina.</div>'
+             '<div><b>↩️ Rimborso garantito</b>Se la PEC non viene consegnata all\'operatore, rimborsiamo l\'intero importo. Le ricevute arrivano nella tua e-mail entro 2 giorni lavorativi.</div>'
+             '<div><b>🔒 I tuoi dati restano tuoi</b>La lettera gratuita si genera nel tuo browser, senza invio né salvataggio. Il pagamento passa solo da Stripe. Nessun cookie di profilazione.</div></div>')
     body += '<section class="band"><h2>Pronto a disdire?</h2><p>Cerca il tuo operatore e prepara la lettera adesso, è gratis.</p><a class="btn shine" href="#cerca">Trova il tuo operatore →</a></section>'
     write("/", page("Disdetta abbonamento: PEC, indirizzi e lettere di disdetta gratis",
                     f"Indirizzi PEC e postali verificati, preavviso, costi e lettere di disdetta gratuite per {len(brands)} operatori: telefonia, pay TV, luce e gas, assicurazioni, palestre.", "/", body,
