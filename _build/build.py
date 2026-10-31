@@ -74,6 +74,10 @@ CSS = """.inbreve{background:#fff;border:1px solid #e3e3df;border-left:4px solid
 .urgbtns{display:flex;flex-direction:column;gap:8px;margin-left:auto;flex:none}.urgbtns .btn{margin:0;justify-content:center}
 .pecbox{margin-top:18px;background:linear-gradient(120deg,#eef3ff,#f7f9ff);border:1px solid #c9d8ff;border-radius:16px;padding:18px 20px;display:grid;gap:12px}.pecbox b{display:block;font-size:18px;margin-bottom:4px}.pecbox span{color:var(--muted);font-size:15px;line-height:1.5}.pecbox .btn{justify-content:center}
 .cd{display:inline-block;margin-left:6px;font-weight:700;color:#b4530a}
+.co-steps{list-style:none;display:flex;gap:8px;flex-wrap:wrap;padding:0;margin:18px 0 0}.co-steps li{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 6px;font-size:14.5px;color:var(--muted)}.co-steps li b{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--soft);color:var(--muted);font-size:13px}.co-steps li.on{color:var(--fg);border-color:var(--accent)}.co-steps li.on b{background:var(--accent);color:#fff}
+.chk{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;margin:12px 0 14px;font-weight:500}.chk input{margin-top:3px;width:18px;height:18px;flex:none}
+.sig{display:grid;gap:10px;margin:8px 0 14px}.sig canvas{width:100%;height:auto;aspect-ratio:3/1;background:#fff;border:2px dashed var(--line);border-radius:14px;touch-action:none;cursor:crosshair}.sig .btn{justify-self:start;padding:8px 14px}
+.co-prev{margin:0 0 16px}.co-prev pre{white-space:pre-wrap;font:14px/1.5 inherit;background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px;margin:10px 0}.co-err{color:#b42318;font-weight:600}.co-list{font-size:16px;line-height:1.8;padding-left:4px;list-style:none}.co-after{font-size:14.5px;color:var(--muted);margin-top:14px}
 .proof{margin:12px 0 0;font-size:14.5px;color:var(--muted)}.proof b{color:var(--fg)}
 .after{margin:14px 0 0;padding:0 0 0 20px;font-size:14px;color:var(--muted);line-height:1.5}.after li{margin:4px 0}.after b{color:var(--fg)}
 .ctabar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:22px 0}.ctabar>span:first-child{flex:1;min-width:220px;font-size:15px;color:var(--muted);line-height:1.5}.ctabar b{color:var(--fg)}.ctabar .btn{margin:0;flex:none}.ctabar .ctab{display:flex;gap:8px;flex-wrap:wrap}.ctabar.alt{background:linear-gradient(120deg,#eef3ff,#f7f9ff);border-color:#c9d8ff}
@@ -269,12 +273,39 @@ function calcScad(f,gg){try{var v=f.d.value;if(!v)return false;var sc=new Date(v
  else if(diff===0){o.innerHTML='<b>Ultimo giorno utile: oggi.</b> Invia la disdetta entro stasera, meglio via PEC che fa fede della data.';}
  else{o.innerHTML='<b>Invia entro il '+fmt(lim)+'</b>, cioè tra '+diff+' giorn'+(diff===1?'o':'i')+'. Dopo quella data l\'operatore può considerare il contratto rinnovato.';}
  o.style.display='block';if(window.goatcounter)goatcounter.count({path:'calcolo-scadenza'+location.pathname,title:'Calcolo scadenza',event:true});}catch(e){}return false;}
-(function(){document.addEventListener('click',function(e){var a=e.target.closest('a[data-pec]');if(a&&window.goatcounter){goatcounter.count({path:'clic-pec'+location.pathname,title:'Clic Invia via PEC',event:true});}});var fl=document.getElementById('form-lettera');if(fl){fl.addEventListener('submit',function(){if(window.goatcounter)goatcounter.count({path:'lettera-generata'+location.pathname,title:'Lettera generata',event:true});});}})();
+(function(){document.addEventListener('click',function(e){var a=e.target.closest('a[data-pec]');if(a&&window.LETTERA){try{localStorage.setItem('ordine',JSON.stringify(Object.assign({},window.LETTERA,{pagina:location.pathname,t:Date.now()})))}catch(_){}}if(a&&window.goatcounter){goatcounter.count({path:'clic-pec'+location.pathname,title:'Clic Invia via PEC',event:true});}});var fl=document.getElementById('form-lettera');if(fl){fl.addEventListener('submit',function(){if(window.goatcounter)goatcounter.count({path:'lettera-generata'+location.pathname,title:'Lettera generata',event:true});});}})();
 (function(){document.querySelectorAll('[data-cd]').forEach(function(el){var end=new Date(el.dataset.cd+'T23:59:59');var d=Math.ceil((end-new Date())/86400000);if(d>0&&d<=45)el.textContent='Mancano '+d+' giorn'+(d===1?'o':'i')+'.';});})();
 (function(){var el=document.querySelector('[data-proof]');if(!el||!window.fetch)return;var slug=el.dataset.proof;var base='https://disdetta.goatcounter.com/counter/';function g(p){return fetch(base+p+'.json').then(function(r){return r.ok?r.json():null}).catch(function(){return null})}
  Promise.all([g('/disdetta-'+slug+'/'),g('/lettera-generata/disdetta-'+slug+'/')]).then(function(r){var v=r[0]&&+r[0].count||0,l=r[1]&&+r[1].count||0;var parts=[];if(v>=50)parts.push('👀 Scheda consultata <b>'+v.toLocaleString('it-IT')+'</b> volte');if(l>=10)parts.push('✉️ <b>'+l.toLocaleString('it-IT')+'</b> lettere generate da questa pagina');if(parts.length){el.innerHTML=parts.join(' · ');el.hidden=false;}});})();
 function chiudiSlide(){var s=document.getElementById('slidein');if(s){s.hidden=true;try{sessionStorage.setItem('slide','1')}catch(e){}}}
 (function(){var s=document.getElementById('slidein');if(!s)return;try{if(sessionStorage.getItem('slide'))return;}catch(e){}var shown=false;function onS(){if(shown)return;var h=document.documentElement;var r=(h.scrollTop)/(h.scrollHeight-h.clientHeight);if(r>.55){shown=true;s.hidden=false;requestAnimationFrame(function(){s.classList.add('in')});if(window.goatcounter)goatcounter.count({path:'slidein-mostrato'+location.pathname,title:'Slide-in mostrato',event:true});window.removeEventListener('scroll',onS);}}window.addEventListener('scroll',onS,{passive:true});})();
+(function(){if(!document.getElementById('co-1'))return;var d=null;try{d=JSON.parse(localStorage.getItem('ordine')||'null')}catch(e){}
+ if(d&&d.azienda){window.LETTERA=d;document.getElementById('co-op').innerHTML='Disdetta di <b>'+d.azienda.replace(/</g,'&lt;')+'</b>'+(d.pec?', inviata in PEC a <b>'+d.pec+'</b>':'')+'.';}
+ else{window.LETTERA={azienda:'',pec:'',postale:'',servizio:'al servizio indicato',legge:'',campo:'numero',cat:'altri-servizi'};document.getElementById('co-opfield').hidden=false;document.getElementById('co-azienda').required=true;document.getElementById('co-op').textContent='Indica l\'operatore che vuoi disdire.';}
+ if(window.goatcounter)setTimeout(function(){window.goatcounter&&goatcounter.count({path:'ordine-pagato',title:'Ordine pagato',event:true})},1500);
+ var c=document.getElementById('sig'),x=c.getContext('2d'),dr=false,has=false;x.lineWidth=4;x.lineCap='round';x.lineJoin='round';x.strokeStyle='#0f1b33';
+ function pos(e){var r=c.getBoundingClientRect();return[(e.clientX-r.left)*c.width/r.width,(e.clientY-r.top)*c.height/r.height]}
+ c.addEventListener('pointerdown',function(e){dr=true;has=true;c.setPointerCapture(e.pointerId);var p=pos(e);x.beginPath();x.moveTo(p[0],p[1]);e.preventDefault()});
+ c.addEventListener('pointermove',function(e){if(!dr)return;var p=pos(e);x.lineTo(p[0],p[1]);x.stroke();e.preventDefault()});
+ ['pointerup','pointercancel','pointerleave'].forEach(function(t){c.addEventListener(t,function(){dr=false})});
+ window.coClear=function(){x.clearRect(0,0,c.width,c.height);has=false};window.coHas=function(){return has};})();
+function coVal(n){var f=document.getElementById('form-lettera');return(f.elements[n]&&f.elements[n].value||'').trim()}
+function coDelega(){var d=window.LETTERA,oggi=new Date().toLocaleDateString('it-IT',{day:'numeric',month:'long',year:'numeric'});var nome=coVal('nome'),cf=coVal('cf'),ind=coVal('indirizzo'),cod=coVal('codice'),luogo=coVal('luogo');
+ return 'DELEGA ALLA TRASMISSIONE DELLA DISDETTA\n\nIl/La sottoscritto/a '+nome+', codice fiscale '+cf+', residente in '+ind+', intestatario/a del contratto n. '+cod+' con '+d.azienda+',\n\nDELEGA\n\nLouis Lardeux, imprenditore individuale (SIREN 999 443 880, Francia), titolare del servizio DisdettaAbbonamento.it, a trasmettere in suo nome e per suo conto'+(d.pec?', a mezzo posta elettronica certificata all\'indirizzo '+d.pec+',':' a mezzo posta elettronica certificata')+' la comunicazione di disdetta allegata, da lui/lei sottoscritta, e a ricevere le relative ricevute di accettazione e di consegna, che gli/le saranno trasmesse all\'indirizzo '+coVal('email')+'.\n\nLa presente delega è conferita ai sensi degli articoli 1703 e seguenti del Codice civile, è limitata alla sola trasmissione della comunicazione allegata e non comprende alcun altro potere.\n\nSi allega copia del documento d\'identità del delegante.\n\n'+luogo+', '+oggi+'\n\nFirma del delegante'}
+function coStep2(){var d=window.LETTERA;if(!d.azienda){d.azienda=coVal('azienda')}genLettera();var l=document.getElementById('lettera');l.hidden=true;document.getElementById('azioni').hidden=true;
+ document.getElementById('co-txt-l').textContent=l.textContent;document.getElementById('co-txt-d').textContent=coDelega();
+ document.getElementById('co-2').hidden=false;document.querySelectorAll('.co-steps li')[1].className='on';document.getElementById('co-2').scrollIntoView({behavior:'smooth',block:'start'});return false}
+function coPdf(){if(!coHas()){document.getElementById('co-err').hidden=false;return}document.getElementById('co-err').hidden=true;
+ var J=window.jspdf&&window.jspdf.jsPDF;if(!J){alert('Caricamento in corso, riprova tra un secondo.');return}
+ var doc=new J({unit:'mm',format:'a4'}),img=(function(){var c=document.getElementById('sig'),t=document.createElement('canvas');t.width=600;t.height=200;var g=t.getContext('2d');g.fillStyle='#fff';g.fillRect(0,0,600,200);g.drawImage(c,0,0,600,200);return t.toDataURL('image/jpeg',.85)})();
+ function pagina(txt,firmaLabel){doc.setFont('helvetica','normal');doc.setFontSize(10.5);var lines=doc.splitTextToSize(txt.replace('____________________\n(firma)','').trim(),178),y=20;lines.forEach(function(r){if(y>270){doc.addPage();y=20}doc.text(r,16,y);y+=5});y+=4;if(y>245){doc.addPage();y=20}doc.addImage(img,'JPEG',16,y,60,20);doc.setFontSize(9);doc.text(firmaLabel,16,y+24)}
+ pagina(document.getElementById('co-txt-l').textContent,'(firma dell\'intestatario)');doc.addPage();pagina(document.getElementById('co-txt-d').textContent,'(firma del delegante)');
+ var nome=coVal('nome').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'')||'cliente',fn='disdetta-'+nome+'.pdf';doc.save(fn);
+ document.getElementById('co-fname').textContent=fn;var up=document.getElementById('co-up'),az=window.LETTERA.azienda;
+ if(window.TALLY_URL){var u=window.TALLY_URL+'?nome='+encodeURIComponent(coVal('nome'))+'&email='+encodeURIComponent(coVal('email'))+'&operatore='+encodeURIComponent(az);up.innerHTML='<a class="btn shine" href="'+u+'" target="_blank" rel="noopener">Carica i documenti →</a><p class="secure">🔒 Caricamento protetto, i file arrivano solo a noi.</p>';}
+ else{var m='mailto:info@disdettaabbonamento.it?subject='+encodeURIComponent('Documenti disdetta '+az+' - '+coVal('nome'))+'&body='+encodeURIComponent('In allegato il PDF firmato (lettera + delega) e il documento d\'identità fronte e retro.\n\nNome: '+coVal('nome')+'\nOperatore: '+az+'\nE-mail per le ricevute: '+coVal('email'));up.innerHTML='<a class="btn shine" href="'+m+'">Invia i documenti per e-mail →</a><p class="secure">Si apre la tua app di posta: allega il PDF appena scaricato e la foto del documento, poi invia.</p>';}
+ document.getElementById('co-3').hidden=false;document.querySelectorAll('.co-steps li')[2].className='on';document.getElementById('co-3').scrollIntoView({behavior:'smooth',block:'start'});
+ if(window.goatcounter)goatcounter.count({path:'pdf-firmato',title:'PDF firmato',event:true});}
 function copiaLettera(b){navigator.clipboard.writeText(document.getElementById('lettera').textContent).then(()=>{b.textContent='Copiata ✓';setTimeout(()=>b.textContent='Copia il testo',1500)})}
 function copiaPec(b,v){navigator.clipboard.writeText(v).then(()=>{b.textContent='Copiato ✓';setTimeout(()=>b.textContent='Copia',1500)})}
 const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
@@ -392,14 +423,44 @@ PRIVACY_HTML = r'''<h1>Informativa privacy</h1>
 
 
 
-def page(title, desc, path, body, schema=None, sticky=""):
+TALLY_URL = ""  # lien du formulaire Tally de dépôt des documents, vide = solution de secours par e-mail
+
+COMPLETA_HTML = """<section class="hero small"><span class="pill"><b>✓</b> Pagamento ricevuto</span>
+<h1>Grazie! Completa il tuo ordine <em>in 3 minuti</em></h1>
+<p class="lead">Per inviare la disdetta in PEC al posto tuo ci servono la lettera firmata, la delega firmata e una copia del tuo documento d'identità. Le prepariamo qui sotto con i tuoi dati: tu firmi con il dito o il mouse.</p>
+<ol class="co-steps"><li class="on"><b>1</b> I tuoi dati</li><li><b>2</b> Firma</li><li><b>3</b> Invia i documenti</li></ol></section>
+<section class="gen" id="co-1"><h2>1. I tuoi dati</h2>
+<p class="sub" id="co-op"></p>
+<form id="form-lettera" onsubmit="return coStep2()">
+<div id="co-opfield" hidden><label for="co-azienda">Operatore da disdire</label><input id="co-azienda" name="azienda" placeholder="es. Sky, TIM, Generali"></div>
+<div class="row2"><div><label for="nome">Nome e cognome dell'intestatario</label><input id="nome" name="nome" autocomplete="name" required></div>
+<div><label for="cf">Codice fiscale</label><input id="cf" name="cf" required></div></div>
+<label for="indirizzo">Indirizzo di residenza</label><input id="indirizzo" name="indirizzo" autocomplete="street-address" required>
+<div class="row2"><div><label for="codice">Codice cliente, numero di contratto o di polizza</label><input id="codice" name="codice" required></div>
+<div><label for="linea">Numero di telefono o POD/PDR collegato (facoltativo)</label><input id="linea" name="linea"></div></div>
+<div class="row2"><div><label for="luogo">Città</label><input id="luogo" name="luogo" autocomplete="address-level2" required></div><div><label for="email">La tua e-mail (per ricevere le ricevute PEC)</label><input id="email" name="email" type="email" autocomplete="email" required></div></div>
+<label class="chk"><input type="checkbox" id="co-ok" required> Dichiaro di essere l'intestatario del contratto, o di essere autorizzato ad agire per suo conto, e che i dati sono veritieri.</label>
+<button class="btn" type="submit">Continua alla firma →</button><p class="secure">🔒 I dati restano nel tuo browser finché non invii i documenti.</p></form>
+<div id="lettera" hidden></div><div id="azioni" hidden></div></section>
+<section class="gen" id="co-2" hidden><h2>2. Firma</h2>
+<p class="sub">Firma nel riquadro con il dito o con il mouse. La stessa firma viene apposta sulla lettera di disdetta e sulla delega.</p>
+<div class="sig"><canvas id="sig" width="900" height="300" aria-label="Riquadro per la firma"></canvas><button type="button" class="btn sec" onclick="coClear()">Cancella</button></div>
+<details class="co-prev"><summary>Leggi la lettera e la delega prima di firmare</summary><pre id="co-txt-l"></pre><pre id="co-txt-d"></pre></details>
+<button class="btn shine" type="button" onclick="coPdf()">Firma e scarica il PDF →</button><p class="co-err" id="co-err" hidden>Firma nel riquadro prima di continuare.</p></section>
+<section class="gen" id="co-3" hidden><h2>3. Invia i documenti</h2>
+<p class="sub">Il PDF <b id="co-fname"></b> è stato scaricato sul tuo dispositivo. Ora invia due cose:</p>
+<ul class="co-list"><li>📄 il PDF firmato (lettera + delega)</li><li>🪪 una foto o scansione del documento d'identità, fronte e retro</li></ul>
+<div id="co-up"></div>
+<p class="co-after">Riceverai le ricevute PEC di accettazione e di consegna nella tua e-mail entro 2 giorni lavorativi. Problemi? Scrivi a <a href="mailto:info@disdettaabbonamento.it">info@disdettaabbonamento.it</a>.</p></section>"""
+
+def page(title, desc, path, body, schema=None, sticky="", noindex=False, extra_head=""):
     canon = DOMAIN + path
     bodycls = ' class="has-sticky"' if sticky else ""
     ld = "".join(f'<script type="application/ld+json">{json.dumps(s, ensure_ascii=False)}</script>' for s in (schema or []))
     return f"""<!doctype html><html lang="it"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(title)}</title><meta name="description" content="{E(desc)}">
-<link rel="canonical" href="{canon}">
+<link rel="canonical" href="{canon}">{'<meta name="robots" content="noindex,nofollow">' if noindex else ''}{extra_head}
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}">
 <meta property="og:type" content="website"><meta property="og:url" content="{canon}"><meta property="og:locale" content="it_IT">
 <link rel="icon" type="image/png" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta property="og:image" content="https://disdettaabbonamento.it/og.png"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/style.css?v={ASSET_V}">{ld}</head><body{bodycls}>
@@ -638,6 +699,9 @@ def main():
     }
     for p, (t, d, b) in statiche.items():
         write(p, page(f"{t} | {SITE}", d, p, b)); urls.append(p)
+    write("/completa-ordine/", page(f"Completa il tuo ordine | {SITE}", "Completa l'ordine di invio della disdetta via PEC.", "/completa-ordine/",
+          COMPLETA_HTML + f'<script>window.TALLY_URL={json.dumps(TALLY_URL)};</script>', noindex=True,
+          extra_head='<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>'))
     open(os.path.join(OUT, "style.css"), "w").write(CSS)
     open(os.path.join(OUT, "app.js"), "w").write(JS)
     json.dump([{"n": b["nome"], "u": f"/disdetta-{b['slug']}/", "c": CATEGORIE[b["categoria"]]["nome"], "cc": b["categoria"], "i": iniziali(b["nome"]), "l": etichetta(b)} for b in brands],

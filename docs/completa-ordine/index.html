@@ -1,0 +1,39 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Completa il tuo ordine | Disdetta Abbonamento</title><meta name="description" content="Completa l&#x27;ordine di invio della disdetta via PEC.">
+<link rel="canonical" href="https://disdettaabbonamento.it/completa-ordine/"><meta name="robots" content="noindex,nofollow"><script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+<meta property="og:title" content="Completa il tuo ordine | Disdetta Abbonamento"><meta property="og:description" content="Completa l&#x27;ordine di invio della disdetta via PEC.">
+<meta property="og:type" content="website"><meta property="og:url" content="https://disdettaabbonamento.it/completa-ordine/"><meta property="og:locale" content="it_IT">
+<link rel="icon" type="image/png" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta property="og:image" content="https://disdettaabbonamento.it/og.png"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/style.css?v=0e10f2cc"></head><body>
+<header class="top"><div class="wrap"><a class="logo" href="/"><i>✉</i><span class="lt">Disdetta<span>Abbonamento</span>.it</span></a>
+<nav class="main"><a href="/telefonia/">Telefonia</a><a href="/luce-gas/">Luce e gas</a><a href="/assicurazioni/">Assicurazioni</a><a href="/guide/">Guide</a><a class="cta" href="/#cerca"><span class="lg">Trova il tuo operatore</span><span class="sm">Cerca</span></a></nav></div></header>
+<main class="wrap"><section class="hero small"><span class="pill"><b>✓</b> Pagamento ricevuto</span>
+<h1>Grazie! Completa il tuo ordine <em>in 3 minuti</em></h1>
+<p class="lead">Per inviare la disdetta in PEC al posto tuo ci servono la lettera firmata, la delega firmata e una copia del tuo documento d'identità. Le prepariamo qui sotto con i tuoi dati: tu firmi con il dito o il mouse.</p>
+<ol class="co-steps"><li class="on"><b>1</b> I tuoi dati</li><li><b>2</b> Firma</li><li><b>3</b> Invia i documenti</li></ol></section>
+<section class="gen" id="co-1"><h2>1. I tuoi dati</h2>
+<p class="sub" id="co-op"></p>
+<form id="form-lettera" onsubmit="return coStep2()">
+<div id="co-opfield" hidden><label for="co-azienda">Operatore da disdire</label><input id="co-azienda" name="azienda" placeholder="es. Sky, TIM, Generali"></div>
+<div class="row2"><div><label for="nome">Nome e cognome dell'intestatario</label><input id="nome" name="nome" autocomplete="name" required></div>
+<div><label for="cf">Codice fiscale</label><input id="cf" name="cf" required></div></div>
+<label for="indirizzo">Indirizzo di residenza</label><input id="indirizzo" name="indirizzo" autocomplete="street-address" required>
+<div class="row2"><div><label for="codice">Codice cliente, numero di contratto o di polizza</label><input id="codice" name="codice" required></div>
+<div><label for="linea">Numero di telefono o POD/PDR collegato (facoltativo)</label><input id="linea" name="linea"></div></div>
+<div class="row2"><div><label for="luogo">Città</label><input id="luogo" name="luogo" autocomplete="address-level2" required></div><div><label for="email">La tua e-mail (per ricevere le ricevute PEC)</label><input id="email" name="email" type="email" autocomplete="email" required></div></div>
+<label class="chk"><input type="checkbox" id="co-ok" required> Dichiaro di essere l'intestatario del contratto, o di essere autorizzato ad agire per suo conto, e che i dati sono veritieri.</label>
+<button class="btn" type="submit">Continua alla firma →</button><p class="secure">🔒 I dati restano nel tuo browser finché non invii i documenti.</p></form>
+<div id="lettera" hidden></div><div id="azioni" hidden></div></section>
+<section class="gen" id="co-2" hidden><h2>2. Firma</h2>
+<p class="sub">Firma nel riquadro con il dito o con il mouse. La stessa firma viene apposta sulla lettera di disdetta e sulla delega.</p>
+<div class="sig"><canvas id="sig" width="900" height="300" aria-label="Riquadro per la firma"></canvas><button type="button" class="btn sec" onclick="coClear()">Cancella</button></div>
+<details class="co-prev"><summary>Leggi la lettera e la delega prima di firmare</summary><pre id="co-txt-l"></pre><pre id="co-txt-d"></pre></details>
+<button class="btn shine" type="button" onclick="coPdf()">Firma e scarica il PDF →</button><p class="co-err" id="co-err" hidden>Firma nel riquadro prima di continuare.</p></section>
+<section class="gen" id="co-3" hidden><h2>3. Invia i documenti</h2>
+<p class="sub">Il PDF <b id="co-fname"></b> è stato scaricato sul tuo dispositivo. Ora invia due cose:</p>
+<ul class="co-list"><li>📄 il PDF firmato (lettera + delega)</li><li>🪪 una foto o scansione del documento d'identità, fronte e retro</li></ul>
+<div id="co-up"></div>
+<p class="co-after">Riceverai le ricevute PEC di accettazione e di consegna nella tua e-mail entro 2 giorni lavorativi. Problemi? Scrivi a <a href="mailto:info@disdettaabbonamento.it">info@disdettaabbonamento.it</a>.</p></section><script>window.TALLY_URL="";</script></main>
+<footer><div class="wrap"><p><a href="/">Home</a><a href="/guide/">Guide</a><a href="/come-funziona/">Come funziona</a><a href="/chi-siamo/">Chi siamo</a><a href="/note-legali/">Note legali</a><a href="/termini/">Termini e condizioni</a><a href="/privacy/">Privacy</a></p>
+<p>Disdetta Abbonamento è un servizio indipendente, non affiliato agli operatori citati. I marchi appartengono ai rispettivi proprietari. Le informazioni sono verificate sulle fonti ufficiali alla data indicata in ogni pagina: controlla sempre il tuo contratto.</p></div></footer>
+<script src="/app.js?v=0e10f2cc" defer></script><script data-goatcounter="https://disdetta.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>
