@@ -469,7 +469,7 @@ def brand_page(b, peers):
         body += f'<p class="inbreve"><b>In breve.</b> Per disdire {E(n)}: ' + "; ".join(parti) + f'. Verificato il {verif} su {"fonte ufficiale" if uff else "fonti di settore"}.</p>'
     if lettera:
         body += '<a class="btn shine" href="#lettera-disdetta">Genera la lettera gratis →</a><a class="btn sec" href="#invio">Te la inviamo noi via PEC</a>'
-    body += '<ul class="chips"><li>Lettera gratis</li><li>Invio PEC con ricevuta legale a 7,90 €, prezzo di lancio</li><li>Fonti ufficiali citate</li><li>Rimborso se non consegnata</li></ul><p class="proof" data-proof="{sl}" hidden></p></section>'
+    body += '<ul class="chips"><li>Lettera gratis</li><li>Invio PEC con ricevuta legale a 7,90 €, prezzo di lancio</li><li>Fonti ufficiali citate</li><li>Rimborso se non consegnata</li></ul><p class="proof" data-proof="' + sl + '" hidden></p></section>'
     if b.get("pec"):
         facts[0] = ("PEC", f'<span class="pec">{E(b["pec"])}</span> <button class="copy" type="button" onclick="copiaPec(this,\'{E(b["pec"])}\')">Copia</button>')
     dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in facts)
