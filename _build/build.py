@@ -211,7 +211,9 @@ footer a{color:var(--muted);margin-right:16px}
 @media print{header.top,footer,.crumbs,.noprint,.hero,.box,.note,h2,h3,ul,details,.grid,.src,p,.steps,.why,.sticky{display:none!important}.gen{box-shadow:none;padding:0;background:#fff}#lettera{display:block!important;border:0;box-shadow:none;font-size:12pt}}
 """
 
-JS = r"""
+JS = r"""// Attribution : si la visite vient d'une pub (utm_source), on le note dans le lien Stripe
+(function(){try{var u=new URLSearchParams(location.search);var src=u.get('utm_source')||sessionStorage.getItem('src');if(!src)return;sessionStorage.setItem('src',src);var tag='-'+src.replace(/[^a-z0-9]/gi,'').slice(0,12);document.querySelectorAll('a[href*="buy.stripe.com"]').forEach(function(a){if(a.href.indexOf('client_reference_id=')>-1&&a.href.indexOf(tag)===-1){a.href=a.href+tag;}});}catch(e){}})();
+
 const LEGGI={
  'telefonia':{rif:"ai sensi dell'art. 1, comma 3, del D.L. 31 gennaio 2007, n. 7, convertito con modificazioni dalla Legge 2 aprile 2007, n. 40",extra:"senza l'applicazione di penali o di costi diversi da quelli giustificati da costi effettivamente sostenuti dall'operatore, come previsto dalla medesima norma;",app:"le istruzioni per la restituzione di eventuali apparati concessi in comodato d'uso;"},
  'tv-streaming':{rif:"ai sensi dell'art. 1, comma 3, del D.L. 31 gennaio 2007, n. 7, convertito con modificazioni dalla Legge 2 aprile 2007, n. 40",extra:"senza l'applicazione di penali o di costi diversi da quelli giustificati da costi effettivamente sostenuti dall'operatore;",app:"le istruzioni per la restituzione di decoder, smart card o altri apparati in comodato d'uso;"},
