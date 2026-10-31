@@ -37,6 +37,12 @@ function genLettera(){
   document.getElementById('azioni').style.display='block'; el.scrollIntoView({behavior:'smooth',block:'start'});
   return false;
 }
+function calcScad(f,gg){try{var v=f.d.value;if(!v)return false;var sc=new Date(v+'T12:00:00');var lim=new Date(sc);lim.setDate(lim.getDate()-gg);var oggi=new Date();oggi.setHours(12,0,0,0);var diff=Math.round((lim-oggi)/86400000);var fmt=function(d){return d.toLocaleDateString('it-IT',{day:'numeric',month:'long',year:'numeric'})};var o=f.querySelector('.dlout');
+ if(diff<0){o.innerHTML='<b>Sei oltre il termine</b>: con '+gg+' giorni di preavviso andava inviata entro il '+fmt(lim)+'. Invia comunque oggi: il recesso varrà per la scadenza successiva, e prima invii meno paghi.';}
+ else if(diff===0){o.innerHTML='<b>Ultimo giorno utile: oggi.</b> Invia la disdetta entro stasera, meglio via PEC che fa fede della data.';}
+ else{o.innerHTML='<b>Invia entro il '+fmt(lim)+'</b>, cioè tra '+diff+' giorn'+(diff===1?'o':'i')+'. Dopo quella data l\'operatore può considerare il contratto rinnovato.';}
+ o.style.display='block';if(window.goatcounter)goatcounter.count({path:'calcolo-scadenza'+location.pathname,title:'Calcolo scadenza',event:true});}catch(e){}return false;}
+(function(){document.addEventListener('click',function(e){var a=e.target.closest('a[data-pec]');if(a&&window.goatcounter){goatcounter.count({path:'clic-pec'+location.pathname,title:'Clic Invia via PEC',event:true});}});var fl=document.getElementById('form-lettera');if(fl){fl.addEventListener('submit',function(){if(window.goatcounter)goatcounter.count({path:'lettera-generata'+location.pathname,title:'Lettera generata',event:true});});}})();
 function copiaLettera(b){navigator.clipboard.writeText(document.getElementById('lettera').textContent).then(()=>{b.textContent='Copiata ✓';setTimeout(()=>b.textContent='Copia il testo',1500)})}
 function copiaPec(b,v){navigator.clipboard.writeText(v).then(()=>{b.textContent='Copiato ✓';setTimeout(()=>b.textContent='Copia',1500)})}
 const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,' ').trim();

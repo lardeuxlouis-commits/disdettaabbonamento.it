@@ -68,6 +68,13 @@ CATEGORIE = {
 }
 
 CSS = """.inbreve{background:#fff;border:1px solid #e3e3df;border-left:4px solid #0a7a4b;border-radius:10px;padding:12px 16px;margin:14px 0 6px;font-size:15px;line-height:1.5}.inbreve .pec{word-break:break-all}
+.launch{margin:-4px 0 12px;font-size:14px;color:#6b3b12;background:#fff4e5;border:1px solid #ffd2b8;border-radius:8px;padding:6px 10px}.launch b{color:#b4530a}
+.tl{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:4px 10px;font-size:13px;color:var(--muted)}.tl li{line-height:1.35}
+.urg .dl{margin-top:12px;font-size:14.5px;color:#6b3b12}.urg .dl label{display:block;font-weight:600;margin-bottom:6px}.urg .dlrow{display:flex;gap:8px;flex-wrap:wrap}.urg .dlrow input{font:inherit;padding:10px 12px;border:1px solid #ffd2b8;border-radius:10px;background:#fff;min-width:170px}.urg .dlrow .btn{padding:10px 16px;width:auto;margin:0}.urg .dlout{display:none;margin:10px 0 0;background:#fff;border-radius:10px;padding:10px 12px;color:var(--fg);font-size:15px}
+.urgbtns{display:flex;flex-direction:column;gap:8px;margin-left:auto;flex:none}.urgbtns .btn{margin:0;justify-content:center}
+.pecbox{margin-top:18px;background:linear-gradient(120deg,#eef3ff,#f7f9ff);border:1px solid #c9d8ff;border-radius:16px;padding:18px 20px;display:grid;gap:12px}.pecbox b{display:block;font-size:18px;margin-bottom:4px}.pecbox span{color:var(--muted);font-size:15px;line-height:1.5}.pecbox .btn{justify-content:center}
+.sticky.two{display:none;grid-template-columns:1fr 1.4fr;gap:8px}.sticky.two .btn{width:100%;padding:12px 10px;font-size:15px}
+@media(max-width:820px){.urgbtns{width:100%;margin:8px 0 0}.tl{grid-template-columns:1fr}.sticky.two{display:grid}}
 
 :root{--fg:#0f1b33;--muted:#58647a;--bg:#fff;--soft:#f3f6fb;--line:#e1e6ef;--accent:#1f5eff;--accent-d:#1748c9;--accent-l:#e8efff;--ok:#0b7a4f;--okbg:#dff5ea;--warnbg:#fff6e0;--radius:16px;--shadow:0 10px 30px rgba(15,27,51,.08),0 2px 6px rgba(15,27,51,.05)}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
@@ -250,6 +257,12 @@ function genLettera(){
   document.getElementById('azioni').style.display='block'; el.scrollIntoView({behavior:'smooth',block:'start'});
   return false;
 }
+function calcScad(f,gg){try{var v=f.d.value;if(!v)return false;var sc=new Date(v+'T12:00:00');var lim=new Date(sc);lim.setDate(lim.getDate()-gg);var oggi=new Date();oggi.setHours(12,0,0,0);var diff=Math.round((lim-oggi)/86400000);var fmt=function(d){return d.toLocaleDateString('it-IT',{day:'numeric',month:'long',year:'numeric'})};var o=f.querySelector('.dlout');
+ if(diff<0){o.innerHTML='<b>Sei oltre il termine</b>: con '+gg+' giorni di preavviso andava inviata entro il '+fmt(lim)+'. Invia comunque oggi: il recesso varrà per la scadenza successiva, e prima invii meno paghi.';}
+ else if(diff===0){o.innerHTML='<b>Ultimo giorno utile: oggi.</b> Invia la disdetta entro stasera, meglio via PEC che fa fede della data.';}
+ else{o.innerHTML='<b>Invia entro il '+fmt(lim)+'</b>, cioè tra '+diff+' giorn'+(diff===1?'o':'i')+'. Dopo quella data l\'operatore può considerare il contratto rinnovato.';}
+ o.style.display='block';if(window.goatcounter)goatcounter.count({path:'calcolo-scadenza'+location.pathname,title:'Calcolo scadenza',event:true});}catch(e){}return false;}
+(function(){document.addEventListener('click',function(e){var a=e.target.closest('a[data-pec]');if(a&&window.goatcounter){goatcounter.count({path:'clic-pec'+location.pathname,title:'Clic Invia via PEC',event:true});}});var fl=document.getElementById('form-lettera');if(fl){fl.addEventListener('submit',function(){if(window.goatcounter)goatcounter.count({path:'lettera-generata'+location.pathname,title:'Lettera generata',event:true});});}})();
 function copiaLettera(b){navigator.clipboard.writeText(document.getElementById('lettera').textContent).then(()=>{b.textContent='Copiata ✓';setTimeout(()=>b.textContent='Copia il testo',1500)})}
 function copiaPec(b,v){navigator.clipboard.writeText(v).then(()=>{b.textContent='Copiato ✓';setTimeout(()=>b.textContent='Copia',1500)})}
 const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
@@ -296,7 +309,7 @@ CAMPO = {"telefonia": "numero di linea", "tv-streaming": "numero smart card o te
 PLANS = """<h2 id="invio">Come vuoi inviare la disdetta?</h2>
 <div class="rv plans">
 <div class="plan"><h3>Fai da te</h3><div class="price">Gratis</div><ul><li>Lettera pronta, scritta secondo la normativa</li><li>La copi o la salvi in PDF</li><li>La invii tu dalla tua casella PEC o con raccomandata in posta</li></ul><a class="btn sec" href="#lettera-disdetta">Genera la lettera gratis</a></div>
-<div class="plan pro">""" + seal() + """<span class="tag">Consigliato</span><h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><ul><li>Lettera redatta secondo la legge, con i riferimenti normativi corretti</li><li>Inviata in PEC all'indirizzo verificato dell'operatore</li><li>Ricevuta di consegna con valore legale, inviata alla tua e-mail</li><li>Non serve avere una PEC né andare in posta</li><li>Rimborso completo se la PEC non viene consegnata</li></ul><a class="btn" href="https://buy.stripe.com/14AcN41JJ3oBcFB1kI2B200?client_reference_id={BRAND_REF}" rel="nofollow">Invia via PEC, 7,90 €</a><span class="soon">Pagamento sicuro con Stripe, carta o Apple Pay. Dopo il pagamento ti chiediamo i dati per la lettera e ti inviamo le ricevute PEC via e-mail entro 2 giorni lavorativi. <a href="/termini/">Termini del servizio</a></span></div>
+<div class="plan pro">""" + seal() + """<span class="tag">Consigliato</span><h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><p class="launch"><b>Prezzo di lancio</b> fino al 30 novembre 2026, poi 9,90 €.</p><ul><li>Lettera redatta secondo la legge, con i riferimenti normativi corretti</li><li>Inviata in PEC all'indirizzo verificato dell'operatore</li><li>Ricevuta di consegna con valore legale, inviata alla tua e-mail</li><li>Non serve avere una PEC né andare in posta</li><li>Rimborso completo se la PEC non viene consegnata</li></ul><a class="btn" href="https://buy.stripe.com/14AcN41JJ3oBcFB1kI2B200?client_reference_id={BRAND_REF}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a><ul class="tl"><li>🔒 Pagamento sicuro Stripe</li><li>📬 Ricevute PEC entro 2 giorni lavorativi</li><li>↩️ Rimborso se la PEC non viene consegnata</li><li>✉️ Una tantum, nessun abbonamento</li></ul><span class="soon">Pagamento sicuro con Stripe, carta o Apple Pay. Dopo il pagamento ti chiediamo i dati per la lettera e ti inviamo le ricevute PEC via e-mail entro 2 giorni lavorativi. <a href="/termini/">Termini del servizio</a></span></div>
 </div>
 <div class="rv guar"><div><b>⚖️ Conforme alla legge</b>Testo con le norme del settore: legge Bersani, Codice civile, regole ARERA.</div><div><b>📬 Prova legale</b>La ricevuta PEC ha lo stesso valore di una raccomandata A/R.</div><div><b>🔎 Indirizzi verificati</b>Presi dai documenti ufficiali, con data di verifica.</div><div><b>🔒 Dati protetti</b>Nessun dato salvato per la lettera gratuita, GDPR per l'invio.</div></div>"""
 
@@ -360,6 +373,8 @@ PRIVACY_HTML = r'''<h1>Informativa privacy</h1>
 <p><strong>Conservazione:</strong> lettere e ricevute PEC per 24 mesi dall'invio, come prova dell'esecuzione; dati di fatturazione per 10 anni come previsto dalla legge.</p>
 <h2>I tuoi diritti</h2>
 <p>Puoi chiedere accesso, rettifica, cancellazione, limitazione, portabilità e opporti al trattamento (articoli 15-22 GDPR) scrivendo a info@disdettaabbonamento.it. Puoi anche presentare reclamo al Garante per la protezione dei dati personali (garanteprivacy.it) o all'autorità francese CNIL (cnil.fr).</p>
+<h2>Statistiche di navigazione</h2>
+<p>Per contare le visite usiamo GoatCounter, uno strumento che non utilizza cookie, non memorizza l'indirizzo IP né identificatori personali e non traccia l'utente tra siti diversi. Raccoglie solo dati aggregati (pagina visitata, Paese, tipo di dispositivo, sito di provenienza). Per questo non è richiesto alcun consenso. Informazioni: <a href="https://www.goatcounter.com/help/privacy" rel="noopener nofollow">goatcounter.com/help/privacy</a>.</p>
 <h2>Cookie</h2>
 <p>Il sito non utilizza cookie di profilazione. Eventuali strumenti tecnici necessari al funzionamento non richiedono consenso.</p>'''
 
@@ -381,7 +396,7 @@ def page(title, desc, path, body, schema=None, sticky=""):
 <main class="wrap">{body}</main>
 <footer><div class="wrap"><p><a href="/">Home</a><a href="/guide/">Guide</a><a href="/come-funziona/">Come funziona</a><a href="/chi-siamo/">Chi siamo</a><a href="/note-legali/">Note legali</a><a href="/termini/">Termini e condizioni</a><a href="/privacy/">Privacy</a></p>
 <p>{SITE} è un servizio indipendente, non affiliato agli operatori citati. I marchi appartengono ai rispettivi proprietari. Le informazioni sono verificate sulle fonti ufficiali alla data indicata in ogni pagina: controlla sempre il tuo contratto.</p></div></footer>
-{sticky}<script src="/app.js?v={ASSET_V}" defer></script></body></html>"""
+{sticky}<script src="/app.js?v={ASSET_V}" defer></script><script data-goatcounter="https://disdetta.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>"""
 
 
 def write(path, content):
@@ -422,6 +437,9 @@ def brand_page(b, peers):
     dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in facts)
     canali = "".join(f"<li>{E(c)}</li>" for c in b.get("canali", []))
     verif = data_it(b["data_verifica"]); uff = b.get("affidabilita") == "ufficiale"
+    ref = re.sub(r"[^A-Za-z0-9_-]+", "-", n).strip("-")[:60]
+    sl = E(b["slug"])
+    stripe = "https://buy.stripe.com/14AcN41JJ3oBcFB1kI2B200?client_reference_id=" + ref + ""
     body = '<section class="hero small">'
     body += f'<p class="crumbs"><a href="/">Home</a> › <a href="/{cat["slug"]}/">{E(cat["nome"])}</a> › {E(n)}</p>'
     body += f'<span class="pill">{"<b>✓</b> Verificato su fonte ufficiale" if uff else "Verificato su fonti di settore"} · {verif}</span>'
@@ -439,14 +457,14 @@ def brand_page(b, peers):
         body += f'<p class="inbreve"><b>In breve.</b> Per disdire {E(n)}: ' + "; ".join(parti) + f'. Verificato il {verif} su {"fonte ufficiale" if uff else "fonti di settore"}.</p>'
     if lettera:
         body += '<a class="btn shine" href="#lettera-disdetta">Genera la lettera gratis →</a><a class="btn sec" href="#invio">Te la inviamo noi via PEC</a>'
-    body += '<ul class="chips"><li>Lettera gratis</li><li>Invio PEC con ricevuta legale a 7,90 €</li><li>Fonti ufficiali citate</li></ul></section>'
+    body += '<ul class="chips"><li>Lettera gratis</li><li>Invio PEC con ricevuta legale a 7,90 €, prezzo di lancio</li><li>Fonti ufficiali citate</li><li>Rimborso se non consegnata</li></ul></section>'
     if b.get("pec"):
         facts[0] = ("PEC", f'<span class="pec">{E(b["pec"])}</span> <button class="copy" type="button" onclick="copiaPec(this,\'{E(b["pec"])}\')">Copia</button>')
     dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in facts)
     body += f'<div class="rv box" id="dati"><h2>Disdetta {E(n)} in breve</h2><dl class="facts">{dl}</dl></div>'
     gg = re.search(r"(\d+)\s*giorni", b.get("preavviso", "") or "")
     if lettera and gg:
-        body += f'<div class="urg rv"><span class="ic">⏰</span><span><b>Se invii oggi, il contratto termina il <span id="scad" data-giorni="{gg.group(1)}">…</span></b><p>Con {gg.group(1)} giorni di preavviso ogni giorno di attesa sposta la fine del contratto. Aspettare una settimana vuol dire pagare fino al <span id="scad2">…</span>, spesso un mese in più.</p></span><a class="btn" href="#lettera-disdetta">Disdici ora →</a></div>'
+        body += f'<div class="urg rv"><span class="ic">⏰</span><span><b>Se invii oggi, il contratto termina il <span id="scad" data-giorni="{gg.group(1)}">…</span></b><p>Con {gg.group(1)} giorni di preavviso ogni giorno di attesa sposta la fine del contratto. Aspettare una settimana vuol dire pagare fino al <span id="scad2">…</span>, spesso un mese in più.</p><form class="dl" onsubmit="return calcScad(this,{gg.group(1)})"><label for="dl-{sl}">Hai una scadenza precisa? Inserisci la data di scadenza o di rinnovo del contratto</label><div class="dlrow"><input type="date" id="dl-{sl}" name="d" required><button class="btn sec" type="submit">Calcola</button></div><p class="dlout" aria-live="polite"></p></form></span><div class="urgbtns"><a class="btn" href="#lettera-disdetta">Disdici ora →</a><a class="btn sec" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a></div></div>'
 
     if b.get("note"):
         body += f'<div class="note"><strong>Da sapere.</strong> {E(b["note"])}</div>'
@@ -467,11 +485,12 @@ def brand_page(b, peers):
 <button class="btn" type="submit">Genera la lettera →</button><p class="secure">🔒 Nessun dato viene inviato o salvato: tutto resta nel tuo browser.</p></form>
 <div id="lettera"></div>
 <div id="azioni" class="noprint" style="display:none"><button class="btn" type="button" onclick="copiaLettera(this)">Copia il testo</button><button class="btn sec" type="button" onclick="window.print()">Salva in PDF / stampa</button>
-<p class="src">Per una disdetta con valore legale, invia la lettera firmata con copia del documento d'identità da una casella PEC, oppure con raccomandata A/R, e conserva la ricevuta.</p></div>
+<p class="src">Per una disdetta con valore legale, invia la lettera firmata con copia del documento d'identità da una casella PEC, oppure con raccomandata A/R, e conserva la ricevuta.</p>
+<div class="pecbox"><div><b>Non hai una PEC?</b><span>La inviamo noi all'indirizzo verificato di {E(n)}, con ricevuta di consegna a valore legale nella tua e-mail. Prezzo di lancio 7,90 € fino al 30 novembre, poi 9,90 €.</span></div><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 € →</a><ul class="tl"><li>🔒 Pagamento sicuro Stripe</li><li>📬 Ricevute PEC entro 2 giorni lavorativi</li><li>↩️ Rimborso se la PEC non viene consegnata</li><li>✉️ Una tantum, nessun abbonamento</li></ul></div></div>
 <script>window.LETTERA={json.dumps({"azienda": n, "pec": b.get("pec", ""), "postale": b.get("indirizzo_postale", "") or ("[indirizzo del tuo club, indicato nel contratto]" if b["categoria"] == "palestre" else ""), "servizio": cat["servizio"], "legge": LEGGE_BREVE.get(b["categoria"], ""), "campo": CAMPO[b["categoria"]], "cat": b["categoria"]}, ensure_ascii=False)}</script>
 </section>"""
     if lettera:
-        body += PLANS.replace("{BRAND_REF}", re.sub(r"[^A-Za-z0-9_-]+", "-", n).strip("-")[:60])
+        body += PLANS.replace("{BRAND_REF}", ref)
     rel = [g for g in GUIDE if b["categoria"] in g["cats"]][:3]
     if rel:
         body += '<h2>Guide utili</h2><div class="grid">' + "".join(f'<a class="card" href="/guide/{g["slug"]}/"><span class="av altri-servizi">📘</span><span><b>{E(g["h1"])}</b><small>Guida</small></span></a>' for g in rel) + '</div>'
@@ -495,8 +514,8 @@ def brand_page(b, peers):
         {"@type": "ListItem", "position": 2, "name": cat["nome"], "item": f"{DOMAIN}/{cat['slug']}/"},
         {"@type": "ListItem", "position": 3, "name": f"Disdetta {n}", "item": DOMAIN + path}]})
     if lettera:
-        body += f'<section class="band"><h2>Disdici {E(n)} oggi</h2><p>Lettera gratis in un minuto, oppure te la inviamo noi in PEC con ricevuta legale.</p><a class="btn shine" href="#lettera-disdetta">Genera la lettera gratis →</a></section>'
-    sticky = '<div class="sticky"><a class="btn" href="#lettera-disdetta">Genera la lettera gratis →</a></div>' if lettera else ''
+        body += f'<section class="band"><h2>Disdici {E(n)} oggi</h2><p>Lettera gratis in un minuto, oppure te la inviamo noi in PEC con ricevuta legale.</p><a class="btn shine" href="#lettera-disdetta">Genera la lettera gratis →</a><a class="btn sec" href="{stripe}" rel="nofollow" data-pec>Te la inviamo noi, 7,90 €</a></section>'
+    sticky = f'<div class="sticky two"><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a></div>' if lettera else ''
     write(path, page(title, desc, path, body, schema, sticky))
     return path
 
