@@ -334,7 +334,7 @@ TERMINI_HTML = r'''<h1>Termini e condizioni del servizio</h1>
 <h2>4. Prezzo e pagamento</h2>
 <p>Il prezzo dell'invio è indicato prima dell'ordine, attualmente 7,90 € per lettera. IVA non applicabile, articolo 293 B del Code général des impôts francese (regime di franchigia). Il pagamento avviene online tramite Stripe; non conserviamo i dati della carta.</p>
 <h2>5. Esecuzione</h2>
-<p>L'invio avviene di norma entro un giorno lavorativo dal pagamento. Le ricevute PEC sono inoltrate all'indirizzo e-mail indicato dal cliente non appena disponibili. La ricevuta di consegna attesta che il messaggio è stato consegnato nella casella PEC del destinatario e costituisce prova dell'invio e della data.</p>
+<p>L'invio avviene di norma entro 2 giorni lavorativi dal pagamento. Le ricevute PEC sono inoltrate all'indirizzo e-mail indicato dal cliente non appena disponibili. La ricevuta di consegna attesta che il messaggio è stato consegnato nella casella PEC del destinatario e costituisce prova dell'invio e della data.</p>
 <h2>6. Cosa non possiamo garantire</h2>
 <p>Non siamo responsabili delle decisioni dell'operatore, dei tempi con cui gestisce la disdetta, di eventuali costi o penali previsti dal contratto del cliente, né di errori nei dati forniti dal cliente. Le schede informative sono verificate sulle fonti indicate alla data riportata, ma le condizioni degli operatori possono cambiare: in caso di dubbio fa fede il contratto del cliente. Il servizio non costituisce consulenza legale.</p>
 <h2>7. Rimborso</h2>
