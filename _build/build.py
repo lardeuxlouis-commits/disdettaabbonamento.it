@@ -67,7 +67,8 @@ CATEGORIE = {
     },
 }
 
-CSS = """
+CSS = """.inbreve{background:#fff;border:1px solid #e3e3df;border-left:4px solid #0a7a4b;border-radius:10px;padding:12px 16px;margin:14px 0 6px;font-size:15px;line-height:1.5}.inbreve .pec{word-break:break-all}
+
 :root{--fg:#0f1b33;--muted:#58647a;--bg:#fff;--soft:#f3f6fb;--line:#e1e6ef;--accent:#1f5eff;--accent-d:#1748c9;--accent-l:#e8efff;--ok:#0b7a4f;--okbg:#dff5ea;--warnbg:#fff6e0;--radius:16px;--shadow:0 10px 30px rgba(15,27,51,.08),0 2px 6px rgba(15,27,51,.05)}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 body{margin:0;font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--fg);background:var(--bg);overflow-x:hidden}
@@ -425,6 +426,15 @@ def brand_page(b, peers):
     body += f"<h1>Disdetta {E(n)}: <em>{'PEC, indirizzo e lettera pronta' if lettera else 'come annullare in pochi clic'}</em></h1>"
     body += (f'<p class="lead">Dove inviare la disdetta, con quale preavviso e quanto costa. Poi compili la lettera gratis in un minuto e la invii tu.</p>'
              if lettera else f'<p class="lead">{E(n)} si disdice online, senza lettere. Ecco i passaggi, il preavviso e cosa succede dopo.</p>')
+    # Bloc réponse directe, lisible d'un coup d'œil par Google, les IA et l'appelant pressé
+    parti = []
+    if b.get("pec"): parti.append(f"PEC <strong class=\"pec\">{E(b['pec'])}</strong>")
+    if b.get("indirizzo_postale"): parti.append(f"raccomandata A/R a <strong>{E(b['indirizzo_postale'])}</strong>")
+    if b.get("preavviso"): parti.append(f"preavviso <strong>{E(b['preavviso'])}</strong>")
+    if b.get("costi"): parti.append(f"costi: {E(b['costi'])}")
+    if not parti and b.get("canali"): parti.append("si disdice direttamente da " + ", ".join(E(c) for c in b["canali"][:3]))
+    if parti:
+        body += f'<p class="inbreve"><b>In breve.</b> Per disdire {E(n)}: ' + "; ".join(parti) + f'. Verificato il {verif} su {"fonte ufficiale" if uff else "fonti di settore"}.</p>'
     if lettera:
         body += '<a class="btn shine" href="#lettera-disdetta">Genera la lettera gratis →</a><a class="btn sec" href="#invio">Te la inviamo noi via PEC</a>'
     body += '<ul class="chips"><li>Lettera gratis</li><li>Invio PEC con ricevuta legale a 7,90 €</li><li>Fonti ufficiali citate</li></ul></section>'
@@ -592,7 +602,15 @@ def main():
     open(os.path.join(OUT, "app.js"), "w").write(JS)
     json.dump([{"n": b["nome"], "u": f"/disdetta-{b['slug']}/", "c": CATEGORIE[b["categoria"]]["nome"], "cc": b["categoria"], "i": iniziali(b["nome"]), "l": etichetta(b)} for b in brands],
               open(os.path.join(OUT, "operatori.json"), "w", encoding="utf-8"), ensure_ascii=False)
-    open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n")
+    open(os.path.join(OUT, "robots.txt"), "w").write("User-agent: *\nAllow: /\n\n" + "".join(f"User-agent: {ua}\nAllow: /\n\n" for ua in ["GPTBot", "ChatGPT-User", "OAI-SearchBot", "PerplexityBot", "ClaudeBot", "Claude-SearchBot", "Google-Extended", "Applebot-Extended", "Bingbot"]) + f"Sitemap: {DOMAIN}/sitemap.xml\n")
+    llms = [f"# {SITE}", "", f"> Indirizzi PEC e postali verificati, preavviso, costi e lettera di disdetta gratuita per {len(brands)} operatori italiani (telefonia, pay TV, luce e gas, assicurazioni, banche, palestre). Ogni scheda riporta la data di verifica e le fonti ufficiali. Servizio opzionale di invio via PEC a 7,90 EUR.", "", f"Ultimo aggiornamento: {TODAY}", "", "## Schede operatore"]
+    for b in sorted(brands, key=lambda x: x["nome"].lower()):
+        r = []
+        if b.get("pec"): r.append("PEC " + b["pec"])
+        if b.get("preavviso"): r.append("preavviso " + (b["preavviso"] if len(b["preavviso"]) <= 90 else b["preavviso"][:90].rsplit(" ", 1)[0] + "…"))
+        llms.append(f"- [Disdetta {b['nome']}]({DOMAIN}/disdetta-{b['slug']}/): " + ("; ".join(r) if r else "disdetta online dai canali ufficiali") + f" (verificato {b['data_verifica']})")
+    llms += ["", "## Pagine", f"- [Come funziona]({DOMAIN}/come-funziona/)", f"- [Termini del servizio PEC]({DOMAIN}/termini/)", f"- [Chi siamo]({DOMAIN}/chi-siamo/)"]
+    open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8").write("\n".join(llms) + "\n")
     sm = "".join(f"<url><loc>{DOMAIN}{u}</loc><lastmod>{TODAY}</lastmod></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w").write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
     for src, dst in [("brand/icon-512.png", "favicon.png"), ("brand/icon-512.png", "apple-touch-icon.png"), ("brand/og.png", "og.png"), ("brand/BingSiteAuth.xml", "BingSiteAuth.xml")]:
