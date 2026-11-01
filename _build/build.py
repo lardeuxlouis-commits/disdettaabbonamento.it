@@ -71,6 +71,7 @@ CSS = """.inbreve{background:#fff;border:1px solid #e3e3df;border-left:4px solid
 .launch{margin:-4px 0 12px;font-size:14px;color:#6b3b12;background:#fff4e5;border:1px solid #ffd2b8;border-radius:8px;padding:6px 10px}.launch b{color:#b4530a}
 .tl{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:4px 10px;font-size:13px;color:var(--muted)}.tl li{line-height:1.35}
 .urg .dl{margin-top:12px;font-size:14.5px;color:#6b3b12}.urg .dl label{display:block;font-weight:600;margin-bottom:6px}.urg .dlrow{display:flex;gap:8px;flex-wrap:wrap}.urg .dlrow input{font:inherit;padding:10px 12px;border:1px solid #ffd2b8;border-radius:10px;background:#fff;min-width:170px}.urg .dlrow .btn{padding:10px 16px;width:auto;margin:0}.urg .dlout{display:none;margin:10px 0 0;background:#fff;border-radius:10px;padding:10px 12px;color:var(--fg);font-size:15px}
+.guide .dl{margin:10px 0 18px;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--soft)}.guide .dl label{display:block;font-weight:600;margin-bottom:6px}.guide .dlrow{display:flex;gap:8px;flex-wrap:wrap}.guide .dlrow input,.guide .dlrow select{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;min-width:170px}.guide .dlout{display:none;margin:10px 0 0;background:#fff;border-radius:10px;padding:10px 12px;font-size:15px}.guide-letter{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:14px 18px;background:#fff;font-size:15px}
 .urgbtns{display:flex;flex-direction:column;gap:8px;margin-left:auto;flex:none}.urgbtns .btn{margin:0;justify-content:center}
 .pecbox{margin-top:18px;background:linear-gradient(120deg,#eef3ff,#f7f9ff);border:1px solid #c9d8ff;border-radius:16px;padding:18px 20px;display:grid;gap:12px}.pecbox b{display:block;font-size:18px;margin-bottom:4px}.pecbox span{color:var(--muted);font-size:15px;line-height:1.5}.pecbox .btn{justify-content:center}
 .cd{display:inline-block;margin-left:6px;font-weight:700;color:#b4530a}
@@ -504,8 +505,13 @@ def brand_page(b, peers):
     lettera = bool(b.get("pec") or b.get("indirizzo_postale")) or b["categoria"] == "palestre"
     anno = TODAY[:4]
     title = f"Disdetta {n}: PEC, indirizzo e modulo ({anno})" if lettera else f"Disdetta {n}: come annullare l'abbonamento ({anno})"
+    if b["categoria"] == "assicurazioni" and b.get("pec"):
+        corto = re.sub(r"\s*\(.*?\)", "", n)
+        title = f"PEC {corto} per disdetta: indirizzo e lettera ({anno})"
     desc = (f"Come disdire {n}: indirizzo PEC, raccomandata, preavviso e costi verificati sulle fonti ufficiali. Genera gratis la lettera di disdetta pronta da inviare."
             if lettera else f"Come annullare l'abbonamento {n} in pochi passaggi, senza lettere. Preavviso, costi e cosa succede dopo, verificato sulle fonti ufficiali.")
+    if b["categoria"] == "assicurazioni" and b.get("pec"):
+        desc = f"Indirizzo PEC {n} per la disdetta della polizza, verificato sulle fonti ufficiali. Calcola entro quando inviarla e genera gratis la lettera pronta."
     facts = []
     if b.get("pec"): facts.append(("PEC", f'<span class="pec">{E(b["pec"])}</span>'))
     if b.get("indirizzo_postale"): facts.append(("Raccomandata A/R", E(b["indirizzo_postale"])))

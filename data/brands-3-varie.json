@@ -1,0 +1,48 @@
+[
+ {
+  "nome": "Worldpay Italia",
+  "slug": "worldpay-italia",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "Worldpay B.V., De Entree 248, 1101 EE Amsterdam, Paesi Bassi (sede legale indicata nei termini del contratto Merchant Services, per i commercianti in Europa esclusa la Gran Bretagna)",
+  "canali": [
+   "Lettera per posta (secondo i termini ufficiali, la disdetta da parte del commerciante va inviata per posta, salvo diverso accordo scritto)",
+   "Contatti assistenza commercianti indicati su worldpay.com/en-gb/resources/merchant-support",
+   "Se il POS e stato sottoscritto tramite la propria banca, la disdetta va inviata alla banca come indicato nel contratto"
+  ],
+  "preavviso": "1 mese di preavviso scritto da parte del commerciante, secondo i termini standard Worldpay Merchant Services 2026 (clausola 12.2). Verificare il proprio contratto: durata minima e condizioni possono differire.",
+  "costi": "Nessun costo di recesso indicato nei termini standard. Il noleggio dei terminali ha accordi propri (Terminal Hire Agreement) con possibili addebiti in caso di chiusura anticipata: leggere il contratto.",
+  "modulo": "",
+  "note": "Non esiste un indirizzo PEC ufficiale pubblicato ne una societa italiana chiaramente identificata: i termini pubblicati sul sito italiano indicano Worldpay B.V. (Paesi Bassi) come fornitore per i commercianti europei. Molti POS Worldpay in Italia sono venduti tramite banche o intermediari, quindi il contratto da seguire e quello firmato. Consigliata raccomandata A/R con copia del contratto e dati del punto vendita (MID). Il numero di telefono per la disdetta nei termini standard e britannico (+44 191 203 7318), non adatto a un uso pratico dall'Italia senza conferma.",
+  "fonti": [
+   "https://www.worldpay.com/it-IT/legal",
+   "https://www.worldpay.com/it-IT/legal/merchant-services-terms-conditions",
+   "http://assets.ctfassets.net/zhwqbd2ar3b8/3VZqvoGxtHsbPthycvu2lG/236b4836b99c493dcc262d6c7c8ce355/160226_110_Standard_TC-s_WP110_April_2026_-_Clean_Version.pdf"
+  ],
+  "affidabilita": "parziale",
+  "data_verifica": "2026-11-01"
+ },
+ {
+  "nome": "Il CV Perfetto",
+  "slug": "il-cv-perfetto",
+  "categoria": "altri-servizi",
+  "pec": "",
+  "indirizzo_postale": "BOLD LLC, City View Plaza II, Suite 6000, 48 Road 165, Guaynabo, Puerto Rico 00968",
+  "canali": [
+   "E-mail: support@bold.com (indicata nei termini di utilizzo per recesso e domande)",
+   "Area personale del sito ilcvperfetto.it: impostazioni account / abbonamento",
+   "Lettera all'indirizzo postale di BOLD LLC con la dicitura \"Recesso dal contratto\""
+  ],
+  "preavviso": "Recesso gratuito entro 14 giorni dalla conclusione del contratto per i consumatori, senza motivazione. Per la disdetta dell'abbonamento rinnovabile, annullare prima della data di rinnovo per evitare il successivo addebito.",
+  "costi": "Nessun costo per il recesso entro 14 giorni. Secondo i termini, la quota dell'abbonamento per la parte residua del periodo di fatturazione non e rimborsabile.",
+  "modulo": "",
+  "note": "Il sito e gestito da BOLD LLC (non da una societa italiana). Molti utenti segnalano su Altroconsumo che dopo un pagamento iniziale basso per scaricare il CV parte un abbonamento a rinnovo automatico con importi piu alti: controllare l'estratto conto e annullare subito dall'area personale, conservando la conferma. In caso di addebito contestato, e possibile scrivere a support@bold.com e chiedere anche il blocco o la contestazione alla propria banca o al circuito della carta. Nessuna PEC ufficiale pubblicata. I dettagli precisi (importi, procedura nel pannello) vanno riletti nei termini di utilizzo aggiornati.",
+  "fonti": [
+   "https://www.ilcvperfetto.it/termini-di-utilizzo",
+   "https://www.ilcvperfetto.it/informativa-sulla-privacy",
+   "https://www.ilcvperfetto.it/faq"
+  ],
+  "affidabilita": "parziale",
+  "data_verifica": "2026-11-01"
+ }
+]

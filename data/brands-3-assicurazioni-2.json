@@ -1,0 +1,251 @@
+[
+  {
+    "nome": "Alleanza Assicurazioni",
+    "slug": "alleanza-assicurazioni",
+    "categoria": "assicurazioni",
+    "pec": "alleanza@pec.alleanza.it",
+    "indirizzo_postale": "Alleanza Assicurazioni S.p.A., Piazza Tre Torri 1, 20145 Milano (MI)",
+    "canali": [
+      "PEC",
+      "raccomandata A/R",
+      "agenzia"
+    ],
+    "preavviso": "Polizze vita: il recesso e' possibile entro 30 giorni dalla conclusione del contratto (art. 177 Codice delle Assicurazioni), con comunicazione scritta alla compagnia; dopo si puo' solo riscattare o interrompere i premi secondo le condizioni di polizza. Polizze danni (casa, infortuni, salute) con tacito rinnovo: disdetta con il preavviso indicato in polizza, di norma 30 giorni prima della scadenza annuale (verificare le condizioni di assicurazione). Per polizze a distanza e' previsto un ripensamento di 14 giorni. RC auto: dal 2013 non esiste tacito rinnovo (art. 170-bis Codice delle Assicurazioni), il contratto cessa alla scadenza senza bisogno di disdetta.",
+    "costi": "Nessun costo per il recesso nei termini. Per polizze vita il rimborso del premio puo' essere al netto delle spese di emissione e della parte di premio per il rischio corso, come da condizioni. Il riscatto dopo il recesso puo' comportare penali o valori inferiori al versato.",
+    "modulo": "",
+    "note": "La PEC alleanza@pec.alleanza.it e' la PEC generale della compagnia indicata nel sito ufficiale (pagine Contatti e Reclami); l'ufficio reclami usa anche tutelaclienti@alleanza.it. Indicare numero di polizza, codice fiscale, copia documento e IBAN per il rimborso. Per Pensionline e Obiettivo Sicuro il sito ha un form dedicato. Verificare in polizza se vale la sede di Milano o l'indirizzo dell'agenzia.",
+    "fonti": [
+      "https://www.alleanza.it/contatti",
+      "https://www.alleanza.it/reclami/",
+      "https://www.alleanza.it/assistenza/"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "BNP Paribas Cardif (Italia)",
+    "slug": "bnp-paribas-cardif",
+    "categoria": "assicurazioni",
+    "pec": "cardifspa@pec.cardif.it",
+    "indirizzo_postale": "Cardif Vita S.p.A., Piazza Lina Bo Bardi 3, 20124 Milano (MI). Per polizze protezione: Cardif, Back Office Protezione - Post Vendita, Casella Postale 550, 20123 Milano (MI)",
+    "canali": [
+      "PEC",
+      "raccomandata A/R",
+      "e-mail",
+      "fax"
+    ],
+    "preavviso": "Polizze collegate a finanziamenti, mutui e prestiti (CPI), GAP, protezione dei beni: recesso nei termini indicati nel set informativo (in genere entro 30 o 60 giorni dalla decorrenza, a mezzo raccomandata A/R, fax o e-mail), con rimborso del premio al netto delle imposte e della parte di premio gia' goduta entro 30 giorni dal ricevimento. Polizze vita: recesso entro 30 giorni dalla conclusione (art. 177 Codice delle Assicurazioni). Dopo il periodo di ripensamento, per le coperture di durata pluriennale o a premio unico si segue quanto previsto da condizioni (estinzione anticipata del finanziamento = possibile rimborso della quota non goduta).",
+    "costi": "Possono essere trattenute le spese amministrative indicate nel set informativo (es. nel GAP Plus); nessuna penale per il recesso nei termini.",
+    "modulo": "",
+    "note": "Attenzione: il gruppo ha piu' societa'. La PEC cardifspa@pec.cardif.it e' di Cardif Vita S.p.A. (Piazza Lina Bo Bardi 3); per i prodotti danni/protezione venduti dalla Rappresentanza Generale per l'Italia di Cardif Assurances Risques Divers la PEC e' cardifrd@pec.cardif.it. Controllare quale compagnia compare sul certificato di polizza o sul fascicolo informativo (spesso e' venduta tramite una banca o finanziaria). E-mail servizio clienti: servizioclienti@cardif.com, tel. 800 900 780. I reclami vanno a reclami@cardif.com.",
+    "fonti": [
+      "https://bnpparibascardif.it/contatti/",
+      "https://bnpparibascardif.it/reclami-controversie-arbitro-assicurativo/",
+      "https://hellobank.it/rsc/SupportingFiles/Polizza_BNL_Avvenire_Protetto_Individuals_FI.pdf.pdf",
+      "https://sagam.it/media/5zmg4rew/set-informativo-gap-plus.pdf"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Poste Vita",
+    "slug": "poste-vita",
+    "categoria": "assicurazioni",
+    "pec": "postevita@pec.postevita.it",
+    "indirizzo_postale": "Poste Vita S.p.A., Portafoglio Vita (per revoca/variazioni) oppure Liquidazioni Vita (per recesso e riscatto), Viale Europa 190, 00144 Roma (RM)",
+    "canali": [
+      "PEC",
+      "raccomandata A/R",
+      "ufficio postale"
+    ],
+    "preavviso": "Recesso: entro 30 giorni dalla stipula del contratto (polizze vita, art. 177 Codice delle Assicurazioni), con raccomandata A/R a Poste Vita - Liquidazioni Vita oppure presentando la richiesta all'Ufficio Postale che ha in carico il contratto. Revoca della proposta (collocamento a distanza) prima dell'addebito del premio, con raccomandata A/R a Portafoglio Vita o via e-mail a gestionevariazioni.portafoglio@postevita.it. Dopo i 30 giorni: riscatto o interruzione dei premi secondo il prodotto. Polizze danni/protezione con rinnovo annuale: disdetta secondo le condizioni di ciascun prodotto.",
+    "costi": "In caso di recesso Poste Vita rimborsa il premio versato, al netto delle eventuali imposte, entro 30 giorni dal ricevimento della comunicazione. Il riscatto anticipato puo' avere costi e penalita' (vedere il set informativo del prodotto).",
+    "modulo": "",
+    "note": "La PEC postevita@pec.postevita.it e' indicata nei documenti informativi e nel sito ufficiale, ma i documenti ufficiali citano soprattutto la raccomandata A/R per il recesso: per sicurezza usare anche la raccomandata o recarsi all'ufficio postale. Indirizzo di sede aggiornato: Viale Europa 190 (le vecchie indicazioni di Viale Beethoven 11 sono superate). Allegare copia documento, codice fiscale, originale di polizza e appendici se richiesti. Reclami: reclami@postevita.it.",
+    "fonti": [
+      "https://postevita.poste.it/reclami",
+      "https://postevita.poste.it/privacy-policy",
+      "https://www.media.poste.it/8dce46f6-727b-4ed6-9f0e-7209298130ee/web/dip-postefedeltasenior"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Crédit Agricole Assicurazioni (Italia)",
+    "slug": "credit-agricole-assicurazioni",
+    "categoria": "assicurazioni",
+    "pec": "ugp.ca-assicurazioni@legalmail.it",
+    "indirizzo_postale": "Crédit Agricole Assicurazioni, Ufficio Gestione Portafoglio, Via Carlo Pesenti 121, 00156 Roma (RM)",
+    "canali": [
+      "PEC",
+      "raccomandata A/R",
+      "e-mail",
+      "agenzia"
+    ],
+    "preavviso": "Polizze danni (casa, infortuni, salute, tutela legale) con tacito rinnovo annuale: disdetta con il preavviso indicato in polizza, di norma 30 giorni prima della scadenza (verificare le condizioni). Polizze legate a finanziamenti o mutui: recesso nei termini del set informativo (in genere 30-60 giorni dalla decorrenza). RC auto: dal 2013 non esiste tacito rinnovo (art. 170-bis Codice delle Assicurazioni), il contratto cessa alla scadenza senza bisogno di disdetta.",
+    "costi": "Nessun costo per la disdetta nei termini. In caso di recesso anticipato, rimborso della parte di premio non goduta al netto delle imposte, se previsto dalle condizioni.",
+    "modulo": "",
+    "note": "La PEC ugp.ca-assicurazioni@legalmail.it e' quella che il sito ufficiale indica per 'informazioni e comunicazioni relative a contratti gia' in essere'. Altre PEC del sito: ugs.ca-assicurazioni@legalmail.it solo per sinistri, tutelalegale.ca-assicurazioni@legalmail.it per sinistri di tutela legale, ca-assicurazioni@legalmail.it per RECLAMI (non usarla per la disdetta), info.ca-assicurazioni@legalmail.it per informazioni generali. Indicare numero di polizza e codice fiscale.",
+    "fonti": [
+      "https://www.ca-assicurazioni.it/contattaci"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Nobis Assicurazioni",
+    "slug": "nobis-assicurazioni",
+    "categoria": "assicurazioni",
+    "pec": "nobisassicurazioni@pec.it",
+    "indirizzo_postale": "Nobis Compagnia di Assicurazioni S.p.A., Direzione Generale, Viale Colleoni 21, 20864 Agrate Brianza (MB). Sede legale: Via Lanzo 29, 10071 Borgaro Torinese (TO)",
+    "canali": [
+      "PEC",
+      "raccomandata A/R",
+      "e-mail",
+      "agenzia"
+    ],
+    "preavviso": "Polizze danni con tacito rinnovo annuale (casa, infortuni, viaggi annuali, assistenza): disdetta con il preavviso previsto in polizza, di norma 30 giorni prima della scadenza. Kasko finanziaria venduta con un finanziamento: recesso entro 60 giorni dalla decorrenza, recesso annuale o recesso per cessazione del rischio, secondo le condizioni di assicurazione. RC auto: dal 2013 non esiste tacito rinnovo (art. 170-bis Codice delle Assicurazioni), il contratto cessa alla scadenza senza bisogno di disdetta.",
+    "costi": "Nessun costo per il recesso nei termini. Rimborso del premio non goduto al netto delle imposte, tramite bonifico o riduzione della rata del finanziamento (solo se entro 60 giorni e se il finanziamento lo permette).",
+    "modulo": "https://www.nobis.it/Sites/394/WebExplorer/set-mutui-finanziamenti/ModuloRecesso_2025_db_Kasko fin_v.04.02.25.pdf",
+    "note": "La PEC e' riportata nell'intestazione ufficiale della compagnia (modulo di recesso 2025). Il modulo ufficiale linkato riguarda solo la kasko finanziaria venduta tramite Deutsche Bank e va rinviato firmato a automotive@nobis.it con documento e codice fiscale: per altre polizze usare la PEC. Nobis fa parte del gruppo AXA Italia dal 2025. Indicare numero di polizza e targa se auto.",
+    "fonti": [
+      "https://www.nobis.it/Sites/394/WebExplorer/set-mutui-finanziamenti/ModuloRecesso_2025_db_Kasko fin_v.04.02.25.pdf",
+      "https://www.nobis.it"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Redion (ex Europ Assistance Italia)",
+    "slug": "europ-assistance-italia",
+    "categoria": "assicurazioni",
+    "pec": "",
+    "indirizzo_postale": "Redion Italy Insurance S.p.A. (gia' Europ Assistance Italia S.p.A.), Via del Mulino 4, 20057 Assago (MI)",
+    "canali": [
+      "raccomandata A/R",
+      "e-mail"
+    ],
+    "preavviso": "Polizze viaggio singole (a viaggio o a durata fissa): non hanno tacito rinnovo, scadono alla data indicata. Polizze annuali di assistenza, casa o salute: disdetta con il preavviso previsto in polizza (di norma 30 giorni prima della scadenza). Per i prodotti venduti a distanza e' previsto un ripensamento di 14 giorni dalla conclusione.",
+    "costi": "Nessun costo per la disdetta nei termini. In caso di recesso, rimborso del premio non goduto al netto delle imposte nei tempi indicati dalla polizza.",
+    "modulo": "",
+    "note": "Europ Assistance Italia ha cambiato denominazione in Redion Italy Insurance S.p.A. (Gruppo Generali); il sito europassistance.it ora rimanda a redion.it. L'unica PEC attualmente pubblicata dal sito ufficiale e' reclami@pec.redion.it, solo per i RECLAMI (accetta messaggi solo da altre PEC): per questo il campo PEC e' lasciato vuoto. La vecchia PEC dei documenti 2019 (EuropAssistanceItaliaSpA@pec.europassistance.it) potrebbe non essere piu' attiva, da non usare senza verifica. Per la disdetta inviare raccomandata A/R oppure l'e-mail del servizio clienti indicata nel proprio set informativo; numero di polizza o pratica sempre necessario. Tel. 803 803.",
+    "fonti": [
+      "https://www.europassistance.it/reclami",
+      "https://www.redion.it/contatti",
+      "https://assets.europassistance.it/Termini%20e%20Condizioni/PRODOTTI%20COLLETTIVI/Viaggi/Vagamondo.pdf"
+    ],
+    "affidabilita": "parziale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Arca Assicurazioni",
+    "slug": "arca-assicurazioni",
+    "categoria": "assicurazioni",
+    "pec": "arcaassicurazioni@pec.unipol.it",
+    "indirizzo_postale": "Arca Assicurazioni S.p.A. / Arca Vita S.p.A., Via del Fante 21, 37122 Verona (VR)",
+    "canali": [
+      "PEC",
+      "raccomandata A/R",
+      "agenzia"
+    ],
+    "preavviso": "Polizze danni (casa, infortuni, salute, auto) con tacito rinnovo annuale: disdetta con il preavviso indicato in polizza, di norma 30 giorni prima della scadenza. Polizze vita Arca Vita: recesso entro 60 giorni da quando si e' informati della conclusione (come indicato nei DIP Arca Vita), poi si seguono le regole di sospensione dei premi e riscatto. RC auto: dal 2013 non esiste tacito rinnovo (art. 170-bis Codice delle Assicurazioni), il contratto cessa alla scadenza senza bisogno di disdetta.",
+    "costi": "Nessun costo per il recesso nei termini; sospensione dei premi: dopo 30 giorni dalla scadenza le garanzie sono sospese. Alcune polizze vita non prevedono riscatto.",
+    "modulo": "",
+    "note": "Due societa' diverse: per polizze danni e' indicata la PEC arcaassicurazioni@pec.unipol.it, per polizze vita (Arca Vita) la PEC e' arcavita@pec.unipol.it (verificata nei DIP del 2026). Arca fa parte del gruppo Unipol. Verificare sul frontespizio della polizza quale societa' ha emesso il contratto, spesso venduto tramite banche. Indicare numero di polizza e codice fiscale.",
+    "fonti": [
+      "https://www.arcassicura.it",
+      "https://www.arcassicura.it/set-informativi",
+      "https://static.sitewww.arcassicura.it/F181_18062026_058123e330.pdf"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "MetLife Italia",
+    "slug": "metlife-italia",
+    "categoria": "assicurazioni",
+    "pec": "mel-italia@legalmail.it",
+    "indirizzo_postale": "MetLife Europe d.a.c., Rappresentanza Generale per l'Italia, Via Andrea Vesalio 6, 00161 Roma (RM)",
+    "canali": [
+      "raccomandata A/R",
+      "PEC",
+      "numero verde"
+    ],
+    "preavviso": "Programmi assicurativi annuali con tacito rinnovo (es. Sicuro Subito): disdetta ad ogni ricorrenza annuale con raccomandata A/R e preavviso di 30 giorni sulla scadenza, oppure comunicandola al numero verde indicato in polizza. Recesso: entro 60 giorni dalla conclusione del contratto, con raccomandata A/R o via numero verde (800.319.665 nel set informativo consultato), con effetto dalle ore 24 del giorno della comunicazione. In caso di pagamento frazionato la disdetta e' possibile anche ad ogni ricorrenza di pagamento.",
+    "costi": "Con il recesso entro 60 giorni il premio gia' pagato e' restituito entro 30 giorni dal ricevimento della comunicazione, al lordo delle imposte. Con la disdetta alla scadenza non e' dovuta alcuna restituzione di premio.",
+    "modulo": "",
+    "note": "La PEC mel-italia@legalmail.it e' indicata nei set informativi ufficiali; la raccomandata A/R resta il canale citato nelle condizioni per recesso e disdetta, quindi conviene inviare anche quella. MetLife vende spesso tramite banche e finanziarie (polizze CPI): indicare societa' venditrice e numero di polizza o adesione. Servizio clienti: 06.492161, il sito indica anche una pagina PEC dedicata. Ufficio reclami: Via Andrea Vesalio 6, Roma.",
+    "fonti": [
+      "https://www.metlife.it/assistenza-clienti/contattaci/",
+      "https://www.metlife.it/assistenza-clienti/reclami/",
+      "https://www.metlife.it/content/dam/metlifecom/it/_risorse/documenti/pdf/fascicoli/set-informativo-metlife-sicuro-subito_20190101.pdf",
+      "https://www.dbeasy.it/files/documents/Mod_AH1808_Ed202505.pdf"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Net Insurance",
+    "slug": "net-insurance",
+    "categoria": "assicurazioni",
+    "pec": "netinsurance@pec.netinsurance.it",
+    "indirizzo_postale": "Net Insurance S.p.A., Via Giuseppe Antonio Guattani 4, 00161 Roma (RM)",
+    "canali": [
+      "PEC",
+      "raccomandata A/R"
+    ],
+    "preavviso": "Prodotti prevalentemente collegati a prestiti, mutui e cessione del quinto (CPI) o protezione: recesso nei termini indicati nel set informativo (in genere entro 30 o 60 giorni dalla decorrenza, art. 177 Codice delle Assicurazioni per le polizze vita), con comunicazione scritta alla compagnia. Per le coperture a premio ricorrente annuale con tacito rinnovo, disdetta con il preavviso indicato in polizza. In caso di estinzione anticipata del finanziamento si puo' chiedere il rimborso del premio non goduto secondo le condizioni.",
+    "costi": "Nessuna penale per il recesso nei termini; il rimborso del premio e' calcolato al netto delle imposte e della parte gia' goduta, come da set informativo.",
+    "modulo": "",
+    "note": "Gruppo Poste Vita. Due societa': per prodotti vita la PEC e' netinsurancelife@pec.netinsurancelife.it (Net Insurance Life), per danni netinsurance@pec.netinsurance.it. La pagina Contatti elenca queste PEC senza specificare lo scopo; la PEC reclami e' diversa (ufficio.reclami@pec.netinsurance.it, da non usare per la disdetta). Verificare nel certificato di polizza quale societa' ha emesso il contratto. Molti prodotti sono venduti tramite banche e finanziarie.",
+    "fonti": [
+      "https://www.netinsurance.it/contatti/",
+      "https://www.netinsurance.it/reclami/"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Mediolanum Assicurazioni",
+    "slug": "mediolanum-assicurazioni",
+    "categoria": "assicurazioni",
+    "pec": "",
+    "indirizzo_postale": "Mediolanum Assicurazioni S.p.A., Via Ennio Doris, 20079 Basiglio (MI)",
+    "canali": [
+      "raccomandata A/R",
+      "consulente Banca Mediolanum"
+    ],
+    "preavviso": "Polizze danni (casa, infortuni, salute, protezione) con tacito rinnovo annuale: disdetta con il preavviso previsto in polizza, di norma 30 giorni prima della scadenza. Per le polizze vendute a distanza o fuori sede e' previsto il recesso/ripensamento di legge entro 14 giorni (danni) o 30 giorni (vita). RC auto: dal 2013 non esiste tacito rinnovo (art. 170-bis Codice delle Assicurazioni), il contratto cessa alla scadenza senza bisogno di disdetta.",
+    "costi": "Nessun costo per la disdetta nei termini; rimborso del premio non goduto secondo le condizioni di polizza.",
+    "modulo": "",
+    "note": "Il sito ufficiale pubblica solo la PEC dell'Ufficio Reclami (ufficioreclami@pec.mediolanum.it) che serve per i RECLAMI e non per la disdetta: per questo il campo PEC e' vuoto. Per la disdetta rivolgersi al proprio consulente di Banca Mediolanum, che distribuisce le polizze, oppure inviare raccomandata A/R alla compagnia citando numero di polizza.",
+    "fonti": [
+      "https://www.mediolanumassicurazioni.it/reclami",
+      "https://www.mediolanumassicurazioni.it/privacy"
+    ],
+    "affidabilita": "parziale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "DAS (Difesa Automobilistica Sinistri)",
+    "slug": "das-difesa-automobilistica-sinistri",
+    "categoria": "assicurazioni",
+    "pec": "dasdifesalegale@pec.das.it",
+    "indirizzo_postale": "D.A.S. Difesa Automobilistica Sinistri S.p.A. di Assicurazione, Via Enrico Fermi 9/B, 37135 Verona (VR)",
+    "canali": [
+      "PEC",
+      "raccomandata A/R",
+      "agenzia"
+    ],
+    "preavviso": "Polizze di tutela legale (persona, famiglia, circolazione, aziende) con tacito rinnovo annuale: disdetta con almeno 30 giorni di preavviso sulla scadenza, comunicata con raccomandata A/R o PEC (verificare nelle condizioni del proprio prodotto, alcuni prodotti, come Tutela Legale Feel Safe, cessano alla scadenza senza rinnovo). Il recesso a distanza e' possibile entro 14 giorni dalla conclusione.",
+    "costi": "Nessun costo per la disdetta nei termini. Se la disdetta non e' inviata in tempo il contratto si rinnova per un altro anno e il premio resta dovuto.",
+    "modulo": "",
+    "note": "La PEC dasdifesalegale@pec.das.it e' quella indicata nel piede di pagina del sito ufficiale; il Servizio Clienti usa servizio.clienti@pec.das.it (fax 045 8351025) per reclami e comunicazioni di servizio: per i RECLAMI usare quella, per la disdetta la PEC generale. Quasi sempre i contratti sono gestiti da un'agenzia: indicare agenzia, numero di polizza, nome e codice fiscale.",
+    "fonti": [
+      "https://www.das.it",
+      "https://www.das.it/reclami"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  }
+]
