@@ -77,7 +77,8 @@ CSS = """.inbreve{background:#fff;border:1px solid #e3e3df;border-left:4px solid
 .co-steps{list-style:none;display:flex;gap:8px;flex-wrap:wrap;padding:0;margin:18px 0 0}.co-steps li{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 6px;font-size:14.5px;color:var(--muted)}.co-steps li b{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--soft);color:var(--muted);font-size:13px}.co-steps li.on{color:var(--fg);border-color:var(--accent)}.co-steps li.on b{background:var(--accent);color:#fff}
 .chk{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;margin:12px 0 14px;font-weight:500}.chk input{margin-top:3px;width:18px;height:18px;flex:none}
 .sig{display:grid;gap:10px;margin:8px 0 14px}.sig canvas{width:100%;height:auto;aspect-ratio:3/1;background:#fff;border:2px dashed var(--line);border-radius:14px;touch-action:none;cursor:crosshair}.sig .btn{justify-self:start;padding:8px 14px}
-.co-prev{margin:0 0 16px}.co-prev pre{white-space:pre-wrap;font:14px/1.5 inherit;background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px;margin:10px 0}.co-err{color:#b42318;font-weight:600}.co-list{font-size:16px;line-height:1.8;padding-left:4px;list-style:none}.co-after{font-size:14.5px;color:var(--muted);margin-top:14px}
+.co-prev{margin:0 0 16px}.co-prev pre{white-space:pre-wrap;font:14px/1.5 inherit;background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px;margin:10px 0}.co-err{color:#b42318;font-weight:600}.co-list{font-size:16px;line-height:1.8;padding-left:4px;list-style:none}.co-up{font-size:15px;line-height:1.6;padding-left:20px;margin:6px 0 14px}.co-up i{font-style:normal;background:var(--soft);padding:1px 6px;border-radius:6px;word-break:break-all}
+.co-after{font-size:14.5px;color:var(--muted);margin-top:14px}
 .upsell{margin-top:18px;border:2px solid var(--accent);border-radius:16px;padding:18px 20px;background:#fff;transform:translateY(10px);opacity:0;transition:transform .4s cubic-bezier(.2,.7,.2,1),opacity .4s ease}.upsell.in{transform:none;opacity:1}.upsell b{display:block;font-size:19px;margin-bottom:10px}.upsell table{width:100%;border-collapse:collapse;font-size:14.5px;margin-bottom:14px}.upsell th,.upsell td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}.upsell th:last-child,.upsell td:last-child{color:var(--ok);font-weight:600}.upsell td:first-child{color:var(--muted);width:28%}.upsell .btn{width:100%;justify-content:center;margin:0}
 .proof{margin:12px 0 0;font-size:14.5px;color:var(--muted)}.proof b{color:var(--fg)}
 .after{margin:14px 0 0;padding:0 0 0 20px;font-size:14px;color:var(--muted);line-height:1.5}.after li{margin:4px 0}.after b{color:var(--fg)}
@@ -304,7 +305,7 @@ function coPdf(){if(!coHas()){document.getElementById('co-err').hidden=false;ret
  pagina(document.getElementById('co-txt-l').textContent,'(firma dell\'intestatario)');doc.addPage();pagina(document.getElementById('co-txt-d').textContent,'(firma del delegante)');
  var nome=coVal('nome').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'')||'cliente',fn='disdetta-'+nome+'.pdf';doc.save(fn);
  document.getElementById('co-fname').textContent=fn;var up=document.getElementById('co-up'),az=window.LETTERA.azienda;
- if(window.TALLY_URL){var u=window.TALLY_URL+'?nome='+encodeURIComponent(coVal('nome'))+'&email='+encodeURIComponent(coVal('email'))+'&operatore='+encodeURIComponent(az);up.innerHTML='<a class="btn shine" href="'+u+'" target="_blank" rel="noopener">Carica i documenti →</a><p class="secure">🔒 Caricamento protetto, i file arrivano solo a noi.</p>';}
+ if(window.DEPOSITO_URL){var fn2=document.getElementById('co-fname').textContent;up.innerHTML='<ol class="co-up"><li><b>Rinomina</b> la foto del documento con il tuo nome, es. <i>'+fn2.replace('.pdf','-documento.jpg')+'</i>.</li><li>Apri lo spazio di caricamento sicuro e carica <b>il PDF</b> e <b>il documento</b> (fronte e retro).</li></ol><a class="btn shine" href="'+window.DEPOSITO_URL+'" target="_blank" rel="noopener">Carica i documenti →</a><p class="secure">🔒 Spazio di caricamento protetto (Infomaniak, Svizzera): i file arrivano solo a noi. Problemi con il caricamento? <a href="mailto:info@disdettaabbonamento.it?subject='+encodeURIComponent('Documenti disdetta '+az+' - '+coVal('nome'))+'">Inviali per e-mail</a>.</p>';if(window.goatcounter)goatcounter.count({path:'deposito-aperto',title:'Deposito mostrato',event:true});}
  else{var m='mailto:info@disdettaabbonamento.it?subject='+encodeURIComponent('Documenti disdetta '+az+' - '+coVal('nome'))+'&body='+encodeURIComponent('In allegato il PDF firmato (lettera + delega) e il documento d\'identità fronte e retro.\n\nNome: '+coVal('nome')+'\nOperatore: '+az+'\nE-mail per le ricevute: '+coVal('email'));up.innerHTML='<a class="btn shine" href="'+m+'">Invia i documenti per e-mail →</a><p class="secure">Si apre la tua app di posta: allega il PDF appena scaricato e la foto del documento, poi invia.</p>';}
  document.getElementById('co-3').hidden=false;document.querySelectorAll('.co-steps li')[2].className='on';document.getElementById('co-3').scrollIntoView({behavior:'smooth',block:'start'});
  if(window.goatcounter)goatcounter.count({path:'pdf-firmato',title:'PDF firmato',event:true});}
@@ -427,7 +428,8 @@ PRIVACY_HTML = r'''<h1>Informativa privacy</h1>
 
 
 
-TALLY_URL = ""  # lien du formulaire Tally de dépôt des documents, vide = solution de secours par e-mail
+TALLY_URL = ""  # (non utilisé)
+DEPOSITO_URL = "https://kdrive.infomaniak.com/app/collaborate/3448442/a57dbb0a-6e5e-4c31-bf7b-1f05bdf571e1"  # boîte de dépôt kDrive Infomaniak, dossier « Disdetta - documenti clienti »
 
 COMPLETA_HTML = """<section class="hero small"><span class="pill"><b>✓</b> Pagamento ricevuto</span>
 <h1>Grazie! Completa il tuo ordine <em>in 3 minuti</em></h1>
@@ -705,7 +707,7 @@ def main():
     for p, (t, d, b) in statiche.items():
         write(p, page(f"{t} | {SITE}", d, p, b)); urls.append(p)
     write("/completa-ordine/", page(f"Completa il tuo ordine | {SITE}", "Completa l'ordine di invio della disdetta via PEC.", "/completa-ordine/",
-          COMPLETA_HTML + f'<script>window.TALLY_URL={json.dumps(TALLY_URL)};</script>', noindex=True,
+          COMPLETA_HTML + f'<script>window.DEPOSITO_URL={json.dumps(DEPOSITO_URL)};</script>', noindex=True,
           extra_head='<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>'))
     open(os.path.join(OUT, "style.css"), "w").write(CSS)
     open(os.path.join(OUT, "app.js"), "w").write(JS)
