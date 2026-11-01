@@ -1,0 +1,214 @@
+[
+  {
+    "nome": "Monte dei Paschi di Siena (MPS)",
+    "slug": "monte-dei-paschi-di-siena-mps",
+    "categoria": "altri-servizi",
+    "pec": "",
+    "indirizzo_postale": "Filiale MPS presso cui è tenuto il conto (indicata nel contratto). Sede legale: Banca Monte dei Paschi di Siena S.p.A., Piazza Salimbeni 3, 53100 Siena",
+    "canali": [
+      "filiale",
+      "raccomandata A/R alla filiale del conto"
+    ],
+    "preavviso": "Il foglio informativo (aggiornato al 20 aprile 2026) non fissa un preavviso minimo per il cliente: il recesso si esercita in ogni momento con comunicazione scritta alla filiale. Il cliente può indicare un preavviso diverso. La banca, invece, recede con 2 mesi.",
+    "costi": "Recesso senza penalità e senza spese di chiusura (art. 120-bis TUB). Resta da regolare quanto dovuto per capitale, interessi, commissioni e spese. Il recesso chiude anche convenzione assegni, carte collegate e servizi del contratto.",
+    "modulo": "",
+    "note": "Nessuna PEC dedicata al recesso trovata nei documenti ufficiali: l'indirizzo customercare@postacert.gruppo.mps.it è riservato ai reclami e non va usato per chiudere il conto. Inviare una raccomandata A/R alla filiale del conto, con IBAN, dati dei titolari e copia del documento. Tempo massimo di chiusura: 12 giorni solari dalla ricezione se non ci sono servizi o prodotti collegati (altrimenti i tempi sono più lunghi).",
+    "fonti": [
+      "https://www.gruppo.mps.it/ap_trasparenzaweb/Documenti/103054528.pdf",
+      "https://www.mps.it/informazioni-intermediario.html"
+    ],
+    "affidabilita": "parziale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Credem",
+    "slug": "credem",
+    "categoria": "altri-servizi",
+    "pec": "estinzioneconticredem@pec.gruppocredem.it",
+    "indirizzo_postale": "Credito Emiliano S.p.A., Via Emilia San Pietro 4, 42121 Reggio Emilia (per il recesso di 14 giorni). Per la chiusura ordinaria: raccomandata A/R all'indirizzo della propria filiale",
+    "canali": [
+      "filiale",
+      "raccomandata A/R alla filiale",
+      "PEC con modulo dedicato",
+      "portabilità tramite la nuova banca (solo consumatori)"
+    ],
+    "preavviso": "La guida ufficiale non indica un preavviso minimo per il cliente. Per i consumatori che hanno aperto il conto a distanza o fuori sede: recesso entro 14 giorni dalla conclusione del contratto. La chiusura in data futura è possibile solo con la portabilità.",
+    "costi": "Recesso dal conto senza penalità e senza spese di chiusura (art. 120-bis TUB). Fino alla chiusura possono restare dovuti canoni e commissioni dei servizi ancora attivi.",
+    "modulo": "https://www.credem.it/content/dam/credem/documenti/Trasparenza/guide/guida-estinzione-conto-corrente.pdf",
+    "note": "Via PEC: indicare nell'oggetto IBAN e intestazione del conto, allegare il modulo (privati o persone giuridiche) firmato da tutti gli intestatari e le copie fronte e retro dei documenti di identità. Tutti i cointestatari devono firmare. Per un conto caduto in successione la PEC non è ammessa. Prima della chiusura restituire o distruggere le carte, revocare domiciliazioni e svuotare cassette di sicurezza o deposito titoli.",
+    "fonti": [
+      "https://www.credem.it/content/dam/credem/documenti/Trasparenza/guide/guida-estinzione-conto-corrente.pdf"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Banca Sella",
+    "slug": "banca-sella",
+    "categoria": "altri-servizi",
+    "pec": "clienti@pec.sella.it",
+    "indirizzo_postale": "Filiale di riferimento del conto (raccomandata A/R). Sede: Banca Sella S.p.A., Piazza Gaudenzio Sella 1, 13900 Biella",
+    "canali": [
+      "filiale",
+      "PEC con modulo dedicato",
+      "raccomandata A/R alla filiale di riferimento"
+    ],
+    "preavviso": "La pagina assistenza ufficiale non indica un preavviso minimo per il cliente. Se non si può andare in filiale, si compila il modulo «Richiesta estinzione - chiusura conto/deposito» e lo si invia via PEC o per raccomandata A/R.",
+    "costi": "Nessun costo di chiusura previsto dalla pagina ufficiale. Per legge il recesso dal conto non comporta penali né spese di chiusura (art. 120-bis TUB).",
+    "modulo": "https://leasing.sella.it/SSRDisplayerI?docCode=BSE_CHIUSURA_CONTO",
+    "note": "Inviare la PEC da una propria casella certificata, con il modulo compilato e firmato e il documento di identità. Prima di chiedere la chiusura verificare i servizi attivi (carte, Telepass, deposito titoli, finanziamenti) e sentire prima la filiale. L'indirizzo reclami@pec.sella.it è solo per i reclami.",
+    "fonti": [
+      "https://www.sella.it/web/helpcenter/conti/chiusura-del-conto",
+      "https://www.sella.it/banca-on-line/reclami-arbitrati"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Webank",
+    "slug": "webank",
+    "categoria": "altri-servizi",
+    "pec": "",
+    "indirizzo_postale": "Webank - Banco BPM S.p.A., Via Massaua 4, 20146 Milano",
+    "canali": [
+      "raccomandata A/R",
+      "filiale Banco BPM",
+      "fax (solo se non vanno restituiti assegni o carte)"
+    ],
+    "preavviso": "Recesso in qualsiasi momento con comunicazione scritta alla banca. Il cliente può indicare un preavviso diverso per ordini e assegni già emessi. La banca recede con 2 mesi di preavviso.",
+    "costi": "Nessun addebito di spese, oneri o penalità per la chiusura del conto (art. 120-bis TUB). Il saldo viene trasferito sul conto indicato.",
+    "modulo": "https://www.webank.it/doc/moduli/WB_modulo_estinzione_conto.pdf",
+    "note": "Nessuna PEC dedicata al recesso trovata nei documenti ufficiali: reclami@pec.bancobpmspa.it è riservata ai reclami. Il modulo prevede un fax (0458217262) solo se non si devono restituire strumenti di pagamento; con libretto assegni o carte, inviare l'originale per posta. Indicare IBAN del nuovo conto per il trasferimento del saldo e dell'eventuale deposito titoli.",
+    "fonti": [
+      "https://www.webank.it/webankpub/common/apriDocumento.do?id=67",
+      "https://www.webank.it/doc/moduli/WB_modulo_estinzione_conto.pdf"
+    ],
+    "affidabilita": "parziale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "CheBanca!",
+    "slug": "chebanca",
+    "categoria": "altri-servizi",
+    "pec": "chebanca.pec@legalmail.it",
+    "indirizzo_postale": "CheBanca!, Casella postale 193, 14100 Asti",
+    "canali": [
+      "filiale",
+      "form mail in Area Clienti",
+      "PEC con modulo dedicato",
+      "posta ordinaria o raccomandata"
+    ],
+    "preavviso": "Nessun preavviso per il cliente: il recesso ha effetto dal momento in cui CheBanca! riceve la comunicazione. I tempi massimi di chiusura sono indicati nelle condizioni generali di contratto.",
+    "costi": "La chiusura del conto è completamente gratuita. Eventuali canoni mensili non sono più dovuti dal mese successivo. In caso di fido, vanno saldati capitale, interessi, spese e commissioni.",
+    "modulo": "https://www.mediobancapremier.com/wcm/connect/public/ef7b7a10-7bbf-431d-9033-c88ab81471ec/Modulo_Estinzione.pdf?MOD=AJPERES",
+    "note": "La PEC va inviata da un recapito elettronico di uno degli intestatari censito nella sezione Contatti, con il modulo compilato e firmato (o tutte le informazioni richieste). Basta un solo intestatario per chiudere un conto cointestato. Chiudere il conto chiude anche i conti titoli collegati. Il sito è ora Mediobanca Premier: verificare che l'indirizzo non sia cambiato prima dell'invio.",
+    "fonti": [
+      "https://www.mediobancapremier.com/wcm/connect/public/ef7b7a10-7bbf-431d-9033-c88ab81471ec/Modulo_Estinzione.pdf?MOD=AJPERES"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Findomestic",
+    "slug": "findomestic",
+    "categoria": "altri-servizi",
+    "pec": "findomestic_banca_pec@findomesticbanca.telecompost.it",
+    "indirizzo_postale": "Findomestic Banca S.p.A., Gestione Recesso, Viale della Toscana 24, 50127 Firenze",
+    "canali": [
+      "PEC",
+      "raccomandata A/R"
+    ],
+    "preavviso": "Recesso dal finanziamento senza penali entro 14 giorni dalla conclusione del contratto. Per l'estinzione anticipata dopo i 14 giorni la richiesta è separata (gestionecontratti@findomestic.com o posta a Viale della Toscana 24, 50127 Firenze).",
+    "costi": "Nessuna penale per il recesso nei 14 giorni. Restano da restituire il capitale e gli interessi maturati fino al rimborso. Per l'estinzione anticipata valgono le condizioni del contratto.",
+    "modulo": "",
+    "note": "Inviare una richiesta scritta e firmata che dichiari la volontà di recedere dal finanziamento, con copia fronte e retro del documento di identità. Per un acquisto finanziato avvisare anche il venditore e concordare la restituzione del bene. Le pagine ufficiali per le cessioni del quinto e il leasing hanno procedure separate.",
+    "fonti": [
+      "https://www.findomestic.it/supporto/argomenti-utili/prestito-personale/fare-il-recesso-dal-contratto-di-credito"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Agos",
+    "slug": "agos",
+    "categoria": "altri-servizi",
+    "pec": "info@pec.agosducato.it",
+    "indirizzo_postale": "Agos Ducato S.p.A., Viale Fulvio Testi 280, 20126 Milano",
+    "canali": [
+      "PEC",
+      "e-mail ordinaria (clienti@agosducato.it)",
+      "raccomandata A/R"
+    ],
+    "preavviso": "Recesso entro la scadenza della 1ª rata per i prodotti senza pre-ammortamento, oppure entro 30 giorni dalla conferma scritta per i prodotti con pre-ammortamento.",
+    "costi": "Entro 30 giorni dall'invio del recesso occorre restituire il capitale e gli interessi maturati fino alla restituzione, più il bollo sul contratto (attualmente 16,00 euro). Il recesso si estende agli eventuali servizi accessori.",
+    "modulo": "",
+    "note": "Il recesso vale per i prestiti e finanziamenti Agos nei termini indicati sopra. Conservare la ricevuta di invio. L'estinzione anticipata dopo questi termini segue le condizioni del contratto: verificare le istruzioni nel contratto o nell'area clienti.",
+    "fonti": [
+      "https://www.agos.it/diritto-di-ripensamento-recesso-prestiti-finanziamenti/faq.aspx"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "Compass",
+    "slug": "compass",
+    "categoria": "altri-servizi",
+    "pec": "",
+    "indirizzo_postale": "Compass S.p.A., Casella Postale 1287, 20123 Milano. Sede: Via Caldera 21, 20153 Milano",
+    "canali": [
+      "raccomandata A/R"
+    ],
+    "preavviso": "Recesso senza penali, senza spese e senza motivazione entro 14 giorni dalla conclusione del contratto.",
+    "costi": "Nessuna penale né spesa per il recesso nei 14 giorni. Il contratto può essere eseguito subito su richiesta del cliente: in tal caso restano dovuti capitale e interessi maturati.",
+    "modulo": "https://www.compass.it/share/pdfs/diritto_recesso.pdf",
+    "note": "Nessuna PEC per il recesso trovata nei documenti ufficiali: reclami@pec.compassonline.it è riservata ai reclami. Per l'estinzione anticipata dopo i 14 giorni fare riferimento al proprio contratto o al servizio clienti Compass. Conservare la ricevuta della raccomandata.",
+    "fonti": [
+      "https://www.compass.it/share/pdfs/diritto_recesso.pdf"
+    ],
+    "affidabilita": "parziale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "BBVA Italia",
+    "slug": "bbva-italia",
+    "categoria": "altri-servizi",
+    "pec": "",
+    "indirizzo_postale": "BBVA, Corso Vittorio Emanuele II 9, 20122 Milano (indirizzo dell'ufficio reclami)",
+    "canali": [
+      "servizio clienti telefonico (800 17 26 39)",
+      "area riservata / internet banking"
+    ],
+    "preavviso": "Il cliente comunica il recesso telefonando al servizio clienti o dall'area riservata. Con la procedura automatica di chiusura dall'area riservata, il conto si chiude entro 1 giorno dalla ricezione.",
+    "costi": "La chiusura del conto è gratuita. La banca deve restituire quanto dovuto al cliente.",
+    "modulo": "",
+    "note": "Informazioni ricavate dai documenti legali pubblicati su bbva.it (Conto di Base): le pagine non sono state consultabili direttamente in questa verifica, quindi controllare le condizioni del proprio contratto prima di procedere. Nessuna PEC per il recesso confermata: reclami@pec.bbva.it è solo per i reclami.",
+    "fonti": [
+      "https://www.bbva.it/content/dam/public-web/italia/documents/general/documenti-legali/conto-di-base/conto-di-base.pdf",
+      "https://www.bbva.it/general/reclami.html"
+    ],
+    "affidabilita": "parziale",
+    "data_verifica": "2026-11-01"
+  },
+  {
+    "nome": "illimity",
+    "slug": "illimity",
+    "categoria": "altri-servizi",
+    "pec": "illimity@pec.illimity.com",
+    "indirizzo_postale": "illimity Bank S.p.A., Via Soperga 9, 20127 Milano",
+    "canali": [
+      "modulo digitale in area privata",
+      "e-mail o PEC",
+      "posta ordinaria o raccomandata"
+    ],
+    "preavviso": "Recesso in qualsiasi momento dal contratto a tempo indeterminato, senza penalità e senza spese. Chiusura del conto, salvo ritardi non imputabili alla banca, entro 15 giorni.",
+    "costi": "Nessuna penalità e nessuna spesa di chiusura (art. 120-bis TUB). Con il conto si chiudono anche i contratti di Progetti di spesa e Conto deposito collegati.",
+    "modulo": "https://www.illimity.com/it/diritti-e-prerogative-dei-clienti/recesso",
+    "note": "Canale più rapido: modulo digitale nell'area privata, sezione Supporto > Diritti e prerogative dei clienti > Recesso. In alternativa scaricare il modulo di recesso dalla pagina ufficiale e inviarlo via PEC o per raccomandata, con documento di identità. Il tempo di 15 giorni è riportato dai motori di ricerca sulla pagina ufficiale, la pagina stessa non lo specifica: verificarlo nelle condizioni del conto.",
+    "fonti": [
+      "https://www.illimity.com/it/diritti-e-prerogative-dei-clienti/recesso",
+      "https://www.illimity.com/it/diritti-e-prerogative-dei-clienti/recesso/cos-e-il-diritto-di-recesso"
+    ],
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-01"
+  }
+]

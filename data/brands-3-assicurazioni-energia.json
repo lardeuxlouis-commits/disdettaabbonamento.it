@@ -1,0 +1,68 @@
+[
+ {
+  "nome": "Zurich Italia",
+  "slug": "zurich-italia",
+  "categoria": "assicurazioni",
+  "pec": "",
+  "indirizzo_postale": "Zurich Insurance Company Ltd, Rappresentanza Generale per l'Italia, via Benigno Crespi 23, 20159 Milano",
+  "canali": [
+   "area clienti Zurich One",
+   "raccomandata A/R",
+   "PEC",
+   "e-mail"
+  ],
+  "preavviso": "Dipende dalla polizza: per i contratti annuali con tacito rinnovo la disdetta si invia per lettera raccomandata o PEC entro il termine indicato in polizza (di norma almeno 30 o 60 giorni prima della scadenza, art. 1899 c.c. per le durate pluriennali). L'RC auto non si rinnova tacitamente (Legge 40/2007). Ripensamento entro 14 giorni dalla conclusione del contratto.",
+  "costi": "Nessun costo per la disdetta alla scadenza nei termini. Il recesso entro 14 giorni dà diritto al rimborso del premio al netto di imposte e oneri parafiscali.",
+  "modulo": "https://www.zurich.it/api/archiviodigitale/download?guid=954BDE10-CED4-4EA1-8C14-76E2085729F0&filename=Modulo+recesso+0426.pdf",
+  "note": "Zurich Italia opera con più società e la PEC cambia in base alla compagnia indicata sulla propria polizza. Pubblicate sul sito ufficiale: zurich.insurance.company@pec.zurich.it (Zurich Insurance Company Ltd, indicata sul modulo di recesso) e Zurich.Insurance.Europe@pec.zurich.it (Zurich Insurance Europe AG, pagina assistenza). Controllare quale compagnia compare sul contratto prima di inviare. Il modulo di recesso va inviato a documenti@it.zurich.com. Indicare numero di polizza, contraente, data di scadenza. Non vale per Zurich Connect (scheda separata).",
+  "fonti": [
+   "https://www.zurich.it/assistenza",
+   "https://www.zurich.it/api/archiviodigitale/download?guid=954BDE10-CED4-4EA1-8C14-76E2085729F0&filename=Modulo+recesso+0426.pdf"
+  ],
+  "affidabilita": "parziale",
+  "data_verifica": "2026-11-01"
+ },
+ {
+  "nome": "Servizio Elettrico Nazionale",
+  "slug": "servizio-elettrico-nazionale",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Servizio Elettrico Nazionale S.p.A., Casella Postale 1100, 85100 Potenza (PZ)",
+  "canali": [
+   "area clienti",
+   "raccomandata A/R",
+   "numero verde 800 900 800"
+  ],
+  "preavviso": "Contratto a tempo indeterminato: recesso in qualsiasi momento. Per cambiare fornitore basta firmare con il nuovo venditore, che invia il recesso (nessun preavviso per il cliente). Per cessare la fornitura il preavviso non può superare un mese (delibere ARERA). Ripensamento entro 14 giorni dalla conclusione del contratto.",
+  "costi": "Nessun onere per il cambio fornitore. In caso di disattivazione della fornitura (chiusura o rimozione del contatore) è dovuto il contributo in quota fissa previsto da ARERA e indicato in bolletta.",
+  "modulo": "",
+  "note": "Dal 1 luglio 2024 il servizio di maggior tutela è rimasto solo per i clienti vulnerabili: gli altri sono passati al mercato libero o alle tutele graduali. Nessuna PEC indicata nelle condizioni di fornitura né nella pagina contatti: usare raccomandata A/R, area riservata o numero verde. Indicare codice POD, indirizzo di fornitura e indirizzo dove spedire la bolletta finale, e allegare copia del documento d'identità.",
+  "fonti": [
+   "https://www.servizioelettriconazionale.it/content/dam/sen/sencudn-usodomestico-senza-misura-potenza.pdf",
+   "https://www.servizioelettriconazionale.it/it-IT/contatti.html"
+  ],
+  "affidabilita": "parziale",
+  "data_verifica": "2026-11-01"
+ },
+ {
+  "nome": "Bluenergy",
+  "slug": "bluenergy",
+  "categoria": "energia",
+  "pec": "",
+  "indirizzo_postale": "Bluenergy Group S.p.A., Viale Venezia 430, 33100 Udine (UD)",
+  "canali": [
+   "raccomandata A/R",
+   "e-mail ripensamenti (solo ripensamento)",
+   "fax 0432 632905 (solo ripensamento)"
+  ],
+  "preavviso": "Per cambiare fornitore: recesso inviato dal nuovo venditore entro il giorno 10 del mese precedente il cambio. Per cessare semplicemente la fornitura (disdetta/disattivazione): preavviso di 1 mese dalla ricezione della comunicazione da parte di Bluenergy, inviata dal cliente con raccomandata con ricevuta di ritorno. Ripensamento entro 14 giorni (30 giorni per contratti conclusi a domicilio).",
+  "costi": "Onere di recesso anticipato: nessuno, secondo la scheda sintetica dell'offerta. Per la disattivazione possono essere addebitati i costi del distributore.",
+  "modulo": "",
+  "note": "Il PEC pubblicato nei documenti ufficiali (infoereclami.bluenergy@legalmail.it) è riservato a reclami e richieste di informazioni, non al recesso, quindi non è indicato come PEC di disdetta. Il ripensamento si invia a ripensamenti@bluenergygroup.it. Indicare codice POD (luce) o PDR (gas), indirizzo di fornitura, dati dell'intestatario e allegare copia del documento d'identità. Verificare le condizioni della propria offerta.",
+  "fonti": [
+   "https://www.bluenergygroup.it/wp-content/uploads/2025/10/ESUMO0526L.pdf"
+  ],
+  "affidabilita": "parziale",
+  "data_verifica": "2026-11-01"
+ }
+]
