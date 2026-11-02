@@ -34,7 +34,7 @@ function genLettera(){
   t+='I dati personali contenuti nella presente sono comunicati al solo fine di dare esecuzione al recesso, ai sensi del Regolamento (UE) 2016/679.\n\n';
   t+='Si allega copia di un documento di identità in corso di validità.\n\nDistinti saluti.\n\n'+nome+'\n\n____________________\n(firma)';
   const el=document.getElementById('lettera'); el.textContent=t; el.style.display='block';
-  document.getElementById('azioni').style.display='block'; el.scrollIntoView({behavior:'smooth',block:'start'});
+  document.getElementById('azioni').style.display='block'; el.scrollIntoView({behavior:'smooth',block:'start'});if(typeof upsell==='function')setTimeout(upsell,700);
   return false;
 }
 function calcScad(f,gg){try{var v=f.d.value;if(!v)return false;var sc=new Date(v+'T12:00:00');var lim=new Date(sc);lim.setDate(lim.getDate()-gg);var oggi=new Date();oggi.setHours(12,0,0,0);var diff=Math.round((lim-oggi)/86400000);var fmt=function(d){return d.toLocaleDateString('it-IT',{day:'numeric',month:'long',year:'numeric'})};var o=f.querySelector('.dlout');
