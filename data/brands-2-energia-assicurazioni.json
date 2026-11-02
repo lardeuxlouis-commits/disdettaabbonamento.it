@@ -383,13 +383,13 @@
   "preavviso": "Almeno 30 giorni prima della scadenza, altrimenti la polizza si rinnova tacitamente.",
   "costi": "Nessun costo per la disdetta alla scadenza.",
   "modulo": "",
-  "note": "RC auto: nessun tacito rinnovo dal DL 179/2012, non serve disdetta. Il set informativo indica la disdetta per lettera raccomandata; la PEC groupama@legalmail.it è la PEC societaria indicata nell'intestazione dei documenti contrattuali e nel footer del sito, utilizzabile come equivalente della raccomandata. Reclami: reclami@groupama.it. La PEC generale della compagnia è groupama@legalmail.it, ma i documenti indicano la raccomandata A/R per la disdetta.",
+  "note": "RC auto: nessun tacito rinnovo dal DL 179/2012, non serve disdetta. Il set informativo consultato (Guida Sicura, edizione 2019) indica la disdetta per lettera raccomandata. La PEC societaria groupama@legalmail.it, indicata nell'intestazione dei documenti e nel sito, ha comunque per legge lo stesso valore della raccomandata con ricevuta di ritorno (art. 48 del Codice dell'amministrazione digitale). Reclami: reclami@groupama.it.",
   "fonti": [
    "https://cdn.groupama.it/app/uploads/2021/09/Set-Informativo-Guida-Sicura.pdf",
    "https://www.groupama.it/contatti"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-02"
  },
  {
   "nome": "Sara Assicurazioni",

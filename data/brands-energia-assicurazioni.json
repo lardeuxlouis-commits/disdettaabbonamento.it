@@ -255,14 +255,14 @@
   "preavviso": "Auto: nessuna disdetta (nessun tacito rinnovo). Casa e famiglia: disdetta almeno 15 giorni prima della scadenza via e-mail semplice o PEC",
   "costi": "Nessuno indicato; in caso di recesso rimborso del premio non goduto al netto di imposte e contributo SSN",
   "modulo": "",
-  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). Prima è un'agenzia che distribuisce polizze di Great Lakes Insurance SE, Triglav e iptiQ. Nessuna PEC pubblicata per disdette: l'unica PEC nei set informativi (sinistri.prima@pec.it) è riservata alle denunce di sinistro.",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). Prima è un'agenzia: l'assicuratore cambia secondo il prodotto (per Casa e Famiglia, set informativo 10/2026, è Matinium Assurances, gruppo AXA; per altri prodotti Great Lakes Insurance SE, Triglav o iptiQ). Controlla il nome della compagnia sul tuo contratto. Nessuna PEC pubblicata per disdette: l'unica PEC nei set informativi (sinistri.prima@pec.it) è riservata alle denunce di sinistro.",
   "fonti": [
    "https://www.prima.it/set-informativi",
    "https://www.prima.it/downloads/car/great_lakes/information_package",
    "https://www.prima.it/downloads/casa/great_lakes/casa_v2/information_package"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-02"
  },
  {
   "nome": "Genertel",
@@ -384,7 +384,7 @@
   "preavviso": "Polizze con tacito rinnovo: disdetta almeno 30 giorni prima della scadenza annuale (DIP aggiuntivi Unipol); verificare il proprio contratto",
   "costi": "Nessuno indicato",
   "modulo": "",
-  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). Dal 31/12/2024 UnipolSai Assicurazioni è confluita in Unipol Assicurazioni S.p.A.: la vecchia PEC unipolsaiassicurazioni@pec.unipol.it compare ancora nei documenti più vecchi. La PEC attuale e l'ammissione della PEC per la disdetta risultano dai DIP Unipol (es. Protezione Impresa All Risks); per polizze vecchie UnipolSai alcuni DIP citano solo raccomandata o fax.",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). Dal 31/12/2024 UnipolSai Assicurazioni è confluita in Unipol Assicurazioni S.p.A.: la vecchia PEC unipolsaiassicurazioni@pec.unipol.it compare ancora nei documenti più vecchi. La PEC attuale e l'ammissione della PEC per la disdetta risultano dai DIP Unipol (es. Protezione Impresa All Risks); altri set (Incendio Rischi Ordinari, Furto) citano solo raccomandata o fax. La PEC resta valida: per legge equivale alla raccomandata con ricevuta di ritorno (art. 48 del Codice dell'amministrazione digitale).",
   "fonti": [
    "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/e46169a8-a790-4368-8aa0-4d8a2d1361f4",
    "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/bd6e0f75-c3a9-4d7d-8489-7fc19e1599ff",
@@ -392,7 +392,7 @@
    "https://unipol.it/api/pub/ueba/download/doc/v1/fascicoli/1ff1ed94-36ba-433e-9d64-43a708620a22"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-02"
  },
  {
   "nome": "Generali Italia",
