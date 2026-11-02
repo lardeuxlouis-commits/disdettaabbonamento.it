@@ -1,0 +1,66 @@
+{
+ "generali-italia": {
+  "testo": "Nella polizza Immagina Adesso Casa ogni garanzia ha la sua scadenza. Se è previsto il tacito rinnovo, la disdetta va inviata almeno 30 giorni prima della data indicata in polizza. Se nella lettera non scrivi quali garanzie vuoi chiudere, vale per tutte quelle attivate. Pronto Avvocato non si può disdire da solo, mentre Prevenzione e Assistenza Casa cessano insieme alle altre garanzie del modulo. Il recesso entro 14 giorni vale solo per contratti conclusi a distanza.",
+  "fonti": [
+   "https://www.generali.it/cmsassets/site/9aa964a7-9172-441d-ad63-314b627836e9/ORI_Immagina_Adesso_CASA_ed._28.06.2025_agg._01.10.2026.pdf"
+  ]
+ },
+ "cattolica-assicurazioni": {
+  "testo": "Per le polizze Active Protezione il contratto è con Generali Italia, anche se il marchio è Cattolica. Almeno 30 giorni prima della scadenza Generali propone il rinnovo con le nuove condizioni: se paghi entro 30 giorni dalla scadenza le accetti, se non paghi le garanzie cessano. Per impedire la proroga serve comunque la disdetta, da inviare almeno 30 giorni prima, anche per singole garanzie. Se non indichi quali, vale per tutte. Il recesso di 14 giorni è un'altra cosa e riguarda solo i contratti conclusi a distanza.",
+  "fonti": [
+   "https://www.generali.it/cmsassets/site/d00d333c-12c5-4b45-a36c-97bc7edb754b/Set_Informativo_Active_Protezione_Norme_Comuni.pdf"
+  ]
+ },
+ "nexi-carta": {
+  "testo": "Per la carta di credito Nexi non esiste una disdetta con preavviso: puoi recedere in qualsiasi momento, senza penali e senza spese, con raccomandata A/R a Nexi Payments. Il recesso vale dal momento in cui Nexi lo riceve e la chiusura richiede al massimo 45 giorni. Quanto devi a Nexi va pagato in un'unica soluzione entro 30 giorni dall'efficacia del recesso. La carta va tagliata in due, altrimenti Nexi la blocca. Entro 14 giorni dalla richiesta, per carte chieste a distanza, c'è anche il recesso online nell'App Nexi Pay.",
+  "fonti": [
+   "https://www.nexi.it/content/dam/nexi/download/trasparenza/carte-pagamento/consumer-carte-di-credito/id-carte-credito-privati-fi-nexi.pdf"
+  ]
+ },
+ "axa-italia": {
+  "testo": "Nuova Protezione Casa è annuale con tacito rinnovo: la disdetta, per raccomandata o PEC ad AXA, va inviata almeno 30 giorni prima della scadenza annuale. Il recesso è un'altra cosa. Vale 14 giorni dal pagamento solo se hai comprato la polizza online, e per i contratti legati a un mutuo o a un finanziamento sale a 60 giorni dalla conclusione. Il modulo di recesso di AXA chiede il numero di polizza e le coordinate bancarie per il rimborso, tra cui l'IBAN.",
+  "fonti": [
+   "https://www.axa.it/c/document_library/get_file?uuid=ad5a823a-7c11-37fb-f75b-dada2d607566&groupId=715551",
+   "https://www.axa.it/c/document_library/get_file?uuid=b3793046-7c97-28d5-a52c-e228c6a5275d&groupId=715551"
+  ]
+ },
+ "groupama-assicurazioni": {
+  "testo": "Nel set informativo di Guida Sicura, la polizza infortuni legata alla circolazione stradale, la disdetta si fa per lettera raccomandata spedita almeno 30 giorni prima della scadenza. Se la spedisci più tardi, il contratto si proroga di un anno. Se vendi l'auto indicata in polizza senza sostituirla, devi avvisare Groupama con raccomandata A/R e il contratto si estingue dalla vendita. Groupama però ha diritto al premio dell'annualità in corso.",
+  "fonti": [
+   "https://cdn.groupama.it/app/uploads/2021/09/Set-Informativo-Guida-Sicura.pdf"
+  ]
+ },
+ "unipol": {
+  "testo": "Con Unipol dipende dal prodotto. Unipol Protezione Impresa All Risks non ha tacita proroga e scade da sola, salvo le polizze vincolate a una banca o a un finanziatore, dove serve disdetta di 30 giorni per raccomandata, fax o PEC. Nei set Incendio Rischi Ordinari e Furto il tacito rinnovo è previsto e le condizioni parlano di raccomandata o telefax spedita 30 giorni prima, senza citare la PEC. La PEC resta comunque valida: per legge equivale alla raccomandata con ricevuta di ritorno (art. 48 del Codice dell'amministrazione digitale).",
+  "fonti": [
+   "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/bd6e0f75-c3a9-4d7d-8489-7fc19e1599ff",
+   "https://www.unipol.it/api/pub/ueba/download/doc/v1/fascicoli/0e67aa15-7c1f-4575-9bf5-cd358c30bbbf",
+   "https://unipol.it/api/pub/ueba/download/doc/v1/fascicoli/1ff1ed94-36ba-433e-9d64-43a708620a22"
+  ]
+ },
+ "bper-banca": {
+  "testo": "Per chiudere il conto BPER non esiste un preavviso: serve il modulo di recesso della Guida pratica, da consegnare in filiale o inviare alla filiale in cui il conto è acceso, per posta o raccomandata A/R. La normale e-mail non è ammessa, mentre la PEC sì. Nel modulo vanno indicate le istruzioni per i servizi collegati, come carte e bonifici ricorrenti. Se non le dai, dopo 12 giornate operative la banca li gestisce d'ufficio. Senza servizi collegati la chiusura richiede 5 giornate operative.",
+  "fonti": [
+   "https://www.bper.it/nuovatrasparenza/ParteGenerale/GUIDA%20EST%20CC%20BPER_DEF.pdf"
+  ]
+ },
+ "allianz-italia": {
+  "testo": "Per la polizza Allianz Ultra Casa e Patrimonio la disdetta si invia con lettera raccomandata almeno 15 giorni prima della scadenza indicata nella Scheda tecnica. Il tacito rinnovo si può escludere per contratto: in quel caso la copertura finisce da sola e non serve alcuna lettera. Se paghi con addebito su conto o carta, inviare la disdetta comporta la revoca dell'addebito da parte di Allianz. Dopo un sinistro, solo se sei consumatore, puoi recedere con 30 giorni di preavviso fino al 60° giorno dal pagamento o dal rifiuto dell'indennizzo.",
+  "fonti": [
+   "https://www.allianz.it/content/dam/onemarketing/azit/allianz-it/le-soluzioni-per-te/casa-e-patrimonio/set-informativo-responsabilita-civile-casa-allianz-ultra-casa-patrimonio-edizione-2022.pdf"
+  ]
+ },
+ "intesa-sanpaolo-protezione": {
+  "testo": "Nella polizza XME Protezione la disdetta della polizza intera si fa almeno 30 giorni prima della scadenza annuale, per raccomandata A/R, per PEC o con il modulo firmato in filiale. Chiudere solo uno o più moduli invece si chiede soltanto in filiale, e solo se sono attivi da almeno 6 mesi. Il tacito rinnovo vale se hai ancora un conto presso Intesa Sanpaolo. Per il recesso di 14 giorni, nella lettera va indicato il numero di polizza.",
+  "fonti": [
+   "https://www.intesasanpaoloprotezione.com/bin/openAssetInline?path=%2Fcontent%2Fdam%2Fisp_protezione%2Fdocuments%2Fproducts%2Fpersone%2Fxme-protezione%2FIspp-Xme-CdA-Unico-2026.pdf"
+  ]
+ },
+ "prima-assicurazioni": {
+  "testo": "Con Prima conta il prodotto. L'RC auto non ha tacito rinnovo e non richiede disdetta. Nel set Casa e Famiglia il contratto si rinnova e puoi disdire con e-mail semplice o PEC almeno 15 giorni prima della scadenza. Se la polizza è vincolata a un terzo, come una banca, servono invece raccomandata A/R o PEC e il consenso scritto del vincolatario. Il rinnovo con condizioni peggiorative si evita anche semplicemente non pagando il nuovo premio.",
+  "fonti": [
+   "https://www.prima.it/global-fe-media/set-informativo-casa-e-famiglia.pdf",
+   "https://www.prima.it/downloads/car/great_lakes/information_package"
+  ]
+ }
+}

@@ -6,6 +6,8 @@ Uso : python3 _build/build.py
 import json, glob, os, html, re, shutil, sys, datetime as dt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from guide import GUIDE
+_ap = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "approfondimenti.json")
+APPROF = json.load(open(_ap, encoding="utf-8")) if os.path.exists(_ap) else {}
 
 def seal(txt="RICEVUTA LEGALE • PEC CERTIFICATA • "):
     return ('<div class="seal" aria-hidden="true"><svg viewBox="0 0 120 120"><defs><path id="sc" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>'
@@ -551,6 +553,9 @@ def brand_page(b, peers):
     if lettera and gg:
         body += f'<div class="urg rv"><span class="ic">⏰</span><span><b>Se invii oggi, il contratto termina il <span id="scad" data-giorni="{gg.group(1)}">…</span></b><p>Con {gg.group(1)} giorni di preavviso ogni giorno di attesa sposta la fine del contratto. Aspettare una settimana vuol dire pagare fino al <span id="scad2">…</span>, spesso un mese in più.</p><form class="dl" onsubmit="return calcScad(this,{gg.group(1)})"><label for="dl-{sl}">Hai una scadenza precisa? Inserisci la data di scadenza o di rinnovo del contratto</label><div class="dlrow"><input type="date" id="dl-{sl}" name="d" required><button class="btn sec" type="submit">Calcola</button></div><p class="dlout" aria-live="polite"></p></form></span><div class="urgbtns"><a class="btn" href="#lettera-disdetta">Disdici ora →</a><a class="btn sec" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a></div></div>'
 
+    ap = APPROF.get(b["slug"])
+    if ap and ap.get("testo"):
+        body += f'<h2>Cosa sapere su {E(n)}</h2><p class="approf">{E(ap["testo"])}</p>'
     if b.get("note"):
         body += f'<div class="note"><strong>Da sapere.</strong> {E(b["note"])}</div>'
     if lettera:
@@ -593,7 +598,7 @@ def brand_page(b, peers):
             card(p) for p in peers) + "</div>"
     host = lambda u: re.sub(r"^https?://(www\.)?", "", u).split("/")[0]
     _seen = {}
-    for u in b.get("fonti", []):
+    for u in b.get("fonti", []) + APPROF.get(b["slug"], {}).get("fonti", []):
         _seen.setdefault(host(u), u)
     fonti = " · ".join(f'<a href="{E(u)}" rel="nofollow noopener" target="_blank">{E(h)}</a>' for h, u in _seen.items())
     body += f'<div class="why"><span>🛡️</span><span><b>Perché fidarsi di questa scheda</b>Indirizzi e condizioni sono presi dai documenti {"ufficiali di " + E(n) if uff else "pubblicati"} e verificati il {verif}. Fonti: {fonti}. Le condizioni possono cambiare: in caso di dubbio fa fede il tuo contratto.</span></div>'
