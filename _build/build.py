@@ -6,6 +6,7 @@ Uso : python3 _build/build.py
 import json, glob, os, html, re, shutil, sys, datetime as dt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from guide import GUIDE as _GUIDE_TUTTE
+import modelli as MOD
 _ap = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "approfondimenti.json")
 APPROF = json.load(open(_ap, encoding="utf-8")) if os.path.exists(_ap) else {}
 
@@ -85,6 +86,7 @@ CSS = """.inbreve{background:#fff;border:1px solid #e3e3df;border-left:4px solid
 .co-prev{margin:0 0 16px}.co-prev pre{white-space:pre-wrap;font:14px/1.5 inherit;background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px;margin:10px 0}.co-err{color:#b42318;font-weight:600}.co-list{font-size:16px;line-height:1.8;padding-left:4px;list-style:none}.co-up{font-size:15px;line-height:1.6;padding-left:20px;margin:6px 0 14px}.co-up i{font-style:normal;background:var(--soft);padding:1px 6px;border-radius:6px;word-break:break-all}
 .co-after{font-size:14.5px;color:var(--muted);margin-top:14px}
 .trustbar{background:#0f1b33;color:#fff;font-size:13.5px;overflow:hidden;white-space:nowrap;line-height:34px;height:34px}.tb-track{display:inline-flex;animation:tbscroll 45s linear infinite;will-change:transform}.tb-track span{flex:none;padding-right:44px}.trustbar:hover .tb-track{animation-play-state:paused}@keyframes tbscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}@media (prefers-reduced-motion:reduce){.tb-track{animation:none}}.pricechart{margin:28px 0 8px;padding:22px 22px 18px;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(180deg,#fff,var(--soft));box-shadow:var(--shadow)}.pc-head h2{margin:0 0 4px}.pc-head p{margin:0 0 16px;color:var(--muted)}.pc-row{display:grid;grid-template-columns:minmax(180px,34%) 1fr;gap:14px;align-items:center;margin:12px 0}.pc-lab b{display:block;font-size:15px}.pc-lab small{color:var(--muted);font-size:13px}.pc-bar{position:relative;height:34px;background:var(--line);border-radius:10px;overflow:hidden}.pc-bar span{position:absolute;inset:0 auto 0 0;width:var(--w);border-radius:10px;background:#9aa6bd;transform-origin:left;transform:scaleX(0);transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}.pricechart.in .pc-bar span{transform:scaleX(1)}.pricechart.in .pc-row:nth-of-type(2) .pc-bar span{transition-delay:0.15s}.pricechart.in .pc-row:nth-of-type(3) .pc-bar span{transition-delay:0.30s}.pricechart.in .pc-row:nth-of-type(4) .pc-bar span{transition-delay:0.45s}.pricechart.in .pc-row:nth-of-type(5) .pc-bar span{transition-delay:0.60s}.pricechart.in .pc-row:nth-of-type(6) .pc-bar span{transition-delay:0.75s}.pricechart.in .pc-row:nth-of-type(7) .pc-bar span{transition-delay:0.90s}.pc-row.acc .pc-bar span::after{content:"";position:absolute;inset:0;border-radius:10px;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.45) 50%,transparent 70%);background-size:220% 100%;animation:pcshine 2.8s ease-in-out 1.6s infinite}@keyframes pcshine{0%{background-position:120% 0}60%,100%{background-position:-120% 0}}.pc-bar em{opacity:0;transition:opacity .4s ease .9s}.pricechart.in .pc-bar em{opacity:1}.pc-badge{display:inline-block;margin-left:8px;padding:2px 8px;border-radius:999px;background:#e8fff1;color:#0b7a4f;font-size:12px;font-weight:700;vertical-align:middle;transform:scale(.6);opacity:0;transition:transform .45s cubic-bezier(.3,1.6,.5,1) 1.4s,opacity .3s ease 1.4s}.pricechart.in .pc-badge{transform:scale(1);opacity:1}.pc-row.acc .pc-bar span{background:linear-gradient(90deg,var(--accent),#4f86ff)}.pc-bar em{position:absolute;left:12px;top:50%;transform:translateY(-50%);font-style:normal;font-weight:700;color:#fff;font-size:14.5px}.pc-row.acc .pc-lab b{color:var(--accent-d)}.pc-note{margin:14px 0 0;font-size:14px;color:var(--muted)}@keyframes pcgrow{from{transform:scaleX(0)}to{transform:scaleX(1)}}@media (max-width:640px){.pc-row{grid-template-columns:1fr;gap:6px}}@media (prefers-reduced-motion:reduce){.pc-bar span{transition:none;transform:none}.pc-bar em,.pc-badge{transition:none;opacity:1;transform:none}.pc-row.acc .pc-bar span::after{animation:none}}.founder{display:flex;gap:16px;align-items:center;margin:14px 0 18px}.founder img{border-radius:12px;object-fit:cover;flex:none}.founder b{display:block;font-size:17px}.founder span{display:block;color:var(--muted);font-size:14.5px}.founder p{margin:8px 0 0}.founder.mini{margin:14px 0 0;padding-top:12px;border-top:1px solid var(--line)}.founder.mini img{border-radius:50%;width:48px;height:48px}.founder.mini b{font-size:15px}.upsell .legale{margin:10px 0 4px;font-size:14px;color:var(--muted)}.upsell .legale b.inl{display:inline;font-size:inherit;margin:0;color:var(--fg)}.upsell .urgente{margin:12px 0 4px;font-size:14.5px;font-weight:600;color:#8a4b00}.upsell .passi{margin:8px 0 12px 18px;padding:0;font-size:14.5px}.upsell .passi li{margin:2px 0}.upsell{margin-top:18px;border:2px solid var(--accent);border-radius:16px;padding:18px 20px;background:#fff;transform:translateY(10px);opacity:0;transition:transform .4s cubic-bezier(.2,.7,.2,1),opacity .4s ease}.upsell.in{transform:none;opacity:1}.upsell b{display:block;font-size:19px;margin-bottom:10px}.upsell table{width:100%;border-collapse:collapse;font-size:14.5px;margin-bottom:14px}.upsell th,.upsell td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}.upsell th:last-child,.upsell td:last-child{color:var(--ok);font-weight:600}.upsell td:first-child{color:var(--muted);width:28%}.upsell .btn{width:100%;justify-content:center;margin:0}.scelta{margin:14px 0 22px}.sc-q{margin:0 0 12px;font-size:15.5px}.sc-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:14px}.sc{position:relative;border:1px solid var(--line);border-radius:16px;padding:18px;background:#fff;display:flex;flex-direction:column;gap:8px}.sc.pro{border:2px solid var(--accent);box-shadow:var(--shadow)}.sc h3{margin:0;font-size:17px}.sc .price{font-size:24px;font-weight:800}.sc .price small{font-size:13px;font-weight:500;color:var(--muted)}.sc ul{list-style:none;margin:0;padding:0;font-size:14.5px;display:grid;gap:5px;flex:1;align-content:start}.sc .btn{justify-content:center;margin:4px 0 0}.sc small{color:var(--muted);font-size:12.5px;text-align:center}.sc .tag{align-self:flex-start;background:var(--accent);color:#fff;font-size:12px;font-weight:700;padding:3px 9px;border-radius:999px}@media (max-width:640px){.sc-grid{grid-template-columns:1fr}}
+.modulo .mod-btns{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 10px}.modulo .mod-btns .btn{margin:0}.modulo p{margin:0 0 8px}
 .proof{margin:12px 0 0;font-size:14.5px;color:var(--muted)}.proof b{color:var(--fg)}
 .after{margin:14px 0 0;padding:0 0 0 20px;font-size:14px;color:var(--muted);line-height:1.5}.after li{margin:4px 0}.after b{color:var(--fg)}
 .ctabar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:22px 0}.ctabar>span:first-child{flex:1;min-width:220px;font-size:15px;color:var(--muted);line-height:1.5}.ctabar b{color:var(--fg)}.ctabar .btn{margin:0;flex:none}.ctabar .ctab{display:flex;gap:8px;flex-wrap:wrap}.ctabar.alt{background:linear-gradient(120deg,#eef3ff,#f7f9ff);border-color:#c9d8ff}
@@ -287,6 +289,7 @@ function calcScad(f,gg){try{var v=f.d.value;if(!v)return false;var sc=new Date(v
 (function(){var el=document.querySelector('[data-proof]');if(!el||!window.fetch)return;var slug=el.dataset.proof;var base='https://disdetta.goatcounter.com/counter/';function g(p){return fetch(base+p+'.json').then(function(r){return r.ok?r.json():null}).catch(function(){return null})}
  Promise.all([g('/disdetta-'+slug+'/'),g('/lettera-generata/disdetta-'+slug+'/')]).then(function(r){var v=r[0]&&+r[0].count||0,l=r[1]&&+r[1].count||0;var parts=[];if(v>=50)parts.push('👀 Scheda consultata <b>'+v.toLocaleString('it-IT')+'</b> volte');if(l>=10)parts.push('✉️ <b>'+l.toLocaleString('it-IT')+'</b> lettere generate da questa pagina');if(parts.length){el.innerHTML=parts.join(' · ');el.hidden=false;}});})();
 (function(){if(!('IntersectionObserver' in window)||!window.goatcounter&&!document.querySelector('[data-pec]'))return;var vu={};var io=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;var k=e.target.id||'offerta';if(vu[k])return;vu[k]=1;io.unobserve(e.target);if(window.goatcounter)goatcounter.count({path:'vista-'+k+location.pathname,title:'Offerta vista: '+k,event:true});});},{threshold:.5});['scelta','upsell'].forEach(function(id){var el=document.getElementById(id);if(el)io.observe(el);});})();
+document.addEventListener('click',function(e){var a=e.target.closest('a[data-modulo]');if(a&&window.goatcounter)goatcounter.count({path:'modulo-scaricato'+location.pathname,title:'Modulo scaricato ('+a.dataset.modulo+')',event:true});});
 function chiudiSlide(){var s=document.getElementById('slidein');if(s){s.hidden=true;try{sessionStorage.setItem('slide','1')}catch(e){}}}
 (function(){var s=document.getElementById('slidein');if(!s)return;try{if(sessionStorage.getItem('slide'))return;}catch(e){}var shown=false;function onS(){if(shown)return;var h=document.documentElement;var r=(h.scrollTop)/(h.scrollHeight-h.clientHeight);if(r>.55){shown=true;s.hidden=false;requestAnimationFrame(function(){s.classList.add('in')});if(window.goatcounter)goatcounter.count({path:'slidein-mostrato'+location.pathname,title:'Slide-in mostrato',event:true});window.removeEventListener('scroll',onS);}}window.addEventListener('scroll',onS,{passive:true});})();
 (function(){if(!document.getElementById('co-1'))return;var d=null;try{d=JSON.parse(localStorage.getItem('ordine')||'null')}catch(e){}
@@ -359,6 +362,28 @@ LEGGE_BREVE = {
 }
 CAMPO = {"telefonia": "numero di linea", "tv-streaming": "numero smart card o tessera", "energia": "codice POD/PDR",
          "assicurazioni": "numero di polizza", "palestre": "numero di tessera", "altri-servizi": "riferimento"}
+
+# Testi di legge della lettera: letti dall'oggetto LEGGI del JS, per avere un'unica fonte per il generatore e i modelli scaricabili
+_lg = JS.split("const LEGGI=", 1)[1].split("};", 1)[0] + "}"
+LEGGI_PY = json.loads(re.sub(r"(?m)^\s*'([a-z-]+)':", r'"\1":', re.sub(r"([{,])(rif|extra|app):", r'\1"\2":', _lg)))
+
+
+def genera_modelli(b, lettera_dati):
+    """Scrive docs/modelli/disdetta-<slug>.docx e .pdf con lo stesso testo del generatore."""
+    cat = CATEGORIE[b["categoria"]]; n = b["nome"]
+    testo = MOD.testo_lettera(lettera_dati, LEGGI_PY, CAMPO[b["categoria"]], cat["servizio"])
+    via = f"via PEC a {b['pec']}" if b.get("pec") else (f"con raccomandata A/R a {b['indirizzo_postale']}" if b.get("indirizzo_postale") else "con raccomandata A/R all'indirizzo del tuo club indicato nel contratto")
+    istr = [f"Come usarlo: sostituisci i campi tra parentesi quadre, firma, allega una copia del documento d'identità e invia {via}."]
+    if b.get("pec") and b.get("indirizzo_postale"):
+        istr.append(f"In alternativa alla PEC: raccomandata A/R a {b['indirizzo_postale']}.")
+    if b.get("preavviso"):
+        istr.append(f"Preavviso: {b['preavviso']}")
+    istr.append(f"Dati verificati il {data_it(b['data_verifica'])} su {'fonte ufficiale' if b.get('affidabilita') == 'ufficiale' else 'fonti di settore'}. Le condizioni possono cambiare: in caso di dubbio fa fede il tuo contratto.")
+    istr.append(f"Scheda aggiornata e lettera compilabile online: {DOMAIN}/disdetta-{b['slug']}/ . Non hai una PEC? Dalla stessa pagina puoi farla inviare a noi.")
+    titolo = f"Modulo di disdetta {n}"
+    d = os.path.join(OUT, "modelli"); os.makedirs(d, exist_ok=True)
+    open(os.path.join(d, f"disdetta-{b['slug']}.docx"), "wb").write(MOD.docx_bytes(titolo, istr, testo))
+    open(os.path.join(d, f"disdetta-{b['slug']}.pdf"), "wb").write(MOD.pdf_bytes(titolo, istr, testo))
 
 
 PLANS = """<h2 id="invio">Come vuoi inviare la disdetta?</h2>
@@ -553,10 +578,12 @@ def brand_page(b, peers):
              if lettera else f'<p class="lead">{E(n)} si disdice online, senza lettere. Ecco i passaggi, il preavviso e cosa succede dopo.</p>')
     # Bloc réponse directe, lisible d'un coup d'œil par Google, les IA et l'appelant pressé
     parti = []
+    if not b.get("pec") and not b.get("indirizzo_postale") and b.get("canali"):
+        parti.append("si disdice da " + ", ".join(E(c) for c in [c for c in b["canali"] if ": sì" not in c][:2]))
     if b.get("pec"): parti.append(f"PEC <strong class=\"pec\">{E(b['pec'])}</strong>")
     if b.get("indirizzo_postale"): parti.append(f"raccomandata A/R a <strong>{E(b['indirizzo_postale'])}</strong>")
     if b.get("preavviso"): parti.append(f"preavviso <strong>{E(b['preavviso'])}</strong>")
-    if b.get("costi"): parti.append(f"costi: {E(b['costi'])}")
+    if b.get("costi"): parti.append(f"costi: {E(b['costi'].rstrip('.'))}")
     if not parti and b.get("canali"): parti.append("si disdice direttamente da " + ", ".join(E(c) for c in b["canali"][:3]))
     if parti:
         body += f'<p class="inbreve"><b>In breve.</b> Per disdire {E(n)}: ' + "; ".join(parti) + f'. Verificato il {verif} su {"fonte ufficiale" if uff else "fonti di settore"}.</p>'
@@ -613,6 +640,11 @@ def brand_page(b, peers):
 <div class="pecbox"><div><b>Non hai una PEC?</b><span>La inviamo noi all'indirizzo verificato di {E(n)}, con ricevuta di consegna a valore legale nella tua e-mail, e seguiamo la pratica fino alla conferma. Prezzo di lancio 7,90 € fino al 30 novembre, poi 9,90 €.</span></div><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 € →</a><ul class="tl"><li>🔒 Pagamento sicuro Stripe</li><li>📬 Ricevute PEC entro 2 giorni lavorativi</li><li>🔁 Seguito fino alla conferma</li><li>↩️ Rimborso se la PEC non viene consegnata</li><li>✉️ Una tantum, nessun abbonamento</li></ul></div></div>
 <script>window.LETTERA={json.dumps({"azienda": n, "pec": b.get("pec", ""), "postale": b.get("indirizzo_postale", "") or ("[indirizzo del tuo club, indicato nel contratto]" if b["categoria"] == "palestre" else ""), "servizio": cat["servizio"], "legge": LEGGE_BREVE.get(b["categoria"], ""), "campo": CAMPO[b["categoria"]], "cat": b["categoria"]}, ensure_ascii=False)}</script>
 </section>"""
+        genera_modelli(b, {"azienda": n, "pec": b.get("pec", ""), "postale": b.get("indirizzo_postale", "") or ("[indirizzo del tuo club, indicato nel contratto]" if b["categoria"] == "palestre" else ""), "cat": b["categoria"]})
+        cosa = ("l'indirizzo PEC" if b.get("pec") else "l'indirizzo postale" if b.get("indirizzo_postale") else "i riferimenti") + f" di {E(n)} " + ("già inserito" if (b.get("pec") or b.get("indirizzo_postale")) else "già inseriti") + (" e il preavviso indicato in testa" if b.get("preavviso") else "")
+        body += (f'<div class="box modulo" id="modulo"><h2>Scarica il modulo di disdetta {E(n)}</h2><p>Lo stesso testo della lettera qui sopra, in Word e in PDF, con {cosa}. Compila i campi tra parentesi quadre (nome, codice cliente, data), firma e invialo {"via PEC" if b.get("pec") else "con raccomandata A/R"} con una copia del documento d\'identità.</p>'
+                 f'<p class="mod-btns"><a class="btn sec" href="/modelli/disdetta-{sl}.docx" download data-modulo="docx">Scarica in Word (.docx)</a><a class="btn sec" href="/modelli/disdetta-{sl}.pdf" download data-modulo="pdf">Scarica in PDF</a></p>'
+                 f'<p class="src">Modulo gratuito, senza registrazione. Non hai una casella PEC? Leggi <a href="/guide/inviare-pec-senza-casella/">come inviare una PEC senza averne una</a>.</p></div>')
     if lettera:
         body += PLANS.replace("{BRAND_REF}", ref)
     rel = [g for g in GUIDE if b["categoria"] in g["cats"]][:3]
