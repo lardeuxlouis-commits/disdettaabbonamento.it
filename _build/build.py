@@ -5,7 +5,7 @@ Uso : python3 _build/build.py
 """
 import json, glob, os, html, re, shutil, sys, datetime as dt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from guide import GUIDE
+from guide import GUIDE as _GUIDE_TUTTE
 _ap = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "approfondimenti.json")
 APPROF = json.load(open(_ap, encoding="utf-8")) if os.path.exists(_ap) else {}
 
@@ -18,6 +18,8 @@ OUT = os.path.join(ROOT, "docs")
 DOMAIN = "https://disdettaabbonamento.it"
 SITE = "Disdetta Abbonamento"
 TODAY = dt.date.today().isoformat()
+# Les guides avec « pubblica_dal » dans le futur ne sont pas encore publiés (mise en ligne progressive).
+GUIDE = [g for g in _GUIDE_TUTTE if g.get("pubblica_dal", "") <= TODAY]
 ASSET_V = None  # rempli au build
 MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
         "agosto", "settembre", "ottobre", "novembre", "dicembre"]
@@ -199,7 +201,7 @@ ul.canali li{background:var(--soft);border-radius:12px;padding:10px 14px;font-si
 @keyframes shine{60%,100%{transform:translateX(120%)}}
 @media(max-width:820px){.hero.home{grid-template-columns:1fr}.demo{transform:none;margin-top:8px}.float.f1{left:8px;top:-14px}.float.f2{display:none}.reviews{grid-template-columns:1fr}.urg{flex-wrap:wrap}.urg .btn{margin:6px 0 0;width:100%;justify-content:center}}
 @media (prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
-article.guide{max-width:760px}article.guide ul,article.guide ol{padding-left:22px}article.guide li{margin:6px 0}
+article.guide{max-width:760px}article.guide table{width:100%;border-collapse:collapse;margin:12px 0 18px;font-size:15px}article.guide th,article.guide td{text-align:left;vertical-align:top;padding:9px 8px;border-bottom:1px solid var(--line)}article.guide thead th{background:var(--soft);font-size:14px}article.guide td:first-child{font-weight:600}article.guide ul,article.guide ol{padding-left:22px}article.guide li{margin:6px 0}
 .marquee:hover .track{animation-play-state:paused}
 .seal{position:relative;width:92px;height:92px;flex:none}
 .seal svg{position:absolute;inset:0;width:100%;height:100%;animation:spin 22s linear infinite}
