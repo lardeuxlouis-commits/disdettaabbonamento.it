@@ -131,7 +131,7 @@ GUIDE = [
 "slug": "operatore-non-risponde-disdetta",
 "title": "L'operatore ignora la disdetta? Reclamo e conciliazione gratuita",
 "h1": "Disdetta ignorata: cosa fare se l'operatore continua ad addebitare",
-"desc": "Hai inviato la disdetta ma gli addebiti continuano? Come fare reclamo e quali conciliazioni gratuite usare: AGCOM ConciliaWeb, ARERA, IVASS, Arbitro Bancario Finanziario.",
+"desc": "Hai inviato la disdetta ma gli addebiti continuano? Come fare reclamo e quali conciliazioni gratuite usare: ConciliaWeb, ARERA, IVASS, Arbitro Bancario.",
 "cats": ["telefonia", "tv-streaming", "energia", "assicurazioni", "altri-servizi"],
 "body": """
 <p class="lead">Se dopo la disdetta continuano ad arrivare fatture o addebiti, hai strumenti gratuiti per far valere i tuoi diritti.</p>
@@ -170,7 +170,7 @@ GUIDE = [
 "slug": 'disdetta-assicurazione-auto',
 "title": 'Disdetta assicurazione auto: serve davvero? (guida 2026)',
 "h1": "Disdetta dell'assicurazione auto: quando serve e quando no",
-"desc": "L'RC auto non si rinnova in automatico: alla scadenza non serve la disdetta. Ecco quando invece va inviata: garanzie accessorie, vendita dell'auto, polizze poliennali.",
+"desc": "L'RC auto non si rinnova in automatico: alla scadenza non serve la disdetta. Ecco quando va inviata: garanzie accessorie, vendita dell'auto, poliennali.",
 "cats": ['assicurazioni'],
 "body": '\n<p class="lead">Buona notizia: per la sola RC auto la disdetta alla scadenza non serve. Ci sono però casi in cui una lettera scritta è ancora necessaria, e sbagliare può costare un anno di premio.</p>\n<h2>RC auto: niente tacito rinnovo</h2>\n<p>Dal 2012 (D.L. 179/2012, art. 170-bis del Codice delle Assicurazioni) il contratto RC auto dura un anno e non si rinnova da solo. Alla scadenza puoi semplicemente cambiare compagnia. La copertura resta attiva per i 15 giorni successivi alla scadenza, per darti il tempo di rinnovare o di passare a un\'altra compagnia.</p>\n<h2>Quando la disdetta serve ancora</h2>\n<ul><li><strong>Garanzie accessorie vendute con un contratto separato</strong> (furto e incendio, kasko, cristalli, assistenza stradale): possono avere il tacito rinnovo. Controlla le condizioni di polizza.</li>\n<li><strong>Polizze poliennali o con clausole particolari</strong>: verifica la durata e il preavviso scritti nel contratto.</li>\n<li><strong>Vendita, demolizione o furto dell\'auto</strong>: devi comunicarlo alla compagnia per sospendere, trasferire o chiudere la polizza e chiedere il rimborso del premio non goduto, al netto di imposte e contributo SSN.</li></ul>\n<h2>Come comunicarlo</h2>\n<ol><li>Trova la PEC o l\'indirizzo della tua compagnia nella <a href="/assicurazioni/">pagina assicurazioni</a>.</li>\n<li>Indica numero di polizza, targa, data di scadenza e cosa chiedi (disdetta delle garanzie accessorie, chiusura per vendita, rimborso).</li>\n<li>Allega i documenti richiesti, per esempio l\'atto di vendita o il certificato di demolizione.</li>\n<li>Invia via PEC o raccomandata A/R e conserva la ricevuta.</li></ol>\n<p><a class="btn" href="/assicurazioni/">Trova la PEC della tua compagnia →</a> <a class="btn sec" href="https://buy.stripe.com/14AcN41JJ3oBcFB1kI2B200?locale=it" rel="nofollow" data-pec>Inviamo noi la PEC, 7,90 €</a></p>'},
 {
@@ -182,14 +182,14 @@ GUIDE = [
 "body": '\n<p class="lead">Le polizze casa, incendio e furto, infortuni e RC del capofamiglia prevedono spesso il tacito rinnovo. Se la disdetta arriva in ritardo, paghi un altro anno.</p>\n<h2>Entro quando inviare la disdetta</h2>\n<p>Il preavviso è scritto nelle condizioni di polizza, di solito 30 o 60 giorni prima della scadenza annuale. Conta la data in cui la compagnia riceve la comunicazione: la PEC fa fede del giorno di consegna, la raccomandata può impiegare diversi giorni.</p>\n<p><strong>Calcola il tuo ultimo giorno utile:</strong></p>\n<form class="dl" onsubmit="return calcScad(this,+this.g.value)"><label for="dl-g">Data di scadenza della polizza</label><div class="dlrow"><input type="date" id="dl-g" name="d" required><select name="g" aria-label="Giorni di preavviso"><option value="30">30 giorni di preavviso</option><option value="60" selected>60 giorni di preavviso</option><option value="15">15 giorni di preavviso</option></select><button class="btn sec" type="submit">Calcola</button></div><p class="dlout" aria-live="polite"></p></form>\n<h2>Polizze poliennali</h2>\n<p>Per le polizze danni di durata superiore a un anno, l\'art. 1899 del Codice civile consente in generale di recedere ogni anno con 60 giorni di preavviso. Se però hai ottenuto uno sconto in cambio della durata poliennale, le condizioni possono limitare questa possibilità: leggi il contratto prima di inviare.</p>\n<h2>Polizze abbinate al mutuo</h2>\n<p>Se la polizza casa è collegata a un mutuo, controlla cosa richiede la banca: per l\'incendio e scoppio dell\'immobile ipotecato spesso serve una copertura per tutta la durata del mutuo, anche se puoi sceglierla presso un\'altra compagnia.</p>\n<h2>Cosa scrivere</h2>\n<p>Nome, codice fiscale, numero di polizza, indirizzo dell\'immobile assicurato, data di scadenza e la frase «comunico la disdetta della polizza alla prossima scadenza». Trovi un modello completo nel <a href="/guide/fac-simile-disdetta-assicurazione/">fac simile di disdetta assicurazione</a>.</p>\n<p><a class="btn" href="/assicurazioni/">Trova la PEC della tua compagnia →</a> <a class="btn sec" href="https://buy.stripe.com/14AcN41JJ3oBcFB1kI2B200?locale=it" rel="nofollow" data-pec>Inviamo noi la PEC, 7,90 €</a></p>'},
 {
 "slug": 'fac-simile-disdetta-assicurazione',
-"title": 'Fac simile disdetta assicurazione: modello di lettera gratis (2026)',
+"title": 'Fac simile disdetta assicurazione: lettera gratis (2026)',
 "h1": "Fac simile di disdetta dell'assicurazione",
 "desc": 'Modello di lettera di disdetta per polizza casa, infortuni, garanzie accessorie auto e altre assicurazioni. Da copiare, con calcolo del preavviso e invio via PEC.',
 "cats": ['assicurazioni'],
 "body": '\n<p class="lead">Un modello pronto da copiare per disdire una polizza assicurativa. Per molte compagnie trovi anche la lettera già compilata con PEC e indirizzo nella <a href="/assicurazioni/">scheda della compagnia</a>.</p>\n<h2>Modello di lettera</h2>\n<div class="guide-letter"><p>Spett.le [Nome compagnia]<br>[Indirizzo PEC o postale]</p>\n<p><strong>Oggetto: disdetta della polizza n. [numero] alla scadenza del [data]</strong></p>\n<p>Il/La sottoscritto/a [nome e cognome], nato/a a [luogo] il [data], codice fiscale [codice], residente in [indirizzo], contraente della polizza n. [numero], comunica con la presente la disdetta del contratto alla prossima scadenza del [data], ai sensi delle condizioni di polizza.</p>\n<p>Chiede di non procedere al rinnovo, di interrompere qualsiasi addebito successivo alla scadenza e di inviare conferma scritta della cessazione all\'indirizzo [e-mail o PEC].</p>\n<p>Si allega copia del documento d\'identità.</p>\n<p>[Luogo e data]<br>[Firma]</p></div>\n<h2>Prima di inviarla</h2>\n<ul><li><strong>Controlla il preavviso</strong>: di solito 30 o 60 giorni prima della scadenza.</li>\n<li><strong>Usa l\'indirizzo giusto</strong>: molte compagnie hanno una PEC dedicata alle disdette, diversa da quella dei reclami.</li>\n<li><strong>Firma e allega il documento</strong>: senza firma la compagnia può contestare la richiesta.</li>\n<li><strong>Per l\'RC auto non serve</strong>: non ha il tacito rinnovo, vedi la <a href="/guide/disdetta-assicurazione-auto/">guida sull\'assicurazione auto</a>.</li></ul>\n<p><strong>Calcola entro quando inviarla:</strong></p>\n<form class="dl" onsubmit="return calcScad(this,+this.g.value)"><label for="dl-g">Data di scadenza della polizza</label><div class="dlrow"><input type="date" id="dl-g" name="d" required><select name="g" aria-label="Giorni di preavviso"><option value="30">30 giorni di preavviso</option><option value="60" selected>60 giorni di preavviso</option><option value="15">15 giorni di preavviso</option></select><button class="btn sec" type="submit">Calcola</button></div><p class="dlout" aria-live="polite"></p></form>\n<p><a class="btn" href="/assicurazioni/">Trova la PEC della tua compagnia →</a> <a class="btn sec" href="https://buy.stripe.com/14AcN41JJ3oBcFB1kI2B200?locale=it" rel="nofollow" data-pec>Inviamo noi la PEC, 7,90 €</a></p>'},
 {
 "slug": 'studio-disdette-italia-2026',
-"title": 'Disdette in Italia 2026: chi accetta la PEC, settore per settore (studio)',
+"title": 'Disdette in Italia 2026: chi accetta la PEC (studio)',
 "h1": 'Disdette in Italia: chi accetta la PEC (studio 2026)',
 "desc": 'Studio su 169 operatori italiani: solo il 42 % pubblica una PEC per la disdetta. Le regole di preavviso settore per settore, verificate sui documenti ufficiali.',
 "cats": ['telefonia', 'assicurazioni', 'energia', 'altri-servizi', 'tv-streaming', 'palestre'],
@@ -197,7 +197,7 @@ GUIDE = [
 {
 "slug": "raccomandata-online",
 "pubblica_dal": "2026-11-04",
-"title": "Raccomandata online: come inviarla, quanto costa e quando usare la PEC (2026)",
+"title": "Raccomandata online: come inviarla e quanto costa (2026)",
 "h1": "Raccomandata online: come funziona e quando conviene la PEC",
 "desc": "Come inviare una raccomandata online senza andare in posta, quanto costa con Poste Italiane e quando la PEC è più rapida, con lo stesso valore legale.",
 "cats": ["telefonia", "tv-streaming", "energia", "assicurazioni", "palestre", "altri-servizi"],
@@ -206,7 +206,7 @@ GUIDE = [
 {
 "slug": "pec-gratuita",
 "pubblica_dal": "2026-11-04",
-"title": "PEC gratuita: esiste davvero? Opzioni e alternative per un invio (2026)",
+"title": "PEC gratuita: esiste davvero? Le alternative (2026)",
 "h1": "PEC gratuita: esiste ancora?",
 "desc": "La PEC gratuita per i cittadini non esiste più dal 2015. Ecco quanto costa una casella, le prove gratuite e cosa fare se ti serve inviare una sola PEC.",
 "cats": ["telefonia", "tv-streaming", "energia", "assicurazioni", "palestre", "altri-servizi"],

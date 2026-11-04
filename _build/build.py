@@ -520,6 +520,15 @@ def brand_page(b, peers):
             if lettera else f"Come annullare l'abbonamento {n} in pochi passaggi, senza lettere. Preavviso, costi e cosa succede dopo, verificato sulle fonti ufficiali.")
     if b["categoria"] == "assicurazioni" and b.get("pec"):
         desc = f"Indirizzo PEC {n} per la disdetta della polizza, verificato sulle fonti ufficiali. Calcola entro quando inviarla e genera gratis la lettera pronta."
+    # Google tronca oltre ~62 caratteri (title) e ~160 (description): nome breve senza parentesi
+    breve = re.sub(r"\s*\(.*?\)", "", n).strip()
+    if len(title) > 62: title = title.replace(n, breve)
+    if len(title) > 62: title = title.replace(f" ({anno})", "")
+    if len(title) > 62: title = f"Disdetta {breve}: PEC e lettera ({anno})" if lettera else f"Disdetta {breve}: come annullare ({anno})"
+    if len(desc) > 160: desc = desc.replace(n, breve)
+    if len(desc) > 160:
+        desc = (f"Come disdire {breve}: PEC, raccomandata, preavviso e costi verificati. Genera gratis la lettera di disdetta pronta da inviare."
+                if lettera else f"Come annullare {breve} senza lettere: preavviso, costi e cosa succede dopo, verificato sulle fonti ufficiali.")
     facts = []
     if b.get("pec"): facts.append(("PEC", f'<span class="pec">{E(b["pec"])}</span>'))
     if b.get("indirizzo_postale"): facts.append(("Raccomandata A/R", E(b["indirizzo_postale"])))
