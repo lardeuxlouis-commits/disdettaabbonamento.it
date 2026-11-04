@@ -284,6 +284,7 @@ function calcScad(f,gg){try{var v=f.d.value;if(!v)return false;var sc=new Date(v
 (function(){document.querySelectorAll('[data-cd]').forEach(function(el){var end=new Date(el.dataset.cd+'T23:59:59');var d=Math.ceil((end-new Date())/86400000);if(d>0&&d<=45)el.textContent='Mancano '+d+' giorn'+(d===1?'o':'i')+'.';});})();
 (function(){var el=document.querySelector('[data-proof]');if(!el||!window.fetch)return;var slug=el.dataset.proof;var base='https://disdetta.goatcounter.com/counter/';function g(p){return fetch(base+p+'.json').then(function(r){return r.ok?r.json():null}).catch(function(){return null})}
  Promise.all([g('/disdetta-'+slug+'/'),g('/lettera-generata/disdetta-'+slug+'/')]).then(function(r){var v=r[0]&&+r[0].count||0,l=r[1]&&+r[1].count||0;var parts=[];if(v>=50)parts.push('👀 Scheda consultata <b>'+v.toLocaleString('it-IT')+'</b> volte');if(l>=10)parts.push('✉️ <b>'+l.toLocaleString('it-IT')+'</b> lettere generate da questa pagina');if(parts.length){el.innerHTML=parts.join(' · ');el.hidden=false;}});})();
+(function(){if(!('IntersectionObserver' in window)||!window.goatcounter&&!document.querySelector('[data-pec]'))return;var vu={};var io=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;var k=e.target.id||'offerta';if(vu[k])return;vu[k]=1;io.unobserve(e.target);if(window.goatcounter)goatcounter.count({path:'vista-'+k+location.pathname,title:'Offerta vista: '+k,event:true});});},{threshold:.5});['scelta','upsell'].forEach(function(id){var el=document.getElementById(id);if(el)io.observe(el);});})();
 function chiudiSlide(){var s=document.getElementById('slidein');if(s){s.hidden=true;try{sessionStorage.setItem('slide','1')}catch(e){}}}
 (function(){var s=document.getElementById('slidein');if(!s)return;try{if(sessionStorage.getItem('slide'))return;}catch(e){}var shown=false;function onS(){if(shown)return;var h=document.documentElement;var r=(h.scrollTop)/(h.scrollHeight-h.clientHeight);if(r>.55){shown=true;s.hidden=false;requestAnimationFrame(function(){s.classList.add('in')});if(window.goatcounter)goatcounter.count({path:'slidein-mostrato'+location.pathname,title:'Slide-in mostrato',event:true});window.removeEventListener('scroll',onS);}}window.addEventListener('scroll',onS,{passive:true});})();
 (function(){if(!document.getElementById('co-1'))return;var d=null;try{d=JSON.parse(localStorage.getItem('ordine')||'null')}catch(e){}
@@ -530,11 +531,14 @@ def brand_page(b, peers):
     ref = re.sub(r"[^A-Za-z0-9_-]+", "-", n).strip("-")[:60]
     sl = E(b["slug"])
     stripe = "https://buy.stripe.com/14AcN41JJ3oBcFB1kI2B200?client_reference_id=" + ref + ""
+    _can = " ".join(b.get("canali", [])).lower()
+    facile = ("pulsante di disdetta online: sì" in _can) or ("online (" in _can) or ("e-mail ordinaria" in _can)
+    assic = b["categoria"] == "assicurazioni"
     body = '<section class="hero small">'
     body += f'<p class="crumbs"><a href="/">Home</a> › <a href="/{cat["slug"]}/">{E(cat["nome"])}</a> › {E(n)}</p>'
     body += f'<span class="pill">{"<b>✓</b> Verificato su fonte ufficiale" if uff else "Verificato su fonti di settore"} · {verif}</span>'
     body += f"<h1>Disdetta {E(n)}: <em>{'PEC, indirizzo e lettera pronta' if lettera else 'come annullare in pochi clic'}</em></h1>"
-    body += (f'<p class="lead">Dove inviare la disdetta, con quale preavviso e quanto costa. Poi compili la lettera gratis in un minuto e la invii tu.</p>'
+    body += (f'<p class="lead">Dove inviare la disdetta, con quale preavviso e quanto costa. La inviamo noi via PEC con ricevuta legale in 3 minuti, oppure prepari tu la lettera gratis.</p>'
              if lettera else f'<p class="lead">{E(n)} si disdice online, senza lettere. Ecco i passaggi, il preavviso e cosa succede dopo.</p>')
     # Bloc réponse directe, lisible d'un coup d'œil par Google, les IA et l'appelant pressé
     parti = []
@@ -546,15 +550,19 @@ def brand_page(b, peers):
     if parti:
         body += f'<p class="inbreve"><b>In breve.</b> Per disdire {E(n)}: ' + "; ".join(parti) + f'. Verificato il {verif} su {"fonte ufficiale" if uff else "fonti di settore"}.</p>'
     if lettera:
-        body += '<a class="btn shine" href="#lettera-disdetta">Genera la lettera gratis →</a><a class="btn sec" href="#invio">Te la inviamo noi via PEC</a>'
-    body += '<ul class="chips"><li>Lettera gratis</li><li>Invio PEC con ricevuta legale a 7,90 €, prezzo di lancio</li><li>Fonti ufficiali citate</li><li>Rimborso se non consegnata</li></ul><p class="proof" data-proof="' + sl + '" hidden></p></section>'
+        body += f'<a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Te la inviamo noi via PEC, 7,90 € →</a><a class="btn sec" href="#lettera-disdetta">Preferisco la lettera gratis</a>'
+    body += '<ul class="chips"><li>Senza PEC, senza posta</li><li>Ricevuta con valore legale nella tua e-mail</li><li>Rimborso se non consegnata</li><li>Lettera gratis se preferisci</li></ul><p class="proof" data-proof="' + sl + '" hidden></p></section>'
     if b.get("pec"):
         facts[0] = ("PEC", f'<span class="pec">{E(b["pec"])}</span> <button class="copy" type="button" onclick="copiaPec(this,\'{E(b["pec"])}\')">Copia</button>')
     dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in facts)
     body += f'<div class="rv box" id="dati"><h2>Disdetta {E(n)} in breve</h2><dl class="facts">{dl}</dl></div>'
     gg = re.search(r"(\d+)\s*giorni", b.get("preavviso", "") or "")
-    if lettera and gg:
-        body += f'<div class="urg rv"><span class="ic">⏰</span><span><b>Se invii oggi, il contratto termina il <span id="scad" data-giorni="{gg.group(1)}">…</span></b><p>Con {gg.group(1)} giorni di preavviso ogni giorno di attesa sposta la fine del contratto. Aspettare una settimana vuol dire pagare fino al <span id="scad2">…</span>, spesso un mese in più.</p><form class="dl" onsubmit="return calcScad(this,{gg.group(1)})"><label for="dl-{sl}">Hai una scadenza precisa? Inserisci la data di scadenza o di rinnovo del contratto</label><div class="dlrow"><input type="date" id="dl-{sl}" name="d" required><button class="btn sec" type="submit">Calcola</button></div><p class="dlout" aria-live="polite"></p></form></span><div class="urgbtns"><a class="btn" href="#lettera-disdetta">Disdici ora →</a><a class="btn sec" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a></div></div>'
+    if lettera and gg and assic:
+        body += (f'<div class="urg rv urg-ass"><span class="ic">⏰</span><span><b>Quando scade la tua polizza?</b><p>Per non farla rinnovare, la disdetta deve arrivare a {E(n)} almeno {gg.group(1)} giorni prima della scadenza. Dopo quella data la polizza può rinnovarsi per un altro anno.</p>'
+                 f'<form class="dl" onsubmit="return calcScad(this,{gg.group(1)})"><label for="dl-{sl}">Inserisci la data di scadenza della polizza (la trovi sul contratto o sull\'avviso di scadenza)</label><div class="dlrow"><input type="date" id="dl-{sl}" name="d" required><button class="btn sec" type="submit">Calcola</button></div><p class="dlout" aria-live="polite"></p></form></span>'
+                 f'<div class="urgbtns"><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Inviala oggi via PEC, 7,90 €</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></div></div>')
+    elif lettera and gg:
+        body += f'<div class="urg rv"><span class="ic">⏰</span><span><b>Se invii oggi, il contratto termina il <span id="scad" data-giorni="{gg.group(1)}">…</span></b><p>Con {gg.group(1)} giorni di preavviso ogni giorno di attesa sposta la fine del contratto. Aspettare una settimana vuol dire pagare fino al <span id="scad2">…</span>, spesso un mese in più.</p><form class="dl" onsubmit="return calcScad(this,{gg.group(1)})"><label for="dl-{sl}">Hai una scadenza precisa? Inserisci la data di scadenza o di rinnovo del contratto</label><div class="dlrow"><input type="date" id="dl-{sl}" name="d" required><button class="btn sec" type="submit">Calcola</button></div><p class="dlout" aria-live="polite"></p></form></span><div class="urgbtns"><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Disdici oggi via PEC, 7,90 €</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></div></div>'
 
     ap = APPROF.get(b["slug"])
     if ap and ap.get("testo"):
@@ -570,8 +578,11 @@ def brand_page(b, peers):
         via = "PEC" if b.get("pec") else "raccomandata A/R"
         scelta = ""
         if b.get("pec"):
-            scelta = (f'<div class="scelta" id="scelta"><p class="sc-q"><b>Per disdire {E(n)} serve una PEC</b> oppure una raccomandata A/R in posta. Come preferisci procedere?</p><div class="sc-grid">'
-                f'<div class="sc pro"><span class="tag">Consigliato se non hai una PEC</span><h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><ul><li>✓ Non serve avere una PEC né andare in posta</li><li>✓ Ricevuta con valore legale nella tua e-mail</li><li>✓ Seguiamo la pratica fino alla conferma di {E(n)}</li></ul><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 € →</a><small>🔒 Pagamento Stripe · ↩️ Rimborso se non consegnata</small></div>'
+            domanda = (f'<b>Puoi disdire {E(n)} anche dai suoi canali online</b>, ma solo la PEC o la raccomandata ti lasciano una prova con valore legale della data, utile se la disdetta viene contestata o ti arrivano altri addebiti. Come preferisci procedere?'
+                       if facile else f'<b>Per disdire {E(n)} con una prova della data serve una PEC</b> oppure una raccomandata A/R in posta. Come preferisci procedere?')
+            tag = "La prova più sicura" if facile else "Consigliato se non hai una PEC"
+            scelta = (f'<div class="scelta" id="scelta"><p class="sc-q">{domanda}</p><div class="sc-grid">'
+                f'<div class="sc pro"><span class="tag">{tag}</span><h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><ul><li>✓ Non serve avere una PEC né andare in posta</li><li>✓ Ricevuta con valore legale nella tua e-mail: la prova della data</li><li>✓ Seguiamo la pratica fino alla conferma di {E(n)}</li></ul><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 € →</a><small>🔒 Pagamento Stripe · ↩️ Rimborso se non consegnata</small></div>'
                 f'<div class="sc"><h3>La invio da solo</h3><div class="price">Gratis</div><ul><li>Lettera pronta qui sotto, da copiare o stampare</li><li>Serve la tua PEC personale, oppure una raccomandata A/R allo sportello (circa 6-7 €)</li><li>Le risposte dell\'operatore le segui tu</li></ul><a class="btn sec" href="#form-lettera" onclick="if(window.goatcounter)goatcounter.count({{path:\'scelta-gratis\'+location.pathname,title:\'Scelta lettera gratis\',event:true}})">Genera la lettera gratis ↓</a></div>'
                 '</div></div>')
         body += f"""<section class="gen" id="lettera-disdetta"><h2>Lettera di disdetta {E(n)}, gratis</h2>
@@ -598,7 +609,7 @@ def brand_page(b, peers):
         body += '<h2>Guide utili</h2><div class="grid">' + "".join(f'<a class="card" href="/guide/{g["slug"]}/"><span class="av altri-servizi">📘</span><span><b>{E(g["h1"])}</b><small>Guida</small></span></a>' for g in rel) + '</div>'
     body += f"<h2>Cosa dice la legge</h2><p>{E(cat['legge'])}</p>"
     if lettera:
-        body += f'<div class="ctabar rv alt"><span><b>Hai letto abbastanza?</b> Genera la lettera gratis in un minuto, oppure facciamo tutto noi via PEC.</span><span class="ctab"><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a></span></div>'
+        body += f'<div class="ctabar rv alt"><span><b>Hai letto abbastanza?</b> Genera la lettera gratis in un minuto, oppure facciamo tutto noi via PEC.</span><span class="ctab"><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></span></div>'
     faqs = faq_brand(b, cat)
     if faqs:
         body += "<h2>Domande frequenti</h2>" + "".join(f"<details><summary>{E(q)}</summary><p>{E(a)}</p></details>" for q, a in faqs)
@@ -618,8 +629,8 @@ def brand_page(b, peers):
         {"@type": "ListItem", "position": 2, "name": cat["nome"], "item": f"{DOMAIN}/{cat['slug']}/"},
         {"@type": "ListItem", "position": 3, "name": f"Disdetta {n}", "item": DOMAIN + path}]})
     if lettera:
-        body += f'<section class="band"><h2>Disdici {E(n)} oggi</h2><p>Lettera gratis in un minuto, oppure te la inviamo noi in PEC con ricevuta legale.</p><a class="btn shine" href="#lettera-disdetta">Genera la lettera gratis →</a><a class="btn sec" href="{stripe}" rel="nofollow" data-pec>Te la inviamo noi, 7,90 €</a></section>'
-    sticky = f'<aside class="slidein" id="slidein" hidden><button class="x" type="button" aria-label="Chiudi" onclick="chiudiSlide()">×</button><b>Non hai una PEC?</b><p>Inviamo noi la disdetta a {E(n)} con ricevuta legale. Prezzo di lancio 7,90 € fino al 30 novembre.</p><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC →</a><small>↩️ Rimborso se non consegnata · 🔒 Stripe</small></aside><div class="sticky two"><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a></div>' if lettera else ''
+        body += f'<section class="band"><h2>Disdici {E(n)} oggi</h2><p>Te la inviamo noi in PEC con ricevuta legale, in 3 minuti da casa. Oppure prepari la lettera gratis.</p><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Te la inviamo noi, 7,90 € →</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></section>'
+    sticky = f'<aside class="slidein" id="slidein" hidden><button class="x" type="button" aria-label="Chiudi" onclick="chiudiSlide()">×</button><b>Non hai una PEC?</b><p>Inviamo noi la disdetta a {E(n)} con ricevuta legale. Prezzo di lancio 7,90 € fino al 30 novembre.</p><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC →</a><small>↩️ Rimborso se non consegnata · 🔒 Stripe</small></aside><div class="sticky two"><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></div>' if lettera else ''
     write(path, page(title, desc, path, body, schema, sticky))
     return path
 
