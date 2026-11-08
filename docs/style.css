@@ -62,7 +62,7 @@ h2{font-size:clamp(23px,3vw,30px);margin:46px 0 14px;line-height:1.2;letter-spac
 .facts{display:grid;grid-template-columns:190px minmax(0,1fr);gap:12px 18px;margin:0}
 .facts dt{font-weight:700;color:var(--muted);font-size:15px}.facts dd{margin:0;word-break:break-word}
 .pec{display:inline-flex;align-items:center;gap:8px;font-family:ui-monospace,Menlo,monospace;font-size:15px;background:var(--accent-l);border-radius:8px;padding:4px 10px;color:var(--accent-d);font-weight:600}
-.copy{font:inherit;font-size:13px;font-weight:700;border:1px solid var(--line);background:#fff;border-radius:8px;padding:3px 9px;cursor:pointer;color:var(--muted)}
+.pecoffer{display:block;margin-top:8px;padding:9px 12px;border-radius:10px;background:#eef6f1;border:1px solid #b7e2c8;font-size:14.5px;line-height:1.45;color:var(--fg)}.pecoffer a{font-weight:700;color:var(--ok);white-space:nowrap}.pecoffer.flash{animation:pecflash 1.2s ease 2}@keyframes pecflash{0%,100%{background:#eef6f1}50%{background:#c9f0d9}}@media (prefers-reduced-motion:reduce){.pecoffer.flash{animation:none}}@media (max-width:640px){.pecoffer a{white-space:normal}}.copy{font:inherit;font-size:13px;font-weight:700;border:1px solid var(--line);background:#fff;border-radius:8px;padding:3px 9px;cursor:pointer;color:var(--muted)}
 .badge{display:inline-block;font-size:13px;font-weight:700;border-radius:999px;padding:3px 10px;background:var(--okbg);color:var(--ok)}
 .note{background:var(--warnbg);border:1px solid #f3dca5;color:#5b3d00;border-radius:14px;padding:16px 18px;margin:20px 0}
 ul.canali{padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
