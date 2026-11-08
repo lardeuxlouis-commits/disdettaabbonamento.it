@@ -293,7 +293,7 @@ document.addEventListener('click',function(e){var a=e.target.closest('a[data-mod
 function chiudiSlide(){var s=document.getElementById('slidein');if(s){s.hidden=true;try{sessionStorage.setItem('slide','1')}catch(e){}}}
 (function(){var s=document.getElementById('slidein');if(!s)return;try{if(sessionStorage.getItem('slide'))return;}catch(e){}var shown=false;function onS(){if(shown)return;var h=document.documentElement;var r=(h.scrollTop)/(h.scrollHeight-h.clientHeight);if(r>.55){shown=true;s.hidden=false;requestAnimationFrame(function(){s.classList.add('in')});if(window.goatcounter)goatcounter.count({path:'slidein-mostrato'+location.pathname,title:'Slide-in mostrato',event:true});window.removeEventListener('scroll',onS);}}window.addEventListener('scroll',onS,{passive:true});})();
 (function(){if(!document.getElementById('co-1'))return;var d=null;try{d=JSON.parse(localStorage.getItem('ordine')||'null')}catch(e){}
- if(d&&d.azienda){window.LETTERA=d;document.getElementById('co-op').innerHTML='Disdetta di <b>'+d.azienda.replace(/</g,'&lt;')+'</b>'+(d.pec?', inviata in PEC a <b>'+d.pec+'</b>':'')+'.';}
+ if(d&&d.azienda){window.LETTERA=d;document.getElementById('co-op').innerHTML='Disdetta di <b>'+d.azienda.replace(/</g,'&lt;')+'</b>'+(d.pec?', inviata in PEC a <b>'+d.pec+'</b>':', spedita con raccomandata A/R'+(d.postale&&d.postale.charAt(0)!=='['?' a <b>'+d.postale.replace(/</g,'&lt;')+'</b>':''))+'.';if(!d.pec){var tx=[['lead','Per spedire la disdetta con raccomandata A/R al posto tuo ci servono la lettera firmata, la delega firmata e una copia del tuo documento d\'identità. Le prepariamo qui sotto con i tuoi dati: tu firmi con il dito o il mouse.'],['co-after','Spediamo la raccomandata A/R entro 24 ore lavorative dal ricevimento dei documenti. Ricevi nella tua e-mail il numero di tracciamento e, quando arriva, l\'avviso di ricevimento. Problemi? Scrivi a info@disdettaabbonamento.it.']];tx.forEach(function(x){var e=document.querySelector('.'+x[0]);if(e)e.textContent=x[1];});document.querySelectorAll('label').forEach(function(l){if(/ricevute PEC/.test(l.textContent))l.textContent='La tua e-mail (per ricevere tracciamento e avviso di ricevimento)';});}}
  else{window.LETTERA={azienda:'',pec:'',postale:'',servizio:'al servizio indicato',legge:'',campo:'numero',cat:'altri-servizi'};document.getElementById('co-opfield').hidden=false;document.getElementById('co-azienda').required=true;document.getElementById('co-op').textContent='Indica l\'operatore che vuoi disdire.';}
  try{var dl=JSON.parse(localStorage.getItem('datiLettera')||'null');if(dl){var ff=document.getElementById('form-lettera');Object.keys(dl).forEach(function(k){if(ff.elements[k]&&dl[k])ff.elements[k].value=dl[k]});}}catch(e){}
  if(window.goatcounter)setTimeout(function(){window.goatcounter&&goatcounter.count({path:'ordine-pagato',title:'Ordine pagato',event:true})},1500);
@@ -305,7 +305,7 @@ function chiudiSlide(){var s=document.getElementById('slidein');if(s){s.hidden=t
  window.coClear=function(){x.clearRect(0,0,c.width,c.height);has=false};window.coHas=function(){return has};})();
 function coVal(n){var f=document.getElementById('form-lettera');return(f.elements[n]&&f.elements[n].value||'').trim()}
 function coDelega(){var d=window.LETTERA,oggi=new Date().toLocaleDateString('it-IT',{day:'numeric',month:'long',year:'numeric'});var nome=coVal('nome'),cf=coVal('cf'),ind=coVal('indirizzo'),cod=coVal('codice'),luogo=coVal('luogo');
- return 'DELEGA ALLA TRASMISSIONE DELLA DISDETTA\n\nIl/La sottoscritto/a '+nome+', codice fiscale '+cf+', residente in '+ind+', intestatario/a del contratto n. '+cod+' con '+d.azienda+',\n\nDELEGA\n\nLouis Lardeux, imprenditore individuale (SIREN 999 443 880, Francia), titolare del servizio DisdettaAbbonamento.it, a trasmettere in suo nome e per suo conto'+(d.pec?', a mezzo posta elettronica certificata all\'indirizzo '+d.pec+',':' a mezzo posta elettronica certificata')+' la comunicazione di disdetta allegata, da lui/lei sottoscritta, e a ricevere le relative ricevute di accettazione e di consegna, che gli/le saranno trasmesse all\'indirizzo '+coVal('email')+'.\n\nLa presente delega è conferita ai sensi degli articoli 1703 e seguenti del Codice civile, è limitata alla sola trasmissione della comunicazione allegata e non comprende alcun altro potere.\n\nSi allega copia del documento d\'identità del delegante.\n\n'+luogo+', '+oggi+'\n\nFirma del delegante'}
+ return 'DELEGA ALLA TRASMISSIONE DELLA DISDETTA\n\nIl/La sottoscritto/a '+nome+', codice fiscale '+cf+', residente in '+ind+', intestatario/a del contratto n. '+cod+' con '+d.azienda+',\n\nDELEGA\n\nLouis Lardeux, imprenditore individuale (SIREN 999 443 880, Francia), titolare del servizio DisdettaAbbonamento.it, a trasmettere in suo nome e per suo conto'+(d.pec?', a mezzo posta elettronica certificata all\'indirizzo '+d.pec+',':', a mezzo raccomandata con avviso di ricevimento'+(d.postale&&d.postale.charAt(0)!=='['?' all\'indirizzo '+d.postale+',':','))+' la comunicazione di disdetta allegata, da lui/lei sottoscritta, e a ricevere '+(d.pec?'le relative ricevute di accettazione e di consegna':'la ricevuta di spedizione e l\'avviso di ricevimento')+', che gli/le saranno trasmesse all\'indirizzo '+coVal('email')+'.\n\nLa presente delega è conferita ai sensi degli articoli 1703 e seguenti del Codice civile, è limitata alla sola trasmissione della comunicazione allegata e non comprende alcun altro potere.\n\nSi allega copia del documento d\'identità del delegante.\n\n'+luogo+', '+oggi+'\n\nFirma del delegante'}
 function coStep2(){var d=window.LETTERA;if(!d.azienda){d.azienda=coVal('azienda')}genLettera();var l=document.getElementById('lettera');l.style.display='none';document.getElementById('azioni').style.display='none';
  document.getElementById('co-txt-l').textContent=l.textContent;document.getElementById('co-txt-d').textContent=coDelega();
  document.getElementById('co-2').hidden=false;document.querySelectorAll('.co-steps li')[1].className='on';document.getElementById('co-2').scrollIntoView({behavior:'smooth',block:'start'});return false}
@@ -430,10 +430,11 @@ TERMINI_HTML = r'''<h1>Termini e condizioni del servizio</h1>
 <p>Ordinando l'invio, il cliente ci conferisce un mandato senza rappresentanza, ai sensi degli articoli 1703 e seguenti del Codice civile, limitato alla trasmissione della comunicazione da lui predisposta. Il cliente dichiara di essere l'intestatario del contratto, o di essere autorizzato ad agire per suo conto, e che i dati forniti sono veritieri.</p>
 <p>Per l'invio il cliente fornisce: la lettera di disdetta firmata, una copia di un documento d'identità in corso di validità e la delega scritta che ci autorizza a trasmettere la comunicazione in suo nome. Questi documenti vengono allegati alla PEC, perché molti operatori li richiedono per accettare una disdetta inviata da un terzo. Alcuni operatori accettano solo comunicazioni firmate digitalmente o inviate dalla casella PEC del titolare: in questi casi lo indichiamo prima dell'ordine e non accettiamo l'incarico.</p>
 <h2>4. Prezzo e pagamento</h2>
-<p>Il prezzo dell'invio è indicato prima dell'ordine, attualmente 7,90 € per lettera. IVA non applicabile, articolo 293 B del Code général des impôts francese (regime di franchigia). Il pagamento avviene online tramite Stripe; non conserviamo i dati della carta.</p>
+<p>Il prezzo dell'invio è indicato prima dell'ordine: attualmente 7,90 € per lettera inviata via PEC e 12,90 € per lettera spedita con raccomandata A/R (stampa, busta, affrancatura e avviso di ricevimento inclusi). IVA non applicabile, articolo 293 B del Code général des impôts francese (regime di franchigia). Il pagamento avviene online tramite Stripe; non conserviamo i dati della carta.</p>
 <h2>5. Esecuzione</h2>
 <p>L'invio avviene di norma entro 2 giorni lavorativi dal ricevimento dei documenti completi (lettera firmata, delega firmata, documento d'identità). Le ricevute PEC di accettazione e di consegna sono inoltrate all'indirizzo e-mail indicato dal cliente non appena disponibili. La ricevuta di consegna attesta che il messaggio è stato consegnato nella casella PEC del destinatario e costituisce prova dell'invio e della data.</p>
 <p><strong>Seguito fino alla conferma.</strong> Le risposte dell'operatore arrivano alla nostra casella PEC. Per 90 giorni dall'invio inoltriamo al cliente ogni risposta ricevuta, entro 2 giorni lavorativi. Se l'operatore chiede un'integrazione (un dato mancante, un modulo proprio, una nuova firma), lo comunichiamo al cliente e, una volta ricevuto quanto richiesto, ritrasmettiamo la disdetta senza costi aggiuntivi. Il seguito termina con la conferma della cessazione da parte dell'operatore, o al più tardi dopo 90 giorni.</p>
+<p><strong>Invio con raccomandata A/R.</strong> Per gli operatori che non indicano una PEC per la disdetta, stampiamo la lettera firmata dal cliente, con la delega e la copia del documento d'identità, e la spediamo con raccomandata con avviso di ricevimento tramite un servizio postale online, entro 24 ore lavorative dal ricevimento dei documenti completi. Il numero di tracciamento e l'avviso di ricevimento sono inoltrati all'indirizzo e-mail del cliente non appena disponibili. I tempi di consegna dipendono dal servizio postale (di norma 4-6 giorni lavorativi). Se la raccomandata non viene spedita entro questo termine per causa a noi imputabile, rimborsiamo integralmente l'importo pagato.</p>
 <h2>6. Cosa non possiamo garantire</h2>
 <p>Il nostro impegno riguarda la corretta trasmissione della disdetta e il seguito descritto sopra; l'esito della disdetta dipende dal contratto e dall'operatore. In particolare non siamo responsabili delle decisioni dell'operatore, dei tempi con cui gestisce la disdetta, di eventuali costi o penali previsti dal contratto del cliente, di una disdetta tardiva rispetto al preavviso contrattuale quando il cliente completa l'ordine o i documenti dopo il termine utile, né delle conseguenze di dati incompleti o errati forniti dal cliente. Se l'operatore accetta la disdetta solo con modalità che non possiamo eseguire per conto del cliente (firma digitale del titolare, invio dalla sua casella PEC personale, presenza in negozio), lo comunichiamo al cliente con le istruzioni per procedere e rimborsiamo l'importo se la PEC non è ancora stata inviata. Le schede informative sono verificate sulle fonti indicate alla data riportata, ma le condizioni degli operatori possono cambiare: in caso di dubbio fa fede il contratto del cliente. Il servizio non costituisce consulenza legale.</p>
 <h2>7. Rimborso</h2>
@@ -540,6 +541,68 @@ def faq_brand(b, cat):
     return q
 
 
+def testi_raccomandata(h, n):
+    """Fiches sans PEC de disdetta : l'offre devient « on spédit la raccomandata A/R pour toi, 12,90 € »."""
+    n = E(n)
+    R = [
+        ('Te la inviamo noi via PEC, 7,90 € →', 'La spediamo noi con raccomandata A/R, 12,90 € →'),
+        ('<li>Senza PEC, senza posta</li><li>Ricevuta con valore legale nella tua e-mail</li><li>Rimborso se non consegnata</li>',
+         '<li>Senza andare in posta</li><li>Avviso di ricevimento nella tua e-mail</li><li>Rimborso se non spedita</li>'),
+        ("Lettera a norma, PEC all\'indirizzo verificato, ricevute nella tua e-mail. Prezzo di lancio 7,90 €.",
+         "Stampiamo la lettera e la spediamo con raccomandata A/R entro 24 ore lavorative. Tracciamento e avviso di ricevimento nella tua e-mail. 12,90 €, tutto incluso."),
+        (f"e in 3 minuti la disdetta parte via PEC all'indirizzo verificato di {n}.",
+         f"e la spediamo noi con raccomandata A/R all'indirizzo di {n} entro 24 ore lavorative, senza andare in posta."),
+        ('<td>Senza PEC</td><td>Stampa, firma, raccomandata A/R in posta: circa 6-7 € e la fila allo sportello</td><td>✓ Non serve</td>',
+         '<td>Andare in posta</td><td>Stampa, busta, raccomandata A/R allo sportello: circa 6-7 € e la fila</td><td>✓ Non serve, la spediamo noi</td>'),
+        ('✓ Ricevute PEC nella tua e-mail', '✓ Tracciamento e avviso di ricevimento nella tua e-mail'),
+        ('Con la PEC la data di invio fa fede da oggi; una raccomandata può impiegare diversi giorni per arrivare.',
+         "Il preavviso parte da quando l'operatore riceve la lettera: prima parte la raccomandata, prima finisce il contratto."),
+        ('<strong>Paghi 7,90 €</strong>', '<strong>Paghi 12,90 €</strong>'),
+        ('<strong>Ricevi le ricevute PEC</strong> di accettazione e consegna nella tua e-mail',
+         '<strong>La spediamo entro 24 ore lavorative</strong>: tracciamento e avviso di ricevimento nella tua e-mail'),
+        ('📬 Ricevute PEC entro 2 giorni lavorativi', '📬 Spedita entro 24 ore lavorative'),
+        ('↩️ Rimborso se la PEC non viene consegnata', '↩️ Rimborso se non viene spedita'),
+        ('Prezzo di lancio 7,90 € fino al 30 novembre 2026, poi 9,90 €.', '12,90 € tutto incluso: stampa, busta e raccomandata A/R con avviso di ricevimento.'),
+        (f"<b>Non hai una PEC?</b><span>La inviamo noi all'indirizzo verificato di {n}, con ricevuta di consegna a valore legale nella tua e-mail, e seguiamo la pratica fino alla conferma. Prezzo di lancio 7,90 € fino al 30 novembre, poi 9,90 €.</span>",
+         f"<b>Non vuoi andare in posta?</b><span>Stampiamo la tua lettera e la spediamo a {n} con raccomandata A/R entro 24 ore lavorative. Tracciamento e avviso di ricevimento nella tua e-mail. 12,90 €, tutto incluso.</span>"),
+        ('oppure facciamo tutto noi via PEC.', 'oppure la spediamo noi con raccomandata A/R.'),
+        ('Te la inviamo noi in PEC con ricevuta legale, in 3 minuti da casa.', 'La spediamo noi con raccomandata A/R entro 24 ore lavorative, senza andare in posta.'),
+        ('Te la inviamo noi, 7,90 € →', 'La spediamo noi, 12,90 € →'),
+        (f"<b>Non hai una PEC?</b><p>Inviamo noi la disdetta a {n} con ricevuta legale. Prezzo di lancio 7,90 € fino al 30 novembre.</p>",
+         f"<b>Non vuoi andare in posta?</b><p>Spediamo noi la disdetta a {n} con raccomandata A/R entro 24 ore lavorative. 12,90 € tutto incluso.</p>"),
+        ('Non hai una casella PEC? Leggi <a href="/guide/inviare-pec-senza-casella/">come inviare una PEC senza averne una</a>.',
+         'Non vuoi andare in posta? La spediamo noi con raccomandata A/R, 12,90 € tutto incluso.'),
+        ('Inviala ora via PEC, 7,90 € →', 'Spediscila ora, 12,90 € →'),
+        ('Inviala oggi via PEC, 7,90 €', 'Spediscila oggi, 12,90 €'),
+        ('Disdici oggi via PEC, 7,90 €', 'Spediscila oggi, 12,90 €'),
+        ('Invia via PEC, 7,90 € →', 'Spediscila per me, 12,90 € →'),
+        ('Invia via PEC, 7,90 €', 'Spediscila per me, 12,90 €'),
+        ('Invia via PEC →', 'Spediscila per me →'),
+        ('https://buy.stripe.com/14AcN41JJ3oBcFB1kI2B200', 'https://buy.stripe.com/14AaEWbkjgbn8pl3sQ2B201'),
+        ('La inviamo noi via PEC con ricevuta legale in 3 minuti, oppure prepari tu la lettera gratis.', 'La spediamo noi con raccomandata A/R entro 24 ore lavorative, oppure prepari tu la lettera gratis.'),
+        ('<i>✓</i>7,90 €: il prezzo più basso tra i servizi di disdetta via PEC', '<i>✓</i>12,90 € tutto incluso: stampa, busta e raccomandata'),
+        ('<i>✓</i>Invio PEC entro 2 giorni lavorativi', '<i>✓</i>Raccomandata spedita entro 24 ore lavorative'),
+        ('<i>✓</i>La PEC vale come una raccomandata A/R', '<i>✓</i>Avviso di ricevimento nella tua e-mail'),
+        ('<i>✓</i>Rimborso se la PEC non viene consegnata', '<i>✓</i>Rimborso se la raccomandata non viene spedita'),
+        ('<h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><p class="launch"><b>Prezzo di lancio</b> fino al 30 novembre 2026, poi 9,90 €. <span class="cd" data-cd="2026-11-30"></span></p>',
+         '<h3>La spediamo noi con raccomandata A/R</h3><div class="price">12,90 € <small>tutto incluso</small></div>'),
+        ("<li>Inviata in PEC all'indirizzo verificato dell'operatore</li><li>Ricevuta di consegna con valore legale, inviata alla tua e-mail</li>",
+         "<li>Stampata, imbustata e spedita con raccomandata A/R all'indirizzo verificato</li><li>Tracciamento e avviso di ricevimento nella tua e-mail</li>"),
+        ('<li>Non serve avere una PEC né andare in posta</li><li>Rimborso completo se la PEC non viene consegnata</li>',
+         '<li>Non devi stampare né andare in posta</li><li>Rimborso completo se la raccomandata non viene spedita</li>'),
+        ('<li>La invii tu dalla tua casella PEC o con raccomandata in posta</li>', '<li>La invii tu con raccomandata A/R in posta</li>'),
+        ('La ricevuta PEC ha lo stesso valore di una raccomandata A/R.', "L'avviso di ricevimento prova la data di consegna della disdetta."),
+        ("Inviamo la PEC</b> all'indirizzo verificato e ti giriamo le ricevute di accettazione e consegna, entro 2 giorni lavorativi.",
+         "Spediamo la raccomandata A/R</b> all'indirizzo verificato entro 24 ore lavorative e ti giriamo tracciamento e avviso di ricevimento."),
+        ('RICEVUTA LEGALE • PEC CERTIFICATA • ', 'AVVISO DI RICEVIMENTO • RACCOMANDATA A/R • '),
+    ]
+    for a, b in R:
+        h = h.replace(a, b)
+    h = re.sub(r'<p class="legale">⚖️ <b class="inl">Valore legale:</b>.*?</p>',
+               f'<p class="legale">⚖️ <b class="inl">Valore legale:</b> la raccomandata con avviso di ricevimento prova la data in cui {n} ha ricevuto la disdetta: è il mezzo indicato da {n}.</p>', h, flags=re.S)
+    h = re.sub(r'<p class="legale" style="margin-top:6px">🏷️ Il prezzo più basso.*?</p>', '', h, flags=re.S)
+    return h
+
 def brand_page(b, peers):
     cat = CATEGORIE[b["categoria"]]; n = b["nome"]; path = f"/disdetta-{b['slug']}/"
     lettera = bool(b.get("pec") or b.get("indirizzo_postale")) or b["categoria"] == "palestre"
@@ -573,7 +636,8 @@ def brand_page(b, peers):
     verif = data_it(b["data_verifica"]); uff = b.get("affidabilita") == "ufficiale"
     ref = re.sub(r"[^A-Za-z0-9_-]+", "-", n).strip("-")[:60]
     sl = E(b["slug"])
-    stripe = "https://buy.stripe.com/14AcN41JJ3oBcFB1kI2B200?locale=it&client_reference_id=" + ref + ""
+    racc = lettera and not b.get("pec")  # pas de PEC de disdetta : on spédit une raccomandata A/R (12,90 €)
+    stripe = ("https://buy.stripe.com/14AaEWbkjgbn8pl3sQ2B201" if racc else "https://buy.stripe.com/14AcN41JJ3oBcFB1kI2B200") + "?locale=it&client_reference_id=" + ref
     _can = " ".join(b.get("canali", [])).lower()
     facile = ("pulsante di disdetta online: sì" in _can) or ("online (" in _can) or ("e-mail ordinaria" in _can)
     assic = b["categoria"] == "assicurazioni"
@@ -693,7 +757,8 @@ def brand_page(b, peers):
     if lettera:
         body += f'<section class="band"><h2>Disdici {E(n)} oggi</h2><p>Te la inviamo noi in PEC con ricevuta legale, in 3 minuti da casa. Oppure prepari la lettera gratis.</p><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Te la inviamo noi, 7,90 € →</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></section>'
     sticky = f'<aside class="slidein" id="slidein" hidden><button class="x" type="button" aria-label="Chiudi" onclick="chiudiSlide()">×</button><b>Non hai una PEC?</b><p>Inviamo noi la disdetta a {E(n)} con ricevuta legale. Prezzo di lancio 7,90 € fino al 30 novembre.</p><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC →</a><small>↩️ Rimborso se non consegnata · 🔒 Stripe</small></aside><div class="sticky two"><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></div>' if lettera else ''
-    write(path, page(title, desc, path, body, schema, sticky))
+    html_ = page(title, desc, path, body, schema, sticky)
+    write(path, testi_raccomandata(html_, n) if racc else html_)
     return path
 
 
