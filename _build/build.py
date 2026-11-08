@@ -624,6 +624,14 @@ def brand_page(b, peers):
     if len(desc) > 160:
         desc = (f"Come disdire {breve}: PEC, raccomandata, preavviso e costi verificati. Genera gratis la lettera di disdetta pronta da inviare."
                 if lettera else f"Come annullare {breve} senza lettere: preavviso, costi e cosa succede dopo, verificato sulle fonti ufficiali.")
+    # 08/11 : beaucoup de recherches tapent l'adresse PEC elle-même (« allianzdirect@pec.allianzdirect.it ») : on la met dans la description
+    if b.get("pec"):
+        for cand in (f"PEC per la disdetta {n}: {b['pec']}. Indirizzo verificato sulle fonti ufficiali, preavviso, costi e lettera gratis pronta da inviare.",
+                     f"PEC per la disdetta {breve}: {b['pec']}. Indirizzo verificato, preavviso, costi e lettera gratis pronta da inviare.",
+                     f"PEC disdetta {breve}: {b['pec']}. Verificata sulle fonti ufficiali, con lettera gratis pronta."):
+            if len(cand) <= 160:
+                desc = cand
+                break
     facts = []
     if b.get("pec"): facts.append(("PEC", f'<span class="pec">{E(b["pec"])}</span>'))
     if b.get("indirizzo_postale"): facts.append(("Raccomandata A/R", E(b["indirizzo_postale"])))
