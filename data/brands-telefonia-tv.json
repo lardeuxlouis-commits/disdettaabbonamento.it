@@ -13,7 +13,7 @@
       "PEC",
       "raccomandata A/R",
       "modulo online (mobile, su tim.it con autenticazione)",
-      "pulsante di disdetta online: sì, da MyTIM"
+      "modulo online in MyTIM (linea fissa)"
     ],
     "preavviso": "30 giorni (TIM gestisce la richiesta entro 30 giorni dalla ricezione)",
     "costi": "Costo di cessazione previsto dalla Carta dei Servizi / trasparenza tariffaria; eventuali rate residue di apparati e modem",
@@ -26,7 +26,7 @@
       "https://www.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/assistenza/moduli/mobile/2_clienti_abbonamento/cessazione-contratto-abbonamento.pdf"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
+    "data_verifica": "2026-11-10"
   },
   {
     "nome": "Vodafone",

@@ -437,7 +437,7 @@
   "pec": "",
   "indirizzo_postale": "",
   "canali": [
-   "meetic.it > Il mio account > Il mio abbonamento > Disdici il rinnovo automatico (pulsante online)",
+   "meetic.it da computer: Impostazioni del mio account > Gestire l'abbonamento (pulsante online di disdetta del rinnovo automatico)",
    "Impostazioni abbonamenti iPhone (App Store) / Google Play se acquistato tramite app",
    "Modulo di contatto e-mail dal centro assistenza meetic.it/faq (per il recesso entro 14 giorni)"
   ],
@@ -446,11 +446,12 @@
   "modulo": "",
   "note": "Sospendere o cancellare il profilo non disdice il rinnovo automatico: bisogna disattivarlo nella sezione abbonamento. Società: Meetic SAS, 53 rue de Châteaudun, Parigi (sede legale, non indicata come recapito per la disdetta).",
   "fonti": [
-   "https://www.aranzulla.it/come-disdire-abbonamento-meetic-1555761.html",
-   "https://www.agcm.it/dotcmsDOC/allegati-news/PS10187_finale.pdf (provvedimento AGCM, letto solo da estratto di ricerca)"
+   "https://www.meetic.it/faq/abbonamento-e-funzionalita-a-pagamento/come-faccio-a-disdire-il-rinnovo-automatico/",
+   "https://www.meetic.it/faq/abbonamento-e-funzionalita-a-pagamento/voglio-chiudere-il-mio-abbonamento-cosa-devo-fare/",
+   "https://www.agcm.it/dotcmsDOC/allegati-news/PS10187_finale.pdf"
   ],
-  "affidabilita": "secondaria",
-  "data_verifica": "2026-10-26"
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-11-10"
  },
  {
   "nome": "Tinder",

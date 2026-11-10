@@ -5,7 +5,11 @@
     "categoria": "altri-servizi",
     "pec": "",
     "indirizzo_postale": "De Agostini Publishing S.p.A., Via Giovanni da Verrazano 15, 28100 Novara (NO)",
-    "canali": ["area personale", "modulo online di recesso", "raccomandata A/R"],
+    "canali": [
+      "area personale",
+      "modulo online di recesso",
+      "raccomandata A/R"
+    ],
     "preavviso": "Per le collezioni a distanza il recesso è esercitabile entro 14 giorni dal ricevimento della prima spedizione. Dopo questo termine si può interrompere la collezione per i numeri successivi tramite il Servizio Clienti, indicando il numero di contratto. Le condizioni particolari della singola collezione prevalgono sulle condizioni generali.",
     "costi": "Nessun costo per l'esercizio del recesso nei 14 giorni. In caso di interruzione successiva, i numeri già spediti o in corso di spedizione restano dovuti.",
     "modulo": "https://www.deagostini.com/it/myarea/p/withdraw",
@@ -23,7 +27,12 @@
     "categoria": "altri-servizi",
     "pec": "",
     "indirizzo_postale": "Hachette Fascicoli S.r.l., Servizio Clienti, Via Morandi 24, 21047 Saronno (VA). Sede legale: Via Melchiorre Gioia 61, 20124 Milano",
-    "canali": ["modulo di recesso", "e-mail", "lettera", "telefono"],
+    "canali": [
+      "modulo di recesso",
+      "e-mail",
+      "lettera",
+      "telefono"
+    ],
     "preavviso": "Recesso entro 14 giorni dal ricevimento del prodotto (artt. 52 e seguenti del Codice del Consumo). La collezione si può interrompere in qualsiasi momento contattando il Servizio Clienti con il numero di contratto: l'effetto decorre dal primo giorno lavorativo successivo alla richiesta.",
     "costi": "Nessuna penale per l'interruzione. Per il recesso i prodotti vanno restituiti integri e non aperti, all'indirizzo del Servizio Clienti di Saronno.",
     "modulo": "https://www.hachette.it/modulo-di-recesso/",
@@ -43,7 +52,11 @@
     "categoria": "altri-servizi",
     "pec": "",
     "indirizzo_postale": "NortonLifeLock Member Services & Support, PO Box 5698, Dublin 15, Ireland (società contraente: NortonLifeLock Ireland Limited, Ballycoolin Business Park, Blanchardstown, Dublino 15, Irlanda)",
-    "canali": ["area personale", "assistenza clienti", "lettera"],
+    "canali": [
+      "area personale",
+      "assistenza clienti",
+      "lettera"
+    ],
     "preavviso": "L'abbonamento si rinnova automaticamente. Per evitare l'addebito bisogna disattivare il rinnovo prima della data di fatturazione. L'abbonamento resta attivo fino alla fine del periodo già pagato.",
     "costi": "Nessuna penale. Garanzia soddisfatti o rimborsati di 60 giorni per gli abbonamenti annuali (acquisto e ogni rinnovo annuale). Recesso legale di 14 giorni per i consumatori dalla e-mail di conferma d'ordine, con rimborso entro 14 giorni.",
     "modulo": "",
@@ -61,7 +74,10 @@
     "categoria": "altri-servizi",
     "pec": "",
     "indirizzo_postale": "McAfee Ireland Limited, Waterfront Square, 1 Horgans Quay, Cork, T23 PPT8, Irlanda",
-    "canali": ["area personale", "assistenza clienti"],
+    "canali": [
+      "area personale",
+      "assistenza clienti"
+    ],
     "preavviso": "Il rinnovo automatico si disattiva dal proprio account (Il mio account, Account, Impostazioni rinnovo automatico) o contattando l'Assistenza clienti. McAfee invia un'e-mail di avviso prima del rinnovo e addebita fino a 30 giorni prima della scadenza: conviene disattivare il rinnovo prima di quel momento.",
     "costi": "Nessuna penale. Rimborso richiedibile entro 30 giorni dall'acquisto iniziale o entro 60 giorni da un rinnovo automatico (abbonamenti di un anno o più).",
     "modulo": "",
@@ -79,7 +95,11 @@
     "categoria": "altri-servizi",
     "pec": "",
     "indirizzo_postale": "",
-    "canali": ["area personale My Kaspersky", "assistenza clienti", "e-mail al rivenditore ufficiale"],
+    "canali": [
+      "area personale My Kaspersky",
+      "assistenza clienti",
+      "e-mail al rivenditore ufficiale"
+    ],
     "preavviso": "L'abbonamento si rinnova automaticamente alla fine di ogni periodo finché non viene annullato. Annullare prima della data del pagamento successivo: la fatturazione automatica avviene circa due settimane prima della fine del periodo in corso.",
     "costi": "Nessuna penale. L'annullamento ferma i pagamenti futuri ma non rimborsa quelli già fatti. Rimborso richiedibile entro 30 giorni dall'ordine (rivenditore Nexway) o entro 14 giorni (rivenditore 2Checkout), anche per il rinnovo automatico.",
     "modulo": "https://www.kaspersky.it/cancellation",
@@ -98,7 +118,11 @@
     "categoria": "tv-streaming",
     "pec": "",
     "indirizzo_postale": "Deezer SA, Service Clientèle, 24 rue de Calais, 75009 Parigi, Francia",
-    "canali": ["area personale", "assistenza clienti online", "lettera"],
+    "canali": [
+      "area personale",
+      "assistenza clienti online",
+      "lettera"
+    ],
     "preavviso": "Disdetta in qualsiasi momento dal proprio account (Impostazioni dell'account, Gestisci il mio abbonamento, Annulla l'abbonamento). Ha effetto a fine periodo se la richiesta è inviata almeno 48 ore prima della scadenza. Altrimenti l'abbonamento si rinnova automaticamente per una durata identica.",
     "costi": "Nessuna penale. Il mese già pagato non viene rimborsato: l'accesso Premium resta fino a fine periodo.",
     "modulo": "",
@@ -117,7 +141,10 @@
     "categoria": "tv-streaming",
     "pec": "",
     "indirizzo_postale": "",
-    "canali": ["area personale", "assistenza clienti online"],
+    "canali": [
+      "area personale",
+      "assistenza clienti online"
+    ],
     "preavviso": "L'abbonamento si rinnova automaticamente. Si annulla dalle impostazioni dell'account su crunchyroll.com; l'accesso resta fino alla fine del periodo già pagato.",
     "costi": "Nessuna penale. L'annullamento del rinnovo non rimborsa di norma gli addebiti già effettuati.",
     "modulo": "",
@@ -135,7 +162,12 @@
     "categoria": "altri-servizi",
     "pec": "",
     "indirizzo_postale": "PE Digital GmbH, Servizio Assistenza Clienti Parship Italia, Speersort 10, 20095 Amburgo, Germania",
-    "canali": ["area personale", "e-mail", "lettera", "modulo online di recesso"],
+    "canali": [
+      "area personale",
+      "e-mail",
+      "lettera",
+      "modulo online di recesso"
+    ],
     "preavviso": "La disdetta dell'iscrizione Premium è possibile fino a 7 giorni prima della fine della durata scelta. In mancanza, il contratto si proroga automaticamente per la durata e al costo indicati nella conferma d'ordine. L'iscrizione di base gratuita si cancella in qualsiasi momento con effetto immediato.",
     "costi": "Nessuna penale di disdetta, ma se si perde il termine di 7 giorni si paga il periodo di proroga. I beni virtuali non utilizzati non vengono rimborsati. Recesso legale entro 14 giorni dalla conclusione del contratto con rimborso entro 14 giorni.",
     "modulo": "https://www.parship.it/static_cms/parship/static/Downloads/Modulo-di-recesso-tipo-IT.pdf",
@@ -153,17 +185,20 @@
     "categoria": "altri-servizi",
     "pec": "disdette@pec-italiaonline.it",
     "indirizzo_postale": "Italiaonline S.p.A., Via del Bosco Rinnovato 8, Palazzo U4, 20057 Assago (MI)",
-    "canali": ["PEC", "raccomandata A/R", "e-mail"],
+    "canali": [
+      "PEC",
+      "raccomandata A/R"
+    ],
     "preavviso": "Alla scadenza della durata iniziale il contratto si rinnova automaticamente per periodi di 12 mesi, salvo disdetta inviata con raccomandata A/R o PEC almeno 45 giorni prima della scadenza (della durata iniziale o di ogni rinnovo). Conta la data di ricezione. Le condizioni particolari del singolo servizio possono prevedere regole diverse.",
     "costi": "Nessuna penale scritta nelle condizioni generali per la disdetta nei termini. Se la disdetta arriva in ritardo il contratto si rinnova per altri 12 mesi e il canone resta dovuto.",
     "modulo": "",
-    "note": "Per le condizioni generali le comunicazioni a Italiaonline vanno a: posta all'indirizzo di Assago, e-mail info@italiaonline.it, PEC disdette@pec-italiaonline.it. Per avere prova certa usa la PEC o la raccomandata A/R, non la sola e-mail, e inviala con largo anticipo sui 45 giorni. Indica codice cliente, partita IVA e servizio da disdire. I contratti sono di norma B2B: il recesso di 14 giorni dei consumatori non si applica a professionisti.",
+    "note": "Per le condizioni generali le comunicazioni a Italiaonline vanno a: posta all'indirizzo di Assago o PEC. Le condizioni generali (art. 5.2) ammettono per la disdetta solo la raccomandata A/R o la PEC: invia e inviala con largo anticipo sui 45 giorni. Indica codice cliente, partita IVA e servizio da disdire. I contratti sono di norma B2B: il recesso di 14 giorni dei consumatori non si applica a professionisti.",
     "fonti": [
-      "https://www.italiaonline.it/wp-content/plugins/iol-customize/docs/condizioni_generali_di_servizio_e_privacy.pdf",
+      "https://www.italiaonline.it/basket/docs/condizioni_generali_di_servizio_e_privacy.pdf",
       "https://www.italiaonline.it/contatti/"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-10"
   },
   {
     "nome": "Aruba (hosting, domini e servizi)",
@@ -171,7 +206,12 @@
     "categoria": "altri-servizi",
     "pec": "recessi@aruba.pec.it",
     "indirizzo_postale": "Aruba S.p.A., Loc. Palazzetto 4, 52011 Bibbiena (AR). Sede legale: Via San Clemente 53, 24036 Ponte San Pietro (BG)",
-    "canali": ["PEC", "raccomandata A/R", "richiesta di assistenza sul sito", "modulo sul sito"],
+    "canali": [
+      "PEC",
+      "raccomandata A/R",
+      "richiesta di assistenza sul sito",
+      "modulo sul sito"
+    ],
     "preavviso": "Contratto a tempo determinato, con la durata indicata nel modulo d'ordine. Il consumatore può recedere entro 14 giorni dal perfezionamento del contratto. In ogni momento si può recedere dal singolo servizio senza penali: il recesso ha effetto entro 30 giorni dalla ricezione della comunicazione. Per non rinnovare, disattiva il rinnovo automatico dal pannello di controllo prima della scadenza.",
     "costi": "Nessuna penale per il recesso. Nei 14 giorni Aruba rimborsa i pagamenti entro 14 giorni dalla comunicazione, con lo stesso mezzo di pagamento. Dopo i 14 giorni i canoni già pagati per il periodo in corso non sono rimborsati salvo quanto previsto dalle condizioni particolari del servizio.",
     "modulo": "",
