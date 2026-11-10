@@ -284,7 +284,8 @@ function genLettera(){
   t+='I dati personali contenuti nella presente sono comunicati al solo fine di dare esecuzione al recesso, ai sensi del Regolamento (UE) 2016/679.\n\n';
   t+='Si allega copia di un documento di identità in corso di validità.\n\nDistinti saluti.\n\n'+nome+'\n\n____________________\n(firma)';
   const el=document.getElementById('lettera'); el.textContent=t; el.style.display='block';
-  document.getElementById('azioni').style.display='block'; el.scrollIntoView({behavior:'smooth',block:'start'});if(typeof upsell==='function')setTimeout(upsell,1200);var rc=document.getElementById('ricevi');if(rc&&rc.checked&&/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(mail)){var bx=document.getElementById('ricevi-box');inviaLettera(mail,'',function(s){if(!bx)return;var ok=bx.querySelector('.ricevi-ok');ok.hidden=false;ok.textContent=s?'✓ Lettera inviata a '+mail+' (controlla anche lo spam).':'Invio non riuscito, riprova qui sotto.';if(s)bx.querySelector('form').hidden=true;else bx.querySelector('input[type=email]').value=mail;});}else{var bi=document.querySelector('#ricevi-box input[type=email]');if(bi&&mail)bi.value=mail;}
+  var az=document.getElementById('azioni');if(window.AZIONI&&!az.dataset.ok){az.innerHTML=window.AZIONI;az.dataset.ok='1';try{var s0=sessionStorage.getItem('src');if(s0){var tg='-'+s0.replace(/[^a-z0-9]/gi,'').slice(0,12);az.querySelectorAll('a[href*="buy.stripe.com"]').forEach(function(a){if(a.href.indexOf('client_reference_id=')>-1&&a.href.indexOf(tg)===-1)a.href+=tg})}}catch(e){}}
+  az.style.display='block'; el.scrollIntoView({behavior:'smooth',block:'start'});if(typeof upsell==='function')setTimeout(upsell,1200);var rc=document.getElementById('ricevi');if(rc&&rc.checked&&/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(mail)){var bx=document.getElementById('ricevi-box');inviaLettera(mail,'',function(s){if(!bx)return;var ok=bx.querySelector('.ricevi-ok');ok.hidden=false;ok.textContent=s?'✓ Lettera inviata a '+mail+' (controlla anche lo spam).':'Invio non riuscito, riprova qui sotto.';if(s)bx.querySelector('form').hidden=true;else bx.querySelector('input[type=email]').value=mail;});}else{var bi=document.querySelector('#ricevi-box input[type=email]');if(bi&&mail)bi.value=mail;}
   return false;
 }
 function calcScad(f,gg){try{var v=f.d.value;if(!v)return false;var sc=new Date(v+'T12:00:00');var lim=new Date(sc);lim.setDate(lim.getDate()-gg);var oggi=new Date();oggi.setHours(12,0,0,0);var diff=Math.round((lim-oggi)/86400000);var fmt=function(d){return d.toLocaleDateString('it-IT',{day:'numeric',month:'long',year:'numeric'})};var o=f.querySelector('.dlout');
@@ -507,6 +508,17 @@ COMPLETA_HTML = """<section class="hero small"><span class="pill"><b>✓</b> Pag
 <div id="co-up"></div>
 <p class="co-after">Riceverai le ricevute PEC di accettazione e di consegna nella tua e-mail entro 2 giorni lavorativi dal ricevimento dei documenti. Poi seguiamo la pratica: ogni risposta dell'operatore ti viene inoltrata, fino alla conferma della cessazione. Problemi? Scrivi a <a href="mailto:info@disdettaabbonamento.it">info@disdettaabbonamento.it</a>.</p></section>"""
 
+COME_FUNZIONA_EXTRA = ('<div class="costi"><b>Quanto costa inviare una disdetta?</b><table><tr><td>Raccomandata A/R</td><td>circa 6-7 € + coda allo sportello</td></tr>'
+    '<tr><td>PEC personale</td><td>serve una casella PEC attiva, di solito a pagamento</td></tr>'
+    '<tr class="noi"><td>Te la inviamo noi</td><td><b>7,90 €</b> via PEC, oppure 12,90 € con raccomandata A/R quando l\'operatore non ha una PEC</td></tr></table></div>'
+    + PLANS.replace("{BRAND_REF}", "come-funziona").replace('href="#lettera-disdetta"', 'href="/#cerca"') +
+    '<h2>Che cosa ricevi dopo l\'invio</h2><div class="ricevuta"><span class="es">ESEMPIO</span>'
+    '<b>POSTA CERTIFICATA: Avvenuta consegna</b><p>Il giorno 03/11/2026 alle ore 10:42:17 il messaggio «Disdetta contratto n. 123456» '
+    'proveniente da «invio@...» ed indirizzato a «disdette@pec.operatore.it» è stato consegnato nella casella di destinazione.</p>'
+    '<small>Questa ricevuta ha valore legale: prova la data esatta in cui l’operatore ha ricevuto la tua disdetta. La ricevi nella tua e-mail.</small></div>'
+    '<p>Chi c’è dietro? <a href="/chi-siamo/">Louis, il fondatore</a> · <a href="/termini/">Rimborso se la PEC non viene consegnata</a></p>')
+
+
 def page(title, desc, path, body, schema=None, sticky="", noindex=False, extra_head=""):
     canon = DOMAIN + path
     bodycls = ' class="has-sticky"' if sticky else ""
@@ -544,6 +556,25 @@ def write(path, content):
     full = os.path.join(OUT, path.strip("/"), "index.html") if not path.endswith(".html") else os.path.join(OUT, path.strip("/"))
     os.makedirs(os.path.dirname(full), exist_ok=True)
     open(full, "w", encoding="utf-8").write(content)
+
+
+_sk = os.path.join(ROOT, "data", "schede.json")
+SCHEDE = json.load(open(_sk, encoding="utf-8")) if os.path.exists(_sk) else {}
+# Sections propres à chaque marque (data/schede.json) : (champ, titre). Rien n'est affiché si le champ est vide.
+PRIMA = [("online", "Disdire {n} online o dall'app"), ("dati_lettera", "I dati da indicare nella disdetta {n}")]
+DOPO = [("tempi_e_dopo", "Cosa succede dopo la disdetta {n}"), ("costi_dettaglio", "Quanto costa disdire {n}, nel dettaglio"),
+        ("vincoli", "Durata, rinnovo e vincoli con {n}"), ("alternative", "Alternative alla disdetta {n}"),
+        ("assistenza", "Contattare l'assistenza {n}"), ("errori", "Errori da evitare con {n}")]
+
+
+def scheda_sez(sc, n, sezioni):
+    h = ""
+    for k, t in sezioni:
+        v = sc.get(k)
+        if not v: continue
+        h += f"<h2>{E(t.replace('{n}', n))}</h2>"
+        h += ('<ul class="canali">' + "".join(f"<li>{E(x)}</li>" for x in v) + "</ul>") if isinstance(v, list) else f"<p>{E(v)}</p>"
+    return h
 
 
 def faq_brand(b, cat):
@@ -625,6 +656,7 @@ def testi_raccomandata(h, n):
 
 def brand_page(b, peers):
     cat = CATEGORIE[b["categoria"]]; n = b["nome"]; path = f"/disdetta-{b['slug']}/"
+    sc = SCHEDE.get(b["slug"], {})
     lettera = bool(b.get("pec") or b.get("indirizzo_postale")) or b["categoria"] == "palestre"
     anno = TODAY[:4]
     title = f"Disdetta {n}: PEC, indirizzo e modulo ({anno})" if lettera else f"Disdetta {n}: come annullare l'abbonamento ({anno})"
@@ -673,8 +705,6 @@ def brand_page(b, peers):
     body += f'<p class="crumbs"><a href="/">Home</a> › <a href="/{cat["slug"]}/">{E(cat["nome"])}</a> › {E(n)}</p>'
     body += f'<span class="pill">{"<b>✓</b> Verificato su fonte ufficiale" if uff else "Verificato su fonti di settore"} · {verif}</span>'
     body += f"<h1>Disdetta {E(n)}: <em>{'PEC, indirizzo e lettera pronta' if lettera else 'come annullare in pochi clic'}</em></h1>"
-    body += (f'<p class="lead">Dove inviare la disdetta, con quale preavviso e quanto costa. La inviamo noi via PEC con ricevuta legale in 3 minuti, oppure prepari tu la lettera gratis.</p>'
-             if lettera else f'<p class="lead">{E(n)} si disdice online, senza lettere. Ecco i passaggi, il preavviso e cosa succede dopo.</p>')
     # Bloc réponse directe, lisible d'un coup d'œil par Google, les IA et l'appelant pressé
     parti = []
     if not b.get("pec") and not b.get("indirizzo_postale") and b.get("canali"):
@@ -688,54 +718,34 @@ def brand_page(b, peers):
         body += f'<p class="inbreve"><b>In breve.</b> Per disdire {E(n)}: ' + "; ".join(parti) + f'. Verificato il {verif} su {"fonte ufficiale" if uff else "fonti di settore"}.</p>'
     if lettera:
         body += f'<a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Te la inviamo noi via PEC, 7,90 € →</a><a class="btn sec" href="#lettera-disdetta">Preferisco la lettera gratis</a>'
-    body += '<ul class="chips"><li>Senza PEC, senza posta</li><li>Ricevuta con valore legale nella tua e-mail</li><li>Rimborso se non consegnata</li><li>Lettera gratis se preferisci</li></ul><p class="proof" data-proof="' + sl + '" hidden></p></section>'
+    body += '<p class="proof" data-proof="' + sl + '" hidden></p></section>'
     if b.get("pec"):
-        offerta = (f'<span class="pecoffer"><b>Non hai una PEC?</b> Senza una casella PEC non puoi scrivere a questo indirizzo. '
-                   f'<a href="{stripe}" rel="nofollow" data-pec>La inviamo noi per te in 3 minuti, 7,90 € →</a></span>') if lettera else ""
-        facts[0] = ("PEC", f'<span class="pec">{E(b["pec"])}</span> <button class="copy" type="button" onclick="copiaPec(this,\'{E(b["pec"])}\')">Copia</button>{offerta}')
+        facts[0] = ("PEC", f'<span class="pec">{E(b["pec"])}</span> <button class="copy" type="button" onclick="copiaPec(this,\'{E(b["pec"])}\')">Copia</button>')
     dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in facts)
     body += f'<div class="rv box" id="dati"><h2>Disdetta {E(n)} in breve</h2><dl class="facts">{dl}</dl></div>'
     gg = re.search(r"(\d+)\s*giorni", b.get("preavviso", "") or "")
     if lettera and gg and assic:
-        body += (f'<div class="urg rv urg-ass"><span class="ic">⏰</span><span><b>Quando scade la tua polizza?</b><p>Per non farla rinnovare, la disdetta deve arrivare a {E(n)} almeno {gg.group(1)} giorni prima della scadenza. Dopo quella data la polizza può rinnovarsi per un altro anno.</p>'
-                 f'<form class="dl" onsubmit="return calcScad(this,{gg.group(1)})"><label for="dl-{sl}">Inserisci la data di scadenza della polizza (la trovi sul contratto o sull\'avviso di scadenza)</label><div class="dlrow"><input type="date" id="dl-{sl}" name="d" required><button class="btn sec" type="submit">Calcola</button></div><p class="dlout" aria-live="polite"></p></form></span>'
-                 f'<div class="urgbtns"><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Inviala oggi via PEC, 7,90 €</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></div></div>')
+        body += (f'<div class="urg rv urg-ass"><span class="ic">⏰</span><span><b>Quando scade la tua polizza?</b><p>La disdetta deve arrivare a {E(n)} almeno {gg.group(1)} giorni prima della scadenza, altrimenti la polizza può rinnovarsi per un altro anno.</p>'
+                 f'<form class="dl" onsubmit="return calcScad(this,{gg.group(1)})"><label for="dl-{sl}">Inserisci la data di scadenza della polizza (la trovi sul contratto o sull\'avviso di scadenza)</label><div class="dlrow"><input type="date" id="dl-{sl}" name="d" required><button class="btn sec" type="submit">Calcola</button></div><p class="dlout" aria-live="polite"></p></form></span></div>')
     elif lettera and gg:
-        body += f'<div class="urg rv"><span class="ic">⏰</span><span><b>Se invii oggi, il contratto termina il <span id="scad" data-giorni="{gg.group(1)}">…</span></b><p>Con {gg.group(1)} giorni di preavviso ogni giorno di attesa sposta la fine del contratto. Aspettare una settimana vuol dire pagare fino al <span id="scad2">…</span>, spesso un mese in più.</p><form class="dl" onsubmit="return calcScad(this,{gg.group(1)})"><label for="dl-{sl}">Hai una scadenza precisa? Inserisci la data di scadenza o di rinnovo del contratto</label><div class="dlrow"><input type="date" id="dl-{sl}" name="d" required><button class="btn sec" type="submit">Calcola</button></div><p class="dlout" aria-live="polite"></p></form></span><div class="urgbtns"><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Disdici oggi via PEC, 7,90 €</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></div></div>'
+        body += f'<div class="urg rv"><span class="ic">⏰</span><span><b>Se invii oggi, il contratto termina il <span id="scad" data-giorni="{gg.group(1)}">…</span></b><p>Se aspetti una settimana, paghi fino al <span id="scad2">…</span>.</p><form class="dl" onsubmit="return calcScad(this,{gg.group(1)})"><label for="dl-{sl}">Hai una scadenza precisa? Inserisci la data di scadenza o di rinnovo del contratto</label><div class="dlrow"><input type="date" id="dl-{sl}" name="d" required><button class="btn sec" type="submit">Calcola</button></div><p class="dlout" aria-live="polite"></p></form></span></div>'
 
     ap = APPROF.get(b["slug"])
     if ap and ap.get("testo"):
         body += f'<h2>Cosa sapere su {E(n)}</h2><p class="approf">{E(ap["testo"])}</p>'
     if b.get("note"):
         body += f'<div class="note"><strong>Da sapere.</strong> {E(b["note"])}</div>'
-    if lettera:
-        body += f'<h2>Come disdire {E(n)} in 3 passaggi</h2><div class="rv steps"><div class="step"><div class="n">1</div><h3>Compila la lettera</h3><p>Nome, indirizzo e codice cliente: la lettera si genera qui sotto.</p></div><div class="step"><div class="n">2</div><h3>Firma e allega il documento</h3><p>Aggiungi la firma e una copia del documento d\'identità.</p></div><div class="step"><div class="n">3</div><h3>Invia {"via PEC" if b.get("pec") else "con raccomandata A/R"}</h3><p>All\'indirizzo indicato sopra. Conserva la ricevuta: è la prova della data.</p></div></div>'
+    body += scheda_sez(sc, n, PRIMA[:1])
     body += f"<h2>Tutti i canali per disdire {E(n)}</h2><ul class=\"canali\">{canali}</ul>"
-    if lettera:
-        body += f'<div class="ctabar rv"><span><b>Vuoi che ce ne occupiamo noi?</b> Lettera a norma, PEC all\'indirizzo verificato, ricevute nella tua e-mail. Prezzo di lancio 7,90 €.</span><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC →</a></div>'
+    body += scheda_sez(sc, n, PRIMA[1:])
     if lettera:
         via = "PEC" if b.get("pec") else "raccomandata A/R"
-        scelta = ""
-        if b.get("pec"):
-            domanda = (f'<b>Puoi disdire {E(n)} anche dai suoi canali online</b>, ma solo la PEC o la raccomandata ti lasciano una prova con valore legale della data, utile se la disdetta viene contestata o ti arrivano altri addebiti. Come preferisci procedere?'
-                       if facile else f'<b>Per disdire {E(n)} con una prova della data serve una PEC</b> oppure una raccomandata A/R in posta. Come preferisci procedere?')
-            tag = "La prova più sicura" if facile else "Consigliato se non hai una PEC"
-            scelta = (f'<div class="scelta" id="scelta"><p class="sc-q">{domanda}</p><div class="sc-grid">'
-                f'<div class="sc pro"><span class="tag">{tag}</span><h3>Te la inviamo noi via PEC</h3><div class="price">7,90 € <small>una tantum</small></div><ul><li>✓ Non serve avere una PEC né andare in posta</li><li>✓ Ricevuta con valore legale nella tua e-mail: la prova della data</li><li>✓ Seguiamo la pratica fino alla conferma di {E(n)}</li><li>✓ I dati della lettera restano salvati su questo dispositivo: dopo il pagamento li ritrovi già compilati, firmi e basta</li></ul><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 € →</a><small>🔒 Pagamento Stripe · ↩️ Rimborso se non consegnata</small></div>'
-                f'<div class="sc"><h3>La invio da solo</h3><div class="price">Gratis</div><ul><li>Lettera pronta qui sotto, da copiare o stampare</li><li>Serve la tua PEC personale, oppure una raccomandata A/R allo sportello (circa 6-7 €)</li><li>Le risposte dell\'operatore le segui tu</li></ul><a class="btn sec" href="#form-lettera" onclick="if(window.goatcounter)goatcounter.count({{path:\'scelta-gratis\'+location.pathname,title:\'Scelta lettera gratis\',event:true}})">Genera la lettera gratis ↓</a></div>'
-                '</div>'
-                '<div class="costi"><b>Quanto costa davvero inviare la disdetta?</b><table><tr><td>Raccomandata A/R</td><td>circa 6-7 € + coda allo sportello</td></tr>'
-                '<tr><td>PEC personale</td><td>serve una casella PEC attiva, di solito a pagamento</td></tr>'
-                '<tr class="noi"><td>Te la inviamo noi</td><td><b>7,90 €</b>, 3 minuti da casa, ricevute nella tua e-mail</td></tr></table></div>'
-                '<div class="fiducia"><details><summary>Vedi un esempio di ricevuta PEC</summary><div class="ricevuta"><span class="es">ESEMPIO</span>'
-                '<b>POSTA CERTIFICATA: Avvenuta consegna</b><p>Il giorno 03/11/2026 alle ore 10:42:17 il messaggio «Disdetta contratto n. 123456» '
-                'proveniente da «invio@...» ed indirizzato a «disdette@pec.operatore.it» è stato consegnato nella casella di destinazione.</p>'
-                '<small>Questa ricevuta ha valore legale: prova la data esatta in cui l’operatore ha ricevuto la tua disdetta. La ricevi nella tua e-mail.</small></div></details>'
-                '<p>Chi c’è dietro? <a href="/chi-siamo/">Louis, il fondatore</a> · <a href="/termini/">Rimborso se la PEC non viene consegnata</a></p></div>'
-                '</div>')
+        azioni = f"""<div class="upsell" id="upsell" hidden><b>La tua lettera è pronta. Ultimo passo: inviarla.</b><p style="margin:6px 0 10px">Hai già inserito tutto: i tuoi dati passano direttamente all'ordine, e in 3 minuti la disdetta parte via PEC all'indirizzo verificato di {E(n)}.</p><table><tr><th></th><th>Da solo</th><th>Con noi</th></tr><tr><td>Senza PEC</td><td>Stampa, firma, raccomandata A/R in posta: circa 6-7 € e la fila allo sportello</td><td>✓ Non serve</td></tr><tr><td>Prova della data</td><td>Ricevuta cartacea da conservare</td><td>✓ Ricevute PEC nella tua e-mail</td></tr><tr><td>Risposte dell'operatore</td><td>Le segui tu</td><td>✓ Le seguiamo noi fino alla conferma</td></tr><tr><td>Tempo</td><td>Mezza giornata</td><td>✓ 3 minuti, da casa</td></tr></table><p class="urgente">⏰ Ogni giorno di attesa sposta la fine del contratto. Con la PEC la data di invio fa fede da oggi; una raccomandata può impiegare diversi giorni per arrivare.</p><p class="legale">⚖️ <b class="inl">Valore legale:</b> la PEC equivale per legge alla raccomandata con ricevuta di ritorno (<a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82~art48" target="_blank" rel="noopener">art. 48 del Codice dell'amministrazione digitale</a>). Le ricevute di accettazione e di avvenuta consegna provano data e contenuto dell'invio.</p><ol class="passi"><li><strong>Paghi 7,90 €</strong> in modo sicuro</li><li><strong>Firmi online</strong> e alleghi il documento</li><li><strong>Ricevi le ricevute PEC</strong> di accettazione e consegna nella tua e-mail</li></ol><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Inviala ora via PEC, 7,90 € →</a><ul class="tl"><li>🔒 Pagamento sicuro Stripe: non vediamo i dati della tua carta</li><li>📬 Ricevute PEC entro 2 giorni lavorativi</li><li>🔁 Seguito fino alla conferma</li><li>↩️ Rimborso se la PEC non viene consegnata</li><li>✉️ Una tantum, nessun abbonamento</li></ul><p class="launch" style="margin-top:10px">Prezzo di lancio 7,90 € fino al 30 novembre 2026, poi 9,90 €.</p><p class="legale" style="margin-top:6px">🏷️ Il prezzo più basso tra i servizi di invio disdetta via PEC: gli altri partono da 9,95 € (verifica novembre 2026).</p><div class="founder mini"><img src="/louis.jpg" alt="Louis Lardeux" width="48" height="64"><div><b>Louis Lardeux, fondatore</b><span>Domande prima di ordinare? Scrivimi a <a href="mailto:info@disdettaabbonamento.it">info@disdettaabbonamento.it</a>, rispondo entro 24 ore, 7 giorni su 7. <a href="/chi-siamo/">Chi siamo</a></span></div></div></div><div class="ricevi" id="ricevi-box"><b>📩 Ricevi la lettera nella tua e-mail</b><p>Così la ritrovi quando sei pronto a inviarla. Ti mandiamo la lettera e un solo promemoria domani, niente pubblicità.</p><form onsubmit="return riceviLettera(this)"><input type="email" name="em" required placeholder="la-tua@email.it" autocomplete="email" aria-label="E-mail"><input type="text" name="sito" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true"><button class="btn sec" type="submit">Inviamela →</button></form><p class="ricevi-ok" hidden></p></div><p style="margin:16px 0 6px;font-weight:600">Preferisci inviarla da solo?</p><button class="btn sec" type="button" onclick="copiaLettera(this);upsell()">Copia il testo</button><button class="btn sec" type="button" onclick="upsell();window.print()">Salva in PDF / stampa</button>
+<p class="src">Per una disdetta con valore legale, invia la lettera firmata con copia del documento d'identità da una casella PEC, oppure con raccomandata A/R, e conserva la ricevuta.</p>
+<div class="pecbox"><div><b>Non hai una PEC?</b><span>La inviamo noi all'indirizzo verificato di {E(n)}, con ricevuta di consegna a valore legale nella tua e-mail, e seguiamo la pratica fino alla conferma. Prezzo di lancio 7,90 € fino al 30 novembre, poi 9,90 €.</span></div><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 € →</a><ul class="tl"><li>🔒 Pagamento sicuro Stripe</li><li>📬 Ricevute PEC entro 2 giorni lavorativi</li><li>🔁 Seguito fino alla conferma</li><li>↩️ Rimborso se la PEC non viene consegnata</li><li>✉️ Una tantum, nessun abbonamento</li></ul></div>"""
+        if racc: azioni = testi_raccomandata(azioni, n)
         body += f"""<section class="gen" id="lettera-disdetta" data-clarity-mask="true"><h2>Lettera di disdetta {E(n)}, gratis</h2>
-{scelta}
-<p class="sub">Compila i campi, la lettera si genera qui sotto. Puoi copiarla o salvarla in PDF e inviarla via {via}. I dati restano sul tuo dispositivo, salvo se chiedi di ricevere la lettera via e-mail.</p>
+<p class="sub">Compila i campi: la lettera si genera qui sotto, pronta da inviare via {via}.</p>
 <form id="form-lettera" onsubmit="return genLettera()">
 <div class="row2"><div><label for="nome">Nome e cognome dell'intestatario</label><input id="nome" name="nome" autocomplete="name"></div>
 <div><label for="cf">Codice fiscale (facoltativo)</label><input id="cf" name="cf"></div></div>
@@ -746,25 +756,25 @@ def brand_page(b, peers):
 <label class="chk"><input type="checkbox" id="ricevi" name="ricevi"> Inviami la lettera via e-mail e un solo promemoria domani (niente pubblicità)</label>
 <button class="btn" type="submit">Genera la lettera →</button><p class="secure">🔒 La lettera resta nel tuo browser. Se chiedi di riceverla via e-mail, usiamo l'indirizzo solo per inviartela e per un promemoria.</p></form>
 <div id="lettera"></div>
-<div id="azioni" class="noprint" style="display:none"><div class="upsell" id="upsell" hidden><b>La tua lettera è pronta. Ultimo passo: inviarla.</b><p style="margin:6px 0 10px">Hai già inserito tutto: i tuoi dati passano direttamente all'ordine, e in 3 minuti la disdetta parte via PEC all'indirizzo verificato di {E(n)}.</p><table><tr><th></th><th>Da solo</th><th>Con noi</th></tr><tr><td>Senza PEC</td><td>Stampa, firma, raccomandata A/R in posta: circa 6-7 € e la fila allo sportello</td><td>✓ Non serve</td></tr><tr><td>Prova della data</td><td>Ricevuta cartacea da conservare</td><td>✓ Ricevute PEC nella tua e-mail</td></tr><tr><td>Risposte dell'operatore</td><td>Le segui tu</td><td>✓ Le seguiamo noi fino alla conferma</td></tr><tr><td>Tempo</td><td>Mezza giornata</td><td>✓ 3 minuti, da casa</td></tr></table><p class="urgente">⏰ Ogni giorno di attesa sposta la fine del contratto. Con la PEC la data di invio fa fede da oggi; una raccomandata può impiegare diversi giorni per arrivare.</p><p class="legale">⚖️ <b class="inl">Valore legale:</b> la PEC equivale per legge alla raccomandata con ricevuta di ritorno (<a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82~art48" target="_blank" rel="noopener">art. 48 del Codice dell'amministrazione digitale</a>). Le ricevute di accettazione e di avvenuta consegna provano data e contenuto dell'invio.</p><ol class="passi"><li><strong>Paghi 7,90 €</strong> in modo sicuro</li><li><strong>Firmi online</strong> e alleghi il documento</li><li><strong>Ricevi le ricevute PEC</strong> di accettazione e consegna nella tua e-mail</li></ol><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Inviala ora via PEC, 7,90 € →</a><ul class="tl"><li>🔒 Pagamento sicuro Stripe: non vediamo i dati della tua carta</li><li>📬 Ricevute PEC entro 2 giorni lavorativi</li><li>🔁 Seguito fino alla conferma</li><li>↩️ Rimborso se la PEC non viene consegnata</li><li>✉️ Una tantum, nessun abbonamento</li></ul><p class="launch" style="margin-top:10px">Prezzo di lancio 7,90 € fino al 30 novembre 2026, poi 9,90 €.</p><p class="legale" style="margin-top:6px">🏷️ Il prezzo più basso tra i servizi di invio disdetta via PEC: gli altri partono da 9,95 € (verifica novembre 2026).</p><div class="founder mini"><img src="/louis.jpg" alt="Louis Lardeux" width="48" height="64"><div><b>Louis Lardeux, fondatore</b><span>Domande prima di ordinare? Scrivimi a <a href="mailto:info@disdettaabbonamento.it">info@disdettaabbonamento.it</a>, rispondo entro 24 ore, 7 giorni su 7. <a href="/chi-siamo/">Chi siamo</a></span></div></div></div><div class="ricevi" id="ricevi-box"><b>📩 Ricevi la lettera nella tua e-mail</b><p>Così la ritrovi quando sei pronto a inviarla. Ti mandiamo la lettera e un solo promemoria domani, niente pubblicità.</p><form onsubmit="return riceviLettera(this)"><input type="email" name="em" required placeholder="la-tua@email.it" autocomplete="email" aria-label="E-mail"><input type="text" name="sito" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true"><button class="btn sec" type="submit">Inviamela →</button></form><p class="ricevi-ok" hidden></p></div><p style="margin:16px 0 6px;font-weight:600">Preferisci inviarla da solo?</p><button class="btn sec" type="button" onclick="copiaLettera(this);upsell()">Copia il testo</button><button class="btn sec" type="button" onclick="upsell();window.print()">Salva in PDF / stampa</button>
-<p class="src">Per una disdetta con valore legale, invia la lettera firmata con copia del documento d'identità da una casella PEC, oppure con raccomandata A/R, e conserva la ricevuta.</p>
-<div class="pecbox"><div><b>Non hai una PEC?</b><span>La inviamo noi all'indirizzo verificato di {E(n)}, con ricevuta di consegna a valore legale nella tua e-mail, e seguiamo la pratica fino alla conferma. Prezzo di lancio 7,90 € fino al 30 novembre, poi 9,90 €.</span></div><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 € →</a><ul class="tl"><li>🔒 Pagamento sicuro Stripe</li><li>📬 Ricevute PEC entro 2 giorni lavorativi</li><li>🔁 Seguito fino alla conferma</li><li>↩️ Rimborso se la PEC non viene consegnata</li><li>✉️ Una tantum, nessun abbonamento</li></ul></div></div>
-<script>window.LETTERA={json.dumps({"azienda": n, "pec": b.get("pec", ""), "postale": b.get("indirizzo_postale", "") or ("[indirizzo del tuo club, indicato nel contratto]" if b["categoria"] == "palestre" else ""), "servizio": cat["servizio"], "legge": LEGGE_BREVE.get(b["categoria"], ""), "campo": CAMPO[b["categoria"]], "cat": b["categoria"]}, ensure_ascii=False)}</script>
+<div id="azioni" class="noprint" style="display:none"></div>
+<script>window.LETTERA={json.dumps({"azienda": n, "pec": b.get("pec", ""), "postale": b.get("indirizzo_postale", "") or ("[indirizzo del tuo club, indicato nel contratto]" if b["categoria"] == "palestre" else ""), "servizio": cat["servizio"], "legge": LEGGE_BREVE.get(b["categoria"], ""), "campo": CAMPO[b["categoria"]], "cat": b["categoria"]}, ensure_ascii=False)};window.AZIONI={json.dumps(azioni, ensure_ascii=False).replace("</", "<" + chr(92) + "/")}</script>
 </section>"""
         genera_modelli(b, {"azienda": n, "pec": b.get("pec", ""), "postale": b.get("indirizzo_postale", "") or ("[indirizzo del tuo club, indicato nel contratto]" if b["categoria"] == "palestre" else ""), "cat": b["categoria"]})
         cosa = ("l'indirizzo PEC" if b.get("pec") else "l'indirizzo postale" if b.get("indirizzo_postale") else "i riferimenti") + f" di {E(n)} " + ("già inserito" if (b.get("pec") or b.get("indirizzo_postale")) else "già inseriti") + (" e il preavviso indicato in testa" if b.get("preavviso") else "")
-        body += (f'<div class="box modulo" id="modulo"><h2>Scarica il modulo di disdetta {E(n)}</h2><p>Lo stesso testo della lettera qui sopra, in Word e in PDF, con {cosa}. Compila i campi tra parentesi quadre (nome, codice cliente, data), firma e invialo {"via PEC" if b.get("pec") else "con raccomandata A/R"} con una copia del documento d\'identità.</p>'
+        body += (f'<div class="box modulo" id="modulo"><h2>Scarica il modulo di disdetta {E(n)}</h2><p>La stessa lettera in Word e in PDF, con {cosa}.</p>'
                  f'<p class="mod-btns"><a class="btn sec" href="/modelli/disdetta-{sl}.docx" download data-modulo="docx">Scarica in Word (.docx)</a><a class="btn sec" href="/modelli/disdetta-{sl}.pdf" download data-modulo="pdf">Scarica in PDF</a></p>'
-                 f'<p class="src">Modulo gratuito, senza registrazione. Non hai una casella PEC? Leggi <a href="/guide/inviare-pec-senza-casella/">come inviare una PEC senza averne una</a>.</p></div>')
+                 '</div>')
+    body += scheda_sez(sc, n, DOPO)
     if lettera:
-        body += PLANS.replace("{BRAND_REF}", ref)
+        if racc:
+            body += f'<div class="ctabar rv"><span><b>Non vuoi andare in posta?</b> Stampiamo la lettera e la spediamo a {E(n)} con raccomandata A/R: 12,90 € tutto incluso, avviso di ricevimento nella tua e-mail. <a href="/come-funziona/">Come funziona</a></span><a class="btn" href="{stripe}" rel="nofollow" data-pec>Spediscila per me →</a></div>'
+        else:
+            body += f'<div class="ctabar rv"><span><b>Non hai una PEC?</b> La inviamo noi all\'indirizzo verificato di {E(n)}: 7,90 € una tantum, ricevute nella tua e-mail, rimborso se non viene consegnata. <a href="/come-funziona/">Come funziona</a></span><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC →</a></div>'
     rel = [g for g in GUIDE if b["categoria"] in g["cats"]][:3]
     if rel:
         body += '<h2>Guide utili</h2><div class="grid">' + "".join(f'<a class="card" href="/guide/{g["slug"]}/"><span class="av altri-servizi">📘</span><span><b>{E(g["h1"])}</b><small>Guida</small></span></a>' for g in rel) + '</div>'
     body += f"<h2>Cosa dice la legge</h2><p>{E(cat['legge'])}</p>"
-    if lettera:
-        body += f'<div class="ctabar rv alt"><span><b>Hai letto abbastanza?</b> Genera la lettera gratis in un minuto, oppure facciamo tutto noi via PEC.</span><span class="ctab"><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></span></div>'
-    faqs = faq_brand(b, cat)
+    faqs = faq_brand(b, cat) + [(f["d"], f["r"]) for f in sc.get("faq", []) if f.get("d") and f.get("r")]
     if faqs:
         body += "<h2>Domande frequenti</h2>" + "".join(f"<details><summary>{E(q)}</summary><p>{E(a)}</p></details>" for q, a in faqs)
     if peers:
@@ -772,7 +782,7 @@ def brand_page(b, peers):
             card(p) for p in peers) + "</div>"
     host = lambda u: re.sub(r"^https?://(www\.)?", "", u).split("/")[0]
     _seen = {}
-    for u in b.get("fonti", []) + APPROF.get(b["slug"], {}).get("fonti", []):
+    for u in b.get("fonti", []) + APPROF.get(b["slug"], {}).get("fonti", []) + sc.get("fonti", []):
         _seen.setdefault(host(u), u)
     fonti = " · ".join(f'<a href="{E(u)}" rel="nofollow noopener" target="_blank">{E(h)}</a>' for h, u in _seen.items())
     body += f'<div class="why"><span>🛡️</span><span><b>Perché fidarsi di questa scheda</b>Indirizzi e condizioni sono presi dai documenti {"ufficiali di " + E(n) if uff else "pubblicati"} e verificati il {verif}. Fonti: {fonti}. Le condizioni possono cambiare: in caso di dubbio fa fede il tuo contratto.</span></div>'
@@ -782,8 +792,6 @@ def brand_page(b, peers):
         {"@type": "ListItem", "position": 1, "name": "Home", "item": DOMAIN + "/"},
         {"@type": "ListItem", "position": 2, "name": cat["nome"], "item": f"{DOMAIN}/{cat['slug']}/"},
         {"@type": "ListItem", "position": 3, "name": f"Disdetta {n}", "item": DOMAIN + path}]})
-    if lettera:
-        body += f'<section class="band"><h2>Disdici {E(n)} oggi</h2><p>Te la inviamo noi in PEC con ricevuta legale, in 3 minuti da casa. Oppure prepari la lettera gratis.</p><a class="btn shine" href="{stripe}" rel="nofollow" data-pec>Te la inviamo noi, 7,90 € →</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></section>'
     sticky = f'<aside class="slidein" id="slidein" hidden><button class="x" type="button" aria-label="Chiudi" onclick="chiudiSlide()">×</button><b>Non hai una PEC?</b><p>Inviamo noi la disdetta a {E(n)} con ricevuta legale. Prezzo di lancio 7,90 € fino al 30 novembre.</p><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC →</a><small>↩️ Rimborso se non consegnata · 🔒 Stripe</small></aside><div class="sticky two"><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></div>' if lettera else ''
     html_ = page(title, desc, path, body, schema, sticky)
     write(path, testi_raccomandata(html_, n) if racc else html_)
@@ -885,7 +893,7 @@ def main():
     # pagine istituzionali
     statiche = {
         "/come-funziona/": ("Come funziona", "Come disdire un contratto con valore legale: PEC o raccomandata A/R, documento d'identità, ricevuta da conservare.",
-            "<h1>Come disdire un contratto, passo per passo</h1><ol><li><strong>Trova l'operatore</strong> e controlla preavviso e costi nella sua scheda.</li><li><strong>Compila la lettera</strong>: nome dell'intestatario, indirizzo, codice cliente o numero di contratto.</li><li><strong>Firma la lettera</strong> e allega una copia del documento d'identità.</li><li><strong>Inviala</strong> via PEC dalla tua casella PEC, oppure con raccomandata A/R all'indirizzo indicato.</li><li><strong>Conserva la ricevuta</strong> di consegna: è la prova della data della disdetta.</li></ol><h2>PEC o raccomandata?</h2><p>La PEC ha lo stesso valore legale della raccomandata con ricevuta di ritorno, costa meno ed è immediata. Alcuni operatori accettano solo PEC inviate da un'altra casella PEC, non da un'e-mail normale.</p>"),
+            "<h1>Come disdire un contratto, passo per passo</h1><ol><li><strong>Trova l'operatore</strong> e controlla preavviso e costi nella sua scheda.</li><li><strong>Compila la lettera</strong>: nome dell'intestatario, indirizzo, codice cliente o numero di contratto.</li><li><strong>Firma la lettera</strong> e allega una copia del documento d'identità.</li><li><strong>Inviala</strong> via PEC dalla tua casella PEC, oppure con raccomandata A/R all'indirizzo indicato.</li><li><strong>Conserva la ricevuta</strong> di consegna: è la prova della data della disdetta.</li></ol><h2>PEC o raccomandata?</h2><p>La PEC ha lo stesso valore legale della raccomandata con ricevuta di ritorno, costa meno ed è immediata. Alcuni operatori accettano solo PEC inviate da un'altra casella PEC, non da un'e-mail normale.</p>" + COME_FUNZIONA_EXTRA),
         "/chi-siamo/": ("Chi siamo", "Disdetta Abbonamento è un servizio indipendente che raccoglie gli indirizzi ufficiali per disdire i contratti.",
             "<h1>Chi siamo</h1><div class='founder'><img src='/louis.jpg' alt='Louis Lardeux, fondatore di Disdetta Abbonamento' width='120' height='160' loading='lazy'><div><b>Louis Lardeux</b><span>Fondatore di DisdettaAbbonamento.it</span><p>Ho creato questo servizio perché disdire un contratto in Italia è ancora troppo complicato: indirizzi PEC difficili da trovare, preavvisi diversi per ogni operatore, raccomandate da spedire allo sportello.</p></div></div><p>Disdetta Abbonamento è un servizio indipendente, non collegato a nessun operatore. Raccogliamo dai documenti ufficiali degli operatori gli indirizzi PEC e postali, i preavvisi e i costi di disdetta, e li aggiorniamo con la data di verifica in ogni scheda.</p><h2>Come lavoriamo</h2><ul><li>Ogni indirizzo è preso dai documenti ufficiali dell'operatore, con la fonte citata in fondo alla scheda.</li><li>La lettera gratuita si genera sul tuo dispositivo: i tuoi dati non ci arrivano.</li><li>Quando ci affidi l'invio, ti giriamo le ricevute PEC e seguiamo la pratica fino alla conferma.</li></ul><h2>Contatti</h2><p>Scrivici a <a href='mailto:info@disdettaabbonamento.it'>info@disdettaabbonamento.it</a>: rispondiamo entro 24 ore, 7 giorni su 7. Hai trovato un dato non aggiornato? Segnalacelo: verifichiamo e correggiamo.</p>"),
 
