@@ -38,14 +38,15 @@
    "nessun pulsante di disdetta online indicato nelle condizioni"
   ],
   "preavviso": "Recesso in qualsiasi momento con comunicazione scritta (art. 11.3 e 11.5 delle condizioni generali); nessun preavviso specifico indicato.",
-  "costi": "Nessun costo per disattivazione e recesso (art. 11.6). Il credito residuo non utilizzato è rimborsabile in denaro, anche in caso di recesso o portabilità.",
+  "costi": "Nessun costo per disattivazione e recesso (art. 11.6). Il credito residuo è rimborsabile, ma il modulo di rimborso indica una trattenuta di 10 euro.",
   "modulo": "",
-  "note": "Lyca è un'offerta ricaricabile: se passi a un altro operatore con la portabilità non serve la disdetta. Chiedi nella lettera il rimborso del credito residuo, che le condizioni generali riconoscono. Nessuna PEC pubblicata sul sito ufficiale, e il modulo citato dalle condizioni non è scaricabile in modo diretto.",
+  "note": "Lyca è un'offerta ricaricabile: se passi a un altro operatore con la portabilità non serve la disdetta. Il modulo di rimborso del credito si scarica dalla pagina Contratti e moduli del sito e indica l'e-mail cs@lycamobile.it, mentre le condizioni generali (art. 11.5) indicano doc@lycamobile.it per il recesso. Nessuna PEC pubblicata sul sito ufficiale.",
   "fonti": [
-   "https://www.lycamobile.it/it/termscondition/"
+   "https://www.lycamobile.it/it/termscondition/",
+   "https://www.lycamobile.it/it/contracts-and-forms/"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-10"
  },
  {
   "nome": "spusu Italia",

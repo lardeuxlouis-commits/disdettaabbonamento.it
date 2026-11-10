@@ -182,6 +182,39 @@
   "online": "Le FAQ ufficiali non descrivono un pulsante di disdetta in area clienti. Dicono di compilare il modulo di disdetta, scaricabile nella sezione modulistica del sito, e di inviarlo con copia del documento d'identità tramite i canali ufficiali elencati su alperia.eu/contact. L'area clienti serve a scaricare bollette, vedere i contratti, pagare con carta e comunicare le autoletture del gas.",
   "tempi_e_dopo": "La disdetta comporta, secondo le FAQ, la chiusura definitiva della fornitura con disattivazione del contatore, l'emissione della bolletta finale e un possibile rimborso del deposito. La riattivazione di una fornitura elettrica richiede fino a 7 giorni lavorativi dalla richiesta, con il rischio di restare senza luce."
  },
+ "altroconsumo": {
+  "alternative": "Altroconsumo dice chiaramente che non si può sospendere temporaneamente l'addebito: o resti socio o disdici. Se hai solo un account gratuito, lo status di FAN è diverso da quello di socio: la disdetta dall'abbonamento non cancella automaticamente lo status di FAN (art. 6.1), che resta gratuito.",
+  "assistenza": "Telefono 02 69 61 500, dal lunedì al venerdì dalle 9:00 alle 13:00 e dalle 14:00 alle 18:00. Sulla pagina Disdetta c'è il pulsante \"Chiamaci\" con lo stesso numero. Le Condizioni Generali (valide dal 1° ottobre 2026, aggiornate il 20 luglio 2026) indicano la sede in Viale Piero e Alberto Pirelli 10, 20126 Milano.",
+  "costi_dettaglio": "La disdetta è gratuita. La pagina avverte che Altroconsumo riceve richieste di disdetta tramite siti di servizi a pagamento e ricorda che non serve pagare nessun intermediario.",
+  "data": "2026-11-10",
+  "dati_lettera": "Altroconsumo non chiede una lettera: basta il login con le tue credenziali. Se telefoni allo 02 69 61 500 le Condizioni Generali non indicano un elenco di dati da fornire. La pagina Disdetta precisa che non è necessario inviare una PEC.",
+  "errori": [
+   "Pensare che la disdetta fermi subito l'accesso: il profilo di abbonato resta attivo fino alla fine del periodo fatturato, quindi puoi usare i servizi fino alla scadenza.",
+   "Aspettarsi un rimborso della rata già pagata dopo la disdetta: l'art. 5.3 esclude il rimborso perché continui a usare i servizi fino alla scadenza.",
+   "Rivolgersi a siti terzi che chiedono denaro per disdire l'abbonamento: la pagina ufficiale ricorda che la disdetta è gratuita e che si fa dal login o per telefono."
+  ],
+  "faq": [
+   {
+    "d": "Come disdire Altroconsumo 2 euro per 2 mesi?",
+    "r": "Fai il login con le tue credenziali e segui la procedura di disdetta, oppure chiama lo 02 69 61 500 negli orari indicati. La pagina ufficiale tratta la formula \"2 euro per 2 mesi\" come le altre: si disdice nello stesso modo e senza costi."
+   },
+   {
+    "d": "Altroconsumo mi ha aumentato il prezzo, posso disdire senza costi?",
+    "r": "Sì. Le Condizioni Generali prevedono che le variazioni del corrispettivo siano comunicate con almeno 30 giorni di preavviso e che tu possa recedere senza costi entro 60 giorni dalla comunicazione di modifica."
+   },
+   {
+    "d": "Dopo la disdetta Altroconsumo continuo ad avere un account?",
+    "r": "Il recesso dal contratto non cancella in automatico lo status di FAN: continui a usare gratuitamente i servizi FAN finché non chiedi di chiudere anche quel rapporto (art. 6.1 delle Condizioni Generali)."
+   }
+  ],
+  "fonti": [
+   "https://www.altroconsumo.it/contattaci/disdetta",
+   "https://www.altroconsumo.it/info/condizioni-generali"
+  ],
+  "online": "Sì. Fai il login su altroconsumo.it con le tue credenziali e vieni reindirizzato in automatico alla procedura di disdetta: la pagina ufficiale precisa che non serve compilare un modulo PDF. Vale anche per l'offerta \"2 euro per 2 mesi\". Le Condizioni Generali (art. 5.4) indicano anche un modulo online, la pagina Contattaci e il telefono.",
+  "tempi_e_dopo": "La richiesta viene registrata alla data di ricezione e ha effetto dalla prima scadenza utile successiva. Fino a quel momento resti socio e usi i servizi inclusi; non ricevi altri addebiti, a meno che tu riattivi l'abbonamento. Gli importi già pagati per il periodo non vengono rimborsati (art. 5.3).",
+  "vincoli": "L'adesione ha effetto immediato e dà diritto ai servizi senza vincolo di durata (art. 5.1). Nei primi 14 giorni dall'adesione recedi senza costi e la prima rata non viene addebitata prima della scadenza di quel termine; i contenuti cartacei eventualmente ricevuti puoi tenerli gratis (art. 5.2). Se Altroconsumo cambia il prezzo, lo comunica con almeno 30 giorni di preavviso e hai 60 giorni dalla comunicazione per recedere senza costi (artt. 4.2 e 4.3)."
+ },
  "american-express-italia": {
   "assistenza": "Il Servizio Clienti si contatta al numero stampato sul retro della carta. Il Regolamento indica la PEC ufficioreclamiamex@legalmail.it solo per i reclami.",
   "costi_dettaglio": "Nessuna penale e nessuna spesa di chiusura. Ti spetta il rimborso della quota annuale per il periodo residuo. Se è la prima emissione e rinunci entro 14 giorni dal ricevimento della carta, la quota annuale non viene addebitata oppure viene stornata per intero.",
@@ -1141,6 +1174,37 @@
   "tempi_e_dopo": "Se disdici nei termini il contratto non si rinnova. Se invece la disdetta non arriva in tempo, si rinnova per 12 mesi al prezzo di listino in vigore al momento del rinnovo. Per il computo dei 45 giorni conta la data di ricezione da parte di Italiaonline, non quella di spedizione.",
   "vincoli": "Salvo diverse Condizioni Particolari, il contratto dura 12 mesi dalla sottoscrizione e poi si rinnova ogni 12 mesi, con disdetta almeno 45 giorni prima. Con la Promo Fedeltà la disdetta ha effetto solo dalla fine della Durata Minima, sempre con 45 giorni di anticipo. Italiaonline può recedere in qualsiasi momento via PEC o e-mail, con effetto dopo 15 giorni e rimborso solo di quanto pagato in anticipo per servizi non erogati."
  },
+ "itas-mutua": {
+  "alternative": "Per un contratto poliennale superiore a 5 anni puoi recedere dopo il primo quinquennio con raccomandata A/R o PEC a ITAS Mutua, con preavviso di almeno 60 giorni: il recesso vale dalla fine dell'annualità in corso. Dopo ogni sinistro, e fino al 60° giorno dal pagamento o dal rifiuto dell'indennizzo, tu e ITAS potete recedere con preavviso di 30 giorni.",
+  "assistenza": "Centralino della sede di Trento: 0461 891711. PEC itas.mutua@pec-gruppoitas.it. Il servizio reclami risponde entro 45 giorni dalla ricezione, poi ci si può rivolgere all'IVASS. Gli altri recapiti dell'agenzia di riferimento sono nei documenti di polizza.",
+  "data": "2026-11-10",
+  "dati_lettera": "Nelle Condizioni di assicurazione ITAS Living (mod. X2007.0, ed. 12/2024) non c'è un elenco di dati da indicare. Il testo dice solo che la disdetta va spedita all'intermediario a cui è assegnata la polizza oppure a ITAS Mutua. L'e-mail della direzione generale riportata nel DIP aggiuntivo è segreterie.dirgen@gruppoitas.it.",
+  "errori": [
+   "Spedire la disdetta troppo tardi: per i contratti annuali o poliennali con tacito rinnovo deve partire almeno 30 giorni prima della scadenza, e per la disdetta vale la spedizione.",
+   "Mandare una disdetta per un contratto a scadenza automatica, o credere che un contratto a tacito rinnovo cessi senza lettera: nel primo caso non serve nulla, nel secondo sì.",
+   "Ignorare la differenza tra disdetta e recesso: la disdetta riguarda la scadenza (30 giorni), il recesso dopo il primo quinquennio richiede 60 giorni e quello dopo sinistro 30."
+  ],
+  "faq": [
+   {
+    "d": "Come disdire ITAS Mutua dopo un sinistro?",
+    "r": "Dopo ogni sinistro e fino al 60° giorno dal pagamento o dal rifiuto dell'indennizzo puoi recedere con raccomandata A/R o PEC, con preavviso di 30 giorni. Se è ITAS a recedere, ti restituisce il premio non goduto entro 15 giorni dalla data di efficacia, al netto dell'imposta."
+   },
+   {
+    "d": "Cosa vuol dire essere socio assicurato di ITAS Mutua?",
+    "r": "ITAS Mutua è una mutua di assicurazioni: chi stipula la polizza diventa socio-assicurato. Lo statuto (art. 11) dice che il vincolo sociale dura per il periodo in polizza e si rinnova con il contratto, salvo disdetta."
+   },
+   {
+    "d": "Posso pagare il premio ITAS a rate?",
+    "r": "Sì, ma il premio è dovuto interamente anche se frazionato. Il DIP elenca bonifico, assegno, carte, contanti nei limiti di legge e SDD, e per il frazionamento mensile l'SDD è obbligatorio."
+   }
+  ],
+  "fonti": [
+   "https://www.gruppoitas.it/o/portali-ist-s-api/api/v1/download?companyId=20097&groupId=20121&codComp=022&codRamo=0E&codProd=2007&tipoStampa=INF_I&prgStampa=0&sysdate=2023-06-16T09%3A32%3A36&fname=DIP+E+DIP+AGGIUNTIVO.pdf",
+   "https://www.gruppoitas.it/o/portali-ist-s-api/api/v1/download?companyId=20097&groupId=20121&codComp=022&codRamo=0E&codProd=2007&tipoStampa=CGI_I&prgStampa=0&sysdate=2023-06-16T09%3A32%3A36&fname=CONDIZIONI+DI+ASSICURAZIONE.pdf"
+  ],
+  "tempi_e_dopo": "Se è ITAS Mutua a recedere dopo un sinistro, rimborsa entro 15 giorni dalla data di efficacia la parte di premio pagata e non goduta, al netto dell'imposta, ma non restituisce il contributo versato al fondo di garanzia (art. 1.4). Se disdici correttamente il contratto a tacito rinnovo, non sono previsti oneri aggiuntivi.",
+  "vincoli": "ITAS Mutua è una società mutua: il contraente è socio-assicurato e il vincolo sociale dura per il periodo indicato in polizza e si rinnova insieme al contratto, salvo disdetta (art. 11 dello statuto). Se hai un contratto con scadenza automatica non serve alcuna disdetta, perché cessa alle ore 24 della data in polizza. Il premio è dovuto per intero anche con rate, e se non paghi una rata successiva la copertura resta sospesa dalle ore 24 del 30° giorno dopo la scadenza."
+ },
  "linkem": {
   "alternative": "Il trasloco è gratuito e non comporta costi di cessazione sul contratto attuale, ma richiede la firma di un nuovo contratto con l'offerta disponibile in quel momento, dopo la verifica di copertura; fino all'attivazione nella nuova casa il canone continua a essere fatturato. Nella pagina Moduli per clienti Privati trovi anche il Modulo cambio tariffa (da inviare a servizioclienti@tiscali.com o al fax 080 5622085) e il Modulo variazione intestatario di contratto.",
   "assistenza": "Numero 130 per i privati e 192 130 per i business: supporto commerciale e amministrativo dal lunedì al sabato dalle 8:30 alle 21:30, supporto tecnico anche domenica e festivi dalle 8:30 alle 16:30. Dall'estero +39 070 4608600. Assistente virtuale in chat su linkem.com: lunedì-venerdì 9:00-21:00, sabato 9:00-19:00, domenica e festivi 9:00-16:00. Reclami a gestioneclienti@tiscali.com, definiti entro 30 giorni dalla ricezione.",
@@ -1182,6 +1246,40 @@
   "online": "Sì. La pagina di supporto Contratto Linkem elenca l'Area Clienti MyLinkem tra i canali per recesso, interruzione e disdetta: nella home page clicchi sull'icona accanto alla voce stato contratto. L'area si apre da mylinkempage.linkem.com oppure dall'app MyLinkem per iOS e Android, con le stesse credenziali.",
   "tempi_e_dopo": "Navigazione e fatturazione restano attive fino alla disattivazione. Da quel momento hai 30 giorni per restituire l'apparato e ricevi un'e-mail con le istruzioni. Per il modem da interno prenoti il ritiro con corriere a carico di Linkem chiamando il 130; per l'apparato da esterno aspetti la chiamata del tecnico che lo smonta e lo ritira. Se resti a credito ricevi una nota di credito pagata con bonifico: manda IBAN e intestatario del conto a gestioneclienti@tiscali.com.",
   "vincoli": "Per i contratti firmati dal 1° febbraio 2023 con servizio 4G e apparato modello WLTGG-122, WLTGG-123, WLTGG-127, WLTXFSQ 102N, WLTCS-106X, WLTMS-110 o WLTSS-114, il modem diventa tuo alla cessazione e non va restituito. Se Linkem modifica il contratto in senso peggiorativo deve avvisarti con almeno 30 giorni di anticipo e hai un termine non inferiore a 60 giorni per recedere, con il modulo dedicato alla variazione unilaterale."
+ },
+ "lycamobile": {
+  "alternative": "Invece di recedere puoi lasciare la SIM senza ricariche: dopo 13 mesi viene sospesa e per 11 mesi puoi riattivarla gratis entro 48 ore dalla richiesta, con il credito ripristinato. Con la portabilità verso un altro operatore il rimborso del credito resta comunque dovuto.",
+  "assistenza": "Servizio clienti: 40322 gratuito da cellulare Lyca, oppure 06 4521 2322. Sede: Lyca Mobile S.r.l., Via di Valle Lupara 10, 00148 Roma. Il modulo di rimborso indica come destinatari la raccomandata A/R a quell'indirizzo o cs@lycamobile.it.",
+  "costi_dettaglio": "Nessun costo di disattivazione o recesso (art. 11.6). Sul rimborso del credito residuo il modulo trattiene 10,00 € come costi di Lyca Mobile per la restituzione. Il credito ottenuto con sconti, bonus o promozioni non è rimborsabile.",
+  "data": "2026-11-10",
+  "dati_lettera": "Il modulo 'Richiesta di trasferimento/rimborso del credito residuo' (ed. gennaio 2022) chiede nome, cognome, documento d'identità, codice fiscale, e-mail, numero di telefono Lyca e numero seriale della SIM, più l'IBAN se vuoi il rimborso. Vanno allegate copia del documento e del codice fiscale.",
+  "errori": [
+   "Usare l'e-mail sbagliata: le condizioni indicano doc@lycamobile.it per il recesso, mentre il modulo di rimborso del credito indica cs@lycamobile.it.",
+   "Non allegare documento d'identità e codice fiscale al modulo di rimborso: sono obbligatori.",
+   "Contare sul credito promozionale: il modulo esclude il credito maturato con sconti, bonus o promozioni."
+  ],
+  "faq": [
+   {
+    "d": "Lycamobile: quanto tempo posso lasciare la SIM senza ricaricare?",
+    "r": "Dopo 13 mesi senza ricariche il servizio viene sospeso e la SIM disattivata, con comunicazione 30 giorni prima. Per altri 11 mesi puoi chiedere la riattivazione gratuita, che avviene entro 48 ore salvo casi eccezionali."
+   },
+   {
+    "d": "Come riavere il credito residuo di una SIM Lycamobile?",
+    "r": "Con il modulo di trasferimento/rimborso del credito residuo, firmato, con documento e codice fiscale, per raccomandata A/R a Via di Valle Lupara 10, Roma o via cs@lycamobile.it. Rimborso entro 60 giorni, con trattenuta di 10,00 €."
+   },
+   {
+    "d": "Cosa succede al mio numero Lycamobile se non lo riattivo?",
+    "r": "Scaduto il periodo di riattivazione, la SIM viene disattivata definitivamente con 30 giorni di preavviso e la numerazione può essere riassegnata a terzi dopo 3 mesi di latenza (art. 3.5)."
+   }
+  ],
+  "fonti": [
+   "https://www.lycamobile.it/it/termscondition/",
+   "https://www.lycamobile.it/it/contracts-and-forms/",
+   "https://lycamobile-italy-website.s3.eu-central-1.amazonaws.com/lycamobile-it-cms/wp-content/uploads/2018/06/25121017/LM_ITA_Modulo_Richiesta_Trasferimento_Rimborso_Credito.pdf"
+  ],
+  "online": "Le condizioni generali (art. 11.5) non prevedono un pulsante o un'area clienti per il recesso. Si invia il modulo firmato per raccomandata o per e-mail a doc@lycamobile.it, oppure lo si compila in un punto vendita autorizzato Lyca Mobile. Il modulo di rimborso del credito è scaricabile dalla pagina 'Contratti e moduli' del sito.",
+  "tempi_e_dopo": "Il modulo dice che la restituzione del credito residuo si completa entro 60 giorni dal ricevimento del modulo compilato e firmato. La ricezione del modulo comporta la disattivazione della SIM e del numero collegato. Il credito residuo può anche essere trasferito su un'altra SIM Lyca.",
+  "vincoli": "Il diritto al rimborso in denaro del credito residuo esiste in qualsiasi momento, anche in caso di recesso o di portabilità (art. 4.5). Una SIM senza ricariche per 13 mesi viene sospesa e disattivata, con avviso 30 giorni prima; resta riattivabile gratis per altri 11 mesi, poi il numero può essere riassegnato dopo un periodo di latenza di 3 mesi. Per modifiche sfavorevoli alle condizioni c'è un preavviso di un mese."
  },
  "mcfit-italia": {
   "alternative": "La sospensione è gratuita: fino a 6 mesi per anno solare con il contratto Standard, fino a 2 con il Flex, solo per mesi interi e un mese alla volta. La inserisci da app o Area Self (Sospensioni, Aggiungere sospensione) entro l'ultimo giorno del mese precedente. I mesi sospesi si recuperano in coda, quindi la scadenza slitta. Con il Servizio Clienti puoi passare da Flex a Standard o a un prezzo superiore; downgrade e passaggio da Standard a Flex non sono ammessi. L'abbonamento non è cedibile a un'altra persona.",
@@ -1837,6 +1935,38 @@
   "online": "Sulla linea fissa la pagina TIM indica come canale principale il 187, poi il modulo online nella tua area MyTIM, i negozi abilitati, la PEC o la raccomandata A/R con l'apposito modulo. Per il mobile i moduli ufficiali non prevedono un percorso in app: vanno compilati, firmati e inviati come allegato a documenti119@telecomitalia.it.",
   "tempi_e_dopo": "TIM dichiara di gestire la richiesta di cessazione della linea fissa entro 30 giorni dalla ricezione e di poter fare verifiche sui motivi di insoddisfazione. Per la restituzione degli apparati, quando presenti, la pagina rimanda alle informazioni date dall'operatore al 187. Sulla ricaricabile, il credito acquistato e non usato (esclusi bonus e promozioni) può essere restituito con assegno di traenza o bonifico oppure trasferito a un'altra utenza TIM."
  },
+ "unicredit": {
+  "alternative": "Per cambiare banca senza chiudere a mano i servizi, il foglio informativo prevede il trasferimento del conto di pagamento, con tempi di legge di 12 giorni. Il tuo conto resta in essere finché non salda tutto quanto dovuto.",
+  "assistenza": "Numero UniCredit 800 323 285 (dall'estero 02 3340 8965), contatti su unicredit.it/contatti. Reclami: UniCredit S.p.A. Customer Satisfaction Italy, Gestione Reclami, Via Del Lavoro 42, 40127 Bologna, Reclami@unicredit.eu, PEC Reclami@PEC.Unicredit.EU, fax +39 051 6407229. La banca risponde entro 60 giorni, poi si può andare all'ABF.",
+  "costi_dettaglio": "Il recesso non comporta penalità o spese. Il Genius ha canone mensile di 1,90 € (22,80 € l'anno) più imposta di bollo di 34,20 €. Il canone mensile si azzera con accredito di stipendio, pensione o bonifico ricorrente di almeno 750,00 €. Il Pacchetto Bonifici SEPA online illimitati costa 2,00 € al mese.",
+  "data": "2026-11-10",
+  "dati_lettera": "Insieme alla comunicazione di recesso devi consegnare la dichiarazione di avvenuta distruzione delle carte collegate, tagliate in corrispondenza di microchip e banda magnetica. Se non puoi, serve copia della denuncia di furto o smarrimento alle autorità. Con più cointestatari a firme disgiunte basta la richiesta di uno solo, che deve avvertire gli altri.",
+  "errori": [
+   "Mandare la lettera a una sede centrale o alla PEC reclami: il recesso va recapitato alla filiale, con firma autografa, e Reclami@PEC.Unicredit.EU è solo per i reclami.",
+   "Dimenticare la dichiarazione di distruzione delle carte: serve per ottenere l'estinzione, altrimenti occorre copia della denuncia di furto o smarrimento.",
+   "Aspettarsi la chiusura in 2 giorni con carta di credito o Telepass: i tempi aumentano dei giorni necessari per i rendiconti."
+  ],
+  "faq": [
+   {
+    "d": "Quanto tempo ci vuole per chiudere un conto UniCredit?",
+    "r": "Per il Conto Corrente Genius il tempo massimo di estinzione è di 2 giorni lavorativi dal ricevimento della documentazione, più i giorni per l'ultimo rendiconto di carta di credito, Telepass e altri servizi collegati."
+   },
+   {
+    "d": "Posso chiudere un conto UniCredit cointestato da solo?",
+    "r": "Sì, se è a firme disgiunte il recesso di uno solo dei cointestatari basta, ma chiude il conto per tutti e deve avvertire gli altri tempestivamente."
+   },
+   {
+    "d": "Cosa devo fare se ho soldi sul conto UniCredit che chiudo?",
+    "r": "Con somme sul conto devi recarti in filiale per le relative disposizioni. Il conto si estingue solo dopo il pagamento di tutto quanto dovuto alla banca."
+   }
+  ],
+  "fonti": [
+   "https://trasparenza.unicredit.it/pdfprod/CC140_CONTO+CORRENTE+GENIUS+.pdf"
+  ],
+  "online": "Il foglio informativo del Conto Corrente Genius (CC140, agg. 01.10.2026) non prevede il recesso online o da app: la comunicazione scritta con firma autografa va recapitata alla filiale per posta, oppure formulata in filiale. Il prodotto è però venduto anche con sito, App Mobile Banking e UniCredit Direct.",
+  "tempi_e_dopo": "Il recesso vale dal giorno dopo quello in cui la filiale riceve la comunicazione. I tempi massimi di estinzione sono 2 giorni lavorativi dal ricevimento di tutto, più i giorni necessari per l'ultimo rendiconto della carta di credito, per il rendiconto Telepass e per chiudere servizi come il conto deposito titoli. Il conto è estinto solo dopo che hai pagato tutto il dovuto. Se hai somme sul conto devi andare in filiale per le disposizioni.",
+  "vincoli": "Il cliente può recedere in qualsiasi momento con preavviso di 1 giorno. La banca può recedere con preavviso di 2 mesi, salvo giustificato motivo. Dopo l'efficacia del recesso non puoi più usare le carte, fisiche o digitali, e resti responsabile di eventuali contestazioni se non rispetti la distruzione."
+ },
  "unipol": {
   "alternative": "Per l'RC Auto Unipol offre la sospensione gratuita della polizza: al massimo 10 mesi per annualità assicurativa, 11 per i veicoli storici. Serve una comunicazione scritta tramite la tua agenzia, su un modello da chiedere all'intermediario. La proroga va chiesta entro 10 giorni prima della fine della sospensione in corso, 5 per i veicoli storici. Per la casa, se traslochi, Unica Casa copre entrambi gli indirizzi per 7 giorni dalla comunicazione.",
   "assistenza": "Il servizio clienti Unipol risponde al numero verde 800 55 11 44. L'assistenza auto, casa e persona è all'800 279 279, attivo 24 ore su 24 (dall'estero +39 011 65 23 200). I reclami sui prodotti assicurativi vanno a Unipol Assicurazioni S.p.A., Customer Advocacy, Via della Unione Europea 3/B, 20097 San Donato Milanese (MI), oppure a reclami@unipol.it o con il modulo online. La risposta arriva entro 45 giorni, 60 se il reclamo riguarda il comportamento dell'agente.",
@@ -1884,7 +2014,7 @@
   "dati_lettera": "Per la posta ordinaria l'art. 16.2 indica Via Alfredo Calzoni 8, 40128 Bologna. Per la mail, assistenzatelepedaggio@unipoltech.it. Nel testo non sono elencati dati obbligatori da scrivere. Per il ripensamento puoi usare il modulo allegato al contratto, senza obbligo.",
   "errori": [
    "Restituire il dispositivo senza mandare il recesso: l'art. 14.2 dice che la sola restituzione non chiude il contratto.",
-   "Spedire il dispositivo prima dell'efficacia del recesso o dimenticare la scadenza: dopo 15 giorni dall'efficacia scatta la penale di 25,00 € per ogni dispositivo non ricevuto.",
+   "Dimenticare la scadenza dei 15 giorni dopo l'efficacia del recesso: UnipolTech addebita 25,00 € per ogni dispositivo non ricevuto in tempo.",
    "Aspettarsi l'ultima fattura subito: i pedaggi arrivano man mano dalle concessionarie e possono essere addebitati fino a 12 mesi dopo."
   ],
   "faq": [
@@ -2025,6 +2155,37 @@
   "online": "Nelle pagine lette l'Area Riservata e l'app MyVittoria non offrono una funzione di disdetta: le condizioni chiedono una comunicazione scritta. Il DIP aggiuntivo di Vittoria con te Casa e Famiglia elenca cosa si fa dall'Area Riservata: monitorare la polizza, gestire pagamenti e rinnovi, pagare online, modificare e sospendere la polizza, inviare documenti, scaricare moduli. Dal 1° gennaio 2026 per entrare serve anche un codice OTP inviato all'e-mail registrata, salvo accesso con SPID.",
   "tempi_e_dopo": "Con Vittoria con te Autovetture, se il veicolo viene demolito, esportato, venduto o rubato e chiedi l'annullamento, Vittoria restituisce su tua richiesta la parte di premio RCA non goduta, al netto di imposte e contributo al Servizio Sanitario Nazionale. Dopo un furto il rimborso parte dal giorno successivo alla denuncia; dopo una vendita, dal giorno in cui consegni all'agenzia il documento che la prova. Certificato e Carta Verde vanno distrutti.",
   "vincoli": "Nel prodotto Vittoria con te Autovetture i contratti senza garanzia RCA si rinnovano tacitamente: la disdetta va inviata per telefax, raccomandata o PEC all'agenzia o a Vittoria almeno 15 giorni prima della scadenza. Con Casa e Famiglia, se Vittoria aumenta il premio alla scadenza annuale e tu non lo paghi, la polizza cessa da sola dalle ore 24 del 15° giorno dopo la scadenza. Dopo ogni sinistro pagato puoi recedere entro 60 giorni, con preavviso di 30."
+ },
+ "widiba": {
+  "alternative": "Puoi chiedere il trasferimento dei servizi di pagamento e del saldo positivo su un conto in un'altra banca, con o senza chiusura del conto Widiba, entro il dodicesimo giorno lavorativo dalla ricezione della richiesta da parte della banca di destinazione. Esiste un apposito Foglio Informativo sul servizio di trasferimento.",
+  "assistenza": "Numero verde clienti 800 22 55 77. Il foglio informativo indica la sede sociale a Milano, Via Messina 38, Torre D, e la PEC bancawidiba@postacert.gruppo.mps.it. I reclami vanno per PEC a reclami@widipec.it o per raccomandata A/R. Per i reclami sui servizi di pagamento la risposta arriva entro 15 giorni lavorativi, estendibili a 35.",
+  "data": "2026-11-10",
+  "dati_lettera": "La richiesta di chiusura va firmata e deve indicare il numero del conto da estinguere, contenere la dichiarazione di avvenuta distruzione di tutti i titoli in tuo possesso (carte di pagamento, moduli assegni) oppure manlevare la Banca da ogni responsabilità, e riportare l'IBAN su cui accreditare l'eventuale saldo residuo.",
+  "errori": [
+   "Mandare la richiesta all'indirizzo di Milano (Via Messina 38): quella è la sede sociale, mentre per la chiusura il foglio informativo indica la PEC richieste@widipec.it o la sede di Lecce, Zona industriale Strada Provinciale Lecce-Surbo, 73100.",
+   "Dimenticare l'IBAN di accredito del saldo residuo o la dichiarazione sulle carte: senza richiesta completa i termini non partono.",
+   "Contare sui 68 giorni come tempo standard: sono il massimo, che varia in base ai servizi collegati, e parte solo dalla richiesta completa con tutta la documentazione."
+  ],
+  "faq": [
+   {
+    "d": "Cosa succede se non restituisco la carta Widiba quando chiudo il conto?",
+    "r": "Se non restituisci le carte né le dichiari distrutte con manleva entro 20 giorni solari, la Banca procede comunque alla chiusura dei rapporti."
+   },
+   {
+    "d": "Come ripensarsi dopo aver aperto un conto Widiba online?",
+    "r": "Se sei consumatore e hai aperto il conto a distanza hai 14 giorni di calendario per recedere senza penali e senza motivo. Il termine parte dalla conclusione o dalla ricezione delle condizioni, se successiva."
+   },
+   {
+    "d": "Widiba può chiudere il mio conto?",
+    "r": "Sì, esiste un recesso della Banca. Il foglio informativo ricorda che, quando ricorre un giustificato motivo, i termini di preavviso non si applicano e il recesso è comunicato senza preavviso."
+   }
+  ],
+  "fonti": [
+   "https://www.widiba.it/banca/pb_nw/pdfDocumentTemplate.action?print=true&struts.token.name=null&sezId=trasparenza&pageId=trasparenza&template=AOL_FOGLIO_INFORMATIVO"
+  ],
+  "online": "Sì, dall'area riservata dell'internet banking su bancawidiba.it: cerchi la voce \"Richiesta con firma digitale\" nell'area \"Richieste chiusura conto corrente\". Per il ripensamento dei 14 giorni, se hai aperto il conto online, il foglio informativo (aggiornamento 22/10/2026) parla di una funzione di recesso accessibile dallo stesso Internet Banking o Mobile Banking, con avviso di ricevimento inviato all'indirizzo PEC associato al cliente.",
+  "tempi_e_dopo": "L'estinzione del conto corrente avviene entro 8 giorni solari, a cui si sommano i tempi dei servizi collegati; il massimo complessivo è di 68 giorni solari dalla richiesta completa. La Banca ti chiede di restituire le carte tagliate in due sulla parte del microchip, per raccomandata o posta ordinaria a Lecce, oppure di comunicarne la distruzione e manlevarla. Se non lo fai entro 20 giorni solari, chiude comunque.",
+  "vincoli": "La chiusura non ha spese, oneri o penalità. Un fido collegato richiede fino a 40 giorni solari dalla richiesta, i servizi Viacard o Telepass Family fino a 50. La richiesta può essere sospesa se emergono pignoramenti, sequestri o successioni: in quel caso Widiba ti scrive."
  },
  "zurich-connect": {
   "assistenza": "Servizio clienti 02 83 430 430. I sinistri si denunciano allo 02 83 430 000 o a documenti.sinistri@it.zurich.com. L'assistenza stradale ha il numero verde 800 186 064 e WhatsApp 392 911 5088, disponibile 24 ore su 24; la tutela legale 800 04 0101 (lunedì-venerdì 8:30-19:30). I reclami vanno anche alla PEC reclami@pec.zurich.it.",

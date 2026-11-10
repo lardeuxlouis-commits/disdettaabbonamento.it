@@ -323,15 +323,14 @@
   "pec": "",
   "indirizzo_postale": "Zurich Insurance Company Ltd, Rappresentanza Generale per l'Italia, Via Benigno Crespi 23, 20159 Milano",
   "canali": [
-   "e-mail documenti@it.zurich.com (indicando numero di polizza e targa)",
+   "e-mail documenti@it.zurich.com (indicando numero di polizza e targa): è il canale indicato per la disdetta a scadenza",
    "telefono 02 83 430 430",
-   "PEC",
-   "raccomandata A/R"
+   "raccomandata A/R a Via Benigno Crespi 23, Milano: indicata solo per il ripensamento entro 14 giorni"
   ],
   "preavviso": "RC auto: nessuna disdetta. Polizze casa 'No Pensieri' (canale Plenitude): tacito rinnovo, disdetta almeno 60 giorni prima della scadenza annuale",
   "costi": "Nessuno indicato",
   "modulo": "https://www.zurich.it/api/archiviodigitale/download?guid=9A8DA977-3B27-4682-B615-D8017288F5CE&filename=Modulo%20Unico%20Clienti%20Plenitude%200426.pdf",
-  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta (copertura prorogata 15 giorni). Il sito zurich-connect.it ora rimanda a zurich.it/zurich-connect: l'app non è più disponibile e le richieste sui contratti vanno a documenti@it.zurich.com. Fonti secondarie riferiscono che Zurich Connect non rinnova più le polizze veicoli scadute dopo il 20/10/2024 (non verificato sul sito ufficiale). PEC societaria dal set informativo; per i reclami esiste una PEC distinta (reclami@pec.zurich.it). La PEC generale della compagnia è zurich.insurance.company@pec.zurich.it, ma i documenti ufficiali non la indicano espressamente per la disdetta: meglio la raccomandata A/R o i canali indicati sopra.",
+  "note": "RC auto: dal 2012 (DL 179/2012) niente tacito rinnovo, la polizza scade da sola e non serve disdetta. Per le polizze casa NoPensieri il set informativo 01/2026 (art. 6.9 e DIP) prevede la disdetta a scadenza e il recesso dopo sinistro via e-mail a documenti@it.zurich.com; la raccomandata A/R è indicata solo per il ripensamento dei 14 giorni. Il sito zurich-connect.it ora rimanda a zurich.it/zurich-connect e l'app non è più disponibile. Per i reclami esiste una PEC distinta (reclami@pec.zurich.it).",
   "fonti": [
    "https://www.zurich.it/zurich-connect",
    "https://www.zurich.it/api/archiviodigitale/download?guid=7C06ACF6-8BDC-4C5C-B01C-ED44DD91F716&filename=P35001_NP_Casa%20SI_0126.pdf.pdf",
@@ -339,7 +338,7 @@
    "https://assicurazioni.segugio.it/compagnie-assicurative/zurich-connect.html"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-10"
  },
  {
   "nome": "AXA Italia",

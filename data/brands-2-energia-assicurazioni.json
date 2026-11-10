@@ -160,7 +160,7 @@
    "area clienti / app MyOptima",
    "numero verde privati 800 913838"
   ],
-  "preavviso": "Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per cessazione, delibera 783/2017)",
+  "preavviso": "30 giorni dal ricevimento della richiesta per disattivare l'utenza (condizioni generali Tutto-in-Uno, art. 3.3), con penale se il preavviso non è rispettato (art. 3.5).",
   "costi": "Nessuna penale per luce e gas; se la fornitura è in un pacchetto con internet/mobile possono esserci costi di disattivazione e rate residue di apparati",
   "modulo": "",
   "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore). La PEC è pubblicata nella pagina Assistenza tra i recapiti per i clienti e le condizioni generali (art. 10.1) la indicano per qualsiasi comunicazione scritta del cliente; le condizioni lette sono quelle dell'offerta Tutto-in-Uno privati, l'edizione per le sole offerte luce e gas attuali non è pubblicata in chiaro.",
@@ -170,7 +170,7 @@
    "https://www.optimaitalia.com/info-clienti/documenti-elettricita-e-gas"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-10"
  },
  {
   "nome": "Estra Energie",
@@ -225,9 +225,10 @@
   "nome": "AGSM AIM Energia (ora Magis Energia)",
   "slug": "agsm-aim-energia",
   "categoria": "energia",
-  "pec": "",
+  "pec": "clienti.energia@pec.gruppomagis.it",
   "indirizzo_postale": "Magis Energia S.p.A. (già AGSM AIM Energia), Lungadige Galtarossa 8, 37133 Verona (VR)",
   "canali": [
+   "PEC clienti.energia@pec.gruppomagis.it",
    "area clienti / app Magis Energia (sezione Richieste > Cessazione)",
    "raccomandata A/R",
    "numero verde 800 552 866 (da cellulare 045 221 2123)",
@@ -236,15 +237,16 @@
   "preavviso": "Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per cessazione, delibera 783/2017)",
   "costi": "Nessuna penale per i clienti domestici; eventuali oneri del distributore per la disattivazione",
   "modulo": "",
-  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura; il sito ufficiale indica come canale principale l'Area Clienti (dal 2026 il marchio è Magis Energia, serve una nuova registrazione). La PEC energia@pec.agsmaim.it è citata solo da siti secondari e non compare sul sito Magis: non verificata.",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura. Le condizioni generali mercato libero di Magis Energia (art. 15.1) indicano la PEC clienti.energia@pec.gruppomagis.it e l'art. 3 ammette il recesso per cessazione via PEC o raccomandata A/R; il sito indica anche l'Area Clienti (dal 2026 il marchio è Magis Energia, serve una nuova registrazione). La vecchia PEC energia@pec.agsmaim.it citata da siti secondari non compare sul sito Magis.",
   "fonti": [
    "https://www.magisenergia.it/it/assistenza/gestisci-il-tuo-contratto/dati-e-contratti/cessazione",
    "https://www.magisenergia.it/it/contatti",
    "https://www.magisenergia.it/it/assistenza/assistenza-magis/reclami-e-informazioni-agsm",
-   "https://www.comparasemplice.it/informazioni/energia/come-disdire-un-contratto-agsm-energia-moduli-e-tempistiche"
+   "https://www.comparasemplice.it/informazioni/energia/come-disdire-un-contratto-agsm-energia-moduli-e-tempistiche",
+   "https://www.magisenergia.it/file/blocks/e_pdf_3_0-16305.pdf"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-10"
  },
  {
   "nome": "Dolomiti Energia",
@@ -260,15 +262,16 @@
    "Dolomiti Energia Point"
   ],
   "preavviso": "1 mese (preavviso ARERA richiamato nelle condizioni economiche delle offerte)",
-  "costi": "Nessun onere di recesso per i clienti domestici (oneri solo per clienti di grandi dimensioni che non rispettano il preavviso)",
+  "costi": "Nessuna penale per cambiare fornitore. Per la chiusura del contatore la pagina ufficiale indica 25 euro per la luce e da 30 a 45 euro per il gas; la pagina sulle operazioni contrattuali cita anche una penale per recesso anticipato su alcune offerte.",
   "modulo": "",
   "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore). La PEC è pubblicata nella pagina Comunicare con noi, sezione Scrivici, insieme all'indirizzo per la corrispondenza cartacea; le PEC accessorete.* sono riservate agli operatori di rete.",
   "fonti": [
    "https://www.dolomitienergia.it/assistenza/comunicare-con-noi.html",
-   "https://www.dolomitienergia.it/dam/dolomiti-energia/Release_2026-08-05/77513_CE.pdf.coredownload.pdf"
+   "https://www.dolomitienergia.it/assistenza/operazioni/chiusura-contatore-casa.html",
+   "https://www.dolomitienergia.it/assistenza/gestire-i-contratti/operazioni-contrattuali-casa.html"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-10"
  },
  {
   "nome": "Alperia",
@@ -401,19 +404,19 @@
   "indirizzo_postale": "Sara Assicurazioni S.p.A., Via Po 20, 00198 Roma (RM)",
   "canali": [
    "raccomandata A/R alla sede o alla propria agenzia",
-   "PEC",
    "agenzia di riferimento (indirizzi su sara.it)",
+   "PEC (indicata nel set informativo solo per il ripensamento entro 14 giorni)",
    "tel. 06 8475223"
   ],
   "preavviso": "Almeno 30 giorni prima della scadenza (polizze annuali con tacito rinnovo). Ripensamento entro 14 giorni per i contratti a distanza.",
   "costi": "Nessun costo per la disdetta alla scadenza.",
   "modulo": "",
-  "note": "RC auto: nessun tacito rinnovo dal DL 179/2012, non serve disdetta. Il set informativo indica la disdetta per raccomandata a Via Po 20 e accetta la PEC saraassicurazioni@sara.telecompost.it per il recesso; indicare contraente e numero di polizza. Reclami: gest.reclami@sara.it.",
+  "note": "RC auto: nessun tacito rinnovo dal DL 179/2012, non serve disdetta. Il set informativo Sara Legal (ed. 03/2022) indica per la disdetta la sola raccomandata a Via Po 20 o alla propria agenzia; la PEC saraassicurazioni@sara.telecompost.it vi compare solo per il ripensamento entro 14 giorni. Indica contraente e numero di polizza. Reclami: gest.reclami@sara.it.",
   "fonti": [
    "https://sara.it/sites/default/files/2024-06/set_informativo_saralegal_ed.3.2022.pdf"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-10"
  },
  {
   "nome": "Vittoria Assicurazioni",

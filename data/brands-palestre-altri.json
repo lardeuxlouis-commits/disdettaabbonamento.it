@@ -29,7 +29,7 @@
     "pec": "servizioclientivai@pcert.postecert.it",
     "indirizzo_postale": "Raccomandata A/R all'indirizzo del proprio Home Club Virgin Active (Virgin Active Italia S.p.A.), indicato sul contratto e sulla pagina del club. Nessun indirizzo centrale unico pubblicato per la disdetta.",
     "canali": [
-      "area personale online (shop.virginactive.it > I miei abbonamenti > Disdetta abbonamento)",
+      "Area Personale sul sito Virgin Active (sezione abbonamenti, disdetta)",
       "app Virgin Active Italia",
       "modulo alla reception del club",
       "PEC",
@@ -46,7 +46,7 @@
       "https://agcm.it/dotcmsdoc/allegati-news/PS12879_provv. chius. + sanzioni_omi_signed_signed.pdf"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
+    "data_verifica": "2026-11-10"
   },
   {
     "nome": "Anytime Fitness Italia",
@@ -159,7 +159,7 @@
       "PEC con firma digitale, oppure firma autografa con copia per immagine e copia documento d'identità",
       "raccomandata senza busta con copia documento d'identità (solo se la trasmissione telematica non è possibile)"
     ],
-    "preavviso": "Quadro A (non detenzione) da ripresentare ogni anno. Presentata dal 1 luglio dell'anno precedente al 31 gennaio (per il 2026: fino al 2 febbraio 2026) esonera per tutto l'anno; dal giorno successivo al 30 giugno esonera solo per il secondo semestre (luglio-dicembre).",
+    "preavviso": "Quadro A (non detenzione) da ripresentare ogni anno. Presentata dal 1 luglio dell'anno precedente al 31 gennaio (per il 2026: fino al 2 febbraio 2026) esonera per tutto l'anno; presentata dal 1 febbraio al 30 giugno (per il 2026: dal 3 febbraio al 30 giugno) esonera solo per il secondo semestre (luglio-dicembre).",
     "costi": "Nessun costo. Dichiarazione mendace punita ai sensi degli artt. 75-76 DPR 445/2000.",
     "modulo": "https://www.agenziaentrate.gov.it/portale/documents/20143/450880/DS_Canone_TV_Privato_MOD.pdf/82f97e00-3cf0-76ae-1317-afeafa8e0bb6",
     "note": "Non è una disdetta RAI ma una dichiarazione all'Agenzia delle Entrate, riservata a chi è intestatario di utenza elettrica residenziale e non detiene alcuna TV. Attenzione: la vecchia PEC cp22.sat@postacertificata.rai.it citata da molti siti non è quella indicata oggi nelle istruzioni ufficiali per questa dichiarazione.",
@@ -169,7 +169,7 @@
       "https://www.agenziaentrate.gov.it/portale/documents/20143/450880/DS_Canone_TV_Privato_ISTR.pdf/e29f783f-9675-24e0-635b-d6bf5d43ff15"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
+    "data_verifica": "2026-11-10"
   },
   {
     "nome": "American Express Italia (carta)",

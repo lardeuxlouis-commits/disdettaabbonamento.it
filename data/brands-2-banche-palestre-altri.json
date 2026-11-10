@@ -227,7 +227,7 @@
    "e-mail a hello@hype.it dall'indirizzo registrato, se la procedura in app non è possibile",
    "entro 14 giorni dalla sottoscrizione: Profilo > Impostazioni > Recedi dal contratto"
   ],
-  "preavviso": "Nessun preavviso: la chiusura dall'app è immediata dopo la conferma. Requisiti: saldo a 0 €, salvadanai azzerati, pagamenti in uscita regolati, eventuale wallet Bitcoin svuotato.",
+  "preavviso": "Nessun preavviso. La richiesta parte subito dall'app, ma il contratto (aggiornato al 28/07/2026) prevede la chiusura entro 12 giorni lavorativi se il saldo è a zero, ed entro 30 giorni dalla comunicazione dell'IBAN se c'è un saldo da trasferire. Requisiti: salvadanai azzerati, pagamenti in uscita regolati, eventuale wallet Bitcoin svuotato.",
   "costi": "Gratuito.",
   "modulo": "",
   "note": "Il contratto Hype è con Banca Sella S.p.A. (Piazza Gaudenzio Sella 1, 13900 Biella); le PEC segreteria@pec.sella.it e reclami@pec.sella.it non sono indicate per la chiusura, che va chiesta ai recapiti Hype. Scaricare estratti conto e giacenza media prima di chiudere: l'accesso si perde subito.",
@@ -237,7 +237,7 @@
    "https://api.hype.it/SSRDocumentDisplayer?dtdPG=B23_HYP&dtdPE=1"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-10"
  },
  {
   "nome": "BancoPosta (conto Poste Italiane)",
@@ -383,13 +383,14 @@
   "preavviso": "Disdetta richiedibile in qualsiasi momento, tranne l'ultimo giorno del periodo in corso. Abbonamento prova 7 giorni: disdire via app entro il sesto giorno, altrimenti diventa mensile.",
   "costi": "Costo di disdetta pari a circa il 50% della mensilità (FAQ ufficiale). Disdetta consentita solo senza rate insolute.",
   "modulo": "",
-  "note": "Il gruppo ha assorbito alcuni club GetFit ed ex Virgin Active: per questi abbonamenti verificare l'intestatario del contratto. Nessuna PEC pubblicata sul sito; diversi utenti segnalano su Altroconsumo disdette via app o PEC non lavorate, conservare sempre la prova dell'invio.",
+  "note": "Il gruppo ha assorbito alcuni club GetFit ed ex Virgin Active: per questi abbonamenti verificare l'intestatario del contratto. Nessuna PEC pubblicata sul sito; diversi utenti segnalano su Altroconsumo disdette via app o PEC non lavorate, conservare sempre la prova dell'invio. Attenzione: il sito pubblica anche Condizioni Generali intestate a Luce s.r.l., Piazza Stazione San Lorenzo 1, 90146 Palermo, per i club gestiti da questa società: controlla sul contratto quale società è indicata e invia la lettera a quella.",
   "fonti": [
    "https://www.orangepalestreitaliane.it/faq",
-   "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/orange-palestre-pagamenti-no/7be22669db9aa4bd7f"
+   "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/orange-palestre-pagamenti-no/7be22669db9aa4bd7f",
+   "https://www.orangepalestreitaliane.it/terms-luce-srl"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-10"
  },
  {
   "nome": "Fit and Go",
