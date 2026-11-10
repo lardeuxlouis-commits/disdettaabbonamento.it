@@ -3,7 +3,7 @@
 Legge data/brands-*.json e scrive il sito in site/.
 Uso : python3 _build/build.py
 """
-import json, glob, os, html, re, shutil, sys, datetime as dt
+import json, glob, os, html, re, shutil, sys, hashlib, datetime as dt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from guide import GUIDE as _GUIDE_TUTTE
 import modelli as MOD
@@ -19,6 +19,14 @@ OUT = os.path.join(ROOT, "docs")
 DOMAIN = "https://disdettaabbonamento.it"
 SITE = "Disdetta Abbonamento"
 TODAY = dt.date.today().isoformat()
+# Dates réelles de modification. Une page ne change de date que si son contenu change (titre, description, <main>).
+# Avant, le sitemap et les guides prenaient la date du jour à chaque build : 200 pages « modifiées » d'un coup, à tort.
+# L'état vit dans _build/lastmod.json ({chemin: {"h": empreinte, "d": date}}), à committer avec docs/.
+LASTMOD_F = os.path.join(ROOT, "_build", "lastmod.json")
+LASTMOD = json.load(open(LASTMOD_F, encoding="utf-8")) if os.path.exists(LASTMOD_F) else {}
+LASTMOD_VISTI = {}
+DATA_ISO = "@@DATA-REALE-ISO@@"      # remplacé dans write() par la date réelle de la page
+DATA_LETTERE = "@@DATA-REALE-LETTERE@@"  # la même, en toutes lettres
 # Les guides avec « pubblica_dal » dans le futur ne sont pas encore publiés (mise en ligne progressive).
 GUIDE = [g for g in _GUIDE_TUTTE if g.get("pubblica_dal", "") <= TODAY]
 ASSET_V = None  # rempli au build
@@ -520,7 +528,19 @@ def page(title, desc, path, body, schema=None, sticky="", noindex=False, extra_h
 {sticky}<script src="/app.js?v={ASSET_V}" defer></script><script data-goatcounter="https://disdetta.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>"""
 
 
+def data_reale(path, content):
+    t = re.search(r'<title>.*?</title><meta name="description"[^>]*>', content, re.S)
+    m = re.search(r"<main.*?</main>", content, re.S)
+    h = hashlib.sha256(((t.group(0) if t else "") + (m.group(0) if m else content)).encode("utf-8")).hexdigest()[:16]
+    e = LASTMOD.get(path)
+    d = e["d"] if e and e.get("h") in (None, h) else TODAY   # "h" absent = date reprise de l'historique git
+    LASTMOD_VISTI[path] = {"h": h, "d": d}
+    return d
+
+
 def write(path, content):
+    d = data_reale(path, content)
+    content = content.replace(DATA_LETTERE, data_it(d)).replace(DATA_ISO, d)
     full = os.path.join(OUT, path.strip("/"), "index.html") if not path.endswith(".html") else os.path.join(OUT, path.strip("/"))
     os.makedirs(os.path.dirname(full), exist_ok=True)
     open(full, "w", encoding="utf-8").write(content)
@@ -821,12 +841,12 @@ def main():
     for g in GUIDE:
         gp = f"/guide/{g['slug']}/"
         rel = [b for b in brands if b["categoria"] in g["cats"]][:9]
-        body = f'<section class="hero small"><p class="crumbs"><a href="/">Home</a> › <a href="/guide/">Guide</a> › {E(g["h1"])}</p><span class="pill"><b>✓</b> Aggiornata il {data_it(TODAY)}</span><h1>{E(g["h1"])}</h1></section>'
+        body = f'<section class="hero small"><p class="crumbs"><a href="/">Home</a> › <a href="/guide/">Guide</a> › {E(g["h1"])}</p><span class="pill"><b>✓</b> Aggiornata il {DATA_LETTERE}</span><h1>{E(g["h1"])}</h1></section>'
         body += '<article class="guide">' + g["body"] + '</article>'
         body += '<section class="band"><h2>Pronto a disdire?</h2><p>Cerca il tuo operatore: indirizzo verificato e lettera pronta in un minuto.</p><a class="btn shine" href="/#cerca">Trova il tuo operatore →</a></section>'
         if rel:
             body += '<h2>Operatori collegati</h2><div class="grid">' + "".join(card(b) for b in rel) + '</div>'
-        sch = [{"@context": "https://schema.org", "@type": "Article", "headline": g["h1"], "dateModified": TODAY, "inLanguage": "it-IT",
+        sch = [{"@context": "https://schema.org", "@type": "Article", "headline": g["h1"], "dateModified": DATA_ISO, "inLanguage": "it-IT",
                 "author": {"@type": "Organization", "name": SITE}, "publisher": {"@type": "Organization", "name": SITE}, "mainEntityOfPage": DOMAIN + gp}]
         write(gp, page(g["title"], g["desc"], gp, body, sch)); urls.append(gp)
         gcards.append(f'<a class="card" href="{gp}"><span class="av altri-servizi">📘</span><span><b>{E(g["h1"])}</b><small>{E(g["desc"][:80])}…</small></span></a>')
@@ -834,7 +854,7 @@ def main():
     write("/guide/", page("Guide alla disdetta: leggi, PEC, raccomandata e casi particolari", "Tutte le guide per disdire un contratto: legge Bersani, come inviare una PEC, trasloco, decesso, recesso entro 14 giorni, reclami e conciliazioni.", "/guide/", body)); urls.append("/guide/")
     # home
     nuff = sum(1 for b in brands if b.get("affidabilita") == "ufficiale")
-    body = '<section class="hero home" id="cerca"><div><span class="pill"><b>✓</b> Aggiornato il ' + data_it(TODAY) + '</span>'
+    body = '<section class="hero home" id="cerca"><div><span class="pill"><b>✓</b> Aggiornato il ' + DATA_LETTERE + '</span>'
     body += '<h1>Disdici qualsiasi abbonamento <em>in un minuto</em></h1>'
     body += '<p class="lead">Trova l\'indirizzo PEC o postale giusto del tuo operatore, controlla preavviso e costi, e genera gratis la lettera di disdetta pronta da inviare.</p>'
     body += '<div class="searchbox"><input class="search" type="search" placeholder="Cerca il tuo operatore: TIM, Sky, Enel, McFit…" autocomplete="off" aria-label="Cerca un operatore"></div>'
@@ -887,7 +907,7 @@ def main():
     json.dump([{"n": b["nome"], "u": f"/disdetta-{b['slug']}/", "c": CATEGORIE[b["categoria"]]["nome"], "cc": b["categoria"], "i": iniziali(b["nome"]), "l": etichetta(b)} for b in brands],
               open(os.path.join(OUT, "operatori.json"), "w", encoding="utf-8"), ensure_ascii=False)
     open(os.path.join(OUT, "robots.txt"), "w").write("User-agent: *\nAllow: /\n\n" + "".join(f"User-agent: {ua}\nAllow: /\n\n" for ua in ["GPTBot", "ChatGPT-User", "OAI-SearchBot", "PerplexityBot", "ClaudeBot", "Claude-SearchBot", "Google-Extended", "Applebot-Extended", "Bingbot"]) + f"Sitemap: {DOMAIN}/sitemap.xml\n")
-    llms = [f"# {SITE}", "", f"> Indirizzi PEC e postali verificati, preavviso, costi e lettera di disdetta gratuita per {len(brands)} operatori italiani (telefonia, pay TV, luce e gas, assicurazioni, banche, palestre). Ogni scheda riporta la data di verifica e le fonti ufficiali. Servizio opzionale di invio via PEC a 7,90 EUR.", "", f"Ultimo aggiornamento: {TODAY}", "", "## Schede operatore"]
+    llms = [f"# {SITE}", "", f"> Indirizzi PEC e postali verificati, preavviso, costi e lettera di disdetta gratuita per {len(brands)} operatori italiani (telefonia, pay TV, luce e gas, assicurazioni, banche, palestre). Ogni scheda riporta la data di verifica e le fonti ufficiali. Servizio opzionale di invio via PEC a 7,90 EUR.", "", "Ultimo aggiornamento: " + max(v["d"] for v in LASTMOD_VISTI.values()), "", "## Schede operatore"]
     for b in sorted(brands, key=lambda x: x["nome"].lower()):
         r = []
         if b.get("pec"): r.append("PEC " + b["pec"])
@@ -895,7 +915,7 @@ def main():
         llms.append(f"- [Disdetta {b['nome']}]({DOMAIN}/disdetta-{b['slug']}/): " + ("; ".join(r) if r else "disdetta online dai canali ufficiali") + f" (verificato {b['data_verifica']})")
     llms += ["", "## Pagine", f"- [Come funziona]({DOMAIN}/come-funziona/)", f"- [Termini del servizio PEC]({DOMAIN}/termini/)", f"- [Chi siamo]({DOMAIN}/chi-siamo/)"]
     open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8").write("\n".join(llms) + "\n")
-    sm = "".join(f"<url><loc>{DOMAIN}{u}</loc><lastmod>{TODAY}</lastmod></url>" for u in urls)
+    sm = "".join(f"<url><loc>{DOMAIN}{u}</loc><lastmod>{LASTMOD_VISTI[u]['d'] if u in LASTMOD_VISTI else TODAY}</lastmod></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w").write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
     for src, dst in [("brand/icon-512.png", "favicon.png"), ("brand/icon-512.png", "apple-touch-icon.png"), ("brand/og.png", "og.png"), ("brand/BingSiteAuth.xml", "BingSiteAuth.xml"), ("brand/louis.jpg", "louis.jpg")]:
         if os.path.exists(os.path.join(ROOT, src)):
@@ -914,6 +934,7 @@ def main():
     open(os.path.join(OUT, k + ".txt"), "w").write(k)
     open(os.path.join(ROOT, "_build", "urls.txt"), "w").write("\n".join(DOMAIN + u for u in urls) + "\n")
     open(os.path.join(OUT, ".nojekyll"), "w").write("")
+    json.dump(dict(sorted(LASTMOD_VISTI.items())), open(LASTMOD_F, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     print(f"{len(brands)} marchi, {len(urls)} pagine -> {OUT}")
 
 
