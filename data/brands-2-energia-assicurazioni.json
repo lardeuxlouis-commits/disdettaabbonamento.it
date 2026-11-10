@@ -110,15 +110,17 @@
    "area clienti / app Octopus"
   ],
   "preavviso": "1 mese dalla ricezione della comunicazione di recesso (condizioni generali v260511, art. 6)",
-  "costi": "Nessuna penale: il contratto non ha durata fissa",
+  "costi": "Nessuna penale per cambiare fornitore. Per la cessazione della fornitura (chiusura del contatore) la FAQ ufficiale indica un costo fisso di disattivazione di 23 euro per la luce e 54 euro per il gas, IVA inclusa. Octopus annuncia oneri di recesso anticipato su alcune tariffe fisse.",
   "modulo": "",
   "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore); le condizioni generali (art. 19) indicano per tutte le comunicazioni del cliente l'e-mail ciao@octopusenergy.it o la raccomandata A/R alla sede di Ascoli Piceno. Nessuna PEC pubblicata per i clienti (attenzione: alcuni siti riportano un indirizzo errato, Via del Bozzolo).",
   "fonti": [
    "https://a.storyblok.com/f/146593/x/d4ed7dfbfe/oeitalia_cgf_260511.pdf",
-   "https://octopusenergy.it/contatti"
+   "https://octopusenergy.it/contatti",
+   "https://octopusenergy.it/faq/disattivazione-contatore",
+   "https://octopusenergy.it/faq/oneri-recesso-anticipato"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-10"
  },
  {
   "nome": "Illumia",
@@ -549,15 +551,16 @@
   "preavviso": "Polizze casa/famiglia: almeno 30 giorni prima della scadenza annuale. RC auto: nessuna disdetta necessaria, il contratto scade da solo.",
   "costi": "Nessuna penale indicata per la disdetta alla scadenza.",
   "modulo": "",
-  "note": "Quixa è ancora attiva (gruppo AXA Italia). RC auto: niente tacito rinnovo dal DL 179/2012, la polizza cessa alla scadenza senza disdetta; per le altre polizze serve la disdetta nei termini. Il set informativo Home & Family (ed. 15/01/2026) indica la PEC per disdetta e recesso; i prodotti quixa smart indicano invece l'e-mail quixasmart@quixa.it. Gli indirizzi disdette@pec.quixa.it e Via Monterosa 91 Concorezzo citati da siti terzi NON compaiono nei documenti ufficiali.",
+  "note": "Quixa è ancora attiva (gruppo AXA Italia). RC auto: niente tacito rinnovo dal DL 179/2012, la polizza cessa alla scadenza senza disdetta. Per annullare la polizza auto il modulo ufficiale indica QUIXA, Casella postale 427, 20123 Milano, oppure l'e-mail postvendita@quixa.it o l'area MyQuixa. Per le altre polizze il set informativo Home & Family (ed. 15/01/2026) indica la PEC; i prodotti quixa smart l'e-mail quixasmart@quixa.it.",
   "fonti": [
    "https://www.quixa.it/wp-content/documents/SetInformativi/ed.15.01.2026_Home_family.pdf",
    "https://www.quixa.it/wp-content/documents/SetInformativi/ed.20.09.2023_Casa.pdf",
    "https://www.quixa.it/wp-content/documents/SetInformativi/ed.28.01.2025_Auto_ContrattoBase.pdf",
-   "https://www.quixa.it/contatti"
+   "https://www.quixa.it/contatti",
+   "https://www.quixa.it/prodotti/come-fare-per/annullare-la-polizza/"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-10"
  },
  {
   "nome": "Intesa Sanpaolo Protezione (ex Intesa Sanpaolo Assicura)",

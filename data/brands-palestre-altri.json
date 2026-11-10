@@ -135,16 +135,17 @@
       "Telepass Store / Centro Servizi / punti convenzionati per la restituzione del dispositivo",
       "Telepass Easy: 06 89416301 o variazionecontratto@telepass.com"
     ],
-    "preavviso": "Nessun preavviso indicato sulla pagina ufficiale. Dopo la richiesta il dispositivo va restituito (fonte secondaria: entro 20 giorni).",
-    "costi": "Recesso senza costi di chiusura. Fonte secondaria (SicurAuto): penale di 25,82 euro per mancata o tardata restituzione del dispositivo.",
+    "preavviso": "Nessun preavviso. Dopo la richiesta il dispositivo va restituito entro 20 giorni (Norme e Condizioni Telepass Family, ed. aprile 2026).",
+    "costi": "Recesso senza costi di chiusura. Penale per ogni dispositivo non restituito entro 20 giorni: 30,00 euro dal 1° luglio 2026, 25,82 euro fino al 30 giugno 2026 (Norme e Condizioni Telepass Family, ed. aprile 2026, art. 6).",
     "modulo": "https://assets.ctfassets.net/4plydxkcrqt2/5Uv7ZCQ5miYYaGkeFZx0Mx/524a6e0d4d64fdb0a013eb308e72adf8/Modulo_Restituzione_dispositivo.pdf",
     "note": "La procedura cambia secondo l'offerta (Family, Plus/Sempre, Pay X, Easy): Telepass Pay X si disdice solo per telefono. La chiusura è completa solo alla restituzione del dispositivo.",
     "fonti": [
       "https://www.telepass.com/it/privati/supporto/domande-frequenti/assistenza/disdetta",
-      "https://www.sicurauto.it/news/attualita-e-curiosita/disdetta-telepass-come-chiudere-il-contratto/"
+      "https://www.sicurauto.it/news/attualita-e-curiosita/disdetta-telepass-come-chiudere-il-contratto/",
+      "https://assets.ctfassets.net/4plydxkcrqt2/48XWf93hb9XQ1o2aK2ZGp7/6394003ed7046071b15ea647bbe5948d/N_C_Family_DIR_PROX_TEL_ONL_apr26_clean.pdf"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
+    "data_verifica": "2026-11-10"
   },
   {
     "nome": "Canone RAI (dichiarazione sostitutiva di non detenzione)",

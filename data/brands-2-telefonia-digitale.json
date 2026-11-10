@@ -637,16 +637,17 @@
   "preavviso": "Disdetta del rinnovo automatico entro un giorno di calendario dalla scadenza; la cancellazione ha effetto dalla prima scadenza successiva alla richiesta. Recesso entro 14 giorni per gli acquisti a distanza.",
   "costi": "Nessuna penale indicata; il periodo già pagato non viene rimborsato. Alla fine del primo periodo promozionale, senza disdetta, si paga il prezzo di listino.",
   "modulo": "",
-  "note": "La disdetta si fa online con il pulsante 'Disdici rinnovo automatico'; nessuna PEC ufficiale pubblicata per gli abbonamenti (la sede legale di Il Sole 24 ORE S.p.A. è in Viale Sarca 223, 20126 Milano). Siti secondari citano la PEC sole24ore@legalmail.it e un vecchio indirizzo in Via Monte Rosa 91, non confermati da fonti ufficiali.",
+  "note": "La disdetta del rinnovo si fa online dall'area utente (pulsante di disdetta del rinnovo automatico). Per il recesso entro 14 giorni l'informativa ufficiale indica la PEC legale@pec.ilsole24ore.com, l'e-mail sospendi@ilsole24ore.com o Il Sole 24 ORE S.p.A., Viale Sarca 223, 20126 Milano. Siti secondari citano altri indirizzi (sole24ore@legalmail.it, Via Monte Rosa 91) non confermati da fonti ufficiali.",
   "fonti": [
    "https://minisiti.ilsole24ore.com/digital-access/",
    "https://st.ilsole24ore.com/pro/appterms-condition.shtml",
    "https://st.ilsole24ore.com/pro/terms-condition.shtml",
    "https://www.gruppoilsole24ore.ilsole24ore.com/en/contacts",
-   "https://www.gruppoilsole24ore.ilsole24ore.com/en/company-data"
+   "https://www.gruppoilsole24ore.ilsole24ore.com/en/company-data",
+   "https://ecommerce-static.ilsole24ore.com/media/related/informativa_sul_diritto_di_recesso.pdf"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-10"
  },
  {
   "nome": "Il Fatto Quotidiano",

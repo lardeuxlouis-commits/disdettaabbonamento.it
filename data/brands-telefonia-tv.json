@@ -148,15 +148,16 @@
       "pulsante di disdetta online: sì, da Area Riservata"
     ],
     "preavviso": "30 giorni",
-    "costi": "Entro i primi 24 mesi: 54,90 euro (FWA) o 24,90 euro (FTTH) IVA inclusa; dopo 24 mesi nessun costo di recesso; rate residue di apparati/attivazione",
+    "costi": "Entro i primi 24 mesi: 54,90 euro (FWA) o 24,90 euro (fibra FTTH o FTTC) IVA inclusa. Dopo 24 mesi nessun costo di recesso solo per i clienti attivati dal 3 gennaio 2024; restano le rate residue di apparati e attivazione.",
     "modulo": "",
-    "note": "Il contratto richiede PEC firmata digitalmente. Clienti business: chiusure.business@pec.eolo.it (fonte secondaria).",
+    "note": "Il contratto richiede PEC firmata digitalmente. Clienti business: chiusure.business@pec.eolo.it (indicata sulle pagine ufficiali EOLO).",
     "fonti": [
       "https://www.eolo.it/dam/jcr:3b72845a-e7ea-4cea-9d1a-277233dfee9f/Contratto_EOLO_n.pdf",
-      "https://selectra.net/internet/operatori/eolo/disdetta"
+      "https://selectra.net/internet/operatori/eolo/disdetta",
+      "https://www.eolo.it/assistenza/rinnovo-chiusura-abbonamento"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
+    "data_verifica": "2026-11-10"
   },
   {
     "nome": "Tiscali",
