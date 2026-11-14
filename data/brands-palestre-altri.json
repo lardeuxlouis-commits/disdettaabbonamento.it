@@ -100,26 +100,23 @@
     "slug": "get-fit-milano",
     "categoria": "palestre",
     "pec": "",
-    "indirizzo_postale": "Da verificare sul contratto. Sede legale pubblicata sul sito: GetFIT Milano S.r.l., Via Ravizza 4, 20149 Milano (la privacy policy riporta CAP 20159).",
+    "indirizzo_postale": "Da verificare sul contratto. Sede legale pubblicata sul sito getfit.it: Via Privata Archimede 2, 20094 Corsico (MI)",
     "canali": [
       "reception del proprio club",
       "raccomandata A/R alla società indicata sul contratto",
       "PEC della società indicata sul contratto (da ricercare su INI-PEC / Registro Imprese, non pubblicata sul sito)"
     ],
-    "preavviso": "Non pubblicato sul sito ufficiale: fare riferimento al contratto firmato. Gli abbonamenti annuali possono rinnovarsi automaticamente (segnalazioni su Altroconsumo); per legge (art. 65-bis Codice del Consumo) la palestra deve avvisare 30 giorni prima della scadenza.",
+    "preavviso": "Non pubblicato sul sito ufficiale: fare riferimento al contratto firmato. Per legge (art. 65-bis Codice del Consumo) la palestra deve avvisare per iscritto 30 giorni prima del rinnovo automatico.",
     "costi": "Non pubblicati sul sito ufficiale.",
     "modulo": "",
-    "note": "Il sito getfit.it non pubblica condizioni generali, PEC né procedura di disdetta. Da luglio 2026 sei club GetFIT sono passati a Orange Palestre Italiane, mentre i centri di via Pinerolo e via Piacenza restano ai fondatori; in passato alcuni contratti risultavano intestati a Sportitalia SSD a r.l.: la controparte va letta sul proprio contratto.",
+    "note": "Il sito getfit.it non pubblica condizioni generali, PEC né procedura di disdetta. Il piè di pagina indica direzione e coordinamento di Orange Italia S.p.A.",
     "fonti": [
       "https://www.getfit.it/",
       "https://www.getfit.it/contatti/",
-      "https://www.getfit.it/privacy-policy/",
-      "https://www.milanofinanza.it/news/orange-palestre-italiane-acquisisce-getfit-nasce-un-gruppo-da-55-milioni-di-ricavi-e-110-mila-202607271234212705",
-      "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/reclamo-su-rinnovo-abbonamento/09dc799ee24824c0b4",
-      "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/annullo-contratto-abbonamento/CPTIT01118751-50"
+      "https://www.getfit.it/privacy-policy/"
     ],
     "affidabilita": "incerta",
-    "data_verifica": "2026-10-26"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "Telepass",

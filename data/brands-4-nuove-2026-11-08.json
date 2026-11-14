@@ -203,7 +203,7 @@
    "app e area riservata My Cofidis per chiedere il conteggio di estinzione anticipata"
   ],
   "preavviso": "Linea di credito revolving: recesso libero entro 14 giorni dalla conclusione; dopo, recesso in ogni momento con preavviso di 1 mese (Condizioni generali, art. 13.1). Dopo il recesso la carta o linea non si può più usare, ma il debito residuo si continua a rimborsare con le rate previste, oppure si estingue in anticipo.",
-  "costi": "Nessuna penale né spesa per il recesso. Conteggio di estinzione anticipata gratuito (0 euro). Se si recede entro 14 giorni, restituire entro 30 giorni le somme ricevute più gli interessi maturati.",
+  "costi": "Recesso dalla Linea di Credito Revolving senza penali né spese (art. 13.1). Per prestito personale e cessione del quinto l'estinzione anticipata prevede un indennizzo dell'1% (vita residua oltre 1 anno) o dello 0,5%, non dovuto se il debito residuo è pari o inferiore a 10.000 euro",
   "modulo": "",
   "note": "Dati dal fac-simile ufficiale del contratto Linea di Credito Revolving (REV0625, condizioni 01/2024) pubblicato nella sezione Trasparenza di cofidis.it. Il contratto indica anche la PEC generale cofidis@legalmail.it in intestazione; per recesso e comunicazioni l'art. 13.1 indica relazioneclientelacofidis@legalmail.it (l'art. 7.3 riporta relazioneclientela@legalmail.it, probabile refuso: usare quella dell'art. 13.1). I reclami vanno invece a ufficioreclamicofidis@legalmail.it. Per prestiti personali e cessione del quinto valgono contratti diversi: il recesso dopo i 14 giorni coincide con l'estinzione anticipata del debito.",
   "fonti": [
@@ -212,6 +212,6 @@
    "https://www.cofidis.it/it/supporto.html"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-11-08"
+  "data_verifica": "2026-11-15"
  }
 ]

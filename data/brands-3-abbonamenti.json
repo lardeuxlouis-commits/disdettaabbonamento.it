@@ -6,12 +6,11 @@
     "pec": "",
     "indirizzo_postale": "De Agostini Publishing S.p.A., Via Giovanni da Verrazano 15, 28100 Novara (NO)",
     "canali": [
-      "area personale",
-      "modulo online di recesso",
-      "raccomandata A/R"
+      "Servizio Clienti (telefono 02 9475 2488, servizio.clienti@deagostini.it)",
+      "modulo online di recesso (entro 14 giorni)"
     ],
-    "preavviso": "Per le collezioni a distanza il recesso è esercitabile entro 14 giorni dal ricevimento della prima spedizione. Dopo questo termine si può interrompere la collezione per i numeri successivi tramite il Servizio Clienti, indicando il numero di contratto. Le condizioni particolari della singola collezione prevalgono sulle condizioni generali.",
-    "costi": "Nessun costo per l'esercizio del recesso nei 14 giorni. In caso di interruzione successiva, i numeri già spediti o in corso di spedizione restano dovuti.",
+    "preavviso": "Per le collezioni a distanza il recesso è esercitabile entro 14 giorni dal ricevimento della prima spedizione. Per annullare l'abbonamento la guida ufficiale indica 28 giorni di preavviso, tramite il Servizio Clienti. Le condizioni particolari della singola collezione prevalgono sulle condizioni generali.",
+    "costi": "Nessun costo per l'esercizio del recesso nei 14 giorni. Secondo le pagine ufficiali un pacco già spedito non può essere fermato.",
     "modulo": "https://www.deagostini.com/it/myarea/p/withdraw",
     "note": "Sul sito ufficiale è presente il link «Richiedi il recesso» che porta al modulo online. Nessuna PEC pubblicata nelle condizioni generali del sito: l'unico canale scritto indicato è la raccomandata A/R a Novara. Conserva sempre la ricevuta dell'invio. Verifica sul modulo d'ordine della tua collezione eventuali condizioni particolari.",
     "fonti": [
@@ -19,7 +18,7 @@
       "https://www.deagostini.com/it/myarea/p/withdraw"
     ],
     "affidabilita": "parziale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "Hachette Fascicoli",
@@ -146,7 +145,7 @@
       "assistenza clienti online"
     ],
     "preavviso": "L'abbonamento si rinnova automaticamente. Si annulla dalle impostazioni dell'account su crunchyroll.com; l'accesso resta fino alla fine del periodo già pagato.",
-    "costi": "Nessuna penale. L'annullamento del rinnovo non rimborsa di norma gli addebiti già effettuati.",
+    "costi": "Nessuna penale. Il rimborso del recesso UE dei 14 giorni è proporzionato: le commissioni sono riproporzionate dalla data della richiesta fino alla fine del periodo pagato (Termini, sezione 3)",
     "modulo": "",
     "note": "Se ti sei abbonato tramite Apple, Google Play, Samsung o un operatore devi annullare presso di loro, non su Crunchyroll. Se paghi con PayPal, controlla anche i pagamenti ricorrenti nel tuo account PayPal. Per una richiesta di rimborso entro 14 giorni da consumatore nello Spazio Economico Europeo, contatta l'assistenza dal Centro assistenza Crunchyroll. Nessuna PEC. Il Centro assistenza blocca la lettura automatica: verifica il testo aggiornato prima di agire.",
     "fonti": [
@@ -154,7 +153,7 @@
       "https://www.crunchyroll.com/tos"
     ],
     "affidabilita": "parziale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "Parship",

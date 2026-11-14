@@ -9,16 +9,16 @@
       "filiale",
       "raccomandata A/R alla filiale del conto"
     ],
-    "preavviso": "Il foglio informativo (aggiornato al 20 aprile 2026) non fissa un preavviso minimo per il cliente: il recesso si esercita in ogni momento con comunicazione scritta alla filiale. Il cliente può indicare un preavviso diverso. La banca, invece, recede con 2 mesi.",
+    "preavviso": "Il foglio informativo Conto Corrente Ordinario Consumatori (1 maggio 2026) non fissa un preavviso minimo per il cliente: il recesso si esercita in ogni momento con comunicazione scritta alla filiale. Chiusura entro 12 giorni solari, con eccezioni fino a 70 giorni (carte di credito). La banca recede con 2 mesi.",
     "costi": "Recesso senza penalità e senza spese di chiusura (art. 120-bis TUB). Resta da regolare quanto dovuto per capitale, interessi, commissioni e spese. Il recesso chiude anche convenzione assegni, carte collegate e servizi del contratto.",
     "modulo": "",
     "note": "Nessuna PEC dedicata al recesso trovata nei documenti ufficiali: l'indirizzo customercare@postacert.gruppo.mps.it è riservato ai reclami e non va usato per chiudere il conto. Inviare una raccomandata A/R alla filiale del conto, con IBAN, dati dei titolari e copia del documento. Tempo massimo di chiusura: 12 giorni solari dalla ricezione se non ci sono servizi o prodotti collegati (altrimenti i tempi sono più lunghi).",
     "fonti": [
-      "https://www.gruppo.mps.it/ap_trasparenzaweb/Documenti/103054528.pdf",
+      "https://www.gruppo.mps.it/ap_trasparenzaweb/Documenti/103054833.pdf",
       "https://www.mps.it/informazioni-intermediario.html"
     ],
     "affidabilita": "parziale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "Credem",

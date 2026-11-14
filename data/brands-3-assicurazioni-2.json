@@ -6,7 +6,7 @@
     "pec": "alleanza@pec.alleanza.it",
     "indirizzo_postale": "Alleanza Assicurazioni S.p.A., Piazza Tre Torri 1, 20145 Milano (MI)",
     "canali": [
-      "PEC",
+      "PEC (polizze danni, art. 12)",
       "raccomandata A/R",
       "agenzia"
     ],
@@ -20,7 +20,7 @@
       "https://www.alleanza.it/assistenza/"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "BNP Paribas Cardif (Italia)",
@@ -75,12 +75,11 @@
     "slug": "credit-agricole-assicurazioni",
     "categoria": "assicurazioni",
     "pec": "ugp.ca-assicurazioni@legalmail.it",
-    "indirizzo_postale": "Crédit Agricole Assicurazioni, Ufficio Gestione Portafoglio, Via Carlo Pesenti 121, 00156 Roma (RM)",
+    "indirizzo_postale": "Crédit Agricole Assicurazioni, Ufficio Gestione Portafoglio, Corso di Porta Vigentina 9, 20122 Milano (MI)",
     "canali": [
-      "PEC",
-      "raccomandata A/R",
-      "e-mail",
-      "agenzia"
+      "raccomandata A/R all'Ufficio Gestione Portafoglio",
+      "PEC (prevista ad esempio da Protezione Infortuni Più; Protezione Vivi Casa indica solo la raccomandata)",
+      "gestore della filiale della banca"
     ],
     "preavviso": "Polizze danni (casa, infortuni, salute, tutela legale) con tacito rinnovo annuale: disdetta con il preavviso indicato in polizza, di norma 30 giorni prima della scadenza (verificare le condizioni). Polizze legate a finanziamenti o mutui: recesso nei termini del set informativo (in genere 30-60 giorni dalla decorrenza). RC auto: dal 2013 non esiste tacito rinnovo (art. 170-bis Codice delle Assicurazioni), il contratto cessa alla scadenza senza bisogno di disdetta.",
     "costi": "Nessun costo per la disdetta nei termini. In caso di recesso anticipato, rimborso della parte di premio non goduta al netto delle imposte, se previsto dalle condizioni.",
@@ -90,7 +89,7 @@
       "https://www.ca-assicurazioni.it/contattaci"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "Nobis Assicurazioni",
@@ -194,37 +193,37 @@
       "PEC",
       "raccomandata A/R"
     ],
-    "preavviso": "Prodotti prevalentemente collegati a prestiti, mutui e cessione del quinto (CPI) o protezione: recesso nei termini indicati nel set informativo (in genere entro 30 o 60 giorni dalla decorrenza, art. 177 Codice delle Assicurazioni per le polizze vita), con comunicazione scritta alla compagnia. Per le coperture a premio ricorrente annuale con tacito rinnovo, disdetta con il preavviso indicato in polizza. In caso di estinzione anticipata del finanziamento si puo' chiedere il rimborso del premio non goduto secondo le condizioni.",
-    "costi": "Nessuna penale per il recesso nei termini; il rimborso del premio e' calcolato al netto delle imposte e della parte gia' goduta, come da set informativo.",
+    "preavviso": "Nei set informativi CQP, CQS e Protezione PPI Light la finestra di recesso è di 60 giorni. Le polizze legate alla cessione del quinto non hanno tacito rinnovo; solo la garanzia Perdita d'Impiego di PPI Light si rinnova tacitamente dall'11° anno, con disdetta 30 giorni prima. In caso di estinzione anticipata del finanziamento si chiede il rimborso del premio non goduto.",
+    "costi": "Nessuna penale per il recesso nei termini. Il rimborso per estinzione anticipata è al netto di 20 euro di spese (CQP e CQS) o 50 euro (Incendio Mutui); nelle polizze CQP e CQS il rimborso va al Contraente, cioè alla banca.",
     "modulo": "",
-    "note": "Gruppo Poste Vita. Due societa': per prodotti vita la PEC e' netinsurancelife@pec.netinsurancelife.it (Net Insurance Life), per danni netinsurance@pec.netinsurance.it. La pagina Contatti elenca queste PEC senza specificare lo scopo; la PEC reclami e' diversa (ufficio.reclami@pec.netinsurance.it, da non usare per la disdetta). Verificare nel certificato di polizza quale societa' ha emesso il contratto. Molti prodotti sono venduti tramite banche e finanziarie.",
+    "note": "Per il recesso da Protezione PPI Light la raccomandata A/R va a Net Insurance S.p.A. e Net Insurance Life S.p.A., c/o Casella Postale 106, 26100 Cremona. Via Guattani 4, Roma è la sede e l'Ufficio Reclami.",
     "fonti": [
       "https://www.netinsurance.it/contatti/",
       "https://www.netinsurance.it/reclami/"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "Mediolanum Assicurazioni",
     "slug": "mediolanum-assicurazioni",
     "categoria": "assicurazioni",
-    "pec": "",
+    "pec": "mediolanumassicurazioni@pec.mediolanum.it",
     "indirizzo_postale": "Mediolanum Assicurazioni S.p.A., Via Ennio Doris, 20079 Basiglio (MI)",
     "canali": [
       "raccomandata A/R",
-      "consulente Banca Mediolanum"
+      "PEC (ammessa dalle condizioni di Protezione Casa e Famiglia, art. 9)"
     ],
-    "preavviso": "Polizze danni (casa, infortuni, salute, protezione) con tacito rinnovo annuale: disdetta con il preavviso previsto in polizza, di norma 30 giorni prima della scadenza. Per le polizze vendute a distanza o fuori sede e' previsto il recesso/ripensamento di legge entro 14 giorni (danni) o 30 giorni (vita). RC auto: dal 2013 non esiste tacito rinnovo (art. 170-bis Codice delle Assicurazioni), il contratto cessa alla scadenza senza bisogno di disdetta.",
+    "preavviso": "Protezione Casa e Famiglia (art. 9), Capitale Casa, Capitale Salute e 4Assistance: disdetta almeno 60 giorni prima della scadenza annuale. MyFreedom Protection, legata al conto: 30 giorni. RC auto: dal 2013 non esiste tacito rinnovo (art. 170-bis Codice delle Assicurazioni).",
     "costi": "Nessun costo per la disdetta nei termini; rimborso del premio non goduto secondo le condizioni di polizza.",
     "modulo": "",
-    "note": "Il sito ufficiale pubblica solo la PEC dell'Ufficio Reclami (ufficioreclami@pec.mediolanum.it) che serve per i RECLAMI e non per la disdetta: per questo il campo PEC e' vuoto. Per la disdetta rivolgersi al proprio consulente di Banca Mediolanum, che distribuisce le polizze, oppure inviare raccomandata A/R alla compagnia citando numero di polizza.",
+    "note": "La pagina Recapiti di Mediolanum Assicurazioni indica la PEC mediolanumassicurazioni@pec.mediolanum.it, presente anche nelle condizioni di Protezione Casa e Famiglia (ed. 25/07/2025). La PEC ufficioreclami@pec.mediolanum.it serve solo per i reclami.",
     "fonti": [
       "https://www.mediolanumassicurazioni.it/reclami",
       "https://www.mediolanumassicurazioni.it/privacy"
     ],
     "affidabilita": "parziale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "DAS (Difesa Automobilistica Sinistri)",
@@ -233,11 +232,11 @@
     "pec": "dasdifesalegale@pec.das.it",
     "indirizzo_postale": "D.A.S. Difesa Automobilistica Sinistri S.p.A. di Assicurazione, Via Enrico Fermi 9/B, 37135 Verona (VR)",
     "canali": [
-      "PEC",
-      "raccomandata A/R",
-      "agenzia"
+      "e-mail disdette@das.it (persone fisiche, dall'indirizzo dato all'acquisto)",
+      "PEC (persone giuridiche e condizioni DAS per Te)",
+      "raccomandata A/R"
     ],
-    "preavviso": "Polizze di tutela legale (persona, famiglia, circolazione, aziende) con tacito rinnovo annuale: disdetta con almeno 30 giorni di preavviso sulla scadenza, comunicata con raccomandata A/R o PEC (verificare nelle condizioni del proprio prodotto, alcuni prodotti, come Tutela Legale Feel Safe, cessano alla scadenza senza rinnovo). Il recesso a distanza e' possibile entro 14 giorni dalla conclusione.",
+    "preavviso": "Polizze di tutela legale con tacito rinnovo annuale: disdetta almeno 30 giorni prima della scadenza (DAS per Te art. 8.1.2 e 9.2.1). Con pagamento mensile e addebito diretto, dal secondo anno la disdetta è senza preavviso e la copertura cessa con l'ultima mensilità pagata (art. 9.2.2). Per i contratti a distanza il ripensamento è di 30 giorni dalla conclusione (art. 9.1).",
     "costi": "Nessun costo per la disdetta nei termini. Se la disdetta non e' inviata in tempo il contratto si rinnova per un altro anno e il premio resta dovuto.",
     "modulo": "",
     "note": "La PEC dasdifesalegale@pec.das.it e' quella indicata nel piede di pagina del sito ufficiale; il Servizio Clienti usa servizio.clienti@pec.das.it (fax 045 8351025) per reclami e comunicazioni di servizio: per i RECLAMI usare quella, per la disdetta la PEC generale. Quasi sempre i contratti sono gestiti da un'agenzia: indicare agenzia, numero di polizza, nome e codice fiscale.",
@@ -246,6 +245,6 @@
       "https://www.das.it/reclami"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-15"
   }
 ]

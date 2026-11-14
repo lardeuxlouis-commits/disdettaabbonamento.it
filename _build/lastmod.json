@@ -1,19 +1,19 @@
 {
 "/": {
-"h": "3ee85b279cbd95d9",
-"d": "2026-11-14"
+"h": "7a68d89a56fc23b7",
+"d": "2026-11-15"
 },
 "/altri-servizi/": {
-"h": "83562067d61d9407",
-"d": "2026-11-08"
+"h": "f2e2c30ae1c734b6",
+"d": "2026-11-15"
 },
 "/annulla-promemoria/": {
 "h": "7817e21f64e556ca",
 "d": "2026-11-08"
 },
 "/assicurazioni/": {
-"h": "67abe71ec4e5c1d7",
-"d": "2026-11-01"
+"h": "5c7309f0d2d2a172",
+"d": "2026-11-15"
 },
 "/chi-siamo/": {
 "h": "01f761bf473c4f44",
@@ -28,20 +28,20 @@
 "d": "2026-11-05"
 },
 "/disdetta-1mobile/": {
-"h": "347b83ff25db6c1c",
-"d": "2026-11-10"
+"h": "82779e9110685692",
+"d": "2026-11-15"
 },
 "/disdetta-a2a-energia/": {
 "h": "2b4f3167aa412193",
 "d": "2026-11-10"
 },
 "/disdetta-abbonamenti-mondadori/": {
-"h": "a41e1d758127187a",
-"d": "2026-11-10"
+"h": "86c56153a4a8d709",
+"d": "2026-11-15"
 },
 "/disdetta-acea-energia/": {
-"h": "3bd51ffa98de72bd",
-"d": "2026-11-10"
+"h": "0841b68e47e48b8e",
+"d": "2026-11-15"
 },
 "/disdetta-adobe-creative-cloud/": {
 "h": "5c618480d6f3dbd8",
@@ -56,8 +56,8 @@
 "d": "2026-11-14"
 },
 "/disdetta-alleanza-assicurazioni/": {
-"h": "4a53f63ca96982fd",
-"d": "2026-11-10"
+"h": "3e264c7ba332d865",
+"d": "2026-11-15"
 },
 "/disdetta-allianz-direct/": {
 "h": "b1d5ae7972fd34e7",
@@ -96,8 +96,8 @@
 "d": "2026-11-14"
 },
 "/disdetta-apple-abbonamenti/": {
-"h": "5b891bff27c0cc97",
-"d": "2026-11-10"
+"h": "58797c5967c698cd",
+"d": "2026-11-15"
 },
 "/disdetta-arca-assicurazioni/": {
 "h": "cd0223a198d50e17",
@@ -116,20 +116,20 @@
 "d": "2026-11-10"
 },
 "/disdetta-axa-mps/": {
-"h": "8bbe89b190a29326",
-"d": "2026-11-10"
+"h": "6f3c57100d5049aa",
+"d": "2026-11-15"
 },
 "/disdetta-axitea/": {
-"h": "ee1da6cdb5c4bb99",
-"d": "2026-11-10"
+"h": "d53ca2c6c348a839",
+"d": "2026-11-15"
 },
 "/disdetta-axpo-italia/": {
-"h": "9a71e170dc12c03b",
-"d": "2026-11-14"
+"h": "df4aa32bb82ab3c8",
+"d": "2026-11-15"
 },
 "/disdetta-babbel/": {
-"h": "87282b5b3e1f9b76",
-"d": "2026-11-10"
+"h": "9cfd3c5b48b0f7ff",
+"d": "2026-11-15"
 },
 "/disdetta-banca-mediolanum/": {
 "h": "362ef563c04d7af9",
@@ -148,16 +148,16 @@
 "d": "2026-11-10"
 },
 "/disdetta-bbva-italia/": {
-"h": "860ddf180c83331d",
-"d": "2026-11-10"
+"h": "78fa88fca2585c71",
+"d": "2026-11-15"
 },
 "/disdetta-bene-assicurazioni/": {
 "h": "ea805bbd16bad638",
 "d": "2026-11-14"
 },
 "/disdetta-bluenergy/": {
-"h": "21858fa2aa456fb5",
-"d": "2026-11-14"
+"h": "c4d51e742868d142",
+"d": "2026-11-15"
 },
 "/disdetta-bnl-bnp-paribas/": {
 "h": "1a7273f4d367b273",
@@ -188,140 +188,140 @@
 "d": "2026-11-10"
 },
 "/disdetta-chili/": {
-"h": "a6c296c52b237142",
-"d": "2026-11-10"
+"h": "4dd4006bce72bdaf",
+"d": "2026-11-15"
 },
 "/disdetta-cnp-vita-ex-aviva/": {
-"h": "270f042966b29fc6",
-"d": "2026-11-10"
+"h": "34fba2879a9e1c39",
+"d": "2026-11-15"
 },
 "/disdetta-cofidis-italia/": {
-"h": "45a50c5cc9fa083a",
-"d": "2026-11-10"
+"h": "755b589c6a2e4219",
+"d": "2026-11-15"
 },
 "/disdetta-compass/": {
-"h": "ab7629a6e3d85f25",
-"d": "2026-11-10"
+"h": "c094d97da0007910",
+"d": "2026-11-15"
 },
 "/disdetta-conte-it/": {
 "h": "29948de4451e7daa",
 "d": "2026-11-14"
 },
 "/disdetta-coopvoce/": {
-"h": "c80cb7e8fc388adf",
-"d": "2026-11-14"
+"h": "ab5f659fccc54eca",
+"d": "2026-11-15"
 },
 "/disdetta-corriere-della-sera-digitale/": {
-"h": "61971f7028d11564",
-"d": "2026-11-10"
+"h": "104c70d10eb59ef3",
+"d": "2026-11-15"
 },
 "/disdetta-credem/": {
-"h": "48694931493b40fc",
-"d": "2026-11-10"
+"h": "e076a3bff84c8fe0",
+"d": "2026-11-15"
 },
 "/disdetta-credit-agricole-assicurazioni/": {
-"h": "86d3d6d017016682",
-"d": "2026-11-10"
+"h": "7012a03a4649d218",
+"d": "2026-11-15"
 },
 "/disdetta-credit-agricole-italia/": {
-"h": "5030bc279c2200ad",
-"d": "2026-11-10"
+"h": "5054f85c8b3b549f",
+"d": "2026-11-15"
 },
 "/disdetta-crunchyroll/": {
-"h": "4a053b344e7e5886",
-"d": "2026-11-10"
+"h": "576d41a11d67c020",
+"d": "2026-11-15"
 },
 "/disdetta-cvfacile/": {
-"h": "4b2ac4882b66a261",
-"d": "2026-11-10"
+"h": "5fa1d97aa017ce85",
+"d": "2026-11-15"
 },
 "/disdetta-das-difesa-automobilistica-sinistri/": {
-"h": "3d9f2da45a29bc61",
-"d": "2026-11-10"
+"h": "9ed11a7ab3a08a26",
+"d": "2026-11-15"
 },
 "/disdetta-dazn/": {
-"h": "40b489730302c012",
-"d": "2026-11-10"
+"h": "ecf47212d4f5f228",
+"d": "2026-11-15"
 },
 "/disdetta-de-agostini/": {
-"h": "c196528869da39d2",
-"d": "2026-11-10"
+"h": "848176e4209e0574",
+"d": "2026-11-15"
 },
 "/disdetta-deezer/": {
-"h": "7e6db91f8f286fa4",
-"d": "2026-11-10"
+"h": "1dfd176c34ba8d37",
+"d": "2026-11-15"
 },
 "/disdetta-digi-mobil/": {
-"h": "0720bb18c2765e2b",
-"d": "2026-11-10"
+"h": "bd075a942cf6336e",
+"d": "2026-11-15"
 },
 "/disdetta-discovery-plus/": {
-"h": "c516ec0d516056b1",
-"d": "2026-11-10"
+"h": "a8fe1e116a6a71f8",
+"d": "2026-11-15"
 },
 "/disdetta-disney-plus/": {
-"h": "e5d0d4e4a01a25fa",
-"d": "2026-11-10"
+"h": "95025531d0877639",
+"d": "2026-11-15"
 },
 "/disdetta-dolomiti-energia/": {
-"h": "347f20bb711831b3",
-"d": "2026-11-14"
+"h": "e11abfb48d9c8465",
+"d": "2026-11-15"
 },
 "/disdetta-dropbox/": {
-"h": "aa539045f9699b6d",
-"d": "2026-11-10"
+"h": "42d8477055c78a03",
+"d": "2026-11-15"
 },
 "/disdetta-duferco-energia/": {
-"h": "e88c143f5ce0e432",
-"d": "2026-11-14"
+"h": "45a1cfe31f58fb9a",
+"d": "2026-11-15"
 },
 "/disdetta-edison-energia/": {
-"h": "67a261e1afc62dd7",
-"d": "2026-11-14"
+"h": "f2a728f0a2e407a4",
+"d": "2026-11-15"
 },
 "/disdetta-enegan/": {
-"h": "bf260ab921c0c4b3",
-"d": "2026-11-10"
+"h": "d859cd289a5c635b",
+"d": "2026-11-15"
 },
 "/disdetta-enel-energia/": {
-"h": "4bd186d87f15b2dd",
-"d": "2026-11-10"
+"h": "9cbeced4355ab8dd",
+"d": "2026-11-15"
 },
 "/disdetta-engie-italia/": {
-"h": "2944e7fd489e2942",
-"d": "2026-11-14"
+"h": "5d02ce3cd6f6c302",
+"d": "2026-11-15"
 },
 "/disdetta-eni-plenitude/": {
 "h": "fa7473690dd785ec",
 "d": "2026-11-14"
 },
 "/disdetta-eolo/": {
-"h": "981d680a0d8125e9",
-"d": "2026-11-10"
+"h": "0b6f7c7d2ed67a4f",
+"d": "2026-11-15"
 },
 "/disdetta-eon-energia/": {
-"h": "31784e7175e7b19c",
-"d": "2026-11-14"
+"h": "6f121aec69ba2a6d",
+"d": "2026-11-15"
 },
 "/disdetta-estra-energie/": {
-"h": "cdb472e29ce20057",
-"d": "2026-11-14"
+"h": "b9d4c1308c71d78f",
+"d": "2026-11-15"
 },
 "/disdetta-europ-assistance-italia/": {
 "h": "ea419c102db8d71d",
 "d": "2026-11-10"
 },
 "/disdetta-fastweb/": {
-"h": "0cd793f8e8a4840c",
-"d": "2026-11-10"
+"h": "55b7cdf06239fe52",
+"d": "2026-11-15"
 },
 "/disdetta-findomestic/": {
-"h": "65ecec129af3ea7c",
-"d": "2026-11-10"
+"h": "dd23bfd6cbda169b",
+"d": "2026-11-15"
 },
 "/disdetta-fineco/": {
-"h": "dd69768c97308f3b",
-"d": "2026-11-10"
+"h": "166297b1ba664f4c",
+"d": "2026-11-15"
 },
 "/disdetta-fit-and-go/": {
 "h": "61714db807252dfe",
@@ -336,12 +336,12 @@
 "d": "2026-11-10"
 },
 "/disdetta-freeletics/": {
-"h": "af416b638c8258bf",
-"d": "2026-11-10"
+"h": "51024822e25dd80c",
+"d": "2026-11-15"
 },
 "/disdetta-gazzetta-dello-sport-g-plus/": {
-"h": "0b490a9788380c3a",
-"d": "2026-11-10"
+"h": "577fde9b5ddccef0",
+"d": "2026-11-15"
 },
 "/disdetta-generali-italia/": {
 "h": "e0f08fb210b41957",
@@ -352,36 +352,36 @@
 "d": "2026-11-14"
 },
 "/disdetta-get-fit-milano/": {
-"h": "4ff923ad6f2411be",
-"d": "2026-11-10"
+"h": "5f02bbb356319771",
+"d": "2026-11-15"
 },
 "/disdetta-google-one/": {
-"h": "6cc0ac143bd5aaac",
-"d": "2026-11-10"
+"h": "55b6d7c98e865adf",
+"d": "2026-11-15"
 },
 "/disdetta-groupama-assicurazioni/": {
-"h": "5a6f96d1e66f844e",
-"d": "2026-11-10"
+"h": "cb10d9ecaafa00da",
+"d": "2026-11-15"
 },
 "/disdetta-hachette-fascicoli/": {
 "h": "fbcf186fe7510516",
 "d": "2026-11-14"
 },
 "/disdetta-hdi-assicurazioni/": {
-"h": "6b379aa765ce9a15",
-"d": "2026-11-10"
+"h": "67ed10c227509bdd",
+"d": "2026-11-15"
 },
 "/disdetta-helvetia-italia/": {
-"h": "6df52f58fc5ebf7f",
-"d": "2026-11-10"
+"h": "8c7605d2b3b2aa48",
+"d": "2026-11-15"
 },
 "/disdetta-hera-comm/": {
-"h": "809aa55a8771742b",
-"d": "2026-11-14"
+"h": "e97c67a5b3b3354c",
+"d": "2026-11-15"
 },
 "/disdetta-ho-mobile/": {
-"h": "89dda9927c06465a",
-"d": "2026-11-14"
+"h": "9971eee27fe3ce5d",
+"d": "2026-11-15"
 },
 "/disdetta-hype/": {
 "h": "565bcadc38f977cf",
@@ -396,16 +396,16 @@
 "d": "2026-11-14"
 },
 "/disdetta-il-fatto-quotidiano/": {
-"h": "fd7742ebf2ea45f0",
-"d": "2026-11-10"
+"h": "82f22ec509236d81",
+"d": "2026-11-15"
 },
 "/disdetta-il-sole-24-ore-digitale/": {
-"h": "bb5cbab1e4d793c8",
-"d": "2026-11-10"
+"h": "a1258e276e861a2b",
+"d": "2026-11-15"
 },
 "/disdetta-iliad/": {
-"h": "92f60ecd48f8dc49",
-"d": "2026-11-10"
+"h": "1c5a204921a0b6fc",
+"d": "2026-11-15"
 },
 "/disdetta-illimity/": {
 "h": "44bc58403d363b70",
@@ -420,8 +420,8 @@
 "d": "2026-11-10"
 },
 "/disdetta-intesa-sanpaolo-protezione/": {
-"h": "2271b4c1d48e843f",
-"d": "2026-11-10"
+"h": "81f99bcabef0f227",
+"d": "2026-11-15"
 },
 "/disdetta-intesa-sanpaolo/": {
 "h": "6ce030f91a8acdf8",
@@ -432,32 +432,32 @@
 "d": "2026-11-14"
 },
 "/disdetta-italiaonline-pagine-gialle/": {
-"h": "ce5524353d12f9d3",
-"d": "2026-11-10"
+"h": "84aba7a9c9f9a706",
+"d": "2026-11-15"
 },
 "/disdetta-itas-mutua/": {
-"h": "7db202716f8a6b9a",
-"d": "2026-11-10"
+"h": "8dcfe89aee72cf6b",
+"d": "2026-11-15"
 },
 "/disdetta-kaspersky/": {
-"h": "83ec98434f4d054c",
-"d": "2026-11-10"
+"h": "32587d10ed980cad",
+"d": "2026-11-15"
 },
 "/disdetta-kena-mobile/": {
-"h": "e1e7e48541de0597",
-"d": "2026-11-10"
+"h": "55168f9b432f6184",
+"d": "2026-11-15"
 },
 "/disdetta-la-stampa-digitale/": {
-"h": "f0a513eaef0bd6dc",
-"d": "2026-11-10"
+"h": "a2962c4187effbc7",
+"d": "2026-11-15"
 },
 "/disdetta-linear/": {
-"h": "60a2dc2ab5984e9d",
-"d": "2026-11-10"
+"h": "e388c651062dc003",
+"d": "2026-11-15"
 },
 "/disdetta-linkedin-premium/": {
-"h": "f22664316c43f724",
-"d": "2026-11-10"
+"h": "ee6190c17fe19be0",
+"d": "2026-11-15"
 },
 "/disdetta-linkem/": {
 "h": "70d469402f99df3a",
@@ -468,20 +468,20 @@
 "d": "2026-11-10"
 },
 "/disdetta-mcafee/": {
-"h": "a66dd01313ca142e",
-"d": "2026-11-10"
+"h": "4f43dc321a408dad",
+"d": "2026-11-15"
 },
 "/disdetta-mcfit-italia/": {
 "h": "d85e03a0daead7da",
 "d": "2026-11-10"
 },
 "/disdetta-mediaset-infinity/": {
-"h": "30406d5870f6d7de",
-"d": "2026-11-10"
+"h": "c1addf14ba9bd02b",
+"d": "2026-11-15"
 },
 "/disdetta-mediolanum-assicurazioni/": {
-"h": "f9f2b688cbd59432",
-"d": "2026-11-10"
+"h": "59cd62e62b2748ae",
+"d": "2026-11-15"
 },
 "/disdetta-meetic/": {
 "h": "a9a521a072e76282",
@@ -496,28 +496,28 @@
 "d": "2026-11-10"
 },
 "/disdetta-miodottore/": {
-"h": "bedfca04db6d6891",
-"d": "2026-11-10"
+"h": "36350ab4cd4fc77a",
+"d": "2026-11-15"
 },
 "/disdetta-monte-dei-paschi-di-siena-mps/": {
-"h": "aa22de95b07ebbc0",
-"d": "2026-11-10"
+"h": "9e876322dfb003c3",
+"d": "2026-11-15"
 },
 "/disdetta-mooneygo/": {
-"h": "7c37a013bc03cc54",
-"d": "2026-11-14"
+"h": "6c4a2eddd7f18a73",
+"d": "2026-11-15"
 },
 "/disdetta-n26-italia/": {
-"h": "db0877f5ca8cda69",
-"d": "2026-11-10"
+"h": "b72eb80e02b8a3ca",
+"d": "2026-11-15"
 },
 "/disdetta-nen/": {
-"h": "93812ec7793bbd22",
-"d": "2026-11-10"
+"h": "8acc9eb2d91060e8",
+"d": "2026-11-15"
 },
 "/disdetta-net-insurance/": {
-"h": "487b96d643acd001",
-"d": "2026-11-10"
+"h": "d8dbc6f8c98376e7",
+"d": "2026-11-15"
 },
 "/disdetta-netflix/": {
 "h": "63bda1a20a920aa3",
@@ -532,8 +532,8 @@
 "d": "2026-11-10"
 },
 "/disdetta-nobis-assicurazioni/": {
-"h": "d70230f7570fa95a",
-"d": "2026-11-10"
+"h": "367b256881273cfb",
+"d": "2026-11-15"
 },
 "/disdetta-norton/": {
 "h": "bb8e3bcd34cbbeba",
@@ -560,16 +560,16 @@
 "d": "2026-11-10"
 },
 "/disdetta-paramount-plus/": {
-"h": "26cf2ce0cd10cb22",
-"d": "2026-11-10"
+"h": "7c14581e0fa267e0",
+"d": "2026-11-15"
 },
 "/disdetta-parship/": {
 "h": "d9ed63264f536013",
 "d": "2026-11-10"
 },
 "/disdetta-paypal-italia/": {
-"h": "d1913b4641601f47",
-"d": "2026-11-10"
+"h": "86d245187d0c0402",
+"d": "2026-11-15"
 },
 "/disdetta-playstation-plus/": {
 "h": "68c437a26c136143",
@@ -580,8 +580,8 @@
 "d": "2026-11-10"
 },
 "/disdetta-poste-vita/": {
-"h": "c7b86802154d4b29",
-"d": "2026-11-10"
+"h": "9f79e008084a50ae",
+"d": "2026-11-15"
 },
 "/disdetta-postemobile/": {
 "h": "0947d57845f18e40",
@@ -592,8 +592,8 @@
 "d": "2026-11-10"
 },
 "/disdetta-pulsee/": {
-"h": "6dd5ba08a3e5d192",
-"d": "2026-11-10"
+"h": "bf1244ace872a521",
+"d": "2026-11-15"
 },
 "/disdetta-quixa/": {
 "h": "ac6ae9531f6d27cf",
@@ -604,12 +604,12 @@
 "d": "2026-11-10"
 },
 "/disdetta-repubblica-rep/": {
-"h": "516eac3716b69973",
-"d": "2026-11-10"
+"h": "25e93d944c181458",
+"d": "2026-11-15"
 },
 "/disdetta-resume-io/": {
-"h": "99be5cb4165d1e3d",
-"d": "2026-11-10"
+"h": "e8083d9e96181af6",
+"d": "2026-11-15"
 },
 "/disdetta-revolut/": {
 "h": "d7376f1c938cfb40",
@@ -624,20 +624,20 @@
 "d": "2026-11-10"
 },
 "/disdetta-siae-musica-ambiente/": {
-"h": "e6bb62d20b021c6f",
-"d": "2026-11-10"
+"h": "334bbb4388723b6c",
+"d": "2026-11-15"
 },
 "/disdetta-sky-wifi/": {
-"h": "53e749e385002e89",
-"d": "2026-11-10"
+"h": "03070204c7da5f84",
+"d": "2026-11-15"
 },
 "/disdetta-sky/": {
-"h": "3a1a11d293744405",
-"d": "2026-11-10"
+"h": "9e5acc53a201ba29",
+"d": "2026-11-15"
 },
 "/disdetta-sorgenia/": {
-"h": "2bfd05b407e6d865",
-"d": "2026-11-10"
+"h": "23536d4678d7dece",
+"d": "2026-11-15"
 },
 "/disdetta-spotify/": {
 "h": "dcfe973befd3c766",
@@ -688,12 +688,12 @@
 "d": "2026-11-10"
 },
 "/disdetta-verti/": {
-"h": "fcd8254d97f2480c",
-"d": "2026-11-10"
+"h": "82d4cc14c3fc9186",
+"d": "2026-11-15"
 },
 "/disdetta-very-mobile/": {
-"h": "b412a637ddd214bd",
-"d": "2026-11-10"
+"h": "d6181a7e0850b20c",
+"d": "2026-11-15"
 },
 "/disdetta-virgin-active-italia/": {
 "h": "a81ad008c19da1a8",
@@ -704,12 +704,12 @@
 "d": "2026-11-10"
 },
 "/disdetta-vodafone/": {
-"h": "ef1f1e24cde7362e",
-"d": "2026-11-10"
+"h": "f8e1f32077744208",
+"d": "2026-11-15"
 },
 "/disdetta-webank/": {
-"h": "b82161ea47e988f9",
-"d": "2026-11-10"
+"h": "f28daa13412a4100",
+"d": "2026-11-15"
 },
 "/disdetta-wekiwi/": {
 "h": "6af108bcfab5ee28",
@@ -720,12 +720,12 @@
 "d": "2026-11-10"
 },
 "/disdetta-windtre/": {
-"h": "1b2f3b3a2f7cdb09",
-"d": "2026-11-10"
+"h": "74ef510f44db6fd8",
+"d": "2026-11-15"
 },
 "/disdetta-worldpay-italia/": {
-"h": "2a47d56d7f292e90",
-"d": "2026-11-10"
+"h": "2b2927606c434256",
+"d": "2026-11-15"
 },
 "/disdetta-youtube-premium/": {
 "h": "ea6d3766316bbdb2",
@@ -744,16 +744,16 @@
 "d": "2026-11-09"
 },
 "/guide/come-inviare-una-pec/": {
-"h": "9909c0b6cc5873c9",
-"d": "2026-10-26"
+"h": "f6d4ddb0f807d01a",
+"d": "2026-11-15"
 },
 "/guide/disdetta-assicurazione-auto/": {
 "h": "4dc18fff6fef46ba",
 "d": "2026-11-04"
 },
 "/guide/disdetta-per-decesso/": {
-"h": "710864e3f0bef0da",
-"d": "2026-10-26"
+"h": "28bcb9731f69c0da",
+"d": "2026-11-15"
 },
 "/guide/disdetta-per-trasloco/": {
 "h": "aeece85b974ba8c0",
@@ -768,24 +768,24 @@
 "d": "2026-11-04"
 },
 "/guide/inviare-pec-senza-casella/": {
-"h": "4c8a250ee85fb095",
-"d": "2026-11-04"
+"h": "9fb0bacbd3a62e1b",
+"d": "2026-11-15"
 },
 "/guide/legge-bersani-disdetta/": {
 "h": "594cae3bd7779aa0",
 "d": "2026-10-27"
 },
 "/guide/operatore-non-risponde-disdetta/": {
-"h": "35a88f64a85a6ef0",
-"d": "2026-11-04"
+"h": "3fcf8febba7c7ecb",
+"d": "2026-11-15"
 },
 "/guide/pec-gratuita/": {
-"h": "9c50752bd8d3713d",
-"d": "2026-11-04"
+"h": "1bc277909aa50b5d",
+"d": "2026-11-15"
 },
 "/guide/pec-o-raccomandata/": {
-"h": "8779838a1113ee15",
-"d": "2026-10-26"
+"h": "18fb85468c4a3512",
+"d": "2026-11-15"
 },
 "/guide/perdita-occulta-acqua/": {
 "h": "22d0dcf24a711951",
@@ -796,24 +796,24 @@
 "d": "2026-11-14"
 },
 "/guide/raccomandata-online/": {
-"h": "96f67a8311309419",
-"d": "2026-11-04"
+"h": "25d58658b62c69cb",
+"d": "2026-11-15"
 },
 "/guide/recesso-entro-14-giorni/": {
-"h": "73285be016df1f00",
-"d": "2026-10-26"
+"h": "24a7dd64b00eb346",
+"d": "2026-11-15"
 },
 "/guide/restituzione-modem-decoder/": {
 "h": "887e6ba72e855a13",
 "d": "2026-10-27"
 },
 "/guide/studio-disdette-italia-2026/": {
-"h": "a3eb96c192ce2f38",
-"d": "2026-11-04"
+"h": "23cc1422b927a288",
+"d": "2026-11-15"
 },
 "/luce-gas/": {
-"h": "4dab6849162de76b",
-"d": "2026-11-14"
+"h": "7841407092529c95",
+"d": "2026-11-15"
 },
 "/note-legali/": {
 "h": "1bb2ca488aee4e64",
@@ -828,15 +828,15 @@
 "d": "2026-11-08"
 },
 "/telefonia/": {
-"h": "8e5a91e1a295e3bb",
-"d": "2026-10-27"
+"h": "2142ba348f448844",
+"d": "2026-11-15"
 },
 "/termini/": {
 "h": "afaeee43334c30fb",
 "d": "2026-11-08"
 },
 "/tv-streaming/": {
-"h": "354a2968ca1d3c08",
-"d": "2026-11-01"
+"h": "d61f4243aa0d7600",
+"d": "2026-11-15"
 }
 }

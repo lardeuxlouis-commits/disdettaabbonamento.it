@@ -213,11 +213,10 @@
   "canali": [
    "iPhone/iPad: Impostazioni > [nome] > Abbonamenti > Annulla abbonamento (pulsante online)",
    "Mac: App Store > [nome] > Abbonamenti",
-   "Windows: app Apple Music o Apple TV > Account > Impostazioni > Abbonamenti",
-   "web: account.apple.com/account/manage/section/subscriptions",
-   "recesso entro 14 giorni: reportaproblem.apple.com / Cronologia acquisti, oppure e-mail rightofwithdrawal@apple.com"
+   "Windows: app Apple Music o Apple TV > nome > Visualizza il mio account > Impostazioni > Abbonamenti > Gestisci",
+   "recesso entro 14 giorni: Apple Account, Cronologia acquisti, oppure e-mail rightofwithdrawal@apple.com"
   ],
-  "preavviso": "Annullare almeno 24 ore prima del rinnovo (o della fine della prova gratuita); l'abbonamento resta attivo fino alla fine del periodo già pagato. Recesso entro 14 giorni dalla ricevuta.",
+  "preavviso": "Per la prova gratuita annullare almeno 24 ore prima del termine; per un rinnovo normale l'abbonamento si annulla in Gestisci abbonamenti e resta attivo fino alla fine del periodo già pagato. Recesso entro 14 giorni dalla ricevuta.",
   "costi": "Nessuna penale. In caso di recesso entro 14 giorni, rimborso entro 14 giorni sul metodo di pagamento originale.",
   "modulo": "https://www.apple.com/legal/internet-services/itunes/it/terms.html",
   "note": "Gli abbonamenti Apple (e quelli di app di terzi pagati con l'Apple Account) si disdicono solo dalle impostazioni Abbonamenti, non serve lettera. Il modulo tipo di recesso è nei Termini dei servizi multimediali Apple; per iCloud+ basta tornare al piano gratuito da 5 GB.",
@@ -227,7 +226,7 @@
   ],
   "affidabilita": "ufficiale",
   "categoria": "tv-streaming",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "YouTube Premium",
@@ -270,8 +269,7 @@
   "note": "Si disdice online dall'account Paramount+. Se Paramount+ è incluso in Sky Cinema o attivato da Prime Video, va disdetto lì. Il modulo tipo di recesso è nell'Appendice 2 delle Condizioni d'uso.",
   "fonti": [
    "https://legal.paramount.com/it-sm-va/it/pplus/termsofuse",
-   "https://www.paramountplus.com/it/",
-   "https://www.aranzulla.it/come-disdire-paramount-plus-1439408.html"
+   "https://www.paramountplus.com/it/"
   ],
   "affidabilita": "ufficiale",
   "categoria": "tv-streaming",
@@ -283,9 +281,9 @@
   "pec": "",
   "indirizzo_postale": "Chili S.p.A., Via Ambrogio Figino 16, 20156 Milano",
   "canali": [
-   "nessun abbonamento da disdire: CHILI funziona a noleggio/acquisto dei singoli titoli",
-   "chiusura account: e-mail a disattivazione@chili.tv oppure modulo ufficiale di richiesta di disattivazione",
-   "invio del modulo tramite i canali della sezione Assistenza di chili.com"
+   "nessun abbonamento da disdire: CHILI funziona a noleggio o acquisto dei singoli titoli",
+   "chiusura account: modulo ufficiale di richiesta di disattivazione, da inviare dai canali della sezione Assistenza",
+   "recesso da un singolo acquisto o noleggio: modulo di recesso ufficiale"
   ],
   "preavviso": "Nessun preavviso: non c'è un abbonamento ricorrente. La disattivazione dell'account è definitiva.",
   "costi": "Nessun costo. Con la chiusura dell'account si perdono i titoli acquistati o noleggiati; il valore residuo di eventuali gift card promozionali non è rimborsato.",
@@ -293,13 +291,11 @@
   "note": "Con CHILI si paga solo ciò che si guarda: per smettere basta non acquistare più titoli. Chi vuole chiudere l'account usa il modulo ufficiale (indirizzato a Chili S.p.A., Milano) o scrive a disattivazione@chili.tv; la chiusura è irreversibile.",
   "fonti": [
    "https://static.chili.com/customerservice/images/MODULO_DI_RICHIESTA_DI_DISATTIVAZIONE_DELL%E2%80%99ACCOUNT.pdf",
-   "https://assistenza.chili.com/hc/it/articles/4407290432145-Dove-trovo-la-modulistica-per-la-disattivazione-del-profilo-e-il-recesso",
-   "https://www.sostariffe.it/tv/disdetta-tv/disdetta-chili",
-   "https://www.disdette360.it/come-disattivare-account-chili-tv/"
+   "https://assistenza.chili.com/hc/it/articles/4407290432145-Dove-trovo-la-modulistica-per-la-disattivazione-del-profilo-e-il-recesso"
   ],
   "affidabilita": "ufficiale",
   "categoria": "tv-streaming",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "discovery+",
@@ -313,17 +309,15 @@
    "recesso entro 14 giorni: e-mail contactuseu@wbd.com o lettera a DPlay Entertainment Limited"
   ],
   "preavviso": "Si può annullare in qualsiasi momento, ma prima della fine del ciclo di fatturazione in corso per evitare il rinnovo; l'accesso resta fino alla fine del periodo pagato. Recesso entro 14 giorni dall'acquisto.",
-  "costi": "Nessuna penale. Nessun rimborso del periodo in corso; rimborso pro-rata solo per i componenti aggiuntivi cancellati insieme al piano base. Se si recede dopo aver iniziato a guardare, può essere dovuto un importo proporzionale.",
+  "costi": "Nessuna penale. La cancellazione ha effetto a fine ciclo di fatturazione o a fine periodo minimo (art. 5.3 dei Termini d'uso 21/08/2025): l'accesso continua fino ad allora. Rimborso pro rata per i componenti aggiuntivi cancellati insieme al piano base.",
   "modulo": "https://static-wbd-cdn.wbd.com/s3_assets/wp-content/themes/warner-bros-discovery-corporate/pdf/discovery-terms-of-use-Italian.pdf",
-  "note": "Si disdice online dall'account o da support.discoveryplus.com/cancel; se l'abbonamento è stato fatto tramite app store o operatore, va disdetto lì. Dal 13 gennaio 2026 in Italia c'è anche HBO Max, ma discovery+ resta un servizio separato con abbonamento proprio.",
+  "note": "Si disdice online dall'account o da support.discoveryplus.com/cancel; se l'abbonamento è stato fatto tramite app store o operatore, va disdetto lì.",
   "fonti": [
-   "https://static-wbd-cdn.wbd.com/s3_assets/wp-content/themes/warner-bros-discovery-corporate/pdf/discovery-terms-of-use-Italian.pdf",
-   "https://www.mondomobileweb.it/313325-hbo-max-ufficialmente-disponibile-in-italia-i-prezzi-e-come-abbonarsi/",
-   "https://www.aranzulla.it/come-disattivare-dplay-plus-1227664.html"
+   "https://static-wbd-cdn.wbd.com/s3_assets/wp-content/themes/warner-bros-discovery-corporate/pdf/discovery-terms-of-use-Italian.pdf"
   ],
   "affidabilita": "ufficiale",
   "categoria": "tv-streaming",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "PlayStation Plus",
@@ -370,7 +364,7 @@
  {
   "nome": "Dropbox",
   "slug": "dropbox",
-  "categoria": "tv-streaming",
+  "categoria": "altri-servizi",
   "pec": "",
   "indirizzo_postale": "Dropbox International Unlimited Company, PO Box 13480, Dublin 2, Ireland",
   "canali": [
@@ -387,12 +381,12 @@
    "https://help.dropbox.com/it-it/plans/cancel-mobile"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Google One",
   "slug": "google-one",
-  "categoria": "tv-streaming",
+  "categoria": "altri-servizi",
   "pec": "",
   "indirizzo_postale": "",
   "canali": [
@@ -408,7 +402,7 @@
    "https://support.google.com/googleone/answer/9056360?hl=it&co=GENIE.Platform%3DDesktop"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Canva",
@@ -590,20 +584,20 @@
   ],
   "preavviso": "Rinnovo automatico per lo stesso periodo; disdetta entro un giorno di calendario dalla scadenza (per App Store e Google Play almeno 24 ore prima del rinnovo). Accesso fino alla fine del periodo pagato. Recesso entro 14 giorni dall'attivazione.",
   "costi": "Disattivazione senza costi aggiuntivi; non retroattiva e senza rimborso del periodo già pagato.",
-  "modulo": "",
+  "modulo": "https://abbonamenti.gazzetta.it/abbonamenti-recesso/",
   "note": "Stesso editore del Corriere (RCS MediaGroup) e stessa PEC. Se hai attivato G+ dall'app su iPhone o Android, disdici dallo store.",
   "fonti": [
    "https://abbonamenti.gazzetta.it/termini-e-condizioni-vendita-abbonamento-la-gazzetta-dello-sport-22ottobre-2024/",
    "https://abbonamenti.gazzetta.it/faq/"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "La Stampa (abbonamento digitale)",
   "slug": "la-stampa-digitale",
   "categoria": "tv-streaming",
-  "pec": "",
+  "pec": "recesso.abbonamentidigitali@pec.gedidigital.it",
   "indirizzo_postale": "GEDI Digital S.r.l., Via Cristoforo Colombo 90, 00147 Roma, All'attenzione dell'Ufficio Legale",
   "canali": [
    "area personale lastampa.it, sezione Abbonamenti (pulsante di disattivazione previsto dalle condizioni GEDI)",
@@ -614,7 +608,7 @@
   "preavviso": "Secondo le condizioni GEDI Digital: disattivazione in qualsiasi momento, almeno 24 ore prima del successivo addebito, con effetto dalla fine del periodo pagato. Recesso entro 14 giorni dall'attivazione.",
   "costi": "Nessun rimborso del periodo già pagato.",
   "modulo": "",
-  "note": "Nel 2026 La Stampa è passata al gruppo SAE (il sito indica ora La Stampa SAE S.p.A.), ma l'assistenza e il login restano su piattaforma GEDI: verifica la PEC con il servizio clienti prima di inviare la disdetta. Se hai pagato tramite Apple o Google, disdici dallo store. La PEC recesso.abbonamentidigitali@pec.gedidigital.it è quella indicata in passato per gli abbonamenti digitali del gruppo: verifica l'indirizzo aggiornato nelle condizioni del tuo abbonamento.",
+  "note": "Le Condizioni Particolari GEDI Digital valide dal 28/07/2026 indicano la PEC recesso.abbonamentidigitali@pec.gedidigital.it per disattivazione (art. 8.1) e recesso (art. 9.1), con oggetto e User ID, e anche l'e-mail assistenzaclienti@gedidigital.it. La pagina assistenza riporta come sede La Stampa SAE S.p.A., Via Ernesto Lugaro 15, Torino.",
   "fonti": [
    "https://login.gedidigital.it/clp/condizioniparticolari.pdf",
    "https://www.lastampa.it/static/abbonamenti/assistenza/",
@@ -622,7 +616,7 @@
    "https://www.altroconsumo.it/reclamare/bacheca-dei-reclami/disattivazione-abbonamento-la-/4ad0a10dc37f18af64"
   ],
   "affidabilita": "incerta",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Il Sole 24 Ore (abbonamento digitale)",
@@ -660,10 +654,11 @@
   "canali": [
    "area Abbonamenti > Gestione Abbonamenti > Vai ai dettagli > pulsante 'Annulla' (disattiva il rinnovo automatico)",
    "e-mail abbonamenti@ilfattoquotidiano.it (recesso entro 14 giorni) o assistenza@ilfattoquotidiano.it",
-   "comunicazione scritta alla sede legale (raccomandata A/R)",
+   "comunicazione scritta all'indirizzo della società (art. 10.1)",
+   "telefono 06 95282055",
    "App Store / Google Play se acquistato in app"
   ],
-  "preavviso": "Rinnovo automatico per la stessa durata; si può annullare in qualsiasi momento purché entro la data del prossimo pagamento (in app almeno 24 ore prima della scadenza). L'abbonamento resta attivo fino alla fine del periodo già pagato. Recesso entro 14 giorni dalla sottoscrizione con rimborso completo.",
+  "preavviso": "Rinnovo automatico per la stessa durata; si può annullare in qualsiasi momento purché entro la data del prossimo pagamento. Per gli acquisti in app valgono le regole di Apple o Google. L'abbonamento resta attivo fino alla fine del periodo già pagato. Recesso entro 14 giorni dalla sottoscrizione con rimborso completo.",
   "costi": "Nessuna penale indicata; nessun rimborso del periodo di fatturazione in corso dopo i 14 giorni.",
   "modulo": "https://shop.ilfattoquotidiano.it/wp-content/uploads/2023/07/ilfattoquotidianoit_Modulo_recesso_condizioni_vendita.pdf",
   "note": "Nessuna PEC pubblicata: si disdice online dalla Gestione Abbonamenti. Se ti sei abbonato tramite Apple o Google, disdici dallo store: l'assistenza del Fatto non può intervenire sugli abbonamenti Apple.",
@@ -674,7 +669,7 @@
    "https://www.ilfattoquotidiano.it/termini-e-condizioni-dutilizzo-utenti-registrati/"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Amazon Music Unlimited",

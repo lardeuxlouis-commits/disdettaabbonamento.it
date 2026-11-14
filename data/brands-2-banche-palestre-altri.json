@@ -142,7 +142,7 @@
    "e-mail a helpdesk@finecobank.com con modulo firmato",
    "raccomandata A/R con modulo firmato"
   ],
-  "preavviso": "Nessun preavviso. Secondo l'help ufficiale l'estinzione avviene entro 7 giorni lavorativi da quando la banca ha ricevuto tutta la documentazione necessaria; dalla ricezione della richiesta il canone viene sospeso.",
+  "preavviso": "Le Condizioni Generali prevedono il recesso con raccomandata A/R, PEC o mezzo equivalente e preavviso di almeno 1 giorno. L'estinzione avviene entro 7 giorni lavorativi dalla consegna di tutta la documentazione (art. 26), con giorni in più se ci sono utenze, SDD o carte; dalla ricezione della richiesta il canone viene sospeso.",
   "costi": "Gratuito: nessuna spesa di chiusura (art. 120-bis TUB); restano dovuti bolli e addebiti già maturati.",
   "modulo": "https://images.fineco.it/cms/mail/immagini/docs/ON02020EST_estinzione_conto.pdf (modulo ON02020EST \"Richiesta estinzione conto\" con istruzioni)",
   "note": "Prima dell'invio vanno distrutte carte e assegni e lasciato sul conto un saldo sufficiente per gli ultimi addebiti. La PEC societaria finecobankspa.pec@actaliscertymail.it non è il canale indicato per l'estinzione: usare helpdesk@pec.finecobank.com.",
@@ -151,7 +151,7 @@
    "https://images.fineco.it/cms/mail/immagini/docs/ON02020EST_estinzione_conto.pdf"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "ING Italia",
@@ -179,7 +179,7 @@
   "slug": "n26-italia",
   "categoria": "altri-servizi",
   "pec": "",
-  "indirizzo_postale": "",
+  "indirizzo_postale": "N26 Bank SE, Succursale Italiana, Via Filippo Sassetti 32, 20124 Milano",
   "canali": [
    "app o WebApp N26 (procedura guidata di chiusura del conto)",
    "e-mail a support@n26.com dall'indirizzo collegato al conto, con modulo di chiusura firmato (se non si riesce ad accedere)"
@@ -187,12 +187,12 @@
   "preavviso": "Nessun preavviso indicato; la chiusura richiede alcuni giorni per i controlli di conformità. Recesso di 14 giorni dal contratto tramite il pulsante Recesso nell'app (Il mio conto > Note legali).",
   "costi": "Nessun costo di chiusura indicato; eventuali saldi negativi o prestiti vanno rimborsati entro 7 giorni dalla chiusura. Con piano Premium possibile rimborso parziale dell'ultima quota.",
   "modulo": "Modulo di cancellazione N26 (link \"modulo di cancellazione firmato\" nella pagina di supporto ufficiale), con richiesta di chiusura, nome completo, IBAN N26 e IBAN SEPA per il saldo.",
-  "note": "N26 Bank SE è una banca tedesca senza PEC né indirizzo postale indicati per la chiusura: i canali ufficiali sono l'app e l'e-mail al supporto. Prima di chiudere vanno disdetti il piano Premium e la SIM N26 e venduti crypto e investimenti.",
+  "note": "La chiusura del conto si fa dall'app o dalla WebApp. L'Imprint di n26.com indica la PEC info@pec.n26.com della Succursale Italiana, ma per la chiusura i canali ufficiali restano app ed e-mail al supporto. Sede di N26 Bank SE: Voltairestraße 8, 10179 Berlino.",
   "fonti": [
    "https://support.n26.com/it-it/conto-e-informazioni-personali/informazioni-e-dati-personali/come-chiudere-il-conto-n26"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Revolut",

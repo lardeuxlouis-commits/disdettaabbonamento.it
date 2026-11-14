@@ -3,25 +3,28 @@
   "nome": "Enel Energia",
   "slug": "enel-energia",
   "categoria": "energia",
-  "pec": "",
+  "pec": "enelenergia@pec.enel.it",
   "indirizzo_postale": "Enel Energia S.p.A., Casella Postale 8080, 85100 Potenza (PZ)",
   "canali": [
-   "area clienti enel.it",
-   "app Enel Energia",
-   "numero verde 800 900 860 (servizio clienti; numero unico 140 indicato su enel.it)",
-   "raccomandata A/R"
+   "area clienti enel.it (Servizi > Disattivazione della Fornitura)",
+   "app Enel Energia (Profilo > Disattiva fornitura)",
+   "numero verde 800 900 860 o numero gratuito 140",
+   "e-mail allegati.enelenergia@enel.com",
+   "PEC enelenergia@pec.enel.it",
+   "raccomandata A/R",
+   "punti fisici Enel"
   ],
   "preavviso": "1 mese dalla ricezione della comunicazione di recesso (per cessazione della fornitura)",
-  "costi": "Non indicati nelle condizioni generali; eventuali oneri del distributore per la disattivazione",
+  "costi": "23 euro IVA esclusa per la disattivazione su richiesta, più gli importi del distributore (CGF art. 9.1 e 9.2)",
   "modulo": "",
-  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali (clienti domestici, mag-ott 2023) prevedono la raccomandata alla CP 8080 per la cessazione. La PEC servizio.clienti.enelenergia@pec.enel.it compare su enel.it come recapito per comunicazioni e reclami (pagina fibra) ed è citata da fonti secondarie per le disdette, ma le condizioni generali non la indicano per il recesso; enelenergia@pec.enel.it è riservata agli organismi di mediazione.",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le CGF attuali pubblicate su enel.it (art. 21.3) ammettono raccomandata alla CP 8080, e-mail, PEC enelenergia@pec.enel.it, telefono, sito, app e punti fisici. Il distributore esegue la chiusura entro 7 giorni lavorativi.",
   "fonti": [
    "https://enel.it/content/dam/asset/documenti/assistenza/luce-gas/articoli/condizioni-fornitura-residenziali/cgf-res-mag-ott-23.pdf",
    "https://www.enel.it/en-us/assistenza/fibra/codice-comunicazioni-elettroniche",
    "https://www.money.it/Enel-energia-come-fare-disdetta"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Eni Plenitude",
@@ -132,8 +135,8 @@
   ],
   "preavviso": "Circa 1 mese (la cessazione è eseguita entro 5 giorni lavorativi dall'accettazione della richiesta)",
   "costi": "23,00 € + IVA per contatore luce; 30,00 € + IVA per contatore gas fino a classe G6; 45,00 € + IVA oltre G6",
-  "modulo": "https://heracomm.gruppohera.it/documents/83408/288997/Allegato_7_disattivazione_e_cessazione.pdf/78c710ba-c3fa-a2ab-236f-0a8f675a807f",
-  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Il sito heracomm.gruppohera.it blocca la lettura automatica (403): dati presi dagli estratti indicizzati delle pagine ufficiali e da guide secondarie, da ricontrollare a mano. La PEC heracomm@pec.gruppohera.it è citata ma non verificata.",
+  "modulo": "",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Per i clienti domestici la pagina ufficiale indica come Email/PEC clienti.famiglie@gruppohera.it; il modulo Allegato 7 è per i clienti aziende.",
   "fonti": [
    "https://heracomm.gruppohera.it/w/casa/assistenza/contratto/cessazione-del-contratto",
    "https://heracomm.gruppohera.it/w/casa/assistenza/contratto/disdetta-contratto-luce-e-gas",
@@ -141,7 +144,7 @@
    "https://www.facile.it/energia-luce-gas/compagnie/hera/disdetta.html"
   ],
   "affidabilita": "secondaria",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Iren Mercato",
@@ -178,11 +181,11 @@
   "canali": [
    "raccomandata A/R",
    "PEC",
-   "area clienti / app Sorgenia",
-   "e-mail customercare@sorgenia.it"
+   "area clienti / app Sorgenia (per la disalimentazione)",
+   "numero 800.294.333 da fisso, 02.44.388.001 da mobile"
   ],
   "preavviso": "Non inferiore a 1 mese (recesso per cessare la fornitura)",
-  "costi": "Non indicati; eventuali oneri del distributore",
+  "costi": "23 euro IVA esclusa di oneri commerciali (CGC art. 8.1), più gli oneri del distributore (30 a 50 euro per il gas secondo la pagina ufficiale). Sulle offerte luce a prezzo fisso e durata determinata può esserci un corrispettivo di recesso anticipato (art. 5.8)",
   "modulo": "",
   "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Le condizioni generali residenziali (nov. 2025) prevedono il recesso per cessazione via raccomandata A/R o PEC; la PEC è quella indicata nella pagina contatti ufficiale.",
   "fonti": [
@@ -190,7 +193,7 @@
    "https://www.sorgenia.it/shared/files/2025-11/CGC_RES_ML_Nov2025_100Green.pdf"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Linear",

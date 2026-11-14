@@ -11,7 +11,7 @@
    "Se il POS e stato sottoscritto tramite la propria banca, la disdetta va inviata alla banca come indicato nel contratto"
   ],
   "preavviso": "1 mese di preavviso scritto da parte del commerciante, secondo i termini standard Worldpay Merchant Services 2026 (clausola 12.2). Verificare il proprio contratto: durata minima e condizioni possono differire.",
-  "costi": "Nessun costo di recesso indicato nei termini standard. Il noleggio dei terminali ha accordi propri (Terminal Hire Agreement) con possibili addebiti in caso di chiusura anticipata: leggere il contratto.",
+  "costi": "Nessuna penale di recesso per il contratto di accettazione carte (clausola 12). Se il noleggio dei terminali finisce prima del periodo minimo si pagano i canoni residui con sconto del 5% e i costi di ritiro (Schedule 5, par. 25 e 26)",
   "modulo": "",
   "note": "Non esiste un indirizzo PEC ufficiale pubblicato ne una societa italiana chiaramente identificata: i termini pubblicati sul sito italiano indicano Worldpay B.V. (Paesi Bassi) come fornitore per i commercianti europei. Molti POS Worldpay in Italia sono venduti tramite banche o intermediari, quindi il contratto da seguire e quello firmato. Consigliata raccomandata A/R con copia del contratto e dati del punto vendita (MID). Il numero di telefono per la disdetta nei termini standard e britannico (+44 191 203 7318), non adatto a un uso pratico dall'Italia senza conferma.",
   "fonti": [
@@ -20,7 +20,7 @@
    "http://assets.ctfassets.net/zhwqbd2ar3b8/3VZqvoGxtHsbPthycvu2lG/236b4836b99c493dcc262d6c7c8ce355/160226_110_Standard_TC-s_WP110_April_2026_-_Clean_Version.pdf"
   ],
   "affidabilita": "parziale",
-  "data_verifica": "2026-11-01"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Il CV Perfetto",

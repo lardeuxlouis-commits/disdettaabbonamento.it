@@ -179,13 +179,11 @@
   "pec": "",
   "indirizzo_postale": "Estra Energie S.r.l., Casella Postale 128, 59100 Prato (PO)",
   "canali": [
-   "raccomandata A/R",
-   "area clienti areaclienti.estra.it (Richieste e segnalazioni)",
-   "modulo di contatto su aliaestra.it",
-   "numero verde 800 909 848"
+   "raccomandata A/R (art. 5.2 delle condizioni generali)",
+   "servizio clienti 800 128 128 da rete fissa, 02 82 70 da cellulare"
   ],
   "preavviso": "1 mese dalla ricezione della comunicazione di recesso (condizioni generali Rev. 07/2026, art. 5.2)",
-  "costi": "Nessuna penale per i clienti domestici; eventuali oneri del distributore per la disattivazione",
+  "costi": "Nessuna penale per i clienti domestici; quota fissa di 27,50 euro per ogni richiesta inoltrata al distributore gas (art. 16.4, Rev. 07/2026) più gli oneri del distributore",
   "modulo": "",
   "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura: le condizioni generali chiedono una raccomandata A/R all'indirizzo indicato sul frontespizio della Proposta di fornitura; la CP 128 di Prato è il recapito postale ufficiale per reclami e ripensamenti (marchio ora AliaEstra, gruppo Plures). La PEC estraenergie@pec.estraenergie.it e l'indirizzo Piazza Matteotti 3 Arezzo sono citati solo da siti secondari, non verificati.",
   "fonti": [
@@ -195,7 +193,7 @@
    "https://aliaestra.it/supporto"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Duferco Energia",
@@ -204,22 +202,19 @@
   "pec": "clienti.dufercoenergia@pec.duferco.it",
   "indirizzo_postale": "Duferco Energia S.p.A., Via Paolo Imperiale 4, 16126 Genova (GE)",
   "canali": [
-   "PEC clienti.dufercoenergia@pec.duferco.it",
-   "raccomandata A/R",
-   "e-mail clienti@dufercoenergia.com",
-   "numero verde 800 93 93 00",
-   "WhatsApp 349 329 2461"
+   "modulo di chiusura contatore via e-mail a clienti@dufercoenergia.com",
+   "posta a Duferco Energia, Via Paolo Imperiale 4, 16126 Genova"
   ],
   "preavviso": "Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per cessazione, delibera 783/2017)",
   "costi": "Nessuna penale per le offerte domestiche a tempo indeterminato; per offerte a durata vincolata (clienti non domestici) possibile corrispettivo di recesso anticipato",
-  "modulo": "",
+  "modulo": "https://www.dufercoenergia.com/wp-content/uploads/2025/06/Chiusura-contatore-EE-GAS.pdf",
   "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore). La PEC clienti è pubblicata sulla pagina Contatti come canale di assistenza clienti; le PEC recessi.energia@pec.duferco.it e recessi.naturalgas@pec.duferco.it sono riservate agli operatori di mercato. Condizioni generali non consultabili online, preavviso indicato secondo la regola ARERA.",
   "fonti": [
    "https://dufercoenergia.com/contatti/",
    "https://dufercoenergia.com/documenti/"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "AGSM AIM Energia (ora Magis Energia)",
