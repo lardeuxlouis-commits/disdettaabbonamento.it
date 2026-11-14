@@ -60,7 +60,7 @@
    "fax 800 031 143"
   ],
   "preavviso": "Massimo 1 mese per i clienti domestici (fonti secondarie)",
-  "costi": "Non indicati",
+  "costi": "Recesso in genere gratuito, salvo le offerte luce a prezzo fisso con durata determinata. Per chiudere il contatore gas Edison addebita 23 euro per richiesta più i corrispettivi del distributore (Condizioni Generali, art. 7.3).",
   "modulo": "",
   "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. Indirizzo postale dalla pagina contatti ufficiale (CAP 20079; alcune guide riportano ancora 20080). La PEC edisonenergia.servizioclienti@pec.edison.it è indicata solo da fonti secondarie; la PEC ufficiale edisonenergia@pec.edison.it è il punto di contatto DSA, non un canale di disdetta dichiarato.",
   "fonti": [
@@ -70,7 +70,7 @@
    "https://tariffe.segugio.it/adsl-energia-gas/edison-energia/procedura-disdetta.aspx"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-14"
  },
  {
   "nome": "Acea Energia",
@@ -155,8 +155,8 @@
    "area clienti / app IrenYou",
    "per iscritto al servizio clienti (recapiti in bolletta)"
   ],
-  "preavviso": "1 mese dalla ricezione della comunicazione per i clienti domestici e le piccole imprese (Condizioni Generali di Fornitura mercato libero, art. 3.5).",
-  "costi": "Non indicati",
+  "preavviso": "1 mese dalla ricezione della comunicazione per i clienti domestici e le piccole imprese (Condizioni Generali di Fornitura mercato libero, art. 3.5)",
+  "costi": "Nessuna penale di recesso. Iren può addebitare 23 euro più IVA per la richiesta di disattivazione inviata al distributore, più gli eventuali costi del distributore.",
   "modulo": "",
   "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. La pagina ufficiale non indica un indirizzo dedicato alla disdetta (rimanda alla bolletta); l'indirizzo è la sede legale presa dall'informativa privacy ufficiale. La PEC irenmercato@pec.gruppoiren.it è citata da fonti secondarie; irenspa@pec.gruppoiren.it è la PEC della capogruppo Iren S.p.A.",
   "fonti": [
