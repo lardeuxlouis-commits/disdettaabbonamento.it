@@ -18,6 +18,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "docs")
 DOMAIN = "https://disdettaabbonamento.it"
 SITE = "Disdetta Abbonamento"
+# Entité (JSON-LD) : uniquement des informations déjà publiées sur /chi-siamo/ et /note-legali/
+ORG_ID = DOMAIN + "/#organization"; PERSON_ID = DOMAIN + "/chi-siamo/#louis-lardeux"
+PERSON = {"@type": "Person", "@id": PERSON_ID, "name": "Louis Lardeux", "jobTitle": "Fondatore", "image": DOMAIN + "/louis.jpg",
+          "url": DOMAIN + "/chi-siamo/", "worksFor": {"@id": ORG_ID}}
+ORG = {"@type": "Organization", "@id": ORG_ID, "name": SITE, "url": DOMAIN + "/", "logo": DOMAIN + "/favicon.png",
+       "email": "info@disdettaabbonamento.it", "founder": {"@id": PERSON_ID}}
 TODAY = dt.date.today().isoformat()
 # Dates réelles de modification. Une page ne change de date que si son contenu change (titre, description, <main>).
 # Avant, le sitemap et les guides prenaient la date du jour à chaque build : 200 pages « modifiées » d'un coup, à tort.
@@ -795,6 +801,9 @@ def brand_page(b, peers):
         {"@type": "ListItem", "position": 1, "name": "Home", "item": DOMAIN + "/"},
         {"@type": "ListItem", "position": 2, "name": cat["nome"], "item": f"{DOMAIN}/{cat['slug']}/"},
         {"@type": "ListItem", "position": 3, "name": f"Disdetta {n}", "item": DOMAIN + path}]})
+    schema.append({"@context": "https://schema.org", "@type": "WebPage", "url": DOMAIN + path, "name": title, "inLanguage": "it-IT", "dateModified": DATA_ISO,
+                   "author": {"@type": "Person", "@id": PERSON_ID, "name": "Louis Lardeux", "url": DOMAIN + "/chi-siamo/"},
+                   "publisher": {"@type": "Organization", "@id": ORG_ID, "name": SITE, "url": DOMAIN + "/"}})
     sticky = f'<aside class="slidein" id="slidein" hidden><button class="x" type="button" aria-label="Chiudi" onclick="chiudiSlide()">×</button><b>Non hai una PEC?</b><p>Inviamo noi la disdetta a {E(n)} con ricevuta legale. Prezzo di lancio 7,90 € fino al 30 novembre.</p><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC →</a><small>↩️ Rimborso se non consegnata · 🔒 Stripe</small></aside><div class="sticky two"><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></div>' if lettera else ''
     html_ = page(title, desc, path, body, schema, sticky, noindex="follow" if b["slug"] in NOINDEX else False)
     write(path, testi_raccomandata(html_, n) if racc else html_)
@@ -893,7 +902,7 @@ def main():
     body += '<section class="band"><h2>Pronto a disdire?</h2><p>Cerca il tuo operatore e prepara la lettera adesso, è gratis.</p><a class="btn shine" href="#cerca">Trova il tuo operatore →</a></section>'
     write("/", page("Disdetta abbonamento: PEC, indirizzi e lettere di disdetta gratis",
                     f"Indirizzi PEC e postali verificati, preavviso, costi e lettere di disdetta gratuite per {len(brands)} operatori: telefonia, pay TV, luce e gas, assicurazioni, palestre.", "/", body,
-                    [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": DOMAIN + "/"}]))
+                    [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": DOMAIN + "/", "publisher": {"@id": ORG_ID}}, dict({"@context": "https://schema.org"}, **ORG), dict({"@context": "https://schema.org"}, **PERSON)]))
     # pagine istituzionali
     statiche = {
         "/come-funziona/": ("Come funziona", "Come disdire un contratto con valore legale: PEC o raccomandata A/R, documento d'identità, ricevuta da conservare.",
@@ -907,7 +916,9 @@ def main():
         "/termini/": ("Termini e condizioni", "Termini e condizioni del servizio di invio della disdetta via PEC di Disdetta Abbonamento.", TERMINI_HTML),
     }
     for p, (t, d, b) in statiche.items():
-        write(p, page(f"{t} | {SITE}", d, p, b)); urls.append(p)
+        sch = [{"@context": "https://schema.org", "@type": "AboutPage", "url": DOMAIN + p, "name": t, "inLanguage": "it-IT", "about": {"@id": ORG_ID}, "mainEntity": {"@id": PERSON_ID}},
+               dict({"@context": "https://schema.org"}, **ORG), dict({"@context": "https://schema.org"}, **PERSON)] if p == "/chi-siamo/" else None
+        write(p, page(f"{t} | {SITE}", d, p, b, sch)); urls.append(p)
     write("/annulla-promemoria/", page(f"Nessun altro promemoria | {SITE}", "Annulla i promemoria via e-mail.", "/annulla-promemoria/",
           '<section class="wrap" style="max-width:640px;padding:40px 16px"><h1>Promemoria annullati</h1><p id="ap">Un attimo…</p><p><a href="/">Torna alla home</a></p></section>'
           '<script>(function(){var t=new URLSearchParams(location.search).get("t")||"";var p=document.getElementById("ap");fetch("https://187-124-173-12.sslip.io/dm/annulla",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({t:t})}).then(function(r){p.textContent=r.ok?"Fatto: non riceverai più nessuna e-mail da noi.":"Link non valido. Scrivici a info@disdettaabbonamento.it e ti togliamo subito.";}).catch(function(){p.textContent="Errore di rete, riprova o scrivici a info@disdettaabbonamento.it.";});})();</script>', noindex=True))
