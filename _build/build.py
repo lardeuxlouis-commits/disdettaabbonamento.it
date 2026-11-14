@@ -527,7 +527,7 @@ def page(title, desc, path, body, schema=None, sticky="", noindex=False, extra_h
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(title)}</title><meta name="description" content="{E(desc)}">
 <script>(function(c,l,a,r,i,t,y){{c[a]=c[a]||function(){{(c[a].q=c[a].q||[]).push(arguments)}};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)}})(window,document,"clarity","script","z8zh4yrh59");clarity("consentv2",{{ad_Storage:"denied",analytics_Storage:"denied"}});</script>
-<link rel="canonical" href="{canon}">{'<meta name="robots" content="noindex,nofollow">' if noindex else ''}{extra_head}
+<link rel="canonical" href="{canon}">{('<meta name="robots" content="noindex,follow">' if noindex == "follow" else '<meta name="robots" content="noindex,nofollow">') if noindex else ''}{extra_head}
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}">
 <meta property="og:type" content="website"><meta property="og:url" content="{canon}"><meta property="og:locale" content="it_IT">
 <link rel="icon" type="image/png" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta property="og:image" content="https://disdettaabbonamento.it/og.png"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="/style.css?v={ASSET_V}">{ld}</head><body{bodycls}>
@@ -560,6 +560,9 @@ def write(path, content):
 
 _sk = os.path.join(ROOT, "data", "schede.json")
 SCHEDE = json.load(open(_sk, encoding="utf-8")) if os.path.exists(_sk) else {}
+_ni = os.path.join(ROOT, "data", "noindex.json")
+# Fiches faibles mises en noindex et hors sitemap (data/noindex.json). Une fiche qui reçoit du contenu propre en sort d'office.
+NOINDEX = {x for x in (json.load(open(_ni, encoding="utf-8"))["slugs"] if os.path.exists(_ni) else []) if x not in SCHEDE}
 # Sections propres à chaque marque (data/schede.json) : (champ, titre). Rien n'est affiché si le champ est vide.
 PRIMA = [("online", "Disdire {n} online o dall'app"), ("dati_lettera", "I dati da indicare nella disdetta {n}")]
 DOPO = [("tempi_e_dopo", "Cosa succede dopo la disdetta {n}"), ("costi_dettaglio", "Quanto costa disdire {n}, nel dettaglio"),
@@ -793,7 +796,7 @@ def brand_page(b, peers):
         {"@type": "ListItem", "position": 2, "name": cat["nome"], "item": f"{DOMAIN}/{cat['slug']}/"},
         {"@type": "ListItem", "position": 3, "name": f"Disdetta {n}", "item": DOMAIN + path}]})
     sticky = f'<aside class="slidein" id="slidein" hidden><button class="x" type="button" aria-label="Chiudi" onclick="chiudiSlide()">×</button><b>Non hai una PEC?</b><p>Inviamo noi la disdetta a {E(n)} con ricevuta legale. Prezzo di lancio 7,90 € fino al 30 novembre.</p><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC →</a><small>↩️ Rimborso se non consegnata · 🔒 Stripe</small></aside><div class="sticky two"><a class="btn" href="{stripe}" rel="nofollow" data-pec>Invia via PEC, 7,90 €</a><a class="btn sec" href="#lettera-disdetta">Lettera gratis</a></div>' if lettera else ''
-    html_ = page(title, desc, path, body, schema, sticky)
+    html_ = page(title, desc, path, body, schema, sticky, noindex="follow" if b["slug"] in NOINDEX else False)
     write(path, testi_raccomandata(html_, n) if racc else html_)
     return path
 
@@ -836,7 +839,8 @@ def main():
         lst.sort(key=lambda b: b["nome"].lower())
         for i, b in enumerate(lst):
             peers = [lst[(i + k) % len(lst)] for k in range(1, min(len(lst), 7))]
-            urls.append(brand_page(b, peers))
+            pth = brand_page(b, peers)
+            if b["slug"] not in NOINDEX: urls.append(pth)
         cat = CATEGORIE[c]; p = f"/{cat['slug']}/"
         body = f'<section class="hero small"><p class="crumbs"><a href="/">Home</a> › {E(cat["nome"])}</p><h1>Disdetta <em>{E(cat["nome"].lower())}</em></h1><p class="lead">{E(cat["intro"])}</p><ul class="chips"><li>{len(lst)} operatori verificati</li><li>Lettere gratuite o invio PEC per te</li><li>Fonti ufficiali citate</li></ul></section>'
         body += '<div class="grid">' + "".join(card(b) for b in lst) + "</div>"
