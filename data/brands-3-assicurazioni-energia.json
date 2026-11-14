@@ -4,7 +4,7 @@
   "slug": "zurich-italia",
   "categoria": "assicurazioni",
   "pec": "",
-  "indirizzo_postale": "Zurich Insurance Company Ltd, Rappresentanza Generale per l'Italia, via Benigno Crespi 23, 20159 Milano",
+  "indirizzo_postale": "Zurich Insurance Europe AG, Rappresentanza Generale per l'Italia, Via Benigno Crespi 23, 20159 Milano",
   "canali": [
    "area clienti Zurich One",
    "raccomandata A/R",
@@ -14,13 +14,13 @@
   "preavviso": "Dipende dalla polizza: per i contratti annuali con tacito rinnovo la disdetta si invia per lettera raccomandata o PEC entro il termine indicato in polizza (di norma almeno 30 o 60 giorni prima della scadenza, art. 1899 c.c. per le durate pluriennali). L'RC auto non si rinnova tacitamente (Legge 40/2007). Ripensamento entro 14 giorni dalla conclusione del contratto.",
   "costi": "Nessun costo per la disdetta alla scadenza nei termini. Il recesso entro 14 giorni dà diritto al rimborso del premio al netto di imposte e oneri parafiscali.",
   "modulo": "https://www.zurich.it/api/archiviodigitale/download?guid=954BDE10-CED4-4EA1-8C14-76E2085729F0&filename=Modulo+recesso+0426.pdf",
-  "note": "Zurich Italia opera con più società e la PEC cambia in base alla compagnia indicata sulla propria polizza. Pubblicate sul sito ufficiale: zurich.insurance.company@pec.zurich.it (Zurich Insurance Company Ltd, indicata sul modulo di recesso) e Zurich.Insurance.Europe@pec.zurich.it (Zurich Insurance Europe AG, pagina assistenza). Controllare quale compagnia compare sul contratto prima di inviare. Il modulo di recesso va inviato a documenti@it.zurich.com. Indicare numero di polizza, contraente, data di scadenza. Non vale per Zurich Connect (scheda separata).",
+  "note": "Zurich Italia opera con più società e la PEC cambia in base alla compagnia indicata sulla propria polizza. Pubblicate sul sito ufficiale: zurich.insurance.company@pec.zurich.it (Zurich Insurance Company Ltd, indicata sul modulo di recesso) e Zurich.Insurance.Europe@pec.zurich.it (Zurich Insurance Europe AG, pagina assistenza). Controllare quale compagnia compare sul contratto prima di inviare. Il modulo di recesso va inviato a documenti@it.zurich.com. Indicare numero di polizza, contraente, data di scadenza. Non vale per Zurich Connect (scheda separata). Polizze Zurich For Family (ed. 06.2026): disdetta almeno 30 giorni prima della scadenza, solo via PEC o raccomandata A/R. RC auto Zurigò: nessun tacito rinnovo.",
   "fonti": [
    "https://www.zurich.it/assistenza",
    "https://www.zurich.it/api/archiviodigitale/download?guid=954BDE10-CED4-4EA1-8C14-76E2085729F0&filename=Modulo+recesso+0426.pdf"
   ],
   "affidabilita": "parziale",
-  "data_verifica": "2026-11-01"
+  "data_verifica": "2026-11-14"
  },
  {
   "nome": "Servizio Elettrico Nazionale",

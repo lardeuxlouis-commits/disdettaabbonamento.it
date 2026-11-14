@@ -27,7 +27,7 @@
   "nome": "E.ON Energia",
   "slug": "eon-energia",
   "categoria": "energia",
-  "pec": "",
+  "pec": "eonenergia@legalmail.it",
   "indirizzo_postale": "Casella Postale E.ON Energia 14029, 20146 Milano (MI)",
   "canali": [
    "raccomandata A/R",
@@ -46,7 +46,7 @@
    "https://luce-gas.it/fornitori/eon/disdetta"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-14"
  },
  {
   "nome": "Pulsee (Axpo)",

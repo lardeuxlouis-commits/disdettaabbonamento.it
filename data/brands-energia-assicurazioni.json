@@ -147,15 +147,15 @@
   "nome": "Iren Mercato",
   "slug": "iren-mercato",
   "categoria": "energia",
-  "pec": "",
-  "indirizzo_postale": "Iren Mercato S.p.A., Via SS. Giacomo e Filippo 7, 16122 Genova (sede legale; il recapito del servizio clienti è indicato in bolletta)",
+  "pec": "irenmercato@pec.gruppoiren.it",
+  "indirizzo_postale": "Iren Mercato S.p.A., Strada Santa Margherita 6/A, 43123 Parma (PR)",
   "canali": [
    "numero verde 800 969 696 (da cellulare 011 022 033)",
    "sportelli Iren",
    "area clienti / app IrenYou",
    "per iscritto al servizio clienti (recapiti in bolletta)"
   ],
-  "preavviso": "1 mese dalla ricezione (condizioni generali mercato libero, rev. 2022, via fonte secondaria)",
+  "preavviso": "1 mese dalla ricezione della comunicazione per i clienti domestici e le piccole imprese (Condizioni Generali di Fornitura mercato libero, art. 3.5).",
   "costi": "Non indicati",
   "modulo": "",
   "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura (chiusura contatore) o in caso di trasloco. La pagina ufficiale non indica un indirizzo dedicato alla disdetta (rimanda alla bolletta); l'indirizzo è la sede legale presa dall'informativa privacy ufficiale. La PEC irenmercato@pec.gruppoiren.it è citata da fonti secondarie; irenspa@pec.gruppoiren.it è la PEC della capogruppo Iren S.p.A.",
@@ -167,7 +167,7 @@
    "https://luce-gas.it/fornitori/iren/reclami"
   ],
   "affidabilita": "incerta",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-14"
  },
  {
   "nome": "Sorgenia",
@@ -296,7 +296,7 @@
   "slug": "conte-it",
   "categoria": "assicurazioni",
   "pec": "",
-  "indirizzo_postale": "ConTe.it (Admiral Intermediary Services S.A., sede secondaria), Via della Bufalotta 374, 00139 Roma",
+  "indirizzo_postale": "Admiral Intermediary Services S.A. (AIS), ConTe.it Assistenza Clienti, Via della Bufalotta 374 (c/o Tecnocenter Talenti), 00139 Roma",
   "canali": [
    "area clienti conte.it",
    "telefono 06 4523 4523",
@@ -314,7 +314,7 @@
    "https://www.conte.it/wp-content/uploads/2026/03/CGA37_Auto.pdf"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-14"
  },
  {
   "nome": "Zurich Connect",

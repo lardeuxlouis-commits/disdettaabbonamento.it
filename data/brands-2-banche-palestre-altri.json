@@ -122,13 +122,13 @@
   "preavviso": "Nessun preavviso: il recesso del cliente ha effetto immediato. La banca chiude il conto entro 20 giorni lavorativi da quando il recesso è operante.",
   "costi": "Gratuito: recesso senza penalità e senza spese di estinzione (art. 120-bis TUB).",
   "modulo": "",
-  "note": "I fogli informativi prevedono solo la comunicazione in forma scritta, senza un indirizzo dedicato: la lettera va alla propria filiale, restituendo carte e strumenti collegati. La PEC reclami@pec.bancobpmspa.it e l'indirizzo Gestione Reclami, Via Polenghi Lombardo 13, 26900 Lodi servono solo per i reclami.",
+  "note": "I fogli informativi prevedono solo la comunicazione in forma scritta, senza un indirizzo dedicato: la lettera va alla propria filiale, restituendo carte e strumenti collegati. La PEC reclami@pec.bancobpmspa.it e l'indirizzo Gestione Reclami, Via Polenghi Lombardo 13, 26900 Lodi servono solo per i reclami. Esiste anche la PEC estinzione.contratto.bancario@pec.bancobpmspa.it, ma la richiesta va firmata digitalmente con il codice fiscale nell'oggetto.",
   "fonti": [
    "https://www.bancobpm.it/DWN/trasparenza/Documenti/64060.pdf",
    "https://www.bancobpm.it/DWN/trasparenza/Documenti/64243.pdf"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-14"
  },
  {
   "nome": "Fineco",

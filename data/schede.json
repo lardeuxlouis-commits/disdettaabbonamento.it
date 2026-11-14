@@ -2219,5 +2219,747 @@
   "online": "Per i clienti ex Zurich Connect la pagina ufficiale indica l'area clienti Zurich One (zurichone.zurich.it), dove gestisci la polizza, aggiorni l'IBAN e segui i sinistri auto e moto. L'app Zurich Connect non è più disponibile sugli store. Nelle fonti lette la disdetta non è presentata come operazione da fare in Zurich One: per NoPensieri Casa si scrive a documenti@it.zurich.com.",
   "tempi_e_dopo": "Per il ripensamento entro 14 giorni dalla decorrenza di NoPensieri Casa, Zurich rimborsa le rate di premio pagate e non godute, al netto di imposte e oneri parafiscali. Se un sinistro si è già verificato, il ripensamento non si può chiedere e Zurich si rivale su di te per le spese sostenute (art. 6.6). Dopo un sinistro, la cessazione chiesta da te ha effetto 30 giorni dopo la ricezione e dalla mensilità successiva non si paga più il premio (art. 6.8).",
   "vincoli": "NoPensieri Casa dura 1 anno e si rinnova tacitamente di anno in anno, salvo disdetta inviata almeno 60 giorni prima della scadenza annuale. Dopo ogni sinistro, e fino al 60° giorno dal pagamento o dal rifiuto dell'indennizzo, tu e Zurich potete sciogliere il contratto con effetto dopo 30 giorni dalla comunicazione (art. 6.8). Per la polizza dei clienti Plenitude esiste anche la risoluzione anticipata per cessato rischio, per esempio vendita della casa, fine della locazione o chiusura definitiva del POD/PDR."
+ },
+ "anytime-fitness-italia": {
+  "online": "Secondo le pagine ufficiali consultate non esiste una disdetta online unica per tutta la rete Anytime Fitness in Italia. Ogni club è di proprietà e gestione indipendente, e il sito rimanda al contratto d'iscrizione e al contatto diretto con il tuo club di riferimento, che trovi con la pagina «Trova il tuo Club». L'app serve per l'accesso con Access Pass e per seguire gli allenamenti: le pagine consultate non indicano una funzione di disdetta.",
+  "dati_lettera": "La lettera va intestata alla società che gestisce il tuo club, con il nome che trovi sul contratto d'iscrizione, non ad Anytime Italia S.r.l. Le pagine del marchio non pubblicano un elenco di dati obbligatori. Metti nome e cognome, codice fiscale, sede del club, numero di tessera o di contratto se presente, data di iscrizione, la richiesta di disdetta o di recesso, e se paghi con addebito SEPA chiedi anche lo stop dell'addebito. Allega una copia del documento d'identità. Il marchio pubblica un modulo di recesso in PDF da compilare con i dati del club.",
+  "tempi_e_dopo": "Anytime Fitness non pubblica un termine unico. Le FAQ dicono che il contratto di ogni sede indica il costo per la cancellazione, le modalità per rescindere e le eventuali spese di risoluzione: preavviso, ultimo addebito e data di fine accesso li trovi lì. Chiedi al club una conferma scritta della data di cessazione. Dopo quella data il tuo portachiavi o l'Access Pass non va più usato. Se un addebito continua, il reclamo va al club e, per segnalazioni su un club specifico, a servizioclienti@anytimefitness.it.",
+  "vincoli": "Durata e vincoli cambiano da club a club. La pagina abbonamenti indica che alcune palestre offrono opzioni da 6, 12 e 18 mesi e che i piani disponibili vanno verificati presso la sede locale. Anche il rinnovo e il preavviso sono scritti nel contratto della singola sede: rileggilo prima di scrivere.",
+  "alternative": "Secondo le FAQ tutti gli abbonamenti sono trasferibili ad altro club. Per un trasferimento dovuto a cambio di residenza, la nuova residenza deve essere a più di 10 miglia dalla precedente. Non sono previste commissioni per il trasferimento, ma la quota può cambiare in base alla quota mensile del nuovo club. Per sospendere l'iscrizione devi rivolgerti al tuo club di casa: le sedi hanno politiche diverse. Con l'iscrizione hai anche accesso agli altri club Anytime in Italia e nel mondo.",
+  "assistenza": "Per disdetta, pagamenti e fatturazione il riferimento è il tuo club, con i recapiti nella pagina «Trova il tuo Club». Per segnalazioni e reclami su un club c'è servizioclienti@anytimefitness.it. Anytime Italia S.r.l., master franchisee della rete, ha sede in via Fezzan 9, 20146 Milano, PEC anytimeitalia@pec.it, telefono 02 49537610. Le pagine consultate non indicano orari del servizio clienti.",
+  "errori": [
+   "Mandare la disdetta ad Anytime Italia S.r.l. o a un indirizzo trovato su un sito di moduli: il contratto è con la società del tuo club, ed è a lei che deve arrivare la comunicazione.",
+   "Chiedere un trasferimento per trasloco a una palestra vicina: per i trasferimenti dovuti a cambio di residenza le FAQ chiedono più di 10 miglia dalla residenza precedente.",
+   "Dare per scontato che il preavviso sia uguale in tutti i club: ogni sede ha il proprio contratto con costi di cancellazione e modalità diverse, quindi leggi il tuo prima di scrivere."
+  ],
+  "faq": [
+   {
+    "d": "A chi mando la disdetta di Anytime Fitness?",
+    "r": "Alla società che gestisce il tuo club, indicata sul contratto d'iscrizione. Ogni club Anytime è di proprietà e gestione indipendente, e il sito ufficiale rimanda al contratto e al contatto diretto con il club."
+   },
+   {
+    "d": "Posso sospendere l'abbonamento Anytime Fitness invece di disdirlo?",
+    "r": "Dipende dal club. Le FAQ ufficiali dicono che per sospendere l'iscrizione devi rivolgerti al tuo club di casa, perché le sedi hanno politiche leggermente diverse."
+   },
+   {
+    "d": "Se cambio città posso spostare l'abbonamento Anytime in un altro club?",
+    "r": "Sì. Tutti gli abbonamenti sono trasferibili e non ci sono commissioni. Per il cambio di residenza la nuova casa deve essere a più di 10 miglia dalla precedente, e la quota mensile può cambiare in base al nuovo club."
+   }
+  ],
+  "fonti": [
+   "https://www.anytimefitness.com/it-it/faqs",
+   "https://www.anytimefitness.com/it-it/contact",
+   "https://www.anytimefitness.com/it-it/membership",
+   "https://www.anytimefitness.com/it-it/terms-of-use",
+   "https://cdn.prod.website-files.com/66aa8fe9dc4db68f448a978f/6a3a5f6615d37116b2086570_Modulo_Recesso.pdf"
+  ],
+  "data": "2026-11-14"
+ },
+ "aruba": {
+  "online": "Per non rinnovare entra in my.aruba.it, cerca il servizio, vai su «Gestisci» e sotto «Data scadenza» trova «Rinnovo automatico». Se leggi «Attivo», premi il selettore e conferma con «Disattiva». Il servizio resta attivo fino alla mezzanotte del giorno di scadenza. Per chiudere un servizio prima della scadenza puoi aprire una richiesta su assistenzaclienti.aruba.it: per il dominio e per la casella PEC c'è un modulo online a cui accedi con le credenziali Aruba.",
+  "dati_lettera": "Per il recesso in qualsiasi momento dai servizi hosting e domini, le condizioni in vigore dal 13 novembre 2026 chiedono una comunicazione scritta con allegata copia di un documento d'identità, inviata con raccomandata A/R, PEC a recessi@aruba.pec.it o richiesta di assistenza. Indica il codice cliente (tipo 123456@aruba.it), il nome del servizio o del dominio e l'intestatario. Per cancellare anche il dominio presso il Registro servono documenti in più: per un .it il modulo di cancellazione e il documento dell'intestatario, per un .eu una richiesta firmata con i dati anagrafici, per .com, .org, .net, .info, .biz, .cc, .us e .de una dichiarazione in inglese firmata con il documento. Per un .es non serve nessun allegato.",
+  "tempi_e_dopo": "Il recesso ha efficacia decorsi 30 giorni dalla ricezione. Poi Aruba disattiva il servizio e rimborsa il rateo dei giorni non usati fino alla scadenza, detratti i costi sostenuti. Il recesso dal dominio disattiva subito anche tutti i servizi associati, come hosting e posta, e cancella i contenuti. Dopo la scadenza di un servizio i dati vengono cancellati trascorsi 30 giorni, e Aruba non fa backup: salvali prima. Una casella PEC lasciata scadere resta attiva in sola ricezione per altri 90 giorni, mentre con il recesso anticipato viene cancellata con tutto il contenuto. Se mandi il recesso senza i documenti per il Registro, il recesso vale lo stesso ma il dominio resta registrato fino alla sua scadenza naturale. Nei 14 giorni di ripensamento Aruba rimborsa tutto entro 14 giorni, con lo stesso mezzo di pagamento.",
+  "costi_dettaglio": "Le condizioni generali e quelle hosting e domini dicono che il recesso avviene senza alcuna penalità. Dopo i 14 giorni il rimborso è solo il rateo dei giorni non usati, detratti i costi sostenuti o da sostenere (art. 13.2 delle condizioni hosting e domini v. 5.0). Se trasferisci il dominio a un altro provider prima della scadenza non ricevi alcun rimborso per il periodo non usato. Per i Domini Premium il consumatore rinuncia al recesso e al rimborso. Per la Fibra, se tieni il modem dopo il recesso Aruba addebita i costi previsti all'art. 13.2 delle condizioni di connettività. Smart card, SIM, Aruba Key e Aruba Token sono prodotti personalizzati e non vengono rimborsati.",
+  "vincoli": "Ogni servizio è a tempo determinato, con la durata scritta nel modulo d'ordine. Se paghi con carta di credito o PayPal il servizio si rinnova tacitamente di anno in anno, salvo disdetta almeno 15 giorni prima della scadenza. L'addebito del rinnovo parte 7 giorni prima della scadenza. Se il pagamento del rinnovo non arriva entro 2 giorni prima della scadenza, il contratto si risolve. Puoi disattivare il rinnovo automatico in qualsiasi momento dall'Area clienti, anche togliendo la carta salvata o i pagamenti automatici da PayPal.",
+  "alternative": "Se il dominio ti serve ancora, invece della cancellazione puoi trasferirlo a un altro provider: il contratto con Aruba cessa a fine trasferimento, ma tutti i servizi collegati al dominio vengono disattivati. Se hai lasciato scadere un dominio .it puoi ancora rinnovarlo per circa 15 giorni con la procedura normale; poi entra in Redemption Period per circa 30 giorni, in cui è sospeso ma ancora recuperabile, e dopo circa 5 giorni di Pending Delete viene cancellato.",
+  "assistenza": "Assistenza tecnica e commerciale attiva 24 ore su 24 su assistenza.aruba.it, con le richieste da aprire su assistenzaclienti.aruba.it. Per la Fibra di Aruba: numero verde 800 903 633 e informazioni commerciali allo 0575 0505, 24 ore su 24, 7 giorni su 7. PEC della società: aruba@aruba.pec.it. Reclami: raccomandata A/R ad Aruba S.p.A., Loc. Palazzetto 4, 52011 Bibbiena (AR), o richiesta di assistenza, entro 7 giorni dal fatto; la risposta scritta arriva entro 30 giorni.",
+  "errori": [
+   "Chiedere il recesso dal dominio quando volevi solo non rinnovarlo: il recesso disattiva subito dominio, hosting e caselle e cancella i contenuti, mentre per non rinnovare basta spegnere il rinnovo automatico.",
+   "Disdire o lasciar scadere un servizio senza fare il backup: Aruba non esegue backup e cancella i dati 30 giorni dopo la scadenza.",
+   "Spegnere il rinnovo automatico all'ultimo momento: l'addebito parte 7 giorni prima della scadenza, quindi fallo almeno una settimana prima, meglio 15 giorni."
+  ],
+  "faq": [
+   {
+    "d": "Come disdire il rinnovo automatico di Aruba?",
+    "r": "Entra in my.aruba.it, cerca il servizio, vai su «Gestisci» e sotto «Data scadenza» spegni «Rinnovo automatico» confermando con «Disattiva». Non serve inviare lettere: il servizio resta attivo fino alla mezzanotte del giorno di scadenza."
+   },
+   {
+    "d": "Aruba rimborsa se disdico l'hosting prima della scadenza?",
+    "r": "Sì, in parte. Le condizioni hosting e domini in vigore dal 13 novembre 2026 prevedono il rimborso del rateo dei giorni non usati, detratti i costi sostenuti. Il recesso ha effetto 30 giorni dopo la ricezione. Se sei nei 14 giorni dall'acquisto e sei un consumatore, ricevi tutto indietro entro 14 giorni."
+   },
+   {
+    "d": "Cosa succede alla PEC Aruba se non la rinnovo?",
+    "r": "Alla scadenza la casella resta attiva in sola ricezione per altri 90 giorni, poi viene cancellata. Se invece chiedi il recesso anticipato, la casella e il suo contenuto vengono cancellati definitivamente. In entrambi i casi fai prima il backup dei messaggi."
+   }
+  ],
+  "fonti": [
+   "https://www.pec.it/documents/tc-files/it/76_informativarecessoservizi.pdf",
+   "https://www.pec.it/documents/tc-files/it/124_it_condizionigeneralidifornituraserviziaruba-i.pdf",
+   "https://hosting.aruba.it/documents/tc-files/it/1_condizionifornituraservizihostingaruba.pdf",
+   "https://fibra.aruba.it/documents/tc-files/it/05_informativa_diritto_recesso_fibra.aspx",
+   "https://guide.aruba.it/gestione-pagamenti-fatture/metodi-pagamento/rinnovo-automatico",
+   "https://guide.aruba.it/risorse/recesso/recesso-dominio",
+   "https://guide.aruba.it/risorse/recesso/recesso-casella-pec",
+   "https://guide.aruba.it/hosting-e-domini/gestione-domini/stati-dominio/mancato-rinnovo-dominio-it",
+   "https://assistenza.aruba.it/home.aspx",
+   "https://fibra.aruba.it/assistenza.aspx"
+  ],
+  "data": "2026-11-14"
+ },
+ "banca-sella": {
+  "alternative": "Se passi a un'altra banca in Italia e sei un consumatore, puoi non scrivere a Banca Sella: chiedi alla nuova banca il trasferimento dei servizi di pagamento (bonifici, addebiti diretti, saldo) e, insieme al trasferimento totale, la chiusura del conto Sella. Il trasferimento è gratuito e la nuova banca lo esegue entro 12 giorni lavorativi. La data di efficacia che indichi nel modulo deve cadere almeno 13 giorni lavorativi dopo la consegna. Funziona solo se i due conti hanno gli stessi intestatari e la stessa valuta. Se una banca non rispetta i tempi, ti deve una penale fissa di 40 euro più una quota per ogni giorno di ritardo. Alcuni addebiti, come quelli di certe carte di credito o del Telepass, non si trasferiscono così e vanno revocati a parte.",
+  "assistenza": "Per i privati il servizio clienti Banca Sella risponde all'800 142 142 (gratuito) o al +39 015 2434617 da cellulare e dall'estero, dal lunedì al venerdì dalle 8 alle 21. L'assistenza carte è all'800 66 33 99 o al +39 015 2434614, dalle 7:30 alle 22 dal lunedì al sabato e dalle 8 alle 20 la domenica e i festivi, con blocco carte attivo 24 ore su 24. C'è anche una chat sul sito e la videochiamata dall'Internet Banking, dal lunedì al venerdì dalle 9 alle 20. Per lo stato della pratica di chiusura la banca ti rimanda alla tua succursale. I reclami vanno a reclami@sella.it, reclami@pec.sella.it o per posta a Banca Sella S.p.A., Ufficio Reclami, Piazza Gaudenzio Sella 1, 13900 Biella: risposta entro 60 giorni, o entro 15 giorni lavorativi per i servizi di pagamento. Se la risposta non arriva o non ti soddisfa puoi andare all'Arbitro Bancario Finanziario.",
+  "costi_dettaglio": "I fogli informativi di Conto Sella Start (aggiornato al 01/10/2026) e Conto Sella (aggiornato al 19/06/2026) indicano spese di estinzione conto a 0 euro, e il recesso è senza spese e senza penalità. Il canone però si paga fino alla chiusura: nel trimestre di chiusura è calcolato sui giorni in cui il conto è rimasto aperto. Per Conto Sella Start il canone è di 24 euro l'anno, per Conto Sella di 48 euro l'anno, più l'imposta di bollo fino a 34,20 euro l'anno. Le spese per il conteggio di interessi e competenze, che oggi sono a 0 euro, si applicano invece per l'intero trimestre di chiusura. Devi anche rimborsare alla banca le spese delle operazioni ancora in corso.",
+  "dati_lettera": "Il modulo Banca Sella «Richiesta estinzione, chiusura conto/deposito» chiede nome, cognome, telefono, e-mail o PEC e indirizzo di ogni intestatario, l'IBAN completo del conto da chiudere e l'intestazione. Poi va compilata la tabella dei servizi collegati (SI o NO per ciascuno): accredito pensione, carte di debito e di credito, assegni, cassetta di sicurezza, domiciliazioni SDD, finanziamenti, mutui, ordini permanenti, polizze, Telepass, Viacard, custodia titoli e altri, con il numero di riferimento di ogni servizio attivo. Per gli assegni indichi i numeri da restituire o annullare e quelli smarriti o rubati, con la data e l'autorità della denuncia. Infine scegli una sola opzione (A, B o C) per le somme residue: bonifico su un altro conto Sella, bonifico su un conto di altra banca con autorizzazione all'addebito SEPA per eventuali debiti, oppure assegno o altra modalità se non hai un altro conto. Se il conto ha firma congiunta servono le firme di tutti quelli che ne hanno i poteri.",
+  "errori": [
+   "Mandare la PEC da una casella e-mail normale: Banca Sella chiede che la richiesta parta dal tuo indirizzo PEC verso clienti@pec.sella.it. L'indirizzo reclami@pec.sella.it serve solo per i reclami.",
+   "Chiedere la chiusura con un conto titoli ancora aperto: il modulo dice che la chiusura del conto corrente è subordinata alla chiusura del conto titoli collegato. Anche la cassetta di sicurezza non si chiude per lettera, devi andare in filiale a riconsegnare le chiavi.",
+   "Lasciare pagamenti programmati o carte attive: gli ordini con data futura vengono rifiutati, e le spese fatte con le carte e contabilizzate dopo la chiusura restano a tuo carico. Le carte vanno tagliate almeno sul chip e, se possibile, restituite."
+  ],
+  "faq": [
+   {
+    "d": "Quanto tempo ci vuole per chiudere un conto Banca Sella?",
+    "r": "Dipende dai servizi collegati. Secondo i fogli informativi: 10 giorni lavorativi se non ci sono servizi collegati, 30 giorni lavorativi se sul conto ci sono altri servizi di pagamento, 40 giorni con fido, conto titoli o servizi di investimento, 45 giorni con carta di credito, Viacard o Telepass. I tempi partono dalla richiesta o dalla restituzione di carte e apparato Telepass."
+   },
+   {
+    "d": "Posso chiudere il conto Banca Sella dall'app?",
+    "r": "Solo per il ripensamento entro 14 giorni, se hai aperto il conto online: c'è la funzione di recesso nella sezione «Profilo» dell'App Sella e dell'Internet Banking. Dopo i 14 giorni devi andare in una succursale o inviare il modulo di estinzione via PEC o raccomandata A/R."
+   },
+   {
+    "d": "Cosa succede se il conto Banca Sella è in rosso quando lo chiudo?",
+    "r": "Nel modulo autorizzi la banca a prendere il debito residuo da un altro conto Sella, o da un conto di altra banca con addebito SEPA entro al massimo 6 mesi dalla chiusura, oppure lo versi in contanti. Se il saldo negativo non viene regolato, la banca avvisa che potrà agire per recuperare il credito."
+   }
+  ],
+  "fonti": [
+   "https://www.sella.it/web/helpcenter/conti/chiusura-del-conto",
+   "https://leasing.sella.it/SSRDisplayerI?docCode=BSE_CHIUSURA_CONTO",
+   "https://www.sella.it/banca-on-line/contatti-e-assistenza",
+   "https://www.sella.it/banca-on-line/trasparenza",
+   "https://www.sella.it/SSRDocumentDisplayer?dtdPG=C87_BSE",
+   "https://www.sella.it/SSRDocumentDisplayer?dtdPG=C63_BSE",
+   "https://www.sella.it/SSRDocumentDisplayer?dtdPG=INF_TRASF_SERV_PAG_BSE&dtdPE=1"
+  ],
+  "online": "Per chiudere un conto Banca Sella dopo i primi 14 giorni le pagine consultate non prevedono un pulsante online: puoi andare in una qualsiasi succursale, oppure compilare il modulo «Richiesta estinzione, chiusura conto/deposito» e inviarlo dalla tua PEC a clienti@pec.sella.it o per raccomandata A/R alla tua succursale. Solo se hai aperto il conto online e sei ancora nei 14 giorni dalla firma, puoi recedere dalla sezione «Profilo» dell'App Sella o dell'Internet Banking.",
+  "tempi_e_dopo": "Il recesso vale da quando la banca riceve la tua comunicazione, ma la chiusura effettiva richiede da 10 giorni lavorativi a 45 giorni secondo i servizi collegati, contati dalla richiesta o dalla restituzione di carte e Telepass. Il saldo residuo, a credito o a debito, viene regolato come hai scelto nel modulo. Se lo stipendio o la pensione arrivano su quel conto, cambia subito le coordinate: per la pensione puoi chiederlo all'INPS o alla nuova banca. Se invece hai esercitato il ripensamento entro 14 giorni, la banca ti rimborsa entro 30 giorni di calendario quanto hai versato, tolto il servizio già prestato, e tu restituisci entro 30 giorni quello che hai ricevuto.",
+  "vincoli": "I contratti di Conto Sella Start e Conto Sella sono a tempo indeterminato e puoi recedere in qualsiasi momento, senza spese e senza penalità, con raccomandata A/R o PEC. Non c'è un periodo minimo. Se sei un consumatore e hai firmato a distanza, hai anche 14 giorni dalla firma per recedere senza dare motivi. La banca, invece, può recedere con almeno 2 mesi di preavviso, o subito per giusta causa.",
+  "data": "2026-11-14"
+ },
+ "banco-bpm": {
+  "online": "Le pagine consultate non descrivono un pulsante per chiudere il conto nell'app o in YouWeb. Esiste però un canale a distanza: la pagina «Recesso dai rapporti bancari» di Banco BPM accetta la richiesta all'indirizzo PEC estinzione.contratto.bancario@pec.bancobpmspa.it, con la richiesta di estinzione firmata digitalmente. Nell'oggetto devi scrivere «richiesta di estinzione rapporto» seguito dal rapporto da chiudere e il tuo codice fiscale (la partita IVA se sei un'azienda). Se non hai la firma digitale, consegna la lettera in filiale o spediscila per raccomandata A/R.",
+  "dati_lettera": "Banco BPM chiede una comunicazione scritta. Indica il rapporto da chiudere (numero di conto) e il tuo codice fiscale, che per la PEC deve stare anche nell'oggetto. Il foglio informativo ti obbliga a riconsegnare tutti gli strumenti di pagamento collegati al conto che hai ancora (carte, assegni) e a rimborsare quello che devi alla banca. Nella lettera puoi indicare un termine di preavviso oppure elencare gli ordini e gli assegni, emessi prima del recesso, che vuoi siano ancora pagati. Se non lo fai, la banca non è tenuta a eseguirli.",
+  "tempi_e_dopo": "Il recesso del cliente ha effetto immediato. Per il Conto 4You la banca chiude il rapporto entro 20 giorni lavorativi da quando il recesso è operante. Per il Conto di Base il termine è di 15 giorni lavorativi, ma parte solo da quando hai riconsegnato tutti gli strumenti di pagamento, e non vale se hai posizioni debitorie irregolari. Sugli importi dovuti e non pagati alla chiusura la banca applica interessi di mora. Se passi a un'altra banca con la portabilità, il trasferimento richiede 12 giorni lavorativi, ma il vecchio conto non si chiude da solo: devi chiederlo tu, altrimenti continui a pagarne le spese.",
+  "costi_dettaglio": "Chiudere il conto è gratuito: il foglio informativo del Conto 4You (aggiornato al 16/07/2026) prevede il recesso in qualsiasi momento senza penalità e senza spese di estinzione, e quello del Conto di Base (19/02/2026) dice che nessuna spesa, onere o commissione è richiesta per la chiusura. Anche la portabilità verso un'altra banca è gratuita per i consumatori. Se la nuova banca non rispetta i 12 giorni lavorativi hai diritto a un indennizzo di 40 euro più una maggiorazione legata ai giorni di ritardo e al saldo.",
+  "vincoli": "Il conto corrente non ha durata minima: puoi recedere in qualsiasi momento. È la banca che deve rispettare un preavviso: almeno due mesi se sei un consumatore, salvo giustificato motivo, nel qual caso basta un giorno.",
+  "alternative": "Se sei un consumatore puoi usare la portabilità: chiedi tutto alla nuova banca e lei trasferisce saldo, accredito dello stipendio, bonifici ricorrenti e addebiti diretti delle bollette entro 12 giorni lavorativi. Secondo Banca d'Italia alcune carte di credito, il Telepass e i pagamenti INPS seguono procedure separate, quindi vanno spostati a parte.",
+  "assistenza": "Numero verde clienti consumatori: 800 024 024 dall'Italia, +39 02 4337 1234 dall'estero, dal lunedì al venerdì dalle 8:00 alle 22:00 e il sabato dalle 9:00 alle 17:00. Clienti non consumatori: 800 607 227, dall'estero +39 02 4337 1097, dal lunedì al venerdì dalle 8:30 alle 21:00. Reclami: Banco BPM S.p.A., Gestione Reclami, Via Polenghi Lombardo 13, 26900 Lodi, oppure reclam@bancobpm.it, PEC reclami@pec.bancobpmspa.it o la sezione Contattaci, Reclami del sito. La banca risponde entro 15 giornate operative per i servizi di pagamento (massimo 35 in casi eccezionali) ed entro 60 giorni per gli altri prodotti bancari.",
+  "errori": [
+   "Mandare la richiesta alla PEC estinzione.contratto.bancario@pec.bancobpmspa.it senza firma digitale o senza codice fiscale nell'oggetto: la pagina di Banco BPM chiede entrambe le cose.",
+   "Tenersi la carta di debito o il carnet di assegni dopo il recesso: per il Conto di Base i 15 giorni lavorativi di chiusura partono solo dalla riconsegna di tutti gli strumenti di pagamento.",
+   "Fare la portabilità e dare per scontato che il vecchio conto Banco BPM sia chiuso: la portabilità sposta saldo e pagamenti, ma la chiusura del vecchio conto va chiesta a parte."
+  ],
+  "faq": [
+   {
+    "d": "Si può chiudere il conto Banco BPM via PEC?",
+    "r": "Sì. Invia la richiesta di estinzione firmata digitalmente a estinzione.contratto.bancario@pec.bancobpmspa.it, con oggetto «richiesta di estinzione rapporto» seguito dal rapporto e dal tuo codice fiscale."
+   },
+   {
+    "d": "Quanto tempo ci vuole per chiudere un conto Banco BPM?",
+    "r": "Il recesso vale subito. Per il Conto 4You la chiusura avviene entro 20 giorni lavorativi. Per il Conto di Base entro 15 giorni lavorativi dalla riconsegna di carte e altri strumenti di pagamento."
+   },
+   {
+    "d": "Chiudere il conto Banco BPM costa qualcosa?",
+    "r": "No. I fogli informativi escludono penalità e spese di estinzione. Paghi solo quello che devi già alla banca, ad esempio un saldo negativo, su cui alla chiusura possono maturare interessi di mora."
+   }
+  ],
+  "fonti": [
+   "https://www.bancobpm.it/appl_php/LibrettiRisparmio/",
+   "https://www.bancobpm.it/DWN/trasparenza/Documenti/64511.pdf",
+   "https://www.bancobpm.it/DWN/trasparenza/Documenti/63841.pdf",
+   "https://economiapertutti.bancaditalia.it/informazioni-di-base/portabilita/"
+  ],
+  "data": "2026-11-14"
+ },
+ "bene-assicurazioni": {
+  "online": "Per la disdetta a scadenza le pagine consultate non indicano una funzione online. La polizza auto Autofit non va disdetta: finisce da sola. Per annullarla prima per vendita, rottamazione, conto vendita o demolizione scrivi a clienti.autofit@bene.it se l'hai comprata online, o al tuo agente se è una polizza AutoMoto & Van di agenzia: ricevi il modulo di annullo con le istruzioni. Nell'Area Riservata di bene.it puoi invece chiedere la sospensione della polizza auto, indicando data di inizio e di fine.",
+  "dati_lettera": "Per la casa le condizioni chiedono che ogni comunicazione sia fatta con raccomandata o con PEC a beneassicurazioni@legalmail.it, alla Direzione di Bene o all'intermediario a cui è assegnata la polizza. Indica numero di polizza, nome e codice fiscale del contraente, indirizzo assicurato e data di scadenza. Per il ripensamento entro 14 giorni devi dichiarare in modo espresso che non ci sono stati sinistri, e per l'auto allegare i documenti di assicurazione o la carta verde se li hai ricevuti su carta. Se vendi l'auto serve la copia dell'atto di vendita o la prova della consegna in conto vendita. Per demolizione o esportazione serve l'attestato di restituzione di carta di circolazione e targa al PRA. Per furto o rapina la copia della denuncia.",
+  "tempi_e_dopo": "Casa: se la polizza non ha tacito rinnovo cessa alle ore 24 del giorno di scadenza. Se recedi dopo un sinistro, il recesso vale dal trentesimo giorno dopo la ricezione e Bene mette a disposizione entro 30 giorni il premio non goduto, al netto delle imposte. Auto: la copertura resta attiva 15 giorni dopo la scadenza, ma questa proroga si ferma quando parte un nuovo contratto. Se vendi l'auto e risolvi il contratto, Bene restituisce il premio non usato al netto di imposte e contributo SSN, dal giorno in cui consegni l'atto di vendita. In caso di furto la risoluzione vale dal giorno dopo la denuncia. Secondo le FAQ l'annullo avviene entro 5 giorni dall'accettazione della richiesta, entro 48 ore in caso di furto, entro 24 ore per il ripensamento. Certificato e carta verde vanno distrutti.",
+  "costi_dettaglio": "Per la disdetta a scadenza le condizioni non prevedono penali. Nell'auto, se invece di chiudere la polizza la trasferisci su un altro veicolo paghi 15 euro di diritti di sostituzione, al netto di imposte e SSN. Il duplicato di certificato e carta verde costa 15 euro, la carta verde cartacea 20 euro. Nella casa, se paghi a rate mensili e salti una rata, quando paghi devi versare anche le rate non ancora scadute fino alla fine dell'annualità. Fonti: Set Informativo Casa ed. 01/2025, condizioni Autofit CDA 2501.",
+  "vincoli": "Casa: durata di 1 anno. Se non disdici con comunicazione spedita almeno 30 giorni prima della scadenza, la polizza si proroga di un anno alla volta. Se in polizza la casella «Tacito rinnovo» è su «NO», cessa da sola. Con la formula quinquennale e lo sconto del 5% sul premio non puoi recedere prima di 5 anni; poi puoi disdire con 30 giorni di preavviso a ogni scadenza annuale. Auto Autofit: contratto annuale senza tacito rinnovo, e lo stesso vale per tutte le garanzie accessorie.",
+  "alternative": "Nell'auto puoi sospendere la polizza per mancato utilizzo al massimo 10 mesi per annualità, 11 per i veicoli storici, con dichiarazione sostitutiva o dall'Area Riservata. La proroga va chiesta entro 10 giorni prima della fine della sospensione, 5 per i veicoli storici. Se non chiedi riattivazione o risoluzione entro quel limite, il contratto si risolve e il premio non goduto resta a Bene. Se vendi l'auto puoi anche cedere il contratto all'acquirente o spostarlo su un altro veicolo dello stesso tipo. Nella casa, se traslochi, puoi chiedere per iscritto che la copertura valga su entrambe le case fino al trentesimo giorno dopo la fine del trasloco.",
+  "assistenza": "Servizio clienti: +39 02 814 800 70, dal lunedì al venerdì dalle 9 alle 18, e-mail clienti@bene.it. Clienti Autofit online: clienti.autofit@bene.it. Assistenza stradale 24 ore su 24: 800 327 605 dall'Italia e +39 02 241 283 91 dall'estero per le polizze di agenzia; +39 02 87 36 19 20 o WhatsApp +39 351 80 76 004 per Autofit. PEC: beneassicurazioni@legalmail.it. Reclami: reclami@bene.it o Bene Assicurazioni, Servizio Reclami, Via dei Valtorta 48, 20127 Milano; se la risposta non arriva entro 45 giorni o non ti soddisfa puoi rivolgerti all'IVASS, Via del Quirinale 21, 00187 Roma, PEC ivass@pec.ivass.it.",
+  "errori": [
+   "Mandare una disdetta per la polizza auto Autofit: il contratto finisce da solo alla scadenza, e le garanzie accessorie non si rinnovano tacitamente.",
+   "Lasciare scadere la sospensione dell'auto oltre i 10 mesi senza chiedere nulla: il contratto si risolve e Bene trattiene il premio non goduto.",
+   "Firmare la casa con la formula quinquennale scontata del 5% pensando di poter uscire ogni anno: per 5 anni non puoi recedere."
+  ],
+  "faq": [
+   {
+    "d": "Come disdire l'assicurazione casa Bene?",
+    "r": "Con raccomandata o PEC a beneassicurazioni@legalmail.it, oppure tramite il tuo intermediario, spedita almeno 30 giorni prima della scadenza. Se nella polizza la casella «Tacito rinnovo» è su «NO» non serve disdire: cessa alle ore 24 del giorno di scadenza."
+   },
+   {
+    "d": "Ho venduto l'auto, come annullo la polizza Bene Autofit?",
+    "r": "Scrivi a clienti.autofit@bene.it, o al tuo agente per le polizze di agenzia. Consegna la copia dell'atto di vendita e distruggi certificato e carta verde. Bene ti restituisce il premio non usato, al netto di imposte e contributo SSN, dal giorno della consegna dell'atto."
+   },
+   {
+    "d": "Entro quanto posso ripensarci dopo aver comprato una polizza Bene online?",
+    "r": "Le condizioni danno 14 giorni dalla conclusione del contratto, con raccomandata A/R o PEC e la conferma che non ci sono stati sinistri. Il DIP della polizza auto parla di 15 giorni dalla decorrenza: per sicurezza muoviti entro 14 giorni. Se un sinistro è avvenuto prima della ricezione, il recesso non produce effetto."
+   }
+  ],
+  "fonti": [
+   "https://www.bene.it/assets/Set_Informativo_Casa_edizione_012025.pdf",
+   "https://www.bene.it/assets/AUTOFIT_CDA_2501.pdf",
+   "https://www.bene.it/assistenza/contatti/",
+   "https://www.bene.it/faq/come-posso-richiedere-annullamento-della-polizza-auto/",
+   "https://www.bene.it/faq/cosa-e-come-posso-esercitare-il-diritto-di-ripensamento/"
+  ],
+  "data": "2026-11-14"
+ },
+ "conte-it": {
+  "alternative": "Se non usi il veicolo per un po', non serve chiudere niente: puoi sospendere la polizza gratis dall'Area Personale (Gestisci, poi Sospendi, poi «Non utilizzerò il veicolo per un periodo di tempo»). La sospensione dura al massimo 10 mesi complessivi e la scadenza slitta di tanti giorni quanti ne hai sospesi. Le condizioni chiedono di avvisare almeno 48 ore prima della data di inizio. Se vendi o rottami l'auto e ne compri un'altra, ConTe.it ti suggerisce di sospendere e poi riattivare sul nuovo veicolo, oppure di fare la sostituzione: così tieni la tua classe CU. In caso di vendita puoi anche cedere il contratto all'acquirente, che però alla scadenza dovrà assicurarsi con un nuovo contratto in classe CU 14. Infine c'è la risoluzione consensuale prima della scadenza, ammessa solo se hai pagato tutto, non hai avuto sinistri e il contratto non è vincolato.",
+  "assistenza": "Il Servizio Clienti ConTe.it risponde allo 06 4523 4523, dal lunedì al venerdì dalle 8 alle 18 secondo la pagina Assistenza e Reclami. Puoi scrivere anche a informazioni@conte.it o usare il form online, che secondo ConTe.it viene gestito in 1 giorno lavorativo. Nel set informativo la PEC indicata per ConTe.it è admiralintermediaryservices@legalmail.it. Per il Dispositivo Satellitare il riferimento è Octo Telematics: numero verde 800 746688 (lunedì-venerdì 9-13 e 14.30-18.30, sabato 9-12.30), in caso di furto la Sala Operativa all'800 662 424. I reclami sull'attività di ConTe.it vanno a gestione.reclami@conte.it o per posta a ConTe.it, Via della Bufalotta 374, 00139 Roma. Quelli sulla polizza o sui sinistri vanno ad Admiral Europe Compañía de Seguros, Calle Rodríguez Marín 61, 1ª planta, 28016 Madrid, o a reclami@admiraleurope.com. La risposta arriva entro 45 giorni, poi puoi rivolgerti all'IVASS.",
+  "costi_dettaglio": "Sospensione e riattivazione sono gratuite. Se annulli la polizza per vendita, rottamazione, conto vendita, esportazione o furto ti rimborsano solo il premio non goduto della Responsabilità Civile, al netto di imposte, contributo SSN e diritti amministrativi: le garanzie accessorie come furto, kasko o cristalli non vengono rimborsate. I diritti amministrativi per una sostituzione o rettifica di polizza sono 20 euro imponibili (CGA37, art. 3). Se hai ConTe SAT devi restituire il Dispositivo Satellitare a Octo Telematics entro 60 giorni dalla cessazione: se non lo fai la penale è 35 euro per la versione Light e 50 euro per la Classic (Condizioni di abbonamento Octo, ed. 11/2025, art. 6). Se lo reinstalli su un altro veicolo senza averlo disinstallato o pagato, le spese di reinstallazione sono 85 euro più IVA.",
+  "dati_lettera": "Indica nome e cognome del contraente, numero di polizza e targa del veicolo. Per la risoluzione, cioè l'annullamento per vendita o cessazione, le condizioni ConTe.it chiedono documenti precisi. Vendita: atto di vendita. Conto vendita: dichiarazione del concessionario su carta intestata con timbro e firma leggibili. Demolizione: certificato del centro di raccolta autorizzato o del concessionario. Distruzione, esportazione definitiva o cessazione della circolazione: attestazione del PRA sulla restituzione di carta di circolazione e targhe. Furto: copia della denuncia. Se il veicolo era in leasing o finanziato, aggiungi la liberatoria della società vincolataria (non serve per il furto). Per il recesso entro 14 giorni la raccomandata va a Admiral Intermediary Services S.A., ConTe.it Assistenza Clienti, Via della Bufalotta 374 (c/o Tecnocenter Talenti), 00139 Roma.",
+  "errori": [
+   "Mandare una disdetta a scadenza per l'RC auto: la polizza ConTe.it dura un anno e non ha tacito rinnovo. Se non rinnovi finisce da sola, e la copertura resta attiva al massimo 15 giorni dopo la scadenza, fino all'effetto del nuovo contratto.",
+   "Vendere l'auto con ConTe SAT e dimenticare la scatola: il Dispositivo resta di Octo Telematics, va disinstallato e restituito entro 60 giorni dalla cessazione, altrimenti paghi una penale di 35 o 50 euro. Per la sostituzione del veicolo, disinstallalo prima di consegnare l'auto.",
+   "Smettere di pagare la rata semestrale per chiudere la polizza: la copertura si sospende dalle ore 24 del quindicesimo giorno dopo la scadenza della rata, il premio annuo resta dovuto per intero e, se il contratto ha avuto efficacia inferiore a un anno per una rata non pagata, ConTe.it non rilascia l'Attestato di Rischio."
+  ],
+  "faq": [
+   {
+    "d": "Come disdire l'assicurazione ConTe.it alla scadenza?",
+    "r": "Non devi fare nulla. La polizza auto e moto ConTe.it ha durata annuale e non prevede il tacito rinnovo, quindi cessa da sola. Almeno un mese prima della scadenza ricevi il preventivo di rinnovo e l'attestato di rischio: se non lo acquisti, la copertura resta valida al massimo per i 15 giorni successivi alla scadenza."
+   },
+   {
+    "d": "Ho venduto l'auto assicurata con ConTe.it, mi ridanno i soldi?",
+    "r": "Sì, ma solo per la parte RC Auto non goduta, al netto di imposte, contributo SSN e diritti amministrativi. La risoluzione ha effetto dalla data dell'atto di vendita e devi inviare l'atto. In alternativa puoi sospendere dall'Area Personale, scegliendo «Il veicolo è stato venduto/ceduto/rottamato/esportato all'estero», e riattivare la polizza su un nuovo veicolo entro 10 mesi."
+   },
+   {
+    "d": "Posso recedere dalla polizza ConTe.it appena comprata?",
+    "r": "Sì, entro 14 giorni dalla conclusione del contratto, dall'Area Personale o per raccomandata A/R ad Admiral Intermediary Services, Via della Bufalotta 374, Roma. Non puoi farlo se il contratto è vincolato a terzi o se nel frattempo c'è stato un sinistro: in quel caso il sinistro viene classificato fuori copertura o il premio della garanzia colpita non viene rimborsato."
+   }
+  ],
+  "fonti": [
+   "https://www.conte.it/wp-content/uploads/2026/03/CGA37_Auto.pdf",
+   "https://www.conte.it/wp-content/uploads/2026/03/CGA37_Moto.pdf",
+   "https://www.conte.it/wp-content/uploads/2025/11/Allegato-2-Contratto-di-Abbonamento-Condizioni-Generali-di-Abbonamento-11.2025-new.pdf",
+   "https://www.conte.it/come-fare-per/sospendere-la-polizza/",
+   "https://www.conte.it/come-fare-per/riattivare-la-polizza/",
+   "https://www.conte.it/come-fare-per/annullare-la-polizza/",
+   "https://www.conte.it/come-fare-per/rinnovare-polizza/",
+   "https://www.conte.it/come-fare-per/gestire-il-dispositivo-satellitare/",
+   "https://www.conte.it/reclami-conte/",
+   "https://www.conte.it/contatti/",
+   "https://www.conte.it/documenti-polizza/condizioni-cga-auto-moto/"
+  ],
+  "online": "Il recesso entro 14 giorni si può chiedere online dall'Area Personale su conte.it (app.conte.it), come previsto dall'art. 5 delle condizioni CGA37. Dall'Area Personale puoi anche sospendere la polizza: Gestisci, poi Sospendi, poi scegli il motivo (mancato utilizzo, furto, oppure veicolo venduto/ceduto/rottamato/esportato) e la data di inizio. Per l'annullamento vero e proprio, con rimborso, la pagina «Annullare la polizza» rimanda al Servizio Clienti: non c'è un pulsante dedicato tra le pagine consultate. Per la disdetta a scadenza non serve nessuna procedura, perché non c'è tacito rinnovo.",
+  "tempi_e_dopo": "La risoluzione ha effetto dalla data dell'atto di vendita, dalla consegna in conto vendita, dal giorno dopo l'attestazione PRA per demolizione o esportazione, oppure dalle 24 del giorno della denuncia in caso di furto. Devi distruggere certificato di assicurazione e carta verde: se qualcuno li usa, rimborsi tu quanto la compagnia ha pagato a terzi. Per la risoluzione consensuale certificato e carta verde vanno invece restituiti per raccomandata A/R. Se hai pagato a rate e comunichi tardi la vendita, il rimborso RC è al netto di tutte le imposte già versate, anche sull'ultima quietanza. Con una sospensione per vendita, se non riattivi entro 10 mesi il contratto si estingue: il premio non goduto ti viene restituito solo se dimostri vendita, demolizione o esportazione. Con ConTe SAT i servizi satellitari si disattivano e hai 60 giorni per riconsegnare il Dispositivo a un installatore Octo, conservando la ricevuta timbrata.",
+  "vincoli": "La polizza auto e moto dura un anno e non ha tacito rinnovo (CGA37, art. 4). Prima della scadenza non puoi recedere liberamente: puoi uscire con il recesso entro 14 giorni dalla conclusione, con la risoluzione per cessazione del rischio (vendita, demolizione, esportazione, conto vendita, furto) o con la risoluzione consensuale. Il premio è annuale ed è dovuto per intero anche se paghi in 2 o 4 rate, con una maggiorazione del 3,3% o del 5,3%. La sospensione non è concessa ai contratti di durata inferiore all'anno né ai veicoli in leasing senza autorizzazione della società di leasing.",
+  "data": "2026-11-14"
+ },
+ "coopvoce": {
+  "online": "Nelle condizioni generali CoopVoce (01/01/2026) e nelle pagine di assistenza consultate non c'è un pulsante di disdetta nell'app o nell'area clienti my.coopvoce.it. Il modo più semplice è compilare il modulo «Richiesta di cessazione dei servizi CoopVoce» e mandarlo per e-mail a comunicazioni@coopvoce.it, con la copia del documento firmata. In alternativa lo consegni in un punto vendita Coop abilitato CoopVoce, oppure mandi una raccomandata A/R, cartacea o digitale, a Coop Italia.",
+  "dati_lettera": "Il modulo di cessazione CoopVoce chiede nome, cognome, codice fiscale, data e luogo di nascita, residenza, e-mail, un numero di telefono alternativo e i dati del documento d'identità (tipo, numero, rilasciato da, data di scadenza). Devi indicare il numero CoopVoce da cessare e il codice ICC-ID stampato sulla SIM. Scegli anche cosa fare del credito residuo: trasferirlo su un'altra SIM CoopVoce (con numero, ICC-ID, nome e codice fiscale del beneficiario), riceverlo in denaro (IBAN se supera 100 €) o avere un buono spesa Coop. Allega la copia del documento in corso di validità con firma, luogo e data. Se scegli il trasferimento su un'altra SIM, allega anche il documento del beneficiario e fagli firmare il modulo.",
+  "tempi_e_dopo": "Il recesso ha un preavviso di 30 giorni. Fino alla cessazione effettiva promozioni, opzioni e servizi collegati, compresa l'«Autoricarica con la spesa», restano attivi, a meno che tu non chieda di disattivarli. Quando l'utenza cessa, la SIM viene disattivata, perdi il numero e CoopVoce può riassegnarlo. Coop Italia esegue la tua scelta sul credito residuo entro 60 giorni dal ricevimento della richiesta. Il credito che ti restituiscono è al netto di sconti, bonus, premi e promozioni maturati durante il contratto. Se la SIM è fisica, va disinstallata e restituita al punto vendita.",
+  "costi_dettaglio": "La sintesi contrattuale CoopVoce (offerta EVO 200, dicembre 2025) dice che puoi recedere in ogni momento con 30 giorni di preavviso e senza costi. L'unico costo indicato nel modulo di cessazione riguarda il rimborso del credito residuo sopra i 100 €: arriva solo con bonifico, al netto di 5 € IVA inclusa. Se il credito è sotto i 100 € puoi averlo in denaro, come buono spesa o su un'altra SIM CoopVoce. Se passi a un altro operatore con la portabilità, il trasferimento del credito costa quanto pubblicato sul sito CoopVoce, e non avviene se il credito non supera quel costo.",
+  "vincoli": "Il contratto è a tempo indeterminato, senza vincolo minimo: puoi recedere quando vuoi con 30 giorni di preavviso. L'offerta si rinnova ogni mese lo stesso giorno. Se non fai nessuna ricarica per 24 mesi il contratto cessa da solo: nel ventiquattresimo mese la SIM riceve solo chiamate, poi viene disattivata e il numero può essere riassegnato. Se hai firmato a distanza o fuori dai negozi hai 14 giorni di ripensamento senza penali. Se CoopVoce ti comunica una modifica peggiorativa, hai 60 giorni dalla comunicazione per recedere senza penali né costi di disattivazione.",
+  "alternative": "Se vuoi solo cambiare operatore e tenere il numero non serve la disdetta: chiedi la portabilità al nuovo operatore e CoopVoce chiude il contratto. In quel caso puoi chiedere anche il trasferimento del credito residuo, ma la scelta è irreversibile e alternativa al rimborso. Puoi anche cambiare piano tariffario invece di chiudere la linea.",
+  "assistenza": "Il servizio clienti CoopVoce risponde al 188 dall'Italia e al +39 334 4188188 dall'estero. La pagina di assistenza indica un supporto tecnico attivo 24 ore su 24, 7 giorni su 7, oltre alla chat sul sito, all'app e all'area clienti my.coopvoce.it. Le comunicazioni scritte vanno a comunicazioni@coopvoce.it oppure a Coop Italia Società Cooperativa, Via del Lavoro 6-8, Casalecchio di Reno (BO). Reclami e conciliazione si avviano con le modalità indicate nei punti vendita e sul sito.",
+  "errori": [
+   "Usare il modulo dei 14 giorni per una disdetta normale: quel modulo vale solo per il ripensamento. Per chiudere la linea dopo i 14 giorni usa il modulo «Richiesta di cessazione dei servizi CoopVoce».",
+   "Non scegliere cosa fare del credito residuo nel modulo: se non lo indichi al momento della disdetta, potrai chiedere solo il rimborso in denaro.",
+   "Dare per scontato che con la disdetta si fermino le promozioni: restano attive fino alla cessazione effettiva, compresa l'Autoricarica con la spesa, se non chiedi esplicitamente di disattivarle."
+  ],
+  "faq": [
+   {
+    "d": "Come disdire CoopVoce senza andare in negozio?",
+    "r": "Scarica il modulo «Richiesta di cessazione dei servizi CoopVoce» dalla pagina documenti del sito, compilalo e mandalo a comunicazioni@coopvoce.it con la copia del documento d'identità firmata, con luogo e data. In alternativa puoi mandare una raccomandata A/R a Coop Italia, Via del Lavoro 6-8, Casalecchio di Reno (BO)."
+   },
+   {
+    "d": "CoopVoce restituisce il credito residuo?",
+    "r": "Sì. Puoi spostarlo su un'altra SIM CoopVoce, riceverlo come buono spesa Coop o in denaro. Sopra i 100 € il rimborso arriva solo con bonifico, al netto di 5 €. Sconti, bonus e premi maturati vengono tolti dal credito restituito. Coop Italia esegue la richiesta entro 60 giorni."
+   },
+   {
+    "d": "Cosa succede se non ricarico più la SIM CoopVoce?",
+    "r": "Dopo 24 mesi senza ricariche il contratto cessa da solo. Nel ventiquattresimo mese puoi solo ricevere chiamate, poi la SIM viene disattivata e il numero può essere assegnato ad altri. Il credito residuo, esclusi i bonus, puoi chiederlo come previsto all'articolo 14 delle condizioni."
+   }
+  ],
+  "fonti": [
+   "https://www.coopvoce.it/content/dam/coopvoce/documenti-pdf/documenti/condizioni-generali/cgc_2026.pdf",
+   "https://www.coopvoce.it/content/dam/coopvoce/documenti-pdf/documenti/documenti-e-modulistica/modulistica-relativa-alla-tua-sim-coopvoce/Richiesta-cessazione-utenza-NO-FEA-16-1-2023.pdf",
+   "https://www.coopvoce.it/content/dam/coopvoce/documenti-pdf/documenti/documenti-e-modulistica/modulistica-relativa-alla-tua-sim-coopvoce/Modulo%20recesso%2014%20gg.pdf",
+   "https://www.coopvoce.it/content/dam/coopvoce/documenti-pdf/documenti/documenti-di-sintesi-contrattuale/sintesi-contrattuali-2025/SINTESI_CONTRATTUALE_EVO200_4DIC25_7GEN26.pdf",
+   "https://www.coopvoce.it/portale/assistenza/documenti.html",
+   "https://www.coopvoce.it/portale/assistenza.html"
+  ],
+  "data": "2026-11-14"
+ },
+ "edison-energia": {
+  "online": "Se hai firmato il contratto online, il ripensamento entro 14 giorni si fa con il form ufficiale su edisonenergia.it/edison/form-richiesta-di-ripensamento. Per chiudere la fornitura le Condizioni Generali Edison (CG_RES_20261201, art. 11.1) dicono che puoi mandare il recesso a mezzo fax, raccomandata A/R, e-mail, PEC o web form. Le pagine ufficiali consultate però non descrivono una procedura guidata di «Distacco» nell'app MyEdison: la guida Edison alla cessazione indica come canali il Servizio Clienti, i punti vendita Edison, la PEC e la raccomandata A/R. Nell'area privata, alla voce supporto, trovi i canali di contatto dedicati ai clienti.",
+  "dati_lettera": "Edison chiede di avere pronti: codice POD per la luce (inizia con «IT», 14 caratteri alfanumerici) o codice PDR per il gas (14 cifre), il codice cliente (in bolletta, prima pagina in alto a sinistra, alla voce «Codice Cliente»), il codice fiscale dell'intestatario, una lettura aggiornata del contatore, l'indirizzo dove mandare la bolletta di chiusura, un documento d'identità valido e un numero di cellulare. Nella guida Edison il modulo di disdetta standard riporta anche nome, cognome, indirizzo e-mail e fisico, data e firma. Se chiudi sia luce sia gas, indica entrambi i codici: sono due forniture distinte.",
+  "tempi_e_dopo": "Quando recedi per cessare la fornitura, Edison ti indica la data di esecuzione, che non può superare 1 mese dalla ricezione della tua comunicazione (CG art. 11.1). Dopo aver verificato i documenti, Edison deve passare la richiesta al Distributore entro 2 giorni lavorativi. Secondo la guida Edison la luce si disattiva di solito entro 7 giorni lavorativi, spesso da remoto; il gas entro 10 giorni lavorativi, con un tecnico che sigilla il contatore. Dopo la data di chiusura non ti fatturano più consumi, salvo la bolletta di chiusura basata sull'ultima lettura. Nella bolletta di chiusura ti restituiscono il deposito cauzionale, maggiorato degli interessi legali, senza chiederti la prova del versamento (CG art. 9.14). Se la bolletta di chiusura arriva in ritardo hai diritto a un indennizzo automatico di 4 euro fino a 10 giorni di ritardo, più 2 euro ogni 10 giorni, fino a 22 euro. Se il Distributore non fornisce la lettura finale entro 30 giorni dalla cessazione, ricevi 35 euro in bolletta di chiusura. Il servizio Risolve incluso in alcune offerte decade da solo quando chiudi tutte le forniture Edison.",
+  "costi_dettaglio": "Il recesso in sé, secondo le CG Edison (art. 11.1), in generale non ha costi. Fanno eccezione i contratti luce a prezzo fisso con durata determinata: gli oneri sono scritti nelle Condizioni Economiche della tua offerta (ad esempio la scheda sintetica Edison Dynamic Plus Luce riporta «Onere di recesso anticipato: Nessuno»). La chiusura del contatore invece ha costi: per il gas Edison addebita 23,00 euro per ogni richiesta inoltrata al Distributore, più i corrispettivi del Distributore (CG art. 7.3). Per la luce addebita un importo pari al contributo in quota fissa fissato da ARERA nel TIV, più i contributi del Distributore previsti dal TIC (CG art. 6.5). Se eserciti il ripensamento dopo aver chiesto l'avvio anticipato della fornitura, paghi i consumi fino alla cessazione oppure, se la fornitura non è partita, al massimo 23 euro (CG art. 2.4).",
+  "vincoli": "Il contratto luce e gas Edison per la casa è a tempo indeterminato: la durata scritta nell'offerta riguarda solo il prezzo, non il contratto (CG art. 3.1). Le condizioni economiche valgono di solito 12 mesi. Alla scadenza Edison può cambiarle, ma deve avvisarti per iscritto almeno 3 mesi prima. Se non recedi, le nuove condizioni valgono come accettate. Se Edison non ti manda nessuna comunicazione, il prezzo attuale resta per altri 12 mesi. Se Edison non rispetta il preavviso ti spetta un indennizzo automatico di 30 euro. Puoi recedere in qualsiasi momento, senza un periodo minimo.",
+  "alternative": "Se lasci casa e c'è già un nuovo inquilino o acquirente, Edison consiglia la voltura invece della cessazione: la fornitura resta attiva e il nuovo occupante evita i costi di riattivazione. Se vuoi solo cambiare fornitore, non scrivere a Edison: firmi con il nuovo fornitore, che invia il recesso al posto tuo (CG art. 11.1). Secondo la scheda sintetica Edison il recesso per cambio fornitore va fatto entro il giorno 10 del mese prima del cambio. La rimozione fisica del contatore Edison non la gestisce: la chiedi tu al Distributore locale, dopo la cessazione.",
+  "assistenza": "Già cliente luce e gas: 800 031 141 da fisso (gratuito), 02 8251 8251 da cellulare (a pagamento). La pagina contatti indica lun-sab 08:00-21:30, festivi esclusi. Clienti del Servizio a Tutele Graduali: 800 119 444 da fisso, 02 8251 8000 da cellulare, lun-sab 08:00-21:30. Servizi, Risolve e polizze: 800 441 999, lun-sab 08:00-20:00. Non ancora clienti: 800 14 14 14. Condomini: 02 825 18 078, lun-ven 09:00-18:00. PMI: 800 031 121, da cellulare 02 82 519 999. Fax per i clienti residenziali: 800 031 143. Reclami scritti: Edison Energia S.p.A., Servizio Clienti, Casella Postale 14070, 20152 Milano (MI), oppure con il form nell'area privata o nella pagina contatti. Se dopo 30 giorni non hai risposta puoi andare in conciliazione: Organismo ADR Edison 800 135 849, adr@edisonenergia.it, oppure Servizio Conciliazione ARERA (Sportello per il consumatore 800 166 654).",
+  "errori": [
+   "Mandare a Edison una lettera di cessazione quando vuoi solo cambiare fornitore: per il cambio pensa a tutto il nuovo fornitore, mentre la lettera a Edison avvia la chiusura della fornitura e del contatore.",
+   "Lasciare il contatore del gas inaccessibile (per esempio dentro casa) quando passa il tecnico: secondo Edison la cessazione non si completa, la fornitura resta attiva e continui a pagare i costi fissi del contratto.",
+   "Credere che Edison tolga anche il contatore: Edison chiude il contratto e fa sigillare il contatore, ma la rimozione fisica la devi chiedere tu al Distributore locale, dopo la cessazione."
+  ],
+  "faq": [
+   {
+    "d": "Quanto costa disdire Edison luce e gas?",
+    "r": "Il recesso in generale è gratuito, salvo alcune offerte luce a prezzo fisso con durata determinata, i cui oneri sono nelle Condizioni Economiche. Se chiudi il contatore, per il gas Edison addebita 23,00 euro per richiesta più i costi del Distributore; per la luce un importo pari al contributo in quota fissa ARERA più i costi del Distributore."
+   },
+   {
+    "d": "Quanto tempo ci vuole per chiudere il contatore con Edison?",
+    "r": "Edison deve eseguire il recesso entro 1 mese dalla ricezione. In pratica inoltra la richiesta al Distributore entro 2 giorni lavorativi: la luce si chiude di solito entro 7 giorni lavorativi, il gas entro 10, perché serve un tecnico per sigillare il contatore."
+   },
+   {
+    "d": "Edison restituisce il deposito cauzionale dopo la disdetta?",
+    "r": "Sì. Il deposito ti viene restituito nella bolletta di chiusura, con gli interessi legali, e Edison non può chiederti la prova di averlo versato. Per questo devi dare un indirizzo aggiornato dove ricevere la bolletta finale. Se paghi con domiciliazione bancaria, postale o carta di credito il deposito di solito non ti viene chiesto."
+   }
+  ],
+  "fonti": [
+   "https://documenti.edisonenergia.it/getbusinessdoc.ashx?id=CONDECO_CGRES",
+   "https://documenti.edisonenergia.it/getbusinessdoc.ashx?id=SCHEDE_LESPEP-001",
+   "https://documenti.edisonenergia.it/getbusinessdoc.ashx?id=CONDECO_LESPEP-001",
+   "https://documenti.edisonenergia.it/getbusinessdoc.ashx?id=CONDECO_modulodirecesso",
+   "https://www.edisonenergia.it/edison/assistenza/contatti",
+   "https://www.edisonenergia.it/edison/assistenza/faq",
+   "https://www.edisonenergia.it/edison/esercitare-il-ripensamento-dal-contratto",
+   "https://www.edisonenergia.it/edison/informazioni-e-moduli-utili/punti-di-contatto-pec",
+   "https://www.edisonenergia.it/edison/tips/contratti/cessazione-fornitura-guida",
+   "https://www.edisonenergia.it/edison/tips/contratti/disdetta-luce-gas"
+  ],
+  "data": "2026-11-14"
+ },
+ "eni-plenitude": {
+  "online": "Dall'Area Personale su eniplenitude.com seleziona la fornitura da disattivare, clicca su «Gestisci» e poi su «Disdici contratto». La stessa procedura vale per Plenitude Fibra: selezioni la linea, poi «Gestisci» e «Disdici contratto». In alternativa puoi andare in un Plenitude Store o chiamare il servizio clienti. Ricorda che se cambi fornitore non devi disdire nulla: il recesso lo invia il nuovo venditore.",
+  "dati_lettera": "Le condizioni generali (CGC_RETAIL_13102025) chiedono una comunicazione scritta inviata con modalità che permettano di verificare la ricezione, indirizzata a Eni Plenitude S.p.A. Società Benefit, Casella Postale 71, 20068 Peschiera Borromeo (MI). Le CGC non elencano campi obbligatori per il recesso. Per i reclami via posta chiedono nome e cognome, indirizzo della fornitura, eventuale altro indirizzo o e-mail e il punto di fornitura interessato: usa gli stessi dati anche nella disdetta, cioè il codice POD per la luce e il PDR per il gas, che trovi in bolletta. Aggiungi l'autolettura del contatore e l'IBAN se vuoi indicare dove ricevere eventuali rimborsi.",
+  "tempi_e_dopo": "Per la cessazione il preavviso parte dal giorno in cui Plenitude riceve la tua comunicazione. Il recesso ha efficacia entro e non oltre un mese dalla ricezione, e la data di cessazione è quella in cui il distributore stacca la fornitura. Il contatore della luce si chiude da remoto, per il gas serve l'uscita di un incaricato che lo sigilla. Se non permetti la lettura finale o la chiusura del contatore gas, resti responsabile dei consumi. La fattura di chiusura arriva entro sei settimane dalla cessazione e contiene la restituzione del deposito cauzionale, senza che tu debba chiederla, con gli interessi legali, salvo che serva a coprire bollette non pagate. Se la fattura di chiusura arriva in ritardo hai un indennizzo automatico da 4 euro fino a 22 euro. Per Plenitude Fibra la cessazione diventa effettiva entro 30 giorni dalla richiesta e il modem resta tuo, senza obbligo di restituzione.",
+  "costi_dettaglio": "Per luce e gas la scheda sintetica indica «Onere di recesso anticipato: Nessuno» e le CGC (art. 10) dicono che ciascuna parte può recedere senza oneri. Per Plenitude Fibra la pagina ufficiale avverte che la cessazione anticipata può comportare costi legati alla durata del contratto e all'eventuale periodo minimo vincolato. Per i servizi abbinati alla fornitura, la pagina dell'offerta Trend Casa NoPensieri precisa che puoi sempre recedere, in qualsiasi momento e senza alcun costo, anche da un singolo prodotto della vendita abbinata.",
+  "vincoli": "Il contratto luce e gas ha durata indeterminata. Le condizioni economiche delle offerte a prezzo fisso durano 12 mesi: almeno tre mesi prima della scadenza Plenitude ti comunica per iscritto il prezzo di rinnovo, e se non recedi le nuove condizioni si intendono accettate. Se Plenitude modifica il contratto per giustificato motivo deve avvisarti con almeno 3 mesi di anticipo; in caso di dissenso puoi recedere senza oneri con raccomandata A/R che deve arrivare entro 30 giorni dalla comunicazione. Plenitude Fibra si disdice con almeno 30 giorni di preavviso rispetto alla scadenza del periodo contrattuale.",
+  "alternative": "Se lasci la casa e qualcuno la abita dopo di te, fai fare la voltura invece della cessazione: la fornitura non si interrompe. La richiede di solito il nuovo intestatario, con POD, PDR, documento d'identità e lettura del gas, e servono circa 5 giorni lavorativi. Costa 35 euro IVA esclusa di costi amministrativi Plenitude, 23 euro per le offerte PLACET e per il Servizio di Tutela della Vulnerabilità Gas, più il contributo del distributore per il gas. Se vuoi solo cambiare fornitore, firmi con il nuovo e lui invia il recesso per te.",
+  "assistenza": "Clienti privati: numero verde 800.900.700 da rete fissa, 02.444.141 da cellulare. Per luce e gas rispondono dal lunedì al sabato dalle 8 alle 20, per la Fibra dal lunedì al sabato dalle 8 alle 22, festivi esclusi. Aziende: 800 900 400 da fisso e 02.444.130 da mobile, dal lunedì al venerdì dalle 9 alle 18. C'è anche la chat con l'assistente virtuale Lucilla, attiva 24 ore su 24. E-mail indicata nella scheda sintetica: servizioclienti@eniplenitude.com. Reclami scritti: Eni Plenitude S.p.A. Società Benefit, Corrispondenza Clienti e Gestione Reclami, Casella Postale 71, 20068 Peschiera Borromeo (MI), oppure il form «Contatta Eni Plenitude» nell'Area Personale. Per i guasti chiami il distributore locale, il cui numero è in bolletta.",
+  "errori": [
+   "Mandare una disdetta a Plenitude quando passi a un altro fornitore: in caso di cambio fornitore il recesso lo esercita il nuovo venditore, e una tua lettera di cessazione rischia di far chiudere il contatore.",
+   "Chiedere la cessazione quando lasci casa a un nuovo inquilino: il contatore chiuso non si usa più fino a un nuovo contratto, mentre con la voltura la fornitura continua senza interruzioni.",
+   "Non essere presente per la chiusura del contatore gas: se non rendi possibile la lettura finale o la sigillatura resti responsabile dei consumi e degli eventuali costi chiesti dal distributore."
+  ],
+  "faq": [
+   {
+    "d": "Quanto tempo ci vuole per disdire Eni Plenitude?",
+    "r": "Il recesso per cessazione ha efficacia entro e non oltre un mese dalla ricezione della tua comunicazione. La data finale è quella in cui il distributore disalimenta il contatore."
+   },
+   {
+    "d": "Eni Plenitude mi restituisce il deposito cauzionale?",
+    "r": "Sì, in automatico. Il deposito ti viene restituito nella fattura di chiusura, con gli interessi legali, salvo che venga trattenuto per bollette non pagate. La fattura di chiusura arriva entro sei settimane dalla cessazione."
+   },
+   {
+    "d": "Devo restituire il modem di Plenitude Fibra quando disdico?",
+    "r": "No. Secondo la pagina ufficiale il modem resta di tua proprietà e non c'è alcun obbligo di restituzione. La cessazione della fibra diventa effettiva entro 30 giorni dalla richiesta."
+   }
+  ],
+  "fonti": [
+   "https://eniplenitude.com/content/dam/enigaseluce/documenti/campagna/allegati-offerte/POWER_SMALL_BASE_LPLFIXAU.pdf",
+   "https://eniplenitude.com/info/disdetta-contratto",
+   "https://eniplenitude.com/info/gestisci-la-fibra-di-plenitude/disdetta-e-recesso",
+   "https://eniplenitude.com/info/voltura-e-cambio-intestatario",
+   "https://eniplenitude.com/contatti",
+   "https://eniplenitude.com/offerta/casa/gas-e-luce/trend-no-pensieri"
+  ],
+  "data": "2026-11-14"
+ },
+ "eon-energia": {
+  "online": "Le pagine E.ON consultate non descrivono un pulsante di disdetta nell'area riservata MyEON o nell'app. Per chiudere la fornitura (disattivare il contatore) le condizioni generali di novembre 2025 ammettono l'e-mail a servizio.clienti@eon-energia.com e una telefonata al call center, oltre alla raccomandata A/R. La scheda sintetica delle offerte di novembre 2026 indica anche la PEC eonenergia@legalmail.it. Puoi chiedere la cessazione anche agli sportelli E.ON. Se invece cambi fornitore non devi fare nulla con E.ON: firmi con il nuovo fornitore e lui manda il recesso per tuo conto.",
+  "dati_lettera": "Nella lettera indica il nome dell'intestatario, il codice fiscale, l'indirizzo della fornitura e il codice cliente che trovi in bolletta. Per la luce scrivi il codice POD, per il gas il codice PDR: senza questi codici E.ON non può chiedere la disattivazione al distributore. Scrivi chiaramente che chiedi la cessazione della fornitura con disattivazione del punto, e indica un indirizzo dove ricevere la bolletta di chiusura. Conviene allegare l'autolettura del contatore con la data e la copia del documento d'identità.",
+  "tempi_e_dopo": "Per la cessazione il preavviso è di 1 mese da quando E.ON riceve la tua comunicazione. E.ON deve farti arrivare la bolletta di chiusura entro 6 settimane dalla cessazione della fornitura. Se hai versato un deposito cauzionale, ti viene restituito nella bolletta di chiusura, con gli interessi legali se sei un consumatore. Paghi tutti i consumi fino alla data di efficacia del recesso. Se cambi fornitore, E.ON continua a fornirti fino al giorno in cui parte il nuovo contratto.",
+  "costi_dettaglio": "Secondo la scheda sintetica di E.ON LuceClickVerde (valida dal 10/11/2026 al 19/11/2026), per ogni richiesta al distributore di sospensione, riattivazione o disattivazione del punto di fornitura E.ON addebita 23 €, più i costi previsti dal distributore per eseguire la prestazione. Gli stessi 23 € di contributo amministrativo si applicano a voltura e subentro. Per l'offerta in quella scheda l'onere di recesso anticipato non è previsto. Alcune offerte possono prevederlo, ma solo se lo hai accettato espressamente in fase di firma: controlla le tue Condizioni Economiche. Se paghi in ritardo l'ultima bolletta, oltre agli interessi E.ON addebita il 2% dell'importo da 11 a 25 giorni e il 5% dal ventiseiesimo giorno.",
+  "vincoli": "Il contratto E.ON è a tempo indeterminato. Le condizioni economiche delle offerte a prezzo fisso durano 12 mesi e si rinnovano tacitamente, ma puoi recedere in qualsiasi momento. Se sei un cliente domestico e hai firmato a distanza, via web o fuori dai locali, hai 14 giorni di ripensamento senza oneri. I giorni diventano 30 se il contratto nasce da una visita a casa non richiesta o da un'escursione organizzata da E.ON. Il ripensamento si manda per raccomandata A/R o lettera semplice alla Casella Postale E.ON Energia 14029, 20146 Milano.",
+  "alternative": "Se vuoi solo cambiare fornitore non serve la disdetta: il nuovo fornitore manda il recesso al Sistema Informativo Integrato per tuo conto, senza costi di uscita salvo un onere di recesso anticipato accettato espressamente. Se cambi casa, chi entra dopo di te può fare la voltura o il subentro invece di farti chiudere il contatore. Se non accetti una modifica delle condizioni che E.ON ti comunica, puoi recedere senza oneri.",
+  "assistenza": "Il Servizio Clienti Residenziale E.ON risponde all'800 999 777 da rete fissa e allo 02 91646102 da cellulare o dall'estero, dal lunedì al sabato dalle 8:00 alle 22:00, festivi esclusi. Per le aziende il numero è 800 999 222, o 02 91646103 da cellulare. L'e-mail è servizio.clienti@eon-energia.com. I reclami scritti vanno alla Casella Postale E.ON Energia 14029, 20146 Milano: E.ON risponde entro 30 giorni, altrimenti ti spetta un indennizzo automatico di 25 €. Dopo un reclamo senza risposta soddisfacente, passati 30 giorni puoi avviare la conciliazione paritetica E.ON o il Servizio Conciliazione ARERA.",
+  "errori": [
+   "Mandare la disdetta a E.ON quando cambi fornitore: non serve e rischi di chiedere la chiusura del contatore. Basta firmare con il nuovo fornitore.",
+   "Pensare che chiudere il contatore sia gratis: E.ON addebita 23 € per la richiesta al distributore, più i costi del distributore, che ti ritrovi in bolletta.",
+   "Dimenticare POD o PDR e l'autolettura: senza i codici la richiesta si blocca, e senza lettura finale la bolletta di chiusura può essere calcolata su consumi stimati."
+  ],
+  "faq": [
+   {
+    "d": "Quanto costa chiudere il contatore con E.ON?",
+    "r": "La scheda sintetica E.ON indica 23 € per ogni richiesta di disattivazione al distributore, più i costi del distributore per eseguire la prestazione. Li trovi in bolletta. Penali di recesso anticipato solo se la tua offerta le prevede e le hai accettate espressamente."
+   },
+   {
+    "d": "Qual è la PEC di E.ON Energia per la disdetta?",
+    "r": "La scheda sintetica delle offerte E.ON di novembre 2026 indica per il recesso con cessazione della fornitura la PEC eonenergia@legalmail.it, oppure la raccomandata alla Casella Postale E.ON Energia 14029, 20146 Milano."
+   },
+   {
+    "d": "Quando arriva l'ultima bolletta E.ON dopo la disdetta?",
+    "r": "Le condizioni generali prevedono che la bolletta di chiusura ti arrivi entro 6 settimane dalla cessazione della fornitura. Nella stessa bolletta ti viene restituito l'eventuale deposito cauzionale."
+   }
+  ],
+  "fonti": [
+   "https://www.eon-energia.com/content/dam/eon/eon-energia/Documents/cgc_2025/novembre_2025/Mt_E.ON_MODULI_CGC%20Mercato%20Libero%2011_2025%20ok.pdf",
+   "https://www.eon-energia.com/content/dam/eon/eon-energia/Documents/schede-sintetiche/E.ON_LuceClickVerde_Web_F1.pdf",
+   "https://www.eon-energia.com/informazioni-utili/faq.html"
+  ],
+  "data": "2026-11-14"
+ },
+ "genertel": {
+  "online": "Per l'RC auto non devi disdire nulla, quindi non c'è un pulsante: la polizza finisce da sola alla scadenza. Online puoi fare altre cose. Il ripensamento entro 14 giorni si può chiedere dall'Area Riservata, sia per l'auto sia per la casa. Dal sito o dall'app Genertel+ puoi chiedere la sospensione e la riattivazione dell'auto e trasferire il contratto su un altro veicolo. Per la disdetta della polizza Casa le condizioni fissano solo il termine e non indicano un canale: le pagine consultate non mostrano una disdetta online.",
+  "dati_lettera": "Indica sempre il numero di polizza e, per l'auto, la targa. Per chiudere prima l'auto servono documenti precisi: in caso di vendita l'atto di vendita o l'attestazione di consegna in conto vendita, in caso di demolizione il certificato del centro di raccolta autorizzato, in caso di cessazione della circolazione o esportazione definitiva l'attestazione del PRA sulla restituzione di carta di circolazione e targhe. In caso di furto serve la copia della denuncia. La sospensione volontaria va chiesta con una dichiarazione sostitutiva di atto notorio che indica il periodo; se la mandi per e-mail deve essere firmata con firma elettronica qualificata. Per ricevere i rimborsi devi comunicare l'IBAN.",
+  "tempi_e_dopo": "L'RC auto cessa alle ore 24 del giorno di scadenza, ma Genertel la tiene valida fino alle ore 24 del 15° giorno dopo, se nel frattempo non hai stipulato un'altra RC auto per lo stesso veicolo. Con il ripensamento ti rimborsano entro 15 giorni dalla lavorazione il premio non usato, senza imposte e contributo SSN, e devi distruggere certificato e carta verde se cartacei. Con la risoluzione anticipata ricevi il premio non usato, senza imposte e contributo SSN. Con il furto l'assicurazione cessa alle ore 24 del giorno della denuncia e il rimborso della sola RC auto si calcola da quel giorno. Se sospendi per cessazione del rischio e non riattivi entro 12 mesi, il contratto è risolto e ti rimborsano il premio RC auto non goduto. Prima di rottamare l'auto ricordati di far smontare la scatola nera. Per la casa, se non paghi il rinnovo la copertura si sospende dalle ore 24 del 15° giorno e il contratto è risolto se non paghi entro il 25° giorno.",
+  "costi_dettaglio": "Le condizioni consultate (ed. 10/2026) non prevedono penali di uscita. La sospensione volontaria dell'auto è gratuita. I rimborsi del premio sono sempre al netto delle imposte e, per l'auto, del contributo al Servizio Sanitario Nazionale. Se sospendi o trasferisci l'auto nei 30 giorni prima della scadenza di una rata, quella rata la paghi alla riattivazione o al trasferimento. Per la casa pagata a rate il costo in più è del 3,5% del premio con rate semestrali e del 6% con rate mensili.",
+  "vincoli": "Genertel Auto dura un anno e non ha tacito rinnovo: alla scadenza puoi semplicemente andare con un'altra compagnia. Genertel può mandarti via e-mail una proposta di rinnovo, che accetti solo se paghi entro la scadenza. Genertel Casa dura un anno con tacito rinnovo: puoi dare disdetta entro le ore 24 dell'ultimo giorno di assicurazione, Genertel almeno 30 giorni prima. Se Genertel cambia condizioni o premio al rinnovo, deve dirtelo almeno 30 giorni prima: se non paghi entro 15 giorni dalla scadenza, il contratto finisce alla scadenza più 15 giorni.",
+  "alternative": "Se l'auto resta ferma puoi sospendere la polizza gratis, fino a 10 mesi per annualità (11 per i veicoli d'epoca e storici), con proroghe da chiedere almeno 10 giorni prima della fine (5 per i veicoli storici). Se cambi auto puoi trasferire il contratto sul nuovo veicolo dello stesso proprietario. Se vendi, puoi cedere il contratto al compratore. Per la casa, in caso di trasloco le garanzie valgono su entrambe le abitazioni per massimo 10 giorni da quando concordi la variazione.",
+  "assistenza": "Servizio clienti 040 202020, dal lunedì al venerdì dalle 8.30 alle 19.00 e il sabato dalle 8.30 alle 13.30. Il numero verde Genertel non è più attivo. Sinistri: 040 202040, dal lunedì al venerdì dalle 9.00 alle 18.00, oppure app. Sul sito c'è anche la chat. E-mail informazioni: richiestainfo@genertel.it. Sospensione e riattivazione: sospensione-riattivazione@genertel.it. Reclami: reclami@genertel.it o sezione Reclami del sito. PEC: genertel@pec.genertel.it. Sede: Genertel S.p.A., Via Machiavelli 4, 34132 Trieste.",
+  "errori": [
+   "Lasciare scadere la polizza Casa pagata con carta di credito fino all'ultimo minuto: le condizioni prevedono l'addebito automatico del premio di rinnovo il giorno della scadenza, quindi conviene mandare la disdetta qualche giorno prima.",
+   "Vendere l'auto e tenere certificato e carta verde: le condizioni ti chiedono di distruggerli, e se li usi o non li distruggi Genertel può rivalersi per i sinistri denunciati dopo la vendita.",
+   "Contare sui 15 giorni di proroga dopo la scadenza dell'RC auto anche se hai già una nuova polizza: la proroga vale solo se non hai stipulato un'altra RC auto per lo stesso veicolo."
+  ],
+  "faq": [
+   {
+    "d": "Devo mandare la disdetta a Genertel per l'assicurazione auto?",
+    "r": "No. Genertel Auto non ha tacito rinnovo: alla scadenza sei libero di assicurarti altrove senza preavviso. La copertura resta valida fino alle ore 24 del 15° giorno dopo la scadenza, se non hai stipulato un'altra RC auto per lo stesso veicolo."
+   },
+   {
+    "d": "Come sospendere l'assicurazione auto Genertel?",
+    "r": "Dal sito, dall'app Genertel+ o via PEC o e-mail a sospensione-riattivazione@genertel.it, con una dichiarazione sostitutiva di atto notorio e il periodo richiesto. Via e-mail serve la firma elettronica qualificata. È gratuita e dura al massimo 10 mesi per annualità."
+   },
+   {
+    "d": "Genertel rimborsa la polizza se vendo l'auto?",
+    "r": "Sì, se chiedi la risoluzione anticipata e invii l'atto di vendita o l'attestazione di consegna in conto vendita. Ti rimborsano il premio non usato, al netto di imposte e contributo SSN. In alternativa puoi trasferire la polizza su un altro veicolo."
+   }
+  ],
+  "fonti": [
+   "https://www.genertel.it/contatti",
+   "https://www.genertel.it/relevant-documents",
+   "https://www.genertel.it/assets/6e09d1640d48b83f7e9864d201ff36b3/GT_CA_Auto.pdf",
+   "https://www.genertel.it/assets/731424793e6924eb6d54a7929a665c33/GT_DIPA_Auto.pdf",
+   "https://www.genertel.it/assets/d2d74ff31848bbfa504318cae81d5a90/GT_DIPA_INT_Auto_07.25_ACC.pdf?download",
+   "https://www.genertel.it/assets/8f1afdb309887016838d7e335249ee43/GT_CA_Casa.pdf?download"
+  ],
+  "data": "2026-11-14"
+ },
+ "hachette-fascicoli": {
+  "online": "Le pagine consultate non mostrano un pulsante per interrompere la collezione dall'area clienti, che serve a cambiare dati, indirizzo e metodo di pagamento. Puoi però farlo online in due modi: con il modulo della pagina Contatti, scegliendo l'oggetto «Annullare un contratto o restituire un pacco» e la collezione dal menu, oppure scrivendo a clienti@hachette-fascicoli.it. Le condizioni di vendita accettano anche la telefonata al servizio clienti.",
+  "dati_lettera": "Per interrompere una collezione le condizioni di vendita chiedono di specificare il numero di contratto. Il modulo di recesso Hachette chiede: prodotti acquistati, numero d'ordine, codice cliente se lo hai, data dell'ordine, data di ricezione dei prodotti, nome, cognome, indirizzo completo, e-mail e, se vuoi, il telefono. La firma serve solo se mandi il modulo per posta. Nel modulo contatti online indica nominativo, e-mail, numero d'ordine e la collezione: il menu riporta anche il codice di ogni opera.",
+  "tempi_e_dopo": "L'interruzione vale dal primo giorno lavorativo dopo che Hachette riceve la richiesta. I prodotti già spediti fino a quel giorno vanno pagati, salvo che tu eserciti il recesso. Con carta o PayPal l'addebito arriva circa 10 giorni dopo ogni spedizione, quindi puoi vedere un addebito anche dopo la disdetta per un pacco già partito. I regali ricevuti restano tuoi. Con il recesso entro 14 giorni dal ricevimento restituisci il prodotto a tue spese, intatto, non aperto e con la confezione inalterata, a Hachette Fascicoli, Servizio Clienti, via Morandi 24, 21047 Saronno. Hachette annulla il debito o, se hai già pagato, ti rimborsa con bonifico, sulla carta o sul conto PayPal.",
+  "costi_dettaglio": "Interrompere la collezione non ha penali: paghi solo i pacchi già spediti. Con il recesso entro 14 giorni la spedizione di ritorno è a tuo carico. Se smetti di pagare senza aver esercitato il recesso, le condizioni di vendita permettono a Hachette di affidarsi a un'agenzia di recupero crediti e di aggiungere un aumento forfettario per pacco, indicato nei solleciti. Con la carta di credito ti addebitano 1,00 euro per convalidarla, poi te lo rimborsano.",
+  "vincoli": "Non c'è un impegno di durata: con carta di credito o PayPal le condizioni dicono che puoi interrompere l'opera in qualsiasi momento, per e-mail, raccomandata A/R o telefono. Le spedizioni arrivano indicativamente una volta al mese. Il diritto di recesso non vale per registrazioni audio, video o software aperti, per i prodotti personalizzati e per quelli aperti che non si possono restituire per motivi igienici.",
+  "alternative": "Se il problema è un trasloco o la carta scaduta, non serve interrompere: indirizzo di spedizione e metodo di pagamento si cambiano dall'area clienti. Se ti mancano solo alcune uscite puoi comprarle come arretrati: fino a 8 uscite della stessa collezione per ordine, con 6,50 euro di spese di spedizione per ordine.",
+  "assistenza": "Servizio clienti: 02.39292493, dal lunedì al venerdì dalle 9.00 alle 12.30 e dalle 14.00 alle 17.30. E-mail: clienti@hachette-fascicoli.it. Modulo online nella pagina Contatti. Servizio Clienti: via Morandi 24, 21047 Saronno (VA). Il modulo di recesso indica come indirizzo postale Hachette Fascicoli S.r.l., Casella Postale 140, 21047 Saronno (VA). Sede legale: via Melchiorre Gioia 61, 20124 Milano.",
+  "errori": [
+   "Aprire la confezione e poi chiedere il recesso dei 14 giorni: le condizioni vogliono i prodotti intatti, non aperti e con la confezione inalterata.",
+   "Bloccare la carta o non pagare i bollettini invece di disdire: senza recesso i pacchi già spediti restano da pagare e Hachette può passare il credito a un'agenzia di recupero con un aumento forfettario.",
+   "Aspettare per disdire quando il pacco del mese è già in preparazione: l'interruzione vale solo dal primo giorno lavorativo dopo la ricezione della richiesta e i prodotti già spediti restano da pagare, quindi scrivi appena decidi, indicando il numero di contratto."
+  ],
+  "faq": [
+   {
+    "d": "Come disdire una collezione Hachette?",
+    "r": "Scrivi a clienti@hachette-fascicoli.it, usa il modulo Contatti con oggetto «Annullare un contratto o restituire un pacco», manda una raccomandata o chiama lo 02.39292493. Indica il numero di contratto. L'interruzione vale dal primo giorno lavorativo dopo la ricezione."
+   },
+   {
+    "d": "Devo pagare il pacco Hachette arrivato dopo la disdetta?",
+    "r": "Sì, se è stato spedito prima che l'interruzione avesse effetto. Puoi evitarlo solo esercitando il recesso entro 14 giorni dal ricevimento e restituendo il pacco intatto e non aperto, a tue spese."
+   },
+   {
+    "d": "Se interrompo la collezione Hachette devo restituire i regali?",
+    "r": "No. Le condizioni di vendita e le FAQ dicono che i regali ricevuti fino al momento dell'interruzione restano tuoi."
+   }
+  ],
+  "fonti": [
+   "https://www.hachette.it/condizioni-generali-di-vendita/",
+   "https://www.hachette.it/faq/",
+   "https://www.hachette.it/modulo-di-recesso/",
+   "https://www.hachette.it/media/dujnveuz/modulo-di-recesso.pdf",
+   "https://www.hachette.it/contatti/"
+  ],
+  "data": "2026-11-14"
+ },
+ "ho-mobile": {
+  "alternative": "Se vuoi solo cambiare operatore e tenere il numero, non mandare nessuna disdetta: chiedi la portabilità al nuovo gestore, che chiude ho. per te. Il recesso invece cancella il numero per sempre. Se la SIM è già cessata, hai ancora un mese dalla cessazione per portare il numero altrove. Con la portabilità puoi chiedere al nuovo operatore di trasferire il credito residuo, oppure lasciarlo su ho. e chiederne la restituzione in denaro. Se ho. cambia le condizioni del contratto, ti avvisa via SMS e per 30 giorni puoi recedere o passare a un altro operatore senza penali.",
+  "assistenza": "Il servizio clienti risponde al 192121 dalla linea ho. e all'800 688 788 da altri operatori, gratis, dal lunedì al sabato dalle 8:00 alle 22:00, la domenica e i festivi dalle 8:00 alle 20:00. Per furto o smarrimento della SIM chiami l'800 688 788, tasto 6, 24 ore su 24. Dall'estero il numero è +39 346 444 8921. Su WhatsApp scrivi al 379 2220618, con gli stessi orari. Il 4.21.21 ti dice gratis credito residuo e offerta attiva. I reclami vanno al 192121, per lettera a Servizio Clienti ho. c/o Comdata Group, Casella Postale 17, 14100 Asti (AT), via PEC a ho.servizioclienti@legalmail.it o via e-mail a ho.servizioclienti@mail.ho-mobile.it. ho. ha 30 giorni per gestirli. Se non rispondono o non sei soddisfatto puoi chiedere la conciliazione al Co.Re.Com su ConciliaWeb.",
+  "costi_dettaglio": "Secondo le condizioni generali e la pagina di supporto ufficiale, disattivare la SIM ho. non costa nulla: niente costi di chiusura, spese di gestione o penali, sia per il recesso sia per il ripensamento. Ti viene restituito solo il credito ricaricato a pagamento e non usato. Bonus gratuiti, ricariche omaggio, credito di benvenuto e bonus «porta un amico» non si rimborsano. Se passi a un altro operatore, il credito viene trasferito solo se supera il costo del trasferimento, al netto dei bonus: se è uguale o più basso resta su ho.",
+  "dati_lettera": "Il modulo ufficiale di ho. chiede nome e cognome dell'intestatario, luogo e data di nascita, indirizzo di residenza con CAP e provincia, codice fiscale, tipo e numero del documento di identità, il numero ho. da disattivare, un indirizzo e-mail per le comunicazioni, data e firma leggibile. Se vuoi il rimborso con bonifico scrivi l'IBAN: deve essere di un conto di una banca italiana. Allega sempre la copia del documento d'identità. Se l'intestatario è morto, l'erede allega anche il certificato di morte e una dichiarazione sostitutiva di atto notorio in cui dice di essere unico erede, o che gli altri eredi rinunciano al credito.",
+  "data": "2026-11-14",
+  "errori": [
+   "Mandare il recesso per passare a Iliad, TIM o un altro gestore: il recesso cancella il numero e dopo non puoi più portarlo. Per cambiare operatore basta chiedere la portabilità al nuovo.",
+   "Aspettarsi indietro anche i bonus: ho. rimborsa solo le ricariche pagate e non usate, non il credito omaggio di benvenuto né i bonus «porta un amico».",
+   "Contare sui 30 giorni di ripensamento per tutte le SIM comprate insieme: l'estensione a 30 giorni vale per una sola SIM, per le altre comprate online o fuori dai negozi resta il termine di legge di 14 giorni."
+  ],
+  "faq": [
+   {
+    "d": "Quanto costa disdire la SIM ho. Mobile?",
+    "r": "Niente. ho. non prevede costi di chiusura, spese di gestione o penali per il recesso o il ripensamento. Ti rimborsa il credito ricaricato a pagamento e non usato, con bonifico o assegno, entro 60 giorni."
+   },
+   {
+    "d": "Cosa succede se non ricarico più la SIM ho.?",
+    "r": "La Carta del Cliente dice che il numero resta valido 11 mesi dall'attivazione o dall'ultima ricarica, più un mese in cui puoi solo ricevere chiamate. Poi la SIM si disattiva da sola. Le condizioni generali aggiungono che, dopo la disattivazione, il numero può essere riassegnato trascorsi altri dodici mesi. Se il credito era negativo, ho. può chiederti di pagare la differenza."
+   },
+   {
+    "d": "Come disattivare una SIM ho. di una persona deceduta?",
+    "r": "Gli eredi possono chiedere la disattivazione e il rimborso del credito residuo. Servono il modulo di recesso, il documento dell'erede che fa la richiesta, il certificato di morte e un'autocertificazione in cui dichiari di essere unico erede, o che gli altri eredi rinunciano al credito. Lo mandi su WhatsApp al 379 2220618, a recesso@mail.ho-mobile.it o per raccomandata A/R ad Asti."
+   }
+  ],
+  "fonti": [
+   "https://supporto.ho-mobile.it/trovo-assistenza/recesso-e-ripensamento",
+   "https://www.ho-mobile.it/per-il-cliente",
+   "https://www.ho-mobile.it/content/dam/lean/pdf/CondizioniGeneralidiContratto%20Ho%20Mobile_3.0.pdf",
+   "https://www.ho-mobile.it/content/dam/lean/pdf/Carta%20del%20Cliente%20ho.%20mobile.pdf",
+   "https://www.ho-mobile.it/content/dam/lean/pdf/Modulo%20di%20ripensamento.pdf"
+  ],
+  "online": "Sì, puoi farlo dall'app ho. o dal sito. Entri nella tua area personale, scegli il numero, tocchi «DISATTIVA la SIM» e compili il modulo con i tuoi dati. Subito dopo ricevi un'e-mail che conferma la presa in carico e ti dice i tempi. Vale sia per il ripensamento sia per il recesso ordinario. Se hai comprato online e la SIM non è ancora attiva, chiedi il rimborso dall'area «stato del tuo ordine», con il link nell'e-mail di conferma dell'acquisto. In alternativa chiedi il modulo al 192121 e lo mandi su WhatsApp al 379 2220618: scrivi «Ciao» e segui le istruzioni.",
+  "tempi_e_dopo": "Dopo il recesso ordinario ho. disattiva la SIM entro 30 giorni da quando riceve la richiesta, e il numero smette di esistere. Il credito ricaricato e non usato ti viene rimborsato con bonifico o assegno entro 60 giorni. Puoi anche lasciarlo su ho. e chiederlo in seguito, finché non va in prescrizione. Con il ripensamento ti restituiscono quello che hai pagato entro 14 giorni dalla richiesta, 30 se hai chiesto l'accredito su IBAN. Se hai comprato sul sito, il rimborso torna sullo stesso metodo di pagamento. Se hai comprato online e non attivi la SIM entro 60 giorni da quando la ricevi, il contratto si risolve da solo. La Carta del Cliente fissa a 90 giorni il tempo massimo per restituirti le somme dovute: oltre, hai diritto a 2,50 euro di indennizzo per ogni giorno di ritardo, fino a 60 euro.",
+  "vincoli": "ho. è una ricaricabile: non c'è un vincolo di durata minima e puoi chiedere la disattivazione in ogni momento, senza costi. Il ripensamento vale 30 giorni dalla conclusione del contratto invece dei 14 di legge, per tutti i canali di vendita, anche per le SIM comprate in negozio o in edicola. Il marchio ho. è oggi di Fastweb S.p.A., Piazza Adriano Olivetti 1, 20139 Milano."
+ },
+ "il-cv-perfetto": {
+  "online": "Puoi annullare da solo dal tuo account. Accedi a ilcvperfetto.it, apri «I miei account» e «Le mie impostazioni» e usa la pagina di annullamento online. Dopo la richiesta il fornitore ti manda un'e-mail con un numero di annullamento: è la tua prova. Se non la ricevi, guarda anche nello spam e poi contatta il servizio clienti, perché i termini dicono di farlo se la conferma non arriva. In alternativa puoi annullare per telefono all'800.597.111 o scrivendo a servizioclienti@ilcvperfetto.it.",
+  "dati_lettera": "I termini non chiedono un numero di contratto. Indica l'indirizzo e-mail con cui hai creato l'account, perché è così che il servizio ti identifica. Per il recesso entro 14 giorni la dichiarazione deve dire chiaramente che vuoi recedere: se scrivi a support@bold.com metti come oggetto «Recesso dal contratto», se spedisci una lettera scrivi la stessa dicitura sulla busta. Puoi anche usare il modulo dell'Appendice 1 dei termini. Per un reclamo i termini chiedono i tuoi dati identificativi (e-mail o recapiti), il servizio interessato, l'oggetto del reclamo e la motivazione. Se contesti un addebito, indica come appare sull'estratto conto: «ILCVPERFETTO.IT», «BLD*ILCVPERFETTO.IT» o «PayPal *ILCVPERFETT».",
+  "tempi_e_dopo": "Se annulli durante il periodo di fatturazione, l'abbonamento resta attivo fino alla fine di quel periodo e poi il contratto si chiude. Perdi l'accesso ai servizi a pagamento, ma l'account resta attivo finché non chiedi tu di chiuderlo. I documenti restano nell'account: li vedi, ma non puoi più scaricarli, stamparli o inviarli via e-mail. Attenzione: annullare l'abbonamento non toglie il tuo profilo online dal database pubblico. Per farlo vai in Impostazioni dell'account, Impostazioni della privacy, e scegli «Annulla pubblicazione del profilo», oppure chiedi la cancellazione dell'account. Se eserciti il recesso entro 14 giorni, il fornitore può interrompere subito il servizio. Ai reclami il fornitore risponde entro 14 giorni dal ricevimento, con una proroga possibile di massimo 10 giorni.",
+  "costi_dettaglio": "Il recesso entro 14 giorni dalla conclusione del contratto non ti costa nulla. Dopo, puoi annullare in qualsiasi momento senza costi aggiuntivi, ma con effetto dalla fine del periodo di fatturazione in corso: la quota del periodo già iniziato non è rimborsabile. I termini prevedono un rimborso possibile solo se annulli prima della fine del periodo iniziale, quando l'offerta ne prevede uno. Gli acquisti singoli (un download, una stampa o un'e-mail del CV) sono definitivi. Le offerte di prova possono includere un solo download, stampa o e-mail, e quelli in più si pagano a parte. Le commissioni di cambio applicate dalla tua banca non vengono rimborsate. Gli importi esatti dell'offerta non sono nei termini: sono nella pagina dell'offerta e nella ricevuta del pagamento.",
+  "vincoli": "Una volta attivo, l'abbonamento si rinnova in automatico, come descritto nella pagina dell'offerta, finché non lo disdici. Il canone si paga in anticipo per ogni periodo di fatturazione, al prezzo accettato al momento dell'acquisto. Se il prezzo cambia, devono avvisarti con almeno 14 giorni di anticipo e puoi annullare prima che il nuovo prezzo si applichi. Il contratto è con BOLD LLC, con sede a Porto Rico, e Auxiliant S.à.r.l. in Lussemburgo può agire come commerciante: se il pagamento lo ha elaborato BOLD LLC si applica la legge dello Stato di New York, se lo ha elaborato Auxiliant quella lussemburghese.",
+  "alternative": "I termini dicono che dall'account, in «I miei account» e «Le mie impostazioni», puoi annullare oppure sospendere l'abbonamento. Se vuoi solo nascondere il CV online senza chiudere tutto, puoi annullare la pubblicazione del profilo dalle impostazioni della privacy e ripubblicarlo quando vuoi.",
+  "assistenza": "Servizio clienti: numero 800.597.111, dal lunedì al venerdì dalle 8:00 alle 22:00 e sabato e domenica dalle 9:00 alle 21:00. E-mail: servizioclienti@ilcvperfetto.it. Sul sito c'è anche una chat negli orari di lavoro e un modulo di contatto, con risposta entro 2 giorni lavorativi. Per recesso e reclami i termini indicano support@bold.com. Indirizzi postali: BOLD LLC, City View Plaza II, 48 Road 165, Suite 6000, Guaynabo, PR 00968, Porto Rico, oppure Auxiliant S.à.r.l., 1A rue Thomas Edison, L-1445 Strassen, Lussemburgo.",
+  "errori": [
+   "Annullare l'abbonamento e pensare che il CV sparisca da internet: secondo i termini il profilo online resta nel database pubblico finché non annulli la pubblicazione o chiudi l'account.",
+   "Considerare chiusa la pratica senza l'e-mail con il numero di annullamento: se non arriva, i termini ti dicono di contattare il servizio clienti, quindi chiama o scrivi e conserva la conferma.",
+   "Annullare a metà mese aspettandosi il rimborso dei giorni non usati: la quota residua del periodo di fatturazione non è rimborsabile, conviene annullare subito dopo l'ultimo addebito che accetti di pagare."
+  ],
+  "faq": [
+   {
+    "d": "Come disdire l'abbonamento a Il CV Perfetto?",
+    "r": "Accedi all'account e annulla da «I miei account» e «Le mie impostazioni», oppure chiama l'800.597.111 o scrivi a servizioclienti@ilcvperfetto.it. Riceverai un'e-mail con un numero di annullamento: tienila."
+   },
+   {
+    "d": "Il CV Perfetto rimborsa i soldi?",
+    "r": "Se recedi entro 14 giorni dalla conclusione del contratto non paghi nulla. Dopo, l'annullamento vale dalla fine del periodo di fatturazione e la quota residua non è rimborsabile, salvo il caso in cui annulli prima della fine del periodo iniziale previsto dall'offerta."
+   },
+   {
+    "d": "Cos'è l'addebito BLD*ILCVPERFETTO.IT sul conto?",
+    "r": "È la dicitura con cui compaiono i pagamenti a Il CV Perfetto, insieme a «ILCVPERFETTO.IT» e «PayPal *ILCVPERFETT». Se pensi di non avere un abbonamento, cerca un'e-mail da servizioclienti@ilcvperfetto.it e prova il recupero password con la tua e-mail: se arriva il link, l'account esiste."
+   }
+  ],
+  "fonti": [
+   "https://www.ilcvperfetto.it/termini-di-utilizzo",
+   "https://www.ilcvperfetto.it/faq",
+   "https://www.ilcvperfetto.it/contatti"
+  ],
+  "data": "2026-11-14"
+ },
+ "illimity": {
+  "online": "Puoi chiudere il conto dall'Area Privata illimity: vai in Supporto > Diritti e prerogative dei clienti > Recessi e compila il modulo digitale. In alternativa scarichi il «Modulo richiesta estinzione» dalla pagina Recesso del sito e lo mandi all'indirizzo illimity@pec.illimity.com, che secondo illimity accetta messaggi sia da posta ordinaria sia da PEC. Puoi anche spedirlo per posta ordinaria o raccomandata alla sede, Via Soperga 9, Milano. Se hai più conti, devi compilare un modulo per ogni conto.",
+  "dati_lettera": "Il modulo di estinzione illimity chiede l'IBAN del conto da chiudere, il numero di conto, l'intestatario, il tipo di conto (per esempio Classic o Premium) e il motivo della chiusura. Devi indicare banca, intestatario e IBAN del conto su cui ricevere il saldo e le somme che arrivano dopo la chiusura, come interessi o accrediti tardivi. Servono nome, cognome e firma di chi chiede la chiusura, con la data. Se hai linee vincolate senza svincolo anticipato, quell'IBAN serve anche per ricevere capitale e interessi alla scadenza del vincolo.",
+  "tempi_e_dopo": "Il conto si chiude entro 15 giorni da quando la banca riceve la documentazione e la verifica corretta, salvo ritardi non imputabili a illimity. Il contratto conto corrente (edizione agosto 2026) prevede tempi più lunghi per i prodotti collegati: 25 giorni lavorativi per la carta di debito e per la prepagata, 50 per la carta di credito, 20 per il Conto Deposito e per i Progetti di Spesa. Fino alla chiusura effettiva restano possibili solo bonifici, accrediti, addebiti diretti e rate di mutui e finanziamenti. Il saldo e le somme che arrivano dopo ti vengono girati con bonifico sull'IBAN che indichi nel modulo. La quota di canone del mese di chiusura viene azzerata.",
+  "costi_dettaglio": "Il contratto di conto corrente illimity Classic e Premium (edizione agosto 2026, art. 17) dice che il recesso non comporta penalità né spese di chiusura. La banca può solo chiedere il rimborso delle spese per servizi aggiuntivi che hai richiesto, come indicato nel Documento di Sintesi. Il canone trimestrale del pacchetto Classic è di 9 €, ma la quota del mese di chiusura viene azzerata. Tieni sul conto i soldi per gli addebiti ancora previsti, come addebiti diretti o imposta di bollo.",
+  "vincoli": "Il conto è a tempo indeterminato e puoi chiuderlo quando vuoi. Il conto corrente, i Progetti di Spesa e il Conto Deposito sono collegati: se chiudi il conto si chiudono anche gli altri, e se chiudi il Conto Deposito o i Progetti di Spesa si chiude anche il conto corrente, salvo accordo scritto diverso. Le linee vincolate senza svincolo anticipato restano attive fino alla scadenza, per i conti Classic o Premium e per il Conto Azimut Premium firmati dal 27/04/2023. Se avevi il pacchetto Premium, da quel momento su quelle linee si applicano i tassi del pacchetto Classic. Se hai aperto il conto a distanza hai 14 giorni di ripensamento senza penalità.",
+  "alternative": "Se vuoi spostarti in un'altra banca puoi usare il servizio di trasferimento dei servizi di pagamento: autorizzi la banca nuova e lei sposta su un conto nella stessa valuta tutti o alcuni servizi, come accredito dello stipendio e addebiti diretti. Se vuoi chiudere solo una carta di debito o di credito, puoi farlo senza chiudere il conto. Se illimity ti comunica una modifica peggiorativa delle condizioni, hai diritto di recedere senza spese entro la data in cui la modifica si applica.",
+  "assistenza": "Per i clienti privati lo smart care illimity risponde allo 02 82849660. La PEC della banca è illimity@pec.illimity.com. I reclami vanno a illimity Bank S.p.A., Via Soperga 9, Milano, oppure a reclami@illimity.com, alla PEC o con il modulo digitale nell'Area Personale. La banca risponde entro 60 giorni, 15 giorni lavorativi per i servizi di pagamento (35 in casi eccezionali) e 45 giorni per l'intermediazione assicurativa. Se la risposta non ti soddisfa puoi rivolgerti all'Arbitro Bancario Finanziario.",
+  "errori": [
+   "Chiudere il Conto Deposito pensando di tenere il conto corrente: in illimity i rapporti sono collegati e, senza accordo scritto diverso, la chiusura del deposito chiude anche il conto corrente e le carte.",
+   "Svuotare il conto a zero prima della chiusura: bolli e addebiti diretti ancora in arrivo devono trovare copertura, altrimenti i tempi si allungano.",
+   "Aspettarsi i soldi vincolati subito: le linee senza svincolo anticipato non si chiudono con il conto, e capitale e interessi arrivano solo alla scadenza sull'IBAN indicato nel modulo."
+  ],
+  "faq": [
+   {
+    "d": "Quanto tempo ci vuole per chiudere il conto illimity?",
+    "r": "Entro 15 giorni da quando la banca riceve la documentazione completa. Se hai carte o prodotti collegati servono più giorni: fino a 50 giorni lavorativi per la carta di credito, 25 per la carta di debito, 20 per Conto Deposito e Progetti di Spesa."
+   },
+   {
+    "d": "Chiudere il conto illimity costa qualcosa?",
+    "r": "No. Il contratto prevede la chiusura senza penalità e senza spese di chiusura. La quota di canone del mese in cui chiudi viene azzerata. Paghi solo eventuali spese per servizi aggiuntivi che hai chiesto."
+   },
+   {
+    "d": "Posso chiudere il conto illimity se ho un deposito vincolato?",
+    "r": "Sì. Per i conti Classic o Premium, e per il Conto Azimut Premium firmato dal 27/04/2023, le linee vincolate senza svincolo anticipato restano attive fino alla scadenza. Capitale e interessi arrivano poi sull'IBAN che indichi nel modulo. Se avevi il pacchetto Premium, da quel momento si applicano i tassi del Classic."
+   }
+  ],
+  "fonti": [
+   "https://www.illimity.com/it/diritti-e-prerogative-dei-clienti/recesso",
+   "https://www.illimity.com/it/diritti-e-prerogative-dei-clienti/recesso/cos-e-il-diritto-di-recesso",
+   "https://a.storyblok.com/f/186519/x/17052ff69d/modulo_richiesta_estinzione_new_16102024.pdf",
+   "https://a.storyblok.com/f/186519/x/9a9948b82a/contratto-conto-corrente-illimity-classic-premium_copia-banca_agosto-2026_statico.pdf",
+   "https://www.illimity.com/it/contatti"
+  ],
+  "data": "2026-11-14"
+ },
+ "iren-mercato": {
+  "online": "Secondo le pagine consultate non puoi chiudere la fornitura dall'app IrenYou o dall'area clienti: l'app serve per vedere il contratto, pagare le bollette, inviare l'autolettura, caricare documenti e contattare il servizio clienti, ma tra le funzioni non c'è la disdetta. La pagina ufficiale sulla disdetta indica tre strade: telefono (800 969 696 da fisso, 011 022 033 da cellulare), uno sportello Iren oppure una comunicazione scritta al servizio clienti. Le Condizioni Generali di Fornitura prevedono anche un form online in modalità guidata su irenlucegas.it per le comunicazioni scritte, ma per il recesso per cessazione l'articolo 3.4 chiede raccomandata A/R o PEC.",
+  "dati_lettera": "Le Condizioni Generali di Fornitura (art. 11.1) chiedono che ogni comunicazione scritta riporti sia i tuoi dati identificativi sia quelli della sede di fornitura. La pagina disdetta di Iren elenca cosa serve: dati anagrafici dell'intestatario, documento d'identità, codici dell'utenza da chiudere (POD per la luce, PDR per il gas, li trovi in bolletta) e l'indirizzo dove vuoi ricevere l'ultima bolletta. Se chiudi come erede, devi dichiararlo nella richiesta. Conviene aggiungere il codice cliente e allegare la copia del documento. L'indirizzo postale indicato nelle Condizioni Generali è Iren Mercato S.p.A., Strada Santa Margherita 6/A, 43123 Parma.",
+  "tempi_e_dopo": "Per i clienti domestici e le piccole imprese il preavviso è al massimo di 1 mese da quando Iren riceve la disdetta. Iren gira la richiesta al distributore entro pochi giorni lavorativi e il distributore ha 5 giorni lavorativi per chiudere il contatore. La luce di solito si chiude da remoto; il gas e i contatori non telegestiti richiedono un tecnico. Il recesso vale solo quando il distributore mette i sigilli al contatore: se il contatore non è accessibile devi farlo entrare entro la fine del preavviso, altrimenti il recesso non ha effetto. Paghi i consumi fino al giorno della disattivazione. Per ARERA la bolletta di chiusura deve arrivarti entro 6 settimane dalla cessazione; se Iren la emette in ritardo ti riconosce nella stessa bolletta un indennizzo automatico da 4 euro, che sale di 2 euro ogni 10 giorni fino a 22 euro. L'eventuale deposito cauzionale ti viene restituito nella bolletta di chiusura con gli interessi legali, se non serve a coprire fatture non pagate. Se avevi anche la connettività Iren, il modem va restituito con l'apposito modulo di ritiro: se il tecnico non riesce a recuperarlo nel giorno concordato, Iren può addebitarti 120 euro.",
+  "costi_dettaglio": "La Scheda Sintetica dell'offerta Iren Prima Scelta Luce New (codice 000208ESFML03XX00IEDOPRIMN261115) indica alla voce onere di recesso anticipato: nessuno. Le Condizioni Generali di Fornitura (rev. ML19062026V03) prevedono però che Iren possa addebitarti 23 euro più IVA per ogni richiesta inoltrata al distributore per tuo conto, compresa la disattivazione della fornitura su tua richiesta (art. 16.4 per la luce, art. 18.4 per il gas, tabella all'art. 20.5). A questi si aggiungono gli eventuali importi che il distributore addebita a Iren per la disattivazione. Cambiare fornitore invece non costa nulla.",
+  "vincoli": "Il contratto è a durata indeterminata e non c'è un impegno minimo. Il prezzo invece ha una scadenza: per esempio nell'offerta Iren Prima Scelta Luce New le condizioni economiche valgono fino al 31/12/2028. Almeno 3 mesi prima della scadenza Iren deve scriverti per proporti le nuove condizioni, e tu puoi recedere senza oneri. Se Iren non ti scrive, il prezzo viene prorogato di mese in mese. Se Iren non rispetta i preavvisi su modifiche, evoluzioni automatiche o rinnovi, ti spetta un indennizzo automatico di 30 euro. Per le forniture in media tensione (MT) il preavviso di recesso è di 9 mesi.",
+  "alternative": "Se vuoi solo cambiare fornitore non devi disdire nulla: firmi con il nuovo fornitore, che recede per te con una procura e invia lo switch al sistema SII; Iren ti fornisce fino alla data del passaggio. Se hai firmato da poco, come consumatore hai 14 giorni per il ripensamento (30 se il contratto è nato da una visita non programmata di un venditore): puoi usare il modulo di ripensamento e mandarlo a ripensamenti@irenmercato.it, per posta a Strada Santa Margherita 6/A, 43123 Parma, oppure consegnarlo allo sportello. Se lasci casa ma chi entra vuole tenere le utenze, valuta voltura o subentro invece della chiusura.",
+  "assistenza": "Servizio clienti luce e gas: 800 969 696 da rete fissa, 011 022 033 da cellulare o dall'estero, dal lunedì al venerdì dalle 8 alle 20 e il sabato dalle 8 alle 13. Chat attiva 24 ore su 24 nell'app IrenYou e chat sul sito. Email indicata nella Scheda Sintetica: servizioclienti@gruppoiren.it. PEC di Iren Mercato indicata nei moduli ufficiali: irenmercato@pec.gruppoiren.it (la pagina contatti riporta invece irenspa@pec.gruppoiren.it, la PEC della capogruppo). Connettività: 800 909 668. Puoi anche prendere appuntamento in uno sportello. I reclami scritti vanno al Servizio Gestione Clienti, Strada Santa Margherita 6/A, 43123 Parma, o con il modulo online sul sito.",
+  "errori": [
+   "Mandare la disdetta a Iren quando vuoi solo cambiare fornitore: in quel caso il recesso lo fa il nuovo fornitore, e una richiesta di cessazione rischia di far chiudere il contatore.",
+   "Lasciare il contatore del gas non accessibile: per Iren il recesso vale solo con i sigilli del distributore, e se il tecnico non riesce a entrare entro il preavviso il recesso è inefficace e la fornitura continua a tuo carico.",
+   "Spedire la lettera alla sede legale di Genova invece che all'indirizzo per le comunicazioni dei clienti: le Condizioni Generali indicano Strada Santa Margherita 6/A, 43123 Parma, oppure PEC."
+  ],
+  "faq": [
+   {
+    "d": "Quanto costa disdire Iren luce e gas?",
+    "r": "Le offerte domestiche non hanno penali di recesso anticipato, ma le Condizioni Generali permettono a Iren di addebitare 23 euro più IVA per la richiesta di disattivazione inviata al distributore, più gli eventuali costi del distributore. Cambiare fornitore è gratis."
+   },
+   {
+    "d": "Si può disdire Iren dall'app IrenYou?",
+    "r": "Dalle pagine ufficiali risulta di no: l'app gestisce bollette, pagamenti, autoletture e documenti. Per chiudere la fornitura chiami l'800 969 696 (011 022 033 da cellulare), vai a uno sportello o mandi raccomandata A/R o PEC."
+   },
+   {
+    "d": "Quanto tempo ci vuole per chiudere il contatore Iren?",
+    "r": "Il preavviso massimo è 1 mese da quando Iren riceve la richiesta. Iren la passa al distributore entro pochi giorni lavorativi e il distributore ha 5 giorni lavorativi per chiudere il contatore. La bolletta di chiusura deve arrivare entro 6 settimane dalla cessazione."
+   }
+  ],
+  "fonti": [
+   "https://www.irenlucegas.it/assistenza/gestisci-il-tuo-contratto/disdetta-utenze-domestiche",
+   "https://www.irenlucegas.it/assistenza/contatti",
+   "https://www.irenlucegas.it/assistenza/gestisci-il-tuo-contratto/servizio-clienti",
+   "https://www.irenlucegas.it/assistenza/gestisci-il-tuo-contratto/app-iren-you",
+   "https://www.irenlucegas.it/assistenza/diventa-cliente/trasloco-utenze-luce-gas",
+   "https://www.irenlucegas.it/content/dam/iren/documenti/condizioni-generali-di-vendita/Condizioni-Generali-di-Fornitura-Mercato-Libero.pdf",
+   "https://www.irenlucegas.it/content/dam/iren/offerte-e-prodotti/casa/luce---gas/luce/iren-prima-scelta-luce/documenti/000208ESFML03XX00IEDOPRIMN261115_iren_prima_scelta_luce_new_281026_151126.pdf",
+   "https://www.irenlucegas.it/content/dam/iren/documenti/moduli/Modulo_Ripensamento_ML19062026V03.pdf",
+   "https://www.irenlucegas.it/content/dam/iren/assistenza/documenti/moduli/Modulo_RitiroModem_2025.pdf",
+   "https://www.arera.it/atlante-per-il-consumatore/elettricita/la-bolletta/bolletta-di-chiusura/entro-quanto-tempo-deve-essere-inviata-la-bolletta-di-chiusura"
+  ],
+  "data": "2026-11-14"
+ },
+ "mooneygo": {
+  "online": "Puoi disdire dall'App MooneyGo: apri Profilo > Telepedaggio e scorri fino in fondo alla pagina, dove c'è il box per avviare la procedura guidata. In alternativa puoi compilare il modulo sulla pagina di assistenza del sito. Puoi disdire anche un solo dispositivo e tenere gli altri. Se disdici l'ultimo o l'unico dispositivo, il contratto di telepedaggio cessa.",
+  "dati_lettera": "Il contratto di telepedaggio è con Mooney Servizi S.p.A. e il dispositivo è identificato dal codice PAN. Nella PEC a mooneygo@pec.mooney.it indica nome, cognome e codice fiscale del titolare, l'indirizzo e-mail del tuo account MooneyGo, il codice PAN di ogni dispositivo che vuoi disdire e la targa associata. Se hai più dispositivi, scrivi chiaramente quali disdici e se vuoi chiudere tutto il contratto.",
+  "tempi_e_dopo": "Con l'offerta Abbonamento la disdetta ha effetto alla fine del mese di abbonamento in corso, che non si rinnova. Con il Pay Per Use ha effetto alla fine del canone del mese in corso, oppure subito se in quel mese non hai usato il servizio. Se chiedi la restituzione del dispositivo dall'App prima della scadenza, il recesso vale da quella richiesta, ma il canone già pagato non ti viene rimborsato in proporzione. Devi rispedire il dispositivo entro 20 giorni, con spedizione tracciabile a tue spese, all'indirizzo che MooneyGo ti comunica per e-mail, App o sito. MooneyGo può addebitarti anche dopo la chiusura i pedaggi che le concessionarie comunicano in ritardo, quindi lascia attivo il metodo di pagamento per qualche settimana.",
+  "costi_dettaglio": "Secondo la Tabella di sintesi dei costi nei Termini e condizioni del Telepedaggio MooneyGo, la disdetta o il recesso sono gratuiti sia con l'Abbonamento sia con il Pay Per Use. Paghi 25 € di penale per ogni dispositivo non restituito o restituito dopo i 20 giorni. Se il dispositivo è stato rubato o perso, puoi disdirlo al costo di 25 €.",
+  "vincoli": "Il contratto è a tempo indeterminato e puoi recedere in qualsiasi momento senza vincoli. L'Abbonamento è un canone mensile anticipato che si rinnova in automatico ogni mese. Il Pay Per Use si paga solo nei mesi solari in cui usi il dispositivo. Se hai attivato da App o web, entro 14 giorni dall'attivazione hai il diritto di ripensamento: ti vengono restituiti attivazione e canone, non i pedaggi già pagati.",
+  "alternative": "Se il problema è il canone fisso, puoi passare dall'Abbonamento al Pay Per Use invece di disdire: il cambio offerta costa 5 € e poi paghi il canone solo nei mesi in cui viaggi. Se hai più dispositivi, puoi disdirne solo uno. Se il dispositivo non funziona entro 2 anni dalla sottoscrizione, la sostituzione è gratuita; dopo 2 anni costa 10 €.",
+  "assistenza": "L'assistenza MooneyGo risponde al numero (+39) 071 9207000 e all'e-mail assistenza@mooneygo.it. I reclami per malfunzionamenti o disservizi vanno alla PEC mooneygo@pec.mooney.it, e MooneyGo risponde entro un mese dalla ricezione.",
+  "errori": [
+   "Buttare il dispositivo o tenerlo nel cassetto: se non lo rispedisci entro 20 giorni dalla disdetta paghi 25 € di penale per ogni dispositivo.",
+   "Rispedirlo con posta semplice: i Termini chiedono una spedizione tracciabile, quindi senza tracciamento non puoi dimostrare la riconsegna nei tempi.",
+   "Chiudere la carta associata subito dopo la disdetta: MooneyGo può addebitare i pedaggi comunicati dalle concessionarie anche dopo la fine del contratto, e un addebito non riuscito resta un debito che MooneyGo può segnalare alle banche dati creditizie."
+  ],
+  "faq": [
+   {
+    "d": "Quanto costa disdire MooneyGo?",
+    "r": "Niente. La Tabella di sintesi dei costi indica la disdetta come gratuita per Abbonamento e Pay Per Use. Paghi solo la spedizione tracciabile per restituire il dispositivo, e 25 € di penale se non lo restituisci entro 20 giorni."
+   },
+   {
+    "d": "Se disdico MooneyGo a metà mese mi rimborsano il canone?",
+    "r": "No. Con l'Abbonamento la disdetta ha effetto alla fine del mese in corso. Se chiedi la restituzione del dispositivo prima, il recesso parte da quella data ma il canone già pagato non viene rimborsato pro quota."
+   },
+   {
+    "d": "Dove spedire il dispositivo MooneyGo dopo la disdetta?",
+    "r": "All'indirizzo che MooneyGo ti comunica dopo la disdetta, per e-mail, in App o sul sito. Non c'è un indirizzo fisso da usare prima: aspetta le istruzioni, poi spedisci con un corriere o una raccomandata tracciabile entro 20 giorni."
+   }
+  ],
+  "fonti": [
+   "https://www.mooneygo.it/assistenza/disdetta/come-effettuare-disdetta-dispositivo-di-telepedaggio-mooneygo/",
+   "https://www.mooneygo.it/documentazione/termini-e-condizioni-telepedaggio-mooneygo/"
+  ],
+  "data": "2026-11-14"
+ },
+ "postemobile": {
+  "online": "Solo in un caso: se hai comprato la SIM online e sei entro 14 giorni dall'attivazione, puoi recedere dall'area personale di postemobile.it con la funzione di recesso online, e ti restituiscono tutto quello che hai pagato per la SIM. Passati i 14 giorni la pagina di assistenza PosteMobile dice che l'unica strada è il modulo «Richiesta di cessazione contratto» inviato per e-mail o raccomandata, oppure una chiamata al servizio clienti 160. Per PosteMobile Casa le pagine consultate non indicano una procedura online: si usa il modulo dedicato.",
+  "dati_lettera": "Per la SIM il modulo chiede nome, cognome, luogo e data di nascita, codice fiscale, residenza, tipo e numero del documento d'identità, numero di telefono e numero seriale della SIM, che trovi stampato sulla SIM stessa. Devi allegare copia di un documento valido e del codice fiscale: è obbligatorio. Se hai comprato la SIM online, aggiungi anche l'Id-ORDINE di attivazione. Per PosteMobile Casa servono gli stessi dati anagrafici, un numero di telefono di contatto e uno solo tra questi riferimenti: numero di telefono della linea, ID Ordine (il codice ricevuto per e-mail dopo l'acquisto online) o Identificativo Conto, che trovi nell'intestazione della fattura. Anche qui va allegata la copia del documento.",
+  "tempi_e_dopo": "Per la SIM le condizioni generali prevedono un preavviso di almeno 30 giorni. Alla cessazione la SIM diventa inattiva e il numero può essere dato ad altri. Il credito residuo puoi spostarlo gratis su un'altra SIM PosteMobile, tua o di un'altra persona, oppure farti rimborsare con bonifico (3,00 euro) o assegno vidimato (5,00 euro), costi scalati dall'importo. La richiesta si fa con il modulo «Richiesta di Riconoscimento Credito Residuo» via fax all'800.242.626 o per posta alla Casella Postale 3000, 37138 Verona, indicando il numero disattivato e, per il bonifico, l'IBAN. Per PosteMobile Casa la disattivazione fa perdere per sempre il numero. Devi restituire i dispositivi completi entro 60 giorni dalla disattivazione, a tue spese, a Poste Italiane, Deposito Territoriale di Firenze, Via della Casella 17/19, 50142 Firenze, con il tagliando del modulo. Se non li restituisci diventano tuoi e PostePay non ti addebita nulla. Per la fibra PosteCasa Ultraveloce il recesso è efficace 30 giorni dopo che la società riceve la richiesta.",
+  "costi_dettaglio": "Per la fibra PosteCasa Ultraveloce la sintesi contrattuale (ed. marzo 2026) indica durata minima «Nessuno» e costo di disattivazione «Nessuno»: puoi recedere in ogni momento senza penali. Per la SIM le condizioni generali (ed. novembre 2022) non fissano un importo, ma permettono a PostePay di applicare un costo giustificato dalle spese sostenute. Se recedi per una modifica unilaterale del contratto entro 60 giorni dalla comunicazione, non paghi penali né costi di disattivazione. Sul credito residuo: trasferimento su altra SIM PosteMobile gratuito, bonifico 3,00 euro, assegno vidimato 5,00 euro, trasferimento del credito con la portabilità verso altro operatore 2,00 euro.",
+  "vincoli": "La SIM si può chiudere in ogni momento con 30 giorni di preavviso. Se non ricarichi e non usi i servizi a pagamento per 12 mesi di fila, la SIM per altri 30 giorni può solo ricevere chiamate, SMS e MMS, poi può essere disattivata. PosteCasa Ultraveloce è a tempo indeterminato e senza durata minima. Se hai comprato a distanza o fuori dai locali commerciali hai 14 giorni per il ripensamento senza penali.",
+  "alternative": "Se vuoi solo cambiare operatore, non mandare il modulo di cessazione: chiedi la portabilità al nuovo operatore e, se vuoi, il trasferimento del credito residuo (2,00 euro). Il modulo di PosteMobile Casa dice espressamente di non usarlo se trasferisci il numero ad altro operatore. Per cambiare piano tariffario puoi chiamare il 160.",
+  "assistenza": "Servizio clienti 160, gratuito, tutti i giorni dalle 7 alle 24. Dall'estero: +39 371.1000.160, gratuito dai Paesi UE e SEE. Professionisti e aziende: 800.800.160. E-mail SIM: info@postemobile.it. E-mail PosteMobile Casa: postemobilecasa@postemobile.it. Per la fibra PosteCasa Ultraveloce la sintesi contrattuale indica assistenzaclientifibra@postepay.it. Fax gratuiti: 800.242.626 (SIM) e 800.160.909 (Casa). Posta: Casella Postale 3000, 37138 Verona (VR).",
+  "errori": [
+   "Disattivare la SIM senza pensare ai servizi di pagamento collegati: le condizioni generali dicono che il recesso blocca anche i servizi di pagamento e di moneta elettronica legati alla SIM.",
+   "Mandare il modulo di cessazione di PosteMobile Casa quando vuoi portare il numero a un altro operatore: la cessazione fa perdere il numero per sempre, per il passaggio serve la richiesta al nuovo gestore.",
+   "Dimenticare il credito residuo: dopo la disattivazione non torna da solo, va chiesto con il modulo dedicato, e se scegli il bonifico ti scalano 3,00 euro."
+  ],
+  "faq": [
+   {
+    "d": "Come disdire una SIM PosteMobile?",
+    "r": "Manda il modulo «Richiesta cessazione contratto» firmato, con copia di documento e codice fiscale, a info@postemobile.it o per raccomandata alla Casella Postale 3000, 37138 Verona, oppure chiama il 160. Il preavviso è di almeno 30 giorni."
+   },
+   {
+    "d": "Devo restituire il modem PosteMobile Casa?",
+    "r": "Sì, entro 60 giorni dalla disattivazione, a tue spese, al Deposito Territoriale di Firenze di Poste Italiane, Via della Casella 17/19. Se non lo restituisci la proprietà passa a te e PostePay non ti addebita nulla."
+   },
+   {
+    "d": "Come recuperare il credito residuo PosteMobile dopo la disattivazione?",
+    "r": "Invia il modulo «Richiesta di Riconoscimento Credito Residuo» con copia del documento via fax all'800.242.626 o per posta. Puoi spostarlo gratis su un'altra SIM PosteMobile o farti rimborsare con bonifico (3,00 euro) o assegno vidimato (5,00 euro)."
+   }
+  ],
+  "fonti": [
+   "https://www.postemobile.it/assistenza",
+   "https://www.postemobile.it/Assistenza/Moduli/Mod_Richiesta_CessContratto.pdf",
+   "https://www.postemobile.it/Assistenza/ModulisticaFisso/Cessazione_Contratto.pdf",
+   "https://www.media.poste.it/ca3bafde-31b8-447c-b73d-7a032fd3bacf/web/condizioni-generali-sim-ricaricabile-giugno-2021",
+   "https://www.media.poste.it/4f7b47f3-89ee-40cb-9290-23b99752f974/file/sintesi_contrattuale_postecasa_ultraveloce"
+  ],
+  "data": "2026-11-14"
+ },
+ "tiscali": {
+  "online": "Dall'area personale MyTiscali puoi compilare online il modulo di disdetta. In alternativa puoi consegnare la richiesta in un punto vendita Tiscali o chiamare il servizio clienti, ma Tiscali stessa consiglia di preferire le modalità scritte. Se cambi operatore non disdire: dai al nuovo gestore il codice di migrazione che trovi in fattura.",
+  "dati_lettera": "Il modulo ufficiale chiede numero cliente, numero di telefono su cui è attivo il servizio, cognome, nome e codice fiscale dell'intestatario, e per le aziende ragione sociale e partita IVA. Devi barrare se si tratta di disdetta alla scadenza dei 24 mesi (art. 3.1) o di recesso entro 30 giorni (art. 3.2), e il motivo. Se stai pagando a rate il contributo di attivazione scegli se saldare il residuo nella fattura di chiusura o continuare le rate. Allega sempre la fotocopia fronte e retro di un documento d'identità valido, con numero, ente di rilascio e data. Per i privati la richiesta è accettata solo dal titolare del contratto.",
+  "tempi_e_dopo": "La disdetta viene eseguita entro 30 giorni dal ricevimento. Con la cessazione perdi il numero di telefono, ma puoi trasferirlo a un altro operatore per almeno un mese dalla risoluzione del contratto. Il modem dato a noleggio o in comodato va restituito entro 30 giorni dalla cessazione, a tue spese, a: Servizio Tiscali, c/o Laziale Distribuzione S.p.a., Magazzino Verbaschi, Via dei Verbaschi 1, 00134 Santa Palomba (RM). La casella e-mail Tiscali legata alla connessione non viene chiusa: puoi continuare a usarla. Se il modem l'hai comprato a rate, le rate restanti vanno pagate fino al prezzo pieno anche se chiudi prima.",
+  "costi_dettaglio": "Per i contratti firmati dopo il 3 gennaio 2024, se recedi o migri nei primi 24 mesi paghi un contributo di disattivazione tra 0 euro e una mensilità di canone; la pagina costi lo fissa all'importo mensile non promozionato dell'offerta attiva al momento della disattivazione (delibera AGCOM 307/23/CONS). Per i contratti precedenti Tiscali si riserva di applicarlo in qualsiasi momento. Mancata restituzione del modem, clienti privati: modelli standard 60 euro fino a 12 mesi di possesso, 40 fino a 24, 20 oltre; Homix, ZTE H388X, H3600, H2640 e AVM 7530 100, 70 e 30 euro; AVM 4630, AVM 5530 Fiber, ZTE H6645P e H5745 150, 100 e 70 euro; Ultrainternet Wireless indoor 100 euro sempre. Se hai avuto promozioni all'attivazione Tiscali può chiedere il rimborso degli sconti nei limiti di legge.",
+  "vincoli": "Il contratto dura 24 mesi dall'attivazione, salvo diversa indicazione dell'offerta, poi si rinnova tacitamente a tempo indeterminato. La disdetta alla scadenza va notificata almeno 30 giorni prima. Puoi comunque recedere in qualsiasi momento con almeno 30 giorni di anticipo. Se hai firmato a distanza o fuori dai negozi hai 14 giorni per recedere senza costi, restituendo l'apparato a tue spese.",
+  "alternative": "Se vuoi solo cambiare operatore usa la migrazione: la chiede il nuovo gestore con il tuo codice di migrazione, e il servizio passa senza interruzioni mantenendo il numero. In quel caso non mandare a Tiscali una raccomandata di cessazione, perché le due procedure si sovrappongono e creano ritardi. Se hai la rateizzazione attiva, entro 5 giorni dall'avvio della migrazione comunica al servizio clienti se vuoi continuare le rate o saldare tutto in fattura di chiusura.",
+  "assistenza": "Clienti privati: 130, dal lunedì al sabato dalle 8:30 alle 21:30; il supporto tecnico risponde anche domenica e festivi dalle 8:30 alle 16:30. Per la disattivazione digita numero cliente o numero di telefono, poi #, tasto 3 e tasto 5. Clienti business: 192130 con le stesse opzioni. Dall'estero: +39 070 4608600 per i privati, +39 070 4600102 per il business. Chat dall'app MyTiscali dal lunedì al venerdì dalle 9:30 alle 16:30. PEC del servizio clienti: servizioclienti.tiscali@tiscalipec.it. Per le disdette: PEC cessazionecontratti@legalmail.it o raccomandata A/R a Smeraldo S.p.A. Servizio Tiscali, Ufficio Gestione Contratti, Località Sa Illetta, Strada Statale 195 km 2,300, 09123 Cagliari. Il recesso può essere anticipato via fax all'800.910.028.",
+  "errori": [
+   "Mandare la raccomandata di disdetta mentre è in corso il passaggio a un altro operatore: Tiscali avverte che le due procedure si sovrappongono e generano ritardi o disservizi.",
+   "Spedire il modem all'indirizzo di Elmas (Cagliari) che compare ancora su una vecchia pagina di casa.tiscali.it: la guida di assistenza attuale indica il magazzino di Santa Palomba (RM).",
+   "Dimenticare la copia del documento d'identità: la guida chiede di allegarla sempre, e le condizioni la richiedono per il recesso."
+  ],
+  "faq": [
+   {
+    "d": "Quanto costa disdire Tiscali prima dei 24 mesi?",
+    "r": "Per i contratti firmati dopo il 3 gennaio 2024 paghi un contributo di disattivazione pari all'importo mensile non promozionato dell'offerta attiva, solo se recedi o migri nei primi 24 mesi. Dopo i 24 mesi non è dovuto. A questo si aggiungono eventuali rate residue del modem e il costo se non lo restituisci."
+   },
+   {
+    "d": "Dove si spedisce il modem Tiscali dopo la disdetta?",
+    "r": "Entro 30 giorni dalla cessazione, a tue spese, a Servizio Tiscali, c/o Laziale Distribuzione S.p.a., Magazzino Verbaschi, Via dei Verbaschi 1, 00134 Santa Palomba (RM). Se non lo restituisci paghi da 20 a 150 euro secondo il modello e i mesi di possesso."
+   },
+   {
+    "d": "Se disdico Tiscali perdo l'indirizzo e-mail?",
+    "r": "No. Secondo la pagina costi di disattivazione, la chiusura della connessione non comporta la cessazione dell'indirizzo e-mail Tiscali associato: puoi continuare ad accedere alla casella e ai suoi contenuti."
+   }
+  ],
+  "fonti": [
+   "https://assistenza.tiscali.it/informazioni/contratto/guida/disattivazione-servizi/",
+   "https://assistenza.tiscali.it/export/sites/assistenza/.downloads/moduli/ModuloRecessoDisdetta.pdf",
+   "https://assistenza.tiscali.it/informazioni/contratto/guida/costi-disattivazione/",
+   "https://assistenza.tiscali.it/informazioni/supporto/guida/costi-mancata-restituzione-modem-tiscali/",
+   "https://assistenza.tiscali.it/export/sites/assistenza/.downloads/contratto/CGdC_B2C_29Maggio2026.pdf",
+   "https://assistenza.tiscali.it/informazioni/supporto/guida/telefonico/",
+   "https://casa.tiscali.it/comunicazioni/costi_disattivazione.html"
+  ],
+  "data": "2026-11-14"
+ },
+ "zurich-italia": {
+  "online": "Nelle pagine Zurich consultate non c'è un pulsante per disdire una polizza online. L'Area Clienti e l'app Zurich One servono a vedere polizze e documenti, denunciare un sinistro auto, scaricare l'Attestato di rischio e sospendere o riattivare il veicolo. Per la disdetta di una polizza casa le condizioni chiedono PEC o raccomandata con ricevuta di ritorno, all'agenzia o a Zurich. Solo per il ripensamento entro 14 giorni da un contratto concluso a distanza esiste un modulo da mandare per e-mail a documenti@it.zurich.com.",
+  "dati_lettera": "Nella lettera indica il numero di polizza, il nome del contraente, il prodotto (per esempio Zurich For Family) e la data di scadenza dell'annualità. Controlla sul frontespizio quale compagnia ha emesso la polizza: i prodotti attuali come Zurigò Auto e For Family (edizione 06.2026) sono di Zurich Insurance Europe AG, mentre il modulo di recesso dei 14 giorni è intestato a Zurich Insurance Company Ltd. Se la polizza è vincolata a una banca, per esempio per un mutuo, serve il consenso scritto dell'ente vincolatario. Per il ripensamento il modulo Zurich chiede dati anagrafici, residenza, cellulare, numero di polizza, firma e la dichiarazione che nel periodo non ci sono stati sinistri.",
+  "tempi_e_dopo": "Per le polizze casa con tacito rinnovo la disdetta fa finire il contratto alla scadenza dell'annualità, non prima. Il recesso dopo un sinistro ha effetto 30 giorni dopo che l'altra parte riceve la comunicazione. Con il ripensamento dei 14 giorni Zurich scioglie il contratto e rimborsa il premio, al netto di imposte e oneri parafiscali, solo quando riceve il modulo firmato. Per Zurigò Auto, in caso di vendita, demolizione o esportazione definitiva del veicolo, se chiedi l'annullamento ti rimborsano il premio non goduto in ragione di 1/360 del premio annuo per ogni giorno residuo, al netto di imposte e contributo SSN. In caso di furto il contratto cessa dalle 00:00 del giorno dopo la denuncia e ti rimborsano il premio non goduto, esclusa la parte della garanzia Furto.",
+  "costi_dettaglio": "Le condizioni Zurigò Auto e For Family (ed. 06.2026) non prevedono penali per la disdetta. I rimborsi del premio sono sempre al netto delle imposte. Per Zurigò Auto con durata inferiore all'anno, in caso di vendita o demolizione Zurich non restituisce la maggiorazione di premio chiesta alla stipula.",
+  "vincoli": "Zurigò Auto (ed. 06.2026) è annuale o annuale più frazione e non si rinnova in automatico, quindi non serve disdetta. Le condizioni dicono anche che non sono previste ipotesi di recesso: puoi interrompere la copertura solo per demolizione, distruzione, esportazione definitiva, furto, vendita o consegna in conto vendita. Con la formula annuale più frazione non puoi recedere alla scadenza della frazione. Zurich For Family (ed. 06.2026) può essere annuale o poliennale, con o senza tacito rinnovo. Se c'è il tacito rinnovo devi disdire almeno 30 giorni prima della scadenza dell'annualità. Se la polizza è poliennale fino a 5 anni non puoi recedere prima della scadenza; oltre 5 anni puoi farlo solo dopo il quinto anno, con 30 giorni di preavviso. Dopo un sinistro puoi recedere fino al sessantesimo giorno dal pagamento o dal rifiuto dell'indennizzo.",
+  "alternative": "Per Zurigò Auto puoi sospendere la polizza invece di chiuderla: con una richiesta formale all'agenzia, fino a 3 volte per annualità e per un massimo di 10 mesi in totale (11 per i veicoli storici). La sospensione parte entro 48 ore dalla richiesta e la proroga va chiesta con 10 giorni di preavviso (5 per i veicoli storici). Non puoi sospendere dopo un furto, per contratti sotto l'anno né negli ultimi 5 giorni prima della scadenza annua. Se vendi l'auto puoi anche trasferire la polizza su un altro veicolo tuo o cederla all'acquirente. Per For Family puoi recedere in ogni momento dalle sole garanzie Terremoto e Atti di terrorismo, ma Zurich in quel caso può decidere di chiudere tutto il contratto.",
+  "assistenza": "Il Servizio Clienti Zurich Italia per le polizze danni (auto e non auto) risponde allo 02 83905551, dal lunedì al venerdì dalle 9:00 alle 19:00, oppure a informazioni@zurich.it. Per le polizze vita il numero è 02 59663000 e l'e-mail customerlife@it.zurich.com. La PEC di Zurich Insurance Europe AG è zurich.insurance.europe@pec.zurich.it. I reclami vanno a Zurich Insurance Europe AG, Ufficio Gestione Reclami, Via Benigno Crespi 23, 20159 Milano, oppure a reclami@zurich.it o reclami@pec.zurich.it: Zurich risponde entro 45 giorni. Se la risposta non ti soddisfa puoi rivolgerti all'IVASS, Via del Quirinale 21, 00187 Roma, PEC ivass@pec.ivass.it.",
+  "errori": [
+   "Mandare la disdetta della polizza casa per e-mail normale: le condizioni For Family accettano solo PEC o raccomandata con ricevuta di ritorno.",
+   "Usare la PEC sbagliata: i prodotti attuali sono di Zurich Insurance Europe AG (zurich.insurance.europe@pec.zurich.it), mentre le polizze più vecchie possono essere di Zurich Insurance Company Ltd (zurich.insurance.company@pec.zurich.it). Controlla il frontespizio.",
+   "Disdire Zurigò Auto prima della scadenza: non serve, perché non si rinnova da sola. Se vendi l'auto, invece, devi avvisare subito l'agenzia con il documento di vendita, altrimenti non ottieni il rimborso del premio residuo."
+  ],
+  "faq": [
+   {
+    "d": "Come si disdice l'assicurazione auto Zurich?",
+    "r": "Per Zurigò Auto non serve disdetta: il contratto non ha rinnovo automatico e finisce alla scadenza indicata in polizza. Se vuoi chiuderlo prima, puoi farlo solo per vendita, conto vendita, demolizione, esportazione definitiva o furto, comunicandolo all'agenzia con i documenti."
+   },
+   {
+    "d": "Quanto tempo prima va disdetta la polizza casa Zurich?",
+    "r": "Per Zurich For Family con tacito rinnovo almeno 30 giorni prima della scadenza dell'annualità, con PEC o raccomandata A/R all'agenzia o a Zurich. Se la polizza è poliennale fino a 5 anni non puoi disdirla prima della scadenza."
+   },
+   {
+    "d": "Zurich mi ha proposto un aumento al rinnovo, devo disdire?",
+    "r": "Se Zurich ti propone per iscritto modifiche al premio, puoi semplicemente non pagare: il contratto finisce alla scadenza senza disdetta. Se paghi a rate mensili con carta, però, devi contattare l'agenzia entro la scadenza per bloccare l'addebito automatico."
+   }
+  ],
+  "fonti": [
+   "https://www.zurich.it/assistenza",
+   "https://www.zurich.it/faq",
+   "https://www.zurich.it/zurich-per-te/strumenti/area-clienti",
+   "https://www.zurich.it/api/archiviodigitale/download?guid=954BDE10-CED4-4EA1-8C14-76E2085729F0&filename=Modulo+recesso+0426.pdf",
+   "https://www.zurich.it/persone/mobilita/auto/zurigo-auto",
+   "https://www.zurich.it/api/archiviodigitale/download?guid=60FEDA9E-0000-C61D-A15B-44850A55BF4E",
+   "https://www.zurich.it/persone/casa/for-family",
+   "https://www.zurich.it/api/archiviodigitale/download?guid=F0C3EE9E-0000-CF1B-9CE4-E608A1DC412C"
+  ],
+  "data": "2026-11-14"
  }
 }

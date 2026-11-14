@@ -2,7 +2,7 @@
 
 > Indirizzi PEC e postali verificati, preavviso, costi e lettera di disdetta gratuita per 178 operatori italiani (telefonia, pay TV, luce e gas, assicurazioni, banche, palestre). Ogni scheda riporta la data di verifica e le fonti ufficiali. Servizio opzionale di invio via PEC a 7,90 EUR.
 
-Ultimo aggiornamento: 2026-11-10
+Ultimo aggiornamento: 2026-11-14
 
 ## Schede operatore
 - [Disdetta 1Mobile](https://disdettaabbonamento.it/disdetta-1mobile/): PEC protocollo@pec.unomobile.it; preavviso Recesso libero in ogni momento a mezzo raccomandata A/R o PEC (art. 8.3 delle… (verificato 2026-10-26)
@@ -33,7 +33,7 @@ Ultimo aggiornamento: 2026-11-10
 - [Disdetta Babbel](https://disdettaabbonamento.it/disdetta-babbel/): preavviso Per non rinnovare, disdire almeno 48 ore prima della fine del periodo iniziale (7 giorni… (verificato 2026-11-08)
 - [Disdetta Banca Mediolanum](https://disdettaabbonamento.it/disdetta-banca-mediolanum/): PEC bancamediolanum@pec.mediolanum.it; preavviso Recesso in qualsiasi momento; diventa efficace decorsi 10 giorni lavorativi dalla… (verificato 2026-10-26)
 - [Disdetta Banca Sella](https://disdettaabbonamento.it/disdetta-banca-sella/): PEC clienti@pec.sella.it; preavviso La pagina assistenza ufficiale non indica un preavviso minimo per il cliente. Se non si… (verificato 2026-11-01)
-- [Disdetta Banco BPM](https://disdettaabbonamento.it/disdetta-banco-bpm/): preavviso Nessun preavviso: il recesso del cliente ha effetto immediato. La banca chiude il conto… (verificato 2026-10-26)
+- [Disdetta Banco BPM](https://disdettaabbonamento.it/disdetta-banco-bpm/): preavviso Nessun preavviso: il recesso del cliente ha effetto immediato. La banca chiude il conto… (verificato 2026-11-14)
 - [Disdetta BancoPosta (conto Poste Italiane)](https://disdettaabbonamento.it/disdetta-bancoposta/): preavviso Nessun preavviso: recesso in qualsiasi momento, per iscritto. Chiusura entro 15 giorni… (verificato 2026-10-26)
 - [Disdetta BBVA Italia](https://disdettaabbonamento.it/disdetta-bbva-italia/): preavviso Il cliente comunica il recesso telefonando al servizio clienti o dall'area riservata. Con… (verificato 2026-11-01)
 - [Disdetta BENE Assicurazioni](https://disdettaabbonamento.it/disdetta-bene-assicurazioni/): PEC beneassicurazioni@legalmail.it; preavviso Polizze casa e altre polizze danni: disdetta almeno 30 giorni prima della scadenza… (verificato 2026-10-26)
@@ -49,7 +49,7 @@ Ultimo aggiornamento: 2026-11-10
 - [Disdetta CNP Vita Assicura (ex Aviva)](https://disdettaabbonamento.it/disdetta-cnp-vita-ex-aviva/): preavviso Polizze vita: non c'è una disdetta annuale; recesso entro 30 giorni dalla conclusione,… (verificato 2026-10-26)
 - [Disdetta Cofidis Italia](https://disdettaabbonamento.it/disdetta-cofidis-italia/): PEC relazioneclientelacofidis@legalmail.it; preavviso Linea di credito revolving: recesso libero entro 14 giorni dalla conclusione; dopo,… (verificato 2026-11-08)
 - [Disdetta Compass](https://disdettaabbonamento.it/disdetta-compass/): preavviso Recesso senza penali, senza spese e senza motivazione entro 14 giorni dalla conclusione… (verificato 2026-11-01)
-- [Disdetta ConTe.it](https://disdettaabbonamento.it/disdetta-conte-it/): preavviso Nessuna disdetta per RC auto (nessun tacito rinnovo). Recesso per ripensamento entro 14… (verificato 2026-10-26)
+- [Disdetta ConTe.it](https://disdettaabbonamento.it/disdetta-conte-it/): preavviso Nessuna disdetta per RC auto (nessun tacito rinnovo). Recesso per ripensamento entro 14… (verificato 2026-11-14)
 - [Disdetta CoopVoce](https://disdettaabbonamento.it/disdetta-coopvoce/): preavviso Recesso in ogni momento con preavviso di 30 giorni (art. 14.1 CGC 2026). Ripensamento… (verificato 2026-10-26)
 - [Disdetta Corriere della Sera (abbonamento digitale)](https://disdettaabbonamento.it/disdetta-corriere-della-sera-digitale/): PEC abbonamenti.digitali@rcs.legalmail.it; preavviso Rinnovo automatico per lo stesso periodo; la disdetta va comunicata entro un giorno di… (verificato 2026-10-26)
 - [Disdetta Credem](https://disdettaabbonamento.it/disdetta-credem/): PEC estinzioneconticredem@pec.gruppocredem.it; preavviso La guida ufficiale non indica un preavviso minimo per il cliente. Per i consumatori che… (verificato 2026-11-01)
@@ -67,7 +67,7 @@ Ultimo aggiornamento: 2026-11-10
 - [Disdetta Dolomiti Energia](https://disdettaabbonamento.it/disdetta-dolomiti-energia/): PEC info.commerciale@cert.dolomitienergia.it; preavviso 1 mese (preavviso ARERA richiamato nelle condizioni economiche delle offerte) (verificato 2026-11-10)
 - [Disdetta Dropbox](https://disdettaabbonamento.it/disdetta-dropbox/): preavviso Annullabile in qualsiasi momento; l'account torna a Dropbox Basic (2 GB) alla fine del… (verificato 2026-10-26)
 - [Disdetta Duferco Energia](https://disdettaabbonamento.it/disdetta-duferco-energia/): PEC clienti.dufercoenergia@pec.duferco.it; preavviso Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per… (verificato 2026-10-26)
-- [Disdetta E.ON Energia](https://disdettaabbonamento.it/disdetta-eon-energia/): preavviso 1 mese dalla ricezione della comunicazione (CGC 11/2025, art. 10.2) (verificato 2026-10-26)
+- [Disdetta E.ON Energia](https://disdettaabbonamento.it/disdetta-eon-energia/): PEC eonenergia@legalmail.it; preavviso 1 mese dalla ricezione della comunicazione (CGC 11/2025, art. 10.2) (verificato 2026-11-14)
 - [Disdetta Edison Energia](https://disdettaabbonamento.it/disdetta-edison-energia/): preavviso Massimo 1 mese per i clienti domestici (fonti secondarie) (verificato 2026-10-26)
 - [Disdetta Enegan](https://disdettaabbonamento.it/disdetta-enegan/): preavviso Non pubblicato sul sito per luce e gas: vale il contratto. Per cambiare fornitore la… (verificato 2026-11-08)
 - [Disdetta Enel Energia](https://disdettaabbonamento.it/disdetta-enel-energia/): preavviso 1 mese dalla ricezione della comunicazione di recesso (per cessazione della fornitura) (verificato 2026-10-26)
@@ -87,11 +87,11 @@ Ultimo aggiornamento: 2026-11-10
 - [Disdetta Get Fit (Milano)](https://disdettaabbonamento.it/disdetta-get-fit-milano/): preavviso Non pubblicato sul sito ufficiale: fare riferimento al contratto firmato. Gli abbonamenti… (verificato 2026-10-26)
 - [Disdetta Google One](https://disdettaabbonamento.it/disdetta-google-one/): preavviso Cancellabile in qualsiasi momento; spazio e vantaggi restano fino alla fine del ciclo di… (verificato 2026-10-26)
 - [Disdetta Groupama Assicurazioni](https://disdettaabbonamento.it/disdetta-groupama-assicurazioni/): preavviso Almeno 30 giorni prima della scadenza, altrimenti la polizza si rinnova tacitamente. (verificato 2026-11-02)
-- [Disdetta Hachette Fascicoli](https://disdettaabbonamento.it/disdetta-hachette-fascicoli/): preavviso Recesso entro 14 giorni dal ricevimento del prodotto (artt. 52 e seguenti del Codice del… (verificato 2026-11-01)
+- [Disdetta Hachette Fascicoli](https://disdettaabbonamento.it/disdetta-hachette-fascicoli/): preavviso Recesso entro 14 giorni dal ricevimento del prodotto (artt. 52 e seguenti del Codice del… (verificato 2026-11-14)
 - [Disdetta HDI Assicurazioni](https://disdettaabbonamento.it/disdetta-hdi-assicurazioni/): PEC hdi.assicurazioni@pec.hdia.it; preavviso Almeno 30 giorni prima della scadenza per i contratti con tacito rinnovo; senza tacito… (verificato 2026-10-26)
 - [Disdetta Helvetia Italia](https://disdettaabbonamento.it/disdetta-helvetia-italia/): PEC helvetia@actaliscertymail.it; preavviso Almeno 30 giorni prima della scadenza per le polizze annuali con tacito rinnovo; le… (verificato 2026-10-26)
 - [Disdetta Hera Comm](https://disdettaabbonamento.it/disdetta-hera-comm/): preavviso Circa 1 mese (la cessazione è eseguita entro 5 giorni lavorativi dall'accettazione della… (verificato 2026-10-26)
-- [Disdetta ho. Mobile](https://disdettaabbonamento.it/disdetta-ho-mobile/): preavviso nessuno indicato (verificato 2026-10-26)
+- [Disdetta ho. Mobile](https://disdettaabbonamento.it/disdetta-ho-mobile/): preavviso nessuno indicato (verificato 2026-11-14)
 - [Disdetta Hype](https://disdettaabbonamento.it/disdetta-hype/): preavviso Nessun preavviso. La richiesta parte subito dall'app, ma il contratto (aggiornato al… (verificato 2026-11-10)
 - [Disdetta Iberdrola Clienti Italia](https://disdettaabbonamento.it/disdetta-iberdrola/): PEC iberdrolaenergiaitaliasrl@legalmail.it; preavviso Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per… (verificato 2026-10-26)
 - [Disdetta Il CV Perfetto](https://disdettaabbonamento.it/disdetta-il-cv-perfetto/): preavviso Recesso gratuito entro 14 giorni dalla conclusione del contratto per i consumatori, senza… (verificato 2026-11-01)
@@ -103,7 +103,7 @@ Ultimo aggiornamento: 2026-11-10
 - [Disdetta ING Italia](https://disdettaabbonamento.it/disdetta-ing-italia/): preavviso Nessuna penale. I fogli informativi ING prevedono per il recesso del cliente una… (verificato 2026-10-26)
 - [Disdetta Intesa Sanpaolo](https://disdettaabbonamento.it/disdetta-intesa-sanpaolo/): preavviso Nessun preavviso: la chiusura si può chiedere in qualsiasi momento. Prima della chiusura… (verificato 2026-10-26)
 - [Disdetta Intesa Sanpaolo Protezione (ex Intesa Sanpaolo Assicura)](https://disdettaabbonamento.it/disdetta-intesa-sanpaolo-protezione/): PEC comunicazioni@pec.intesasanpaoloprotezione.com; preavviso Almeno 30 giorni prima della scadenza annuale (fa fede il timbro postale della… (verificato 2026-10-26)
-- [Disdetta Iren Mercato](https://disdettaabbonamento.it/disdetta-iren-mercato/): preavviso 1 mese dalla ricezione (condizioni generali mercato libero, rev. 2022, via fonte… (verificato 2026-10-26)
+- [Disdetta Iren Mercato](https://disdettaabbonamento.it/disdetta-iren-mercato/): PEC irenmercato@pec.gruppoiren.it; preavviso 1 mese dalla ricezione della comunicazione per i clienti domestici e le piccole imprese… (verificato 2026-11-14)
 - [Disdetta Italiaonline / PagineGialle (contratti pubblicitari)](https://disdettaabbonamento.it/disdetta-italiaonline-pagine-gialle/): PEC disdette@pec-italiaonline.it; preavviso Alla scadenza della durata iniziale il contratto si rinnova automaticamente per periodi… (verificato 2026-11-10)
 - [Disdetta ITAS Mutua](https://disdettaabbonamento.it/disdetta-itas-mutua/): PEC itas.mutua@pec-gruppoitas.it; preavviso Almeno 30 giorni prima della scadenza (contratti con tacito rinnovo). Poliennali oltre 5… (verificato 2026-10-26)
 - [Disdetta Kaspersky](https://disdettaabbonamento.it/disdetta-kaspersky/): preavviso L'abbonamento si rinnova automaticamente alla fine di ogni periodo finché non viene… (verificato 2026-11-01)
@@ -182,7 +182,7 @@ Ultimo aggiornamento: 2026-11-10
 - [Disdetta Worldpay Italia](https://disdettaabbonamento.it/disdetta-worldpay-italia/): preavviso 1 mese di preavviso scritto da parte del commerciante, secondo i termini standard… (verificato 2026-11-01)
 - [Disdetta YouTube Premium](https://disdettaabbonamento.it/disdetta-youtube-premium/): preavviso La disdetta ha effetto alla fine del periodo di fatturazione in corso; i vantaggi Premium… (verificato 2026-10-26)
 - [Disdetta Zurich Connect](https://disdettaabbonamento.it/disdetta-zurich-connect/): preavviso RC auto: nessuna disdetta. Polizze casa 'No Pensieri' (canale Plenitude): tacito rinnovo,… (verificato 2026-11-10)
-- [Disdetta Zurich Italia](https://disdettaabbonamento.it/disdetta-zurich-italia/): preavviso Dipende dalla polizza: per i contratti annuali con tacito rinnovo la disdetta si invia… (verificato 2026-11-01)
+- [Disdetta Zurich Italia](https://disdettaabbonamento.it/disdetta-zurich-italia/): preavviso Dipende dalla polizza: per i contratti annuali con tacito rinnovo la disdetta si invia… (verificato 2026-11-14)
 
 ## Pagine
 - [Come funziona](https://disdettaabbonamento.it/come-funziona/)
