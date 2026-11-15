@@ -195,7 +195,7 @@
   ],
   "preavviso": "La disdetta ha effetto al termine del periodo di fatturazione in corso: Premium resta attivo fino alla prossima data di fatturazione. Durante la prova gratuita il passaggio al piano Free è immediato.",
   "costi": "Nessuna penale. Nessun rimborso per periodi parziali.",
-  "modulo": "",
+  "modulo": "https://www.spotify.com/account/cancel/pdf/",
   "note": "Si disdice online dall'account, in pochi clic: non serve raccomandata né PEC. Se Premium è incluso nell'offerta di un operatore (es. telefonia), va disdetto presso l'operatore. L'indirizzo indicato è la sede legale di Spotify AB, controparte del contratto.",
   "fonti": [
    "https://support.spotify.com/it/article/cancel-premium/",
@@ -203,7 +203,7 @@
   ],
   "affidabilita": "ufficiale",
   "categoria": "tv-streaming",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Apple (abbonamenti, iCloud+, Apple Music)",
@@ -328,18 +328,19 @@
   "canali": [
    "Gestione account web playstation.com/acct/management > Abbonamento > Annulla abbonamento (pulsante online)",
    "PS5: Impostazioni > Utenti e account > Account > Pagamento e abbonamenti > Abbonamenti > PlayStation Plus > Annulla",
-   "PS4: PlayStation Plus > Gestisci abbonamento > Annulla"
+   "PS4: PlayStation Plus > Gestisci abbonamento > Abbonamento > Annulla abbonamento, oppure Impostazioni > Gestione account > Informazioni sull'account > Abbonamenti",
+   "PlayStation App: icona PlayStation Store > menu in alto a destra > Gestione abbonamenti > Annulla"
   ],
   "preavviso": "Disattivazione in qualsiasi momento; i vantaggi restano attivi fino al termine del periodo già pagato.",
   "costi": "Nessuna penale. Rimborso solo se richiesto entro 14 giorni dal primo pagamento (non per i rinnovi); l'importo può essere ridotto in proporzione all'uso.",
   "modulo": "",
-  "note": "Si disdice solo dall'account PlayStation, non serve PEC né raccomandata. Il rimborso entro 14 giorni vale solo per il primo acquisto e si chiede dalla pagina rimborsi del PlayStation Store.",
+  "note": "Si disdice solo dall'account PlayStation, non serve PEC né raccomandata. Il rimborso entro 14 giorni vale solo per il primo acquisto (i 14 giorni includono l'eventuale prova gratuita) e si chiede dai dettagli dell'ordine con 'Annulla acquisto', dal Supporto PlayStation o con il modulo per i residenti UE.",
   "fonti": [
    "https://www.playstation.com/it-it/support/subscriptions/cancel-playstation-plus/",
    "https://www.playstation.com/it-it/support/store/ps-store-refund-request/"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Nintendo Switch Online",
@@ -348,18 +349,19 @@
   "pec": "",
   "indirizzo_postale": "",
   "canali": [
-   "Nintendo eShop sulla console > profilo > Informazioni account > Interrompi il rinnovo automatico",
-   "Sito account Nintendo accounts.nintendo.com > Pagamenti e abbonamenti (pulsante online)"
+   "Nintendo eShop sulla console > icona utente > Informazioni account > (sulla prima Nintendo Switch evidenzia 'Nintendo Switch Online') > Interrompi il rinnovo automatico",
+   "Sito account Nintendo accounts.nintendo.com > Nintendo Switch Online > Iscrizioni attive > Interrompi il rinnovo automatico (pulsante online)",
+   "modulo online 'Recesso da un contratto' su nintendo.com/it-it, per il recesso entro 14 giorni"
   ],
   "preavviso": "Il rinnovo automatico si interrompe alla fine del periodo in corso; l'abbonamento resta attivo fino alla scadenza.",
-  "costi": "Nessuna penale indicata. La pagina ufficiale non tratta i rimborsi.",
+  "costi": "Nessuna penale. Recesso entro 14 giorni con rimborso entro 14 giorni, ma con un importo proporzionale se il servizio è iniziato su tua richiesta (Accordo per l'account Nintendo). Nessun rimborso del periodo residuo se cancelli l'account.",
   "modulo": "",
   "note": "Basta disattivare il rinnovo automatico dall'eShop o dal sito account Nintendo. Una volta disattivato non si può riattivare: per continuare serve un nuovo acquisto.",
   "fonti": [
    "https://www.nintendo.com/it-it/Assistenza/Nintendo-Switch/Come-modificare-o-disattivare-il-rinnovo-automatico-dell-abbonamento-a-Nintendo-Switch-Online-1434298.html"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Dropbox",
@@ -409,21 +411,22 @@
   "slug": "canva",
   "categoria": "tv-streaming",
   "pec": "",
-  "indirizzo_postale": "",
+  "indirizzo_postale": "Canva Pty Ltd, 110 Kippax St, Surry Hills, NSW 2010, Australia (società contraente indicata nelle Condizioni d'uso; non serve una lettera per disdire)",
   "canali": [
-   "canva.com > Impostazioni account > Fatturazione e piani > Annulla (pulsante online)",
-   "App Store / Google Play se l'abbonamento è stato acquistato tramite app"
+   "canva.com > profilo > Impostazioni > Fatturazione > Annulla piano > Continua con l'annullamento (pulsante online)",
+   "App Store / Google Play se l'abbonamento è stato acquistato tramite app (per App Store il rimborso si chiede ad Apple)"
   ],
   "preavviso": "Annullabile in qualsiasi momento; le funzioni a pagamento restano fino alla fine del periodo di fatturazione in corso.",
   "costi": "Nessuna penale. Di norma nessun rimborso degli importi già addebitati, salvo dove previsto dalla legge (dettagli nell'articolo 'Rimborsi per abbonamenti Canva').",
   "modulo": "",
   "note": "Dopo l'annullamento l'account resta attivo in versione gratuita e i design restano accessibili. Se paghi tramite Apple o Google, disdici dallo store.",
   "fonti": [
-   "https://www.canva.com/help/cancel-canva-plan/ (bloccata al fetch, contenuto letto dagli estratti di ricerca)",
-   "https://www.canva.com/policies/terms-of-use/ (bloccata al fetch, estratti di ricerca)"
+   "https://www.canva.com/it_it/help/cancel-canva-plan/",
+   "https://www.canva.com/it_it/help/subscription-refunds/",
+   "https://www.canva.com/it_it/politiche/terms-of-use/"
   ],
-  "affidabilita": "secondaria",
-  "data_verifica": "2026-10-26"
+  "affidabilita": "ufficiale",
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Meetic",
@@ -455,21 +458,22 @@
   "pec": "",
   "indirizzo_postale": "Tinder, Attn: Cancellations, P.O. Box 25472, Dallas, Texas 75225, USA",
   "canali": [
-   "tinder.com o app > icona profilo > Gestisci account di pagamento > Annulla abbonamento (pulsante online)",
-   "Impostazioni abbonamenti iPhone (Apple ID) se acquistato tramite App Store",
-   "Google Play > Abbonamenti > Tinder > Annulla se acquistato tramite Google Play",
+   "tinder.com o app > icona profilo > Gestisci pagamenti dell'account > Annulla abbonamento (pulsante online)",
+   "iPhone: Impostazioni > tuo nome > Abbonamenti, se acquistato tramite App Store",
+   "Google Play > icona del profilo > Pagamenti e abbonamenti > Abbonamenti > Tinder > Annulla abbonamento",
    "Comunicazione scritta all'indirizzo postale indicato nei Termini, o assistenza clienti, per il recesso entro 14 giorni"
   ],
   "preavviso": "Rinnovo automatico fino a disdetta; dopo l'annullamento si usano i giorni già pagati fino a fine periodo.",
   "costi": "Nessuna penale. Rimborso completo se si recede entro 14 giorni dall'inizio dell'abbonamento (residenti UE); nessun rimborso retroattivo per i periodi già addebitati.",
   "modulo": "",
-  "note": "Cancellare l'app o l'account non annulla l'abbonamento. Se paghi tramite Apple o Google, disdici dallo store (per Apple il rimborso si chiede a Apple); la lettera va indicata con nome, e-mail, telefono e numero d'ordine. Contraente UE: MTCH Technology Services Limited, 10 Earlsfort Terrace, Dublino 2.",
+  "note": "Cancellare l'app o l'account non annulla l'abbonamento. Se paghi tramite Apple o Google, disdici dallo store (per Apple il rimborso si chiede a Apple). Per un rimborso scrivi dalla stessa e-mail usata per l'acquisto e indica il numero d'ordine. Contraente UE: MTCH Technology Services Limited, 10 Earlsfort Terrace, Dublino 2.",
   "fonti": [
    "https://policies.tinder.com/terms/intl/it/",
-   "https://www.help.tinder.com/hc/en-us/articles/115003554466-Cancel-your-subscription (estratto di ricerca)"
+   "https://www.help.tinder.com/hc/it/articles/115003554466-Annullare-il-tuo-abbonamento",
+   "https://www.help.tinder.com/hc/it/articles/115003521343-Richieste-di-rimborso"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "LinkedIn Premium",
@@ -500,21 +504,21 @@
   "slug": "adobe-creative-cloud",
   "categoria": "tv-streaming",
   "pec": "",
-  "indirizzo_postale": "",
+  "indirizzo_postale": "Adobe Systems Software Ireland Limited (controparte per l'Italia). Comunicazioni: Adobe Inc., 345 Park Avenue, San Jose, California 95110-2704, USA, Attention: General Counsel (Condizioni d'uso, art. 18.2)",
   "canali": [
-   "Pagina account Adobe (account.adobe.com > Piani) con pulsante Annulla piano online",
-   "Assistenza clienti Adobe (chat/telefono)",
+   "account.adobe.com > Piani e pagamento > Gestisci piano > Annulla il tuo piano > Conferma annullamento (pulsante online)",
+   "Assistenza clienti Adobe (chat)",
    "App Store / Google Play se acquistato tramite app"
   ],
   "preavviso": "Piano mensile: attivo fino a fine mese di fatturazione. Piano annuale pagato mensilmente: il servizio continua fino al termine del periodo di fatturazione di quel mese. Annuale prepagato: attivo fino al termine del contratto.",
   "costi": "Rimborso completo solo se annulli entro 14 giorni dall'ordine iniziale. Dopo i 14 giorni, piano annuale pagato mensilmente: addebito in un'unica soluzione del 50% dell'obbligo contrattuale rimanente. Annuale prepagato e mensile: nessun rimborso.",
   "modulo": "",
-  "note": "Attenzione al piano annuale pagato mensilmente: disdire a metà anno costa il 50% delle rate restanti. Per evitarlo, disdici entro 14 giorni dall'acquisto o in prossimità del rinnovo annuale.",
+  "note": "Attenzione al piano annuale pagato mensilmente: dopo i 14 giorni dall'ordine, disdire costa il 50% delle rate restanti, in qualsiasi momento dell'anno. Per i clienti in Italia puoi però annullare senza costi prima che entri in vigore un aumento di prezzo (preavviso di almeno 30 giorni per gli annuali, 7 per i mensili) o una modifica delle Condizioni d'uso.",
   "fonti": [
    "https://www.adobe.com/it/legal/subscription-terms.html"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Corriere della Sera (abbonamento digitale)",
@@ -676,7 +680,7 @@
   "slug": "amazon-music-unlimited",
   "categoria": "tv-streaming",
   "pec": "",
-  "indirizzo_postale": "",
+  "indirizzo_postale": "Amazon Digital Italy S.R.L., Attn: Legal Department, Viale Monte Grappa 3/5, 20124 Milano (non serve una lettera per disdire)",
   "canali": [
    "pulsante online: https://www.amazon.it/music/settings > sezione Amazon Music Unlimited > Annulla accanto ai dettagli di rinnovo, poi conferma",
    "Alexa o Echo: \"Alexa, annulla il mio abbonamento ad Amazon Music Unlimited\"",
@@ -692,17 +696,18 @@
    "https://www.amazon.it/gp/help/customer/display.html?nodeId=201380010"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Audible",
   "slug": "audible",
   "categoria": "tv-streaming",
   "pec": "",
-  "indirizzo_postale": "",
+  "indirizzo_postale": "Audible GmbH, Schumannstraße 6, 10117 Berlino, Germania (non serve una lettera per disdire)",
   "canali": [
-   "pulsante online: audible.it > Dettagli dell'account > Cancella abbonamento",
-   "e-mail al servizio clienti: customersupport@audible.it",
+   "pulsante online: audible.it > Dettagli dell'account > Cancella l'iscrizione",
+   "da Amazon: Account e liste > Iscrizioni e abbonamenti > Impostazioni Audible > Cancella l'abbonamento",
+   "servizio clienti: 800 784 849 (dall'estero 0039 02 8295 0297) o customersupport@audible.it",
    "se l'abbonamento è stato fatto dall'app su iPhone (App Store) o Google Play: disdetta dallo store"
   ],
   "preavviso": "Disdetta in qualsiasi momento, anche durante il periodo di prova (senza addebiti). L'abbonamento si rinnova ogni mese fino alla disdetta; i mesi già pagati non vengono rimborsati.",
@@ -714,14 +719,14 @@
    "https://aiuto.audible.it/s/article/manage-app-store-subscription?language=it"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Microsoft 365 / Xbox Game Pass",
   "slug": "microsoft-365-xbox",
   "categoria": "tv-streaming",
   "pec": "",
-  "indirizzo_postale": "",
+  "indirizzo_postale": "Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Irlanda (venditore indicato nelle Condizioni di vendita Microsoft Store; non serve una lettera per disdire)",
   "canali": [
    "pulsante online: account.microsoft.com/services (pagina Abbonamenti) > Gestisci > Annulla (oppure Aggiorna o Annulla), con l'account Microsoft usato per l'acquisto",
    "Microsoft 365: account.microsoft.com/services/microsoft365 > Annulla abbonamento",
@@ -729,9 +734,9 @@
    "se acquistato da Google Play o Apple App Store: annullamento e rimborso tramite lo store"
   ],
   "preavviso": "Annullamento in qualsiasi momento. Disattivando la fatturazione ricorrente gli addebiti si fermano e l'abbonamento resta attivo fino alla data di scadenza. Se compare \"Attiva fatturazione ricorrente\", l'abbonamento è già impostato per scadere e non serve altro.",
-  "costi": "Nessuna penale. Rimborso possibile, nella maggior parte dei casi, entro 30 giorni dall'acquisto iniziale o prima del primo rinnovo; inoltre una sola volta per prodotto è rimborsabile l'ultimo addebito ricorrente se annulli entro 30 giorni dal pagamento. L'Italia non rientra tra i paesi con rimborso proporzionale. Per Xbox non tutti gli addebiti sono rimborsabili.",
+  "costi": "Nessuna penale. Rimborso possibile, nella maggior parte dei casi, entro 30 giorni dall'acquisto iniziale o prima del primo rinnovo, quale delle due date arriva prima; inoltre una sola volta per prodotto è rimborsabile l'ultimo addebito ricorrente se annulli entro 30 giorni dal pagamento. In Italia Microsoft 365 Basic, Personal, Family, OneDrive e ClipChamp non hanno rimborso proporzionale, mentre Microsoft 365 Premium e Pro lo prevedono se annulli entro 14 giorni dall'acquisto iniziale. Per Xbox non tutti gli addebiti sono rimborsabili.",
   "modulo": "",
-  "note": "Annulla dalla pagina Abbonamenti dell'account Microsoft: non servono lettera o PEC. Annullando Microsoft 365 lo spazio cloud torna a 5 GB (OneDrive) e, se lo superi, dopo 6 mesi i file su OneDrive potrebbero essere eliminati: scarica prima i tuoi file. I codici prepagati comprati in negozio seguono le regole di reso del rivenditore.",
+  "note": "Annulla dalla pagina Abbonamenti dell'account Microsoft: non servono lettera o PEC. Annullando Microsoft 365 restano 5 GB di cloud più 15 GB di posta Outlook.com: oltre il limite si bloccano anche l'invio e la ricezione di posta su Outlook.com, e dopo 6 mesi i file su OneDrive potrebbero essere eliminati. Scarica prima i tuoi file. I codici prepagati comprati in negozio seguono le regole di reso del rivenditore.",
   "fonti": [
    "https://support.microsoft.com/it-it/accounts-billing/subscriptions/cancel-your-microsoft-subscription",
    "https://support.microsoft.com/it-it/accounts-billing/subscriptions/cancel-a-microsoft-365-subscription",
@@ -739,6 +744,6 @@
    "https://support.xbox.com/it-IT/help/subscriptions-billing/manage-subscriptions/cancel-recurring-billing-or-subscription"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  }
 ]

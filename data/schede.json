@@ -5274,5 +5274,1049 @@
   "online": "Nei documenti ufficiali non c'è una procedura online o in app per chiudere il contratto. I Merchant Services Terms and Conditions (2026) dicono alla clausola 26.2 che, salvo diverso accordo scritto con Worldpay, la comunicazione con cui termini il contratto deve esserle consegnata per posta. La clausola 12.2 aggiunge che il preavviso si può dare anche telefonando allo 0191 203 7318, un numero britannico, senza indicare orari. I termini sono redatti in inglese e, se esiste una traduzione, prevale il testo inglese.",
   "tempi_e_dopo": "Il preavviso è di 1 mese scritto da parte tua (clausola 12.2, lettera B). Worldpay, invece, deve darti 90 giorni di preavviso scritto se è lei a recedere, salvo i casi di cessazione immediata previsti dalle clausole 12.5 e 12.6. Alla fine del contratto le somme dovute tra le parti vanno saldate subito (clausola 13.2). Restano validi anche dopo la fine del contratto gli obblighi che per natura continuano, per esempio quelli sugli storni (chargeback) e sulle manleve (clausola 13.1). Worldpay può dedurre o compensare dalle somme che ti deve rimborsi, chargeback e relativi costi (clausola 5.2).",
   "vincoli": "Per i commercianti che non sono grandi imprese il contratto dura finché una delle parti non lo termina con preavviso (clausola 12.1). Per le grandi imprese e le grandi organizzazioni benefiche il preavviso non può scadere prima della fine del periodo iniziale (Initial Term). La pagina legale di Worldpay Italia indica che i termini del 2026 valgono per i commercianti registrati dall'11 febbraio 2026, mentre quelli del 2024 sono archiviati per chi si è registrato prima. La clausola sul preavviso e quella sulla consegna per posta sono identiche nelle due versioni. Il contratto è regolato dal diritto inglese e le controversie vanno ai tribunali inglesi (clausola 32)."
+ },
+ "adobe-creative-cloud": {
+  "alternative": "Invece di annullare puoi cambiare piano da 'Piani e pagamento', 'Gestisci piano', 'Cambia piano', anche modificando l'impegno di fatturazione. Il nuovo piano parte subito, ti viene addebitato subito e la data di rinnovo diventa quella del cambio; per il vecchio piano può spettarti un rimborso del tempo non usato, secondo il tipo di piano. Adobe avverte che il cambio di piano è irreversibile.",
+  "assistenza": "Il contratto per chi vive in Italia è con Adobe Systems Software Ireland Limited. Le Condizioni d'uso (art. 14) chiedono di contattare prima l'Assistenza clienti e, se il problema resta, di mandare una Notifica di Reclamo scritta con i tuoi dati, la descrizione del problema e l'importo richiesto. L'indirizzo per le comunicazioni ad Adobe indicato all'art. 18.2 è Adobe Inc., 345 Park Avenue, San Jose, California 95110-2704, USA, Attention: General Counsel. Se il reclamo non si risolve entro 30 giorni dalla ricezione, le Condizioni prevedono un ufficio di conciliazione o l'arbitrato.",
+  "costi_dettaglio": "Per la maggior parte dei piani, se annulli entro 14 giorni dall'acquisto iniziale ricevi un rimborso completo. Dopo 14 giorni, sul piano annuale pagato mensilmente può essere addebitato in un'unica soluzione il 50% dell'obbligo contrattuale rimanente, e il servizio continua fino alla fine del mese già fatturato. Sul piano annuale prepagato, dopo 14 giorni non ricevi rimborso e il servizio resta attivo fino alla fine del contratto. Sul piano mensile senza impegno annuale, dopo 14 giorni non c'è rimborso e il servizio dura fino alla fine del mese. Se hai comprato da un rivenditore o da un app store valgono le regole di quel venditore.",
+  "data": "2026-11-15",
+  "dati_lettera": "Per chiudere il piano di una persona deceduta, inabile o incarcerata Adobe chiede l'indirizzo e-mail del titolare dell'account, i dati di chi fa la richiesta (nome e cognome, paese, e-mail) e un documento legale, per esempio il certificato di morte. La richiesta si invia con il modulo per le richieste privacy di Adobe, scegliendo 'Annulla l'abbonamento di un'altra persona a causa del suo decesso o incapacità' e caricando i documenti. Il team privacy risponde via e-mail entro 7 giorni lavorativi.",
+  "errori": [
+   "Pensare che il piano annuale pagato a rate si chiuda gratis come un mensile: dopo i 14 giorni Adobe può addebitarti in una volta il 50% delle rate che restano.",
+   "Annullare un solo piano quando ne hai due o più: per Adobe ogni piano va annullato separatamente e gli altri continuano a essere addebitati.",
+   "Cercare il pulsante di annullamento nell'account Adobe per un piano comprato su App Store o Google Play: va chiuso dallo store, con lo stesso account usato per l'acquisto.",
+   "Lasciare file oltre i 5 GB sul cloud dopo l'annullamento: dopo 30 giorni puoi perderne l'accesso, quindi scaricali prima."
+  ],
+  "faq": [
+   {
+    "d": "Posso fermare solo il rinnovo automatico di Adobe senza annullare?",
+    "r": "No. Adobe scrive che al momento non puoi interrompere il solo rinnovo automatico: devi annullare il piano, che resta comunque attivo fino alla fine del periodo già fatturato."
+   },
+   {
+    "d": "Adobe aumenta il prezzo: posso disdire senza pagare la penale?",
+    "r": "Sì, per i clienti in Italia. Adobe deve avvisarti via e-mail almeno 30 giorni prima (7 per i piani mensili) e puoi annullare senza costi prima che il nuovo prezzo si applichi."
+   },
+   {
+    "d": "Ho annullato per errore, posso tornare indietro?",
+    "r": "Sì, finché il periodo di fatturazione è in corso puoi riattivare il piano dal tuo account Adobe: app, spazio di archiviazione e servizi tornano e la fatturazione prosegue come prima."
+   }
+  ],
+  "fonti": [
+   "https://www.adobe.com/it/legal/subscription-terms.html",
+   "https://www.adobe.com/it/legal/terms.html",
+   "https://helpx.adobe.com/it/account/individual/subscriptions-and-plans/renewals-and-cancellations/cancel-adobe-subscription.html",
+   "https://helpx.adobe.com/it/account/individual/terms-policies-and-regulations/adobe-subscription-terms.html",
+   "https://helpx.adobe.com/it/account/individual/subscriptions-and-plans/renewals-and-cancellations/account-access-after-plan-cancellation.html",
+   "https://helpx.adobe.com/it/account/individual/subscriptions-and-plans/renewals-and-cancellations/manage-auto-renewal-settings.html",
+   "https://helpx.adobe.com/it/account/individual/subscriptions-and-plans/plan-changes-and-upgrades/change-adobe-plan.html",
+   "https://helpx.adobe.com/it/account/individual/subscriptions-and-plans/renewals-and-cancellations/close-account-behalf-someone-else.html",
+   "https://helpx.adobe.com/it/account/individual/billing-and-payments/payment-methods/manage-adobe-subscriptions-through-app-stores.html"
+  ],
+  "online": "Se hai comprato da Adobe, annulli dal tuo account Adobe: nella finestra 'Piani e pagamento' scegli 'Gestisci piano' sul piano da chiudere e poi 'Annulla il tuo piano'. Controlli i dettagli e premi 'Continua', indichi il motivo, premi di nuovo 'Continua' e chiudi con 'Conferma annullamento'. Se hai più piani, ognuno va annullato a parte: chiuderne uno non chiude gli altri. Se il pagamento è in elaborazione o ha un problema, il pulsante non funziona: Adobe dice di aspettare 24 ore e riprovare. Alla fine controlla l'e-mail di conferma oppure la pagina Piani del tuo account. Per i piani pagati tramite Apple, Google o Microsoft segui la procedura dello store: nella pagina Piani compare il pulsante 'Visita App Store' o 'Visita Google Store' solo se hai comprato lì. In alternativa puoi passare dall'Assistenza clienti Adobe.",
+  "tempi_e_dopo": "Dopo l'annullamento app e servizi a pagamento restano attivi fino alla fine del periodo di fatturazione in corso, e il tuo account Adobe resta aperto con i vantaggi dell'iscrizione gratuita. Se cambi idea mentre il periodo è ancora in corso, puoi riattivare il piano dall'account. Un addebito che arriva dopo l'annullamento di solito è quello finale del periodo corrente. Lo spazio cloud scende a 5 GB: se lo superi hai 30 giorni per ridurlo, poi puoi perdere l'accesso a una parte o a tutti i file sui server Creative Cloud. Adobe conserva le foto originali di Lightroom per un anno dalla fine dell'iscrizione. I crediti generativi del piano scadono con l'annullamento.",
+  "vincoli": "L'abbonamento si rinnova in automatico alla fine di ogni periodo finché non lo annulli, e Adobe dice che oggi non puoi disattivare il solo rinnovo: per fermarlo devi annullare il piano. Il prezzo non cambia durante il periodo, può cambiare solo al rinnovo. Per i clienti in Italia Adobe manda un'e-mail almeno 30 giorni prima per i piani annuali e almeno 7 giorni prima per i mensili, e puoi annullare senza costi prima che il nuovo prezzo entri in vigore. Sempre per l'Italia, se Adobe aggiorna le Condizioni d'uso, quelle nuove valgono non prima di 30 giorni dalla notifica e puoi annullare senza costi prima di quella data. La versione di prova diventa a pagamento alla fine, a meno che tu non annulli prima."
+ },
+ "amazon-music-unlimited": {
+  "alternative": "Se il piano lo consente, puoi sospendere l'abbonamento mensile invece di annullarlo: la sospensione parte alla fine del ciclo di fatturazione e l'abbonamento riprende da solo, oppure lo riattivi quando vuoi da 'Le mie impostazioni Amazon Music'. Non si possono sospendere i piani annuali, i periodi d'uso gratuito, le promozioni e i piani attivati tramite Apple, Google o un operatore mobile. Puoi anche passare a un piano di livello inferiore, che parte dalla scadenza del piano attuale.",
+  "assistenza": "In Italia il fornitore del servizio è Amazon Digital Italy S.R.L., e l'indirizzo per le comunicazioni indicato da Amazon è Amazon Digital Italy S.R.L., Attn: Legal Department, Viale Monte Grappa 3/5, 20124 Milano. Per le controversie le Condizioni d'Uso Amazon Music rimandano alle regole delle Condizioni Generali d'Uso di Amazon. Per cancellare o chiedere aiuto puoi contattare il servizio clienti Amazon dall'area 'Aiuto e Servizio clienti' di amazon.it.",
+  "costi_dettaglio": "Annullare non costa nulla, ma per l'art. 2.2 (c) i costi già pagati non vengono rimborsati, anche se non hai usato il servizio (art. 5.4 a). Fanno eccezione il recesso entro 14 giorni dall'iscrizione, previsto per i clienti nell'Unione Europea con rimborso (art. 5.4 b), e le modifiche sostanziali al servizio: in quel caso puoi cancellare entro 30 giorni dalla loro entrata in vigore e ricevere un rimborso proporzionale (art. 5.2 b). Se Amazon sospende o chiude il tuo accesso per violazione del contratto, non ricevi rimborsi (art. 5.3). Gli acquisti nello Store digitale sono definitivi e non si possono rendere (art. 1.5).",
+  "data": "2026-11-15",
+  "dati_lettera": "Non serve una lettera: l'abbonamento è legato al tuo account Amazon e si annulla dalle impostazioni Amazon Music. Al Piano Family si possono associare al massimo 6 account Amazon (art. 2.3).",
+  "errori": [
+   "Cercare il pulsante su Amazon quando ti sei abbonato da iPhone o tramite Google o il tuo operatore: Amazon dice di contattare loro per annullare o avere un rimborso.",
+   "Contare sul rimborso dei giorni non usati dopo i primi 14 giorni: l'art. 5.4 dice che il pagamento non è rimborsabile anche se non hai usato il servizio.",
+   "Chiedere la sospensione con un piano annuale, una prova gratuita o una promozione: in questi casi la pausa non è prevista, puoi solo annullare.",
+   "Lasciare scadere la prova gratuita pensando che si chiuda da sola: per l'art. 2.1 alcune promozioni diventano a pagamento se non cancelli prima della fine."
+  ],
+  "faq": [
+   {
+    "d": "Posso disdire Amazon Music Unlimited con Alexa?",
+    "r": "Sì, se ti sei iscritto tramite Amazon: basta dire 'Alexa, annulla il mio abbonamento ad Amazon Music Unlimited' a un Echo o a un dispositivo con Alexa."
+   },
+   {
+    "d": "Se Amazon aumenta il prezzo di Music Unlimited posso disdire?",
+    "r": "Sì. Per l'art. 5.2 (c) Amazon deve avvisarti almeno 30 giorni prima e tu puoi cancellare in qualsiasi momento entro 30 giorni dalla comunicazione."
+   },
+   {
+    "d": "Annullando Music Unlimited perdo anche l'audiolibro incluso?",
+    "r": "Sì. Con l'abbonamento individuale o Family, se sospendi o annulli perdi l'accesso all'audiolibro selezionato alla fine del ciclo di fatturazione in corso."
+   }
+  ],
+  "fonti": [
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=GCRZL3F2UZMNP3T3",
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=201380010",
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=G200738950",
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=GPZJKY2V638SDV8V",
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=GW3PHAUCZM8L7W9L"
+  ],
+  "online": "Se ti sei iscritto tramite Amazon, vai su 'Le mie impostazioni Amazon Music', apri la sezione 'Amazon Music Unlimited', selezioni 'Annulla' accanto ai dettagli per il rinnovo dell'iscrizione e confermi l'annullamento. Con un Amazon Echo o un dispositivo con Alexa puoi anche dire 'Alexa, annulla il mio abbonamento ad Amazon Music Unlimited'. L'articolo 5.4 delle Condizioni Generali d'Uso Amazon Music aggiunge il servizio clienti Amazon come canale per cancellare. Se ti sei abbonato tramite iTunes, Apple, Google o un fornitore di servizi mobili, Amazon rimanda a loro sia per annullare sia per un eventuale rimborso.",
+  "tempi_e_dopo": "L'annullamento ha effetto alla fine del periodo del piano in corso e fino ad allora puoi usare il servizio. Dopo, nella Libreria i brani e i podcast di Amazon Music Unlimited non sono più selezionabili e l'opzione di riproduzione viene rimossa. Con l'abbonamento individuale o Family, se sospendi o annulli perdi anche l'accesso all'audiolibro selezionato alla fine del ciclo di fatturazione in corso.",
+  "vincoli": "Per l'art. 2.2 (b) il Piano Illimitato si rinnova automaticamente alla scadenza, salvo che tu comunichi prima di non voler rinnovare. Il rinnovo avviene sul piano che Amazon considera più simile al tuo. Le prove gratuite e le promozioni possono convertirsi in automatico in un piano a pagamento se non cancelli prima della scadenza (art. 2.1). Se Amazon aumenta il prezzo, deve avvisarti almeno 30 giorni prima e tu puoi cancellare entro 30 giorni dalla comunicazione (art. 5.2 c). Se passi a un piano inferiore, il cambio vale dalla scadenza del piano in corso; se passi a uno superiore, vale subito. Puoi avere una sola iscrizione attiva per account. L'abbonamento per un singolo dispositivo non include i contenuti HD, Ultra HD e Audio spaziale."
+ },
+ "amazon-prime-video": {
+  "alternative": "Se il problema è il prezzo dell'opzione senza pubblicità, puoi annullare solo quella e tenere Prime Video con annunci limitati. Puoi anche annullare un singolo canale o un'iscrizione supplementare senza toccare Prime. Chi ha Amazon Prime può sospendere l'iscrizione da Prime Central, ma la pausa non è disponibile per chi ha un'iscrizione solo Prime Video.",
+  "assistenza": "Per la disdetta e i rimborsi il riferimento è il Servizio clienti Amazon, raggiungibile dalla pagina 'Contattaci' dell'aiuto Prime Video o da amazon.it. Le controversie seguono le Condizioni generali d'uso del sito Amazon del tuo paese, fatti salvi i diritti dei consumatori previsti dalla legge del tuo paese (sezione 6g).",
+  "costi_dettaglio": "Per un'iscrizione solo video, se recedi entro 14 giorni dalla conferma Amazon ti rimborsa per intero, ma può trattenere l'importo corrispondente all'uso del servizio in quel periodo (sezione 4d). Dopo i 14 giorni il rimborso completo spetta solo se dall'ultimo addebito non hai più acceduto ai contenuti dell'iscrizione. Se Prime Video ti arriva con Prime, valgono invece le regole di rimborso dei Termini Prime. Annullare un'iscrizione supplementare non dà rimborsi per i costi già pagati. Acquisti e noleggi sono definitivi, ma puoi annullarli entro 14 giorni con 'Cancella il tuo Ordine' in 'I Tuoi Ordini Digitali', solo se non hai ancora avviato la riproduzione o il download.",
+  "data": "2026-11-15",
+  "dati_lettera": "I Termini di utilizzo di Prime Video (sezione 4d) prevedono che per un'iscrizione solo video puoi recedere anche contattando il Servizio clienti Amazon o con il modulo di recesso messo a disposizione sul sito. Non serve indicare un codice contratto: l'iscrizione è legata al tuo account Amazon.",
+  "errori": [
+   "Annullare solo l'opzione senza pubblicità pensando di aver chiuso Prime Video: l'iscrizione Prime resta attiva e continua a essere addebitata.",
+   "Disdire un canale pagato tramite Apple il giorno del rinnovo: va fatto almeno 24 ore prima, altrimenti il mese può esserti addebitato.",
+   "Cercare la pausa per un'iscrizione solo Prime Video: Amazon la esclude, puoi solo terminarla.",
+   "Annullare un noleggio dopo aver avviato la visione: dopo l'inizio della riproduzione o del download l'ordine non si può più cancellare."
+  ],
+  "faq": [
+   {
+    "d": "Disdire Prime Video chiude anche Amazon Prime?",
+    "r": "Dipende dall'iscrizione. Se hai solo Prime Video, 'Termina iscrizione' chiude quella. Se Prime Video è incluso in Amazon Prime, per chiuderlo devi terminare l'iscrizione Prime su Amazon, e perdi anche gli altri vantaggi Prime."
+   },
+   {
+    "d": "Come tolgo solo l'opzione senza pubblicità?",
+    "r": "Da 'Il mio account' scegli 'Annulla iscrizione alla versione senza pubblicità' e confermi. Gli annunci tornano alla fine del ciclo di fatturazione in corso."
+   },
+   {
+    "d": "Se annullo un canale Prime Video Channels mi rimborsano il mese?",
+    "r": "No: Amazon indica che annullare un'iscrizione supplementare non prevede rimborsi per i costi già sostenuti. Continui però ad accedere al canale fino alla data di fine indicata nella conferma."
+   }
+  ],
+  "fonti": [
+   "https://www.primevideo.com/-/it/help?nodeId=GWGDSNXVPJ93UW5V",
+   "https://www.primevideo.com/-/it/help?nodeId=TgwZKZVnkveKeQdL0y",
+   "https://www.primevideo.com/-/it/help?nodeId=TR7P4YDu3J97ETYJ7S",
+   "https://www.primevideo.com/-/it/help?nodeId=G3BQ95AL4WZLV9ZG",
+   "https://www.amazon.it/primevideoterms",
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y",
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=GEG9TDENGGVMB453",
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=G2B9L3YR7LR8J4XP"
+  ],
+  "online": "Su Prime Video vai in 'Account e impostazioni' e apri la scheda 'Il mio account'. Se hai un'iscrizione solo Prime Video, selezioni 'Termina iscrizione'. Se Prime Video ti arriva con Amazon Prime, nella sezione 'Iscrizione Prime' scegli 'Modifica su Amazon' e chiudi l'iscrizione Prime dal sito Amazon. Per togliere solo l'opzione senza pubblicità, da sito vai in 'Il mio account' e scegli 'Annulla iscrizione alla versione senza pubblicità'. Dall'app per Fire TV, smart TV, console e decoder il percorso è 'Impostazioni' poi 'Prime'; da Android, iOS e tablet Fire è 'Impostazioni' poi 'Prime e iscrizioni'. Per un canale o un'iscrizione supplementare vai in 'Account e impostazioni', menu 'Abbonamenti', e scegli 'Annulla iscrizione' (può comparire anche come 'recedi'). Se l'iscrizione è stata attivata tramite terzi, per esempio un operatore mobile, devi rivolgerti a loro.",
+  "tempi_e_dopo": "Quando annulli un'iscrizione supplementare, la schermata di conferma mostra la data di fine: fino a quel giorno puoi ancora annullare la cancellazione, poi non hai più addebiti né accesso ai contenuti di quel canale. Se togli l'opzione senza pubblicità, alla fine del ciclo di fatturazione cominci a vedere un numero limitato di annunci su film e serie Prime. Le iscrizioni aggiuntive legate ad Amazon Prime o a Prime Video non si rinnovano quando l'iscrizione principale termina. I contenuti acquistati in genere restano disponibili per streaming o download, ma possono smettere di esserlo per limiti di licenza (sezione 4i).",
+  "vincoli": "Le iscrizioni e le prove gratuite si rinnovano automaticamente con l'addebito del canone in vigore, finché non le annulli prima dell'addebito. Le variazioni di prezzo valgono dall'inizio del periodo successivo e puoi rifiutarle recedendo (sezione 4c). Se Amazon fa una modifica sostanziale che peggiora il servizio, deve avvisarti almeno 30 giorni prima e puoi annullare entro 30 giorni con rimborso proporzionale (sezione 6d). Prime Video senza pubblicità è disponibile solo con iscrizione mensile. Se paghi l'opzione senza pubblicità o un canale tramite Apple, devi annullare almeno 24 ore prima del rinnovo, altrimenti il costo può esserti addebitato."
+ },
+ "amazon-prime": {
+  "alternative": "Invece di disdire puoi chiedere un'email di promemoria tre giorni prima del rinnovo. Puoi anche sospendere l'iscrizione dalla sezione 'Gestione iscrizioni' di Prime Central: la sospensione parte dopo il ciclo di fatturazione in corso. Un'iscrizione mensile sospesa si riattiva da sola dopo un mese. Un'iscrizione annuale si può sospendere fino a un anno, poi viene annullata se non la riattivi prima. La sospensione non è possibile se ti sei iscritto tramite terzi, se hai solo Prime Video, un'offerta scontata, Prime Business o Prime Student per ragazzi dai 18 ai 22 anni.",
+  "assistenza": "Il Servizio clienti si contatta dalla pagina amazon.it/gp/help/customer/contact-us. I Termini Prime aggiornati al 23 luglio 2026 sono stipulati con Amazon EU S.r.l., Amazon Media EU S.r.l. e Amazon Digital Italy S.r.l. La filiale italiana di Amazon EU S.r.l. ha sede in Viale Monte Grappa 3/5, 20124 Milano. Il contratto segue la legge del Lussemburgo, ma come consumatore residente nell'Unione europea mantieni le tutele obbligatorie del tuo paese e puoi rivolgerti ai tribunali dello Stato in cui risiedi (art. 8).",
+  "costi_dettaglio": "In Italia Prime costa 4,99 euro al mese o 49,90 euro all'anno. Prime Student costa 2,49 euro al mese o 24,95 euro all'anno. Le iscrizioni ottenute con un codice promozionale o un codice regalo non sono rimborsabili (art. 3.3). Un aumento di prezzo si applica solo dal rinnovo successivo dell'iscrizione (art. 5). Se Amazon non riesce ad addebitare la quota su nessuno dei tuoi metodi di pagamento, hai 30 giorni per inserirne uno valido, altrimenti l'iscrizione viene annullata (art. 3.2).",
+  "data": "2026-11-15",
+  "dati_lettera": "Per il recesso nei 14 giorni Amazon mette a disposizione un modulo PDF da spedire per posta ad Amazon EU Sàrl, 38 avenue John F. Kennedy, L-1855 Lussemburgo. Il modulo chiede nome e cognome, indirizzo, data di iscrizione ad Amazon Prime, email dell'account Amazon su cui è attiva l'iscrizione, firma e data. Per rispettare il termine basta inviare la comunicazione prima che scadano i 14 giorni (art. 3.4).",
+  "errori": [
+   "Lasciare scadere la prova gratuita convinto che si chiuda da sola: dopo 30 giorni Prime si rinnova automaticamente a pagamento, quindi devi terminare l'iscrizione prima.",
+   "Attivare Prime incluso in un'offerta TIM senza chiudere quello pagato ad Amazon: TIM avverte che l'abbonamento preesistente non viene sospeso e rischi di pagare Prime due volte.",
+   "Cercare la disdetta su Amazon quando Prime ti arriva da un operatore: in quel caso disdetta e rimborso seguono le regole della terza parte (art. 3.3).",
+   "Aspettarsi un rimborso per un'iscrizione ottenuta con un codice regalo o promozionale: i Termini la escludono."
+  ],
+  "faq": [
+   {
+    "d": "Se disdico Amazon Prime mi rimborsano?",
+    "r": "Rimborso completo se nel periodo in corso non hai fatto ordini idonei a Prime e non hai usato i vantaggi. Altrimenti il rimborso può essere solo parziale e dipende dall'uso dell'account."
+   },
+   {
+    "d": "Posso mettere in pausa Prime invece di disdire?",
+    "r": "Sì, per le iscrizioni idonee, da 'Gestione iscrizioni' in Prime Central: un mese per il piano mensile, fino a un anno per quello annuale. Durante la pausa non paghi ma non hai i vantaggi Prime."
+   },
+   {
+    "d": "Ho già Prime e attivo un pacchetto TIMVISION con Prime incluso: cosa devo fare?",
+    "r": "TIM chiede di disattivare il Prime preesistente prima di associare l'account Amazon all'offerta TIM. Se non lo fai, il vecchio abbonamento continua e potresti pagare due volte."
+   }
+  ],
+  "fonti": [
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y",
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=G2B9L3YR7LR8J4XP",
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=G34EUPKVMYFW8N2U",
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=GEG9TDENGGVMB453",
+   "https://www.amazon.it/gp/help/customer/display.html?nodeId=G6RZ3AA6NQMCKYEM",
+   "https://m.media-amazon.com/images/G/29/recesso/modulo_recesso_2._CB1198675309_.pdf",
+   "https://www.tim.it/assistenza/tv-calcio/timvision/servizi"
+  ],
+  "online": "Vai alla pagina 'La tua iscrizione ad Amazon Prime', seleziona 'Gestisci' in alto a destra, poi 'Aggiorna, Annulla e altro' e infine 'Termina l'iscrizione'. I Termini e condizioni di Amazon Prime (art. 3.3) prevedono anche la disdetta tramite il Servizio clienti. Se ti sei iscritto negli ultimi 14 giorni puoi usare la funzione di recesso nel 'Tuo Account'. Se hai attivato Prime tramite una terza parte, per disdire e per i rimborsi devi contattare direttamente quella terza parte.",
+  "tempi_e_dopo": "Se ti spetta un rimborso, Amazon ti manda un'email dopo la conferma della cancellazione. Se né tu né chi usa il tuo account avete usato i vantaggi Prime nel periodo in corso, Amazon rimborsa l'intero costo dell'iscrizione. Se li avete usati, puoi avere al massimo un rimborso parziale calcolato in base all'uso dell'account (art. 3.3). Se sospendi invece di disdire, anche gli abbonamenti legati all'iscrizione Prime terminano quando la fatturazione viene sospesa.",
+  "vincoli": "Alla fine della prova gratuita o del periodo pagato l'iscrizione si rinnova da sola, con addebito sulla carta indicata all'iscrizione o sulle altre carte registrate. La prova gratuita dura 30 giorni e alla fine si trasforma in iscrizione a pagamento al prezzo indicato nella pagina tariffe. Iscrivendoti accetti che il servizio inizi durante i 14 giorni di recesso, quindi il rimborso si riduce in proporzione ai vantaggi usati (art. 1 e 3.4). Amazon può chiudere la tua iscrizione con 14 giorni di preavviso e un rimborso proporzionale al periodo restante (art. 4). Prime è riservato ai maggiorenni (art. 3.9)."
+ },
+ "audible": {
+  "alternative": "Puoi mettere in pausa Audible Premium una sola volta ogni 12 mesi, per 30, 60 o 90 giorni: da 'Dettagli dell'account' selezioni 'Cancella l'iscrizione', poi 'Hai bisogno di una pausa?', scegli la durata e confermi con 'Metti l'abbonamento in pausa'. Durante la pausa non paghi, perdi l'accesso ai titoli inclusi ma continui ad ascoltare quelli acquistati. La pausa si può chiedere solo dopo aver pagato almeno una mensilità e non subito dopo la prova gratuita. Audible Standard non si può mettere in pausa, e la pausa non c'è se ti sei iscritto tramite App Store, Google Play o un operatore telefonico. Se hai un'offerta a prezzo ridotto, la pausa non la congela: alla riattivazione puoi pagare il prezzo intero. Dall'App Store puoi anche passare da Audible Standard a Premium o viceversa con 'Vedi tutti i piani'.",
+  "assistenza": "Servizio clienti Audible: email customersupport@audible.it, telefono 800 784 849, oppure 0039 02 8295 0297 se chiami dall'estero. Il servizio è fornito da Audible GmbH, Schumannstraße 6, 10117 Berlino, Germania. Come consumatore puoi agire davanti ai tribunali di Berlino o a quelli dello Stato UE in cui risiedi.",
+  "costi_dettaglio": "Durante il periodo di prova puoi terminare l'abbonamento in qualsiasi momento senza addebiti. Dopo i 14 giorni dall'iscrizione puoi terminare quando vuoi, ma i costi già versati non vengono rimborsati né in tutto né in parte (Termini di Abbonamento Audible). Alla riattivazione dopo una pausa l'abbonamento Premium riparte a 9,99 euro al mese. Se Audible chiude il tuo accesso per violazione delle Condizioni d'Uso, non ricevi alcun rimborso.",
+  "data": "2026-11-15",
+  "dati_lettera": "Non serve una lettera. L'account Audible usa le credenziali del tuo account Amazon, quindi per cancellare accedi con quelle. Se scrivi a customersupport@audible.it, usa l'indirizzo email dell'account.",
+  "errori": [
+   "Cercare il pulsante di cancellazione nell'app Audible se ti sei iscritto dall'App Store: in quel caso si annulla solo dalle impostazioni abbonamenti di iPhone.",
+   "Disinstallare l'app pensando di chiudere l'abbonamento: Audible precisa che l'abbonamento resta attivo.",
+   "Mettere in pausa un'offerta a prezzo ridotto: il periodo scontato continua a scorrere e alla riattivazione puoi pagare il prezzo pieno.",
+   "Disdire senza aver ascoltato i titoli inclusi: dopo la fine del ciclo di fatturazione vengono bloccati, restano solo quelli comprati singolarmente."
+  ],
+  "faq": [
+   {
+    "d": "Posso disdire Audible durante la prova gratuita?",
+    "r": "Sì. Le Condizioni d'Uso dicono che durante il periodo di prova puoi terminare l'abbonamento in qualsiasi momento senza alcun costo."
+   },
+   {
+    "d": "Dopo la disdetta di Audible perdo gli audiolibri?",
+    "r": "Perdi i titoli inclusi nel catalogo dell'abbonamento. I titoli che hai acquistato singolarmente restano tuoi nella Libreria e puoi riscaricarli quando vuoi."
+   },
+   {
+    "d": "Quante volte posso mettere in pausa Audible?",
+    "r": "Una sola volta ogni 12 mesi, per 30, 60 o 90 giorni, e solo con Audible Premium sottoscritto dal sito audible.it dopo aver pagato almeno una mensilità."
+   }
+  ],
+  "fonti": [
+   "https://www.audible.it/legal/conditions-of-use",
+   "https://www.audible.it/help/article/cancel-membership",
+   "https://www.audible.it/help/article/pause-your-membership",
+   "https://www.audible.it/help/article/manage-app-store-subscription"
+  ],
+  "online": "Da PC accedi ad audible.it, vai su 'Ciao, [il tuo nome]!', selezioni 'Dettagli dell'Account' e poi 'Cancella l'iscrizione'; scegli la motivazione e confermi con 'Cancella Abbonamento'. Da browser mobile apri il menu principale (tre linee orizzontali), selezioni il tuo nome utente, 'Vedi i dettagli dell'abbonamento', 'Cancella l'iscrizione', scorri in fondo e selezioni 'Prosegui alla cancellazione', poi 'Finalizza la cancellazione', scegli il motivo e clicchi 'Invia'. Puoi farlo anche da Amazon: 'Account e liste', 'Iscrizioni e abbonamenti', poi alla voce 'Abbonamento Audible' selezioni 'Impostazioni Audible' e in 'Opzioni dell'abbonamento e aiuto' scegli 'Cancella l'abbonamento'. Se ti sei iscritto dall'App Store non puoi cancellare dall'app Audible: apri 'Impostazioni' su iPhone, tocchi il tuo nome, 'Abbonamenti', 'Audible', 'Annulla abbonamento' e 'Conferma'. Le Condizioni d'Uso indicano anche l'email del servizio clienti customersupport@audible.it.",
+  "tempi_e_dopo": "Dopo la disdetta ricevi un'email di conferma e lo stato dell'iscrizione cambia nei 'Dettagli dell'Account'. Fino alla fine dell'ultimo ciclo di fatturazione mantieni i vantaggi. Poi i titoli inclusi nel catalogo vengono bloccati con l'icona del lucchetto, mentre i titoli comprati singolarmente restano tuoi nella Libreria e puoi riscaricarli quando vuoi. Con Audible Standard puoi ascoltare le selezioni mensili fino alla fine dell'ultimo ciclo di fatturazione. Con Audible Premium perdi anche i vantaggi per i clienti, come gli sconti sull'acquisto di audiolibri. Disinstallare l'app non chiude l'abbonamento, che resta attivo.",
+  "vincoli": "L'Abbonamento Audible si rinnova automaticamente ogni mese finché non lo termini tu o Audible. Alla fine della prova vieni iscritto in automatico e Audible addebita il costo mensile; se il metodo predefinito viene rifiutato, può addebitare un altro metodo di pagamento del tuo account Amazon. Le prove gratuite sono limitate a una per cliente ogni 12 mesi. Hai 14 giorni dalla conclusione del contratto per recedere, ma il diritto non vale se hai chiesto di iniziare subito e Audible ha già eseguito completamente il contratto. Se ti sei iscritto dall'App Store, devi aspettare che la cancellazione sia completata prima di iscriverti di nuovo dal sito o dall'app Audible."
+ },
+ "bluenergy": {
+  "alternative": "Se vuoi solo cambiare fornitore non devi scrivere a Bluenergy: rilasci una procura al nuovo venditore, che invia il recesso per tuo conto entro il giorno 10 del mese precedente il cambio, senza oneri (CGC art. 4.9 e Scheda Sintetica). Se hai firmato da poco puoi usare il Modulo ripensamento Rev. 11/2024 e inviarlo per raccomandata A/R a Viale Venezia 430, 33100 Udine, all'e-mail ripensamenti@bluenergygroup.it o, secondo la Scheda Sintetica, al fax 0432 632905. Chi esercita il ripensamento per chiudere del tutto deve chiedere la disattivazione del POD/PDR al fornitore attuale (art. 3). Se lasci la casa e chi entra vuole tenere le utenze, c'è il Modulo richiesta voltura: costa 49 euro più IVA per il gas e 23 euro più IVA per la luce, a carico di chi subentra.",
+  "assistenza": "Servizio clienti: numero verde 800 087 587 gratuito da fisso, 0432 653000 da cellulare a pagamento secondo il tuo piano. E-mail clienti@bluenergygroup.it. Reclami e richieste di informazioni: form online sulla pagina Reclami, e-mail infoereclami@bluenergygroup.it, PEC infoereclami.bluenergy@legalmail.it, consegna in un punto vendita o raccomandata A/R a Bluenergy Group S.p.A., Viale Venezia 430, 33100 Udine. Il reclamo deve contenere almeno nome e cognome, indirizzo di fornitura, recapito per la risposta, servizio interessato, POD o PDR e una breve descrizione dei fatti. Bluenergy deve rispondere entro 30 giorni, altrimenti ti spetta un indennizzo automatico da 25 euro, che sale a 50 o 75 euro se il ritardo raddoppia o triplica (CGC art. 16.2). Se la risposta non ti soddisfa puoi attivare gratis il Servizio Conciliazione di ARERA sul sito sportelloperilconsumatore.it, informazioni al numero verde 800 166 654.",
+  "costi_dettaglio": "La Scheda Sintetica dell'offerta luce Su Misura (ESUMO0526L) riporta alla voce onere di recesso anticipato: nessuno. L'art. 4.12 delle CGC permette però a Bluenergy di addebitare un onere di recesso anticipato sulle forniture luce a prezzo fisso con condizioni economiche a tempo determinato, se recedi prima della loro scadenza: l'importo è scritto nelle CTE che hai firmato. L'art. 10.2 mette a tuo carico i corrispettivi delle prestazioni svolte dal distributore, indicati nella modulistica sul sito. Se dopo la disdetta hai bollette arretrate, la Scheda Sintetica prevede 10 euro per il sollecito di pagamento, 15 euro per il preavviso di sospensione per morosità e 7 euro per un insoluto SEPA. Il deposito cauzionale richiesto a chi non paga con addebito SEPA va da 50 euro (fino a 1.500 kWh annui) a 200 euro (fino a 25.000 kWh) per la luce, e ti torna nella bolletta di chiusura.",
+  "data": "2026-11-15",
+  "dati_lettera": "Per chiudere ti servono i codici del punto: POD per la luce (inizia con IT E) e PDR per il gas, insieme alla matricola del contatore, come chiedono i moduli ufficiali Bluenergy. Indica nome, cognome, codice fiscale, residenza e indirizzo della fornitura. Se non trovi il POD o il PDR, le CGC (art. 16.6) ammettono il codice cliente come alternativa per identificarti. Scrivi anche un indirizzo postale o un'e-mail dove ricevere le risposte e la bolletta di chiusura. L'indirizzo per la posta è Bluenergy Group S.p.A., Viale Venezia 430, 33100 Udine (UD).",
+  "errori": [
+   "Usare il modulo di ripensamento per chiudere la fornitura: il modulo Bluenergy stesso avverte di non usarlo per disattivazione POD/PDR o disdetta.",
+   "Mandare la disdetta all'indirizzo e-mail o al fax del ripensamento: per l'art. 4.10 delle CGC il recesso per cessazione va inviato con raccomandata A/R o PEC.",
+   "Lasciare il contatore inaccessibile dopo la disdetta: dopo 3 tentativi falliti del distributore Bluenergy può chiedere l'interruzione con oneri a tuo carico, e i consumi fino alla chiusura restano da pagare.",
+   "Disdire una luce a prezzo fisso prima della scadenza delle CTE senza leggere il proprio contratto: l'art. 4.12 delle CGC consente un onere di recesso anticipato, con importo fissato nelle CTE firmate."
+  ],
+  "faq": [
+   {
+    "d": "Posso disdire Bluenergy con una e-mail a ripensamenti@bluenergygroup.it?",
+    "r": "No, quell'indirizzo serve solo per il ripensamento entro 14 giorni (30 per i contratti a domicilio). Per cessare la fornitura le CGC chiedono raccomandata A/R o PEC a Bluenergy."
+   },
+   {
+    "d": "Quando mi restituiscono il deposito cauzionale Bluenergy?",
+    "r": "Nella bolletta di chiusura, che deve arrivarti entro 6 settimane dalla cessazione. Se mancano le letture effettive, il deposito ti torna già nella bolletta con consumi stimati che precede quella di chiusura."
+   },
+   {
+    "d": "Cosa succede se Bluenergy non risponde al mio reclamo sulla chiusura?",
+    "r": "Bluenergy ha 30 giorni per rispondere al reclamo scritto. Se non lo fa ti spetta un indennizzo automatico di 25 euro, fino a 75 euro in caso di forte ritardo, e puoi attivare il Servizio Conciliazione ARERA."
+   }
+  ],
+  "fonti": [
+   "https://www.bluenergygroup.it/wp-content/uploads/2018/08/2024_11_BEG_CGC13_web.pdf",
+   "https://www.bluenergygroup.it/wp-content/uploads/2025/10/ESUMO0526L.pdf",
+   "https://www.bluenergygroup.it/wp-content/uploads/2018/08/2024-11_BEG_Modulo_Ripensamento.pdf",
+   "https://www.bluenergygroup.it/wp-content/uploads/2023/10/2024_01_GE_03.pdf",
+   "https://www.bluenergygroup.it/pagina-modulistica/",
+   "https://www.bluenergygroup.it/reclami/",
+   "https://www.bluenergygroup.it/contatti/",
+   "https://www.bluenergygroup.it/"
+  ],
+  "online": "Bluenergy mette a disposizione lo Sportello Online (area riservata su area-riservata.bluenergygroup.it) e l'app MyBluenergy per gestire le forniture, ma le pagine e i documenti ufficiali consultati non indicano una funzione per disdire da lì. Il modulo di ripensamento dice in maiuscolo di non usarlo per disattivazione POD/PDR o disdetta e rimanda al servizio clienti. Le Condizioni Generali di Contratto CGC13 (valide dal 01/01/2025, art. 4.10) chiedono che il recesso per cessare la fornitura arrivi direttamente dal cliente a Bluenergy con raccomandata A/R o PEC. Puoi anche passare da uno dei punti vendita Bluenergy per informazioni sulla tua fornitura.",
+  "tempi_e_dopo": "Se chiudi senza cambiare fornitore il preavviso è di 1 mese dalla data in cui Bluenergy riceve la tua comunicazione (CGC art. 4.10). Fino alla chiusura del contatore paghi i consumi: se il distributore non riesce ad accedere al contatore fa fino a 3 tentativi, poi Bluenergy può chiedere l'interruzione dell'alimentazione con oneri a tuo carico oppure risolvere il contratto e attivare i servizi di ultima istanza. I prelievi tra la tua richiesta e la chiusura effettiva restano comunque a tuo carico. La bolletta di chiusura deve arrivarti entro 6 settimane dalla cessazione (CGC art. 7.5) e contiene la restituzione del deposito cauzionale, se lo avevi versato. Se mancano le letture effettive del distributore, Bluenergy emette prima una bolletta con consumi stimati e il deposito restituito, poi la bolletta di chiusura quando arrivano le letture (art. 7.6).",
+  "vincoli": "Il contratto Bluenergy è a tempo indeterminato (CGC art. 4.8). Il prezzo invece ha una scadenza: nell'offerta Su Misura i corrispettivi valgono fino al 31/12/2027. Almeno 3 mesi prima della scadenza Bluenergy ti manda una proposta di rinnovo con le nuove condizioni, e puoi rifiutarla recedendo. Se Bluenergy non ti scrive, le condizioni in corso si prorogano di 12 mesi in 12 mesi (art. 12.2). Per le modifiche unilaterali per giustificato motivo il preavviso è di almeno 3 mesi e puoi recedere. Il ripensamento vale 14 giorni dalla conclusione del contratto, 30 se il contratto è nato da una visita non richiesta a casa tua."
+ },
+ "bnp-paribas-cardif": {
+  "alternative": "Se estingui in anticipo il finanziamento, la CPI a premio unico anticipato finisce alla data di estinzione e hai diritto al premio non goduto: invii il 'Modulo per la raccolta delle informazioni sulla copertura assicurativa in caso di anticipata estinzione'. Nello stesso modulo puoi scegliere invece di mantenere la copertura fino alla scadenza originaria. Il modulo vale anche per accollo e portabilità del finanziamento. Con un'estinzione parziale la copertura resta attiva sul nuovo piano di ammortamento e ti rimborsano il premio non goduto, con una richiesta scritta che include l'IBAN. Con premio mensile calcolato sulla rata, la copertura finisce insieme al finanziamento e non c'è rimborso.",
+  "assistenza": "Servizio clienti: 800 900 780, +39 02 77224686 dall'estero. Per i prodotti di Protezione risponde dal lunedì al venerdì dalle 8.30 alle 19 e il sabato dalle 9 alle 13; per Risparmio e Previdenza dal lunedì al venerdì dalle 8.30 alle 18.30. E-mail servizioclienti@cardif.com, allegando documento d'identità e codice fiscale fronte retro, oppure WhatsApp con l'assistente virtuale Alin. I reclami sul contratto vanno all'Ufficio Reclami della compagnia che ha emesso la polizza: e-mail reclami@cardif.com, posta a Piazza Lina Bo Bardi 3, 20124 Milano, fax 02 77 22 42 65. Cardif risponde entro 45 giorni. Se la risposta manca o non ti soddisfa puoi scrivere all'IVASS (tutela.consumatore@pec.ivass.it) o ricorrere all'Arbitro Assicurativo, entro 12 mesi dal reclamo. Per le Rappresentanze di Cardif Assurances Risques Divers e Cardif Assurance Vie l'autorità di vigilanza è la francese ACPR.",
+  "costi_dettaglio": "Disdetta e recesso non hanno una penale indicata nelle FAQ. Sul rimborso del premio però Cardif può trattenere imposte e spese amministrative: dopo un'estinzione anticipata del finanziamento trattiene le imposte e le spese sostenute per l'emissione e l'estinzione del contratto. Nel set informativo della CPI Revolving per tutti (convenzioni 5166_01 e 5550_02) il recesso entro 60 giorni rimborsa il premio versato al netto delle imposte e della parte già goduta, con possibili spese amministrative trattenute. Nello stesso prodotto il recesso dopo i 60 giorni chiude la copertura dalla mensilità successiva senza nessuna restituzione di premio.",
+  "data": "2026-11-15",
+  "dati_lettera": "Nei moduli Cardif indichi numero contratto, nome del prodotto, codice convenzione e partner, cioè l'intermediario che ti ha venduto la polizza (la banca o la finanziaria). Il codice convenzione ha un formato come 5119_01 o 5491/02: lo trovi sul modulo di adesione, negli estratti conto annuali o in MyCardif alla sezione 'Le tue polizze'. Servono anche nome, cognome, codice fiscale, data e luogo di nascita dell'aderente e un indirizzo di contatto. Alleghi sempre documento d'identità valido fronte e retro e codice fiscale fronte e retro. Per recesso, cessazione ed estinzione anticipata aggiungi l'IBAN intestato al contraente, dove Cardif ti rimborsa il premio. L'indirizzo per la posta è Cardif, Back Office Protezione, Post Vendita, Casella Postale 231, 20123 Milano (MI).",
+  "errori": [
+   "Mandare una disdetta per una polizza che non si rinnova tacitamente: Cardif la prevede solo per i contratti a rinnovo annuale, negli altri casi serve il modulo di recesso.",
+   "Dimenticare il codice convenzione: Cardif chiede di indicarlo insieme al numero di contratto per capire quale polizza chiudere.",
+   "Estinguere il prestito e aspettare il rimborso in automatico: per la CPI a premio unico va inviato il modulo di estinzione anticipata con l'IBAN, scegliendo se mantenere o chiudere la copertura.",
+   "Scrivere alla compagnia sbagliata del gruppo: ci sono tre imprese (Cardif Vita, Cardif Assurances Risques Divers, Cardif Assurance Vie) e il nome giusto è sul modulo di adesione o sul set informativo."
+  ],
+  "faq": [
+   {
+    "d": "Ho estinto il finanziamento: la polizza Cardif mi rimborsa qualcosa?",
+    "r": "Sì se la CPI era a premio unico anticipato: la copertura finisce all'estinzione e ti rimborsano il premio non goduto, al netto di imposte e spese amministrative. Se il premio era mensile sulla rata, la copertura si chiude con il finanziamento e non c'è rimborso."
+   },
+   {
+    "d": "Posso uscire da una polizza Cardif pluriennale prima della fine?",
+    "r": "Per le polizze di Protezione poliennali sì, dopo almeno 5 anni dalla decorrenza, inviando la richiesta entro 60 giorni dalla ricorrenza annuale. Se il set informativo lo prevede, puoi recedere in ogni momento."
+   },
+   {
+    "d": "Dove trovo il numero della mia polizza Cardif?",
+    "r": "Numero di contratto e codice convenzione sono sul modulo di adesione, negli estratti conto annuali e nell'area personale MyCardif, nella sezione 'Le tue polizze'."
+   }
+  ],
+  "fonti": [
+   "https://bnpparibascardif.it/faq/",
+   "https://bnpparibascardif.it/contatti/",
+   "https://bnpparibascardif.it/reclami-controversie-arbitro-assicurativo/",
+   "https://bnpparibascardif.it/dati-societari/",
+   "https://bnpparibascardif.it/wp-content/uploads/sites/17/2026/01/Modulo-di-disdetta-polizza-v2.pdf",
+   "https://bnpparibascardif.it/modulo-di-recesso-polizza-v2/",
+   "https://bnpparibascardif.it/wp-content/uploads/sites/17/2026/01/Modulo-di-recesso-immediato-v1.pdf",
+   "https://bnpparibascardif.it/wp-content/uploads/sites/17/2026/01/Modulo-Estinzione-anticipata-v2.pdf",
+   "https://www.setinformativi.bnpparibascardif.it/documents/054/Findomestic%20Banca%20S.p.A/Set%20Informativo_5166_01_5550_02_CPI%20Revolving%20per%20tutti_08_2024_5.0.pdf"
+  ],
+  "online": "Per le polizze di Protezione (persone, beni, finanziamenti) le FAQ ufficiali di BNP Paribas Cardif non prevedono una disdetta con un clic: scarichi il modulo giusto e lo invii per e-mail a lineapersone@cardif.com, per raccomandata A/R o per fax al 02 30329809. Cardif usa tre moduli diversi: 'Modulo di disdetta' per fermare il rinnovo, 'Modulo di recesso' per il ripensamento, 'Modulo di cessazione polizza' per il recesso in ogni momento quando il set informativo lo consente. Se la polizza è stata venduta da BNL puoi comunicare la disdetta anche in filiale. Alcuni prodotti venduti da un partner hanno un canale in più: per esempio la CPI Revolving per tutti di Findomestic si chiude anche dall'app Findomestic, con il pulsante 'Richiedi Recesso'. Per le polizze Risparmio e Investimento BNL ti rivolgi al gestore in filiale, negli altri casi scrivi a backofficerisparmio@cardif.com con il modulo di revoca e recesso. Nell'area personale MyCardif, con accesso tramite SPID o CieID, trovi i numeri della polizza e puoi chiedere riscatti e liquidazioni per scadenza.",
+  "tempi_e_dopo": "La disdetta ferma la copertura dal primo rinnovo utile, come scritto nel modulo. Con il modulo di cessazione, se paghi un premio unico o annuale la copertura finisce alla data in cui Cardif riceve la richiesta e ti rimborsa il premio del periodo non goduto, escluse le imposte. Se paghi un premio mensile la copertura finisce alla scadenza dell'ultimo premio pagato dopo la tua richiesta, senza rimborso. Dopo l'invio entro i termini Cardif ti manda un riscontro. Se vedi addebiti dopo la scadenza nonostante una disdetta valida, Cardif dice che ti restituisce l'importo: scrivi a lineapersone@cardif.com con la prova dell'addebito, il codice convenzione e il numero di contratto.",
+  "vincoli": "Secondo le FAQ la disdetta esiste solo per le polizze che si rinnovano tacitamente ogni anno e va inviata entro i termini delle condizioni di polizza, prima della scadenza. Se la polizza non si rinnova da sola devi usare il recesso. Per le polizze di Protezione di durata poliennale puoi recedere dopo almeno 5 anni dalla decorrenza, con richiesta inviata entro 60 giorni dalla ricorrenza annuale. Se il set informativo lo prevede puoi recedere in ogni momento. Nella CPI Revolving per tutti di Findomestic il ripensamento vale 60 giorni dalla Data di Decorrenza, e recedere da una delle due polizze abbinate significa recedere anche dall'altra."
+ },
+ "canva": {
+  "alternative": "Invece di annullare puoi mettere in pausa un piano Canva Pro, Teams o Business per 3 mesi: nel percorso di annullamento scegli 'Voglio mettere in pausa il mio abbonamento' e poi 'Metti in pausa per 3 mesi'. Durante la pausa non paghi nulla, le funzioni premium sono sospese e il piano riparte da solo dopo 3 mesi, con un promemoria via e-mail prima. Con un piano annuale puoi metterlo in pausa solo se mancano meno di due mesi al rinnovo. Se paghi con Google Play, la pausa si fa dal Play Store con 'Gestisci' e 'Sospendi pagamenti'.",
+  "assistenza": "L'assistenza si contatta dal Centro assistenza Canva, sezione 'Contattaci', indicando cosa è andato storto e allegando una copia della fattura. Le comunicazioni legali per i clienti fuori da Stati Uniti e Regno Unito vanno a Canva Pty Ltd, 110 Kippax St, Surry Hills, NSW 2010, Australia, alla c.a. dell'ufficio legale.",
+  "costi_dettaglio": "Non ci sono penali. Le Condizioni d'uso dicono che l'abbonamento annullato si chiude alla fine del ciclo di fatturazione e che non hai diritto al rimborso delle somme già pagate, salvo dove la legge lo prevede; eventuali importi ancora dovuti diventano subito esigibili. Il centro assistenza conferma che nella maggior parte dei casi gli abbonamenti non sono rimborsabili, anche se Canva esamina ogni richiesta. Per gli abbonamenti presi tramite App Store il rimborso va chiesto ad Apple, non a Canva. Nei team non ricevi rimborso né credito per le postazioni già pagate che togli.",
+  "data": "2026-11-15",
+  "dati_lettera": "Se non riesci ad annullare, Canva chiede di contattare l'assistenza indicando l'indirizzo e-mail del tuo account. Se continui a ricevere addebiti dopo l'annullamento, l'assistenza vuole il numero ID della fattura o uno screenshot dell'addebito; se hai pagato tramite Apple o Google, anche il numero d'ordine o l'ID della ricevuta.",
+  "errori": [
+   "Eliminare l'account pensando di chiudere l'abbonamento: Canva scrive che l'eliminazione non annulla il piano, quindi va annullato prima per non ricevere altri addebiti.",
+   "Annullare Canva Teams pensando di poter tornare: l'annullamento di Teams è definitivo e non potrai più abbonarti a Teams, Canva suggerisce di valutare il passaggio a Canva Business.",
+   "Annullare sull'account sbagliato: se hai più account o fai parte di più team, l'abbonamento può essere su un altro indirizzo e-mail o su un altro team e gli addebiti continuano.",
+   "Aspettare l'ultimo giorno: la fatturazione segue l'orario UTC e l'addebito può arrivare un giorno prima di quanto pensi."
+  ],
+  "faq": [
+   {
+    "d": "Perdo i miei design se annullo Canva Pro?",
+    "r": "No. Dopo la fine del periodo pagato l'account passa a Canva Gratis e tutti i design restano accessibili. Perdi solo le funzioni a pagamento."
+   },
+   {
+    "d": "Posso sospendere Canva invece di disdire?",
+    "r": "Sì, per 3 mesi, dalla pagina 'Fatturazione' durante la procedura di annullamento. Non paghi e il piano riparte da solo; con l'annuale la pausa è possibile solo se mancano meno di due mesi al rinnovo."
+   },
+   {
+    "d": "Canva mi rimborsa l'anno se disdico subito dopo il rinnovo?",
+    "r": "Di norma no: le Condizioni d'uso escludono il rimborso delle somme già pagate, salvo dove la legge lo prevede. Canva esamina comunque ogni richiesta fatta all'assistenza."
+   }
+  ],
+  "fonti": [
+   "https://www.canva.com/it_it/help/cancel-canva-plan/",
+   "https://www.canva.com/it_it/help/subscription-refunds/",
+   "https://www.canva.com/it_it/help/pause-annual-canva-plan/",
+   "https://www.canva.com/it_it/help/automatic-subscription-renewal/",
+   "https://www.canva.com/it_it/help/delete-account/",
+   "https://www.canva.com/it_it/politiche/terms-of-use/"
+  ],
+  "online": "Se ti sei abbonato direttamente su Canva (desktop o web), accedi all'account o al team giusto, apri il menu dal tuo profilo nella homepage, scegli 'Impostazioni' e poi 'Fatturazione'. Sotto il tuo piano selezioni 'Annulla piano', poi 'Continua con l'annullamento', indichi il motivo, premi di nuovo 'Continua con l'annullamento' e chiudi con 'Annulla abbonamento'. Quando l'abbonamento è annullato ricevi un'e-mail di conferma. Se hai pagato tramite Google Play, annulli dal Play Store in 'Pagamenti e abbonamenti', 'Abbonamenti', piano Canva, 'Annulla abbonamento'. Se hai pagato tramite App Store, su iPhone o iPad vai in 'Impostazioni', tocchi il tuo nome, 'Abbonamenti', 'Canva', 'Annulla abbonamento'. Disinstallare l'app non annulla il piano. Per capire dove annullare, Canva consiglia di guardare nell'e-mail di fatturazione o nell'estratto conto se l'addebito arriva da Canva, Google, Apple o PayPal. Nei piani per team solo proprietari e amministratori possono annullare.",
+  "tempi_e_dopo": "L'annullamento ferma i pagamenti futuri e le funzioni a pagamento restano fino alla fine del periodo di fatturazione in corso. Dopo, l'account resta attivo con Canva Gratis, tutti i design restano accessibili e puoi continuare a usare Affinity gratis con lo stesso account. Con Canva Teams o Canva Business l'area di lavoro passa al piano gratuito e il Kit Aziendale e le cartelle condivise restano accessibili. Finché l'abbonamento è ancora attivo puoi revocare la disdetta dalla pagina 'Fatturazione' con il pulsante 'Resta su Canva Pro' (o Teams, Business, Pro Lite). Se un rimborso viene approvato, arriva in 5 o 10 giorni lavorativi su carta di credito, in 3 o 5 su PayPal e fino a 20 per gli altri metodi.",
+  "vincoli": "I piani a pagamento si rinnovano in automatico a ogni ciclo, mensile o annuale, e Canva ti avvisa prima del rinnovo. Tutte le transazioni seguono l'orario GMT (UTC), per questo l'addebito può comparire un giorno prima del previsto, anche alla fine di una prova gratuita. Per evitare il rinnovo devi annullare o mettere in pausa prima della fine del periodo pagato, la data è nella pagina 'Fatturazione'. Se Canva aumenta il prezzo, il nuovo prezzo si applica dal rinnovo successivo o 30 giorni dopo l'avviso, quale delle due date viene dopo, e puoi annullare se non lo accetti. Alla fine di una prova gratuita Canva addebita il ciclo successivo, a meno che tu non annulli prima. Per chi ha l'indirizzo di fatturazione fuori da Stati Uniti e Regno Unito, la società contraente è Canva Pty Ltd."
+ },
+ "chebanca": {
+  "alternative": "Se passi a un'altra banca puoi usare la procedura di trasferimento dei servizi di pagamento: autorizzi la banca nuova, che chiede anche la chiusura del conto, con un termine di 12 giorni lavorativi. Se vuoi solo ridurre i costi, il Foglio Informativo prevede sconti sul canone del Conto Premier fino al 31 dicembre 2027, per esempio 2 euro in meno nel mese dopo un accredito di stipendio.",
+  "assistenza": "Servizio Clienti Mediobanca Premier: 800.10.10.30 da fisso in Italia, +39 02.3200.4141 da cellulare o dall'estero. Per i conti digita 1 e poi 1, dal lunedì al venerdì dalle 8 alle 21 e il sabato dalle 8 alle 14; per investimenti e mutui l'orario è dal lunedì al venerdì dalle 9 alle 19. Le carte di debito, credito e prepagate sono seguite dal Servizio Clienti Nexi. I reclami vanno all'Ufficio Reclami: raccomandata A/R a Viale Bodio 37, Palazzo 4, 20158 Milano, e-mail soluzioni@mediobancapremier.com, PEC soluzioni@pec.mediobancapremier.com o form sul sito. Per i servizi di pagamento la banca risponde entro 15 giornate operative (massimo 35 con risposta interlocutoria), per gli altri servizi bancari entro 60 giorni. Se la risposta non arriva o non ti soddisfa puoi rivolgerti all'Arbitro Bancario Finanziario, o all'Arbitro per le Controversie Finanziarie della Consob per i servizi di investimento.",
+  "costi_dettaglio": "Il Foglio Informativo del Conto Premier dice che puoi recedere in qualsiasi momento senza penali o spese e senza indicare il motivo, e il modulo conferma che la chiusura è completamente gratuita. Il canone del Conto Premier è di 10 euro al mese, 120 euro l'anno: non è più dovuto dal mese successivo a quello del recesso, e i canoni pagati in anticipo ti vengono rimborsati per i mesi successivi. Con un fido devi prima saldare capitale, interessi, spese e commissioni. Sul Conto Deposito i vincoli in corso vengono revocati: le somme svincolate prima della scadenza sono remunerate al tasso base, e la banca trattiene l'intero importo degli interessi già anticipati.",
+  "data": "2026-11-15",
+  "dati_lettera": "La banca consiglia di usare il Modulo Estinzione, ma accetta anche una richiesta in carta libera purché contenga le stesse informazioni. Servono cognome, nome e codice fiscale di chi chiede, il tipo di rapporto da chiudere (Conto Premier, Conto Deposito, Dossier Titoli, Conto Yellow, carta di credito, cassetta di sicurezza, POS…), l'intestatario e l'IBAN. Indica l'IBAN e l'intestatario del conto dove vuoi ricevere il saldo residuo con bonifico. Puoi chiedere che le utenze domiciliate passino su un altro conto Mediobanca Premier: quelle non trasferite vengono revocate. Nel modulo dichiari se restituisci carte e assegni o se li hai distrutti, con il numero della carta tagliata a metà e la numerazione degli assegni inutilizzati. Se hai una cassetta di sicurezza, dichiari di averla svuotata e di aver restituito la chiave. Per le carte di credito Nexi collegate al conto va compilato anche il modulo nell'ultima pagina, firmato da ogni titolare.",
+  "errori": [
+   "Chiudere il conto con titoli ancora nel Dossier: la banca chiede di trasferirli o venderli prima di inviare la richiesta di estinzione.",
+   "Mandare la PEC da un indirizzo qualsiasi: deve partire da un recapito di uno degli intestatari già registrato tra i contatti della banca.",
+   "Pensare che chiudere la carta di credito chiuda anche il conto: il modulo precisa che carta, Viacard, cassetta e POS si chiudono senza toccare il conto corrente collegato.",
+   "Dimenticare stipendio e pensione: le nuove coordinate le devi comunicare tu al datore di lavoro o all'ente, e le domiciliazioni non trasferite vengono revocate."
+  ],
+  "faq": [
+   {
+    "d": "Il conto CheBanca! esiste ancora o devo scrivere a Mediobanca Premier?",
+    "r": "La banca ha cambiato nome in Mediobanca Premier S.p.A., con la stessa sede in Viale Bodio 37 a Milano. Il modulo di estinzione pubblicato sul sito riporta ancora l'intestazione CheBanca!, la Casella Postale 193 di Asti e la PEC chebanca.pec@legalmail.it."
+   },
+   {
+    "d": "Quanto tempo ci mette Mediobanca Premier a chiudere il conto?",
+    "r": "Al massimo 60 giorni secondo il Foglio Informativo del Conto Premier. Se chiudi trasferendo i servizi di pagamento a un'altra banca il termine scende a 12 giorni lavorativi."
+   },
+   {
+    "d": "Ho un conto cointestato: serve la firma di tutti?",
+    "r": "No. Sia il modulo sia il Foglio Informativo dicono che basta la richiesta di uno solo degli intestatari per chiudere il conto."
+   }
+  ],
+  "fonti": [
+   "https://www.mediobancapremier.com/wcm/connect/public/ef7b7a10-7bbf-431d-9033-c88ab81471ec/Modulo_Estinzione.pdf?MOD=AJPERES",
+   "https://www.mediobancapremier.com/wcm/connect/public/cba4186a-d1ce-48eb-a453-cdc615207ef8/Modulo_estinzione.pdf?MOD=AJPERES",
+   "https://www.mediobancapremier.com/wcm/connect/public/3c5893fc-213e-40e7-a09e-93334a0633bb/foglio-informativo-conto-premier.pdf?MOD=AJPERES",
+   "https://www.mediobancapremier.com/public/footer/recesso",
+   "https://www.mediobancapremier.com/public/header/contatti",
+   "https://www.mediobancapremier.com/public/footer/reclami",
+   "https://www.mediobancapremier.com/public/footer/trasparenza/fogli-informativi"
+  ],
+  "online": "CheBanca! oggi si chiama Mediobanca Premier S.p.A. e fa parte del Gruppo Bancario Monte dei Paschi di Siena: il sito di riferimento è mediobancapremier.com. Le istruzioni ufficiali per l'estinzione indicano quattro strade: consegna in filiale, form e-mail nell'Area Clienti, posta ordinaria o raccomandata, PEC. Se hai i codici, dall'assistente digitale dell'Area Clienti e dell'App Mediobanca Premier puoi anche scrivere un'e-mail alla banca. Se hai aperto il conto da meno di 14 giorni tramite sito, Area Clienti o App, c'è una funzione di recesso dedicata: in Area Clienti 'Gestione Profilo > Status Profilo > Contratti', nell'App 'Profilo > Gestione contratti'. Per le operazioni di investimento il percorso è 'Contattaci > Scrivici' e poi 'Recesso'.",
+  "tempi_e_dopo": "Il recesso è efficace nel momento in cui la banca riceve la comunicazione. Dalla stessa data un eventuale fido non è più utilizzabile. Il Foglio Informativo del Conto Premier (aggiornato all'11 novembre 2026) fissa i tempi massimi di chiusura del rapporto in 60 giorni. Se chiudi con la procedura di trasferimento dei servizi di pagamento verso un'altra banca, il termine è di 12 giorni lavorativi da quando la banca nuova riceve la tua autorizzazione completa. Somme e titoli ti vengono messi a disposizione nei tempi tecnici, e solo dopo che la banca ha soddisfatto eventuali suoi crediti anche per compensazione. Gli ordini che hai dato prima del recesso e non hai revocato vengono comunque eseguiti. Chiudere il conto non rimborsa in automatico i Certificati di Deposito Mediobanca non scaduti: il rimborso anticipato è possibile solo dopo 365 giorni dall'emissione.",
+  "vincoli": "Il contratto di conto è a durata indeterminata. Se il conto è cointestato basta la firma di uno solo degli intestatari. Puoi anche recedere da un solo servizio, per esempio la carta di debito o i servizi di investimento, senza chiudere tutto il contratto; al contrario, chiudere il conto corrente chiude tutti i servizi collegati e tutti i conti titoli. Chiudere una carta di credito, la Viacard, la cassetta di sicurezza o il POS invece non chiude il conto collegato. Se hai un Dossier Titoli con dentro dei titoli, devi trasferirli o venderli prima di mandare la richiesta. Per i contratti conclusi a distanza hai 14 giorni di recesso senza spese, 30 giorni per le polizze di investimento assicurativo. Se a recedere è la banca, deve darti almeno 2 mesi di preavviso scritto."
+ },
+ "europ-assistance-italia": {
+  "alternative": "Se hai comprato sul sito di Redion e sei ancora nei 14 giorni, puoi usare il tasto di recesso sul sito invece di scrivere una lettera. Se il problema è un aumento di prezzo al rinnovo, Redion deve comunicarti il premio adeguato all'ISTAT in tempo per inviare la disdetta.",
+  "assistenza": "Servizio clienti dall'Italia: 803 803; dall'estero +39 02 58163803, attivo 24 ore su 24. Per i sinistri: 800 90 48 91 e il portale sinistri online. E-mail indicata nei set informativi: servizio.clienti.it@redion.com. I reclami vanno all'Ufficio Reclami di Redion Italy Insurance S.p.A., Via del Mulino 4, 20057 Assago, con il modulo online, l'e-mail ufficio.reclami.it@redion.com, la PEC reclami@pec.redion.it (accetta solo messaggi da altre PEC) o il fax 02 58477128. Nel reclamo metti il numero di polizza o di sinistro e i tuoi dati. Redion ha 45 giorni per rispondere; poi puoi rivolgerti all'IVASS, Servizio Tutela del Consumatore, via del Quirinale 21, 00187 Roma, o fare ricorso online all'Arbitro Assicurativo.",
+  "costi_dettaglio": "Nei set informativi consultati non c'è una penale per la disdetta inviata nei termini. Il premio però è sempre annuale e resta interamente dovuto anche se lo paghi a rate mensili: se ti fermi prima, Redion può chiederti il premio dell'annualità in corso e il rimborso delle spese sostenute. Con il pagamento mensile, una rata non pagata può far perdere la rateizzazione e per riattivare la copertura devi versare l'intero premio annuo, al netto delle rate già pagate. A ogni rinnovo il premio può essere adeguato all'indice ISTAT FOI, e Redion ti comunica il nuovo importo in tempo per disdire.",
+  "data": "2026-11-15",
+  "dati_lettera": "Il dato che Redion chiede sempre è il numero di polizza, da mettere anche nell'oggetto della PEC. Scrivi la lettera come contraente, cioè la persona che ha sottoscritto il modulo di polizza, con nome, cognome e codice fiscale. Indica la scadenza riportata sul modulo di polizza, perché il preavviso si calcola da quella data. L'indirizzo per la raccomandata è Redion Italy Insurance S.p.A., Via del Mulino 4, 20057 Assago (MI).",
+  "errori": [
+   "Mandare la disdetta alla PEC dei reclami: reclami@pec.redion.it è solo per i reclami, la disdetta va a redioninsurance@pec.redion.it con 'Disdetta + numero di polizza' nell'oggetto.",
+   "Disdire una polizza viaggio singola: Viaggi Italia, Europa e Mondo non si rinnovano, la disdetta non è prevista e la copertura finisce da sola.",
+   "Scrivere a Redion per una polizza comprata con il volo o la prenotazione: per eDreams, Ryanair, Vueling, Lastminute e Secret Escapes Redion chiede di contattare il partner.",
+   "Smettere di pagare le rate mensili al posto di disdire: il premio annuale resta dovuto per intero e Redion può chiedere il pagamento dell'annualità in corso."
+  ],
+  "faq": [
+   {
+    "d": "Europ Assistance e Redion sono la stessa compagnia?",
+    "r": "Sì. Redion Italy Insurance S.p.A. è il nuovo nome di Europ Assistance Italia S.p.A., con sede in Via del Mulino 4 ad Assago e parte del Gruppo Generali. Secondo Redion i contratti restano invariati."
+   },
+   {
+    "d": "Posso disdire la polizza Redion per e-mail?",
+    "r": "No, i set informativi indicano solo raccomandata A/R o PEC a redioninsurance@pec.redion.it, almeno 30 giorni prima della scadenza."
+   },
+   {
+    "d": "Posso uscire dalla polizza dopo un sinistro?",
+    "r": "Sì, fino al 60° giorno dal pagamento o dal rifiuto dell'indennizzo, con raccomandata A/R o PEC. Il recesso vale dopo 30 giorni e Redion ti rimborsa entro 15 giorni la parte di premio non goduta, senza le imposte."
+   }
+  ],
+  "fonti": [
+   "https://www.redion.it/contatti",
+   "https://www.redion.it/reclami",
+   "https://www.redion.it/set-informativi",
+   "https://www.redion.it/prodotti-per-te/viaggi/annuale-multiviaggio-light",
+   "https://assets.ctfassets.net/5nwga2ey7ftv/5PyMwQRYAIidlyJEoCVanE/4c303912f9712c8e496cda8861c48bac/VNSV_Muntiviaggio_Light_-_Set_Informativo_2026_10_01.pdf",
+   "https://assets.ctfassets.net/5nwga2ey7ftv/2Q5Ajz48K90kXmXhZVedyN/dc8e9c53f358cf1bdd7db80811d0ae73/Sfera_Casa_Relax__Set_Informativo_2026_10_01.pdf",
+   "https://assets.ctfassets.net/5nwga2ey7ftv/5Uy9oFwotwdiJkKImohIUe/d1845e62f4d8feef279a22d1d974106a/SET_MIGLIOR_AMICO_01.10.2026__new.pdf",
+   "https://assets.ctfassets.net/5nwga2ey7ftv/1ToT2eqKgJgCUbAeNqRC8e/6dc6bfc897c3f035108f012548a20a03/Viaggi_Italia_-_Set_Informativo_2026_10_01.pdf"
+  ],
+  "online": "Europ Assistance Italia S.p.A. ha cambiato nome in Redion Italy Insurance S.p.A.: il sito ufficiale avverte che cambia solo la denominazione, mentre società e contratti restano invariati e non devi fare nulla. Nei set informativi in vigore dal 01/10/2026 la disdetta si fa solo per iscritto, con raccomandata A/R oppure con PEC a redioninsurance@pec.redion.it, scrivendo nell'oggetto 'Disdetta + numero di polizza'. Online c'è solo il tasto di recesso sul sito Redion, che serve per il ripensamento delle polizze comprate interamente sul sito. Se hai comprato la polizza tramite un partner, la pagina Contatti ti chiede di rivolgerti a lui: eDreams 02 99953466, Ryanair +34 915140000, Vueling 06 89386081, Lastminute, Bravofly e Crocierissime 02 69430792, Secret Escapes +39 02 23331434.",
+  "tempi_e_dopo": "La disdetta ferma il rinnovo alla scadenza annuale: la copertura resta valida fino a quella data. Se non la mandi in tempo, il premio di rinnovo ti viene addebitato sullo stesso strumento di pagamento usato per la prima annualità. Con il ripensamento la polizza è annullata e ti rimborsano il premio pagato, escluse le imposte se sono già state versate. Con il recesso dopo un sinistro la polizza si chiude 30 giorni dopo che Redion riceve la tua comunicazione, e nei 15 giorni seguenti ti rimborsa la parte di premio del periodo non goduto, al netto delle imposte. Redion porta comunque a termine la gestione dei sinistri in corso alla data del recesso.",
+  "vincoli": "Le polizze viaggio a durata fissa (Viaggi Italia, Viaggi Europa, Viaggi Mondo) non hanno tacito rinnovo, quindi la disdetta non è prevista: la copertura finisce alla data indicata. Le annuali come Annuale Multiviaggio Light si rinnovano di anno in anno solo se il tacito rinnovo è indicato sul Modulo di Polizza (art. 4). Le polizze casa come Sfera Casa Relax e quella per animali Miglior Amico si rinnovano tacitamente ogni anno. In tutti questi casi la disdetta va inviata almeno 30 giorni prima della scadenza. Il ripensamento vale per le polizze di almeno un mese comprate interamente a distanza, entro 14 giorni (art. XVI di Sfera Casa Relax), ma non puoi usarlo se in quei 14 giorni hai già denunciato un sinistro. Dopo ogni sinistro puoi recedere fino al 60° giorno dal pagamento o dal rifiuto dell'indennizzo, con raccomandata A/R o PEC."
+ },
+ "fit-and-go": {
+  "assistenza": "La società che gestisce il sito e il marchio è Fit&Go s.r.l., Via Salento 63, 00162 Roma, P.IVA 13353221008. PEC societaria indicata nel piè di pagina del sito: fitego@legalmail.it. Per i reclami sugli acquisti online i Termini indicano l'e-mail comunicazioni@fitandgo.it, e poi la piattaforma europea ODR per le controversie sui contratti conclusi online. Per la privacy l'e-mail è privacy@fitandgo.it.",
+  "costi_dettaglio": "Il listino ufficiale della pagina Abbonamenti prevede un'iscrizione di 60 euro (consulenza PT, card, BIA e kit). Per il Percorso Wellness l'Open mensile costa 249 euro, il semestrale 1.299 euro e l'annuale 2.299 euro. Per il Percorso Power l'Open mensile costa 299 euro, il semestrale 1.599 euro e l'annuale 2.599 euro. Per il Percorso Elite l'Open mensile costa 349 euro, il semestrale 1.799 euro e l'annuale 2.999 euro. Ci sono anche carnet di sedute, da 270 euro per 10 sedute Wellness fino a 1.499 euro per 50 sedute Power. Nel recesso dagli acquisti online la restituzione dei prodotti è a tue spese.",
+  "data": "2026-11-15",
+  "dati_lettera": "Per un acquisto online conserva la mail di conferma d'ordine che Fit&Go s.r.l. ti invia dopo il pagamento. Per una gift card o una promozione indica il codice univoco ricevuto e il centro che hai scelto al momento dell'acquisto, perché la promozione vale solo in quel centro. Per un abbonamento fatto in sede indica il nome del centro e la tipologia sottoscritta, per esempio Open mensile, semestrale o annuale, oppure il carnet di sedute.",
+  "errori": [
+   "Scrivere a helpdesk@fitandgo.it per un abbonamento firmato in sede: i Termini lo indicano per gli acquisti online, mentre i servizi sono erogati dai Centri aderenti, ognuno con i suoi recapiti.",
+   "Contare sui 14 giorni di recesso per un abbonamento: l'art. 2.4 dei Termini li riconosce per i prodotti comprati sul sito, a partire dalla consegna.",
+   "Cancellare una seduta all'ultimo momento: sotto le 12 ore di preavviso la seduta è persa senza rimborso."
+  ],
+  "faq": [
+   {
+    "d": "Quanto dura una gift card Fit And Go?",
+    "r": "12 mesi dall'acquisto. Devi prenotare la seduta nel centro scelto entro il dodicesimo mese, altrimenti la gift card scade da sola."
+   },
+   {
+    "d": "Ho comprato una promo Fit And Go nel centro sbagliato, cosa faccio?",
+    "r": "Scrivi a helpdesk@fitandgo.it entro 10 giorni dall'acquisto per chiedere la modifica. Se il nuovo centro ha un prezzo diverso paghi la differenza."
+   },
+   {
+    "d": "Quanto costa l'iscrizione a Fit And Go?",
+    "r": "Il listino ufficiale indica 60 euro di iscrizione, che comprendono consulenza con il personal trainer, card, BIA e Kit Senza Pensieri. L'abbonamento si paga a parte."
+   }
+  ],
+  "fonti": [
+   "https://fitandgo.it/termini-e-condizioni/",
+   "https://prenotaora.fitandgo.it/Termini-e-condizioni",
+   "https://fitandgo.it/prezzi-2/",
+   "https://fitandgo.it/franchising/",
+   "https://fitandgo.it/contatti/",
+   "https://fitandgo.it/i-nostri-centri/",
+   "https://fitandgo.it/dove-siamo/roma-euclide/"
+  ],
+  "online": "Sul sito fitandgo.it non c'è una procedura online per disdire un abbonamento Fit And Go, e i Termini e condizioni non parlano di disdetta degli abbonamenti. Fit And Go è una rete in franchising: la pagina Franchising parla di 130 centri, e i Termini descrivono il sito come una piattaforma che promuove i servizi dei Centri Sportivi aderenti. Ogni centro ha una sua scheda con indirizzo, telefono ed e-mail dedicata, per esempio romaeuclide@fitandgo.it per il centro di Roma Euclide: è il primo recapito da usare per l'abbonamento firmato in sede. Per gli acquisti fatti sul sito (prodotti dello shop, gift card, promozioni) il canale indicato dai Termini è l'e-mail helpdesk@fitandgo.it. Nel form della pagina Contatti puoi scegliere l'oggetto 'Customer Care'.",
+  "tempi_e_dopo": "Per i prodotti comprati sullo shop, dopo la tua e-mail di recesso il servizio clienti apre una pratica di reso e ti manda le istruzioni per la restituzione. Fit&Go ti rimborsa il prezzo, oppure se preferisci ti dà un buono dello stesso importo, entro 30 giorni dalla ricezione del recesso, escluse le spese di spedizione. Il rimborso può essere sospeso finché i prodotti non tornano indietro. Le gift card valgono 12 mesi dall'acquisto e scadono automaticamente se non le usi nella data scelta.",
+  "vincoli": "Il recesso di 14 giorni previsto dai Termini (art. 2.4) riguarda gli acquisti di prodotti sul sito e decorre dalla consegna. È escluso per i prodotti personalizzati, deperibili o sigillati per motivi igienici una volta aperti, e per chi non è consumatore. Le promozioni comprate online si usano solo nel centro scelto: se hai sbagliato centro hai 10 giorni dall'acquisto per chiedere la modifica a helpdesk@fitandgo.it, pagando l'eventuale differenza di prezzo. Le sedute si cancellano gratis con almeno 12 ore di preavviso; con meno di 12 ore perdi la seduta senza rimborso. Se Fit&Go interrompe il servizio hai diritto a una proroga pari al periodo di interruzione, ma non a un rimborso (art. 4.1)."
+ },
+ "illumia": {
+  "alternative": "Per cambiare fornitore non scrivi a Illumia: il recesso lo comunica il nuovo fornitore, che deve farlo arrivare entro il giorno 10 del mese prima del cambio (CGF, art. 8). Se lasci la casa a qualcuno che vuole tenere luce o gas, può chiedere voltura o subentro ai recapiti del Servizio Clienti (art. 17), con il modulo 'Voltura EE Gas'. Per il ripensamento c'è il 'Modulo Ripensamento', da inviare a servizioclienti@illumia.it, alla PEC illumia@pec.illumia.it o per raccomandata A/R a Via de' Carracci 69/2, 40129 Bologna; puoi anche farlo con una telefonata registrata al numero verde.",
+  "assistenza": "Servizio Clienti: 800 046 640 da fisso, 051 600 80 80 da cellulare, dal lunedì al venerdì dalle 8 alle 19 e il sabato dalle 9 alle 13, festivi esclusi. Email servizioclienti@illumia.it, fax 051 04 04 055, messaggio privato sulla pagina Facebook di Illumia. I reclami si mandano con il 'Modulo reclami' per posta a ILLUMIA S.p.A., Back-Office, Via de' Carracci 69/2, 40129 Bologna, o per email (servizioclienti@illumia.it per il mercato libero, tutelegraduali@illumia.it per il Servizio a Tutele Graduali). Se la risposta non ti soddisfa, o dopo 40 giorni senza risposta, puoi attivare il Servizio Conciliazione ARERA, gratuito e online; Illumia si impegna a partecipare. Il tentativo di conciliazione è obbligatorio prima di fare causa (CGF, art. 16).",
+  "costi_dettaglio": "Il recesso non ha oneri, salvo quanto previsto nelle Condizioni economiche (CGF, art. 8). Le Condizioni economiche delle offerte, per esempio Energia Lunga Gas, prevedono per la 'Cessazione della presa' un contributo in quota fissa di 23 euro per oneri di gestione, più i costi che il distributore addebita a Illumia; nei moduli di cessazione l'importo è indicato come 23 euro più IVA. Per il gas il distributore fattura la quota fissa per oneri amministrativi: 30 euro più IVA per i contatori fino a G6, 45 euro più IVA per quelli più grandi. Se l'appuntamento per chiudere il gas salta per cause non imputabili al distributore, possono aggiungersi altri 30 euro più IVA. Se hai il servizio 'Caldaia Serena' (6,90 euro al mese per 24 mesi nell'offerta Energia Lunga Gas), la cessazione della fornitura fa perdere la rateizzazione e le rate restanti ti vengono addebitate nella fattura di chiusura.",
+  "data": "2026-11-15",
+  "dati_lettera": "Il modulo luce chiede nome e codice fiscale del titolare, indirizzo del punto di prelievo e codice POD; quello gas chiede lo stesso dato con il codice PDR. Puoi indicare se la chiusura deve avvenire appena possibile o da una data precisa. Devi indicare come vuoi ricevere la fattura di chiusura, per email o per posta, e a quale indirizzo. In caso di decesso dell'intestatario va allegato il certificato di morte. Se il contatore non è telegestito, lascia un numero di telefono per fissare l'appuntamento con il tecnico.",
+  "errori": [
+   "Scrivere alla PEC grossista@pec.illumia.it: nella pagina Contatti è indicata per 'Operatori e trasporto', mentre per i clienti il Modulo Ripensamento indica illumia@pec.illumia.it.",
+   "Dimenticare di rimandare il modulo di cessazione: se Illumia te lo chiede e non arriva entro 15 giorni a servizioclienti@illumia.it con il documento, il contatore non viene chiuso e Illumia attiva i servizi di ultima istanza.",
+   "Non lasciare un contatto per l'appuntamento del gas: il distributore fa fino a tre tentativi, e un appuntamento mancato per causa tua può costare 30 euro più IVA.",
+   "Chiudere la fornitura senza controllare la Caldaia Serena: le rate restanti del servizio arrivano tutte insieme nella fattura di chiusura."
+  ],
+  "faq": [
+   {
+    "d": "Illumia ha una PEC per i clienti?",
+    "r": "Sì. Il Modulo Ripensamento 2026 indica la PEC illumia@pec.illumia.it, insieme all'email servizioclienti@illumia.it e alla raccomandata a Via de' Carracci 69/2, Bologna. La PEC grossista@pec.illumia.it è per operatori e trasporto."
+   },
+   {
+    "d": "Posso disdire Illumia via email?",
+    "r": "Le CGF (art. 8) prevedono raccomandata A/R o PEC per la cessazione. L'email servizioclienti@illumia.it è il recapito dove mandare il modulo di cessazione compilato, con il documento d'identità, quando Illumia te lo chiede."
+   },
+   {
+    "d": "Quanto costa chiudere il contatore con Illumia?",
+    "r": "Le Condizioni economiche prevedono 23 euro di oneri di gestione per la cessazione della presa, più i costi del distributore. Per il gas il distributore applica 30 euro più IVA per i contatori fino a G6, 45 euro più IVA oltre."
+   }
+  ],
+  "fonti": [
+   "https://www.illumia.it/contatti/",
+   "https://www.illumia.it/assistenza-clienti/contatti-servizio-clienti/",
+   "https://www.illumia.it/moduli-utili/",
+   "https://www.illumia.it/wp-content/uploads/2026/06/Condizioni-generali-di-fornitura-CASA-2026_05_26.pdf",
+   "https://www.illumia.it/wp-content/uploads/2024/02/Cessazione-Contatore-Energia.pdf",
+   "https://www.illumia.it/wp-content/uploads/2024/02/CESSAZIONE-DELLA-PRESA_GAS_Ver_012024.pdf",
+   "https://www.illumia.it/wp-content/uploads/2026/06/Modulo-Ripensamento-2026_05_26.pdf",
+   "https://www.illumia.it/wp-content/uploads/2026/07/CE-ILLUMIA-ENERGIA-LUNGA-GAS.pdf",
+   "https://www.illumia.it/assistenza-clienti/reclami/",
+   "https://www.illumia.it/assistenza-clienti/conciliazione/",
+   "https://www.arera.it/atlante-per-il-consumatore/elettricita/la-bolletta/bolletta-di-chiusura/entro-quanto-tempo-deve-essere-inviata-la-bolletta-di-chiusura"
+  ],
+  "online": "Le Condizioni generali di fornitura CASA (Rev. 11.11.2025, art. 8) dicono che per cessare la fornitura invii direttamente una raccomandata A/R o una PEC a Illumia. Illumia può poi chiederti di compilare un modulo apposito se dalla tua richiesta non sono chiari la tua identità o cosa vuoi fare. Nella pagina 'Moduli utili' ci sono due moduli distinti: 'Richiesta cessazione della presa elettrica' per la luce e 'Cessazione della presa gas' per il gas. Il modulo compilato e firmato va mandato a servizioclienti@illumia.it con la copia del documento d'identità. Le pagine ufficiali non descrivono una funzione di disdetta nell'area clienti o nell'app. Se sei nel Servizio a Tutele Graduali hai un servizio clienti separato: tutelegraduali@illumia.it, 800 60 60 60 da fisso e 051 600 80 66 da cellulare.",
+  "tempi_e_dopo": "Il preavviso per la cessazione non supera un mese e decorre da quando Illumia riceve il recesso (CGF, art. 8). Dopo la comunicazione al distributore, la luce in bassa tensione si chiude entro 5 giorni lavorativi (7 per la media tensione, delibera ARERA 617/2023) e il gas entro 5 giorni lavorativi (delibera 569/2019). Se il gas ha uno smart meter G4 o G6, la chiusura avviene da remoto con l'elettrovalvola; se non si può, la fornitura resta attiva fino all'intervento sul posto. Per il gas il distributore fa fino a tre tentativi. Se il modulo non arriva entro 15 giorni o il distributore non riesce a chiudere il contatore, Illumia considera comunque il tuo recesso e attiva i servizi di ultima istanza. Il deposito cauzionale ti viene restituito nella fattura di chiusura con gli interessi di legge, se non è servito a coprire bollette non pagate (CGF, art. 5). Per ARERA la bolletta di chiusura deve arrivarti entro 6 settimane dalla cessazione.",
+  "vincoli": "Il contratto di fornitura è a tempo indeterminato (CGF, art. 1.6). Il prezzo invece ha una durata: nell'offerta Energia Lunga Gas i corrispettivi Illumia valgono 36 mesi dall'attivazione. Se Illumia cambia unilateralmente le condizioni deve avvisarti per iscritto con almeno tre mesi di preavviso; se rifiuti con raccomandata A/R, vale come recesso senza oneri entro trenta giorni (art. 11). Il ripensamento è di 14 giorni dalla conclusione del contratto, 30 se hai firmato durante una visita non richiesta a casa tua (art. 13). Per il servizio Caldaia Serena, se non vuoi il secondo anno devi scriverlo almeno 30 giorni prima della fine del primo anno."
+ },
+ "mcafee": {
+  "assistenza": "Il servizio clienti si raggiunge da 'Assistenza clienti' in fondo al sito, con 'Contatta l'assistenza'. Per i consumatori dell'Unione Europea il Contratto di licenza rimanda alla piattaforma europea di risoluzione online delle controversie, ma McAfee precisa di non essere obbligata a ricorrere all'ADR e ti informa per iscritto se decide di farlo.",
+  "costi_dettaglio": "Non ci sono penali. Puoi chiedere un rimborso all'Assistenza clienti entro 30 giorni dall'acquisto iniziale oppure entro 60 giorni da un rinnovo automatico, per abbonamenti di un anno o più. Il Contratto di licenza prevede la garanzia di rimborso dei primi 30 giorni, per qualsiasi motivo. Se ti sei dimenticato di disattivare il rinnovo, hai 60 giorni dall'addebito per chiedere il rimborso e disdire. Con la Promessa di protezione antivirus, se McAfee non riesce a rimuovere un virus da un dispositivo supportato ti rimborsa quanto pagato per il periodo in corso.",
+  "data": "2026-11-15",
+  "dati_lettera": "Non serve una lettera per disdire: tutto passa dall'account McAfee. Per vedere cosa hai attivo usa 'Il mio account', 'Account', 'Abbonamenti', dove trovi gli abbonamenti attivi e quelli scaduti. Tieni aggiornato l'indirizzo e-mail dell'account, perché il Contratto di licenza dice che è tua responsabilità e che lì arriva l'avviso di rinnovo.",
+  "errori": [
+   "Disattivare il rinnovo a ridosso della scadenza: McAfee può addebitare il rinnovo fino a 30 giorni prima, quindi l'addebito può essere già partito.",
+   "Lasciar passare i 60 giorni dopo un rinnovo annuale non voluto: dopo quel termine la politica di rimborso non lo prevede più.",
+   "Tenere un indirizzo e-mail vecchio sull'account: l'avviso di rinnovo arriva lì e McAfee considera tua la responsabilità di tenerlo aggiornato.",
+   "Disinstallare il programma senza salvare i backup: McAfee elimina i contenuti archiviati dopo la disinstallazione."
+  ],
+  "faq": [
+   {
+    "d": "McAfee mi ha rinnovato l'abbonamento annuale senza che me ne accorgessi, posso riavere i soldi?",
+    "r": "Sì, se lo chiedi entro 60 giorni dall'addebito del rinnovo automatico, per abbonamenti di un anno o più. La richiesta si fa da 'Assistenza clienti', 'Richiedi un rimborso'."
+   },
+   {
+    "d": "Perché McAfee mi addebita il rinnovo prima della scadenza?",
+    "r": "Il Contratto di licenza prevede che l'addebito avvenga entro i 30 giorni che precedono la scadenza, dopo un'e-mail di avviso. Per evitarlo devi disattivare il rinnovo prima di quella finestra."
+   },
+   {
+    "d": "Se disattivo il rinnovo McAfee smette subito di funzionare?",
+    "r": "No, la protezione resta fino alla scadenza del periodo già pagato. Perdi invece subito i vantaggi riservati a chi ha il rinnovo automatico attivo."
+   }
+  ],
+  "fonti": [
+   "https://www.mcafee.com/it-it/consumer-support/help/common-faq.html",
+   "https://www.mcafee.com/it-it/consumer-support/policy/legal.html#eula",
+   "https://www.mcafee.com/it-it/consumer-support/policy/legal.html"
+  ],
+  "online": "Per fermare il rinnovo accedi all'account McAfee, in cima alla pagina 'Il mio account' scegli 'Account' e poi 'Impostazioni rinnovo automatico', quindi segui le istruzioni sullo schermo. Il Contratto di licenza prevede che tu possa disattivare il rinnovo anche contattando il Servizio Clienti. Per un rimborso vai in fondo a una pagina del sito McAfee, clicca 'Assistenza clienti', poi 'Richiedi un rimborso' nella sezione Aiuto. Scegli il tuo Paese, clicca di nuovo 'Richiedi un rimborso', indica un motivo (per esempio 'Prezzo troppo caro') e segui le istruzioni. Se ti serve parlare con qualcuno, sempre da 'Assistenza clienti' scegli 'Contatta l'assistenza' nella sezione 'Hai bisogno di parlare con un esperto?'.",
+  "tempi_e_dopo": "Se disattivi il rinnovo, puoi continuare a usare software e servizi fino alla scadenza dell'abbonamento già pagato. Disattivando il rinnovo perdi però le funzioni Premium e i vantaggi gratuiti che McAfee riserva a chi ha il rinnovo automatico. Alla fine del contratto non puoi più usare il software e devi eliminarlo dai dispositivi. McAfee cancella i contenuti archiviati o di backup dopo che hai disinstallato il software, quindi salvali prima. McAfee conserva l'ultimo metodo di pagamento usato fino a 12 mesi per riscuotere eventuali somme dovute.",
+  "vincoli": "Dopo il primo periodo l'abbonamento si rinnova ogni anno, o ogni mese per i piani mensili, al prezzo di rinnovo in vigore in quel momento, che può essere diverso da quello pagato all'inizio. McAfee ti manda un'e-mail prima del rinnovo e addebita l'importo entro i 30 giorni che precedono la scadenza. Per questo il Contratto di licenza chiede di disattivare il rinnovo prima di quei 30 giorni se non vuoi l'addebito. Se il prezzo di rinnovo cambia, McAfee ti avvisa prima via e-mail. Le regole sul rinnovo valgono se hai comprato da McAfee e non da terzi. Per chi scarica il software in Europa la controparte è McAfee Ireland Limited, 1 Horgan's Quay, Waterfront Square, Cork, T23 PPT8, Irlanda."
+ },
+ "microsoft-365-xbox": {
+  "alternative": "Prima di annullare Microsoft 365 puoi passare a un altro piano più adatto: la pagina di annullamento mostra anche abbonamenti alternativi che possono costare meno. Se vuoi solo evitare il rinnovo, disattivare la fatturazione ricorrente basta: l'abbonamento resta attivo fino alla data di scadenza.",
+  "assistenza": "Per l'assistenza vai alla pagina 'Contatta il supporto tecnico Microsoft', descrivi il problema e scegli 'Richiesta supporto'; se serve ancora aiuto, 'Contatta il supporto tecnico'. Per Xbox c'è la chat con l'agente virtuale su support.xbox.com. I dati del venditore indicati nelle Condizioni di vendita sono Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Irlanda. Per le controversie puoi rivolgerti al tribunale del paese in cui risiedi.",
+  "costi_dettaglio": "Nessuna penale. Nella maggior parte dei casi hai il rimborso se annulli entro 30 giorni dall'acquisto iniziale o prima della prima data di fatturazione ricorrente, quale delle due arriva prima. In più, se annulli entro 30 giorni da un pagamento ricorrente puoi riavere l'ultimo addebito, ma solo una volta per account Microsoft e per prodotto. Per Microsoft 365 Basic, Personal, Family, OneDrive e ClipChamp l'Italia non ha il rimborso proporzionale. Per Microsoft 365 Premium e Microsoft 365 Pro, in Italia come negli altri paesi non elencati, hai il rimborso proporzionale se annulli entro 14 giorni dall'acquisto iniziale. Per Xbox valgono gli stessi 30 giorni, e Microsoft precisa che le richieste fuori da queste procedure non sono ammissibili.",
+  "data": "2026-11-15",
+  "dati_lettera": "Non serve una lettera: devi solo entrare con l'account Microsoft con cui hai comprato, perché l'annullamento si fa da lì. Se paghi l'abbonamento Xbox di un'altra persona, deve essere il titolare di quell'account ad accedere e annullare. Se hai acquistato un codice prepagato in un negozio, per il reso valgono le regole di quel rivenditore.",
+  "errori": [
+   "Cercare di annullare dall'account Microsoft un abbonamento comprato su Google Play o App Store: per quegli acquisti annullamento e rimborso passano dallo store.",
+   "Rivolgersi a Microsoft per un Microsoft 365 comprato da un rivenditore come Amazon: Microsoft dice di contattare direttamente il rivenditore per abbonamento e fatturazione.",
+   "Annullare senza liberare spazio su OneDrive: oltre i 5 GB gratuiti la sincronizzazione si blocca e dopo 6 mesi i file possono essere cancellati.",
+   "Contare sul rimborso dell'ultimo rinnovo più volte: quel diritto vale una sola volta per account e per prodotto."
+  ],
+  "faq": [
+   {
+    "d": "Se annullo Microsoft 365 a metà anno mi rimborsano i mesi non usati?",
+    "r": "Per Personal, Family e Basic in Italia no, il rimborso proporzionale non c'è. Hai il rimborso pieno solo entro 30 giorni dall'acquisto o dal pagamento del rinnovo. Per Premium e Pro c'è il rimborso proporzionale entro 14 giorni dall'acquisto iniziale."
+   },
+   {
+    "d": "Vedo 'Attiva fatturazione ricorrente', il mio abbonamento è ancora attivo?",
+    "r": "Sì. Significa che l'abbonamento è già impostato per scadere alla data indicata: non verrai addebitato dopo quella data e puoi usarlo fino alla scadenza."
+   },
+   {
+    "d": "Come disdico Game Pass dalla console Xbox?",
+    "r": "Premi il pulsante Xbox, vai in 'Profilo e sistema', 'Impostazioni', 'Account', 'Abbonamenti', scegli l'abbonamento e 'Annulla abbonamento'. Se hai diritto al rimborso ti verrà proposto durante la procedura."
+   }
+  ],
+  "fonti": [
+   "https://support.microsoft.com/it-it/accounts-billing/subscriptions/cancel-your-microsoft-subscription",
+   "https://support.microsoft.com/it-it/accounts-billing/subscriptions/cancel-a-microsoft-365-subscription",
+   "https://support.microsoft.com/it-it/accounts-billing/subscriptions/microsoft-subscription-refund-policy",
+   "https://support.xbox.com/it-IT/help/subscriptions-billing/manage-subscriptions/cancel-recurring-billing-or-subscription",
+   "https://www.microsoft.com/it-it/storedocs/terms-of-sale"
+  ],
+  "online": "Per Microsoft 365 vai su account.microsoft.com/services/microsoft365, accedi con lo stesso account usato per l'acquisto e scegli 'Annulla abbonamento' (a volte compare 'Aggiorna o Annulla'). In cima alla pagina c'è la sezione 'Per favore rivedi', che può proporti abbonamenti più economici; in fondo scegli 'Non voglio il mio abbonamento' per procedere, oppure 'Voglio mantenere i miei vantaggi' per restare. Per gli altri abbonamenti Microsoft, per esempio ClipChamp o OneDrive, vai nella pagina 'Abbonamenti' dell'account, scegli 'Gestisci' e poi 'Annulla'. Se al posto di 'Gestisci' vedi 'Attiva fatturazione ricorrente', l'abbonamento è già impostato per scadere e non devi fare altro. Per Xbox, sulla console premi il pulsante Xbox e vai in 'Profilo e sistema', 'Impostazioni', 'Account', 'Abbonamenti', poi 'Annulla abbonamento'. Dal web, per Xbox, la strada è la stessa pagina 'Abbonamenti' dell'account Microsoft con 'Gestisci' e 'Annulla sottoscrizione'.",
+  "tempi_e_dopo": "Se non ricevi un rimborso, l'accesso a Microsoft 365 continua di solito fino alla fine del periodo di fatturazione. Durante l'annullamento Microsoft ti dice subito se hai diritto a un rimborso e ti guida nei passaggi successivi. Per Xbox, se hai diritto al rimborso puoi chiudere subito l'abbonamento con il rimborso, altrimenti disattivi la fatturazione ricorrente e mantieni i vantaggi fino alla scadenza. Annullando Microsoft 365 lo spazio torna a 5 GB di cloud (OneDrive e allegati di Outlook.com) più 15 GB per la posta di Outlook.com. Se sei oltre il limite non puoi caricare né sincronizzare file su OneDrive e non puoi inviare o ricevere posta su Outlook.com; dopo 6 mesi OneDrive e i suoi file possono essere eliminati. Con Microsoft 365 Family o Premium la riduzione di spazio vale anche per le persone con cui condividi l'abbonamento.",
+  "vincoli": "L'abbonamento si rinnova in automatico alla fine di ogni periodo e per evitare l'addebito devi annullare prima della data di rinnovo. Se annulli dopo la data di rinnovo, le Condizioni di vendita prevedono che paghi il periodo rinnovato e che il prodotto resti attivo fino alla sua fine, senza ulteriori rinnovi. Alla fine di una prova devi annullare entro la scadenza per non essere addebitato. Se il prezzo dell'abbonamento Xbox cambia, Microsoft ti avvisa almeno 30 giorni prima e puoi annullare prima della variazione. Come consumatore hai il diritto legale di recesso e le Condizioni di vendita mettono a disposizione un modulo di recesso, facoltativo. Il venditore per l'Italia è Microsoft Ireland Operations Limited."
+ },
+ "netflix": {
+  "alternative": "Invece di disdire puoi sospendere l'abbonamento: nella pagina 'Disdici abbonamento' scegli 'Sospendi per 1 mese'. Alla data di fatturazione successiva non paghi nulla e l'abbonamento resta fermo per un mese, poi riparte con l'addebito del piano attuale. La sospensione non è disponibile con il piano Base, né con addebito diretto, carte regalo e alcuni pagamenti tramite partner. Una settimana prima della ripresa puoi scegliere 'Estendi la sospensione temporanea' dal banner 'Vuoi guardare Netflix?', per un massimo di 3 mesi in tutto. Durante la sospensione non puoi guardare né scaricare, ma puoi sfogliare il catalogo e aggiungere titoli a La mia lista. Se passi a un pacchetto che include Netflix, non devi disdire: colleghi l'account al pacchetto e Netflix smette subito di addebitare il tuo metodo di pagamento.",
+  "assistenza": "Il Centro assistenza Netflix ha il pulsante 'Contattaci' in fondo a ogni articolo. Per domande sull'eliminazione o sulla conservazione dei dati Netflix indica l'indirizzo privacy@netflix.com. Il Servizio clienti può rimuovere tutti i metodi di pagamento dall'account, ma non uno solo, e non quando paghi tramite partner o carta regalo.",
+  "costi_dettaglio": "Netflix addebita l'abbonamento ogni mese alla data in cui ti sei registrato e non offre abbonamenti annuali, plurimensili o a vita. I prezzi in Italia sono 7,99 euro al mese per Standard con pubblicità, 14,99 euro per Standard e 21,99 euro per Premium. Un utente extra costa 4,99 euro al mese con pubblicità o 5,99 euro senza. Secondo la pagina prezzi il piano Base non è più disponibile. Se passi a un piano più economico, il nuovo prezzo vale dalla data di fatturazione successiva.",
+  "data": "2026-11-15",
+  "dati_lettera": "Per disdire non serve una lettera e Netflix non indica un indirizzo postale per la disdetta. Se il titolare è deceduto e hai accesso all'account, usi il link 'Disdici abbonamento' nella pagina 'Account'. Se non hai accesso, Netflix ti chiede di contattarlo con l'indirizzo email o il numero di telefono associati all'account e i dati di pagamento completi usati per pagare Netflix.",
+  "errori": [
+   "Cancellare l'app o uscire dall'account pensando di aver disdetto: per Netflix l'unico modo è 'Disdici abbonamento' seguito da 'Conferma disdetta'.",
+   "Cercare la disdetta su Netflix quando paghi con TIM, Wind Tre o Sky: l'opzione non compare e devi seguire le istruzioni del partner indicate nella sezione 'Abbonamento'.",
+   "Disdire Netflix per passare a un pacchetto che lo include: basta collegare l'account al pacchetto e conservi preferenze, download e La mia lista.",
+   "Non cambiare la password dopo la disdetta: se qualcuno del nucleo domestico riattiva l'account, gli addebiti ripartono. Netflix consiglia di cambiarla selezionando 'Esci dall'account su tutti i dispositivi'."
+  ],
+  "faq": [
+   {
+    "d": "Ho disdetto Netflix ma mi hanno addebitato di nuovo, perché?",
+    "r": "Secondo Netflix tu o qualcuno con accesso all'account potreste averlo riattivato. Vai su netflix.com/cancelplan, seleziona 'Completa la disdetta' e poi cambia la password da netflix.com/password con l'opzione 'Esci dall'account su tutti i dispositivi'."
+   },
+   {
+    "d": "Posso mettere in pausa Netflix invece di disdire?",
+    "r": "Sì, con 'Sospendi per 1 mese' nella pagina di disdetta, estendibile fino a 3 mesi in totale. Non vale per il piano Base, per l'addebito diretto, per le carte regalo e per alcuni pagamenti tramite partner."
+   },
+   {
+    "d": "Se riattivo Netflix dopo la disdetta perdo i miei profili?",
+    "r": "No, se riattivi entro 24 mesi: Netflix conserva per questo periodo attività di visione, suggerimenti, valutazioni e dettagli dell'account. Riattivando ritrovi profili e La mia lista."
+   }
+  ],
+  "fonti": [
+   "https://help.netflix.com/it/node/407/it",
+   "https://help.netflix.com/it/node/124418/it",
+   "https://help.netflix.com/it/node/24926/it",
+   "https://help.netflix.com/it/node/41049/it",
+   "https://help.netflix.com/it/node/116380/it",
+   "https://help.netflix.com/it/node/22/it",
+   "https://help.netflix.com/it/node/110165/it",
+   "https://help.netflix.com/it/node/2070/it",
+   "https://help.netflix.com/it/node/113408/it"
+  ],
+  "online": "Netflix si disdice solo dall'account, da browser o dall'app. Accedi alla pagina 'Gestisci abbonamento' (netflix.com/cancelplan), tocca 'Disdici abbonamento' e poi 'Conferma disdetta'. Un'email di conferma arriva in automatico all'indirizzo associato all'account. Netflix precisa che questo è l'unico modo per disdire: uscire dall'account o eliminare l'app non chiude l'abbonamento. Se nella pagina non vedi l'opzione di disdetta, paghi tramite un partner di fatturazione: nella pagina 'Account', sezione 'Abbonamento', trovi il link con le istruzioni del partner. In Italia Netflix indica come partner Sky, TIM e Wind Tre, con Netflix in fattura o dentro un pacchetto.",
+  "tempi_e_dopo": "Dopo la disdetta non ricevi altri addebiti, salvo che l'abbonamento venga riattivato. Puoi continuare a guardare fino alla fine del periodo di fatturazione già pagato, poi l'account si disattiva da solo: il giorno esatto lo vedi nella 'Cronologia dei pagamenti'. Se l'account è bloccato, viene chiuso subito dopo la disdetta. Con un saldo residuo di carta regalo o promozione, puoi usare Netflix finché il saldo non finisce. Attività di visione, suggerimenti, valutazioni, dettagli dell'account e cronologia di gioco restano archiviati per 24 mesi dopo la chiusura. Se riattivi entro quel periodo ritrovi profili, La mia lista e dati di pagamento, e la data di fatturazione resta la stessa.",
+  "vincoli": "Non c'è un impegno minimo: Netflix dice che puoi modificare il piano o disdire in qualsiasi momento. Se Netflix ti arriva tramite un pacchetto o un partner, durata, cambio piano e disdetta seguono le regole del partner. Con un pacchetto partner potresti non avere la possibilità di cambiare piano da Netflix."
+ },
+ "nintendo-switch-online": {
+  "alternative": "Invece di chiudere puoi cambiare tipo di iscrizione dal Nintendo eShop con 'Vedi/Cambia iscrizione': per esempio passi da individuale a familiare usando i giorni rimasti come sconto. Non esiste un modo automatico per passare da un'iscrizione familiare a una individuale. Se l'iscrizione familiare l'ha comprata un altro membro, puoi abbandonare il gruppo famiglia: in quel caso disattiva il rinnovo automatico della tua iscrizione individuale. Puoi anche rinnovare senza rinnovo automatico, acquistando a mano una nuova iscrizione quando serve.",
+  "assistenza": "L'Accordo per l'account Nintendo indica il numero 800 904 924 per l'Italia e l'e-mail support@nintendo.eu. La controparte per gli acquisti sul Nintendo eShop è Nintendo of Europe SE, Goldsteinstrasse 235, 60528 Frankfurt am Main, Germania. Nelle condizioni dei Servizi shop Nintendo, Nintendo of Europe dichiara che non intende partecipare a procedure di risoluzione alternativa delle controversie davanti a organismi per i consumatori.",
+  "costi_dettaglio": "Interrompere il rinnovo automatico non costa nulla. Se cancelli l'account Nintendo mentre l'iscrizione è attiva, Nintendo non rimborsa il tempo rimanente. Nel recesso entro 14 giorni, se hai chiesto di iniziare subito il servizio, devi pagare un importo proporzionale a quanto ti è stato fornito fino alla comunicazione del recesso (Accordo per l'account Nintendo, sezione 18 e istruzioni per i Servizi shop Nintendo). I fondi del Nintendo eShop non sono rimborsabili e non possono essere convertiti in denaro.",
+  "data": "2026-11-15",
+  "dati_lettera": "Nel modulo online di recesso Nintendo chiede il numero di transazione, che trovi nella 'Cronologia transazioni' del tuo account Nintendo. Serve anche l'indirizzo e-mail associato all'account usato per l'acquisto: se l'iscrizione è stata comprata da un account per bambini, va indicata l'e-mail del genitore o tutore. Puoi aggiungere un indirizzo e-mail di contatto e il motivo del recesso scelto da un elenco. Se non hai il numero di transazione, la pagina rimanda al modulo di contatto dell'assistenza. Per il recesso scritto l'Accordo per l'account Nintendo indica come destinatario Nintendo of Europe SE, Goldsteinstrasse 235, 60528 Frankfurt am Main, Germania, e-mail support@nintendo.eu, e mette in allegato un modulo di recesso tipo, che però non è obbligatorio.",
+  "errori": [
+   "Cercare di disattivare il rinnovo da un account del gruppo famiglia che non ha pagato: solo il titolare che ha acquistato l'iscrizione può modificarlo.",
+   "Cancellare l'account Nintendo pensando di ottenere un rimborso: Nintendo non rimborsa il tempo rimasto di un'iscrizione in caso di cancellazione dell'account.",
+   "Interrompere il rinnovo pensando di poterci ripensare dopo: una volta interrotto non si riattiva, serve un nuovo acquisto.",
+   "Cambiare tipo di iscrizione senza controllare il rinnovo automatico: Nintendo chiede di verificare che le impostazioni del rinnovo siano corrette per la nuova opzione."
+  ],
+  "faq": [
+   {
+    "d": "Perdo i salvataggi se non rinnovo Nintendo Switch Online?",
+    "r": "Perdi l'accesso al backup su cloud, ma se rinnovi entro 180 giorni Nintendo ti fa recuperare i backup precedenti. I salvataggi nella memoria della console restano disponibili."
+   },
+   {
+    "d": "Si può riattivare il rinnovo automatico dopo averlo interrotto?",
+    "r": "No. Nintendo indica che una volta interrotto il rinnovo automatico non è più possibile riattivarlo: per continuare devi acquistare una nuova iscrizione."
+   },
+   {
+    "d": "La prova gratuita di Nintendo Switch Online include il Pacchetto aggiuntivo?",
+    "r": "No. Ogni account Nintendo ha una prova gratuita di 7 giorni di Nintendo Switch Online sul Nintendo eShop, che non include i contenuti esclusivi del Pacchetto aggiuntivo."
+   }
+  ],
+  "fonti": [
+   "https://www.nintendo.com/it-it/Assistenza/Nintendo-Switch/Come-modificare-o-disattivare-il-rinnovo-automatico-dell-abbonamento-a-Nintendo-Switch-Online-1434298.html",
+   "https://www.nintendo.com/it-it/Assistenza/Account-Nintendo/FAQ-su-Nintendo-Switch-Online-1442566.html",
+   "https://www.nintendo.com/it-it/Assistenza/Acquisti-e-iscrizioni/Informazioni-su-come-modificare-il-tipo-di-iscrizione-a-Nintendo-Switch-Online-1434291.html",
+   "https://www.nintendo.com/it-it/Informazioni-legali/Richiesta-di-recesso-3123661.html",
+   "https://accounts.nintendo.com/term/eula/IT?lang=it-IT"
+  ],
+  "online": "Per Nintendo Switch Online non c'è una disdetta vera e propria: interrompi il rinnovo automatico e l'iscrizione resta attiva fino alla scadenza. Su Nintendo Switch 2 apri il Nintendo eShop dal menu HOME, scegli l'account che ha acquistato l'iscrizione, tocca l'icona utente in alto a destra, entra in 'Informazioni account', scorri in basso e seleziona 'Interrompi il rinnovo automatico'. Sulla prima Nintendo Switch il percorso è lo stesso, ma dopo 'Informazioni account' devi evidenziare 'Nintendo Switch Online' nella parte sinistra dello schermo. Dal computer vai su accounts.nintendo.com/portal, accedi con l'account usato per l'acquisto, seleziona 'Nintendo Switch Online', poi l'iscrizione da 'Iscrizioni attive', e premi due volte 'Interrompi il rinnovo automatico' per confermare. Una modifica fatta sull'eShop vale anche sul sito, e viceversa. Il rinnovo automatico può modificarlo solo il titolare dell'account Nintendo che ha acquistato l'iscrizione: gli altri membri del gruppo famiglia non possono farlo. Se invece vuoi esercitare il diritto di recesso entro 14 giorni, Nintendo mette a disposizione il modulo online 'Recesso da un contratto' nel piè di pagina del sito, dove scegli 'Nintendo eShop' e inserisci la transazione da annullare.",
+  "tempi_e_dopo": "Dopo aver interrotto il rinnovo automatico non puoi riattivarlo: per continuare dovrai acquistare una nuova iscrizione. Se hai un'iscrizione familiare, alla scadenza perdono i servizi online anche gli altri membri del gruppo famiglia. Quando l'iscrizione scade non accedi più al backup su cloud dei dati di salvataggio, ma Nintendo ti restituisce l'accesso ai backup precedenti se rinnovi entro 180 giorni. I salvataggi nella memoria della console restano sempre utilizzabili. Se usi il modulo online di recesso, Nintendo ti invia senza ritardo una conferma di ricezione su supporto durevole, per esempio via e-mail. In caso di recesso valido il rimborso arriva entro 14 giorni, con lo stesso metodo di pagamento usato per l'acquisto.",
+  "vincoli": "Il rinnovo automatico è disattivato per impostazione predefinita: si attiva solo se lo scegli al momento dell'acquisto. Le impostazioni seguono l'ultima iscrizione acquistata e una disattivazione non si applica ad altri tipi di iscrizione o periodi di validità. Puoi sommare più iscrizioni dello stesso tipo fino a un massimo di 1.095 giorni, ma non puoi sommare un'iscrizione familiare con una individuale. Le iscrizioni familiari esistono solo con durata di 12 mesi e coprono fino a 8 persone del gruppo famiglia. Il diritto di recesso dura 14 giorni dalla conclusione del contratto, ma scade prima se il servizio è stato interamente eseguito dopo il tuo consenso all'avvio immediato."
+ },
+ "norton": {
+  "assistenza": "Per domande o problemi le Condizioni di vendita rimandano alla pagina di contatto del supporto clienti Norton oppure alla casella postale PO Box 5698, Dublin 15, Ireland. Le chiamate con gli operatori sono gratuite, ma il costo della telefonata dipende dal tuo operatore. Per le controversie, chi risiede nell'Unione Europea può usare la piattaforma europea ODR, ma Norton avverte che può rifiutare l'arbitrato perché non è obbligata a parteciparvi. Le Condizioni di vendita sono regolate dalla legge del paese in cui risiedi e puoi agire davanti ai tribunali italiani.",
+  "costi_dettaglio": "Non ci sono penali. Per gli abbonamenti annuali la garanzia soddisfatti o rimborsati dà il rimborso completo se lo chiedi entro 60 giorni dall'acquisto, e lo stesso vale per ogni rinnovo annuale entro 60 giorni dall'addebito. Per gli abbonamenti mensili il rimborso completo c'è solo entro 14 giorni dall'acquisto, e i rinnovi mensili successivi non sono rimborsabili. Se una prova con carta si trasforma in annuale, il primo addebito e i successivi sono rimborsabili entro 60 giorni; se diventa mensile, solo il primo addebito entro 14 giorni. Il rimborso proporzionale per i mesi restanti è previsto solo per Germania, Paesi Bassi e Regno Unito, non per l'Italia.",
+  "data": "2026-11-15",
+  "dati_lettera": "Le Condizioni di vendita indicano come indirizzo per scrivere al servizio clienti NortonLifeLock Member Services & Support, PO Box 5698, Dublin 15, Ireland. Il contratto è con NortonLifeLock Ireland Limited, Ballycoolin Business Park, Blanchardstown, Dublino 15, Irlanda, partita IVA IE6557355A. Per il recesso nei 14 giorni basta una dichiarazione esplicita oppure il modulo di recesso indicato nelle Condizioni di vendita. Norton dice che l'e-mail è il suo canale di contatto preferito, quindi usa l'indirizzo collegato al tuo account.",
+  "errori": [
+   "Disattivare il rinnovo il giorno della scadenza: Norton può addebitare fino a 35 giorni prima e il rinnovo va annullato entro il giorno prima dell'addebito.",
+   "Aspettarsi un rimborso dopo un rinnovo mensile: per i piani mensili solo il primo acquisto è rimborsabile, entro 14 giorni.",
+   "Annullare solo l'abbonamento aggiuntivo pensando di chiudere tutto: il principale continua a rinnovarsi.",
+   "Chiedere il rimborso a Norton per un abbonamento pagato su un app store o tramite l'operatore: in quei casi possono valere le regole del venditore."
+  ],
+  "faq": [
+   {
+    "d": "Norton mi ha rinnovato l'abbonamento annuale, posso avere il rimborso?",
+    "r": "Sì, se lo chiedi entro 60 giorni dall'addebito del rinnovo: vale la garanzia soddisfatti o rimborsati anche per ogni rinnovo annuale. Devi contattare Norton e poi disinstallare il software."
+   },
+   {
+    "d": "Perché Norton mi ha addebitato il rinnovo un mese prima della scadenza?",
+    "r": "Le Condizioni di vendita permettono di addebitare il rinnovo fino a 35 giorni prima della scadenza, dopo un'e-mail di pre fatturazione. Per evitarlo annulla il rinnovo prima della data di addebito."
+   },
+   {
+    "d": "In Italia ho diritto al rimborso dei mesi non usati se disdico Norton?",
+    "r": "No. Il rimborso proporzionale per i mesi restanti è previsto solo in Germania, Paesi Bassi e Regno Unito. In Italia hai il rimborso completo entro 60 giorni per gli annuali o entro 14 giorni dal primo acquisto per i mensili."
+   }
+  ],
+  "fonti": [
+   "https://support.norton.com/sp/it/it/home/current/solutions/kb20100113164023EN",
+   "https://it.norton.com/terms-of-sale"
+  ],
+  "online": "Per fermare il rinnovo accedi al tuo account Norton, clicca 'Il mio account', scegli 'Abbonamenti' dal menu a discesa e poi 'Cancel Renewal' o 'Manage Subscriptions' accanto all'abbonamento. Segui le istruzioni fino al messaggio di conferma; la modifica può comparire nell'account fino a 24 ore dopo. In alternativa puoi contattare l'assistenza Norton prima della data di fatturazione. Per chiudere il contratto e chiedere un rimborso, invece, devi contattare Norton: le richieste vengono di solito trattate in pochi giorni. Se hai comprato o paghi tramite un app store, un operatore o un rivenditore, possono valere regole diverse di annullamento e rimborso.",
+  "tempi_e_dopo": "Se interrompi il rinnovo, l'abbonamento resta attivo fino alla fine del periodo già pagato e poi finisce senza altri addebiti. L'e-mail di conferma arriva all'indirizzo dell'account entro 24 o 48 ore. Annullando il rinnovo dell'abbonamento principale annulli anche quello degli abbonamenti aggiuntivi collegati, mentre annullare un aggiuntivo non tocca il principale. Quando annulli il contratto con rimborso devi disinstallare ed eliminare tutte le copie del software dai dispositivi. Il rimborso torna sullo stesso metodo di pagamento usato per l'addebito.",
+  "vincoli": "Con il rinnovo automatico il servizio si rinnova ogni anno o ogni mese, a meno che tu non annulli il rinnovo entro il giorno prima dell'addebito. Prima di ogni rinnovo Norton ti manda un'e-mail di pre fatturazione. L'addebito può arrivare fino a 35 giorni prima della scadenza, quindi la data di pagamento cade di solito prima della data di rinnovo. Il rinnovo automatico è attivo anche se hai prepagato tramite un rivenditore in negozio o online. Come consumatore nello Spazio Economico Europeo puoi recedere entro 14 giorni dall'e-mail di conferma e Norton ti rimborsa entro 14 giorni da quando lo comunichi. Perdi questo diritto se hai scaricato il software dopo aver accettato l'esecuzione immediata e la perdita del recesso. Se il prezzo cambia al rinnovo, Norton ti avvisa via e-mail e puoi annullare il rinnovo o recedere."
+ },
+ "parship": {
+  "alternative": "Parship offre una garanzia di contatto con il Premium: se a fine abbonamento non hai raggiunto il numero minimo di contatti garantito, lo prolunga gratis. Dopo un rinnovo hai due settimane per compilare di nuovo il questionario Parship (punto 5.4). Se vuoi solo smettere di pagare, puoi disdire il Premium e restare con l'iscrizione di base gratuita.",
+  "assistenza": "Il servizio clienti risponde via e-mail a assistenza@parship.it, con il modulo di contatto sul sito o per posta a PE Digital GmbH, Servizio Assistenza Clienti Parship, Speersort 10, 20095 Amburgo, Germania. Per il recesso le Condizioni Generali indicano anche il telefono +49 (0) 30 48625532. Parship chiede di indicare sempre il codice utente o l'e-mail del profilo. Nelle Condizioni Generali (punto 10.2) Parship dichiara che non partecipa a procedure davanti agli organismi di conciliazione dei consumatori.",
+  "costi_dettaglio": "Non ci sono penali di disdetta. Se perdi il termine dei 7 giorni, il Premium acquistato su Parship si proroga automaticamente per la stessa durata del contratto, al costo indicato nella conferma d'ordine (punto 5.4). Nel recesso entro 14 giorni, se hai chiesto di iniziare subito il servizio, devi pagare un importo proporzionale a quanto ricevuto fino alla comunicazione del recesso (punto 11.2). Se tardi a pagare oltre 28 giorni, tutte le rate fino al primo termine di disdetta utile diventano subito esigibili (punto 7.1). Il Premium è disponibile per 3, 6 o 12 mesi, a partire da 24,90 euro al mese per 12 mesi pagati in un'unica soluzione, IVA inclusa.",
+  "data": "2026-11-15",
+  "dati_lettera": "Le Condizioni Generali chiedono che la disdetta contenga due dati: l'indirizzo e-mail o il codice utente salvato nel profilo Parship, e la password di servizio. Lo pseudonimo e la password di servizio ti vengono inviati via e-mail all'iscrizione e li ritrovi online in 'I miei dati Parship' > 'Gestisci il profilo'. Per il recesso Parship mette a disposizione un modulo di recesso tipo in PDF, con destinatario PE Digital GmbH, Assistenza Clienti PARSHIP Italia, Speersort 10, 20095 Amburgo, Germania. Il modulo è facoltativo e chiede data dell'ordine, nome, indirizzo, firma se lo spedisci su carta e data; per un'elaborazione veloce chiede anche il codice utente PARSHIP e l'e-mail associata all'account.",
+  "errori": [
+   "Mandare la disdetta senza la password di servizio: le Condizioni Generali chiedono e-mail o codice utente più password di servizio per associare la richiesta.",
+   "Disdire a ridosso della scadenza: oltre il termine di 7 giorni prima della fine il Premium si proroga per un'altra durata uguale.",
+   "Pensare che disdire il Premium cancelli il profilo: l'iscrizione di base gratuita resta attiva e va chiusa a parte con 'Cancella il profilo'.",
+   "Scrivere a Parship se hai pagato con Apple o Google Play: in quel caso la disdetta si fa solo dall'account dello store."
+  ],
+  "faq": [
+   {
+    "d": "Con il recesso entro 14 giorni Parship mi rimborsa tutto?",
+    "r": "Parship rimborsa entro 14 giorni, ma se hai chiesto di iniziare subito il servizio trattiene un importo proporzionale al periodo già fornito, come previsto dal punto 11.2 delle Condizioni Generali."
+   },
+   {
+    "d": "Cosa succede ai beni virtuali se cancello il profilo Parship?",
+    "r": "Vengono cancellati insieme all'iscrizione di base e quelli non usati non sono rimborsati. Se hai beni virtuali attivi la disdetta va fatta per iscritto, per esempio via e-mail."
+   },
+   {
+    "d": "Dove trovo la password di servizio di Parship?",
+    "r": "Ti viene inviata via e-mail al momento dell'iscrizione e la puoi vedere online in 'I miei dati Parship' > 'Gestisci il profilo'."
+   }
+  ],
+  "fonti": [
+   "https://www.parship.it/termsandconditions/",
+   "https://www.parship.it/tour/servizi/contatti/",
+   "https://www.parship.it/tour/servizi/recesso/",
+   "https://www.parship.it/tour/abbonamento/prezzi-e-servizi-in-sintesi/",
+   "https://www.parship.it/tour/abbonamento/",
+   "https://www.parship.it/static_cms/parship/static/Downloads/Modulo-di-recesso-tipo-IT.pdf"
+  ],
+  "online": "Su Parship ci sono due cose distinte da chiudere: l'iscrizione Premium a pagamento e l'iscrizione di base gratuita. Per la disdetta ordinaria del Premium le Condizioni Generali (punto 5.2) rimandano al modulo del servizio clienti su parship.it/customerservice. In alternativa puoi disdire per iscritto: e-mail, sezione Impostazioni del profilo, lettera o fax. Il recesso entro 14 giorni si fa anche online, dal link 'Recesso dai contratti' nel piè di pagina del sito, nell'area riservata, oppure nell'app da 'Il mio profilo' > 'Impostazioni' > 'Il mio abbonamento' > 'Recesso dai contratti'. Se usi questa funzione, Parship ti manda subito una conferma di ricezione su supporto durevole, per esempio via e-mail, con contenuto, data e ora dell'invio. L'iscrizione di base si chiude sul sito con il link 'Cancella il profilo' in 'I miei dati Parship' > 'Gestisci il profilo' > 'Stato del profilo', confermando con la password. Se hai pagato con Apple o Google Play devi disdire dal tuo account sullo store, seguendo le loro istruzioni.",
+  "tempi_e_dopo": "La disdetta ordinaria del Premium vale alla fine della durata scelta, se arriva almeno 7 giorni prima. La chiusura dell'iscrizione di base ha effetto immediato. Se cancelli l'iscrizione di base vengono cancellati anche i beni virtuali acquistati, e quelli non usati non vengono rimborsati. Con il recesso entro 14 giorni Parship ti rimborsa senza ritardo e comunque entro 14 giorni da quando riceve la comunicazione, con lo stesso mezzo di pagamento usato. Disdire il Premium non chiude da solo il profilo gratuito: devi chiuderlo a parte (punto 5.7).",
+  "vincoli": "Le Condizioni Generali sono aggiornate al 01.07.2026 e il contratto è con PE Digital GmbH, società tedesca. Tutti gli abbonamenti Premium si rinnovano automaticamente. Il termine di disdetta è di 7 giorni prima della fine della durata scelta. Per il Premium comprato con Apple o Google Play durata e costi del rinnovo seguono le regole dello store e la conferma d'ordine (punto 5.5). Se hai beni virtuali attivi (per esempio Match Unlocks) nell'iscrizione di base, la disdetta va fatta per iscritto, per esempio a assistenza@parship.it. Anche la disdetta straordinaria richiede la forma scritta (punto 5.6)."
+ },
+ "playstation-plus": {
+  "alternative": "Invece di annullare puoi cambiare piano da 'Gestione account' > 'Abbonamento' > 'Modifica piano', o dallo stesso menu su PS5 e PS4. Se passi a un livello inferiore, il cambio vale dalla data di pagamento successiva e perdi i vantaggi esclusivi del piano precedente. Se passi a un livello superiore paghi subito una quota in proporzione al tempo che manca al prossimo pagamento. Se hai già annullato e cambi idea, puoi scegliere 'Riattiva abbonamento' prima della data del pagamento successivo.",
+  "assistenza": "L'assistenza passa dal sito con le pagine di supporto e il modulo di contatto su playstation.com/support/contact-us, e dall'assistente online in basso a destra nelle pagine sui rimborsi. Il contratto per i servizi online è con Sony Interactive Entertainment Network Europe Limited, società inglese, ma per i consumatori dello Spazio economico europeo si applica la legge dei Paesi Bassi, con le tutele obbligatorie del tuo paese che restano prioritarie (Termini di servizio, punto 26.1.1).",
+  "costi_dettaglio": "Annullare non costa nulla, ma non ricevi rimborsi per i pagamenti già fatti. Il rimborso spetta solo se lo chiedi entro 14 giorni dalla registrazione e solo per il primo pagamento, non per una quota periodica. Se nel frattempo hai usato l'abbonamento (gioco online, giochi mensili scaricati, archiviazione nel cloud), Sony può ridurre il rimborso in proporzione all'uso (Termini di servizio, punto 14.4.2). Se hai comprato un codice PlayStation Plus in un negozio, il rimborso va chiesto a quel rivenditore e non a Sony.",
+  "data": "2026-11-15",
+  "dati_lettera": "Per chiedere un rimborso al Supporto PlayStation la Politica di annullamento chiede il tuo ID online, l'ID di accesso (l'indirizzo e-mail) e il nome dell'acquisto. Se vivi nell'Unione europea puoi usare anche il modulo di rimborso online, e Sony consiglia di tenere a portata di mano l'e-mail di conferma dell'acquisto. Per scrivere per posta i Termini di servizio indicano Sony Interactive Entertainment Network Europe Limited, 10 Great Marlborough Street, London, W1F 7LP, UK.",
+  "errori": [
+   "Chiedere il rimborso di un rinnovo: Sony rimborsa solo il primo pagamento entro 14 giorni, mai una quota periodica.",
+   "Aspettare la fine di una prova gratuita per decidere: i 14 giorni partono dal giorno della prova, quindi dopo una prova di 7 giorni ti restano solo 7 giorni.",
+   "Chiedere a Sony il rimborso di un codice comprato in negozio: per gli acquisti fuori dal PlayStation Store devi rivolgerti al rivenditore.",
+   "Contare sul rimborso pieno dopo aver giocato: se hai usato il servizio, il rimborso può essere ridotto in proporzione."
+  ],
+  "faq": [
+   {
+    "d": "Se annullo PlayStation Plus perdo i giochi mensili?",
+    "r": "Sì, alla fine dell'abbonamento i giochi mensili scaricati con PlayStation Plus non sono più disponibili. Restano tuoi i pack e gli avatar riscattati e i giochi comprati con lo sconto PlayStation Plus."
+   },
+   {
+    "d": "Posso passare a un piano più economico invece di annullare?",
+    "r": "Sì, con 'Modifica piano' nella sezione Abbonamento. Il passaggio al livello inferiore vale dalla prossima data di pagamento e da quel momento perdi i vantaggi del piano superiore."
+   },
+   {
+    "d": "Sony può aumentare il prezzo di PlayStation Plus?",
+    "r": "Sì, ma deve avvisarti via e-mail almeno 60 giorni prima, con il nuovo prezzo e la data di applicazione, e puoi annullare prima che l'aumento entri in vigore."
+   }
+  ],
+  "fonti": [
+   "https://www.playstation.com/it-it/support/subscriptions/cancel-playstation-plus/",
+   "https://www.playstation.com/it-it/support/store/cancel-ps-store-subscription/",
+   "https://www.playstation.com/it-it/support/store/ps-store-refund-request/",
+   "https://www.playstation.com/it-it/legal/playstation-store-cancellation-policy/",
+   "https://www.playstation.com/it-it/legal/psn-terms-of-service/",
+   "https://www.playstation.com/it-it/support/subscriptions/change-ps-plus/"
+  ],
+  "online": "PlayStation Plus si annulla solo dal tuo account PlayStation, in quattro modi. Dal browser accedi a 'Gestione account', scegli 'Abbonamento' nel menu a sinistra e premi 'Annulla abbonamento' accanto a PlayStation Plus. Su PS5 vai in 'Impostazioni' > 'Utenti e account' > 'Account' > 'Pagamento e abbonamenti' > 'Abbonamenti' > 'PlayStation Plus' e seleziona 'Annulla abbonamento'. Su PS4 vai in 'PlayStation Plus' > 'Gestisci abbonamento' > 'Abbonamento' > 'Annulla abbonamento', oppure in 'Impostazioni' > 'Gestione account' > 'Informazioni sull'account' > 'Abbonamenti'. Nella PlayStation App tocchi l'icona PlayStation Store in basso, poi il menu in alto a destra, 'Gestione abbonamenti' e 'Annulla' sotto l'abbonamento. Nella stessa schermata vedi anche la data del prossimo pagamento. Per il rimborso entro 14 giorni apri i dettagli degli ordini, selezioni la transazione e scegli 'Annulla acquisto'; se non funziona contatti il Supporto PlayStation.",
+  "tempi_e_dopo": "Quando annulli, l'abbonamento si disattiva dalla prossima data di pagamento e fino ad allora conservi tutti i vantaggi. Alla scadenza perdi i giochi mensili scaricati con l'abbonamento, la memoria di archiviazione online e il multigiocatore online. Restano tuoi i pack e gli avatar riscattati e i giochi comprati con lo sconto PlayStation Plus. Il rimborso può arrivare entro 10 giorni, di solito sul metodo di pagamento usato per l'acquisto. Se non è possibile, per esempio per acquisti fatti con codici del portafoglio, l'importo va sul portafoglio PlayStation Store. Un rimborso parziale può comparire nella cronologia come due operazioni: il rimborso completo sul portafoglio e un addebito per il periodo usato.",
+  "vincoli": "I Termini di servizio (versione 12, aprile 2026) dicono che gli abbonamenti sono continuativi e senza scadenza: l'addebito si ripete finché non modifichi le impostazioni (punto 18.7). Sony ti scrive via e-mail prima di ogni pagamento. Le prove gratuite diventano abbonamenti a pagamento se non annulli prima della fine della prova (punto 18.8). I 14 giorni per il rimborso includono la prova gratuita: con una prova di 7 giorni ti restano 7 giorni dopo il primo addebito. Se Sony aumenta il prezzo, ti avvisa per e-mail almeno 60 giorni prima e puoi annullare prima che l'aumento scatti (punto 18.12.1). Se l'addebito non va a buon fine, Sony può riprovare nei giorni successivi."
+ },
+ "revolut": {
+  "alternative": "Se il problema è il canone, Revolut ti suggerisce di passare al piano Standard, che è gratuito, invece di chiudere il conto. La carta Revolut che non vuoi più può essere disattivata gratuitamente senza chiudere il conto. Se il saldo è troppo basso per un bonifico in uscita, puoi ricaricare fino al minimo richiesto, girare i fondi a un amico su Revolut con un trasferimento interno o donarli con la funzione Donazioni dell'app.",
+  "assistenza": "L'assistenza ordinaria passa dalla chat dentro l'app Revolut, che però non segue i tempi previsti per i reclami. Il reclamo formale si fa con il modulo di Revolut, via email a formalcomplaints@revolut.com, alla PEC revolut.italy.pec.complaints@legalmail.it o per posta ordinaria a Via Dante 7, 20123 Milano (Termini personali, art. 30). Devi indicare nome e cognome, telefono ed email collegati al conto, descrizione del problema, data in cui è nato e come vuoi che venga risolto. Revolut risponde entro 15 giorni lavorativi, ed entro 35 giorni lavorativi in casi eccezionali. Se la risposta non ti soddisfa puoi rivolgerti all'Arbitro Bancario Finanziario o presentare un esposto alla Banca d'Italia, qualunque sia la nazionalità del conto. Dal 13 aprile 2026 l'esposto si presenta solo dal Portale dei servizi online per il cittadino della Banca d'Italia, gratis e senza avvocato. Con un conto lituano puoi anche rivolgerti alla Banca di Lituania entro 1 anno dal reclamo, a condizione di aver reclamato a Revolut entro 3 mesi dal problema. Per bloccare la carta c'è anche il numero automatico +370 5 214 3608.",
+  "costi_dettaglio": "I Termini personali (art. 6) dicono che non ci sono addebiti o commissioni per la chiusura del conto, ma restano da pagare le spese già maturate, per esempio una carta supplementare richiesta. Se hai già pagato un servizio per un periodo che va oltre la data del recesso, ti viene rimborsata la parte non goduta. Per un bonifico chiesto dopo i 60 giorni dalla chiusura si applica la commissione standard, con un minimo di 2 euro, anche se in quel momento sarebbe stato gratuito. Se il saldo residuo è di 2 euro o meno, la commissione viene trattenuta automaticamente e il conto si chiude in modo definitivo alla fine dei 60 giorni. Per lasciare un piano a pagamento valgono i Termini del piano a pagamento (in vigore dal 4 febbraio 2026, sezione 12): entro 14 giorni hai il rimborso completo dell'abbonamento, ma paghi l'emissione della carta Plus, Premium, Metal o Ultra e la consegna. Tra 14 giorni e 10 mesi l'abbonamento mensile non viene rimborsato per il mese in corso, quello annuale viene ricalcolato a prezzo mensile e ti viene restituito il resto, e paghi comunque emissione e consegna della carta. Con il piano Ultra, in caso di downgrade, ti vengono addebitati gli accessi alle lounge e i dati eSIM gratuiti che hai usato. Dopo 10 mesi non c'è nessuna commissione aggiuntiva oltre al mese o ai mesi già usati.",
+  "data": "2026-11-15",
+  "dati_lettera": "Per la richiesta via email Revolut chiede il nome legale completo, l'indirizzo di residenza, il numero di telefono collegato al conto e un breve motivo della chiusura. Prima di chiudere, il team ti manda alcuni passaggi per verificare la tua identità. Nella lettera conviene indicare anche se il tuo conto è italiano o lituano, perché cambia l'indirizzo a cui spedire.",
+  "errori": [
+   "Cercare 'Chiudi conto' con un piano Plus, Premium, Metal o Ultra ancora attivo: per la pagina di aiuto di Revolut devi prima fare il downgrade a Standard, e i Termini del piano a pagamento prevedono costi diversi se lo fai entro 14 giorni, entro 10 mesi o dopo.",
+   "Lasciare pochi euro sul conto pensando di recuperarli più tardi: dopo 60 giorni ogni bonifico costa almeno 2 euro, e se il saldo è di 2 euro o meno la commissione lo assorbe e il conto si chiude definitivamente.",
+   "Spedire la raccomandata a Milano con un conto lituano, o a Vilnius con un conto italiano: i Termini personali indicano un indirizzo diverso per ciascun tipo di conto.",
+   "Chiudere il conto senza aver scaricato gli estratti conto: nell'app restano disponibili solo finché sei cliente, dopo devi chiederli via email."
+  ],
+  "faq": [
+   {
+    "d": "Se chiudo il conto Revolut perdo i soldi rimasti?",
+    "r": "No. Per almeno 60 giorni puoi farti trasferire il denaro con le commissioni ordinarie, e per dieci anni puoi chiederne l'invio a support@revolut.com. Dopo i 60 giorni il bonifico costa almeno 2 euro."
+   },
+   {
+    "d": "Posso chiudere Revolut senza l'app?",
+    "r": "Sì. Scrivi a support@revolut.com dall'email collegata al conto con nome legale completo, indirizzo di residenza, numero di telefono del conto e motivo della chiusura, oppure mandi una raccomandata A/R a Via Dante 7, 20123 Milano per il conto italiano."
+   },
+   {
+    "d": "Quanto costa lasciare il piano Premium o Metal prima della scadenza?",
+    "r": "Entro 14 giorni l'abbonamento ti viene rimborsato per intero, ma paghi emissione e consegna della carta. Tra 14 giorni e 10 mesi paghi i mesi usati e la carta. Dopo 10 mesi paghi solo i mesi usati, senza commissioni extra (Termini del piano a pagamento, sezione 12)."
+   }
+  ],
+  "fonti": [
+   "https://help.revolut.com/it-IT/help/profile-and-plan/closing-account/",
+   "https://cdn.revolut.com/terms_and_conditions/pdf/termini_personali_d035c1ce_2.10.0_1781024577_it.pdf",
+   "https://cdn.revolut.com/terms_and_conditions/pdf/termini_del_piano_a_pagamento_66f86170_2.7.0_1776154342_it.pdf",
+   "https://www.arbitrobancariofinanziario.it/",
+   "https://www.bancaditalia.it/servizi-cittadino/servizi/esposti/index.html"
+  ],
+  "online": "Il modo più rapido è l'app: tocchi l'icona del profilo nell'angolo in alto a sinistra, selezioni 'Impostazioni' e premi 'Chiudi conto'. Prima devi aver installato l'ultima versione dell'app. La pagina di aiuto di Revolut elenca le condizioni da rispettare: saldo a zero su tutti i conti, i Pocket e i conti in valuta, nessuna transazione in sospeso e nessun abbonamento attivo, piano riportato a Standard, conto di investimento chiuso. Non devono restare conti Kids & Teens attivi, assicurazioni attive tramite Revolut, obblighi legati a crediti o richieste di chargeback in corso. Se hai perso il telefono o non riesci ad accedere all'app, scrivi a support@revolut.com dall'indirizzo email collegato al conto, con oggetto 'richiesta di chiusura del conto'. I Termini personali (versione in vigore dal 9 giugno 2026, art. 6) permettono anche la raccomandata A/R: a Via Dante 7, 20123 Milano se hai un conto italiano, a Konstitucijos ave. 21B, 08130 Vilnius se hai un conto lituano.",
+  "tempi_e_dopo": "Quando la chiusura è completata Revolut ti invia una conferma. Per almeno 60 giorni dalla chiusura puoi ancora farti trasferire il denaro rimasto, con i limiti e le commissioni ordinari del tuo piano. Revolut trattiene i fondi necessari a coprire i pagamenti che avevi già autorizzato prima della chiusura. Per dieci anni dopo la chiusura puoi scrivere a support@revolut.com e chiedere l'invio del denaro ancora a tuo nome. Gli estratti conto vanno scaricati dall'app mentre il conto è ancora attivo; dopo la chiusura puoi chiederli via email a support@revolut.com. Se il conto è temporaneamente limitato, Revolut può non chiuderlo finché non ha completato le sue verifiche.",
+  "vincoli": "Il conto è a tempo indeterminato e puoi recedere in qualsiasi momento, senza penali e senza dare un motivo (Termini personali, art. 6). I piani a pagamento invece ti impegnano per un anno e si rinnovano automaticamente ogni anno, se non comunichi il recesso prima del rinnovo. Revolut può limitare l'upgrade o il downgrade del piano a una volta ogni 12 mesi. Revolut ti avvisa almeno 2 mesi prima di modificare i Termini personali: se non accetti le modifiche puoi recedere gratis in qualsiasi momento prima che entrino in vigore."
+ },
+ "servizio-elettrico-nazionale": {
+  "alternative": "Se lasci la casa a qualcuno che vuole tenere la luce, valuta la voltura invece della cessazione: il nuovo intestatario la chiede dall'area clienti, 'Il tuo contratto > Fai una voltura', o al telefono. Con la voltura il tuo contratto si chiude e ricevi la bolletta finale al recapito usato finora, salvo che tu ne indichi un altro. In caso di decesso dell'intestatario o di separazione e divorzio la voltura è gratuita, con i moduli della sezione 'Modulistica'. Se invece vuoi solo cambiare fornitore non serve chiudere il contatore: le Condizioni generali distinguono il recesso per cambio fornitore da quello per cessazione.",
+  "assistenza": "Il reclamo scritto si invia dal sito servizioelettriconazionale.it oppure per posta a Casella Postale 1100, 85100 Potenza, anche con il 'Modulo reclami' ufficiale (Condizioni generali, art. 8.1). Nel modulo sono obbligatori nome e cognome, indirizzo della fornitura, codice POD e descrizione del problema. Se il reclamo riguarda l'importo della bolletta ed è presentato entro la scadenza, la riscossione di quella bolletta viene sospesa (art. 8.2). Se la risposta non arriva o non ti soddisfa, Servizio Elettrico Nazionale partecipa al Servizio Conciliazione gestito da Acquirente Unico per conto di ARERA e alla negoziazione paritetica gratuita con le associazioni dei consumatori (pariteticasen-associazioni.it). Il tentativo di conciliazione è obbligatorio prima di andare dal giudice. Per guasti e pericoli non chiami il venditore ma il distributore: 803 500 per e-distribuzione, 800 26 90 42 per Duereti.",
+  "costi_dettaglio": "Puoi recedere in qualsiasi momento senza oneri, ma se chiedi la disattivazione del contatore paghi il contributo in quota fissa previsto da ARERA (Condizioni generali, art. 1.3, che rimandano alla delibera 301/2012/R/EEL). Secondo ARERA, per i clienti in maggior tutela questo contributo per oneri amministrativi è di 23 euro. Se l'importo cambia, Servizio Elettrico Nazionale lo comunica con un avviso in bolletta.",
+  "data": "2026-11-15",
+  "dati_lettera": "Nella richiesta scritta di cessazione la pagina ufficiale chiede il POD che identifica la fornitura. Le Condizioni generali di fornitura (art. 1.3) chiedono di indicare in ogni caso l'indirizzo dove spedire la bolletta finale. Il POD e il numero cliente li trovi in prima pagina della bolletta, in alto a sinistra, sotto 'DATI FORNITURA'. L'indirizzo postale per le comunicazioni scritte è Servizio Elettrico Nazionale S.p.A., Casella Postale 1100, 85100 Potenza (PZ).",
+  "errori": [
+   "Chiedere la cessazione quando vuoi solo cambiare fornitore: per Servizio Elettrico Nazionale la cessazione chiude il contatore e lascia la casa senza corrente, con il contributo ARERA di disattivazione a tuo carico.",
+   "Dimenticare l'indirizzo per la bolletta finale: l'art. 1.3 delle Condizioni generali lo chiede in ogni caso, perché dopo la chiusura la fornitura non è più quella di casa.",
+   "Lasciare la richiesta senza seguito se il distributore non riesce a chiudere il contatore: dopo 60 giorni dalla data prevista la cessazione viene annullata d'ufficio.",
+   "Chiamare 803 500 per la disdetta: è il numero di e-distribuzione per guasti e pratiche di rete, la disdetta si fa all'800 900 800 o al +39 02 30172011."
+  ],
+  "faq": [
+   {
+    "d": "Posso disdire Servizio Elettrico Nazionale per telefono?",
+    "r": "Sì. La pagina Contatti indica l'800 900 800 anche per la disdetta del contratto, tutti i giorni dalle 7 alle 22 esclusi i festivi, e il +39 02 30172011 da cellulare. In alternativa usi l'area riservata, l'upload documentale con il POD o una lettera a Casella Postale 1100, 85100 Potenza."
+   },
+   {
+    "d": "Se cambio casa, devo chiudere il contratto o fare la voltura?",
+    "r": "Se chi entra vuole tenere la luce, fa la voltura e il tuo contratto si chiude con la bolletta finale. Se la casa resta vuota, chiedi la cessazione, che chiude il contatore e costa il contributo ARERA di 23 euro per i clienti in maggior tutela."
+   },
+   {
+    "d": "Quando mi restituiscono il deposito cauzionale?",
+    "r": "Alla fine del rapporto, con gli interessi legali e senza dover presentare documenti (art. 2.1). Se mancano le letture, il deposito ti viene restituito già con la bolletta a consumi stimati (art. 5.5)."
+   }
+  ],
+  "fonti": [
+   "https://www.servizioelettriconazionale.it/it-IT/contratto/cessazione",
+   "https://www.servizioelettriconazionale.it/it-IT/contatti.html",
+   "https://www.servizioelettriconazionale.it/content/dam/sen/sencudn-usodomestico-senza-misura-potenza.pdf",
+   "https://www.servizioelettriconazionale.it/it-IT/contratto/diritto-di-ripensamento",
+   "https://www.servizioelettriconazionale.it/it-IT/contratto/voltura",
+   "https://www.servizioelettriconazionale.it/it-IT/contratto/Rientro-in-maggior-tutela",
+   "https://www.servizioelettriconazionale.it/content/dam/sen/modulo-reclami.pdf",
+   "https://www.servizioelettriconazionale.it/it-IT/info-news/info/conciliazioni-e-risoluzione-delle-controversie",
+   "https://www.arera.it/atlante-per-il-consumatore/elettricita/la-fornitura/disattivazione/quanto-costa-disattivare-la-fornitura",
+   "https://www.arera.it/atlante-per-il-consumatore/elettricita/la-bolletta/bolletta-di-chiusura/entro-quanto-tempo-deve-essere-inviata-la-bolletta-di-chiusura"
+  ],
+  "online": "La pagina 'Cessazione' di Servizio Elettrico Nazionale indica tre strade: l'area riservata del sito, una richiesta scritta con il POD caricata con la funzione di upload documentale ('Invia un documento' nella pagina Contatti), oppure il telefono o una lettera. Il numero verde 800 900 800 è indicato proprio anche per la disdetta del contratto, dal lunedì alla domenica dalle 7 alle 22, festivi esclusi. Da cellulare e dall'estero chiami il +39 02 30172011, al costo del tuo operatore. Se hai difficoltà uditive puoi chiamare l'800 900 800 con l'app Pedius. Nell'area clienti, per scrivere, vai alla sezione 'Contattaci'. Chiedere la cessazione vuol dire chiudere il contatore: la casa resta senza corrente, e la richiesta vale anche come disdetta del contratto.",
+  "tempi_e_dopo": "Per la cessazione il preavviso non può superare un mese (Condizioni generali, art. 1.3). Servizio Elettrico Nazionale inoltra la richiesta al distributore, che chiude il contatore nei tempi fissati dalla normativa. Se la cessazione non viene eseguita, la richiesta viene annullata d'ufficio dopo 60 giorni dalla data prevista per la disattivazione. La bolletta finale viene emessa nei termini della delibera ARERA 463/16: se mancano le letture del distributore arriva prima una bolletta con consumi stimati, poi quella definitiva quando i dati sono disponibili. Il deposito cauzionale ti viene restituito alla fine del rapporto con gli interessi legali, senza che tu debba presentare documenti (art. 2.1). Per ARERA la bolletta di chiusura deve arrivarti entro 6 settimane dalla cessazione.",
+  "vincoli": "Il contratto è a tempo indeterminato e decorre dalla data di allacciamento; per la Pubblica Amministrazione dura nove anni (art. 1.3). Hai 14 giorni solari dalla conclusione del contratto per il ripensamento, senza oneri: scrivi a Casella Postale 1100, 85100 Potenza, oppure, se hai firmato online, usi la funzione nell'area riservata, sezione 'Il tuo contratto'. Se hai chiesto di attivare la fornitura prima dei 14 giorni, una volta che il contratto è interamente eseguito non puoi più esercitare il ripensamento. Il servizio di maggior tutela oggi è per i clienti domestici vulnerabili: oltre 75 anni, bonus sociale, disabilità ai sensi della legge 104, isole minori non interconnesse, abitazioni di emergenza, apparecchiature medico terapeutiche salvavita."
+ },
+ "spotify": {
+  "alternative": "Puoi annullare Premium e restare sul piano gratuito con pubblicità, mantenendo brani, playlist e podcast salvati. Puoi anche passare a un altro piano Premium dalla pagina dell'account, per esempio da Family a Individual.",
+  "assistenza": "Per domande su account e pagamenti le Condizioni d'uso rimandano alle risorse di assistenza della sezione 'Chi siamo' e al modulo di contatto su support.spotify.com. Se paghi tramite un partner, l'assistenza su addebiti e rimborsi la dà il partner, con i contatti indicati sotto 'Pagamento'.",
+  "costi_dettaglio": "In Italia Premium Individual costa 11,99 euro al mese, Premium Student 6,49 euro, Duo 16,99 euro e Family 20,99 euro. Spotify non rimborsa i periodi di abbonamento parziali, salvo i casi previsti dalle Condizioni d'uso. Non rimborsa nemmeno i buoni regalo comprati in negozio e i pagamenti Premium fatti tramite un partner, per i quali devi rivolgerti al partner. In caso di recesso nei 14 giorni, Spotify ti rimborsa entro 14 giorni dalla ricezione della comunicazione con lo stesso metodo di pagamento. Se però hai chiesto di iniziare subito il servizio, paghi la parte già fornita fino al recesso.",
+  "data": "2026-11-15",
+  "dati_lettera": "Per il recesso nei 14 giorni le Condizioni d'uso indicano Spotify AB, Regeringsgatan 19, 111 53 Stoccolma, Svezia, e l'email angerblankett@spotify.com. Il modulo tipo di recesso allegato alle Condizioni chiede nome, indirizzo, data dell'ordine o di ricezione, firma solo per l'invio cartaceo e data. Il modulo non è obbligatorio: basta una dichiarazione esplicita, per lettera o email. Se recedi con la funzione online, Spotify ti manda una conferma con il contenuto del recesso, la data e l'ora dell'invio.",
+  "errori": [
+   "Seguire la procedura di annullamento da membro di un piano Family o Duo: esci dal piano ma l'abbonamento resta attivo e il gestore continua a pagare.",
+   "Annullare il primo giorno della prova gratuita pensando di finire il mese: Spotify ti riporta subito al piano gratuito e la prova non si può riattivare.",
+   "Chiudere l'account per fermare i pagamenti: per Premium basta annullare l'abbonamento, mentre la chiusura cancella i dati e fa perdere audiolibri e biglietti acquistati.",
+   "Cercare il rimborso da Spotify quando Premium è pagato con l'operatore: Spotify non rimborsa i pagamenti fatti tramite partner."
+  ],
+  "faq": [
+   {
+    "d": "Ho annullato Spotify Premium ma mi arriva ancora un addebito, cosa controllo?",
+    "r": "Nella pagina account, sotto 'Il tuo piano' e 'Pagamento', se vedi la prossima data di pagamento l'annullamento non è andato a buon fine e va ripetuto fino al messaggio di conferma. Se vedi la data di passaggio a Spotify Free, l'annullamento è riuscito e non avrai altri addebiti."
+   },
+   {
+    "d": "Se annullo Premium perdo le playlist?",
+    "r": "No, playlist e musica salvata restano quando l'account passa alla versione gratuita. Le perdi solo se chiudi del tutto l'account ed elimini i dati."
+   },
+   {
+    "d": "Come annullo il piano Family di Spotify?",
+    "r": "Lo può annullare solo il gestore del piano da 'Gestisci il tuo piano'. I membri perdono Premium dalla data di pagamento successiva e passano al piano gratuito con pubblicità."
+   }
+  ],
+  "fonti": [
+   "https://support.spotify.com/it/article/cancel-premium/",
+   "https://support.spotify.com/it/article/refund-policy/",
+   "https://support.spotify.com/it/article/price-updates/",
+   "https://support.spotify.com/it/article/canceled-but-still-charged/",
+   "https://support.spotify.com/it/article/how-can-i-close-my-spotify-account/",
+   "https://www.spotify.com/it/legal/end-user-agreement/",
+   "https://www.spotify.com/it/premium/"
+  ],
+  "online": "Dal browser vai su 'Gestisci il tuo piano' (spotify.com/account/subscription/manage) e seleziona 'Annulla abbonamento'. Se hai un piano Family o Duo, solo il gestore del piano può annullarlo con questi passaggi. Se sei un membro, seguendo gli stessi passaggi esci dal piano ma non lo annulli: per chiuderlo devi chiedere al gestore. Se non vedi l'opzione per cambiare piano, il tuo Premium è legato a un partner, come la compagnia telefonica o il provider Internet: il link ai suoi contatti è in 'Gestisci il tuo piano', voce 'Pagamento'. L'assistenza Spotify indica anche un modulo di annullamento (spotify.com/account/cancel), che richiede l'accesso all'account.",
+  "tempi_e_dopo": "Premium resta attivo fino alla prossima data di fatturazione, poi l'account passa alla versione gratuita con pubblicità. Playlist e musica salvata restano sull'account. Se annulli durante una prova gratuita a prezzo zero, passi subito al piano gratuito e la prova non si può riattivare. Se il gestore annulla un piano Family, tutti gli account gestiti passano al piano gratuito con pubblicità. Se invece chiudi del tutto l'account, ricevi un'email con un link per riattivarlo entro 7 giorni, poi parte l'eliminazione dei dati. Chiudendo l'account perdi gli audiolibri e i biglietti per eventi live acquistati, e puoi riusare la stessa email per un nuovo account solo dopo 14 giorni.",
+  "vincoli": "Salvo un periodo prepagato, gli abbonamenti a pagamento durano a tempo indeterminato e vengono addebitati il primo giorno di ogni periodo di fatturazione. Spotify deve avvisarti di un aumento di prezzo con almeno 30 giorni di anticipo e il nuovo prezzo vale dal periodo successivo. Se non lo accetti, annulli l'abbonamento prima che l'aumento abbia effetto. Premium Student dura 12 mesi e poi passa da solo a Premium Individual a 11,99 euro al mese, con al massimo 3 rinnovi. Un abbonamento pagato con un codice si interrompe da solo alla fine del periodo del codice. Spotify può chiudere un abbonamento a pagamento con almeno 14 giorni di preavviso."
+ },
+ "technogym-abbonamento": {
+  "alternative": "Se hai una bike con Technogym Unlimited, la FAQ dell'app indica che include già tutti i contenuti premium di Technogym Plus, quindi un secondo abbonamento Plus non serve. Se hai scelto l'abbonamento annuale da 89,99 euro, alla scadenza puoi lasciarlo passare al rinnovo mensile oppure disdirlo prima.",
+  "assistenza": "Numero verde Technogym: 800 70 70 70. Per informazioni o reclami sugli addebiti degli abbonamenti le Condizioni Generali indicano info@technogym.com; per gli altri reclami homeshop@technogym.com. Per posta: Technogym S.p.A., Home Shop, Via Calcinaro 2861, 47522 Cesena (FC). Per il recesso entro 14 giorni la pagina sulla politica di reso indica customerserviceitalia@technogym.com oppure una lettera a Technogym S.p.A., via Calcinaro 2861, 47521 Cesena (FC), Attn. Customer Service Italia. Se sei consumatore, per le controversie è competente il foro del tuo luogo di residenza o domicilio.",
+  "costi_dettaglio": "Technogym Plus costa 8,99 euro al mese oppure 89,99 euro all'anno, con un mese di prova gratuita annullabile in qualsiasi momento (pagina supporto 'Cos'è il Technogym Plus?'). Non è prevista una penale di disdetta. Le Condizioni Generali di Vendita, paragrafo 'Disdetta', dicono però che i pagamenti non sono rimborsabili e che non ci sono rimborsi o crediti per uso parziale o contenuti non usati. Se l'addebito del rinnovo non va a buon fine e non hai disdetto in tempo, l'accesso ai Contenuti può essere bloccato finché il pagamento non riesce, e resti responsabile degli insoluti.",
+  "data": "2026-11-15",
+  "dati_lettera": "Le pagine ufficiali non elencano dati obbligatori per la disdetta. Per il recesso entro 14 giorni la pagina 'La nostra politica di reso' rimanda al modulo di recesso, che serve anche a indicare le coordinate bancarie: il rimborso infatti arriva con bonifico sul conto che scrivi nel modulo. L'abbonamento è legato al tuo Technogym ID, quindi conviene indicare l'indirizzo email dell'account.",
+  "errori": [
+   "Scrivere a Technogym per disdire un Technogym Plus attivato dall'app iPhone o Android: la FAQ ufficiale indica che la cancellazione si fa nelle impostazioni abbonamenti di Apple o di Google Play.",
+   "Contare sul recesso di 14 giorni dopo aver iniziato a usare i contenuti: per Technogym il recesso non vale per i contenuti digitali attivati su tua richiesta entro i 14 giorni.",
+   "Disdire l'ultimo giorno: Technogym addebita il mese successivo il giorno corrispondente all'inizio del periodo, quindi controlla prima la data in 'Informazioni per la fatturazione'.",
+   "Usare la PEC technogym.amministrazione@legalmail.it per la disdetta: le condizioni non la indicano per gli abbonamenti, che si gestiscono da 'My subscriptions' o dallo store."
+  ],
+  "faq": [
+   {
+    "d": "Se disdico Technogym Plus perdo subito gli allenamenti?",
+    "r": "No. Secondo la FAQ ufficiale della Technogym App puoi continuare a usare i contenuti premium per tutto il periodo che hai già pagato."
+   },
+   {
+    "d": "Posso disdire Technogym Plus durante il mese di prova gratuita?",
+    "r": "Sì. La pagina ufficiale di Technogym Plus dice che il periodo di prova gratuito di 1 mese può essere annullato in qualsiasi momento."
+   },
+   {
+    "d": "Ho comprato una bike Technogym a rate con l'abbonamento incluso: come disdico?",
+    "r": "Le Condizioni Generali di Vendita dicono che, se hai pagato con un finanziamento di terzi, devi contattare la finanziaria oppure scrivere a customerservice@technogym.com, e che i termini di disdetta possono avere restrizioni legate al finanziamento."
+   }
+  ],
+  "fonti": [
+   "https://www.technogym.com/it-IT/condizioni-vendita/",
+   "https://www.technogym.com/it-IT/politica-sul-reso/",
+   "https://www.technogym.com/it-IT/support/product/technogym-app/?tab=faq",
+   "https://www.technogym.com/it-IT/support/post/technogym-plus-subscription/",
+   "https://www.technogym.com/it-IT/terms-of-use/"
+  ],
+  "online": "Dipende da dove hai attivato l'abbonamento. Se l'hai comprato su technogym.com, le Condizioni Generali di Vendita dicono di entrare nell'area personale del tuo account e cliccare su 'My subscriptions', dove vedi i dettagli e puoi disdire. Se hai attivato Technogym Plus dalla Technogym App, la FAQ ufficiale rimanda allo store: su iPhone vai in 'Impostazioni', tocchi il tuo nome, poi 'Abbonamenti', selezioni 'Technogym' e scegli 'Cancella abbonamento'. Su Android apri il Google Play Store, tocchi l'icona del profilo in alto a destra, scegli 'Pagamenti e abbonamenti', selezioni l'abbonamento e tocchi 'Elimina abbonamento'. Se l'abbonamento è pagato con un finanziamento di una società terza, per disdire devi contattare la finanziaria oppure scrivere a customerservice@technogym.com.",
+  "tempi_e_dopo": "L'abbonamento ai Contenuti è mensile e si rinnova di mese in mese fino alla disdetta. Se lo disdici dallo store, la FAQ della Technogym App precisa che puoi usare i contenuti premium per tutto il periodo già pagato. Technogym addebita la quota del mese successivo solo se non hai disdetto prima della scadenza, e la data del prossimo addebito la trovi nell'account alla voce 'Informazioni per la fatturazione'. In caso di recesso entro 14 giorni, le Condizioni Generali di Vendita prevedono il rimborso di tutti i pagamenti entro 14 giorni da quando Technogym riceve la comunicazione, e Technogym deve mandarti una conferma di ricevimento su supporto durevole, per esempio email.",
+  "vincoli": "Gli abbonamenti più lunghi di un mese, se disponibili, alla scadenza si rinnovano in automatico su base mensile alla tariffa in vigore, salvo disdetta. Per gli acquisti finanziati i termini di disdetta possono avere restrizioni specifiche legate al contratto con il partner finanziario. Il recesso di 14 giorni vale per i consumatori, ma la pagina sulla politica di reso precisa che non puoi recedere dall'abbonamento ai contenuti digitali che, su tua richiesta, sono stati attivati entro 14 giorni dall'acquisto. Technogym può cambiare prezzi e piani solo con almeno 30 giorni di preavviso inviato all'email dell'account."
+ },
+ "timvision": {
+  "alternative": "Invece di chiudere tutto puoi disattivare un singolo servizio incluso nel pacchetto TV chiamando il 187 o il 119. Per aggiungere contenuti non serve disdire: attivi un nuovo pacchetto che contiene i servizi che hai già più quello che vuoi aggiungere.",
+  "assistenza": "Il Servizio Clienti linea fissa è il 187 e quello linea mobile il 119, entrambi gratuiti. Le Condizioni generali (art. 14) indicano per le comunicazioni sul contratto TIM Servizio Clienti, Casella Postale 111, 00054 Fiumicino (Roma). Il contratto è regolato dalla legge italiana e per le controversie è competente il foro del luogo di residenza o domicilio del cliente (art. 15).",
+  "costi_dettaglio": "TIMVISION L costa 251,88 euro all'anno, pagati in 12 rate da 20,99 euro; il primo anno è in promozione a 209,94 euro, con 14 euro al mese per sei mesi e poi 20,99 euro. Le condizioni dell'offerta dicono che disdetta e recesso non hanno penali né costi di disattivazione, ma se recedi prima della scadenza paghi comunque le rate fino alla fine dell'anno. Sulla linea fissa c'è anche un contributo di attivazione di 1 euro al mese per 24 mesi: se chiudi prima, le rate residue restano dovute in fattura o, se lo chiedi, in un'unica soluzione. Se non restituisci il decoder entro 30 giorni, TIM lo considera acquistato e te lo fattura (Condizioni generali art. 12.2 e 12.3). Il TIMVISION Box costa 69 euro nel primo anno, 39 euro dal secondo, 19 euro dal terzo e 10 euro dal quarto. Il TIMVISION Box Atmosphere costa 129, 89, 49 e 19 euro con la stessa scala. L'offerta TIMVISION mensile per clienti di altri operatori costa 6,99 euro al mese.",
+  "data": "2026-11-15",
+  "dati_lettera": "Le condizioni dell'offerta TIMVISION L chiedono di allegare la fotocopia del documento d'identità alla richiesta inviata per posta o per PEC. Il modulo online per chi non è cliente TIM chiede il codice identificativo cliente di 10 cifre (444 xxxxxxxx) e il codice fiscale. Il codice ti arriva via SMS all'attivazione e lo trovi anche in TIMVISION, sezione 'Profilo'; se lo hai perso puoi chiederlo al 187. Se sei un ex cliente TIM, il modulo chiede invece il numero della linea TIM cessata e il codice fiscale. In entrambi i casi servono un indirizzo email e la dichiarazione di essere l'intestatario del servizio.",
+  "errori": [
+   "Cessare la linea fissa TIM o passare a un altro operatore pensando che TIMVISION si chiuda da solo: l'offerta resta attiva e continua a esserti fatturata alle stesse condizioni.",
+   "Riportare il decoder TIMVISION Box in un negozio TIM: TIM avverte che non va mai restituito in negozio, ma spedito entro 30 giorni all'indirizzo indicato nella mail.",
+   "Tenere il decoder dopo la disdetta: dopo 30 giorni TIM lo considera acquistato e ti fattura fino a 69 euro per il Box o 129 euro per il Box Atmosphere.",
+   "Disdire TIMVISION L a metà anno aspettandoti di smettere di pagare: il recesso ha effetto alla scadenza annuale e le rate mensili restano dovute fino ad allora."
+  ],
+  "faq": [
+   {
+    "d": "Se passo a un altro operatore, TIMVISION si disattiva?",
+    "r": "Non se l'hai sulla linea fissa: l'offerta resta attiva e arriva una fattura TIM solo per TIMVISION. Se invece era legata a una linea mobile TIM, la cessazione o il passaggio ad altro operatore la disattiva automaticamente."
+   },
+   {
+    "d": "Posso disdire TIMVISION L prima della scadenza annuale?",
+    "r": "Sì, puoi chiedere il recesso in qualsiasi momento senza penali, ma ha effetto alla fine dell'anno di contratto e paghi le rate fino a quella data. Per evitare il rinnovo comunica la disdetta almeno 15 giorni prima della scadenza."
+   },
+   {
+    "d": "Dove trovo il codice cliente per il modulo di disattivazione TIMVISION?",
+    "r": "È il codice di 10 cifre che inizia con 444, inviato via SMS all'attivazione. Lo trovi anche in TIMVISION, sezione 'Profilo', oppure puoi chiederlo al 187."
+   }
+  ],
+  "fonti": [
+   "https://www.tim.it/assistenza/tv-calcio/timvision/servizi",
+   "https://www.tim.it/modulo-recesso-timvision",
+   "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/pdf/offerte-tv/condizioni-contrattuali/timvision-l-anno-20260113.pdf",
+   "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/pdf/offerte-tv/condizioni-contrattuali/timvision-mese-olo-20250911.pdf",
+   "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/pdf/assistenza/info-consumatori/fisso/condizioni-timvision/decoder-comodato-fisso-062025.pdf"
+  ],
+  "online": "Se hai una linea TIM puoi disattivare TIMVISION dall'Area Clienti MyTIM, previa registrazione. Per telefono chiami il 187 se hai la linea fissa TIM o il 119 se hai la linea mobile TIM. Per email scrivi a documenti187@telecomitalia.it (linea fissa) o a documenti119@telecomitalia.it (linea mobile). Se non sei cliente TIM ma hai TIMVISION, chiami il 187, scrivi a documenti187@telecomitalia.it oppure compili il 'Modulo di richiesta di disattivazione di un'offerta TIMVISION' su tim.it/modulo-recesso-timvision. Per tutti valgono anche la posta a TIM Servizio Clienti, Casella Postale 111, 00054 Fiumicino (Roma), la PEC disattivazioni_timvision_clientiprivati@pec.telecomitalia.it e i negozi TIM abilitati.",
+  "tempi_e_dopo": "Le Condizioni generali TIMVISION (art. 6.4) prevedono che il recesso abbia effetto il prima possibile e comunque entro 30 giorni dalla richiesta. Per le offerte annuali con pagamento in 12 mesi, come TIMVISION L, il recesso diventa effettivo alla fine dell'anno di contratto e fino ad allora puoi usare i servizi inclusi. Nell'offerta mensile per clienti di altri operatori i servizi restano disponibili fino all'ultimo giorno del mese di cessazione, e TIM rimborsa gli addebiti per i periodi successivi. Se hai il decoder TIMVISION Box in comodato, devi rispedirlo a tue spese per pacco postale entro 30 giorni, all'indirizzo che TIM ti indica nella mail di cessazione. Il decoder non va mai riportato in un negozio TIM. Se entro 30 giorni attivi una nuova offerta TIMVISION che include il Box in comodato, puoi tenerlo.",
+  "vincoli": "TIMVISION L su linea fissa dura un anno e si rinnova tacitamente di anno in anno: la disdetta va comunicata almeno 15 giorni prima della scadenza annuale. Entro 30 giorni prima di ogni scadenza TIM ti manda un avviso. L'offerta mensile per clienti di altri operatori dura 12 mesi, con disdetta da inviare almeno 30 giorni prima della scadenza, poi prosegue a tempo indeterminato e si può recedere in ogni momento. Quell'offerta richiede l'addebito su carta di credito: se disattivi la carta, TIMVISION viene disattivato. Come consumatore hai 14 giorni per il ripensamento (30 giorni se il contratto nasce da una visita non richiesta a casa): chiami il 187 o il 119 oppure mandi il modulo di tim.it a documenti187@telecomitalia.it o documenti119@telecomitalia.it. Se TIM cambia le condizioni economiche o contrattuali, puoi recedere senza penali entro 60 giorni dalla comunicazione (Condizioni generali art. 13)."
+ },
+ "tinder": {
+  "alternative": "Se vuoi solo una pausa puoi nascondere il profilo disattivando 'Abilita Discovery' in 'Impostazioni': non comparirai più agli altri, ma i match già fatti restano. Puoi anche cambiare livello con l'upgrade a Tinder Gold o Tinder Platinum dalle 'Impostazioni' dell'app: cambia il tipo di abbonamento ma non la durata. Con l'upgrade su Tinder.com paghi subito il nuovo abbonamento e ricevi in pochi giorni lavorativi il rimborso del tempo non usato del vecchio.",
+  "assistenza": "Per gli utenti dello Spazio economico europeo la controparte è MTCH Technology Services Limited, 10 Earlsfort Terrace, Dublino 2, D01 T380, Irlanda. L'assistenza si contatta dall'Help Center di Tinder, help.tinder.com. Per gli acquisti Apple o Google devi rivolgerti al supporto Apple o Google Play. I Termini precisano che chi risiede nell'Unione europea può far valere le proprie pretese nel paese di residenza, secondo la legge applicabile.",
+  "costi_dettaglio": "Non ci sono penali. Se risiedi nell'Unione europea i Termini (sezione 8d, in vigore dal 1 marzo 2026) ti danno diritto a un rimborso completo nei 14 giorni dall'inizio dell'abbonamento. Fuori da questo caso gli acquisti sono finali e non ci sono rimborsi per i periodi usati in parte. Gli elementi virtuali come Super Like, Boost, crediti Live o regali non sono rimborsabili (sezione 8c). Se hai pagato con Apple o Google, il rimborso lo decide lo store secondo la sua politica, non Tinder. Se hai comprato da un rivenditore terzo, il rimborso va chiesto al rivenditore.",
+  "data": "2026-11-15",
+  "dati_lettera": "Per un rimborso degli acquisti con prefisso TNDR o COSU il centro assistenza chiede di scrivere dallo stesso indirizzo e-mail usato per l'acquisto e di indicare il numero d'ordine: TNDR per gli abbonamenti, COSU per gli acquisti singoli. I Termini di utilizzo, per la richiesta per posta, chiedono una comunicazione firmata e datata con la volontà di annullare l'Accordo, più nome, indirizzo e-mail, numero di telefono o un altro identificativo usato per accedere all'account. L'indirizzo indicato nei Termini per le cancellazioni è Tinder, Attn: Cancellations, P.O. Box 25472, Dallas, Texas 75225, USA.",
+  "errori": [
+   "Disinstallare l'app pensando di aver annullato: Tinder ricorda che eliminare o disinstallare l'app non annulla l'abbonamento.",
+   "Eliminare l'account per smettere di pagare: l'eliminazione dell'account non annulla un abbonamento attivo, che va annullato prima.",
+   "Chiedere a Tinder il rimborso di un acquisto con numero d'ordine MK o GPA: lo gestiscono Apple o Google, non Tinder.",
+   "Aspettare oltre i 14 giorni: il rimborso completo per i residenti UE vale solo nei 14 giorni dall'inizio dell'abbonamento."
+  ],
+  "faq": [
+   {
+    "d": "Come capisco dove ho pagato l'abbonamento Tinder?",
+    "r": "Dal numero d'ordine: MK significa Apple, GPA significa Google Play, TNDR significa Tinder.com o carta nell'app Android. Da questo dipende dove annulli e a chi chiedi il rimborso."
+   },
+   {
+    "d": "Se elimino l'account Tinder perdo subito tutto?",
+    "r": "Il profilo non è più visibile, ma Tinder conserva i dati per 90 giorni per sicurezza e per l'eventuale ripristino, poi li cancella. L'abbonamento invece resta attivo finché non lo annulli."
+   },
+   {
+    "d": "Posso mettere in pausa Tinder senza annullare?",
+    "r": "Puoi nascondere il profilo disattivando 'Abilita Discovery' nelle Impostazioni. L'abbonamento però continua e si rinnova, quindi se non vuoi pagare devi annullarlo."
+   }
+  ],
+  "fonti": [
+   "https://policies.tinder.com/terms/intl/it/",
+   "https://www.help.tinder.com/hc/it/articles/115003554466-Annullare-il-tuo-abbonamento",
+   "https://www.help.tinder.com/hc/it/articles/115003521343-Richieste-di-rimborso",
+   "https://www.help.tinder.com/hc/it/articles/6956972185229-Eliminare-il-proprio-account-Tinder",
+   "https://www.help.tinder.com/hc/it/articles/29635636556045-Nascondi-il-tuo-profilo-Tinder",
+   "https://www.help.tinder.com/hc/it/articles/115004478943-Upgrade-del-tuo-abbonamento-Tinder"
+  ],
+  "online": "Su Tinder il modo di annullare dipende da chi ha incassato il pagamento, e lo capisci dal numero d'ordine. Se inizia con MK hai pagato tramite Apple: su iPhone apri 'Impostazioni', tocca il tuo nome in alto, poi 'Abbonamenti', scegli Tinder e tocca 'Annulla abbonamento'. Se inizia con GPA hai pagato con Google Play: apri l'app Google Play, tocca l'icona del profilo in alto a destra, vai su 'Pagamenti e abbonamenti' > 'Abbonamenti', scegli l'abbonamento e tocca 'Annulla abbonamento'. Se inizia con TNDR hai pagato su Tinder.com o con carta direttamente nell'app Android: vai su tinder.com, accedi, tocca l'icona del profilo, scegli 'Gestisci pagamenti dell'account', trova l'iscrizione e tocca 'Annulla abbonamento'. Se hai pagato con carta o PayPal nell'app Android il percorso è lo stesso dall'app: icona del profilo > 'Gestisci i pagamenti dell'account' > 'Annulla abbonamento'. Se hai cambiato telefono, per esempio da iPhone ad Android, devi annullare dal vecchio sistema, perché gli abbonamenti non passano da una piattaforma all'altra.",
+  "tempi_e_dopo": "Dopo l'annullamento continui a usare i vantaggi fino alla fine del periodo già pagato, poi l'abbonamento non si rinnova. Annullare l'abbonamento non elimina il profilo, perché Tinder si usa anche gratis. Se elimini l'account da 'Impostazioni' > 'Elimina account', Tinder ritarda la cancellazione dei dati del profilo per 90 giorni e poi li rimuove. Dopo l'eliminazione non puoi più scaricare i tuoi dati.",
+  "vincoli": "Ogni abbonamento si rinnova automaticamente per un periodo uguale, al prezzo concordato all'acquisto, finché non lo annulli. Se hai usato un prezzo promozionale, i rinnovi possono costare di più. Ogni abbonamento può essere legato a un solo account Tinder alla volta. Se fai uno storno di addebito con la banca o lo store, Tinder può eliminare subito il tuo account (sezioni 8a e 8b)."
+ },
+ "wekiwi": {
+  "alternative": "Se vuoi solo cambiare fornitore non serve disdire: per ARERA firmi con il nuovo venditore, che manda il recesso al posto tuo con una procura. Se resti in casa e il problema è il passaggio a Illumia, Illumia ricorda che puoi chiedere di essere seguito da un consulente dedicato della sua rete.",
+  "assistenza": "Dal 1° maggio 2026 il riferimento è il servizio clienti Illumia: 800 046 640, 051 600 80 80, servizioclienti@illumia.it. I reclami a Illumia si mandano per posta a ILLUMIA S.p.A., Back-Office, Via de' Carracci 69/2, 40129 Bologna, o per email a servizioclienti@illumia.it. Per i reclami su periodi gestiti da Wekiwi, il modulo reclami Wekiwi (dicembre 2025) indica Viale Andrea Doria 8, 20124 Milano, il fax 02 91731993 e clienti@wekiwi.it. Se la risposta non ti soddisfa, o dopo 40 giorni senza risposta, puoi attivare il Servizio Conciliazione ARERA, gratuito e online, che è obbligatorio prima di andare dal giudice.",
+  "costi_dettaglio": "Per i clienti passati da Wekiwi le condizioni contrattuali ed economiche restano quelle del contratto Wekiwi: i costi di chiusura sono quindi quelli scritti nelle tue Condizioni economiche, che Wekiwi non pubblica online. I moduli di cessazione Illumia indicano 23 euro più IVA di oneri di gestione 'come indicato nelle Condizioni Economiche', più i costi del distributore. Per il gas il distributore applica una quota fissa di 30 euro più IVA per i contatori fino a G6 e 45 euro più IVA per quelli più grandi.",
+  "data": "2026-11-15",
+  "dati_lettera": "Dal 1° maggio 2026 hai un nuovo codice cliente Illumia, indicato nella lettera di benvenuto che Illumia ti ha mandato: usalo nella disdetta. Indica anche il codice POD per la luce e il PDR per il gas, che trovi in bolletta. I moduli di cessazione Illumia chiedono inoltre codice fiscale del titolare, indirizzo del punto di fornitura, la data da cui chiudere e l'indirizzo email o postale dove ricevere la fattura di chiusura. In caso di decesso dell'intestatario va allegato il certificato di morte. Se hai ancora il vecchio codice cliente Wekiwi, puoi aggiungerlo per facilitare il riconoscimento della pratica.",
+  "errori": [
+   "Mandare la disdetta a Wekiwi dopo il 1° maggio 2026: la gestione delle forniture è passata a Illumia e il servizio clienti Wekiwi era attivo solo fino al 30 aprile 2026.",
+   "Usare il vecchio codice cliente Wekiwi come unico riferimento: con il passaggio Illumia ti ha assegnato un nuovo codice cliente, indicato nella lettera di benvenuto.",
+   "Pagare le vecchie bollette Wekiwi sul conto Illumia: gli insoluti Wekiwi vanno saldati con bonifico sul conto corrente Wekiwi, con numero di fattura e codice fiscale in causale.",
+   "Aspettare troppo a scaricare le bollette Wekiwi: dopo il 1° maggio 2026 restano consultabili nell'app per 12 mesi."
+  ],
+  "faq": [
+   {
+    "d": "Wekiwi esiste ancora?",
+    "r": "La società Wekiwi Srl ha ancora il suo sito, ma dal 1° maggio 2026 le forniture luce e gas dei suoi clienti sono gestite da Illumia, dello stesso gruppo Tremagi. Contratto, condizioni e tariffe sono rimasti gli stessi."
+   },
+   {
+    "d": "A chi mando la disdetta di un contratto Wekiwi?",
+    "r": "A Illumia, che dal 1° maggio 2026 gestisce la tua fornitura: servizio clienti 800 046 640 o servizioclienti@illumia.it, indicando il nuovo codice cliente Illumia e i codici POD o PDR."
+   },
+   {
+    "d": "Posso ancora usare l'app Wekiwi?",
+    "r": "Sì, per monitorare la fornitura. Dopo il 1° maggio 2026 hai 12 mesi per consultare le vecchie bollette Wekiwi; le nuove bollette arrivano da Illumia."
+   }
+  ],
+  "fonti": [
+   "https://www.wekiwi.it/wekiwi-e-illumia.html",
+   "https://www.arera.it/atlante-per-il-consumatore/elettricita/la-bolletta/bolletta-di-chiusura/entro-quanto-tempo-deve-essere-inviata-la-bolletta-di-chiusura",
+   "https://www.wekiwi.it/contatti.html",
+   "https://www.wekiwi.it/dati-societari.html",
+   "https://www.wekiwi.it/reclami-e-conciliazioni.html",
+   "https://www.wekiwi.it/wp-content/uploads/2025/01/Ripensamento-wekiwi_Ed-01_2025.pdf",
+   "https://www.wekiwi.it/wp-content/uploads/2025/12/Modulo-solo-reclamo-Wekiwi-dicembre-25.pdf",
+   "https://www.illumia.it/assistenza-clienti/contatti-servizio-clienti/",
+   "https://www.illumia.it/moduli-utili/",
+   "https://www.illumia.it/wp-content/uploads/2024/02/Cessazione-Contatore-Energia.pdf",
+   "https://www.illumia.it/wp-content/uploads/2024/02/CESSAZIONE-DELLA-PRESA_GAS_Ver_012024.pdf",
+   "https://www.arera.it/atlante-per-il-consumatore/gas/il-contratto/recesso/come-avviene-il-recesso-per-cambiare-venditore"
+  ],
+  "online": "Dal 1° maggio 2026 la gestione delle forniture luce e gas dei clienti Wekiwi è passata a Illumia, società dello stesso gruppo, con una scissione di ramo d'azienda (pagina ufficiale 'Wekiwi e Illumia'). Il servizio clienti Wekiwi era a disposizione fino al 30 aprile 2026: dal 1° maggio per qualsiasi richiesta, disdetta compresa, ti rivolgi al servizio clienti Illumia. Illumia risponde all'800 046 640 da fisso e al 051 600 80 80 da cellulare, dal lunedì al venerdì dalle 8 alle 19 e il sabato dalle 9 alle 13, oppure a servizioclienti@illumia.it. L'app Wekiwi e l'Area Personale restano utilizzabili per monitorare la fornitura, ma le pagine ufficiali non indicano una funzione di disdetta. Per chiudere il contatore Illumia pubblica nella pagina 'Moduli utili' i moduli 'Richiesta cessazione della presa elettrica' e 'Cessazione della presa gas', da rimandare firmati a servizioclienti@illumia.it con il documento d'identità.",
+  "tempi_e_dopo": "I consumi dal 1° maggio 2026 sono fatturati da Illumia, non più da Wekiwi, e le prime bollette Illumia erano previste tra giugno e luglio 2026. Dopo il 1° maggio 2026 hai ancora 12 mesi per consultare le vecchie bollette Wekiwi nell'app e nell'Area Personale: scaricale prima. Le bollette Wekiwi non pagate si saldano con bonifico sul conto corrente Wekiwi, indicando in causale il numero della fattura e il tuo codice fiscale o partita IVA. Nei moduli Illumia la chiusura avviene entro 5 giorni lavorativi dalla comunicazione al distributore, per la luce in bassa tensione e per il gas. Se il modulo non arriva entro 15 giorni o il distributore non riesce a chiudere il contatore, Illumia considera comunque il recesso e attiva i servizi di ultima istanza. Per ARERA la bolletta di chiusura deve arrivarti entro 6 settimane dalla cessazione.",
+  "vincoli": "Il passaggio a Illumia non cambia contratto, condizioni né tariffe, e non richiede nessuna azione da parte tua. Il progetto di scissione è stato iscritto al Registro delle Imprese di Bologna il 2 febbraio 2026. Il modulo di ripensamento Wekiwi prevede 14 giorni dalla conclusione del contratto, 30 se hai firmato durante una visita non richiesta a casa tua. Se avevi chiesto l'esecuzione immediata, una volta eseguito il contratto non puoi più ripensarci e paghi i costi sostenuti."
+ },
+ "youtube-premium": {
+  "alternative": "Invece di annullare puoi mettere in pausa il piano mensile da 1 a 6 mesi: da youtube.com/paid_memberships clicchi 'Gestisci abbonamento', 'Disattiva' e poi 'Metti in pausa'. La pausa parte alla fine del ciclo di fatturazione in corso e durante la pausa non paghi nulla. Tu e i membri del gruppo Famiglia perdete i vantaggi, ma i download restano salvati fino al ripristino. Al ripristino paghi il nuovo prezzo, e YouTube avvisa per email almeno 30 giorni prima di un aumento. La pausa non è disponibile con i piani annuali né con la fatturazione tramite Apple. Puoi anche passare a un piano annuale prepagato, che non si rinnova da solo.",
+  "assistenza": "La Guida di YouTube rimanda all'assistenza YouTube per le domande sui piani annuali e alla community di assistenza. Per un addebito che ritieni fraudolento la pagina sui piani annuali indica un modulo di reclamo dedicato. Se paghi tramite Apple o Google Play, rimborsi e annullamenti seguono le regole di quegli store.",
+  "costi_dettaglio": "Annullare non costa nulla. I piani annuali sono prepagati e non ricorrenti: scadono da soli dopo i 12 mesi pagati, non sono rimborsabili e non possono essere messi in pausa. Se vuoi chiudere un piano annuale prima della scadenza, la Guida dice di contattare l'assistenza di YouTube. Se ti accorgi di pagare due volte, controlla gli abbonamenti doppi: per esempio alcuni piani Google One AI includono già YouTube Premium o Premium Lite, quindi l'abbonamento separato si può annullare.",
+  "data": "2026-11-15",
+  "dati_lettera": "Non serve una lettera: si annulla dall'account Google con cui hai sottoscritto. Per capire chi ti fattura apri youtube.com/paid_memberships: se vedi la dicitura 'Fatturazione tramite Apple' devi gestire l'abbonamento da Apple. Nella stessa pagina, aprendo la freccia accanto a 'Gestisci abbonamento', vedi il metodo di pagamento attivo e la prossima data di addebito.",
+  "errori": [
+   "Cercare di annullare dall'app iPhone un abbonamento fatturato da Google: la Guida dice che va annullato da un dispositivo non iOS, per esempio un computer.",
+   "Chiedere la pausa con un piano annuale o con fatturazione Apple: in questi casi la pausa non esiste, puoi solo annullare.",
+   "Pagare due abbonamenti: con alcuni piani Google One, come AI Ultra o AI Plus, YouTube Premium è già incluso o scontato, quindi controlla prima di tenere anche quello separato.",
+   "Passare al piano Famiglia senza annullare prima il piano individuale: la Guida chiede di annullarlo prima del cambio."
+  ],
+  "faq": [
+   {
+    "d": "Se annullo YouTube Premium perdo i video scaricati?",
+    "r": "Mantieni i vantaggi fino alla fine del periodo già pagato. Se invece metti in pausa, i video e la musica scaricati restano salvati ma non puoi accedervi finché non ripristini l'abbonamento."
+   },
+   {
+    "d": "Il piano annuale di YouTube Premium si rinnova da solo?",
+    "r": "No. Secondo la Guida i piani annuali sono prepagati e non ricorrenti: alla scadenza perdi i vantaggi e per continuare devi comprare un altro piano. Non sono rimborsabili."
+   },
+   {
+    "d": "Posso sospendere YouTube Premium invece di disdirlo?",
+    "r": "Sì, se hai un piano mensile non fatturato da Apple: puoi mettere in pausa da 1 a 6 mesi, senza addebiti durante la pausa, e annullare in qualsiasi momento anche mentre è in pausa."
+   }
+  ],
+  "fonti": [
+   "https://support.google.com/youtube/answer/6308278?hl=it",
+   "https://support.google.com/youtube/answer/6308278?hl=it&co=GENIE.Platform%3DiOS",
+   "https://support.google.com/youtube/answer/6308278?hl=it&co=GENIE.Platform%3DAndroid",
+   "https://support.google.com/youtube/answer/11950175?hl=it",
+   "https://support.google.com/youtube/answer/11417260?hl=it",
+   "https://support.google.com/youtube/answer/7548835?hl=it",
+   "https://support.google.com/youtube/answer/9155410?hl=it",
+   "https://support.google.com/youtube/answer/10217125?hl=it",
+   "https://support.google.com/youtube/answer/7507744?hl=it"
+  ],
+  "online": "Da computer vai su youtube.com/paid_memberships, clicchi 'Gestisci abbonamento', poi 'Disattiva' e 'Continua', scegli il motivo, clicchi 'Avanti' e infine 'Sì, annulla'. Dall'app YouTube su Android tocchi la tua immagine del profilo, poi 'Abbonamenti a pagamento', scegli l'abbonamento, tocchi 'Continua', indichi il motivo, 'Avanti' e 'Sì, annulla'. Se ti sei abbonato dall'app YouTube per iPhone, la fatturazione è di Apple: in 'Impostazioni' tocchi 'Acquisti e abbonamenti', poi 'Gestisci iscrizioni Apple', il tuo abbonamento e 'Annulla'. Se invece sei su iPhone ma la fatturazione è gestita da Google, la Guida dice che devi annullare da un dispositivo non iOS, per esempio un computer. Se accedi a Premium tramite un abbonamento Google Play, si annulla dalle impostazioni dell'account Google Play.",
+  "tempi_e_dopo": "L'abbonamento mensile si addebita in automatico all'inizio di ogni nuovo ciclo di fatturazione fino all'annullamento. Dopo l'annullamento non ti viene addebitato altro e mantieni i vantaggi Premium fino al termine del periodo di fatturazione in corso. Puoi controllare che l'annullamento sia andato a buon fine nella sezione 'Abbonamenti a pagamento' di youtube.com/paid_memberships. Le modifiche all'abbonamento valgono insieme per YouTube, YouTube Music e YouTube Kids.",
+  "vincoli": "Non c'è un impegno minimo sul piano mensile. Con il piano annuale puoi avere al massimo 24 mesi di accesso prepagato. Se hai un piano annuale devi aspettare che scada prima di passare al piano Famiglia. Per passare da un piano individuale al piano Famiglia devi prima annullare quello individuale. Il piano Famiglia lo può comprare e gestire solo il gestore del gruppo, che deve avere almeno 18 anni, e i membri devono vivere nella stessa abitazione."
  }
 }

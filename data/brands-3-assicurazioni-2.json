@@ -27,17 +27,17 @@
     "slug": "bnp-paribas-cardif",
     "categoria": "assicurazioni",
     "pec": "cardifspa@pec.cardif.it",
-    "indirizzo_postale": "Cardif Vita S.p.A., Piazza Lina Bo Bardi 3, 20124 Milano (MI). Per polizze protezione: Cardif, Back Office Protezione - Post Vendita, Casella Postale 550, 20123 Milano (MI)",
+    "indirizzo_postale": "Per disdetta, recesso ed estinzione anticipata delle polizze Protezione: Cardif, Back Office Protezione, Post Vendita, Casella Postale 231, 20123 Milano (MI). Sede di Cardif Vita S.p.A.: Piazza Lina Bo Bardi 3, 20124 Milano (MI)",
     "canali": [
-      "PEC",
+      "e-mail lineapersone@cardif.com (polizze Protezione)",
       "raccomandata A/R",
-      "e-mail",
-      "fax"
+      "fax 02 30329809",
+      "PEC (recapito societario, non indicato nelle FAQ per la disdetta)"
     ],
-    "preavviso": "Polizze collegate a finanziamenti, mutui e prestiti (CPI), GAP, protezione dei beni: recesso nei termini indicati nel set informativo (in genere entro 30 o 60 giorni dalla decorrenza, a mezzo raccomandata A/R, fax o e-mail), con rimborso del premio al netto delle imposte e della parte di premio gia' goduta entro 30 giorni dal ricevimento. Polizze vita: recesso entro 30 giorni dalla conclusione (art. 177 Codice delle Assicurazioni). Dopo il periodo di ripensamento, per le coperture di durata pluriennale o a premio unico si segue quanto previsto da condizioni (estinzione anticipata del finanziamento = possibile rimborso della quota non goduta).",
+    "preavviso": "La disdetta vale solo per le polizze a tacito rinnovo annuale. Per le polizze Protezione poliennali il recesso è possibile dopo 5 anni dalla decorrenza, entro 60 giorni dalla ricorrenza annuale (FAQ ufficiali). Polizze collegate a finanziamenti, mutui e prestiti (CPI), GAP, protezione dei beni: recesso nei termini del set informativo (in genere entro 30 o 60 giorni dalla decorrenza), con rimborso del premio al netto delle imposte e della parte già goduta. Polizze vita: recesso entro 30 giorni dalla conclusione (art. 177 Codice delle Assicurazioni). In caso di estinzione anticipata del finanziamento è possibile il rimborso della quota non goduta.",
     "costi": "Possono essere trattenute le spese amministrative indicate nel set informativo (es. nel GAP Plus); nessuna penale per il recesso nei termini.",
     "modulo": "",
-    "note": "Attenzione: il gruppo ha piu' societa'. La PEC cardifspa@pec.cardif.it e' di Cardif Vita S.p.A. (Piazza Lina Bo Bardi 3); per i prodotti danni/protezione venduti dalla Rappresentanza Generale per l'Italia di Cardif Assurances Risques Divers la PEC e' cardifrd@pec.cardif.it. Controllare quale compagnia compare sul certificato di polizza o sul fascicolo informativo (spesso e' venduta tramite una banca o finanziaria). E-mail servizio clienti: servizioclienti@cardif.com, tel. 800 900 780. I reclami vanno a reclami@cardif.com.",
+    "note": "Attenzione: il gruppo ha più società. La PEC cardifspa@pec.cardif.it è di Cardif Vita S.p.A.; per i prodotti danni della Rappresentanza Generale per l'Italia di Cardif Assurances Risques Divers la PEC è cardifrd@pec.cardif.it, per Cardif Assurance Vie è cardifvie@pec.cardif.it. Controlla quale compagnia compare sul certificato di polizza (spesso venduta tramite una banca o finanziaria). La Casella Postale 421 è dell'Ufficio Sinistri, non delle disdette. Servizio clienti: servizioclienti@cardif.com, tel. 800 900 780. I reclami vanno a reclami@cardif.com.",
     "fonti": [
       "https://bnpparibascardif.it/contatti/",
       "https://bnpparibascardif.it/reclami-controversie-arbitro-assicurativo/",
@@ -45,7 +45,7 @@
       "https://sagam.it/media/5zmg4rew/set-informativo-gap-plus.pdf"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "Poste Vita",
@@ -118,23 +118,25 @@
     "nome": "Redion (ex Europ Assistance Italia)",
     "slug": "europ-assistance-italia",
     "categoria": "assicurazioni",
-    "pec": "",
+    "pec": "redioninsurance@pec.redion.it",
     "indirizzo_postale": "Redion Italy Insurance S.p.A. (gia' Europ Assistance Italia S.p.A.), Via del Mulino 4, 20057 Assago (MI)",
     "canali": [
       "raccomandata A/R",
-      "e-mail"
+      "PEC redioninsurance@pec.redion.it con oggetto 'Disdetta + numero di polizza'"
     ],
-    "preavviso": "Polizze viaggio singole (a viaggio o a durata fissa): non hanno tacito rinnovo, scadono alla data indicata. Polizze annuali di assistenza, casa o salute: disdetta con il preavviso previsto in polizza (di norma 30 giorni prima della scadenza). Per i prodotti venduti a distanza e' previsto un ripensamento di 14 giorni dalla conclusione.",
+    "preavviso": "Polizze viaggio singole: non hanno tacito rinnovo, scadono alla data indicata. Polizze annuali (viaggio, casa, assistenza): il tacito rinnovo c'è solo se è indicato sul Modulo di Polizza, e la disdetta va inviata con il preavviso previsto in polizza. Ripensamento di 14 giorni per le polizze di almeno un mese comprate interamente a distanza, escluso se hai già denunciato un sinistro.",
     "costi": "Nessun costo per la disdetta nei termini. In caso di recesso, rimborso del premio non goduto al netto delle imposte nei tempi indicati dalla polizza.",
     "modulo": "",
-    "note": "Europ Assistance Italia ha cambiato denominazione in Redion Italy Insurance S.p.A. (Gruppo Generali); il sito europassistance.it ora rimanda a redion.it. L'unica PEC attualmente pubblicata dal sito ufficiale e' reclami@pec.redion.it, solo per i RECLAMI (accetta messaggi solo da altre PEC): per questo il campo PEC e' lasciato vuoto. La vecchia PEC dei documenti 2019 (EuropAssistanceItaliaSpA@pec.europassistance.it) potrebbe non essere piu' attiva, da non usare senza verifica. Per la disdetta inviare raccomandata A/R oppure l'e-mail del servizio clienti indicata nel proprio set informativo; numero di polizza o pratica sempre necessario. Tel. 803 803.",
+    "note": "Europ Assistance Italia ha cambiato denominazione in Redion Italy Insurance S.p.A.; il sito europassistance.it ora rimanda a redion.it. I set informativi in vigore dal 01/10/2026 indicano per la disdetta raccomandata A/R o PEC a redioninsurance@pec.redion.it, con oggetto 'Disdetta + numero di polizza'. La PEC reclami@pec.redion.it serve solo per i reclami. Le polizze vendute tramite eDreams, Ryanair, Vueling, Lastminute e Secret Escapes sono di Redion S.A.: per queste la pagina Contatti rimanda al partner. Tel. 803 803.",
     "fonti": [
-      "https://www.europassistance.it/reclami",
       "https://www.redion.it/contatti",
-      "https://assets.europassistance.it/Termini%20e%20Condizioni/PRODOTTI%20COLLETTIVI/Viaggi/Vagamondo.pdf"
+      "https://www.redion.it/reclami",
+      "https://www.redion.it/set-informativi",
+      "https://assets.ctfassets.net/5nwga2ey7ftv/5PyMwQRYAIidlyJEoCVanE/4c303912f9712c8e496cda8861c48bac/VNSV_Muntiviaggio_Light_-_Set_Informativo_2026_10_01.pdf",
+      "https://assets.ctfassets.net/5nwga2ey7ftv/2Q5Ajz48K90kXmXhZVedyN/dc8e9c53f358cf1bdd7db80811d0ae73/Sfera_Casa_Relax__Set_Informativo_2026_10_01.pdf"
     ],
-    "affidabilita": "parziale",
-    "data_verifica": "2026-11-01"
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "Arca Assicurazioni",

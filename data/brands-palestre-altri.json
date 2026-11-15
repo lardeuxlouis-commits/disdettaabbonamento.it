@@ -245,7 +245,7 @@
     "slug": "amazon-prime",
     "categoria": "altri-servizi",
     "pec": "",
-    "indirizzo_postale": "Amazon EU S.à r.l., 38 avenue John F. Kennedy, L-1855 Lussemburgo (sede indicata nei Termini e condizioni Prime; non serve una lettera per disdire)",
+    "indirizzo_postale": "Amazon EU S.à r.l., 38 avenue John F. Kennedy, L-1855 Lussemburgo (destinatario del modulo di recesso). I Termini Prime indicano come controparti Amazon EU S.r.l., Amazon Media EU S.r.l. e Amazon Digital Italy S.r.l. (Viale Monte Grappa 3/5, 20124 Milano). Non serve una lettera per disdire.",
     "canali": [
       "account Amazon: La tua iscrizione ad Amazon Prime > Gestisci > Aggiorna, Annulla e altro > Termina l'iscrizione",
       "servizio clienti Amazon",
@@ -253,13 +253,13 @@
     ],
     "preavviso": "Nessun preavviso: si può annullare in qualsiasi momento prima del rinnovo automatico. Recesso legale entro 14 giorni dall'iscrizione. Opzione: promemoria via e-mail 3 giorni prima del rinnovo.",
     "costi": "Nessun costo di disdetta. Rimborso integrale se nessun vantaggio Prime è stato usato nel periodo; altrimenti eventuale rimborso parziale in proporzione all'uso. Iscrizioni ottenute con codice promozionale o regalo non rimborsabili.",
-    "modulo": "https://www.amazon.it/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y",
+    "modulo": "https://m.media-amazon.com/images/G/29/recesso/modulo_recesso_2._CB1198675309_.pdf",
     "note": "La disdetta si fa dall'account in pochi clic: nessuna lettera né PEC necessaria. Se Prime è stato attivato tramite una terza parte (es. operatore telefonico), valgono i termini di quella terza parte.",
     "fonti": [
       "https://www.amazon.it/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y",
       "https://www.amazon.it/gp/help/customer/display.html?nodeId=G2B9L3YR7LR8J4XP"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
+    "data_verifica": "2026-11-15"
   }
 ]

@@ -98,15 +98,15 @@
       "PEC con modulo dedicato",
       "posta ordinaria o raccomandata"
     ],
-    "preavviso": "Nessun preavviso per il cliente: il recesso ha effetto dal momento in cui CheBanca! riceve la comunicazione. I tempi massimi di chiusura sono indicati nelle condizioni generali di contratto.",
-    "costi": "La chiusura del conto è completamente gratuita. Eventuali canoni mensili non sono più dovuti dal mese successivo. In caso di fido, vanno saldati capitale, interessi, spese e commissioni.",
+    "preavviso": "Nessun preavviso per il cliente: il recesso ha effetto dal momento in cui la banca riceve la comunicazione. Chiusura entro 60 giorni al massimo, 12 giorni lavorativi con la procedura di trasferimento dei servizi di pagamento verso un'altra banca (Foglio Informativo Conto Premier, 11/11/2026).",
+    "costi": "La chiusura del conto è gratuita. Il canone mensile non è più dovuto dal mese successivo al recesso e i canoni pagati in anticipo sono rimborsati pro quota. In caso di fido, vanno saldati capitale, interessi, spese e commissioni.",
     "modulo": "https://www.mediobancapremier.com/wcm/connect/public/ef7b7a10-7bbf-431d-9033-c88ab81471ec/Modulo_Estinzione.pdf?MOD=AJPERES",
-    "note": "La PEC va inviata da un recapito elettronico di uno degli intestatari censito nella sezione Contatti, con il modulo compilato e firmato (o tutte le informazioni richieste). Basta un solo intestatario per chiudere un conto cointestato. Chiudere il conto chiude anche i conti titoli collegati. Il sito è ora Mediobanca Premier: verificare che l'indirizzo non sia cambiato prima dell'invio.",
+    "note": "La banca si chiama ora Mediobanca Premier S.p.A. ed è nel Gruppo Bancario Monte dei Paschi di Siena. I moduli di estinzione pubblicati restano intestati a CheBanca! con Casella Postale 193 di Asti e PEC chebanca.pec@legalmail.it. La PEC va inviata da un recapito elettronico di uno degli intestatari censito nella sezione Contatti, con il modulo compilato e firmato. Basta un solo intestatario per chiudere un conto cointestato. Chiudere il conto chiude anche i conti titoli collegati.",
     "fonti": [
       "https://www.mediobancapremier.com/wcm/connect/public/ef7b7a10-7bbf-431d-9033-c88ab81471ec/Modulo_Estinzione.pdf?MOD=AJPERES"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "Findomestic",

@@ -56,16 +56,16 @@
       "assistenza clienti",
       "lettera"
     ],
-    "preavviso": "L'abbonamento si rinnova automaticamente. Per evitare l'addebito bisogna disattivare il rinnovo prima della data di fatturazione. L'abbonamento resta attivo fino alla fine del periodo già pagato.",
-    "costi": "Nessuna penale. Garanzia soddisfatti o rimborsati di 60 giorni per gli abbonamenti annuali (acquisto e ogni rinnovo annuale). Recesso legale di 14 giorni per i consumatori dalla e-mail di conferma d'ordine, con rimborso entro 14 giorni.",
+    "preavviso": "L'abbonamento si rinnova automaticamente e l'addebito del rinnovo può avvenire fino a 35 giorni prima della scadenza (Condizioni di vendita, art. 5.c): per evitarlo devi annullare al più tardi il giorno prima dell'addebito (art. 9.a). L'abbonamento resta attivo fino alla fine del periodo già pagato.",
+    "costi": "Nessuna penale. Garanzia soddisfatti o rimborsati di 60 giorni solo per gli abbonamenti annuali (acquisto e ogni rinnovo annuale). Per i mensili rimborso completo solo entro 14 giorni dal primo acquisto; i rinnovi mensili non sono rimborsabili.",
     "modulo": "",
-    "note": "Percorso: Il mio account, Abbonamenti, Annulla rinnovo (o Gestisci abbonamenti). Arriva una e-mail di conferma entro 24-48 ore: conservala. Se hai acquistato tramite un negozio di app, un operatore o un rivenditore, devi disdire presso di loro. Nessuna PEC: servizio estero.",
+    "note": "Percorso: Il mio account, Abbonamenti, poi il pulsante 'Cancel Renewal' (o 'Manage Subscriptions') nella pagina italiana. Arriva una e-mail di conferma entro 24-48 ore: conservala. Se hai acquistato tramite un negozio di app, un operatore o un rivenditore, devi disdire presso di loro. Nessuna PEC: servizio estero.",
     "fonti": [
       "https://support.norton.com/sp/it/it/home/current/solutions/kb20100113164023EN",
       "https://it.norton.com/terms-of-sale"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "McAfee",
@@ -78,15 +78,15 @@
       "assistenza clienti"
     ],
     "preavviso": "Il rinnovo automatico si disattiva dal proprio account (Il mio account, Account, Impostazioni rinnovo automatico) o contattando l'Assistenza clienti. McAfee invia un'e-mail di avviso prima del rinnovo e addebita fino a 30 giorni prima della scadenza: conviene disattivare il rinnovo prima di quel momento.",
-    "costi": "Nessuna penale. Rimborso richiedibile entro 30 giorni dall'acquisto iniziale o entro 60 giorni da un rinnovo automatico (abbonamenti di un anno o più).",
+    "costi": "Nessuna penale. Rimborso richiedibile entro 30 giorni dall'acquisto iniziale, per qualsiasi motivo, o entro 60 giorni da un rinnovo automatico (abbonamenti di un anno o più): se dimentichi di disattivare il rinnovo, nei 60 giorni dall'addebito puoi chiedere il rimborso e disdire (Contratto di licenza).",
     "modulo": "",
-    "note": "Disattivare il rinnovo non chiude subito l'abbonamento: resta attivo fino alla scadenza già pagata. Per il rimborso si usa «Richiedi un rimborso» nella pagina di assistenza. Nessuna PEC pubblicata. Le pagine ufficiali McAfee bloccano la lettura automatica, per questo la scheda è marcata parziale: controlla il testo aggiornato prima di agire.",
+    "note": "Disattivare il rinnovo non chiude subito l'abbonamento: resta attivo fino alla scadenza già pagata. Per il rimborso si usa 'Richiedi un rimborso' nella pagina di assistenza. Nessuna PEC pubblicata.",
     "fonti": [
       "https://www.mcafee.com/it-it/consumer-support/help/common-faq.html",
       "https://www.mcafee.com/it-it/consumer-support/policy/legal.html"
     ],
-    "affidabilita": "parziale",
-    "data_verifica": "2026-11-01"
+    "affidabilita": "ufficiale",
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "Kaspersky",
@@ -162,13 +162,15 @@
     "pec": "",
     "indirizzo_postale": "PE Digital GmbH, Servizio Assistenza Clienti Parship Italia, Speersort 10, 20095 Amburgo, Germania",
     "canali": [
-      "area personale",
+      "area personale (sezione Impostazioni del profilo)",
+      "modulo online parship.it/customerservice",
       "e-mail",
       "lettera",
+      "fax",
       "modulo online di recesso"
     ],
     "preavviso": "La disdetta dell'iscrizione Premium è possibile fino a 7 giorni prima della fine della durata scelta. In mancanza, il contratto si proroga automaticamente per la durata e al costo indicati nella conferma d'ordine. L'iscrizione di base gratuita si cancella in qualsiasi momento con effetto immediato.",
-    "costi": "Nessuna penale di disdetta, ma se si perde il termine di 7 giorni si paga il periodo di proroga. I beni virtuali non utilizzati non vengono rimborsati. Recesso legale entro 14 giorni dalla conclusione del contratto con rimborso entro 14 giorni.",
+    "costi": "Nessuna penale di disdetta, ma se si perde il termine di 7 giorni si paga il periodo di proroga. I beni virtuali non utilizzati non vengono rimborsati. Recesso legale entro 14 giorni dalla conclusione del contratto, con rimborso entro 14 giorni; se hai chiesto di iniziare il servizio durante il periodo di recesso paghi un importo proporzionale a quanto fornito (Condizioni Generali, punto 11.2).",
     "modulo": "https://www.parship.it/static_cms/parship/static/Downloads/Modulo-di-recesso-tipo-IT.pdf",
     "note": "Nella disdetta indica l'indirizzo e-mail o il codice utente e la password di servizio. Canale e-mail: assistenza@parship.it, tel. +49 30 48625532. Il recesso si può esercitare anche online dal link «Recesso dai contratti» nel footer o nell'app (Il mio profilo, Impostazioni, Il mio abbonamento). Se hai pagato tramite App Store o Google Play devi disdire presso di loro. Nessuna PEC: società tedesca.",
     "fonti": [
@@ -176,7 +178,7 @@
       "https://www.parship.it/tour/servizi/contatti/"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-11-01"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "Italiaonline / PagineGialle (contratti pubblicitari)",

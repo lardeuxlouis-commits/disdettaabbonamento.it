@@ -390,22 +390,23 @@
     "pec": "",
     "indirizzo_postale": "",
     "canali": [
-      "account Amazon (Il tuo abbonamento Prime > Gestisci > Termina iscrizione)",
-      "Prime Video: Account e impostazioni > Il mio account > Termina iscrizione",
+      "account Amazon: La tua iscrizione ad Amazon Prime > Gestisci > Aggiorna, Annulla e altro > Termina l'iscrizione",
+      "Prime Video incluso in Prime: Iscrizione Prime > Modifica su Amazon",
+      "iscrizione solo Prime Video: Termina iscrizione, senza disdire Prime",
       "Servizio Clienti Amazon",
       "se attivato tramite terzi (es. operatore mobile): rivolgersi al terzo",
       "pulsante di disdetta online: sì"
     ],
     "preavviso": "nessuno",
-    "costi": "Nessun costo; rimborso se non sono stati usati vantaggi Prime; entro 14 giorni diritto di recesso con rimborso ridotto in proporzione all'uso",
+    "costi": "Nessun costo. Con Prime Video incluso in Amazon Prime: rimborso se non sono stati usati vantaggi Prime. Con l'iscrizione solo Prime Video (Termini Prime Video, sezione 4d): rimborso entro 14 giorni al netto dell'uso, poi solo se non hai guardato contenuti dall'ultimo addebito.",
     "modulo": "",
-    "note": "Streaming: si disdice solo dall'account, nessuna lettera necessaria. Prime Video è incluso in Amazon Prime: disdire Prime per chiuderlo.",
+    "note": "Streaming: si disdice solo dall'account, nessuna lettera necessaria. Prime Video può essere incluso in Amazon Prime (si chiude disdicendo Prime) oppure essere un'iscrizione solo Prime Video, che si chiude a parte.",
     "fonti": [
       "https://www.amazon.it/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y",
       "https://www.primevideo.com/-/it/help?nodeId=GWGDSNXVPJ93UW5V"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
+    "data_verifica": "2026-11-15"
   },
   {
     "nome": "Disney+",
@@ -487,17 +488,19 @@
       "negozio TIM",
       "PEC",
       "lettera alla casella postale",
+      "e-mail documenti187@telecomitalia.it (linea fissa e clienti di altri operatori) o documenti119@telecomitalia.it (linea mobile)",
+      "modulo online tim.it/modulo-recesso-timvision (clienti di altri operatori o ex clienti)",
       "pulsante di disdetta online: sì, da MyTIM"
     ],
     "preavviso": "recesso in qualsiasi momento; disdetta delle offerte annuali con almeno 15 giorni prima della scadenza (offerte per clienti di altri operatori: 30 giorni)",
-    "costi": "Nessuna penale né costo di disattivazione; eventuale decoder in noleggio/comodato da restituire",
-    "modulo": "",
-    "note": "Allegare fotocopia del documento d'identità. Le condizioni per clienti non TIM (offerta OLO) indicano solo casella postale, 187 e negozio.",
+    "costi": "Nessuna penale né costo di disattivazione. Nelle offerte annuali come TIMVISION L il recesso ha effetto alla scadenza annuale e le rate restano dovute fino ad allora; sulla linea fissa restano dovute le rate del contributo di attivazione (1 euro per 24 mesi). Il decoder non restituito entro 30 giorni è fatturato: Box 69, 39, 19 o 10 euro, Box Atmosphere 129, 89, 49 o 19 euro secondo l'anno.",
+    "modulo": "https://www.tim.it/modulo-recesso-timvision",
+    "note": "Allegare fotocopia del documento d'identità. Per i clienti di altri operatori la pagina di assistenza TIM aggiunge l'e-mail documenti187@telecomitalia.it e il modulo online ai canali delle condizioni (casella postale, 187, negozio).",
     "fonti": [
       "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/pdf/offerte-tv/condizioni-contrattuali/timvision-l-anno-20260113.pdf",
       "https://risorsec.tim.it/content/dam/flytoco-areapubblica-aemfe/tim_it/pdf/offerte-tv/condizioni-contrattuali/timvision-mese-olo-20250911.pdf"
     ],
     "affidabilita": "ufficiale",
-    "data_verifica": "2026-10-26"
+    "data_verifica": "2026-11-15"
   }
 ]

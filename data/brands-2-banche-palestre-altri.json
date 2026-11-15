@@ -206,15 +206,15 @@
    "raccomandata A/R a Via Dante 7, Milano (solo conto italiano)"
   ],
   "preavviso": "Nessun preavviso: recesso in qualsiasi momento. Prima della chiusura i saldi devono essere a zero, il piano riportato a Standard e chiusi investimenti, abbonamenti e crediti attivi.",
-  "costi": "Nessuna penale per il recesso. Dopo la chiusura, l'eventuale invio del saldo residuo può comportare commissioni (minimo 2 €) secondo i Termini personali.",
+  "costi": "Nessuna penale per il recesso. Nei primi 60 giorni dalla chiusura l'invio del saldo residuo segue le commissioni ordinarie del piano; per i bonifici chiesti dopo 60 giorni la commissione minima è di 2 euro, e un saldo di 2 euro o meno viene trattenuto (Termini personali in vigore dal 9 giugno 2026, art. 6)",
   "modulo": "",
-  "note": "La PEC della succursale italiana revolut.italy.pec@legalmail.it compare nei Termini personali come recapito societario, ma non è indicata tra i canali di recesso. Se il conto è temporaneamente limitato, la chiusura può slittare fino alla fine delle verifiche.",
+  "note": "La PEC della succursale italiana revolut.italy.pec@legalmail.it compare nei Termini personali come recapito societario, ma non è indicata tra i canali di recesso. Per i reclami i Termini (art. 30) indicano una PEC dedicata, revolut.italy.pec.complaints@legalmail.it. Se il conto è temporaneamente limitato, la chiusura può slittare fino alla fine delle verifiche.",
   "fonti": [
    "https://cdn.revolut.com/terms_and_conditions/pdf/termini_personali_d035c1ce_2.10.0_1781024577_it.pdf",
    "https://help.revolut.com/en-IT/help/profile-and-plan/closing-account/"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Hype",
@@ -400,38 +400,39 @@
   "indirizzo_postale": "Alla società che gestisce il centro Fit and Go di iscrizione (indicata nel contratto). Casa madre: FIT&GO S.r.l., Via Salento 63, 00162 Roma.",
   "canali": [
    "raccomandata A/R o PEC alla società titolare del centro",
-   "e-mail helpdesk@fitandgo.it solo per gli acquisti online (gift card e prodotti)"
+   "e-mail del singolo centro (indicata nella sua scheda sul sito)",
+   "e-mail helpdesk@fitandgo.it solo per gli acquisti online (gift card e prodotti); reclami sugli acquisti online a comunicazioni@fitandgo.it"
   ],
   "preavviso": "Non pubblicato: dipende dal contratto del singolo centro. Per gli acquisti online sul sito vale il recesso di 14 giorni.",
-  "costi": "Non pubblicati online.",
+  "costi": "I prezzi sono pubblicati nella pagina Abbonamenti del sito (iscrizione da 60 euro, abbonamenti Open da 249 a 2.999 euro); penali e costi di uscita dipendono dal contratto firmato nel centro, che non è pubblicato online.",
   "modulo": "",
-  "note": "Fit and Go è una rete in franchising di centri EMS (circa 95 sedi): l'abbonamento si stipula con il singolo centro. La PEC fitego@legalmail.it è quella societaria della casa madre, non un canale dichiarato per le disdette.",
+  "note": "Fit and Go è una rete in franchising di centri EMS (130 centri secondo la pagina ufficiale Franchising): l'abbonamento si stipula con il singolo centro. La PEC fitego@legalmail.it è quella societaria della casa madre, non un canale dichiarato per le disdette.",
   "fonti": [
    "https://fitandgo.it/termini-e-condizioni/"
   ],
   "affidabilita": "incerta",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Technogym (abbonamento app e contenuti)",
   "slug": "technogym-abbonamento",
   "categoria": "palestre",
   "pec": "",
-  "indirizzo_postale": "Technogym S.p.A., Via Calcinaro 2861, 47521 Cesena (FC)",
+  "indirizzo_postale": "Technogym S.p.A., Home Shop, Via Calcinaro 2861, 47522 Cesena (FC) (recapito per le comunicazioni dei clienti; la sede legale è a 47521 Cesena)",
   "canali": [
    "area personale dell'account Technogym > \"My subscriptions\"",
    "se pagato con finanziamento di terzi: contattare la finanziaria o scrivere a customerservice@technogym.com",
    "se acquistato in app: impostazioni abbonamenti di App Store o Google Play"
   ],
-  "preavviso": "Disdetta in qualsiasi momento prima del rinnovo: l'abbonamento ai Contenuti è mensile e si rinnova di mese in mese. Recesso di 14 giorni dalla conclusione del contratto per i servizi.",
+  "preavviso": "Disdetta in qualsiasi momento prima del rinnovo: l'abbonamento ai Contenuti è mensile e si rinnova di mese in mese. Recesso di 14 giorni dalla conclusione del contratto per i servizi, ma non per i contenuti digitali attivati su tua richiesta entro i 14 giorni (pagina 'La nostra politica di reso').",
   "costi": "Nessuna penale; i pagamenti già fatti non sono rimborsabili e non ci sono rimborsi per periodi parziali.",
   "modulo": "Modulo tipo di recesso sulla pagina \"Diritto di recesso\" del sito Technogym (facoltativo).",
-  "note": "La PEC technogym.amministrazione@legalmail.it è amministrativa e non è indicata per le disdette. Per il recesso di 14 giorni le condizioni indicano posta, fax o e-mail a informazioni@technogym.com.",
+  "note": "La PEC technogym.amministrazione@legalmail.it è amministrativa e non è indicata per le disdette. Per il recesso di 14 giorni le condizioni indicano posta, fax o e-mail a informazioni@technogym.com; la pagina 'La nostra politica di reso' indica anche customerserviceitalia@technogym.com o una lettera a Technogym S.p.A., Attn. Customer Service Italia.",
   "fonti": [
    "https://www.technogym.com/it-IT/condizioni-vendita/"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Freeletics",

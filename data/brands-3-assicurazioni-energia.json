@@ -27,14 +27,15 @@
   "slug": "servizio-elettrico-nazionale",
   "categoria": "energia",
   "pec": "",
-  "indirizzo_postale": "Servizio Elettrico Nazionale S.p.A., Casella Postale 1100, 85100 Potenza (PZ)",
+  "indirizzo_postale": "Servizio Elettrico Nazionale S.p.A., Casella Postale 1100, 85100 Potenza (PZ) (recapito per ripensamento e reclami; sede legale Via Luigi Boccherini 15, 00198 Roma)",
   "canali": [
    "area clienti",
+   "richiesta scritta con il POD tramite caricamento del documento (pagina Cessazione)",
    "raccomandata A/R",
-   "numero verde 800 900 800"
+   "numero verde 800 900 800 (da cellulare o dall'estero +39 02 30172011, tutti i giorni dalle 7 alle 22)"
   ],
   "preavviso": "Contratto a tempo indeterminato: recesso in qualsiasi momento. Per cambiare fornitore basta firmare con il nuovo venditore, che invia il recesso (nessun preavviso per il cliente). Per cessare la fornitura il preavviso non può superare un mese (delibere ARERA). Ripensamento entro 14 giorni dalla conclusione del contratto.",
-  "costi": "Nessun onere per il cambio fornitore. In caso di disattivazione della fornitura (chiusura o rimozione del contatore) è dovuto il contributo in quota fissa previsto da ARERA e indicato in bolletta.",
+  "costi": "Nessun onere per il cambio fornitore. In caso di disattivazione della fornitura è dovuto il contributo in quota fissa ARERA, pari a 23 euro per i clienti in maggior tutela, indicato in bolletta.",
   "modulo": "",
   "note": "Dal 1 luglio 2024 il servizio di maggior tutela è rimasto solo per i clienti vulnerabili: gli altri sono passati al mercato libero o alle tutele graduali. Nessuna PEC indicata nelle condizioni di fornitura né nella pagina contatti: usare raccomandata A/R, area riservata o numero verde. Indicare codice POD, indirizzo di fornitura e indirizzo dove spedire la bolletta finale, e allegare copia del documento d'identità.",
   "fonti": [
@@ -42,7 +43,7 @@
    "https://www.servizioelettriconazionale.it/it-IT/contatti.html"
   ],
   "affidabilita": "parziale",
-  "data_verifica": "2026-11-01"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Bluenergy",
@@ -52,17 +53,18 @@
   "indirizzo_postale": "Bluenergy Group S.p.A., Viale Venezia 430, 33100 Udine (UD)",
   "canali": [
    "raccomandata A/R",
+   "PEC (ammessa dalle CGC13, art. 4.10; Bluenergy non pubblica una PEC dedicata alla disdetta)",
    "e-mail ripensamenti (solo ripensamento)",
    "fax 0432 632905 (solo ripensamento)"
   ],
   "preavviso": "Per cambiare fornitore: recesso inviato dal nuovo venditore entro il giorno 10 del mese precedente il cambio. Per cessare semplicemente la fornitura (disdetta/disattivazione): preavviso di 1 mese dalla ricezione della comunicazione da parte di Bluenergy, inviata dal cliente con raccomandata con ricevuta di ritorno. Ripensamento entro 14 giorni (30 giorni per contratti conclusi a domicilio).",
-  "costi": "Onere di recesso anticipato: nessuno, secondo la scheda sintetica dell'offerta. Per la disattivazione possono essere addebitati i costi del distributore.",
+  "costi": "Onere di recesso anticipato: nessuno secondo la scheda sintetica dell'offerta Su Misura; per le offerte luce a prezzo fisso a tempo determinato le CGC (art. 4.12) consentono un onere indicato nelle condizioni economiche. Per la disattivazione possono essere addebitati i costi del distributore.",
   "modulo": "",
-  "note": "Il PEC pubblicato nei documenti ufficiali (infoereclami.bluenergy@legalmail.it) è riservato a reclami e richieste di informazioni, non al recesso, quindi non è indicato come PEC di disdetta. Il ripensamento si invia a ripensamenti@bluenergygroup.it. Indicare codice POD (luce) o PDR (gas), indirizzo di fornitura, dati dell'intestatario e allegare copia del documento d'identità. Verificare le condizioni della propria offerta.",
+  "note": "Le Condizioni Generali CGC13 (dal 01/01/2025, art. 4.10) ammettono per il recesso raccomandata A/R e PEC. La PEC della sede legale è direzione.bluenergy@legalmail.it; infoereclami.bluenergy@legalmail.it è per reclami e informazioni (art. 16.6). Il ripensamento si invia a ripensamenti@bluenergygroup.it. Indicare codice POD (luce) o PDR (gas), indirizzo di fornitura, dati dell'intestatario e allegare copia del documento d'identità.",
   "fonti": [
    "https://www.bluenergygroup.it/wp-content/uploads/2025/10/ESUMO0526L.pdf"
   ],
   "affidabilita": "parziale",
-  "data_verifica": "2026-11-01"
+  "data_verifica": "2026-11-15"
  }
 ]

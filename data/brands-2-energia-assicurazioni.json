@@ -126,26 +126,30 @@
   "nome": "Illumia",
   "slug": "illumia",
   "categoria": "energia",
-  "pec": "",
+  "pec": "illumia@pec.illumia.it",
   "indirizzo_postale": "Illumia S.p.A., Via de' Carracci 69/2, 40129 Bologna (BO)",
   "canali": [
    "raccomandata A/R",
-   "e-mail servizioclienti@illumia.it",
+   "PEC illumia@pec.illumia.it",
+   "e-mail servizioclienti@illumia.it (anche per il modulo di cessazione)",
    "fax 051 04 04 055",
-   "numero verde 800 046 640 (da cellulare 051 600 8080)"
+   "numero verde 800 046 640 (da cellulare 051 600 8080)",
+   "clienti del Servizio a Tutele Graduali: tutelegraduali@illumia.it e 800 60 60 60"
   ],
   "preavviso": "1 mese dalla ricezione della comunicazione (condizioni generali, art. 8)",
-  "costi": "Nessun onere per le offerte a tempo indeterminato; per alcune offerte con servizio di manutenzione caldaia sono addebitate le rate residue del servizio (vedi condizioni economiche dell'offerta)",
+  "costi": "Per la cessazione della presa 23 euro più IVA di oneri di gestione, più i costi del distributore; per il gas 30 euro più IVA per contatori fino a G6 e 45 euro più IVA oltre (moduli 'Cessazione della presa'). Nessun onere di recesso per le offerte a tempo indeterminato; con il servizio Caldaia Serena restano dovute le rate residue.",
   "modulo": "",
-  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura; le condizioni generali prevedono raccomandata A/R o PEC, ma Illumia non pubblica una PEC per i clienti (grossista@pec.illumia.it è riservata a operatori e trasportatori; siti secondari citano illumia@pec.illumia.it o illumia@legalmail.it, non verificate). Condizioni generali lette nell'edizione 2022, quella in vigore citata è la Rev. 11112025.",
+  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura. Le Condizioni generali in vigore (Rev. 11.11.2025, art. 8) prevedono raccomandata A/R o PEC con preavviso di un mese; la PEC per i clienti illumia@pec.illumia.it è indicata nel Modulo Ripensamento 2026. grossista@pec.illumia.it è riservata a operatori e trasportatori. Dal 1° maggio 2026 Illumia gestisce anche le forniture dei clienti Wekiwi.",
   "fonti": [
-   "https://www.illumia.it/wp-content/uploads/2022/09/CONDIZIONI-GENERALI-DI-FORNITURA.pdf",
+   "https://www.illumia.it/wp-content/uploads/2026/06/Condizioni-generali-di-fornitura-CASA-2026_05_26.pdf",
    "https://www.illumia.it/wp-content/uploads/2026/06/Informazioni-precontrattuali-CASA-2026_05_26-1.pdf",
    "https://www.illumia.it/wp-content/uploads/2026/07/CE-ILLUMIA-ENERGIA-LUNGA-GAS.pdf",
-   "https://www.illumia.it/contatti/"
+   "https://www.illumia.it/contatti/",
+   "https://www.illumia.it/wp-content/uploads/2026/06/Modulo-Ripensamento-2026_05_26.pdf",
+   "https://www.illumia.it/wp-content/uploads/2024/02/Cessazione-Contatore-Energia.pdf"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "Optima Italia (energia)",
@@ -298,26 +302,25 @@
   "slug": "wekiwi",
   "categoria": "energia",
   "pec": "",
-  "indirizzo_postale": "Wekiwi S.r.l., Viale Andrea Doria 8, 20124 Milano (MI)",
+  "indirizzo_postale": "Illumia S.p.A., Via de' Carracci 69/2, 40129 Bologna (BO) (dal 1° maggio 2026 gestisce le forniture Wekiwi)",
   "canali": [
-   "e-mail clienti@wekiwi.it",
-   "raccomandata A/R",
-   "fax 02 91731993",
-   "assistenza clienti 02 82941162 / 800 178584",
-   "area personale wekiwi.it"
+   "e-mail servizioclienti@illumia.it",
+   "raccomandata A/R a Illumia S.p.A.",
+   "numero verde Illumia 800 046 640 (da cellulare 051 600 80 80)",
+   "fino al 30 aprile 2026: servizio clienti Wekiwi, oggi non più attivo"
   ],
   "preavviso": "Fino a 1 mese dalla ricezione della comunicazione (regola ARERA per il recesso per cessazione, delibera 783/2017)",
   "costi": "Nessuna penale per i clienti domestici; eventuali oneri del distributore per la disattivazione",
   "modulo": "",
-  "note": "Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura; i moduli ufficiali indicano come recapiti la sede operativa di Milano e l'e-mail clienti@wekiwi.it (la sede legale è in Via de' Carracci 69/2, Bologna). Nessuna PEC pubblicata per i clienti; alcuni siti citano un vecchio indirizzo in Corso Vercelli 11, Milano, da non usare.",
+  "note": "Dal 1° maggio 2026 le forniture luce e gas dei clienti Wekiwi sono gestite da Illumia S.p.A. (scissione di ramo d'azienda): condizioni contrattuali ed economiche restano invariate, e ogni cliente ha ricevuto un nuovo codice cliente Illumia nella lettera di benvenuto. Per cambiare fornitore non serve alcuna disdetta: la gestisce il nuovo fornitore (switching). La lettera serve solo per cessare la fornitura e va indirizzata a Illumia. I vecchi recapiti Wekiwi (Viale Andrea Doria 8, Milano, clienti@wekiwi.it) non vanno più usati.",
   "fonti": [
+   "https://www.wekiwi.it/wekiwi-e-illumia.html",
    "https://www.wekiwi.it/contatti.html",
-   "https://www.wekiwi.it/wp-content/uploads/2025/01/Ripensamento-wekiwi_Ed-01_2025.pdf",
-   "https://www.wekiwi.it/wp-content/uploads/2025/12/Modulo-solo-reclamo-Wekiwi-dicembre-25.pdf",
-   "https://tariffe.segugio.it/adsl-energia-gas/wekiwi/procedura-disdetta.aspx"
+   "https://www.illumia.it/assistenza-clienti/contatti-servizio-clienti/",
+   "https://www.illumia.it/moduli-utili/"
   ],
   "affidabilita": "ufficiale",
-  "data_verifica": "2026-10-26"
+  "data_verifica": "2026-11-15"
  },
  {
   "nome": "NeN (A2A)",
